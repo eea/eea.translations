@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="eea.translations">
+
+    <!-- Resource directory for stylesheets -->
+    <browser:resourceDirectory
+        name="eea.translations.stylesheets"
+        directory="stylesheets"
+        />
+
+    <browser:resource
+        name="eea.translation-logo.css"
+        file="./stylesheets/logo.css" 
+     />
+    <!-- Resource directory for images -->
+    <browser:resourceDirectory
+        name="eea.translations.images"
+        directory="images"
+        />
+
+</configure>
