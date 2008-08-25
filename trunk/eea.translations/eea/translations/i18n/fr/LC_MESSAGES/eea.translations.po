@@ -1,5 +1,6 @@
 msgid ""
-msgstr "Project-Id-Version: \n"
+msgstr ""
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2008-03-13 11:03+CET\n"
 "PO-Revision-Date: 2008-03-13 11:03+CET\n"
 "Last-Translator:  <>\n"
@@ -8,15 +9,26 @@ msgstr "Project-Id-Version: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-
 msgid "<div class=\"webmaster\" align=\"right\">Comments to Webmaster:&#160;<a href=\"mailto:webmaster@eea.eu.int?subject=\">webmaster@eea.eu.int</a>&#160;<A href=\"#Top\"><img src=\"http://template.eea.eu.int/images/topLocal\" alt=\"Go to top page\" border=\"0\" /></A></div>"
 msgstr "<div class=\"administrateur du site\" align=\"right\">Observations à l'administrateur du site:&#160;<a href=\"mailto:webmaster@eea.eu.int?subject=\">webmaster@eea.eu.int</a>&#160;<A href=\"#Top\"><img src=\"http://template.eea.eu.int/images/topLocal\" alt=\"Retour en haut de page\" border=\"0\" /></A></div>"
 
 msgid "<div class=\"webmaster\" align=\"right\">Comments to Webmaster:&#160;<a href=\"mailto:webmaster@eionet.europa.eu?subject=\">webmaster@eea.europa.eu</a>&#160;<A href=\"#Top\"><img src=\"http://template.eea.europa.eu/images/topLocal\" alt=\"Go to top page\" border=\"0\" /></A></div>"
 msgstr "<div class=\"administrateur du site\" align=\"right\">Observations à l'administrateur du site:&#160;<a href=\"mailto:webmaster@eea.europa.eu?subject=\">webmaster@eea.europa.eu</a>&#160;<A href=\"#Top\"><img src=\"http://template.eea.europa.eu/images/topLocal\" alt=\"Retour en haut de page\" border=\"0\" /></A></div>"
 
-msgid "<p>Any personal data provided by the User shall be processed pursuant to European Regulation related to personal data protection, in particular Regulation (EC) No 45/2001 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movements of such data. It shall be processed solely for the purposes of the performance, management and follow‑up of information requested by the User. The User shall have the right of access to his personal data and the right to rectify any such data that is inaccurate or incomplete. Should the User have any queries concerning the processing of his personal data, he shall address them to European Environment Agency.</p>\n\n<p>If you have any questions regarding the collection of personal data, please contact the <script type=\"text/javascript\">\ndocument.write(create_contact_info_local('dataprotectionofficer','eea.eu.int','EEA Data Protection Officer'));\n</script>. \n<noscript><em>Email Protected.<br>Please enable JavaScript</em></noscript>"
-msgstr "<p>Toutes données à caractère personnel fournies par l'Utilisateur seront traitées conformément au règlement (CE) n° 45/2001 du 18 décembre 2000 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel par les institutions et organes communautaires et à la libre circulation de ces données. Ces données seront exclusivement traitées aux fins de la mise à disposition, de la gestion et du suivi des informations demandées par l'Utilisateur.  L'utilisateur aura le droit d'accéder à ses données personnelles et celui de corriger ces données si elles s'avèrent inexactes ou incomplètes. Pour toute demande d'information concernant le traitement de ses données personnelles, l'Utilisateur s'adressera à l'Agence européenne pour l'environnement.</p>\n\n<p>Pour toute question éventuelle concernant la collecte de données personnelles, veuillez entrer en contact avec <script type=\"text/javascript\">\ndocument.write(create_contact_info_local('dataprotectionofficer','eea.eu.int','EEA Data Protection Officer'));\n</script>. \n<noscript><em>Email Protected.<br>Please enable JavaScript</em></noscript>"
+msgid ""
+"<p>Any personal data provided by the User shall be processed pursuant to European Regulation related to personal data protection, in particular Regulation (EC) No 45/2001 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movements of such data. It shall be processed solely for the purposes of the performance, management and follow‑up of information requested by the User. The User shall have the right of access to his personal data and the right to rectify any such data that is inaccurate or incomplete. Should the User have any queries concerning the processing of his personal data, he shall address them to European Environment Agency.</p>\n"
+"\n"
+"<p>If you have any questions regarding the collection of personal data, please contact the <script type=\"text/javascript\">\n"
+"document.write(create_contact_info_local('dataprotectionofficer','eea.eu.int','EEA Data Protection Officer'));\n"
+"</script>. \n"
+"<noscript><em>Email Protected.<br>Please enable JavaScript</em></noscript>"
+msgstr ""
+"<p>Toutes données à caractère personnel fournies par l'Utilisateur seront traitées conformément au règlement (CE) n° 45/2001 du 18 décembre 2000 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel par les institutions et organes communautaires et à la libre circulation de ces données. Ces données seront exclusivement traitées aux fins de la mise à disposition, de la gestion et du suivi des informations demandées par l'Utilisateur.  L'utilisateur aura le droit d'accéder à ses données personnelles et celui de corriger ces données si elles s'avèrent inexactes ou incomplètes. Pour toute demande d'information concernant le traitement de ses données personnelles, l'Utilisateur s'adressera à l'Agence européenne pour l'environnement.</p>\n"
+"\n"
+"<p>Pour toute question éventuelle concernant la collecte de données personnelles, veuillez entrer en contact avec <script type=\"text/javascript\">\n"
+"document.write(create_contact_info_local('dataprotectionofficer','eea.eu.int','EEA Data Protection Officer'));\n"
+"</script>. \n"
+"<noscript><em>Email Protected.<br>Please enable JavaScript</em></noscript>"
 
 msgid "A little useful"
 msgstr "Un petit peu utile"
@@ -602,3 +614,26 @@ msgstr "site web principal"
 
 msgid "vacancies"
 msgstr "postes vacants"
+
+#: ../eea-buildout-clean/products/EEADesign2006/skins/eeadesign2006_public/send_feedback_site.cpy:70
+msgid "Mail sent."
+msgstr "‎Courrier envoyé."
+
+#: ../eea-buildout-clean/products/EEADesign2006/skins/eeadesign2006_public/send_feedback_site.cpy:58
+msgid "Unable to send mail: ${exception}"
+msgstr "Impossible d'envoyer le courrier: ${exception}"
+
+#. Default: "Comments to"
+#: ../eea-buildout-clean/products/EEADesign2006/skins/eeadesign2006_public/footer.pt:14
+msgid "comments_to"
+msgstr "Adressez vos commentaires à"
+
+#. Default: "EEA Web Team"
+#: ../eea-buildout-clean/products/EEADesign2006/skins/eeadesign2006_public/footer.pt:14
+msgid "eea_web_team"
+msgstr "l'équipe web de l'EEA"
+
+#. Default: "EMAS registered environmental management at EEA"
+#: ../eea-buildout-clean/products/EEADesign2006/skins/eeadesign2006_public/footer.pt:16
+msgid "emas_link_text"
+msgstr "EMAS gestion agréée de l'environnement auprès de l'EEA"

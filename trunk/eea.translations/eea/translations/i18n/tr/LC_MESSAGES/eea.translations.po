@@ -1,5 +1,6 @@
 msgid ""
-msgstr "Project-Id-Version: \n"
+msgstr ""
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2008-03-05 14:03+CET\n"
 "PO-Revision-Date: 2008-03-05 14:03+CET\n"
 "Last-Translator:  <>\n"
@@ -7,7 +8,6 @@ msgstr "Project-Id-Version: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
 
 msgid "<div class=\"webmaster\" align=\"right\">Comments to Webmaster:&#160;<a href=\"mailto:webmaster@eea.eu.int?subject=\">webmaster@eea.eu.int</a>&#160;<A href=\"#Top\"><img src=\"http://template.eea.eu.int/images/topLocal\" alt=\"Go to top page\" border=\"0\" /></A></div>"
 msgstr "<div class=\"webmaster\" align=\"right\">Webmaster'e yorumlarınız:&#160;<a href=\"mailto:webmaster@eea.eu.int?subject=\">webmaster@eea.eu.int</a>&#160;<A href=\"#Top\"><img src=\"http://template.eea.eu.int/images/topLocal\" alt=\"En üst sayfaya git\" border=\"0\" /></A></div>"
@@ -599,3 +599,26 @@ msgstr "ana web sitesi"
 
 msgid "vacancies"
 msgstr "düzenlemektedir"
+
+#: ../eea-buildout-clean/products/EEADesign2006/skins/eeadesign2006_public/send_feedback_site.cpy:70
+msgid "Mail sent."
+msgstr "E-posta gönderildi."
+
+#: ../eea-buildout-clean/products/EEADesign2006/skins/eeadesign2006_public/send_feedback_site.cpy:58
+msgid "Unable to send mail: ${exception}"
+msgstr "E-posta gönderilemedi: ${exception}"
+
+#. Default: "Comments to"
+#: ../eea-buildout-clean/products/EEADesign2006/skins/eeadesign2006_public/footer.pt:14
+msgid "comments_to"
+msgstr "Yorumlarınız için"
+
+#. Default: "EEA Web Team"
+#: ../eea-buildout-clean/products/EEADesign2006/skins/eeadesign2006_public/footer.pt:14
+msgid "eea_web_team"
+msgstr "AÇA Web Ekibi"
+
+#. Default: "EMAS registered environmental management at EEA"
+#: ../eea-buildout-clean/products/EEADesign2006/skins/eeadesign2006_public/footer.pt:16
+msgid "emas_link_text"
+msgstr "AÇA'da EMAS tescilli çevre yönetimi"
