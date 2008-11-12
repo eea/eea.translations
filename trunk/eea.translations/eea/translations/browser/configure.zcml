@@ -9,10 +9,13 @@
         directory="stylesheets"
         />
 
-    <browser:resource
-        name="eea.translations-logo.css"
-        file="./stylesheets/logo.css" 
-     />
+    <browser:page
+	name="eea.translations-logo.css"
+	for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+	class=".stylesheet.EEALogos"
+        permission="zope2.Public"
+        />
+     
     <!-- Resource directory for images -->
     <browser:resourceDirectory
         name="eea.translations.images"
