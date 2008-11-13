@@ -11,7 +11,7 @@
 
     <browser:page
 	name="eea.translations-logo.css"
-	for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+	for="*"
 	class=".stylesheet.EEALogos"
         permission="zope2.Public"
         />
