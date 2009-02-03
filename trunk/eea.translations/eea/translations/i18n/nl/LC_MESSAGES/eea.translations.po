@@ -20,13 +20,7 @@ msgstr "<div class=\"webmaster\" align=\"right\">Opmerkingen voor de webmaster:&
 msgid "<div class=\"webmaster\" align=\"right\">Comments to Webmaster:&#160;<a href=\"mailto:webmaster@eionet.europa.eu?subject=\">webmaster@eea.europa.eu</a>&#160;<A href=\"#Top\"><img src=\"http://template.eea.europa.eu/images/topLocal\" alt=\"Go to top page\" border=\"0\" /></A></div>"
 msgstr "<div class=\"webmaster\" align=\"right\">Opmerkingen voor de webmaster:&#160;<a href=\"mailto:webmaster@eea.europa.eu?subject=\">webmaster@eea.europa.eu</a>&#160;<A href=\"#Bovenaan\"><img src=\"http://template.eea.europa.eu/images/topLocal\" alt=\"Naar boven\" border=\"0\" /></A></div>"
 
-msgid ""
-"<p>Any personal data provided by the User shall be processed pursuant to European Regulation related to personal data protection, in particular Regulation (EC) No 45/2001 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movements of such data. It shall be processed solely for the purposes of the performance, management and follow‑up of information requested by the User. The User shall have the right of access to his personal data and the right to rectify any such data that is inaccurate or incomplete. Should the User have any queries concerning the processing of his personal data, he shall address them to European Environment Agency.</p>\n"
-"\n"
-"<p>If you have any questions regarding the collection of personal data, please contact the <script type=\"text/javascript\">\n"
-"document.write(create_contact_info_local('dataprotectionofficer','eea.eu.int','EEA Data Protection Officer'));\n"
-"</script>. \n"
-"<noscript><em>Email Protected.<br>Please enable JavaScript</em></noscript>"
+msgid "<p>Any personal data provided by the User shall be processed pursuant to European Regulation related to personal data protection, in particular Regulation (EC) No 45/2001 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movements of such data. It shall be processed solely for the purposes of the performance, management and follow‑up of information requested by the User. The User shall have the right of access to his personal data and the right to rectify any such data that is inaccurate or incomplete. Should the User have any queries concerning the processing of his personal data, he shall address them to European Environment Agency.</p>\n\n<p>If you have any questions regarding the collection of personal data, please contact the <script type=\"text/javascript\">\ndocument.write(create_contact_info_local('dataprotectionofficer','eea.eu.int','EEA Data Protection Officer'));\n</script>. \n<noscript><em>Email Protected.<br>Please enable JavaScript</em></noscript>"
 msgstr ""
 "<p>Door de gebruiker verstrekte persoonsgegevens worden verwerkt in overeenstemming met Verordening (EG) nr. 45/2001 betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens door de communautaire instellingen en organen en betreffende het vrije verkeer van die gegevens. Eventuele verwerking van gegevens gebeurt uitsluitend om aan het informatieverzoek van de gebruiker gevolg te kunnen geven en voor het beheren van de gevraagde informatie. De gebruiker heeft recht op inzage in zijn of haar persoonsgegevens om de juistheid ervan te controleren en eventueel te corrigeren. De gebruiker kan zich wenden tot het Europees Milieuagentschap met vragen over de verwerking van zijn of haar persoonsgegevens.</p>\n"
 "\n"
@@ -322,6 +316,11 @@ msgstr "Partners van de Europese Unie"
 
 msgid "External links"
 msgstr "Externe links"
+
+#. Default: ""
+#: /browser/report.pt:290
+msgid "FREE"
+msgstr ""
 
 msgid "February"
 msgstr "februari"
@@ -908,8 +907,38 @@ msgstr "EMA startpagina in uw taal"
 msgid "main website"
 msgstr "hoofdwebsite"
 
+#. Default: "You can also obtain a copy from"
+#: /browser/report.pt:311
+msgid "nearst_locations_label"
+msgstr ""
+
+#. Default: "your nearest sales agent"
+#: /browser/report.pt:312
+msgid "nearst_locations_link"
+msgstr ""
+
+#. Default: "Note: new versions are available!"
+#: /browser/report.pt:43
+msgid "new_version_available"
+msgstr ""
+
 msgid "page_translated_by"
 msgstr "Deze pagina is vertaald door het vertaalbureau voor de organen van de Europese Unie (CdT)"
+
+#. Default: "Links"
+#: /browser/report.pt:222
+msgid "publication_links"
+msgstr ""
+
+#. Default: "Older versions"
+#: /browser/report.pt:103
+msgid "report_older_versions"
+msgstr ""
+
+#. Default: "Order information"
+#: /browser/report.pt:261
+msgid "title_order_info"
+msgstr ""
 
 msgid "translation_centre_cdt"
 msgstr "Translation Centre for the Bodies of the European Union (CdT)"
