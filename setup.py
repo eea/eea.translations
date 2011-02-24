@@ -1,12 +1,16 @@
 from setuptools import setup, find_packages
+import os
+from os.path import join
 
-version = '0.1'
+name = 'eea.translations'
+path = name.split('.') + ['version.txt']
+version = open(join(*path)).read().strip()
 
 setup(name='eea.translations',
       version=version,
       description="Translations for EEA website. Most translations come from old local.eea.europa.eu website. We also have translated logos here.",
-      long_description="""\
-""",
+      long_description=open("README.txt").read() + "\n" +
+                       open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Framework :: Plone",
