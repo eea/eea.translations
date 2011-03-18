@@ -12,6 +12,6 @@ logo_dtml = DTMLFile('logo.css', templates_dir)
 class EEALogos(BrowserView):
 
     def __call__(self, *args, **kw):
-	"""This view is published"""
-	template = logo_dtml.__of__(self.context)
-	return template(context=self.context)
+        """This view is published"""
+        template = logo_dtml.__of__(self.context)
+        return template(context=self.context)
