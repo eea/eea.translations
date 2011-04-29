@@ -1,8 +1,6 @@
-import os
-from Globals import DTMLFile
-
+from App.special_dtml import DTMLFile
 from Products.Five.browser import BrowserView
-
+import os
 
 this_dir = os.path.dirname(os.path.abspath(__file__))
 templates_dir = os.path.join(this_dir, 'stylesheets')
