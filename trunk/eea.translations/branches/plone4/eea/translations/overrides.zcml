@@ -1,7 +1,6 @@
-<configure
-    xmlns="http://namespaces.zope.org/zope">
+<configure xmlns="http://namespaces.zope.org/zope">
 
-    plone4: is this still needed?
+    <!-- #TODO: plone4: is this still needed? -->
    <!--<adapter    -->
     <!--for="zope.publisher.interfaces.http.IHTTPRequest"-->
     <!--provides="zope.i18n.interfaces.IUserPreferredLanguages"-->

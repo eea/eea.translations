@@ -1,25 +1,16 @@
-<configure
-    xmlns="http://namespaces.zope.org/zope"
-    xmlns:browser="http://namespaces.zope.org/browser"
-    i18n_domain="eea.translations">
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:browser="http://namespaces.zope.org/browser"
+           i18n_domain="eea">
 
-    <!-- Resource directory for stylesheets -->
-    <browser:resourceDirectory
-        name="eea.translations.stylesheets"
-        directory="stylesheets"
-        />
+    <browser:resourceDirectory name="eea.translations.stylesheets"
+                               directory="stylesheets" />
 
-    <browser:page
-	name="eea.translations-logo.css"
-	for="*"
-	class=".stylesheet.EEALogos"
-        permission="zope2.Public"
-        />
-     
-    <!-- Resource directory for images -->
-    <browser:resourceDirectory
-        name="eea.translations.images"
-        directory="images"
-        />
+    <browser:resourceDirectory name="eea.translations.images"
+                               directory="images" />
+
+    <browser:page name="eea.translations-logo.css"
+                  for="*"
+                  class=".stylesheet.EEALogos"
+                  permission="zope2.Public" />
 
 </configure>

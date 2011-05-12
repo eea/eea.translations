@@ -9,9 +9,7 @@ from Testing import ZopeTestCase as ztc
 import eea.translations
 import unittest
 
-
 ptc.setupPloneSite()
-
 
 class TestCase(ptc.PloneTestCase):
     """ Test case
@@ -34,32 +32,21 @@ class TestCase(ptc.PloneTestCase):
             """
             pass
 
-
 def test_suite():
     """ Suite
     """
     return unittest.TestSuite([
-
-        # Unit tests
-        #doctestunit.DocFileSuite(
-            #'README.txt', package='eea.translations',
-            #setUp=testing.setUp, tearDown=testing.tearDown),
-
-        #doctestunit.DocTestSuite(
-            #module='eea.translations.mymodule',
-            #setUp=testing.setUp, tearDown=testing.tearDown),
-
-        # Integration tests that use PloneTestCase
-        ztc.ZopeDocFileSuite(
-            'README.txt', package='eea.translations',
-            test_class=TestCase),
-
-        #ztc.FunctionalDocFileSuite(
-            #'browser.txt', package='eea.translations',
-            #test_class=TestCase),
-
+        #doctestunit.DocFileSuite('README.txt',
+                                 #package='eea.translations',
+                                 #setUp=testing.setUp,
+                                 #tearDown=testing.tearDown),
+        #doctestunit.DocTestSuite(module='eea.translations.mymodule',
+                                 #setUp=testing.setUp,
+                                 #tearDown=testing.tearDown),
+        ztc.ZopeDocFileSuite('README.txt',
+                             package='eea.translations',
+                             test_class=TestCase),
+        #ztc.FunctionalDocFileSuite('browser.txt',
+                                   #package='eea.translations',
+                                   #test_class=TestCase),
         ])
-
-
-if __name__ == '__main__':
-    unittest.main(defaultTest='test_suite')
