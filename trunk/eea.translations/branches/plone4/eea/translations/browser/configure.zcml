@@ -8,9 +8,7 @@
     <browser:resourceDirectory name="eea.translations.images"
                                directory="images" />
 
-    <browser:page name="eea.translations-logo.css"
-                  for="*"
-                  class=".stylesheet.EEALogos"
-                  permission="zope2.Public" />
+    <browser:resource name="eea.translations-logo.css"
+                               file="stylesheets/logo.css" />
 
 </configure>
