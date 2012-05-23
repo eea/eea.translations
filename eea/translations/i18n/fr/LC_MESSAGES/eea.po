@@ -1,19 +1,16 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-05-22 16:02+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2012-05-23 13:05+0000\n"
+"PO-Revision-Date: 2012-04-27 14:43+0100\n"
+"Last-Translator: Prosperini Christian-Xavier  <Christian.Prosperini@eea.europa.eu>\n"
+"Language-Team: fr <>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: fr\n"
+"Language-Name: french\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: eea\n"
 
@@ -47,7 +44,7 @@ msgstr ""
 msgid "A report publication."
 msgstr ""
 
-#: eea.mediacentre/src/eea/mediacentre/Multimedia/multimedia.pt:92
+#: eea/mediacentre/Multimedia/multimedia.pt:92
 msgid "About this item"
 msgstr ""
 
@@ -220,7 +217,7 @@ msgstr ""
 #. Default: "Content"
 #: eea.reports/eea/reports/browser/report.pt:73
 msgid "Contents"
-msgstr ""
+msgstr "Table des matières"
 
 #: EEAPloneAdmin/profiles/optimize/actions.xml
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
@@ -322,7 +319,7 @@ msgid "Delete"
 msgstr ""
 
 #: EEAPloneAdmin/profiles/optimize/actions.xml
-#: eea.themecentre/src/eea/themecentre/profiles/default/actions.xml
+#: eea/themecentre/profiles/default/actions.xml
 msgid "Depromote a theme centre"
 msgstr ""
 
@@ -332,7 +329,7 @@ msgstr ""
 
 #: p4a.video/p4a/video/interfaces.py:30
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: EEAPloneAdmin/profiles/optimize/actions.xml
 #: eea.facetednavigation/eea/facetednavigation/profiles/default/actions.xml
@@ -382,7 +379,7 @@ msgid "Edit"
 msgstr ""
 
 #: EEAPloneAdmin/profiles/optimize/actions.xml
-#: eea.mediacentre/src/eea/mediacentre/profiles/default/actions.xml
+#: eea/mediacentre/profiles/default/actions.xml
 msgid "Edit video metadata"
 msgstr ""
 
@@ -434,12 +431,12 @@ msgstr ""
 
 #: EEAPloneAdmin/exportimport/localsite.py:406
 msgid "European Environment Agency"
-msgstr ""
+msgstr "Agence européenne pour l'environnement"
 
 #. Default: "<a href=\"${DYNAMIC_CONTENT}\"> European Environment Agency (EEA) </a> <br /> Kongens Nytorv 6, 1050, Copenhagen K, Denmark.<br> Phone: +45 3336 7100"
 #: eea.design/eea/design/browser/templates/colophon.pt:16
 msgid "European Environment Agency, Kongens Nytorv 6, DK - 1050 Copenhagen K, Denmark - Phone: +45 3336 7100"
-msgstr ""
+msgstr "Agence européenne pour l'environnement, Kongens Nytorv 6, DK - 1050 Copenhague K, Danemark - Téléphone: +45 3336 7100"
 
 #: eea.facetednavigation/eea/facetednavigation/browser/template/configure.pt:88
 msgid "Export"
@@ -508,8 +505,8 @@ msgstr ""
 msgid "Green"
 msgstr ""
 
-#: eea.mediacentre/src/eea/mediacentre/Multimedia/multimedia.pt:135
-#: eea.mediacentre/src/eea/mediacentre/Multimedia/multimedia2.pt:114
+#: eea/mediacentre/Multimedia/multimedia.pt:135
+#: eea/mediacentre/Multimedia/multimedia2.pt:114
 msgid "Green tips"
 msgstr ""
 
@@ -531,8 +528,8 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: eea.mediacentre/src/eea/mediacentre/Multimedia/multimedia.pt:138
-#: eea.mediacentre/src/eea/mediacentre/Multimedia/multimedia2.pt:117
+#: eea/mediacentre/Multimedia/multimedia.pt:138
+#: eea/mediacentre/Multimedia/multimedia2.pt:117
 msgid "Image galleries"
 msgstr ""
 
@@ -568,7 +565,7 @@ msgstr ""
 msgid "Last modified"
 msgstr ""
 
-#: eea.themecentre/src/eea/themecentre/browser/portlets/smartfolder.py:43
+#: eea/themecentre/browser/portlets/smartfolder.py:43
 msgid "Latest FAQ"
 msgstr ""
 
@@ -584,7 +581,7 @@ msgstr ""
 msgid "Legal notice"
 msgstr ""
 
-#: eea.themecentre/src/eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:37
+#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:37
 msgid "Links"
 msgstr ""
 
@@ -614,7 +611,7 @@ msgstr ""
 
 #: EEAPloneAdmin/profiles/optimize/skins/custom_admin/deleted/send_feedback_site.cpy:69
 msgid "Mail sent."
-msgstr ""
+msgstr "‎Courrier envoyé."
 
 #: eea.google/eea/google/analytics/analytics.pt:66
 #: eea.google/eea/google/tool/view.pt:29
@@ -626,7 +623,7 @@ msgid "Media Activated"
 msgstr ""
 
 #: EEAPloneAdmin/profiles/optimize/actions.xml
-#: eea.mediacentre/src/eea/mediacentre/profiles/default/actions.xml
+#: eea/mediacentre/profiles/default/actions.xml
 msgid "Media type"
 msgstr ""
 
@@ -651,7 +648,7 @@ msgstr ""
 msgid "More search options"
 msgstr ""
 
-#: eea.mediacentre/src/eea/mediacentre/Multimedia/multimedia2.pt:120
+#: eea/mediacentre/Multimedia/multimedia2.pt:120
 msgid "My playlist"
 msgstr ""
 
@@ -725,7 +722,7 @@ msgstr ""
 msgid "Order a printed copy at EU-Bookshop"
 msgstr ""
 
-#: eea.themecentre/src/eea/themecentre/browser/themecentre.py:67
+#: eea/themecentre/browser/themecentre.py:67
 msgid "Other"
 msgstr ""
 
@@ -749,7 +746,7 @@ msgstr ""
 msgid "Play WindowsMedia version"
 msgstr ""
 
-#: eea.mediacentre/src/eea/mediacentre/Multimedia/multimedia.pt:142
+#: eea/mediacentre/Multimedia/multimedia.pt:142
 msgid "Playlists"
 msgstr ""
 
@@ -762,7 +759,7 @@ msgstr ""
 msgid "Plone portlet"
 msgstr ""
 
-#: eea.themecentre/src/eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:25
+#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:25
 msgid "Policy"
 msgstr ""
 
@@ -798,7 +795,7 @@ msgstr ""
 msgid "Print"
 msgstr ""
 
-#: eea.themecentre/src/eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:33
+#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:33
 msgid "Projects"
 msgstr ""
 
@@ -808,7 +805,7 @@ msgid "Promote Translations"
 msgstr ""
 
 #: EEAPloneAdmin/profiles/optimize/actions.xml
-#: eea.themecentre/src/eea/themecentre/profiles/default/actions.xml
+#: eea/themecentre/profiles/default/actions.xml
 msgid "Promote to theme centre"
 msgstr ""
 
@@ -834,7 +831,7 @@ msgstr ""
 
 #: eea.reports/eea/reports/browser/report.pt:52
 msgid "Published by"
-msgstr ""
+msgstr "Publié par"
 
 #: eea.facetednavigation/eea/facetednavigation/widgets/interfaces.py:32
 msgid "Python name of a factory which can create the implementation object.  This must identify an object in a module using the full dotted name."
@@ -852,9 +849,9 @@ msgstr ""
 msgid "Register with Google"
 msgstr ""
 
-#: eea.themecentre/src/eea/themecentre/browser/portlets/related.py:19
+#: eea/themecentre/browser/portlets/related.py:19
 msgid "Related themes"
-msgstr ""
+msgstr "Thèmes connexes"
 
 #: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:383
 msgid "Relevance"
@@ -889,7 +886,7 @@ msgstr ""
 
 #: EEAPloneAdmin/exportimport/localsite.py:538
 msgid "Reports"
-msgstr ""
+msgstr "Rapports"
 
 #: EEAContentTypes/browser/cache.py:89
 msgid "Request for cache invalidation sent"
@@ -927,7 +924,7 @@ msgstr ""
 #: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:48
 #: eea.facetednavigation/eea/facetednavigation/widgets/text/widget.pt:21
 msgid "Search"
-msgstr ""
+msgstr "Rechercher"
 
 #: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:43
 msgid "Search this listing"
@@ -1050,11 +1047,11 @@ msgid "The number of results that is displayed on one page."
 msgstr ""
 
 #: EEAPloneAdmin/profiles/optimize/actions.xml
-#: eea.themecentre/src/eea/themecentre/profiles/default/actions.xml
+#: eea/themecentre/profiles/default/actions.xml
 msgid "Themes"
-msgstr ""
+msgstr "Thèmes"
 
-#: eea.themecentre/src/eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:29
+#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:29
 msgid "Themes and data"
 msgstr ""
 
@@ -1090,7 +1087,7 @@ msgstr ""
 #: eea.google/eea/google/analytics/analytics.pt:63
 #: p4a.video/p4a/video/interfaces.py:29
 msgid "Title"
-msgstr ""
+msgstr "Titre"
 
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:18
 msgid "To access your EEA notification service account please enter your email."
@@ -1110,9 +1107,9 @@ msgstr ""
 msgid "Topic in the spotlight"
 msgstr ""
 
-#: eea.themecentre/src/eea/themecentre/browser/portlets/themes.py:22
+#: eea/themecentre/browser/portlets/themes.py:22
 msgid "Topics"
-msgstr ""
+msgstr "Sujets"
 
 #: eea.facetednavigation/eea/facetednavigation/browser/template/configure.pt:32
 #: p4a.video/p4a/video/interfaces.py:43
@@ -1121,7 +1118,7 @@ msgstr ""
 
 #: EEAPloneAdmin/profiles/optimize/skins/custom_admin/deleted/send_feedback_site.cpy:58
 msgid "Unable to send mail: ${exception}"
-msgstr ""
+msgstr "Impossible d'envoyer le courrier: ${exception}"
 
 #: eea.sitestructurediff/eea/sitestructurediff/skins/eea_sitestructurediff/paste_translations.cpy:32
 msgid "Unauthorized to paste item(s)."
@@ -1135,9 +1132,9 @@ msgstr ""
 msgid "Unsupported video type"
 msgstr ""
 
-#: eea.themecentre/src/eea/themecentre/browser/portlets/smartfolder.py:41
+#: eea/themecentre/browser/portlets/smartfolder.py:41
 msgid "Upcoming events"
-msgstr ""
+msgstr "Prochains événements"
 
 #: eea.indicators/eea/indicators/browser/specification.py:257
 #: eea.versions/eea/versions/versions.py:481
@@ -1180,8 +1177,8 @@ msgstr ""
 msgid "Video-based media content"
 msgstr ""
 
-#: eea.mediacentre/src/eea/mediacentre/Multimedia/multimedia.pt:132
-#: eea.mediacentre/src/eea/mediacentre/Multimedia/multimedia2.pt:111
+#: eea/mediacentre/Multimedia/multimedia.pt:132
+#: eea/mediacentre/Multimedia/multimedia2.pt:111
 msgid "Videos"
 msgstr ""
 
@@ -1703,7 +1700,7 @@ msgstr ""
 #. Default: "EEA Web Team"
 #: eea.design/eea/design/browser/templates/colophon.pt:51
 msgid "eea_web_team"
-msgstr ""
+msgstr "l'équipe web de l'EEA"
 
 #. Default: "Cookies are not enabled. You must enable cookies before you can log in."
 #: EEAPloneAdmin/profiles/optimize/skins/custom/deleted/login_form.pt:30
@@ -1914,8 +1911,8 @@ msgstr ""
 
 #. Default: "Search"
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:24
-#: eea.mediacentre/src/eea/mediacentre/Multimedia/multimedia.pt:79
-#: eea.mediacentre/src/eea/mediacentre/Multimedia/multimedia2.pt:83
+#: eea/mediacentre/Multimedia/multimedia.pt:79
+#: eea/mediacentre/Multimedia/multimedia2.pt:83
 msgid "featured_global_search"
 msgstr ""
 
@@ -2885,7 +2882,7 @@ msgstr ""
 #. Default: "This page was translated by the Translation Centre for the Bodies of the European Union (CdT)"
 #: eea.design/eea/design/skins/eea_design/main_template.pt:225
 msgid "page_translated_by"
-msgstr ""
+msgstr "Cette page a été traduite par le Centre de traduction des organes de l’Union européenne (CdT)"
 
 #. Default: "Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!"
 #: eea.design/eea/design/skins/eea_design/main_template.pt:102
@@ -2980,7 +2977,7 @@ msgstr ""
 msgid "rss_feeds"
 msgstr ""
 
-#: eea.themecentre/src/eea/themecentre/browser/themecentre.py:65
+#: eea/themecentre/browser/themecentre.py:65
 msgid "s"
 msgstr ""
 
@@ -3125,7 +3122,7 @@ msgid "used_in_publications"
 msgstr ""
 
 #. Default: "Link"
-#: eea.mediacentre/src/eea/mediacentre/Multimedia/multimedia.pt:101
+#: eea/mediacentre/Multimedia/multimedia.pt:101
 msgid "video-bookmark-link"
 msgstr ""
 
@@ -3164,7 +3161,7 @@ msgstr ""
 #: EEAPloneAdmin/profiles/optimize/skins/custom/deleted/DEPRECATED_frontpage_view.pt:75
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:33
 msgid "whatnews_gallery_title"
-msgstr ""
+msgstr "Actualités"
 
 #. Default: "Work due ${due}"
 #: eea.indicators/eea/indicators/content/WorkItem.py:113
