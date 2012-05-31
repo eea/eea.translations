@@ -3,6 +3,8 @@ Changelog
 
 4.3-dev - (unreleased)
 ----------------------
+* Bug fix: fixed markup of HISTORY.txt file
+  [ciobabog refs #5231]
 * Change: remove previously added zh translations 
   since EEA site is not available in chinese (yet). 
   [demarant refs #5200]
@@ -10,14 +12,16 @@ Changelog
 4.2 - (2012-05-25)
 ------------------
 * Change: Change name of all .po and .mo to reflect the translation 
-  domain (eea) [prospchr refs #5180]
+  domain (eea)
+  [prospchr refs #5180]
 
 4.1 - (2011-11-18)
 ------------------
 * Rerelease broken egg  
 * Change: Create backup directory (i18n_backup) for old translations
   [prospchr refs #5180]
-* Fixes: Add chinese language, code zh [prospchr fixes #5200]
+* Fixes: Add chinese language, code zh
+  [prospchr fixes #5200]
 
 4.0 - (2011-11-18)
 ------------------
