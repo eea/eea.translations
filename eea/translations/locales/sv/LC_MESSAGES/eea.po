@@ -15,7 +15,7 @@ msgstr ""
 "Domain: DOMAIN\n"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:33
-msgid "${context_icon} Manage portlets for "${context_title}""
+msgid "${context_icon} Manage portlets for ${context_title}"
 msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:92
@@ -73,10 +73,6 @@ msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:82
 msgid "% tags currently selected."
-msgstr ""
-
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:175
-msgid "&mdash; ${location} <span class="location">${DYNAMIC_CONTENT}</span>,"
 msgstr ""
 
 #: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:65
@@ -140,10 +136,6 @@ msgstr ""
 msgid "<div> <span>x</span> <span>x</span> </div>"
 msgstr ""
 
-#: eea/themecentre/skins/themecentre_templates/dc_view.pt:69
-msgid "<span id="theme-datacentre"> ${DYNAMIC_CONTENT} x </span>"
-msgstr ""
-
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:38
 msgid "A letter of motivation"
 msgstr ""
@@ -195,10 +187,6 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:100
-msgid "Add Translation"
-msgstr ""
-
 #: eea.design/eea/design/browser/templates/comments.pt:168
 msgid "Add comment"
 msgstr ""
@@ -238,7 +226,6 @@ msgid "Advanced Search"
 msgstr ""
 
 #: eea.design/eea/design/browser/templates/searchbox_cms.pt:50
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:95
 msgid "Advanced Search&hellip;"
 msgstr ""
 
@@ -591,7 +578,7 @@ msgstr ""
 msgid "Changes saved."
 msgstr ""
 
-#: eea.daviz/eea/daviz/content/schema.py:124
+#: eea.daviz/eea/daviz/content/schema.py:122
 msgid "Changing data sources may break existing visualizations for this context. You should consider creating a new Visualization rather than changing this one if the new data is different than the existing one. Are you sure you want to continue?"
 msgstr ""
 
@@ -605,18 +592,6 @@ msgstr ""
 
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:47
 msgid "Check all"
-msgstr ""
-
-#: eea.daviz/eea/daviz/content/schema.py:103
-msgid "Check these <a target="_blank" href="http://www.eea.europa.eu/data-and-maps/daviz/learn-more/examples">data examples</a> or read <a target="_blank" href="http://www.eea.europa.eu/data-and-maps/daviz/learn-more/prepare-data">how to prepare data</a>"
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:149
-msgid "Check this to have your email address filled in automatically when you log in later."
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:140
-msgid "Check this to have your user name filled in automatically when you log in later."
 msgstr ""
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:34
@@ -710,7 +685,6 @@ msgid "Contact"
 msgstr "Kontakta"
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:27
-#: eea.design/eea/design/skins/eeadesign_public/contact-info.cpt:20
 msgid "Contact EEA Web Team"
 msgstr ""
 
@@ -808,23 +782,15 @@ msgstr ""
 msgid "Convert figures"
 msgstr ""
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:136
-msgid "Convert portlets"
-msgstr ""
-
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:58
 msgid "Cookies are not enabled. You must ${link} before you can log in."
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:30
-msgid "Cookies are not enabled. You must enable cookies before you can log in."
 msgstr ""
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:484
 msgid "Coordinate reference system:"
 msgstr ""
 
-#: eea.daviz/eea/daviz/content/schema.py:102
+#: eea.daviz/eea/daviz/content/schema.py:100
 msgid "Copy and paste a data table from a file/webpage"
 msgstr ""
 
@@ -984,15 +950,15 @@ msgstr ""
 msgid "Data source"
 msgstr ""
 
-#: eea.daviz/eea/daviz/content/schema.py:163
+#: eea.daviz/eea/daviz/content/schema.py:159
 msgid "Data source Organisation"
 msgstr ""
 
-#: eea.daviz/eea/daviz/content/schema.py:151
+#: eea.daviz/eea/daviz/content/schema.py:147
 msgid "Data source link"
 msgstr ""
 
-#: eea.daviz/eea/daviz/content/schema.py:142
+#: eea.daviz/eea/daviz/content/schema.py:138
 msgid "Data source title"
 msgstr ""
 
@@ -1034,7 +1000,6 @@ msgstr ""
 msgid "Deadline"
 msgstr ""
 
-#: eea.design/eea/design/browser/templates/comments.pt:105
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:63
 msgid "Delete"
 msgstr ""
@@ -1164,10 +1129,6 @@ msgstr ""
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:57
 msgid "Draft (not yet published - not quality assured)"
-msgstr ""
-
-#: eea.daviz/eea/daviz/content/schema.py:83
-msgid "Drag and drop '.tsv, .csv files' in the area below, see <a target="_blank" href="http://www.eea.europa.eu/data-and-maps/daviz/learn-more/examples">data examples</a> or read <a target="_blank" href="http://www.eea.europa.eu/data-and-maps/daviz/learn-more/prepare-data">how to prepare data</a>"
 msgstr ""
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:81
@@ -1367,8 +1328,6 @@ msgid "Editing progress"
 msgstr ""
 
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:55
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:93
-#: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:23
 msgid "Email"
 msgstr ""
 
@@ -1388,16 +1347,12 @@ msgstr ""
 msgid "Energy"
 msgstr "Energi"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:21
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:25
 msgid "English eionet"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:15
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:19
 msgid "English themes IMS link"
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:31
-msgid "Enter"
 msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:22
@@ -1744,7 +1699,6 @@ msgstr ""
 msgid "For system integrators"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:174
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:66
 msgid "Forgot your password?"
 msgstr ""
@@ -1977,20 +1931,12 @@ msgstr ""
 msgid "If you are certain you have the correct web address but are encountering an error, please contact the ${site_admin}."
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:200
-msgid "If you do not have an account here, head over to the ${registration_form}."
-msgstr ""
-
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:26
 msgid "If you experience problems please ${link}."
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:180
-msgid "If you have forgotten your password, ${click_here}."
-msgstr ""
-
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:98
-msgid "If you have tabs that have longer titles consider using the extra "two-rows" class for the tabs which makes the tabs larger in height and better styled to accomodate larger titles."
+msgid "If you have tabs that have longer titles consider using the extra 'two-rows' class for the tabs which makes the tabs larger in height and better styled to accomodate larger titles."
 msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:160
@@ -2072,10 +2018,6 @@ msgstr "Industri"
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:43
 #: eea.design/eea/design/skins/eea_design/global_statusmessage.pt:13
 msgid "Info"
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:240
-msgid "Information about rights held in and over the resource. Typically a rights element will contain a rights management statement for the resource, or reference a service providing such information. Rights information often encompasses intellectual property rights (IPR), copyright and various property rights"
 msgstr ""
 
 #: eea/mediacentre/browser/statistics.pt:5
@@ -2361,10 +2303,6 @@ msgstr ""
 msgid "Lithuania"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:93
-msgid "LiveSearch &hellip;"
-msgstr ""
-
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:16
 msgid "Loading..."
 msgstr ""
@@ -2377,17 +2315,8 @@ msgstr ""
 msgid "Locations"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:159
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:52
 msgid "Log in"
-msgstr ""
-
-#: eea.design/eea/design/browser/templates/comments.pt:30
-msgid "Log in to add comments"
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:89
-msgid "Login Name"
 msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/workflow_action_message.pt:10
@@ -2535,10 +2464,6 @@ msgstr ""
 msgid "Montenegro"
 msgstr ""
 
-#: eea.design/eea/design/browser/templates/calendar.pt:48
-msgid "Month events"
-msgstr ""
-
 #: EEAContentTypes/skins/EEAContentTypes/highlight_macros.pt:55
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:131
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed.pt:54
@@ -2671,7 +2596,6 @@ msgstr ""
 msgid "New items since"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:190
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:72
 msgid "New user?"
 msgstr ""
@@ -2690,10 +2614,6 @@ msgstr ""
 
 #: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:178
 msgid "Next"
-msgstr ""
-
-#: eea.design/eea/design/browser/templates/calendar.pt:63
-msgid "Next month"
 msgstr ""
 
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:28
@@ -2718,10 +2638,6 @@ msgstr ""
 
 #: EEAContentTypes/browser/crop/cropping.pt:15
 msgid "No images found."
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:94
-msgid "No matching results found."
 msgstr ""
 
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:23
@@ -2801,7 +2717,7 @@ msgstr ""
 msgid "Noise"
 msgstr "Buller"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:11
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:12
 msgid "Normal"
 msgstr ""
 
@@ -2979,10 +2895,6 @@ msgstr ""
 msgid "Parent data set:"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:113
-msgid "Password"
-msgstr ""
-
 #: eea.versions/eea/versions/skins/versions_templates/versions_macros.pt:12
 msgid "Permalink to latest version"
 msgstr ""
@@ -3119,10 +3031,6 @@ msgstr ""
 #: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:170
 msgid "Previous"
 msgstr "Föregående"
-
-#: eea.design/eea/design/browser/templates/calendar.pt:33
-msgid "Previous month"
-msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:254
 msgid "Price"
@@ -3369,14 +3277,6 @@ msgstr ""
 msgid "Relevance"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:147
-msgid "Remember my email address."
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:138
-msgid "Remember my name."
-msgstr ""
-
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Remove Promotion"
 msgstr ""
@@ -3564,14 +3464,6 @@ msgstr ""
 msgid "SOER Country content status"
 msgstr ""
 
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:41
-msgid "SOER message"
-msgstr ""
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:46
-msgid "SOER viral video message"
-msgstr ""
-
 #: eea.sparql/eea/sparql/browser/view-bookmarks.pt:57
 #: eea.sparql/eea/sparql/browser/view.pt:66
 msgid "SPARQL Endpoint:"
@@ -3606,7 +3498,7 @@ msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:43
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:151
-#: eea.design/eea/design/browser/templates/searchbox_cms.pt:25
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:28
 msgid "Search"
 msgstr "Sök"
 
@@ -3618,8 +3510,6 @@ msgstr ""
 msgid "Search SOER"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:48
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:46
 #: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:96
 msgid "Search Site"
 msgstr ""
@@ -3783,10 +3673,6 @@ msgstr ""
 msgid "Short term work"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:96
-msgid "Show all items"
-msgstr ""
-
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/countries_widget.pt:70
 msgid "Show map preview"
 msgstr ""
@@ -3802,10 +3688,6 @@ msgstr ""
 
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:15
 msgid "Sign up now!"
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:46
-msgid "Since cookie authentication is disabled, cookie-based login is not available."
 msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:53
@@ -3883,7 +3765,7 @@ msgstr ""
 msgid "Spain"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:17
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:21
 msgid "Spanish themes IMS link"
 msgstr ""
 
@@ -3913,15 +3795,15 @@ msgstr ""
 msgid "Specifications with the wrong maincode"
 msgstr ""
 
-#: eea.daviz/eea/daviz/content/schema.py:143
+#: eea.daviz/eea/daviz/content/schema.py:139
 msgid "Specify data source"
 msgstr ""
 
-#: eea.daviz/eea/daviz/content/schema.py:164
+#: eea.daviz/eea/daviz/content/schema.py:160
 msgid "Specify data source Organisation"
 msgstr ""
 
-#: eea.daviz/eea/daviz/content/schema.py:152
+#: eea.daviz/eea/daviz/content/schema.py:148
 msgid "Specify data source link"
 msgstr ""
 
@@ -3980,11 +3862,11 @@ msgstr ""
 msgid "Sweden"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:23
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:27
 msgid "Swedish glossary"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:12
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:15
 msgid "Swedish site"
 msgstr ""
 
@@ -4099,14 +3981,6 @@ msgstr ""
 msgid "The link address is:"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:228
-msgid "The name given to the resource. Typically, a title will be a name by which the resource is formally known"
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:232
-msgid "The nature or genre of the content of the resource. Type includes terms describing general categories, functions, genres, or aggregation levels for content"
-msgstr ""
-
 #: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:403
 msgid "The number of results that is displayed on one page."
 msgstr ""
@@ -4198,8 +4072,8 @@ msgstr ""
 msgid "This figure has no data source. For further information contact"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:12
-msgid "This file contains links that should be marked in different ways by the mark_special_link.js script. This is to test and verify that it works. Try it with <br /> <a href="http://localhost:8080/www/SITE/themes/test_languagelinks">x</a> <a href="http://localhost:8080/www/sv/test_languagelinks">x</a> <br />"
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:14
+msgid "This file contains links that should be marked in different ways by the mark_special_link.js script. This is to test and verify that it works. Try it with <br /> ${normal} ${swedish-site} <br />"
 msgstr ""
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:16
@@ -4252,7 +4126,7 @@ msgid "This item is in use by someone else and cannot be modified"
 msgstr ""
 
 #: eea.design/eea/design/browser/templates/goto_comments.pt:15
-msgid "This item is open for comments. See the comments <a href="${DYNAMIC_CONTENT}">section below</a>"
+msgid "This item is open for comments. See the comments"
 msgstr ""
 
 #: eea.workflow/eea/workflow/skins/eea_workflow_templates/content_status_modify.cpy:85
@@ -4314,10 +4188,6 @@ msgstr "Titel"
 
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:26
 msgid "Title/Description"
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:194
-msgid "To access this part of the site, you need to log in with your user name and password. You can use your Eionet username and password."
 msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:18
@@ -4418,7 +4288,7 @@ msgstr "Transport"
 msgid "Turkey"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:19
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:23
 msgid "Turkish subfolder"
 msgstr ""
 
@@ -4473,10 +4343,6 @@ msgstr ""
 msgid "Units:"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:32
-msgid "Unsubscribe"
-msgstr ""
-
 #: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:12
 msgid "Unsubscribe from EEA notification service"
 msgstr ""
@@ -4501,7 +4367,7 @@ msgstr ""
 msgid "Upcoming events"
 msgstr "Kommande händelser"
 
-#: eea.daviz/eea/daviz/content/schema.py:82
+#: eea.daviz/eea/daviz/content/schema.py:80
 msgid "Upload CSV/TSV data files from your computer"
 msgstr ""
 
@@ -4650,7 +4516,7 @@ msgstr ""
 msgid "WISE Menu"
 msgstr ""
 
-#: eea.daviz/eea/daviz/content/schema.py:123
+#: eea.daviz/eea/daviz/content/schema.py:121
 msgid "Warning"
 msgstr ""
 
@@ -4855,6 +4721,16 @@ msgstr ""
 msgid "add selected users"
 msgstr ""
 
+#. Default: "Enter"
+#: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:31
+msgid "alt_subscribe"
+msgstr ""
+
+#. Default: "Unsubscribe"
+#: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:32
+msgid "alt_unsubscribe"
+msgstr ""
+
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:22
 msgid "and"
 msgstr ""
@@ -4865,13 +4741,18 @@ msgstr ""
 msgid "archive"
 msgstr ""
 
+#. Default: "Forgot your password?"
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:174
+msgid "box_forgot_password_option"
+msgstr ""
+
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:26
 msgid "browse all multimedia products"
 msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:59
 #: eea.design/eea/design/browser/templates/document_byline.pt:61
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:199
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:197
 msgid "by ${author}"
 msgstr ""
 
@@ -4910,6 +4791,11 @@ msgstr ""
 msgid "converting"
 msgstr ""
 
+#. Default: "Check these <a target=\"_blank\" href=\"http://www.eea.europa.eu/data-and-maps/daviz/learn-more/examples\">data examples</a> or read <a target=\"_blank\" href=\"http://www.eea.europa.eu/data-and-maps/daviz/learn-more/prepare-data\">how to prepare data</a>"
+#: eea.daviz/eea/daviz/content/schema.py:101
+msgid "copy-paste-description"
+msgstr ""
+
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:36
 msgid "datasets"
 msgstr ""
@@ -4918,8 +4804,28 @@ msgstr ""
 msgid "delete portlet"
 msgstr ""
 
+#. Default: "If you do not have an account here, head over to the ${registration_form}."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:200
+msgid "description_no_account"
+msgstr ""
+
+#. Default: "registration form"
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:201
+msgid "description_no_account_registration_linktext"
+msgstr ""
+
+#. Default: "To access this part of the site, you need to log in with your user name and password. You can use your Eionet username and password."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:194
+msgid "description_sign_in"
+msgstr ""
+
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_topdatasets.pt:30
 msgid "downloads"
+msgstr ""
+
+#. Default: "Cookies are not enabled. You must enable cookies before you can log in."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:30
+msgid "enable_cookies_message_before_login"
 msgstr ""
 
 #: eea.design/eea/design/browser/templates/colophon.pt:62
@@ -4963,6 +4869,31 @@ msgstr ""
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:48
 msgid "go here"
+msgstr ""
+
+#. Default: "Contact EEA Web Team"
+#: eea.design/eea/design/skins/eeadesign_public/contact-info.cpt:20
+msgid "heading_contact_form"
+msgstr ""
+
+#. Default: "New user?"
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:190
+msgid "heading_new_user"
+msgstr ""
+
+#. Default: "If you have forgotten your password, ${click_here}."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:180
+msgid "help_password_retrieval"
+msgstr ""
+
+#. Default: "Check this to have your email address filled in automatically when you log in later."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:149
+msgid "help_remember_my_email"
+msgstr ""
+
+#. Default: "Check this to have your user name filled in automatically when you log in later."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:140
+msgid "help_remember_my_name"
 msgstr ""
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:20
@@ -5041,14 +4972,98 @@ msgstr ""
 msgid "indicator specification"
 msgstr ""
 
+#. Default: "Add Translation"
+#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:100
+msgid "label_add_translation"
+msgstr ""
+
+#. Default: "Advanced Search…"
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:95
+msgid "label_advanced_search"
+msgstr ""
+
+#. Default: "we can send you a new one"
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:181
+msgid "label_click_here_to_retrieve"
+msgstr ""
+
+#. Default: "Convert portlets"
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:136
+msgid "label_convert_portlets"
+msgstr ""
+
+#. Default: "Delete"
+#: eea.design/eea/design/browser/templates/comments.pt:105
+msgid "label_delete"
+msgstr ""
+
+#. Default: "Email"
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:93
+#: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:23
+#: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:24
+msgid "label_email"
+msgstr ""
+
+#. Default: "Log in"
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:159
+msgid "label_log_in"
+msgstr ""
+
+#. Default: "Login Name"
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:89
+msgid "label_login_name"
+msgstr ""
+
+#. Default: "Log in to add comments"
+#: eea.design/eea/design/browser/templates/comments.pt:30
+msgid "label_login_to_add_comments"
+msgstr ""
+
+#. Default: "No matching results found."
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:94
+msgid "label_no_results_found"
+msgstr ""
+
+#. Default: "Password"
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:113
+msgid "label_password"
+msgstr ""
+
+#. Default: "Remember my email address."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:147
+msgid "label_remember_my_email"
+msgstr ""
+
+#. Default: "Remember my name."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:138
+msgid "label_remember_my_name"
+msgstr ""
+
+#. Default: "Search"
+#: eea.design/eea/design/browser/templates/searchbox_cms.pt:25
+#: eea.design/eea/design/skins/eeadesign_cms/search.pt:56
+#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:426
+msgid "label_search"
+msgstr ""
+
+#. Default: "Show all items"
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:96
+msgid "label_show_all"
+msgstr ""
+
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:71
 msgid "last converted:"
 msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:71
 #: eea.design/eea/design/browser/templates/document_byline.pt:71
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:212
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:210
 msgid "last modified"
+msgstr ""
+
+#. Default: "LiveSearch …"
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:93
+msgid "legend_livesearch"
 msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:336
@@ -5059,9 +5074,19 @@ msgstr ""
 msgid "loading data ..."
 msgstr ""
 
+#. Default: "Since cookie authentication is disabled, cookie-based login is not available."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:46
+msgid "login_form_disabled"
+msgstr ""
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:21
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:318
 msgid "mailto link"
+msgstr ""
+
+#. Default: "Month events"
+#: eea.design/eea/design/browser/templates/calendar.pt:48
+msgid "month_events"
 msgstr ""
 
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:29
@@ -5130,12 +5155,13 @@ msgstr ""
 msgid "powered by The Google AJAX Search API"
 msgstr ""
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:74
-msgid "records:"
+#. Default: "Read more"
+#: eea.design/eea/design/skins/eea_design/subfolder_view.pt:36
+msgid "read_more"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:201
-msgid "registration form"
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:74
+msgid "records:"
 msgstr ""
 
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:12
@@ -5148,6 +5174,10 @@ msgstr ""
 
 #: eea.design/eea/design/browser/templates/comments.pt:87
 msgid "says:"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/goto_comments.pt:16
+msgid "section below"
 msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:18
@@ -5167,6 +5197,16 @@ msgstr ""
 msgid "should you have any questions, please use this email:"
 msgstr ""
 
+#. Default: "SOER message"
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:41
+msgid "soer-message"
+msgstr ""
+
+#. Default: "SOER viral video message"
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:46
+msgid "soer-video"
+msgstr ""
+
 #: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:33
 msgid "state"
 msgstr ""
@@ -5175,12 +5215,48 @@ msgstr ""
 msgid "state:"
 msgstr ""
 
+#. Default: "Next month"
+#: eea.design/eea/design/browser/templates/calendar.pt:63
+msgid "title_next_month"
+msgstr ""
+
+#. Default: "Previous month"
+#: eea.design/eea/design/browser/templates/calendar.pt:33
+msgid "title_previous_month"
+msgstr ""
+
+#. Default: "Search Site"
+#: eea.design/eea/design/skins/eeadesign_cms/search.pt:48
+#: eea.design/eea/design/skins/eeadesign_public/search.pt:46
+msgid "title_search_title"
+msgstr ""
+
+#. Default: "The name given to the resource. Typically, a title will be a name by which the resource is formally known"
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:228
+msgid "tooltip-left-desc"
+msgstr ""
+
+#. Default: "Information about rights held in and over the resource. Typically a rights element will contain a rights management statement for the resource, or reference a service providing such information. Rights information often encompasses intellectual property rights (IPR), copyright and various property rights"
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:240
+msgid "tooltip-right-desc"
+msgstr ""
+
+#. Default: "The nature or genre of the content of the resource. Type includes terms describing general categories, functions, genres, or aggregation levels for content"
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:232
+msgid "tooltip-top-desc"
+msgstr ""
+
 #: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:41
 msgid "total"
 msgstr ""
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:358
 msgid "unplanned as usual :D"
+msgstr ""
+
+#. Default: "Drag and drop '.tsv, .csv files' in the area below, see <a target=\"_blank\" href=\"http://www.eea.europa.eu/data-and-maps/daviz/learn-more/examples\">data examples</a> or read <a target=\"_blank\" href=\"http://www.eea.europa.eu/data-and-maps/daviz/learn-more/prepare-data\">how to prepare data</a>"
+#: eea.daviz/eea/daviz/content/schema.py:81
+msgid "upload-csv-description"
 msgstr ""
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:87
@@ -5193,10 +5269,6 @@ msgstr ""
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:41
 msgid "visit the SOER 2010 website"
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:181
-msgid "we can send you a new one"
 msgstr ""
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:351
