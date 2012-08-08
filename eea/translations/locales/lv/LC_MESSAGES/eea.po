@@ -26,7 +26,7 @@ msgstr "${date} ${linebreak} no ${starttime} uz ${endtime}"
 msgid "${monthname} ${year}"
 msgstr "${monthname} ${year}"
 
-#: eea.geotags/eea/geotags/field/location.py:103
+#: eea.geotags/eea/geotags/field/location.py:106
 msgid "${name} is required, please correct."
 msgstr "${name} ir vajadzīgs, lūdzu, izlabojiet."
 
@@ -42,10 +42,6 @@ msgstr "${number} preces atbilst jūsu meklēšanas nosacījumiem"
 #: eea.workflow/eea/workflow/portlets/readiness.pt:28
 msgid "${percent}% percentage done."
 msgstr "${percent}% procentuālais darīts."
-
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:149
-msgid "${portlet_footer_read_more}"
-msgstr "${portlet_footer_read_more}"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:57
 msgid "${startdate} to ${linebreak} ${enddate}"
@@ -75,7 +71,7 @@ msgstr "${state} specifikācija"
 msgid "% tags currently selected."
 msgstr "% Tagi izvēlēta."
 
-#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:65
+#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:64
 msgid "(${location}, from ${start} to ${end})"
 msgstr "(${location} no ${start} uz ${end})"
 
@@ -96,7 +92,7 @@ msgstr "(Atvērts: ${from-date} - relīze: ${to-date})"
 msgid "(Required)"
 msgstr "(Nepieciešams)"
 
-#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:77
+#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:76
 msgid "(from ${start} to ${end})"
 msgstr "(No ${start} uz ${end})"
 
@@ -120,18 +116,6 @@ msgstr "- (Tikai autorizēta)"
 msgid "- [Media: ${media}]"
 msgstr "- [Media: ${media}]"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:410
-msgid "30"
-msgstr "30"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:413
-msgid "60"
-msgstr "60"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:416
-msgid "90"
-msgstr "90"
-
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:51
 msgid "<div> <span>x</span> <span>x</span> </div>"
 msgstr "<div> <span> x </ span> <span> x </ span> </ div>"
@@ -148,12 +132,16 @@ msgstr "Jauns logs ir atvērts flash pieteikumu. <br /> Ja jūs neredzat logu, l
 msgid "A report publication."
 msgstr "Ziņojums publikācija."
 
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:22
+msgid "A-Z Glossary"
+msgstr "AZ Glossary"
+
 #: eea/mediacentre/Multimedia/multimedia.pt:107
 msgid "About this item"
 msgstr "Par šo posteni"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:37
-#: eea/mediacentre/browser/video_popup_view.pt:37
+#: eea/mediacentre/browser/multimedia_popup_view.pt:38
+#: eea/mediacentre/browser/video_popup_view.pt:36
 msgid "About this video"
 msgstr "Par šo video"
 
@@ -166,7 +154,7 @@ msgid "Accordion view"
 msgstr "Akordeons skats"
 
 #: eea/themecentre/browser/templates/themes_view.pt:99
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:124
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:123
 msgid "Across environmental issues and sectors"
 msgstr "Visā vides jautājumiem un nozarēm"
 
@@ -230,29 +218,28 @@ msgid "Advanced Search"
 msgstr "Izvērstā meklēšana"
 
 #: eea.design/eea/design/browser/templates/searchbox_cms.pt:50
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:95
 msgid "Advanced Search&hellip;"
 msgstr "Izvērstā meklēšana ..."
 
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:19
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:58
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:23
 msgid "Advanced search"
 msgstr "Izvērstā meklēšana"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:16
-#: eea.design/eea/design/skins/eeadesign_public/search_form.pt:16
-msgid "Advanced search for content"
-msgstr "Izvērstā meklēšana pēc satura"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:70
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:69
 msgid "Agriculture"
 msgstr "Lauksaimniecība"
 
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:144
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:113
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:27
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:26
 msgid "Air pollution"
 msgstr "Gaisa piesārņojums"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:38
+msgid "Air pollution and Climate Change mitigation (ACM)"
+msgstr "Gaisa piesārņojums un klimata pārmaiņu mazināšana (ACM)"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:33
 msgid "Albania"
@@ -292,6 +279,9 @@ msgstr "Visi galvenie ziņojumi"
 msgid "All links in state ${state}"
 msgstr "Visas saites valsts ${state}"
 
+msgid "All products"
+msgstr "Visi produkti"
+
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:37
 #: eea/themecentre/browser/templates/themes_view.pt:51
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:20
@@ -319,10 +309,6 @@ msgstr "Alternatīva"
 #: eea/themecentre/skins/themecentre_templates/overview.pt:16
 msgid "An overview of the available content on this site. Keep the pointer still over an item for a few seconds to get its description."
 msgstr "Pārskats par pieejamo saturu par šo mājas lapu. Saglabāt rādītāju joprojām virs vienuma uz dažām sekundēm, lai saņemtu savu aprakstu."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:305
-msgid "Any Author"
-msgstr "Jebkura Autors"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:140
 msgid "Any version."
@@ -360,6 +346,9 @@ msgstr "Arhīva vai nosaukumu vairāk preču"
 #: eea.sparql/eea/sparql/browser/view.pt:62
 msgid "Are you new to Linked Data technology? visit http://linkeddata.org"
 msgstr "Vai Jūs esat jauns saistīto datu tehnoloģijām? apmeklējiet http://linkeddata.org"
+
+msgid "Articles"
+msgstr "Raksti"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:111
 msgid "Ask your question"
@@ -406,11 +395,10 @@ msgstr "Austrija"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:53
 #: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:23
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:291
 msgid "Author"
 msgstr "Autors:"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:50
+#: eea/mediacentre/browser/multimedia_popup_view.pt:51
 #: eea/mediacentre/browser/video-listed-single.pt:34
 #: eea/mediacentre/browser/video.pt:60
 msgid "Author:"
@@ -481,9 +469,13 @@ msgid "Best regards"
 msgstr "Ar laba vēlējumiem"
 
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:173
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:31
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:30
 msgid "Biodiversity"
 msgstr "Bioloģiskā daudzveidība"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:42
+msgid "Biological Diversity (BD)"
+msgstr "Bioloģiskā daudzveidība (BD)"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:36
 msgid "Bosnia and Herzegovina"
@@ -525,6 +517,9 @@ msgstr "Pārlūkot ..."
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:37
 msgid "Bulgaria"
 msgstr "Bulgārija"
+
+msgid "Bulgarian"
+msgstr "Bulgārijas"
 
 #: eea/mediacentre/Multimedia/multimedia2.pt:108
 msgid "By location"
@@ -579,6 +574,10 @@ msgstr "Karpati"
 msgid "Category"
 msgstr "Kategorija"
 
+#: eea.design/eea/design/browser/templates/language_selector.pt:13
+msgid "Change language"
+msgstr "Mainīt valodu"
+
 #: eea.indicators/eea/indicators/skins/indicators_templates/simple_content_edit_impl.py:35
 msgid "Changes saved."
 msgstr "Izmaiņas saglabātas."
@@ -607,7 +606,7 @@ msgstr "Atlasiet šo, lai jūsu e-pasta adrese aizpildīts automātiski, kad pie
 msgid "Check this to have your user name filled in automatically when you log in later."
 msgstr "Atlasiet šo, lai jūsu lietotāja vārds aizpildīts automātiski, kad piesakāties vēlāk."
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:34
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:33
 msgid "Chemicals"
 msgstr "Ķimikālijas"
 
@@ -641,8 +640,12 @@ msgstr "Noklikšķiniet mani!"
 msgid "Click to view full-size image&hellip; <span>${DYNAMIC_CONTENT}</span>"
 msgstr "Klikšķiniet, lai skatītu pilna izmēra attēlu ... <span>${DYNAMIC_CONTENT}</ span>"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:47
+msgid "Climate Change Impacts, Vulnerability and Adaptation (CCA)"
+msgstr "Klimata pārmaiņu ietekmei, Neaizsargātības mazināšanas un pielāgošanās (CCA)"
+
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:202
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:37
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:36
 msgid "Climate change"
 msgstr "Klimata pārmaiņas"
 
@@ -654,7 +657,7 @@ msgstr "Klimata pārmaiņu mazināšana"
 msgid "Close"
 msgstr "Close"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:110
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:109
 msgid "Coasts and seas"
 msgstr "Piekraste un jūras"
 
@@ -693,7 +696,7 @@ msgstr "Apstipriniet savu pasākumu"
 msgid "Confirmation message for <strong>${type}</strong> with scheduled publishing date <strong>${date}</strong>"
 msgstr "Apstiprinājums vēstījums <strong>${type}</strong> ar plānoto publicēšanas datuma <strong>${date}</strong>"
 
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:62
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:55
 msgid "Contact"
 msgstr "Sazināšanās"
 
@@ -725,6 +728,9 @@ msgstr "Sazinieties saiti"
 msgid "Contact references at EEA:"
 msgstr "Sazinieties atsauces uz EEZ:"
 
+msgid "Contact us"
+msgstr "Lai iegūtu papildus informāciju,"
+
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:161
 msgid "Contacts and ownership"
 msgstr "Kontakti un īpašuma"
@@ -742,7 +748,7 @@ msgstr "Saturs"
 msgid "Content license"
 msgstr "Satura licence"
 
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:53
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:46
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:47
 #: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:17
 msgid "Content listing"
@@ -856,7 +862,7 @@ msgstr "Valsts profila jautājumi: ${count} no 4"
 msgid "Country profile: read more"
 msgstr "Valsts profils: lasīt vairāk"
 
-#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:40
+#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:41
 msgid "Create ${DYNAMIC_CONTENT}"
 msgstr "Izveidot ${DYNAMIC_CONTENT}"
 
@@ -884,7 +890,7 @@ msgstr "Izveidot veicināšanu šim postenim"
 msgid "Create and apply new tags."
 msgstr "Izveidot un lietot jaunus tagus."
 
-#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:35
+#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:36
 msgid "Create new"
 msgstr "Izveidot jaunu"
 
@@ -896,10 +902,6 @@ msgstr "Izveidot jaunu versiju"
 #: eea.design/eea/design/browser/templates/document_byline.pt:24
 msgid "Created"
 msgstr "Izveidoja"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:386
-msgid "Creation Date"
-msgstr "Izveides datums"
 
 #: eea.design/eea/design/browser/templates/colophon.pt:68
 msgid "Creative Commons Attribution License"
@@ -941,6 +943,9 @@ msgstr "Pašlaik mums ir ${nr} abonentiem. Frekvence: 3-4 e-pasti mēnesī."
 msgid "Cyprus"
 msgstr "Kipra"
 
+msgid "Czech"
+msgstr "Čehu"
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:40
 msgid "Czech Republic"
 msgstr "Čehija"
@@ -951,9 +956,11 @@ msgstr "Čehija"
 msgid "DPSIR"
 msgstr "DPSIR"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:111
-msgid "Data download"
-msgstr "Datu lejuplāde"
+msgid "Danish"
+msgstr "Dāņu"
+
+msgid "Data and maps"
+msgstr "Dati un kartes"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:63
 msgid "Data link"
@@ -983,6 +990,10 @@ msgstr "Datu avots"
 #: eea.daviz/eea/daviz/content/schema.py:159
 msgid "Data source Organisation"
 msgstr "Datu avots organizācija"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:111
+msgid "Data source download"
+msgstr "Datu avots Download"
 
 #: eea.daviz/eea/daviz/content/schema.py:147
 msgid "Data source link"
@@ -1059,10 +1070,6 @@ msgstr "Direktora vietnieks"
 msgid "Derived data set:"
 msgstr "Atvasinātie datu kopums:"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:349
-msgid "Description"
-msgstr "Apraksts"
-
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
 msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 msgstr "Vai jums nav atrast to, ko jūs meklējat? Mēģiniet ${advanced_search} precizēt meklēšanu."
@@ -1083,10 +1090,6 @@ msgstr "Atruna"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:445
 msgid "Disclaimer:"
 msgstr "Atruna:"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:370
-msgid "Display options"
-msgstr "Parādītu iespējas"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:172
 msgid "Display traceback as text"
@@ -1166,6 +1169,9 @@ msgstr "Projekts (vēl nav publicēts - nav kvalitātes garantiju)"
 msgid "Duplicate organisations"
 msgstr "Dublēt organizācijas"
 
+msgid "Dutch"
+msgstr "Holandiešu"
+
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:42
 msgid "E-mail (Questions only):"
 msgstr "E-pasts (Jautājumi tikai):"
@@ -1182,10 +1188,6 @@ msgstr "EDO:"
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:132
 msgid "EEA"
 msgstr "EEZ"
-
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:37
-msgid "EEA Central fax"
-msgstr "EVA (Eiropas Vides aģentūras) centrālais fakss"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:162
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:302
@@ -1244,10 +1246,6 @@ msgstr "Darbinieku saraksts"
 msgid "EEA Subscriptions"
 msgstr "EEZ Abonēšana"
 
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:35
-msgid "EEA Switchboard"
-msgstr "EVA vadība"
-
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:137
 msgid "EEA Themes"
 msgstr "EEZ Tēmas"
@@ -1265,6 +1263,9 @@ msgstr "EEZ datu apraksti"
 msgid "EEA enquiry service"
 msgstr "EVA uzziņu dienests"
 
+msgid "EEA homepage in your language"
+msgstr "EEZ mājaslapa jūsu valodā"
+
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:591
 msgid "EEA management plan code:"
 msgstr "EVA pārvaldības plāns kods:"
@@ -1277,6 +1278,10 @@ msgstr "EEZ paziņošanas pakalpojumu konts"
 msgid "EEA website search"
 msgstr "EVA tīmekļa vietnē meklēšana"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
+msgid "EPA network"
+msgstr "EPA tīkls"
+
 #: eea.epub/eea/epub/skins/eea_epub/portlet_epub.pt:7
 msgid "EPUB format"
 msgstr "EPub formāts"
@@ -1288,6 +1293,10 @@ msgstr "KĻŪDA: Kļūda eksportē savu tēlu. Lūdzu, mēģiniet vēlreiz vēl�
 #: eea.design/eea/design/browser/templates/colophon.pt:36
 msgid "EU flag"
 msgstr "ES karogs"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:69
+msgid "EU partners"
+msgstr "ES partneri"
 
 #: eea.reports/eea/reports/browser/report.pt:205
 msgid "EU-Bookshop"
@@ -1356,6 +1365,10 @@ msgstr "Rediģēt meklēšanas iespējas"
 msgid "Editing progress"
 msgstr "Rediģēšanas progresu"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:19
+msgid "Eionet"
+msgstr "Eionet"
+
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:55
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:93
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:23
@@ -1374,9 +1387,12 @@ msgstr "E-pasta adrese"
 msgid "Enable user feedback"
 msgstr "Ļauj lietotājam atsauksmes"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:74
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:73
 msgid "Energy"
 msgstr "Enerģija"
+
+msgid "English"
+msgstr "Latviski"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:25
 msgid "English eionet"
@@ -1410,12 +1426,16 @@ msgstr "Ievadiet vienu frāzi katrā rindā, vairāki vārdi atļauta."
 msgid "Entire documentation area"
 msgstr "Visa dokumentācija platība"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:40
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:25
+msgid "EnviroWindows"
+msgstr "EnviroWindows"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:39
 msgid "Environment and health"
 msgstr "Vides un veselības"
 
 #: eea/themecentre/browser/templates/themes_view.pt:85
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:106
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:105
 msgid "Environment in different regions and specific areas"
 msgstr "Vidi dažādos reģionos un konkrētās jomās"
 
@@ -1432,11 +1452,11 @@ msgstr "Dabas katastrofas visā pasaulē"
 msgid "Environmental information anywhere"
 msgstr "Vides informācija jebkur"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:136
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:135
 msgid "Environmental scenarios"
 msgstr "Vides scenāriji"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:128
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:127
 msgid "Environmental technology"
 msgstr "Vides tehnoloģija"
 
@@ -1451,6 +1471,9 @@ msgstr "Kļūdu atsauces"
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:42
 msgid "Estonia"
 msgstr "Igaunija"
+
+msgid "Estonian"
+msgstr "Igauņu"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:27
 msgid "Europe"
@@ -1477,6 +1500,10 @@ msgstr "Eiropas Vides aģentūra"
 msgid "European Environment Agency (EEA)"
 msgstr "Eiropas Vides aģentūra (EVA)"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:33
+msgid "European Topic Centres (ETCs)"
+msgstr "Eiropas Tematiskie centri (ETC)"
+
 #: eea.design/eea/design/browser/templates/colophon.pt:36
 msgid "European Union Flag"
 msgstr "Eiropas Savienības karogs"
@@ -1484,10 +1511,6 @@ msgstr "Eiropas Savienības karogs"
 #: EEAContentTypes/skins/EEAContentTypes/event_submitted_confirmation.pt:12
 msgid "Event sent"
 msgstr "Pasākums nosūtīts"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:216
-msgid "Ever"
-msgstr "Kādreiz"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:34
 msgid "Excel doc on secure external link"
@@ -1532,6 +1555,10 @@ msgstr "Ārējie datu apraksti"
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:12
 msgid "Eye On Earth – Citizen observatory on air and bathing water quality"
 msgstr "Acu Uz Zemes - Pilsoņu novērošanas no gaisa un peldvietu ūdens kvalitāti"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:8
+msgid "Eye on Earth"
+msgstr "Acu uz Zemes"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:73
 msgid "FAQs"
@@ -1680,13 +1707,16 @@ msgstr "Atrast un atkārtoti esošos datus"
 msgid "Finland"
 msgstr "Finland"
 
+msgid "Finnish"
+msgstr "Somu"
+
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:201
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:324
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:387
 msgid "First draft created: ${creation-date}"
 msgstr "Pirmoreiz izveidota projekts: ${creation-date}"
 
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:58
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:51
 msgid "First name"
 msgstr "Vārds"
 
@@ -1698,7 +1728,7 @@ msgstr "Pirmais panelis nosaukums"
 msgid "First tab"
 msgstr "Pirmā cilne"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:78
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:77
 msgid "Fisheries"
 msgstr "Zvejniecība"
 
@@ -1710,13 +1740,22 @@ msgstr "Elastīgi Rīka padomi"
 msgid "Folder overview"
 msgstr "Mape pārskats"
 
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:16
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:69
 msgid "Follow us"
 msgstr "Seko mums"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:47
-msgid "For a simple text search, enter your search term here. Multiple words may be found by combining them with <strong>AND</strong> and <strong>OR</strong>. The text in this field will be matched with items' contents, title and description."
-msgstr "Vienkāršu teksta meklēšanu, ievadiet šeit savu meklēšanas vārdu. Vairākus vārdus var atrast, sakombinējot tos ar <strong> UN </ strong> un <strong> OR </ strong>. Teksts šajā laukā tiks meklēts vienību saturā, virsrakstā un aprakstā."
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:23
+msgid "Follow us on Facebook"
+msgstr "Sekot mums par Facebook"
+
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:18
+msgid "Follow us on Twitter"
+msgstr "Sekot mums par čivināt"
+
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:28
+msgid "Follow us on YouTube"
+msgstr "Sekot mums par YouTube"
 
 #: EEAContentTypes/browser/crop/cropping.pt:20
 msgid "For each image field in your content you can select below the image you want to crop."
@@ -1761,6 +1800,9 @@ msgstr "Francija"
 msgid "Free text search"
 msgstr "Bezmaksas teksta meklēšana"
 
+msgid "French"
+msgstr "Franču"
+
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:137
 msgid "Freshwater"
 msgstr "Saldūdens"
@@ -1771,10 +1813,6 @@ msgstr "Draudzīgs nosaukums"
 
 #: eea.promotion/eea/promotion/browser/form.pt:28
 msgid "Front Page"
-msgstr "Priekšējā lapa"
-
-#: eea.design/eea/design/browser/templates/links_navigation.pt:3
-msgid "Front page"
 msgstr "Priekšējā lapa"
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:79
@@ -1817,6 +1855,9 @@ msgstr "Ģeogrāfiskais pārklājums:"
 msgid "Geotags:"
 msgstr "Ģeogrāfiskās atzīmes skaits:"
 
+msgid "German"
+msgstr "Vācu"
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:49
 msgid "Germany"
 msgstr "Germany"
@@ -1855,15 +1896,13 @@ msgstr "Google meklēšana"
 msgid "Greece"
 msgstr "Grieķija"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:90
+msgid "Greek"
+msgstr "Grieķu"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:89
 msgid "Green economy"
 msgstr "Zaļā ekonomika"
 
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:18
-msgid "Green tip icon"
-msgstr "Green tip icon"
-
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:21
 #: eea/mediacentre/Multimedia/multimedia.pt:150
 #: eea/mediacentre/Multimedia/multimedia2.pt:128
 msgid "Green tips"
@@ -1902,13 +1941,16 @@ msgstr "Vēsture"
 msgid "Home"
 msgstr "Sākums"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:82
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:81
 msgid "Household consumption"
 msgstr "Mājsaimniecību patēriņa"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:74
 msgid "How-tos"
 msgstr "Kādā veidā '"
+
+msgid "Hungarian"
+msgstr "Ungārijas"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:51
 msgid "Hungary"
@@ -1929,6 +1971,9 @@ msgstr "Saldējums"
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:52
 msgid "Iceland"
 msgstr "Islande"
+
+msgid "Icelandic"
+msgstr "Islandiešu"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:29
 msgid "Icons based on file extension, on different external sites and protocols"
@@ -2057,7 +2102,7 @@ msgstr "Indikators definīcija"
 msgid "Indicators that have wrong version ids"
 msgstr "Indikatori, kas ir nepareiza versija ids"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:86
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:85
 msgid "Industry"
 msgstr "Rūpniecība"
 
@@ -2077,6 +2122,10 @@ msgstr "Informācija par mediju centrs"
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:23
 msgid "Inherit faceted navigation configuration from:"
 msgstr "Mantot slīpētas navigācijas konfigurāciju no:"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:51
+msgid "Inland, Coastal and Marine waters (ICM)"
+msgstr "Iekšzemes, piekrastes un jūras ūdeņus (SCM)"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:146
 msgid "Insert publication keywords to search for"
@@ -2102,6 +2151,14 @@ msgstr "Interaktīvas datu skatītāji"
 msgid "Interested candidates must apply by filling in the application form below. To the application form must be attached:"
 msgstr "Ieinteresētajiem kandidātiem ir jāpiesakās, aizpildot pieteikuma formu zemāk. Iesnieguma formai ir jāpievieno:"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:70
+msgid "International cooperation"
+msgstr "Starptautiskā sadarbība"
+
+#: eea.design/eea/design/browser/templates/language_selector.pt:56
+msgid "Invalid translation"
+msgstr "Nederīgs tulkojums"
+
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:12
 msgid "Invalidate"
 msgstr "Nederīgu"
@@ -2126,13 +2183,12 @@ msgstr "Īrija"
 msgid "Is this publication for sale?"
 msgstr "Vai šī publikācija pārdošanā?"
 
+msgid "Italian"
+msgstr "Itāļu"
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:54
 msgid "Italy"
 msgstr "Italy"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:125
-msgid "Item type"
-msgstr "Postenis tips"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:147
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:82
@@ -2143,7 +2199,7 @@ msgstr "JSON"
 msgid "JSON Url:"
 msgstr "JSON Url:"
 
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:64
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:57
 msgid "Job title"
 msgstr "Ieņemamais amats"
 
@@ -2200,13 +2256,9 @@ msgstr "Kongens Nytorv 6, 1050, Kopenhāgena K, Dānija."
 
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:230
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:131
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:43
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:42
 msgid "Land use"
 msgstr "Zemes izmantošana"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:199
-msgid "Last log-in"
-msgstr "Pēdējās pieteikšanās"
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:34
 msgid "Last modified"
@@ -2218,11 +2270,7 @@ msgstr "Pēdējās izmaiņas"
 msgid "Last modified: ${modified-date}"
 msgstr "Pēdējās izmaiņas: ${modified-date}"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:213
-msgid "Last month"
-msgstr "Pēdējā mēneša laikā"
-
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:60
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:53
 msgid "Last name"
 msgstr "Uzvārds"
 
@@ -2239,10 +2287,6 @@ msgstr "Pēdējo reizi atjaunināta:"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:354
 msgid "Last upload:"
 msgstr "Pēdējā augšupielāde:"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:209
-msgid "Last week"
-msgstr "Pagājušajā nedēļā"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:118
 msgid "Latest ${title}"
@@ -2270,6 +2314,9 @@ msgstr "Jaunākās publikācijas par Eiropas vides publicējusi EVA."
 msgid "Latvia"
 msgstr "· Latvijā"
 
+msgid "Latvian"
+msgstr "Latvijas"
+
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:126
 msgid "Legacy portlets"
 msgstr "Mantojums portlets"
@@ -2284,8 +2331,8 @@ msgid "Liechtenstein"
 msgstr "Lihtenšteina"
 
 #: eea/mediacentre/Multimedia/multimedia.pt:116
-#: eea/mediacentre/browser/multimedia_popup_view.pt:60
-#: eea/mediacentre/browser/video_popup_view.pt:80
+#: eea/mediacentre/browser/multimedia_popup_view.pt:61
+#: eea/mediacentre/browser/video_popup_view.pt:79
 msgid "Link"
 msgstr "Izveidot saiti"
 
@@ -2353,9 +2400,8 @@ msgstr "Saraksts nav pieejams"
 msgid "Lithuania"
 msgstr "· Lietuvā"
 
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:93
-msgid "LiveSearch &hellip;"
-msgstr "Livesearch ..."
+msgid "Lithuanian"
+msgstr "Lietuviešu"
 
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:16
 msgid "Loading..."
@@ -2419,6 +2465,9 @@ msgstr "Padarīt pilnekrāna"
 msgid "Malta"
 msgstr "Malta"
 
+msgid "Maltese"
+msgstr "Maltas"
+
 #: eea.design/eea/design/browser/templates/manage_footer.pt:24
 msgid "Manage Footer Portlets"
 msgstr "Pārvaldīt kājenes Portlets"
@@ -2435,14 +2484,6 @@ msgstr "Kartes izvietojums"
 #: eea.reports/eea/reports/browser/report.pt:165
 msgid "Maps and graphs"
 msgstr "Kartes un diagrammas"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:109
-msgid "Match all"
-msgstr "Neatbilst visiem"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:98
-msgid "Match any"
-msgstr "Atbilst kādam"
 
 #: eea/mediacentre/browser/statistics.pt:9
 msgid "Media Centre is a virtual repository of multimedia files. It can be videos, interviews, maps, animations, images etc. The repository right now contains:"
@@ -2513,9 +2554,8 @@ msgstr "Trūkstošās lauki"
 msgid "Mix links examples"
 msgstr "Sajauc saites piemēri"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:389
-msgid "Modification Date"
-msgstr "Modifikācija Datums"
+msgid "Mobile"
+msgstr "Mobilo"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:58
 #: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:28
@@ -2541,7 +2581,7 @@ msgstr "Vēl"
 msgid "More data viewers"
 msgstr "Vairāk datu viewers"
 
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:32
+#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:24
 msgid "More green tips"
 msgstr "Vairāk zaļie padomi"
 
@@ -2561,16 +2601,16 @@ msgstr "Vairāk interaktīvās datu skatītājiem"
 msgid "More multimedia"
 msgstr "Vairāk multivides"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:115
-msgid "More search options"
-msgstr "Vairāk meklēšanas iespējas"
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:66
+msgid "More networks"
+msgstr "Vairāk tīklu"
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:162
 msgid "More subscriptions are available at ${link}"
 msgstr "Vairāk abonēšana ir pieejama pie ${link}"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:64
-#: eea/mediacentre/browser/video_popup_view.pt:81
+#: eea/mediacentre/browser/multimedia_popup_view.pt:65
+#: eea/mediacentre/browser/video_popup_view.pt:80
 msgid "More videos"
 msgstr "Vairāk video"
 
@@ -2634,7 +2674,7 @@ msgstr "Valsts un reģionālās stāsti"
 msgid "National and regional story"
 msgstr "Valsts un reģionālā stāsts"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:46
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:45
 msgid "Natural resources"
 msgstr "Dabas resursi"
 
@@ -2655,13 +2695,17 @@ msgstr "Navigācijas darbībām"
 msgid "Netherlands"
 msgstr "Nīderlande"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
+msgid "Network of the Heads of Environment Protection Agencies (EPA network)"
+msgstr "Tīkls no Vides aizsardzības aģentūru (EPA tīkls) vadītāju"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:5
+msgid "Networks"
+msgstr "Tīkli"
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:37
 msgid "New icons or updates can be done via the mimetypes_registry in the Plone CMS or through the EEADesign2006 product. Contact the EEA web development team in this case."
 msgstr "Jaunas ikonas vai precizējumi var izdarīt caur mimetypes_registry šajā Plone CMS vai ar EEADesign2006 produktu. Sazinieties ar EEZ web izstrādes komandu šajā lietā."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:179
-msgid "New items since"
-msgstr "Jauni datu vienumi kopš"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:190
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:72
@@ -2676,7 +2720,10 @@ msgstr "Jaunizveidotā ${type_name}"
 msgid "Newly created work item"
 msgstr "Jaunizveidoto darba prece"
 
-#: eea/mediacentre/browser/video_popup_view.pt:36
+msgid "News"
+msgstr "Jaunumi"
+
+#: eea/mediacentre/browser/video_popup_view.pt:35
 msgid "News and articles"
 msgstr "Jaunumi un raksti"
 
@@ -2711,10 +2758,6 @@ msgstr "Turpmāka darba apraksts ir norādīts"
 #: EEAContentTypes/browser/crop/cropping.pt:15
 msgid "No images found."
 msgstr "Nav atrasti attēli."
-
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:94
-msgid "No matching results found."
-msgstr "Nav atrasti atbilstoši rezultāti."
 
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:23
 msgid "No media files of this kind yet."
@@ -2756,7 +2799,7 @@ msgstr "Nav saistītie politikas dokumenti ir norādīts"
 msgid "No resource needs have been specified"
 msgstr "Nav resursu vajadzības ir noteiktas"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:203
+#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:205
 msgid "No results are available for this topic"
 msgstr "Nav rezultāti ir pieejami šajā tēmā"
 
@@ -2789,7 +2832,7 @@ msgstr "Neviens vienības ir noteiktas"
 msgid "No."
 msgstr "Nē"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:49
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:48
 msgid "Noise"
 msgstr "Skaņa"
 
@@ -2801,6 +2844,9 @@ msgstr "Normālais"
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:53
 msgid "Norway"
 msgstr "Norway"
+
+msgid "Norwegian"
+msgstr "Norvēģu"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:25
 msgid "Note that for authenticated users the info below include the unpublished content."
@@ -2975,6 +3021,14 @@ msgstr "Mātes datu kopums:"
 msgid "Password"
 msgstr "Parole"
 
+#: eea.design/eea/design/skins/eea_design/portlet_promo_gallery.pt:94
+msgid "Pause"
+msgstr "Pauze"
+
+#: eea.design/eea/design/skins/eea_design/portlet_promo_gallery.pt:94
+msgid "Pause slideshow"
+msgstr "Pauze slaidrādi"
+
 #: eea.versions/eea/versions/skins/versions_templates/versions_macros.pt:12
 msgid "Permalink to latest version"
 msgstr "Permalink uz jaunāko versiju"
@@ -3030,7 +3084,7 @@ msgid "Please provide the following contact information"
 msgstr "Lūdzu, sniedziet šādu kontaktinformāciju"
 
 #: eea.indicators/eea/indicators/browser/specification.py:259
-#: eea.versions/eea/versions/versions.py:481
+#: eea.versions/eea/versions/versions.py:494
 msgid "Please specify a valid Version ID."
 msgstr "Lūdzu, norādiet derīgu versija ID."
 
@@ -3046,13 +3100,16 @@ msgstr "Politika"
 msgid "Policy context and targets"
 msgstr "Politikas konteksts un mērķi"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:132
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:131
 msgid "Policy instruments<br />"
 msgstr "Politikas instrumenti <br />"
 
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:83
 msgid "Policy issue"
 msgstr "Politikas jautājums"
+
+msgid "Polish"
+msgstr "Poļu"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:258
 msgid "Pony"
@@ -3094,6 +3151,9 @@ msgstr "Portlet nosaukums"
 msgid "Portugal"
 msgstr "Portugal"
 
+msgid "Portuguese"
+msgstr "Portugāļu"
+
 #: eea.relations/eea/relations/profiles/default/controlpanel.xml
 msgid "Possible relations"
 msgstr "Iespējamās attiecības"
@@ -3103,7 +3163,7 @@ msgstr "Iespējamās attiecības"
 msgid "Presentation on old EEA domain"
 msgstr "Prezentācija par veco EEZ domēnā"
 
-#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:42
+#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:43
 msgid "Press the link to create a new content item in its default location"
 msgstr "Nospiediet uz saites, lai izveidotu jaunu satura elementu tās noklusējuma atrašanās vietā"
 
@@ -3148,7 +3208,7 @@ msgstr "Uzrādītie kartes un diagrammas"
 msgid "Product"
 msgstr "Produkta"
 
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:66
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:59
 msgid "Programme"
 msgstr "Programma"
 
@@ -3189,6 +3249,9 @@ msgstr "Publicēšana fails"
 #: eea.reports/eea/reports/subtypes/report.py:149
 msgid "Publication groups"
 msgstr "Publikācija grupas"
+
+msgid "Publications"
+msgstr "Publikācijas"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:205
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:328
@@ -3269,7 +3332,7 @@ msgstr "Lasīt vēl"
 msgid "Read more of the key fact"
 msgstr "Lasīt vairāk galveno faktu"
 
-#: eea/themecentre/skins/themecentre_templates/portlet_themes_common.pt:45
+#: eea/themecentre/skins/themecentre_templates/portlet_themes_common.pt:47
 msgid "Read report"
 msgstr "Lasīt ziņojumu"
 
@@ -3345,7 +3408,7 @@ msgstr "Saistītās tēmas"
 msgid "Related topics"
 msgstr "Saistītās tēmas"
 
-#: eea/mediacentre/browser/video_popup_view.pt:35
+#: eea/mediacentre/browser/video_popup_view.pt:34
 msgid "Related videos"
 msgstr "Related videos"
 
@@ -3356,10 +3419,6 @@ msgstr "Saistītās mājas lapas"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:316
 msgid "Relation:"
 msgstr "Attiecības:"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:383
-msgid "Relevance"
-msgstr "Atbilstība"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:147
 msgid "Remember my email address."
@@ -3498,42 +3557,10 @@ msgstr "Resursu vajadzības"
 msgid "Responsibility and ownership"
 msgstr "Atbildību un īpašumtiesību"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:401
-msgid "Results per page"
-msgstr "Rezultātus uz lappuses"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:184
-msgid "Return items added since you were last logged on, the last week, etc."
-msgstr "Uzrāda datu vienumus, kas pievienoti pēc Jūsu pēdējās pieteikšanās, pagājušajā nedēļā, uc"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:296
-msgid "Return items created by a particular person."
-msgstr "Atgriezties priekšmetus, ko rada konkrētā persona."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:70
-msgid "Return items matching some or all of these tags. Multiple words may be found by pressing <strong>Ctrl</strong> (or <strong>Apple</strong> key on Mac) while clicking the keywords."
-msgstr "Atgriezties priekšmetus atbilstošas ​​dažus vai visus no šiem tagiem. Vairākus vārdus var atrast, nospiežot <strong> Ctrl </ strong> (vai <strong> Apple </ strong> taustiņu uz Mac) un klikšķinot uz atslēgvārdiem."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:354
-msgid "Return items matching this description. Multiple words may be found by combining them with <strong>AND</strong> and <strong>OR</strong>."
-msgstr "Atgriezties preces atbilst šim aprakstam. Vairākus vārdus var atrast, sakombinējot tos ar <strong> UN </ strong> un <strong> OR </ strong>."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:331
-msgid "Return items matching this title."
-msgstr "Atgriezties priekšmetus atbilstošas ​​šo titulu."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:129
-msgid "Return items of a specific type."
-msgstr "Atgriezties priekšmetus specifiska veida."
-
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:35
 #: eea.design/eea/design/browser/templates/manage_footer.pt:26
 msgid "Return to view"
 msgstr "Atgriezties, lai apskatītu"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:232
-msgid "Review status"
-msgstr "Pārskata statuss"
 
 #: eea.indicators/eea/indicators/profiles/default/actions.xml
 #: eea.versions/eea/versions/profiles/default/actions.xml
@@ -3547,6 +3574,13 @@ msgstr "Tiesības:"
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:69
 msgid "Romania"
 msgstr "Rumānija"
+
+msgid "Romanian"
+msgstr "Rumāņu"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:28
+msgid "SEIS network"
+msgstr "SEIS tīkls"
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:53
 msgid "SOER 2010 website"
@@ -3579,7 +3613,7 @@ msgid "Sample Text"
 msgstr "Parauga teksts"
 
 #: EEAContentTypes/browser/reorder.pt:76
-#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:133
+#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:135
 #: eea.app.visualization/eea/app/visualization/facets/edit.py:65
 msgid "Save"
 msgstr "Saglabāt"
@@ -3601,6 +3635,10 @@ msgstr "Joma / Vietējā meklēšana"
 #: eea.design/eea/design/browser/templates/searchbox_cms.pt:25
 msgid "Search"
 msgstr "Meklēt"
+
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:7
+msgid "Search Europe's environment"
+msgstr "Meklēšana Eiropas vide"
 
 #: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:94
 msgid "Search Member:"
@@ -3641,10 +3679,6 @@ msgstr "Meklēt datu kopu un piemērošanu"
 #: eea.design/eea/design/skins/eeadesign_public/search.pt:82
 msgid "Search results"
 msgstr "Meklēšanas rezultāti"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:45
-msgid "Search text"
-msgstr "Meklējamais teksts"
 
 #: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:40
 msgid "Search this listing"
@@ -3701,10 +3735,6 @@ msgstr "Skatīt iepriekšējās versijas."
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:158
 msgid "See this ${indicator-specs} for more details."
 msgstr "Redzu ${indicator-specs} saņemtu sīkāku informāciju."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:143
-msgid "Select All/None"
-msgstr "Izvēlieties visus / nav"
 
 #: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:182
 msgid "Select all items"
@@ -3767,6 +3797,10 @@ msgstr "Iestatījumi ir piemēroti"
 msgid "Share with others"
 msgstr "Koplietojiet ar citiem"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:28
+msgid "Shared Environmental Information System (SEIS)"
+msgstr "Kopīgai vides informācijas sistēmai (SEIS)"
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:236
 msgid "Short description of the data resource"
 msgstr "Īss apraksts par datu resursa"
@@ -3774,10 +3808,6 @@ msgstr "Īss apraksts par datu resursa"
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:253
 msgid "Short term work"
 msgstr "Īstermiņa darba"
-
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:96
-msgid "Show all items"
-msgstr "Rādīt visas preces"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/countries_widget.pt:70
 msgid "Show map preview"
@@ -3787,8 +3817,8 @@ msgstr "Parādīt karti priekšskatījumu"
 msgid "Show table definition"
 msgstr "Rādīt tabulas definīciju"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:45
-#: eea/mediacentre/browser/video_popup_view.pt:66
+#: eea/mediacentre/browser/multimedia_popup_view.pt:46
+#: eea/mediacentre/browser/video_popup_view.pt:65
 msgid "Show the publishdate only (effective date)"
 msgstr "Parādīt publishdate tikai (spēkā)"
 
@@ -3804,10 +3834,6 @@ msgstr "Jo cepums autentifikācija ir invalīds, sīkdatne balstītas pieteikša
 msgid "Site Administration"
 msgstr "Vietnes administrācija"
 
-#: eea.design/eea/design/browser/templates/links_navigation.pt:9
-msgid "Site Map"
-msgstr "Vietnes karte"
-
 #: NavigationManager/skins/NavigationManager/sitemap.pt:14
 #: eea/themecentre/skins/themecentre_templates/overview.pt:14
 msgid "Site map"
@@ -3821,6 +3847,9 @@ msgstr "Uz saturu"
 msgid "Skip to navigation"
 msgstr "Pāriet uz navigāciju"
 
+msgid "Slovak"
+msgstr "Slovaku"
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:71
 msgid "Slovakia"
 msgstr "Slovākija"
@@ -3829,11 +3858,14 @@ msgstr "Slovākija"
 msgid "Slovenia"
 msgstr "Slovēnija"
 
+msgid "Slovenian"
+msgstr "Slovēņu"
+
 #: eea.design/eea/design/browser/templates/colophon.pt:80
 msgid "Software updates history"
 msgstr "Programmatūras atjauninājumus vēsture"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:52
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:51
 msgid "Soil"
 msgstr "Augsne"
 
@@ -3855,14 +3887,6 @@ msgstr "Šķīdums II"
 msgid "Some popular file extensions"
 msgstr "Dažas tautas failu paplašinājumi"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:374
-msgid "Sort results"
-msgstr "Kārtot rezultātus"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:376
-msgid "Sort the Search Results based on the selected criterion"
-msgstr "Kārtot meklēšanas rezultātus, balstoties uz izvēlēto kritēriju"
-
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:251
 msgid "Sortable tables"
 msgstr "Kārtojams galdi"
@@ -3875,9 +3899,16 @@ msgstr "Source"
 msgid "Spain"
 msgstr "Spānija"
 
+msgid "Spanish"
+msgstr "Spāņu"
+
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:21
 msgid "Spanish themes IMS link"
 msgstr "Spanish tēmas IMS saite"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:56
+msgid "Spatial Information and Analysis (SIA)"
+msgstr "Telpiskās Informācijas un analīze (SIA)"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:111
 msgid "Specific assessment"
@@ -3891,7 +3922,7 @@ msgstr "Konkrētu politikas jautājums"
 msgid "Specific policy question: ${title}"
 msgstr "Īpaša politika jautājums: ${title}"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:114
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:113
 msgid "Specific regions"
 msgstr "Noteikti reģioni"
 
@@ -3951,6 +3982,14 @@ msgstr "Iesniegt vides pasākumu"
 msgid "Submit event"
 msgstr "Iesniedz pasākumu"
 
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:38
+msgid "Subscribe by email"
+msgstr "Abonēt pa e-pastu"
+
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:33
+msgid "Subscribe to RSS Feed"
+msgstr "Parakstīties uz RSS Feed"
+
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:127
 #: eea.design/eea/design/skins/eeadesign_public/search.pt:96
 msgid "Subscribe to an always-updated feed of these search terms"
@@ -3968,9 +4007,16 @@ msgstr "izpildīts veiksmīgi"
 msgid "Summary view"
 msgstr "Kopsavilkuma skats"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:60
+msgid "Sustainable Consumption and Production (SCP)"
+msgstr "Ilgtspējīgs patēriņš un ražošana (SCP)"
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:74
 msgid "Sweden"
 msgstr "Sweden"
+
+msgid "Swedish"
+msgstr "Zviedru"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:27
 msgid "Swedish glossary"
@@ -4007,10 +4053,6 @@ msgstr "Tabulas definīcija"
 #: eea.design/eea/design/skins/eea_design/smart_view.pt:27
 msgid "Tabs view"
 msgstr "Cilnes skats"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:68
-msgid "Tags"
-msgstr "Atzīmes:"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:401
 msgid "Tags:"
@@ -4098,10 +4140,6 @@ msgstr "Dotais nosaukums resursā. Raksturīgi, nosaukums būs nosaukums, ar kur
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:232
 msgid "The nature or genre of the content of the resource. Type includes terms describing general categories, functions, genres, or aggregation levels for content"
 msgstr "Būtība vai žanrs satura resursu. Veids ietver terminus, kas raksturo vispārīgās kategorijas, funkcijas, žanrus vai apkopošanas līmeņus saturu"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:403
-msgid "The number of results that is displayed on one page."
-msgstr "Rezultātu skaits, kas tiek parādītas vienā lappusē."
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:55
 msgid "The portlet columns will now display only those portlets explicitly assigned in this context. Use the buttons on each portlet to move them up or down, delete or edit them. To add a new portlet, use the drop-down list at the top of the column."
@@ -4273,14 +4311,6 @@ msgstr "Šī lapa parāda kopējo html markup, css klases un Javascripts mēs iz
 msgid "This page was translated by the Translation Centre for the Bodies of the European Union (CdT)"
 msgstr "Šī lapa tika tulkots Tulkošanas centrs par Eiropas Savienības (CdT) institūciju"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:19
-msgid "This search form enables you to find content on the site by specifying one or more search terms. <br /> Remember that you can use the quick search anytime, it's normally good enough, this search form is just if you want to be more specific."
-msgstr "Šī meklēšana veidlapa ļauj jums atrast vietnes saturu, norādot vienu vai vairākus meklēšanas terminus. <br /> Atcerieties, ka jūs varat izmantot ātro meklēšanu jebkurā laikā, tas parasti ir pietiekami labs, šī meklēšana forma ir vienkārši, ja jūs vēlaties būt konkrētāks."
-
-#: eea.design/eea/design/skins/eeadesign_public/search_form.pt:19
-msgid "This search form is disabled"
-msgstr "Šī meklēšana veidlapa ir atspējota"
-
 #: eea.design/eea/design/browser/templates/document_byline.pt:14
 msgid "This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser."
 msgstr "Šī mājas lapa ir ierobežota funkcionalitāte ar javascript off. Lūdzu pārliecinieties Javascript iespējotas jūsu pārlūkprogrammā."
@@ -4296,7 +4326,7 @@ msgstr "Grafiks pārskats par rādītāju datubāzes"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:50
 #: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:20
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:326
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:349
 msgid "Title"
 msgstr "Nosaukums"
 
@@ -4374,7 +4404,7 @@ msgstr "Darbinieku skaits kopā"
 msgid "Total:"
 msgstr "Pavisam lietotāju:"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:94
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:93
 msgid "Tourism"
 msgstr "Tūrisms"
 
@@ -4398,13 +4428,16 @@ msgstr "Transfērs uz"
 msgid "Translation Unavailable"
 msgstr "Tulkojums nav pieejams"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:98
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:97
 msgid "Transport"
 msgstr "Transports"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:76
 msgid "Turkey"
 msgstr "Turkey"
+
+msgid "Turkish"
+msgstr "Turku"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:23
 msgid "Turkish subfolder"
@@ -4502,7 +4535,7 @@ msgstr "Augšupielādēt Epub failu"
 msgid "Uploaded file"
 msgstr "Augšupielādēts fails"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:118
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:117
 msgid "Urban environment"
 msgstr "Pilsētvide"
 
@@ -4540,12 +4573,12 @@ msgstr "Izmanto šādās publikācijās"
 msgid "User not found:"
 msgstr "Lietotājs nav atrasts:"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:61
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:60
 msgid "Various other issues"
 msgstr "Dažādas citas tēmas"
 
 #: eea.indicators/eea/indicators/browser/specification.py:257
-#: eea.versions/eea/versions/versions.py:479
+#: eea.versions/eea/versions/versions.py:492
 msgid "Version ID changed."
 msgstr "Versija ID mainīts."
 
@@ -4558,7 +4591,7 @@ msgstr "Versija ID: ${number}"
 msgid "Version id: ${version-number}"
 msgstr "Versija ID: ${version-number}"
 
-#: eea.versions/eea/versions/versions.py:507
+#: eea.versions/eea/versions/versions.py:520
 msgid "Version revoked."
 msgstr "Versija atsaukta."
 
@@ -4650,12 +4683,12 @@ msgstr "Brīdinājuma! Core sabrukumu pie EEZ HQ koda super-duper-sarkans"
 msgid "Waste"
 msgstr "Atkritumi"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:55
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:54
 msgid "Waste and material resources"
 msgstr "Atkritumu un materiālie resursi"
 
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:258
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:58
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:57
 msgid "Water"
 msgstr "Ūdens"
 
@@ -4688,7 +4721,7 @@ msgid "What"
 msgstr "Ko"
 
 #: eea/themecentre/browser/templates/themes_view.pt:54
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:23
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:22
 msgid "What is happening?<br />Environmental issues"
 msgstr "Kas notiek? <br /> Vides jautājumi"
 
@@ -4710,7 +4743,7 @@ msgid "Which steps will bring us forward on the road to a Green economy?"
 msgstr "Kādi pasākumi tiks mūs uz priekšu ceļā uz videi draudzīgu ekonomiku?"
 
 #: eea/themecentre/browser/templates/themes_view.pt:68
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:66
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:65
 msgid "Why is it happening?<br />Sectors and activities"
 msgstr "Kāpēc tas notiek? <br /> Sektorus un darbības,"
 
@@ -4763,10 +4796,6 @@ msgstr "XML ar shēmu"
 msgid "Year"
 msgstr "Gads"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:205
-msgid "Yesterday"
-msgstr "Vakar"
-
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:48
 msgid "You are editing the default view of a container. If you wanted to edit the container itself, ${go_here}."
 msgstr "Rediģējat noklusējuma skatu konteinerā. Ja vēlaties rediģēt pats iepakojums, ${go_here}."
@@ -4782,10 +4811,6 @@ msgstr "Jūs varat arī saņemt kopiju no ${nearest-sale-agent} sniedzot pasūt�
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:188
 msgid "You can have arbitrary HTML in the pop-ups:"
 msgstr "Jūs varat būt patvaļīgi HTML pop-ups:"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:243
-msgid "You may search for items based on their review state. If you wish to constrain results to items in certain states, select them from this list."
-msgstr "Jūs varat meklēt preces atkarībā no to pārskata stāvokli. Ja vēlaties ierobežot rezultātus posteņu atsevišķu valstu, izvēlieties tos no šī saraksta."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:73
 msgid "You might have been looking for&hellip;"
@@ -4848,7 +4873,7 @@ msgid "and"
 msgstr "un"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:151
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:148
+#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:149
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:50
 msgid "archive"
 msgstr "arhīvs"
@@ -5034,6 +5059,21 @@ msgstr "indikators vadītājs"
 msgid "indicator specification"
 msgstr "indikators specifikācija"
 
+#. Default: "Advanced Search…"
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:106
+msgid "label_advanced_search"
+msgstr "label_advanced_search"
+
+#. Default: "No matching results found."
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:105
+msgid "label_no_results_found"
+msgstr "label_no_results_found"
+
+#. Default: "Show all items"
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:107
+msgid "label_show_all"
+msgstr "label_show_all"
+
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:71
 msgid "last converted:"
 msgstr "pēdējā konvertē:"
@@ -5043,6 +5083,11 @@ msgstr "pēdējā konvertē:"
 #: eea.design/eea/design/skins/eea_design/folder_listing.pt:210
 msgid "last modified"
 msgstr "Pēdējās izmaiņas"
+
+#. Default: "LiveSearch &#8595;"
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:104
+msgid "legend_livesearch"
+msgstr "legend_livesearch"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:336
 msgid "list of all icons available"
@@ -5061,7 +5106,7 @@ msgstr "mailto saite"
 msgid "more"
 msgstr "vēl"
 
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:27
+#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:19
 msgid "more green tips"
 msgstr "vairāk zaļie padomi"
 
