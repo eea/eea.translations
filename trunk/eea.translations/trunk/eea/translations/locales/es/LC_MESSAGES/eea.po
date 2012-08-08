@@ -26,7 +26,7 @@ msgstr "${date} ${linebreak} de ${starttime} de ${endtime}"
 msgid "${monthname} ${year}"
 msgstr "${monthname} ${year}"
 
-#: eea.geotags/eea/geotags/field/location.py:103
+#: eea.geotags/eea/geotags/field/location.py:106
 msgid "${name} is required, please correct."
 msgstr "${name} es requerido, por favor corregir."
 
@@ -42,10 +42,6 @@ msgstr "${number} ítems que coinciden con los términos de búsqueda"
 #: eea.workflow/eea/workflow/portlets/readiness.pt:28
 msgid "${percent}% percentage done."
 msgstr "Porcentaje de ${percent}% por ciento hecho."
-
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:149
-msgid "${portlet_footer_read_more}"
-msgstr "${portlet_footer_read_more} "
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:57
 msgid "${startdate} to ${linebreak} ${enddate}"
@@ -75,7 +71,7 @@ msgstr "${state} especificaciones"
 msgid "% tags currently selected."
 msgstr "Etiquetas% actualmente seleccionado."
 
-#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:65
+#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:64
 msgid "(${location}, from ${start} to ${end})"
 msgstr "(${location}, desde ${start} para ${end})"
 
@@ -96,7 +92,7 @@ msgstr "(Abierto: ${from-date} - Cierre: ${to-date})"
 msgid "(Required)"
 msgstr "Requerido."
 
-#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:77
+#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:76
 msgid "(from ${start} to ${end})"
 msgstr "(De ${start} para ${end})"
 
@@ -120,18 +116,6 @@ msgstr "- (Restringido a autenticado)"
 msgid "- [Media: ${media}]"
 msgstr "- [Media: ${media}]"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:410
-msgid "30"
-msgstr "30"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:413
-msgid "60"
-msgstr "60"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:416
-msgid "90"
-msgstr "90"
-
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:51
 msgid "<div> <span>x</span> <span>x</span> </div>"
 msgstr "<div <span> x </ span> x </ span> </ div>"
@@ -148,12 +132,16 @@ msgstr "Una nueva ventana se ha abierto con la aplicación Flash. <br /> Si no p
 msgid "A report publication."
 msgstr "Una publicación del informe."
 
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:22
+msgid "A-Z Glossary"
+msgstr "AZ Glosario"
+
 #: eea/mediacentre/Multimedia/multimedia.pt:107
 msgid "About this item"
 msgstr "Acerca de este tema"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:37
-#: eea/mediacentre/browser/video_popup_view.pt:37
+#: eea/mediacentre/browser/multimedia_popup_view.pt:38
+#: eea/mediacentre/browser/video_popup_view.pt:36
 msgid "About this video"
 msgstr "Sobre este vídeo"
 
@@ -166,7 +154,7 @@ msgid "Accordion view"
 msgstr "Acordeón de vista"
 
 #: eea/themecentre/browser/templates/themes_view.pt:99
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:124
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:123
 msgid "Across environmental issues and sectors"
 msgstr "A través de las cuestiones ambientales y de los sectores"
 
@@ -230,29 +218,28 @@ msgid "Advanced Search"
 msgstr "Búsqueda avanzada"
 
 #: eea.design/eea/design/browser/templates/searchbox_cms.pt:50
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:95
 msgid "Advanced Search&hellip;"
 msgstr "Búsqueda avanzada"
 
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:19
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:58
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:23
 msgid "Advanced search"
 msgstr "Búsqueda avanzada"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:16
-#: eea.design/eea/design/skins/eeadesign_public/search_form.pt:16
-msgid "Advanced search for content"
-msgstr "Búsqueda avanzada por contenido"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:70
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:69
 msgid "Agriculture"
 msgstr "Agricultura"
 
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:144
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:113
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:27
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:26
 msgid "Air pollution"
 msgstr "Contaminación atmosférica"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:38
+msgid "Air pollution and Climate Change mitigation (ACM)"
+msgstr "La contaminación del aire y la mitigación del Cambio Climático (ACM)"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:33
 msgid "Albania"
@@ -292,6 +279,9 @@ msgstr "Todos los mensajes fundamentales"
 msgid "All links in state ${state}"
 msgstr "Todos los enlaces en el estado ${state}"
 
+msgid "All products"
+msgstr "Todos los productos"
+
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:37
 #: eea/themecentre/browser/templates/themes_view.pt:51
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:20
@@ -319,10 +309,6 @@ msgstr "Alternativa"
 #: eea/themecentre/skins/themecentre_templates/overview.pt:16
 msgid "An overview of the available content on this site. Keep the pointer still over an item for a few seconds to get its description."
 msgstr "Una visión general del contenido disponible en este sitio. Mantenga el cursor quieto sobre un elemento durante unos segundos para obtener su descripción."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:305
-msgid "Any Author"
-msgstr "Cualquier Autor"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:140
 msgid "Any version."
@@ -360,6 +346,9 @@ msgstr "Archivo o el título para más artículos"
 #: eea.sparql/eea/sparql/browser/view.pt:62
 msgid "Are you new to Linked Data technology? visit http://linkeddata.org"
 msgstr "¿Eres nuevo en tecnología Linked Data? visite http://linkeddata.org"
+
+msgid "Articles"
+msgstr "/articles"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:111
 msgid "Ask your question"
@@ -406,11 +395,10 @@ msgstr "Austria"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:53
 #: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:23
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:291
 msgid "Author"
 msgstr "Autorización"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:50
+#: eea/mediacentre/browser/multimedia_popup_view.pt:51
 #: eea/mediacentre/browser/video-listed-single.pt:34
 #: eea/mediacentre/browser/video.pt:60
 msgid "Author:"
@@ -481,9 +469,13 @@ msgid "Best regards"
 msgstr "Atentamente,"
 
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:173
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:31
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:30
 msgid "Biodiversity"
 msgstr "Biodiversidad"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:42
+msgid "Biological Diversity (BD)"
+msgstr "La Diversidad Biológica (BD)"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:36
 msgid "Bosnia and Herzegovina"
@@ -525,6 +517,9 @@ msgstr "Examinar..."
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:37
 msgid "Bulgaria"
 msgstr "Bulgaria"
+
+msgid "Bulgarian"
+msgstr "Búlgaro"
 
 #: eea/mediacentre/Multimedia/multimedia2.pt:108
 msgid "By location"
@@ -579,6 +574,10 @@ msgstr "Cárpatos"
 msgid "Category"
 msgstr "Categoría"
 
+#: eea.design/eea/design/browser/templates/language_selector.pt:13
+msgid "Change language"
+msgstr "Cambiar de idioma"
+
 #: eea.indicators/eea/indicators/skins/indicators_templates/simple_content_edit_impl.py:35
 msgid "Changes saved."
 msgstr "Cambios guardados."
@@ -607,7 +606,7 @@ msgstr "Marca esta casilla para que su dirección de correo electrónico rellena
 msgid "Check this to have your user name filled in automatically when you log in later."
 msgstr "Marca esta casilla para que su nombre de usuario rellenará de forma automática al iniciar sesión en la tarde."
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:34
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:33
 msgid "Chemicals"
 msgstr "Productos químicos"
 
@@ -641,8 +640,12 @@ msgstr "Haga clic en mí!"
 msgid "Click to view full-size image&hellip; <span>${DYNAMIC_CONTENT}</span>"
 msgstr "Haga clic para ver la imagen a tamaño completo ... <span>${DYNAMIC_CONTENT}</ span>"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:47
+msgid "Climate Change Impacts, Vulnerability and Adaptation (CCA)"
+msgstr "Impactos del Cambio Climático, Vulnerabilidad y Adaptación (CCA)"
+
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:202
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:37
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:36
 msgid "Climate change"
 msgstr "Cambio climático"
 
@@ -654,7 +657,7 @@ msgstr "Mitigación del cambio climático"
 msgid "Close"
 msgstr "Cerrar"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:110
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:109
 msgid "Coasts and seas"
 msgstr "Costas y mares"
 
@@ -693,7 +696,7 @@ msgstr "Confirme su evento"
 msgid "Confirmation message for <strong>${type}</strong> with scheduled publishing date <strong>${date}</strong>"
 msgstr "Confirmación de mensaje para <strong>${type}</ strong>, con fecha de publicación prevista <strong>${date}</ strong>"
 
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:62
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:55
 msgid "Contact"
 msgstr "Contacto"
 
@@ -725,6 +728,9 @@ msgstr "Póngase en contacto con enlace"
 msgid "Contact references at EEA:"
 msgstr "Póngase en contacto con las referencias a los fines del EEE:"
 
+msgid "Contact us"
+msgstr "Contáctanos"
+
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:161
 msgid "Contacts and ownership"
 msgstr "Contactos y la propiedad"
@@ -742,7 +748,7 @@ msgstr "Contenido"
 msgid "Content license"
 msgstr "Contenido de la licencia"
 
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:53
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:46
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:47
 #: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:17
 msgid "Content listing"
@@ -856,7 +862,7 @@ msgstr "Preguntas Perfil del país: ${count}, de 4 de"
 msgid "Country profile: read more"
 msgstr "Perfil del país: leer más"
 
-#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:40
+#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:41
 msgid "Create ${DYNAMIC_CONTENT}"
 msgstr "Crear ${DYNAMIC_CONTENT}"
 
@@ -884,7 +890,7 @@ msgstr "Crear una promoción para este artículo"
 msgid "Create and apply new tags."
 msgstr "Crear y aplicar nuevas etiquetas."
 
-#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:35
+#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:36
 msgid "Create new"
 msgstr "Crear un nuevo"
 
@@ -896,10 +902,6 @@ msgstr "Crear una nueva versión"
 #: eea.design/eea/design/browser/templates/document_byline.pt:24
 msgid "Created"
 msgstr "Creado"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:386
-msgid "Creation Date"
-msgstr "Fecha de creación"
 
 #: eea.design/eea/design/browser/templates/colophon.pt:68
 msgid "Creative Commons Attribution License"
@@ -941,6 +943,9 @@ msgstr "Actualmente contamos con ${nr} de suscriptores. Frecuencia: 3-4 emails a
 msgid "Cyprus"
 msgstr "Chipre"
 
+msgid "Czech"
+msgstr "Checo"
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:40
 msgid "Czech Republic"
 msgstr "República Checa"
@@ -951,9 +956,11 @@ msgstr "República Checa"
 msgid "DPSIR"
 msgstr "DPSIR"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:111
-msgid "Data download"
-msgstr "La descarga de datos"
+msgid "Danish"
+msgstr "Danés"
+
+msgid "Data and maps"
+msgstr "Los datos y mapas"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:63
 msgid "Data link"
@@ -983,6 +990,10 @@ msgstr "- Origen de los datos:"
 #: eea.daviz/eea/daviz/content/schema.py:159
 msgid "Data source Organisation"
 msgstr "Datos de la Organización de origen"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:111
+msgid "Data source download"
+msgstr "La descarga de datos de origen"
 
 #: eea.daviz/eea/daviz/content/schema.py:147
 msgid "Data source link"
@@ -1059,10 +1070,6 @@ msgstr "Sub-Director:"
 msgid "Derived data set:"
 msgstr "Datos derivados establece:"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:349
-msgid "Description"
-msgstr "descripción"
-
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
 msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 msgstr "¿No ha encontrado lo que buscabas? Pruebe el ${advanced_search} para refinar su búsqueda."
@@ -1083,10 +1090,6 @@ msgstr "Renuncia"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:445
 msgid "Disclaimer:"
 msgstr "Renuncia a responsabilidades:"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:370
-msgid "Display options"
-msgstr "Opciones de visualización"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:172
 msgid "Display traceback as text"
@@ -1166,6 +1169,9 @@ msgstr "Proyecto (aún no publicado - no garantía de calidad)"
 msgid "Duplicate organisations"
 msgstr "Duplicar las organizaciones"
 
+msgid "Dutch"
+msgstr "Holandés"
+
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:42
 msgid "E-mail (Questions only):"
 msgstr "E-mail (Preguntas solamente):"
@@ -1182,10 +1188,6 @@ msgstr "EDO:"
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:132
 msgid "EEA"
 msgstr "EEE"
-
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:37
-msgid "EEA Central fax"
-msgstr "Fax central de la AEMA"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:162
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:302
@@ -1244,10 +1246,6 @@ msgstr "Lista de personal de la AEMA"
 msgid "EEA Subscriptions"
 msgstr "EEE Suscripciones"
 
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:35
-msgid "EEA Switchboard"
-msgstr "Centralita de la AEMA"
-
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:137
 msgid "EEA Themes"
 msgstr "Temas del EEE"
@@ -1265,6 +1263,9 @@ msgstr "EEE de datos las referencias"
 msgid "EEA enquiry service"
 msgstr "EEE de información sobre servicios"
 
+msgid "EEA homepage in your language"
+msgstr "EEE página de inicio en su idioma"
+
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:591
 msgid "EEA management plan code:"
 msgstr "Administración de la AEMA código del plan:"
@@ -1277,6 +1278,10 @@ msgstr "EEE notificación de cuenta de servicio"
 msgid "EEA website search"
 msgstr "EEE búsqueda en sitios web"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
+msgid "EPA network"
+msgstr "La EPA de la red"
+
 #: eea.epub/eea/epub/skins/eea_epub/portlet_epub.pt:7
 msgid "EPUB format"
 msgstr "Formato ePub"
@@ -1288,6 +1293,10 @@ msgstr "ERROR: Ha ocurrido un error al exportar la imagen. Por favor, inténtelo
 #: eea.design/eea/design/browser/templates/colophon.pt:36
 msgid "EU flag"
 msgstr "Bandera de la UE"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:69
+msgid "EU partners"
+msgstr "Socios de la UE"
 
 #: eea.reports/eea/reports/browser/report.pt:205
 msgid "EU-Bookshop"
@@ -1356,6 +1365,10 @@ msgstr "Editar las opciones de búsqueda"
 msgid "Editing progress"
 msgstr "Edición de los avances"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:19
+msgid "Eionet"
+msgstr "Eionet"
+
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:55
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:93
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:23
@@ -1374,9 +1387,12 @@ msgstr "Correo electrónico"
 msgid "Enable user feedback"
 msgstr "Habilitar comentarios de los usuarios"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:74
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:73
 msgid "Energy"
 msgstr "Energía"
+
+msgid "English"
+msgstr "ESPAÑOL"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:25
 msgid "English eionet"
@@ -1410,12 +1426,16 @@ msgstr "Introduzca una etiqueta por línea, varias palabras permitido."
 msgid "Entire documentation area"
 msgstr "Todo el área de documentación"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:40
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:25
+msgid "EnviroWindows"
+msgstr "EnviroWindows"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:39
 msgid "Environment and health"
 msgstr "Medio ambiente y salud"
 
 #: eea/themecentre/browser/templates/themes_view.pt:85
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:106
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:105
 msgid "Environment in different regions and specific areas"
 msgstr "Medio Ambiente en las diferentes regiones y áreas específicas"
 
@@ -1432,11 +1452,11 @@ msgstr "Acontecimientos ambientales en todo el mundo"
 msgid "Environmental information anywhere"
 msgstr "La información ambiental en cualquier lugar"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:136
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:135
 msgid "Environmental scenarios"
 msgstr "Escenarios medioambientales"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:128
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:127
 msgid "Environmental technology"
 msgstr "Tecnología medioambiental"
 
@@ -1451,6 +1471,9 @@ msgstr "Referencias de error"
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:42
 msgid "Estonia"
 msgstr "Estonia"
+
+msgid "Estonian"
+msgstr "Estonio"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:27
 msgid "Europe"
@@ -1477,6 +1500,10 @@ msgstr "Agencia Europea de Medio Ambiente"
 msgid "European Environment Agency (EEA)"
 msgstr "Agencia Europea del Medio Ambiente (AEMA)"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:33
+msgid "European Topic Centres (ETCs)"
+msgstr "Centros Temáticos Europeos (CTE)"
+
 #: eea.design/eea/design/browser/templates/colophon.pt:36
 msgid "European Union Flag"
 msgstr "Bandera de la Unión Europea"
@@ -1484,10 +1511,6 @@ msgstr "Bandera de la Unión Europea"
 #: EEAContentTypes/skins/EEAContentTypes/event_submitted_confirmation.pt:12
 msgid "Event sent"
 msgstr "Evento enviado"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:216
-msgid "Ever"
-msgstr "- ¿Nunca?"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:34
 msgid "Excel doc on secure external link"
@@ -1532,6 +1555,10 @@ msgstr "Referencias de datos externos"
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:12
 msgid "Eye On Earth – Citizen observatory on air and bathing water quality"
 msgstr "Eye on Earth - Observatorio Ciudadano sobre la calidad del aire y las aguas de baño"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:8
+msgid "Eye on Earth"
+msgstr "Eye on Earth"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:73
 msgid "FAQs"
@@ -1680,13 +1707,16 @@ msgstr "Encontrar y reutilizar los datos existentes"
 msgid "Finland"
 msgstr "Finlandia"
 
+msgid "Finnish"
+msgstr "Finlandés"
+
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:201
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:324
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:387
 msgid "First draft created: ${creation-date}"
 msgstr "Primer proyecto de creación: ${creation-date}"
 
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:58
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:51
 msgid "First name"
 msgstr "Nombre"
 
@@ -1698,7 +1728,7 @@ msgstr "En primer título del panel"
 msgid "First tab"
 msgstr "[First Tab]"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:78
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:77
 msgid "Fisheries"
 msgstr "Pesca"
 
@@ -1710,13 +1740,22 @@ msgstr "Información sobre herramientas flexibles"
 msgid "Folder overview"
 msgstr "Carpeta panorama"
 
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:16
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:69
 msgid "Follow us"
 msgstr "Síganos:"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:47
-msgid "For a simple text search, enter your search term here. Multiple words may be found by combining them with <strong>AND</strong> and <strong>OR</strong>. The text in this field will be matched with items' contents, title and description."
-msgstr "Para una busqueda simple, introduzca el término a buscar aqui. Puede utilizar varias palabras, combinándolas con <strong> Y </ strong> y <strong> O </ strong>. El texto de este campo será comparado con los elementos de contenido, título y descripción."
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:23
+msgid "Follow us on Facebook"
+msgstr "Síganos en Facebook"
+
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:18
+msgid "Follow us on Twitter"
+msgstr "Sígenos en Twitter"
+
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:28
+msgid "Follow us on YouTube"
+msgstr "Síguenos en YouTube"
 
 #: EEAContentTypes/browser/crop/cropping.pt:20
 msgid "For each image field in your content you can select below the image you want to crop."
@@ -1761,6 +1800,9 @@ msgstr "Francia"
 msgid "Free text search"
 msgstr "Búsqueda de texto libre"
 
+msgid "French"
+msgstr "Francés"
+
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:137
 msgid "Freshwater"
 msgstr "Agua dulce"
@@ -1771,10 +1813,6 @@ msgstr "Nombre descriptivo"
 
 #: eea.promotion/eea/promotion/browser/form.pt:28
 msgid "Front Page"
-msgstr "Portada"
-
-#: eea.design/eea/design/browser/templates/links_navigation.pt:3
-msgid "Front page"
 msgstr "Portada"
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:79
@@ -1817,6 +1855,9 @@ msgstr "Cobertura geográfica:"
 msgid "Geotags:"
 msgstr "Etiquetas geográficas:"
 
+msgid "German"
+msgstr "Alemán"
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:49
 msgid "Germany"
 msgstr "Alemania"
@@ -1855,15 +1896,13 @@ msgstr "Búsqueda de Google"
 msgid "Greece"
 msgstr "Grecia"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:90
+msgid "Greek"
+msgstr "Griego"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:89
 msgid "Green economy"
 msgstr "Economía verde"
 
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:18
-msgid "Green tip icon"
-msgstr "Verde punta del ícono"
-
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:21
 #: eea/mediacentre/Multimedia/multimedia.pt:150
 #: eea/mediacentre/Multimedia/multimedia2.pt:128
 msgid "Green tips"
@@ -1902,13 +1941,16 @@ msgstr "historia."
 msgid "Home"
 msgstr "Página Principal"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:82
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:81
 msgid "Household consumption"
 msgstr "Consumo de los hogares"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:74
 msgid "How-tos"
 msgstr "Como hacer"
+
+msgid "Hungarian"
+msgstr "Húngaro"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:51
 msgid "Hungary"
@@ -1929,6 +1971,9 @@ msgstr "Nieve/Helado"
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:52
 msgid "Iceland"
 msgstr "Islandia"
+
+msgid "Icelandic"
+msgstr "Islandés"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:29
 msgid "Icons based on file extension, on different external sites and protocols"
@@ -2057,7 +2102,7 @@ msgstr "Indicador de la definición"
 msgid "Indicators that have wrong version ids"
 msgstr "Los indicadores que tienen identificadores de versión incorrecta"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:86
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:85
 msgid "Industry"
 msgstr "Industria"
 
@@ -2077,6 +2122,10 @@ msgstr "Información sobre el Centro de prensa"
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:23
 msgid "Inherit faceted navigation configuration from:"
 msgstr "Heredar la configuración de navegación facetada de:"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:51
+msgid "Inland, Coastal and Marine waters (ICM)"
+msgstr "Aguas continentales, costeras y marinas (ICM)"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:146
 msgid "Insert publication keywords to search for"
@@ -2102,6 +2151,14 @@ msgstr "Visores de datos interactivos"
 msgid "Interested candidates must apply by filling in the application form below. To the application form must be attached:"
 msgstr "Los candidatos interesados ​​deberán presentar su solicitud rellenando el formulario de solicitud a continuación. Para el formulario de solicitud se debe adjuntar:"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:70
+msgid "International cooperation"
+msgstr "Cooperación internacional"
+
+#: eea.design/eea/design/browser/templates/language_selector.pt:56
+msgid "Invalid translation"
+msgstr "Traducción no válido"
+
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:12
 msgid "Invalidate"
 msgstr "Invalidar"
@@ -2126,13 +2183,12 @@ msgstr "Irlanda"
 msgid "Is this publication for sale?"
 msgstr "¿Es esta publicación a la venta?"
 
+msgid "Italian"
+msgstr "Italiano"
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:54
 msgid "Italy"
 msgstr "Italia"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:125
-msgid "Item type"
-msgstr "Tipo de artículo"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:147
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:82
@@ -2143,7 +2199,7 @@ msgstr "JSON"
 msgid "JSON Url:"
 msgstr "JSON Url:"
 
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:64
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:57
 msgid "Job title"
 msgstr "Título trabajo"
 
@@ -2200,13 +2256,9 @@ msgstr "Kongens Nytorv 6, 1050, Copenhague K, Dinamarca."
 
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:230
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:131
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:43
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:42
 msgid "Land use"
 msgstr "Usos del suelo"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:199
-msgid "Last log-in"
-msgstr "Último inicio de sesión"
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:34
 msgid "Last modified"
@@ -2218,11 +2270,7 @@ msgstr "Última modificación"
 msgid "Last modified: ${modified-date}"
 msgstr "Última modificación: {$ modificada fecha}"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:213
-msgid "Last month"
-msgstr "Mes pasado"
-
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:60
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:53
 msgid "Last name"
 msgstr "Apellidos"
 
@@ -2239,10 +2287,6 @@ msgstr "Actualizado por última vez en"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:354
 msgid "Last upload:"
 msgstr "Última subida:"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:209
-msgid "Last week"
-msgstr "-La semana pasada."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:118
 msgid "Latest ${title}"
@@ -2270,6 +2314,9 @@ msgstr "Últimas publicaciones sobre medio ambiente en Europa, publicado por la 
 msgid "Latvia"
 msgstr "Letonia"
 
+msgid "Latvian"
+msgstr "Letón"
+
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:126
 msgid "Legacy portlets"
 msgstr "Portlets Legado"
@@ -2284,8 +2331,8 @@ msgid "Liechtenstein"
 msgstr "Liechtenstein"
 
 #: eea/mediacentre/Multimedia/multimedia.pt:116
-#: eea/mediacentre/browser/multimedia_popup_view.pt:60
-#: eea/mediacentre/browser/video_popup_view.pt:80
+#: eea/mediacentre/browser/multimedia_popup_view.pt:61
+#: eea/mediacentre/browser/video_popup_view.pt:79
 msgid "Link"
 msgstr "Liga"
 
@@ -2353,9 +2400,8 @@ msgstr "Listado no está disponible"
 msgid "Lithuania"
 msgstr "Lituania"
 
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:93
-msgid "LiveSearch &hellip;"
-msgstr "LiveSearch ..."
+msgid "Lithuanian"
+msgstr "Lituano"
 
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:16
 msgid "Loading..."
@@ -2419,6 +2465,9 @@ msgstr "Asegúrese de pantalla completa"
 msgid "Malta"
 msgstr "Malta"
 
+msgid "Maltese"
+msgstr "Maltés"
+
 #: eea.design/eea/design/browser/templates/manage_footer.pt:24
 msgid "Manage Footer Portlets"
 msgstr "Gestionar portlets pie de página"
@@ -2435,14 +2484,6 @@ msgstr "Ubicación en mapa"
 #: eea.reports/eea/reports/browser/report.pt:165
 msgid "Maps and graphs"
 msgstr "Mapas y gráficos"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:109
-msgid "Match all"
-msgstr "Coincidir todos"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:98
-msgid "Match any"
-msgstr "Match: any"
 
 #: eea/mediacentre/browser/statistics.pt:9
 msgid "Media Centre is a virtual repository of multimedia files. It can be videos, interviews, maps, animations, images etc. The repository right now contains:"
@@ -2513,9 +2554,8 @@ msgstr "Los campos que faltan"
 msgid "Mix links examples"
 msgstr "Mezclar enlaces ejemplos"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:389
-msgid "Modification Date"
-msgstr "Fecha de modificación"
+msgid "Mobile"
+msgstr "Portátil"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:58
 #: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:28
@@ -2541,7 +2581,7 @@ msgstr "Más"
 msgid "More data viewers"
 msgstr "Más visores de datos"
 
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:32
+#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:24
 msgid "More green tips"
 msgstr "Más consejos verdes"
 
@@ -2561,16 +2601,16 @@ msgstr "Más interactivos de datos de espectadores"
 msgid "More multimedia"
 msgstr "Más de multimedia"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:115
-msgid "More search options"
-msgstr "Más opciones de búsqueda"
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:66
+msgid "More networks"
+msgstr "Más redes"
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:162
 msgid "More subscriptions are available at ${link}"
 msgstr "Más suscripciones están disponibles a ${link}"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:64
-#: eea/mediacentre/browser/video_popup_view.pt:81
+#: eea/mediacentre/browser/multimedia_popup_view.pt:65
+#: eea/mediacentre/browser/video_popup_view.pt:80
 msgid "More videos"
 msgstr "Más vídeos"
 
@@ -2634,7 +2674,7 @@ msgstr "Historias nacionales y regionales"
 msgid "National and regional story"
 msgstr "Historia nacional y regional"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:46
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:45
 msgid "Natural resources"
 msgstr "Recursos naturales"
 
@@ -2655,13 +2695,17 @@ msgstr "Navegación acciones"
 msgid "Netherlands"
 msgstr "Países Bajos"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
+msgid "Network of the Heads of Environment Protection Agencies (EPA network)"
+msgstr "Red de los Jefes de los Organismos de Protección Ambiental (EPA red)"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:5
+msgid "Networks"
+msgstr "Redes"
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:37
 msgid "New icons or updates can be done via the mimetypes_registry in the Plone CMS or through the EEADesign2006 product. Contact the EEA web development team in this case."
 msgstr "Nuevos iconos y actualizaciones pueden realizarse a través de la mimetypes_registry en el CMS Plone oa través del producto EEADesign2006. Póngase en contacto con el equipo de desarrollo web del EEE, en este caso."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:179
-msgid "New items since"
-msgstr "Nuevos productos desde"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:190
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:72
@@ -2676,7 +2720,10 @@ msgstr "De nueva creación ${type_name}"
 msgid "Newly created work item"
 msgstr "Trabajo de nueva creación elemento"
 
-#: eea/mediacentre/browser/video_popup_view.pt:36
+msgid "News"
+msgstr "Noticias"
+
+#: eea/mediacentre/browser/video_popup_view.pt:35
 msgid "News and articles"
 msgstr "Noticias y artículos"
 
@@ -2711,10 +2758,6 @@ msgstr "No hay descripción más trabajo se ha especificado"
 #: EEAContentTypes/browser/crop/cropping.pt:15
 msgid "No images found."
 msgstr "No se han encontrado imágenes."
-
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:94
-msgid "No matching results found."
-msgstr "No se han encontrado resultados."
 
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:23
 msgid "No media files of this kind yet."
@@ -2756,7 +2799,7 @@ msgstr "No hay documentos de política relacionados con el que se hayan especifi
 msgid "No resource needs have been specified"
 msgstr "No hay necesidad de recursos se han especificado"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:203
+#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:205
 msgid "No results are available for this topic"
 msgstr "Sin resultados están disponibles para este tema"
 
@@ -2789,7 +2832,7 @@ msgstr "No hay unidades que se hayan especificado"
 msgid "No."
 msgstr "-No."
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:49
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:48
 msgid "Noise"
 msgstr "Ruido"
 
@@ -2801,6 +2844,9 @@ msgstr "NORMAL"
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:53
 msgid "Norway"
 msgstr "Noruega"
+
+msgid "Norwegian"
+msgstr "Noruego"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:25
 msgid "Note that for authenticated users the info below include the unpublished content."
@@ -2975,6 +3021,14 @@ msgstr "Datos de los padres establecer:"
 msgid "Password"
 msgstr "Contraseña"
 
+#: eea.design/eea/design/skins/eea_design/portlet_promo_gallery.pt:94
+msgid "Pause"
+msgstr "Pausar"
+
+#: eea.design/eea/design/skins/eea_design/portlet_promo_gallery.pt:94
+msgid "Pause slideshow"
+msgstr "Pausa presentación de diapositivas"
+
 #: eea.versions/eea/versions/skins/versions_templates/versions_macros.pt:12
 msgid "Permalink to latest version"
 msgstr "Enlace permanente a la última versión"
@@ -3030,7 +3084,7 @@ msgid "Please provide the following contact information"
 msgstr "Por favor provea la siguiente información de contacto"
 
 #: eea.indicators/eea/indicators/browser/specification.py:259
-#: eea.versions/eea/versions/versions.py:481
+#: eea.versions/eea/versions/versions.py:494
 msgid "Please specify a valid Version ID."
 msgstr "Por favor, especifique un ID de la versión válida."
 
@@ -3046,13 +3100,16 @@ msgstr "Política"
 msgid "Policy context and targets"
 msgstr "Contexto de las políticas y los objetivos"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:132
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:131
 msgid "Policy instruments<br />"
 msgstr "Los instrumentos de política <br />"
 
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:83
 msgid "Policy issue"
 msgstr "Política de tema"
+
+msgid "Polish"
+msgstr "Polaco"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:258
 msgid "Pony"
@@ -3094,6 +3151,9 @@ msgstr "Portlet título"
 msgid "Portugal"
 msgstr "Portugal"
 
+msgid "Portuguese"
+msgstr "Portugués"
+
 #: eea.relations/eea/relations/profiles/default/controlpanel.xml
 msgid "Possible relations"
 msgstr "Posibilidad de relaciones"
@@ -3103,7 +3163,7 @@ msgstr "Posibilidad de relaciones"
 msgid "Presentation on old EEA domain"
 msgstr "Presentación en el viejo dominio del EEE"
 
-#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:42
+#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:43
 msgid "Press the link to create a new content item in its default location"
 msgstr "Pulse el enlace para crear un nuevo elemento de contenido en su ubicación predeterminada"
 
@@ -3148,7 +3208,7 @@ msgstr "Mapas y gráficos producidos"
 msgid "Product"
 msgstr "Productividad "
 
-#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:66
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:59
 msgid "Programme"
 msgstr "Programa"
 
@@ -3189,6 +3249,9 @@ msgstr "Publicación de archivo"
 #: eea.reports/eea/reports/subtypes/report.py:149
 msgid "Publication groups"
 msgstr "Grupos de la publicación"
+
+msgid "Publications"
+msgstr ".publicaciones"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:205
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:328
@@ -3269,7 +3332,7 @@ msgstr "Información ampliada"
 msgid "Read more of the key fact"
 msgstr "Leer más del hecho clave"
 
-#: eea/themecentre/skins/themecentre_templates/portlet_themes_common.pt:45
+#: eea/themecentre/skins/themecentre_templates/portlet_themes_common.pt:47
 msgid "Read report"
 msgstr "Lea el informe"
 
@@ -3345,7 +3408,7 @@ msgstr "Temas relacionados con"
 msgid "Related topics"
 msgstr "Temas relacionados"
 
-#: eea/mediacentre/browser/video_popup_view.pt:35
+#: eea/mediacentre/browser/video_popup_view.pt:34
 msgid "Related videos"
 msgstr "Vídeos relacionados"
 
@@ -3356,10 +3419,6 @@ msgstr "Sitios web relacionados"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:316
 msgid "Relation:"
 msgstr "Relación:"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:383
-msgid "Relevance"
-msgstr "Relevancia"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:147
 msgid "Remember my email address."
@@ -3498,42 +3557,10 @@ msgstr "Necesidades de recursos"
 msgid "Responsibility and ownership"
 msgstr "La responsabilidad y la propiedad"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:401
-msgid "Results per page"
-msgstr "Resultados por página"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:184
-msgid "Return items added since you were last logged on, the last week, etc."
-msgstr "Devuelve los elementos agregados desde su última conexión de la última semana, etc"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:296
-msgid "Return items created by a particular person."
-msgstr "Devuelve aquellos ítems creados por un usuario en particular."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:70
-msgid "Return items matching some or all of these tags. Multiple words may be found by pressing <strong>Ctrl</strong> (or <strong>Apple</strong> key on Mac) while clicking the keywords."
-msgstr "Devuelve aquellos ítems que coinciden con algunas o todas de estas etiquetas. Varias palabras se puede encontrar pulsando Ctrl <strong> </ strong> (o <strong> de Apple </ strong> en un Mac) mientras hace clic en las palabras clave."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:354
-msgid "Return items matching this description. Multiple words may be found by combining them with <strong>AND</strong> and <strong>OR</strong>."
-msgstr "Devuelve aquellos ítems que coinciden con la descripción. Puede utilizar varias palabras, combinándolas con <strong> Y </ strong> y <strong> O </ strong>."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:331
-msgid "Return items matching this title."
-msgstr "Devuelve aquellos ítems que coincidan con este título."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:129
-msgid "Return items of a specific type."
-msgstr "Devuelve aquellos ítems de un tipo específico."
-
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:35
 #: eea.design/eea/design/browser/templates/manage_footer.pt:26
 msgid "Return to view"
 msgstr "Volver a la lista"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:232
-msgid "Review status"
-msgstr "Revisar el estado"
 
 #: eea.indicators/eea/indicators/profiles/default/actions.xml
 #: eea.versions/eea/versions/profiles/default/actions.xml
@@ -3547,6 +3574,13 @@ msgstr "Derechos. "
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:69
 msgid "Romania"
 msgstr "Rumanía"
+
+msgid "Romanian"
+msgstr "Rumano"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:28
+msgid "SEIS network"
+msgstr "SEIS de la red"
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:53
 msgid "SOER 2010 website"
@@ -3579,7 +3613,7 @@ msgid "Sample Text"
 msgstr "Texto de muestra"
 
 #: EEAContentTypes/browser/reorder.pt:76
-#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:133
+#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:135
 #: eea.app.visualization/eea/app/visualization/facets/edit.py:65
 msgid "Save"
 msgstr "Guardar"
@@ -3601,6 +3635,10 @@ msgstr "Ámbito de aplicación / búsqueda local"
 #: eea.design/eea/design/browser/templates/searchbox_cms.pt:25
 msgid "Search"
 msgstr "Buscar"
+
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:7
+msgid "Search Europe's environment"
+msgstr "Buscar el medio ambiente de Europa"
 
 #: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:94
 msgid "Search Member:"
@@ -3641,10 +3679,6 @@ msgstr "Búsqueda en el conjunto de datos y la aplicación"
 #: eea.design/eea/design/skins/eeadesign_public/search.pt:82
 msgid "Search results"
 msgstr "Resultado de la búsqueda"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:45
-msgid "Search text"
-msgstr "Búsqueda de texto"
 
 #: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:40
 msgid "Search this listing"
@@ -3701,10 +3735,6 @@ msgstr "Ver las versiones anteriores."
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:158
 msgid "See this ${indicator-specs} for more details."
 msgstr "Ver este ${indicator-specs} para más detalles."
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:143
-msgid "Select All/None"
-msgstr "Seleccionar todo / Ninguno"
 
 #: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:182
 msgid "Select all items"
@@ -3767,6 +3797,10 @@ msgstr "Ajustes se han aplicado"
 msgid "Share with others"
 msgstr "Compartir con otros usuarios"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:28
+msgid "Shared Environmental Information System (SEIS)"
+msgstr "Sistema Compartido de Información Medioambiental (SEIS)"
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:236
 msgid "Short description of the data resource"
 msgstr "Breve descripción del recurso de datos"
@@ -3774,10 +3808,6 @@ msgstr "Breve descripción del recurso de datos"
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:253
 msgid "Short term work"
 msgstr "Trabajo a corto plazo"
-
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:96
-msgid "Show all items"
-msgstr "Mostrar todos los artículos"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/countries_widget.pt:70
 msgid "Show map preview"
@@ -3787,8 +3817,8 @@ msgstr "Mostrar vista previa de mapa"
 msgid "Show table definition"
 msgstr "Mostrar definición de la tabla"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:45
-#: eea/mediacentre/browser/video_popup_view.pt:66
+#: eea/mediacentre/browser/multimedia_popup_view.pt:46
+#: eea/mediacentre/browser/video_popup_view.pt:65
 msgid "Show the publishdate only (effective date)"
 msgstr "Mostrar sólo el publishDate (fecha efectiva)"
 
@@ -3804,10 +3834,6 @@ msgstr "Desde cookie de autenticación está desactivada, basada en cookies de i
 msgid "Site Administration"
 msgstr "Administrador del Plantel "
 
-#: eea.design/eea/design/browser/templates/links_navigation.pt:9
-msgid "Site Map"
-msgstr "Mapa del Sitio"
-
 #: NavigationManager/skins/NavigationManager/sitemap.pt:14
 #: eea/themecentre/skins/themecentre_templates/overview.pt:14
 msgid "Site map"
@@ -3821,6 +3847,9 @@ msgstr "Ir al contenidos . | Ir a navegación"
 msgid "Skip to navigation"
 msgstr "Saltar a la navegación"
 
+msgid "Slovak"
+msgstr "Eslovaco"
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:71
 msgid "Slovakia"
 msgstr "Eslovaquia"
@@ -3829,11 +3858,14 @@ msgstr "Eslovaquia"
 msgid "Slovenia"
 msgstr "Eslovenia"
 
+msgid "Slovenian"
+msgstr "Esloveno"
+
 #: eea.design/eea/design/browser/templates/colophon.pt:80
 msgid "Software updates history"
 msgstr "Actualizaciones de software de la historia"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:52
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:51
 msgid "Soil"
 msgstr "Suelo"
 
@@ -3855,14 +3887,6 @@ msgstr "Solución II"
 msgid "Some popular file extensions"
 msgstr "Algunas extensiones de archivo populares"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:374
-msgid "Sort results"
-msgstr "Ordenar resultados"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:376
-msgid "Sort the Search Results based on the selected criterion"
-msgstr "Ordenar los resultados de búsqueda basados ​​en el criterio seleccionado"
-
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:251
 msgid "Sortable tables"
 msgstr "Tablas ordenables"
@@ -3875,9 +3899,16 @@ msgstr "Origen"
 msgid "Spain"
 msgstr "España"
 
+msgid "Spanish"
+msgstr "Español"
+
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:21
 msgid "Spanish themes IMS link"
 msgstr "Español temas IMS enlace"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:56
+msgid "Spatial Information and Analysis (SIA)"
+msgstr "Información Espacial y Análisis (SIA)"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:111
 msgid "Specific assessment"
@@ -3891,7 +3922,7 @@ msgstr "Cuestión de política específica"
 msgid "Specific policy question: ${title}"
 msgstr "Cuestión de política específica: ${title}"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:114
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:113
 msgid "Specific regions"
 msgstr "Regiones específicas"
 
@@ -3951,6 +3982,14 @@ msgstr "Enviar un evento del medio ambiente"
 msgid "Submit event"
 msgstr "Enviar evento"
 
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:38
+msgid "Subscribe by email"
+msgstr "Suscríbete por e-mail"
+
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:33
+msgid "Subscribe to RSS Feed"
+msgstr "Suscríbete al feed RSS"
+
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:127
 #: eea.design/eea/design/skins/eeadesign_public/search.pt:96
 msgid "Subscribe to an always-updated feed of these search terms"
@@ -3968,9 +4007,16 @@ msgstr "Éxito"
 msgid "Summary view"
 msgstr "Vista Resumen ................................................ .................................................. ......................................"
 
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:60
+msgid "Sustainable Consumption and Production (SCP)"
+msgstr "Consumo y Producción Sostenibles (SCP)"
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:74
 msgid "Sweden"
 msgstr "Suecia"
+
+msgid "Swedish"
+msgstr "Sueco"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:27
 msgid "Swedish glossary"
@@ -4007,10 +4053,6 @@ msgstr "Definiciones de Tablas ................................................ 
 #: eea.design/eea/design/skins/eea_design/smart_view.pt:27
 msgid "Tabs view"
 msgstr "Tabs vista"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:68
-msgid "Tags"
-msgstr "Etiquetas"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:401
 msgid "Tags:"
@@ -4098,10 +4140,6 @@ msgstr "El nombre dado al recurso. Por lo general, un título que será un nombr
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:232
 msgid "The nature or genre of the content of the resource. Type includes terms describing general categories, functions, genres, or aggregation levels for content"
 msgstr "La naturaleza o género del contenido del recurso. Tipo incluye términos que describen categorías generales, funciones, géneros o niveles de agregación de contenidos"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:403
-msgid "The number of results that is displayed on one page."
-msgstr "El número de resultados que se muestran en una página."
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:55
 msgid "The portlet columns will now display only those portlets explicitly assigned in this context. Use the buttons on each portlet to move them up or down, delete or edit them. To add a new portlet, use the drop-down list at the top of the column."
@@ -4273,14 +4311,6 @@ msgstr "Esta página muestra común de marcado html, css y javascript clases que
 msgid "This page was translated by the Translation Centre for the Bodies of the European Union (CdT)"
 msgstr "Esta página fue traducida por el Centro de Traducción de los Órganos de la Unión Europea (CdT)"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:19
-msgid "This search form enables you to find content on the site by specifying one or more search terms. <br /> Remember that you can use the quick search anytime, it's normally good enough, this search form is just if you want to be more specific."
-msgstr "Esta forma de búsqueda le permitirá encontrar contenido en el site especificando uno o más términos de búsqueda. <br /> Recuerda que puedes usar la búsqueda rápida en cualquier momento, la cual es normalmente lo suficientemente bueno, esta forma de búsqueda es sólo si desea ser más específico."
-
-#: eea.design/eea/design/skins/eeadesign_public/search_form.pt:19
-msgid "This search form is disabled"
-msgstr "Este formulario de búsqueda está desactivada"
-
 #: eea.design/eea/design/browser/templates/document_byline.pt:14
 msgid "This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser."
 msgstr "Este sitio tiene una funcionalidad limitada con javascript apagado. Por favor, asegúrese de que esté activado Javascript en su navegador."
@@ -4296,7 +4326,7 @@ msgstr "Descripción de los plazos para la base de datos de indicadores"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:50
 #: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:20
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:326
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:349
 msgid "Title"
 msgstr "Título"
 
@@ -4374,7 +4404,7 @@ msgstr "Total del personal"
 msgid "Total:"
 msgstr "Total:"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:94
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:93
 msgid "Tourism"
 msgstr "Turismo"
 
@@ -4398,13 +4428,16 @@ msgstr "Traslado a la"
 msgid "Translation Unavailable"
 msgstr "Traducción no disponible"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:98
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:97
 msgid "Transport"
 msgstr "Transporte"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:76
 msgid "Turkey"
 msgstr "Turquía"
+
+msgid "Turkish"
+msgstr "Turco"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:23
 msgid "Turkish subfolder"
@@ -4502,7 +4535,7 @@ msgstr "Subir archivos epub"
 msgid "Uploaded file"
 msgstr "Subir archivo"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:118
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:117
 msgid "Urban environment"
 msgstr "Medio ambiente urbano"
 
@@ -4540,12 +4573,12 @@ msgstr "Se utiliza en las siguientes publicaciones"
 msgid "User not found:"
 msgstr "Usuario no encontrado:"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:61
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:60
 msgid "Various other issues"
 msgstr "Otros asuntos"
 
 #: eea.indicators/eea/indicators/browser/specification.py:257
-#: eea.versions/eea/versions/versions.py:479
+#: eea.versions/eea/versions/versions.py:492
 msgid "Version ID changed."
 msgstr "ID de la versión cambió."
 
@@ -4558,7 +4591,7 @@ msgstr "Versión Identificación: ${number}"
 msgid "Version id: ${version-number}"
 msgstr "Versión Identificación: ${version-number}"
 
-#: eea.versions/eea/versions/versions.py:507
+#: eea.versions/eea/versions/versions.py:520
 msgid "Version revoked."
 msgstr "Versión revocada."
 
@@ -4650,12 +4683,12 @@ msgstr "¡Advertencia! Core crisis en la sede del EEE, el código de super-duper
 msgid "Waste"
 msgstr "Residuos"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:55
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:54
 msgid "Waste and material resources"
 msgstr "Residuos y recursos materiales"
 
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:258
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:58
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:57
 msgid "Water"
 msgstr "Agua"
 
@@ -4688,7 +4721,7 @@ msgid "What"
 msgstr "Lo que"
 
 #: eea/themecentre/browser/templates/themes_view.pt:54
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:23
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:22
 msgid "What is happening?<br />Environmental issues"
 msgstr "¿Qué está pasando? <br /> Las cuestiones ambientales"
 
@@ -4710,7 +4743,7 @@ msgid "Which steps will bring us forward on the road to a Green economy?"
 msgstr "¿Qué pasos nos harán avanzar en el camino hacia una economía verde?"
 
 #: eea/themecentre/browser/templates/themes_view.pt:68
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:66
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:65
 msgid "Why is it happening?<br />Sectors and activities"
 msgstr "¿Por qué ocurre? <br /> Los sectores y actividades"
 
@@ -4763,10 +4796,6 @@ msgstr "XML con el esquema"
 msgid "Year"
 msgstr "Año"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:205
-msgid "Yesterday"
-msgstr "Ayer"
-
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:48
 msgid "You are editing the default view of a container. If you wanted to edit the container itself, ${go_here}."
 msgstr "Está editando la vista predeterminada de un contenedor. Si desea editar el propio contenedor, ${go_here}."
@@ -4782,10 +4811,6 @@ msgstr "También puede obtener una copia de ${nearest-sale-agent}, proporcionand
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:188
 msgid "You can have arbitrary HTML in the pop-ups:"
 msgstr "Puede tener código HTML arbitrario en los pop-ups:"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search_form.pt:243
-msgid "You may search for items based on their review state. If you wish to constrain results to items in certain states, select them from this list."
-msgstr "Puede buscar elementos basándose en su estado de revisión. Si desea limitar los resultados a ítems en ciertos estados, selecciónelos de la lista."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:73
 msgid "You might have been looking for&hellip;"
@@ -4848,7 +4873,7 @@ msgid "and"
 msgstr "Y"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:151
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:148
+#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:149
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:50
 msgid "archive"
 msgstr "archivar"
@@ -5034,6 +5059,21 @@ msgstr "indicador de gerente de"
 msgid "indicator specification"
 msgstr "indicador de las especificaciones"
 
+#. Default: "Advanced Search…"
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:106
+msgid "label_advanced_search"
+msgstr "label_advanced_search"
+
+#. Default: "No matching results found."
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:105
+msgid "label_no_results_found"
+msgstr "label_no_results_found"
+
+#. Default: "Show all items"
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:107
+msgid "label_show_all"
+msgstr "label_show_all"
+
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:71
 msgid "last converted:"
 msgstr "última convertida:"
@@ -5043,6 +5083,11 @@ msgstr "última convertida:"
 #: eea.design/eea/design/skins/eea_design/folder_listing.pt:210
 msgid "last modified"
 msgstr "Última modificación"
+
+#. Default: "LiveSearch &#8595;"
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:104
+msgid "legend_livesearch"
+msgstr "legend_livesearch"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:336
 msgid "list of all icons available"
@@ -5061,7 +5106,7 @@ msgstr "mailto enlace"
 msgid "more"
 msgstr "Más ..."
 
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:27
+#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:19
 msgid "more green tips"
 msgstr "más consejos verdes"
 
