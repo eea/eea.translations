@@ -1,0 +1,5260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: 2008-11-13 14:15+0100\n"
+"Last-Translator: Marie Jaegly <marie.jaegly@eea.europa.eu>\n"
+"Language-Team: et <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:33
+msgid "${context_icon} Manage portlets for ${context_title}"
+msgstr "${context_icon} Halda Mooduli for ${context_title}"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:92
+msgid "${date} ${linebreak} from ${starttime} to ${endtime}"
+msgstr "${date} ${linebreak} alates ${starttime} to ${endtime}"
+
+#: eea.design/eea/design/browser/templates/calendar.pt:55
+msgid "${monthname} ${year}"
+msgstr "${monthname} ${year}"
+
+#: eea.geotags/eea/geotags/field/location.py:106
+msgid "${name} is required, please correct."
+msgstr "${name} on vajalik, siis parandage."
+
+#: EEAContentTypes/skins/EEAContentTypes/map_portlet.pt:61
+msgid "${number} events on map"
+msgstr "${number} üritused kaardil"
+
+#: eea.design/eea/design/skins/eeadesign_cms/search.pt:119
+#: eea.design/eea/design/skins/eeadesign_public/search.pt:88
+msgid "${number} items matching your search terms"
+msgstr "${number} punkte sobitamise otsisõna"
+
+#: eea.workflow/eea/workflow/portlets/readiness.pt:28
+msgid "${percent}% percentage done."
+msgstr "${percent}% protsendi teha."
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:57
+msgid "${startdate} to ${linebreak} ${enddate}"
+msgstr "${startdate} to ${linebreak} ${enddate}"
+
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:132
+msgid "${start}"
+msgstr "${start}"
+
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:147
+msgid "${start} from ${starttime} to ${end}"
+msgstr "${start} alates ${starttime} to ${end}"
+
+#: eea.indicators/eea/indicators/browser/templates/timeline.pt:68
+msgid "${state} assessment"
+msgstr "${state} hindamine"
+
+#: eea.indicators/eea/indicators/browser/templates/timeline.pt:86
+msgid "${state} factsheet"
+msgstr "${state} teabeleht"
+
+#: eea.indicators/eea/indicators/browser/templates/timeline.pt:77
+msgid "${state} specification"
+msgstr "${state} spetsifikatsioon"
+
+#: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:82
+msgid "% tags currently selected."
+msgstr "% Märksõnade valitud."
+
+#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:64
+msgid "(${location}, from ${start} to ${end})"
+msgstr "(${location}, from ${start} to ${end})"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:49
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:48
+msgid "(Directory: ${directory})"
+msgstr "(Directory: ${directory})"
+
+#: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:36
+msgid "(NOT SET)"
+msgstr "(Ei kehtestatud)"
+
+#: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:84
+msgid "(Open: ${from-date} &mdash; Close: ${to-date})"
+msgstr "(Open: ${from-date} - Sule: ${to-date})"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:162
+msgid "(Required)"
+msgstr "(Nõutav)"
+
+#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:76
+msgid "(from ${start} to ${end})"
+msgstr "(From ${start} to ${end})"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:332
+msgid "(just add file extension in the URL as query at the end!)"
+msgstr "(Lihtsalt lisada faili laiend on URL päringu lõpus!)"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:195
+msgid "(note: EEA internal system)"
+msgstr "(Märkus: EMP sisemine süsteem)"
+
+#: EEAContentTypes/browser/crop/cropimage.pt:24
+msgid "*Note: Hitting the crop button will replace the original image with this cropped image"
+msgstr "* Märkus: Lööb põllukultuuride nupp asendaks algse image seda kärbitud pildi"
+
+#: EEAContentTypes/browser/reorder.pt:92
+msgid "- (restricted to authenticated)"
+msgstr "- (Ainult kinnitatud)"
+
+#: EEAContentTypes/browser/reorder.pt:127
+msgid "- [Media: ${media}]"
+msgstr "- [Media: ${media}]"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:51
+msgid "<div> <span>x</span> <span>x</span> </div>"
+msgstr "<div> <span> x </ span> <span> x </ span> </ div>"
+
+#: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:38
+msgid "A letter of motivation"
+msgstr "Motivatsioonikirja"
+
+#: EEAContentTypes/skins/EEAContentTypes/flashfile_popup_view.pt:22
+msgid "A new window has been opened with the flash application. <br /> If you don't see the window please check your browser preferences to allow popup windows. You'll then need to reload this page."
+msgstr "Uus aken on avatud flash rakendus. <br /> Kui sa ei näe aknast Palun kontrolli oma brauseri eelistusi, mis võimaldab popup aknad. Seejärel peate uuesti laadida sellelt leheküljelt."
+
+#: eea.reports/eea/reports/profiles/default/types/Report.xml
+msgid "A report publication."
+msgstr "Aruande avaldamist."
+
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:22
+msgid "A-Z Glossary"
+msgstr "AZ Sõnastik"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:107
+msgid "About this item"
+msgstr "Info selle kirje"
+
+#: eea/mediacentre/browser/multimedia_popup_view.pt:38
+#: eea/mediacentre/browser/video_popup_view.pt:36
+msgid "About this video"
+msgstr "Selle video"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:67
+msgid "Access our data via semantic APIs"
+msgstr "Juurdepääs meie kaudu andmete semantilise APIs"
+
+#: eea.design/eea/design/skins/eea_design/smart_view.pt:30
+msgid "Accordion view"
+msgstr "Akordion vaade"
+
+#: eea/themecentre/browser/templates/themes_view.pt:99
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:123
+msgid "Across environmental issues and sectors"
+msgstr "Kogu keskkonnaküsimused ja sektorite"
+
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:24
+msgid "Action"
+msgstr "Tegevus"
+
+#: EEAContentTypes/skins/EEAContentTypes/workflow_action_message.pt:6
+msgid "Action message for ${type} with scheduled publishing date ${date}"
+msgstr "Action sõnum ${type} plaaniliste avaldamise kuupäev ${date}"
+
+#: eea.promotion/eea/promotion/browser/admin.pt:20
+msgid "Active"
+msgstr "Aktiivne"
+
+#: eea.app.visualization/eea/app/visualization/facets/add.py:55
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:179
+msgid "Add"
+msgstr "Lisama"
+
+#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:100
+msgid "Add Translation"
+msgstr "Lisa Translation"
+
+#: eea.design/eea/design/browser/templates/comments.pt:168
+msgid "Add comment"
+msgstr "Lisa kommentaar"
+
+#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:72
+msgid "Add content translation"
+msgstr "Lisa sisu tõlge"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:147
+msgid "Add event to calendar"
+msgstr "Lisa sündmus kalendrisse"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:158
+msgid "Add new publication"
+msgstr "Lisa uus väljaanne"
+
+#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:67
+msgid "Add portal type"
+msgstr "Lisa portaali tüüpi"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:108
+msgid "Add..."
+msgstr "Lisa ..."
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:178
+msgid "Additional information"
+msgstr "Lisainfo"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:26
+#: eea/mediacentre/Multimedia/multimedia.pt:96
+#: eea/mediacentre/Multimedia/multimedia2.pt:99
+msgid "Advanced"
+msgstr "Edasijõudnud"
+
+#: eea.design/eea/design/skins/eeadesign_cms/search.pt:65
+msgid "Advanced Search"
+msgstr "Täpsem Otsing"
+
+#: eea.design/eea/design/browser/templates/searchbox_cms.pt:50
+msgid "Advanced Search&hellip;"
+msgstr "Advanced Search ..."
+
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:19
+#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:58
+#: eea/themecentre/skins/themecentre_templates/dc_view.pt:23
+msgid "Advanced search"
+msgstr "Täpsem otsing"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:69
+msgid "Agriculture"
+msgstr "Põllumajandus"
+
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:144
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:113
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:26
+msgid "Air pollution"
+msgstr "Õhusaaste"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:38
+msgid "Air pollution and Climate Change mitigation (ACM)"
+msgstr "Õhusaaste ja kliimamuutuste leevendamine (ACM)"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:33
+msgid "Albania"
+msgstr "Albaania"
+
+#: eea/mediacentre/browser/image-listed-single.pt:12
+#: eea/mediacentre/browser/video-listed-single.pt:13
+msgid "Album Art:"
+msgstr "Album Art:"
+
+#: eea.design/eea/design/skins/eea_design/smart_view.pt:21
+msgid "Album view"
+msgstr "Album vaade"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:142
+msgid "All ${number} ${title}&hellip;"
+msgstr "Kõik ${number} ${title} ..."
+
+#: eea.design/eea/design/skins/eea_design/folder_accordion_view.pt:41
+#: eea.design/eea/design/skins/eea_design/folder_tabs_view.pt:39
+msgid "All Items"
+msgstr "Kõik valikud"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:18
+msgid "All documents in state ${state}"
+msgstr "Kõik dokumendid riik ${state}"
+
+#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:41
+msgid "All key facts"
+msgstr "Kõik peamised faktid"
+
+#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:46
+msgid "All key messages"
+msgstr "Kõik peamised sõnumid"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:29
+msgid "All links in state ${state}"
+msgstr "Kõik lingid Riigi ${state}"
+
+msgid "All products"
+msgstr "Kõik tooted"
+
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:37
+#: eea/themecentre/browser/templates/themes_view.pt:51
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:20
+msgid "All topics"
+msgstr "Kõik teemad"
+
+#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:35
+msgid "Alphabetically"
+msgstr "Tähestikulises järjekorras"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:19
+msgid "Alpine region"
+msgstr "Alpide piirkonnas"
+
+#: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:139
+#: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:138
+msgid "Also in this section"
+msgstr "Ka selles osas"
+
+#: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:85
+msgid "Alternative"
+msgstr "Alternatiiv"
+
+#: NavigationManager/skins/NavigationManager/sitemap.pt:16
+#: eea/themecentre/skins/themecentre_templates/overview.pt:16
+msgid "An overview of the available content on this site. Keep the pointer still over an item for a few seconds to get its description."
+msgstr "Ülevaade saadaval sisu sellel saidil. Hoidke kursorit veel üle kirje paar sekundit, et saada oma kirjeldus."
+
+#: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:140
+msgid "Any version."
+msgstr "Iga versiooni."
+
+#: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:18
+msgid "Application form"
+msgstr "Taotlusvorm"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:231
+#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:51
+msgid "Apply fix"
+msgstr "Rakenda määrata"
+
+#: eea.dataservice/eea/dataservice/templates/select_template.pt:22
+msgid "Apply template"
+msgstr "Kohaldatakse malli"
+
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:119
+msgid "Apps for your mobile"
+msgstr "Apps for your mobile"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:187
+msgid "Arbitrary HTML"
+msgstr "Suvalise HTML"
+
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:89
+msgid "Archive"
+msgstr "Arhiiv"
+
+#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:36
+msgid "Archive or title for more items"
+msgstr "Arhiivi või pealkiri rohkem punkte"
+
+#: eea.sparql/eea/sparql/browser/view.pt:62
+msgid "Are you new to Linked Data technology? visit http://linkeddata.org"
+msgstr "Kas oled uus ühendatud andmeid, tehnoloogia? külastada http://linkeddata.org"
+
+msgid "Articles"
+msgstr "Artiklid"
+
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:111
+msgid "Ask your question"
+msgstr "Küsi oma küsimus"
+
+#: eea.indicators/eea/indicators/content/Assessment.py:199
+msgid "Assessment DRAFT created ${date}"
+msgstr "Hindamine PROJEKT loodud ${date}"
+
+#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:19
+msgid "Assessment made on"
+msgstr "Hinnang tehtud"
+
+#: eea.indicators/eea/indicators/content/Assessment.py:190
+msgid "Assessment published ${date}"
+msgstr "Hinnang avaldatud ${date}"
+
+#: eea.indicators/eea/indicators/content/Assessment.py:187
+msgid "Assessment published with invalid published date"
+msgstr "Hinnang avaldatud kehtetu avaldatud kuupäev"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/aggregated_edit.pt:25
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:45
+msgid "Assessment versions"
+msgstr "Hindamine versioonid"
+
+#: eea.indicators/eea/indicators/browser/templates/wrong_assessment_versions.pt:17
+msgid "Assessments that have wrong version ids"
+msgstr "Hinnanguid, mis on vale versioon ids"
+
+#: eea.indicators/eea/indicators/profiles/default/actions.xml
+#: eea.versions/eea/versions/assign_version.pt:7
+#: eea.versions/eea/versions/profiles/default/actions.xml
+msgid "Assign version"
+msgstr "Määra versioon"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:139
+msgid "Attendees"
+msgstr "Osavõtjad"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:34
+msgid "Austria"
+msgstr "Austria"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:53
+#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:23
+msgid "Author"
+msgstr "Autoriseeri"
+
+#: eea/mediacentre/browser/multimedia_popup_view.pt:51
+#: eea/mediacentre/browser/video-listed-single.pt:34
+#: eea/mediacentre/browser/video.pt:60
+msgid "Author:"
+msgstr "Autoriseeri"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:306
+msgid "Auto-Link-Icons"
+msgstr "Auto-Link-Icons"
+
+#: eea.alchemy/eea/alchemy/browser/zpt/tool.pt:25
+msgid "Auto-discover geographical coverage, temporal coverage and keywords"
+msgstr "Auto-avastada geograafilise ulatuse, ajalise katvusega ja märksõnad"
+
+#: eea.reports/eea/reports/skins/reports_templates/report_file.pt:78
+msgid "Automatically update properties from pdf publication file metadata?"
+msgstr "Automaatselt Omadused pdf avaldamine fail metaandmetega?"
+
+#: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:7
+msgid "Available at:"
+msgstr "Kättesaadav aadressil:"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:36
+msgid "Available icons based on file extension"
+msgstr "Saadaval ikoonid põhinevad faililaiend"
+
+#: EEAContentTypes/skins/EEAContentTypes/callfortender_view.pt:25
+msgid "Award notice"
+msgstr "Sõlmimise teade"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:72
+msgid "Back to Table of Contents"
+msgstr "Tagasi üles Sisukord"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:23
+msgid "Baltic sea"
+msgstr "Läänemere"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:275
+msgid "Basic text styles"
+msgstr "Basic teksti stiile"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:35
+msgid "Belgium"
+msgstr "Belgia"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:120
+msgid "Below is a list of organisations on which no content is pointing at."
+msgstr "Allpool on loetelu organisatsioonide kohta, mis ei ole sisu osutavad."
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:104
+msgid "Below is a list of organisations with wrong title, either empty or containing an URL instead of a title."
+msgstr "Allpool on loetelu organisatsioonide vale pealkiri, kas tühjad või sisaldavad URL asemel pealkiri."
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:23
+msgid "Below is the full list of organisations."
+msgstr "Allpool on täielik nimekiri organisatsioonidest."
+
+#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:16
+msgid "Below you will find all SOER content related to ${topic-label}"
+msgstr "Allpool leiate kõik SOER sisu on seotud ${topic-label}"
+
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:16
+msgid "Bend the trend social movement"
+msgstr "Painutada trend sotsiaalse liikumise"
+
+#: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:149
+msgid "Best regards"
+msgstr "Parimate soovidega"
+
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:173
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:30
+msgid "Biodiversity"
+msgstr "Bioloogiline mitmekesisus"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:42
+msgid "Biological Diversity (BD)"
+msgstr "Bioloogilise mitmekesisuse (BD)"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:36
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia ja Hertsegoviina"
+
+#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:52
+msgid "Box Name (Title that shows up)"
+msgstr "Box nimi (Pealkiri, mis näitab üles)"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:13
+msgid "Browse SOER geographically"
+msgstr "Sirvi SOER geograafiliselt"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:58
+msgid "Browse by organisation"
+msgstr "Sirvi organisatsioon"
+
+#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:76
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:110
+msgid "Browse by topic"
+msgstr "Sirvi topic"
+
+#: eea/themecentre/skins/themecentre_templates/dc_view.pt:36
+msgid "Browse catalogue"
+msgstr "Sirvi kataloogi"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:103
+msgid "Browse complete catalogue"
+msgstr "Sirvi täieliku kataloogi"
+
+#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:87
+msgid "Browse geographically"
+msgstr "Sirvi geograafiliselt"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:213
+msgid "Browse..."
+msgstr "Sirvi ..."
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:37
+msgid "Bulgaria"
+msgstr "Bulgaaria"
+
+msgid "Bulgarian"
+msgstr "Bulgaaria"
+
+#: eea/mediacentre/Multimedia/multimedia2.pt:108
+msgid "By location"
+msgstr "Asukoha järgi"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:187
+#: eea/mediacentre/Multimedia/multimedia2.pt:163
+msgid "By tags"
+msgstr "Märksõnade järgi"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:186
+#: eea/mediacentre/Multimedia/multimedia2.pt:162
+msgid "By topics"
+msgstr "Teemade kaupa"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:61
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:51
+msgid "CC By 2.5"
+msgstr "CC By 2,5"
+
+#: eea.design/eea/design/browser/templates/colophon.pt:76
+msgid "CMS login"
+msgstr "CMS login"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:145
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:80
+msgid "CSV"
+msgstr "CSV"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:8
+msgid "Cache"
+msgstr "Cache"
+
+#: eea.googlecharts/eea/googlecharts/views/chart.py:283
+msgid "Can't set thumbnail on a non-folderish object !"
+msgstr "Ei saa määrata pisipiltide kedagi folderish objekt!"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:180
+#: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:193
+msgid "Cancel"
+msgstr "Tühista"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:259
+msgid "Car"
+msgstr "Auto"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:21
+msgid "Carpathians"
+msgstr "Karpaadid"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:14
+msgid "Category"
+msgstr "Kategooria"
+
+#: eea.design/eea/design/browser/templates/language_selector.pt:13
+msgid "Change language"
+msgstr "Muuda keel"
+
+#: eea.indicators/eea/indicators/skins/indicators_templates/simple_content_edit_impl.py:35
+msgid "Changes saved."
+msgstr "Muudatused salvestatakse."
+
+#: eea.daviz/eea/daviz/content/schema.py:122
+msgid "Changing data sources may break existing visualizations for this context. You should consider creating a new Visualization rather than changing this one if the new data is different than the existing one. Are you sure you want to continue?"
+msgstr "Muutuvad andmeallikad võivad murda olemasolevate visualiseeringuid jaoks selles kontekstis. Peaksite kaaluma luua uus visualiseerimine, mitte muutuv see, kui uued andmed on teistsugune kui olemasolev. Oled sa kindel, et soovid jätkata?"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:41
+msgid "Channel"
+msgstr "Kanal"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:34
+msgid "Check URLs status"
+msgstr "Vaata URLid staatus"
+
+#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:47
+msgid "Check all"
+msgstr "Vaata kõik"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:149
+msgid "Check this to have your email address filled in automatically when you log in later."
+msgstr "Vaata seda, et teie e-posti aadress täidetakse automaatselt, kui sa hiljem sisse logida."
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:140
+msgid "Check this to have your user name filled in automatically when you log in later."
+msgstr "Vaata seda, et teie kasutaja nimi täidetakse automaatselt, kui sa hiljem sisse logida."
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:33
+msgid "Chemicals"
+msgstr "Kemikaalid"
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:43
+msgid "Choose a newsletter"
+msgstr "Vali uudiskirja"
+
+#: eea/themecentre/skins/themecentre_templates/media_type_common.pt:25
+msgid "Choose another media type or ${multimedia_center} (via EEA Multimedia Centre)."
+msgstr "Valige muu meedia tüüp või ${multimedia_center} (via EEA Multimeedia keskus)."
+
+#: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:13
+msgid "Choose the EEA local website in your preferred language"
+msgstr "Vali EMP kohalikku veebilehte oma eelistatud keeles"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:85
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:429
+#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:94
+msgid "Classification"
+msgstr "Klassifikatsioon"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:114
+msgid "Clear reference"
+msgstr "Selge viide"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:190
+msgid "Click me!"
+msgstr "Kliki mind!"
+
+#: eea.signals/eea/signals/skins/eea_signals/gallery_view.pt:67
+msgid "Click to view full-size image&hellip; <span>${DYNAMIC_CONTENT}</span>"
+msgstr "Klikka vaatamaks täissuuruses pilti ... <span>${DYNAMIC_CONTENT}</ span>"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:47
+msgid "Climate Change Impacts, Vulnerability and Adaptation (CCA)"
+msgstr "Kliimamuutuse mõju, haavatavus ja kohanemine (CCA)"
+
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:202
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:36
+msgid "Climate change"
+msgstr "Kliimamuutused"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:119
+msgid "Climate change mitigation"
+msgstr "Kliimamuutuste leevendamine"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:118
+msgid "Close"
+msgstr "Sulge"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:109
+msgid "Coasts and seas"
+msgstr "Rannikud ja mered"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/management_plan_widget.pt:62
+#: eea.forms/eea/forms/skins/eea_forms/management_plan_widget.pt:62
+#: eea.forms/eea/forms/widgets/managementplan.pt:14
+msgid "Code"
+msgstr "Kood"
+
+#: eea.design/eea/design/browser/templates/colophon.pt:84
+msgid "Code for developers"
+msgstr "Kood arendajatele"
+
+#: eea.design/eea/design/browser/templates/comments.pt:143
+msgid "Commenting has been disabled."
+msgstr "Kommenteerides on keelatud."
+
+#: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:11
+msgid "Comments on translations"
+msgstr "Comments on tõlked"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:18
+msgid "Configure exhibit"
+msgstr "Seadistada näitama"
+
+#: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:19
+#: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:36
+msgid "Confirm and send"
+msgstr "Kinnitada ja saata"
+
+#: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:24
+msgid "Confirm your event"
+msgstr "Kinnita oma sündmus"
+
+#: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:5
+msgid "Confirmation message for <strong>${type}</strong> with scheduled publishing date <strong>${date}</strong>"
+msgstr "Kinnitus sõnum <STRONG>${type}</ strong> koos kavandatud avaldamise kuupäev <STRONG>${date}</ strong>"
+
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:55
+msgid "Contact"
+msgstr "Kontakt"
+
+#: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:27
+#: eea.design/eea/design/skins/eeadesign_public/contact-info.cpt:20
+msgid "Contact EEA Web Team"
+msgstr "Kontakt EKA veebirühm"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:119
+msgid "Contact Name"
+msgstr "Kontakt Nimi"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:131
+msgid "Contact Phone"
+msgstr "Kontaktandmed Telefon"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:166
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:30
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:306
+msgid "Contact indicator manager"
+msgstr "Võta indikaator juht"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:56
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:45
+msgid "Contact link"
+msgstr "Võta link"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:610
+msgid "Contact references at EEA:"
+msgstr "Võta viited kohaldatav:"
+
+msgid "Contact us"
+msgstr "Võta meiega ühendust"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:161
+msgid "Contacts and ownership"
+msgstr "Kontaktid ja omand"
+
+#: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:8
+msgid "Contacts overview for indicators database"
+msgstr "Kontakt ülevaade näitajate andmebaas"
+
+#: eea.reports/eea/reports/browser/report.pt:73
+msgid "Content"
+msgstr "Sisu"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:60
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:50
+msgid "Content license"
+msgstr "Content litsentsi"
+
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:46
+#: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:47
+#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:17
+msgid "Content listing"
+msgstr "Sisuloendis"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:65
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:56
+msgid "Content provider"
+msgstr "Sisuteenuse pakkuja"
+
+#. Default: "Content"
+#: eea.design/eea/design/skins/eea_design/portlet_toc.pt:11
+#: eea.epub/eea/epub/skins/eea_epub/portlet_toc.pt:10
+msgid "Contents"
+msgstr "Sisukord"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:106
+msgid "Context description"
+msgstr "Konteksti kirjelduse"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:23
+msgid "Contribution"
+msgstr "Panus"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:91
+msgid "Contributors: ${name}"
+msgstr "Kaasautorid: ${name}"
+
+#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:44
+msgid "Convert"
+msgstr "Muutma"
+
+#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
+msgid "Convert all figures"
+msgstr "Teisenda kõik arvud"
+
+#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
+msgid "Convert all figures to predefined formats and resolutions"
+msgstr "Teisenda kõik arvud eelnevalt formaate ja resolutsioonid"
+
+#: eea.dataservice/eea/dataservice/converter/convert_figure.pt:15
+#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
+msgid "Convert figure"
+msgstr "Teisenda arv"
+
+#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
+msgid "Convert figure to predefined formats and resolutions"
+msgstr "Teisenda arv ettemääratud formaate ja resolutsioonid"
+
+#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:16
+msgid "Convert figures"
+msgstr "Teisendada arve"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:136
+msgid "Convert portlets"
+msgstr "Teisenda Mooduli"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:58
+msgid "Cookies are not enabled. You must ${link} before you can log in."
+msgstr "Küpsised ei ole lubatud. Pead ${link} enne kui saad sisse logida"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:30
+msgid "Cookies are not enabled. You must enable cookies before you can log in."
+msgstr "Küpsised ei ole lubatud. Sa pead luba küpsiseid enne kui saad sisse logida"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:484
+msgid "Coordinate reference system:"
+msgstr "Koordineerida taustsüsteemi:"
+
+#: eea.daviz/eea/daviz/content/schema.py:100
+msgid "Copy and paste a data table from a file/webpage"
+msgstr "Kopeeri ja kleebi andmebaasi tabeli faili / koduleht"
+
+#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
+msgid "Copy common metadata from a template"
+msgstr "Kopeeri ühine metaandmete mudel"
+
+#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
+msgid "Copy from template"
+msgstr "Kopeeri malli"
+
+#: eea.reports/eea/reports/subtypes/report.py:242
+msgid "Copyrights"
+msgstr "Autoriõigused"
+
+#: EEAContentTypes/browser/crop/cropping.pt:31
+msgid "Correct the image ratio"
+msgstr "Paranda pildi suhe"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:31
+msgid "Countries A-F"
+msgstr "Riikides AF"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:47
+msgid "Countries G-M"
+msgstr "Riigid GM"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:63
+msgid "Countries L-Y"
+msgstr "Riikides LY"
+
+#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:65
+msgid "Country environment"
+msgstr "Riik keskkond"
+
+#: eea.soer/eea/soer/browser/admin.pt:36
+msgid "Country profile questions: ${count} of 4"
+msgstr "Riik profiil küsimused: ${count} of 4"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:103
+msgid "Country profile: read more"
+msgstr "Riik profiil: loe lisa"
+
+#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:41
+msgid "Create ${DYNAMIC_CONTENT}"
+msgstr "Loo ${DYNAMIC_CONTENT}"
+
+#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:83
+msgid "Create ${language} translation of this item."
+msgstr "Loo ${language} tõlget seda eset."
+
+#: eea.promotion/eea/promotion/profiles/default/actions.xml
+msgid "Create Promotion"
+msgstr "Loo Promotion"
+
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:38
+msgid "Create Visualization"
+msgstr "Loo visualiseerimine"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:10
+msgid "Create a new version of an Assessment"
+msgstr "Loo uus redaktsioon hindamine"
+
+#: eea.promotion/eea/promotion/profiles/default/actions.xml
+msgid "Create a promotion for this item"
+msgstr "Loo edendamise seda eset"
+
+#: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:118
+msgid "Create and apply new tags."
+msgstr "Luua ja rakendada uusi silte."
+
+#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:36
+msgid "Create new"
+msgstr "Loo uus"
+
+#: eea.indicators/eea/indicators/profiles/default/actions.xml
+#: eea.versions/eea/versions/profiles/default/actions.xml
+msgid "Create new version"
+msgstr "Loo uus versioon"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:24
+msgid "Created"
+msgstr "Loodud"
+
+#: eea.design/eea/design/browser/templates/colophon.pt:68
+msgid "Creative Commons Attribution License"
+msgstr "Creative Commons Attribution License"
+
+#: eea.reports/eea/reports/subtypes/report.py:125
+msgid "Creators/Authors"
+msgstr "Loojad / Autorid"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:38
+msgid "Croatia"
+msgstr "Horvaatia"
+
+#: EEAContentTypes/browser/crop/cropimage.pt:25
+msgid "Crop"
+msgstr "Põllukultuur"
+
+#: EEAContentTypes/profiles/default/actions.xml
+msgid "Crop Image"
+msgstr "Crop Image"
+
+#: EEAContentTypes/browser/crop/cropimage.pt:21
+msgid "Crop Size:"
+msgstr "Saagi suurus:"
+
+#: eea.versions/eea/versions/assign_version.pt:9
+msgid "Current Version ID:"
+msgstr "Current Version ID:"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/temporal_widget.pt:85
+msgid "Current value:"
+msgstr "Hetke väärtus:"
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:20
+msgid "Currently we have ${nr} subscribers. Frequency: 3-4 emails / month."
+msgstr "Hetkel on meil ${nr} tellijatele. Sagedus: 3-4 kirju / kuus."
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:39
+msgid "Cyprus"
+msgstr "Küpros"
+
+msgid "Czech"
+msgstr "Tšehhi"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:40
+msgid "Czech Republic"
+msgstr "Tšehhi"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:57
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:91
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:431
+msgid "DPSIR"
+msgstr "DPSIR"
+
+msgid "Danish"
+msgstr "Taani"
+
+msgid "Data and maps"
+msgstr "Andmed ja kaardid"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:63
+msgid "Data link"
+msgstr "Data link"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:104
+msgid "Data owner"
+msgstr "Andmete omaniku"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:83
+msgid "Data policy"
+msgstr "Andmed poliitika"
+
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:64
+msgid "Data repository info"
+msgstr "Andmehoidla info"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:238
+msgid "Data sets uncertainty"
+msgstr "Andmekogumite ebakindlust"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:96
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:153
+msgid "Data source"
+msgstr "Andmeallikas"
+
+#: eea.daviz/eea/daviz/content/schema.py:159
+msgid "Data source Organisation"
+msgstr "Andmeallikas Organisatsioon"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:111
+msgid "Data source download"
+msgstr "Andmete allikas Download"
+
+#: eea.daviz/eea/daviz/content/schema.py:147
+msgid "Data source link"
+msgstr "Andmete allikas link"
+
+#: eea.daviz/eea/daviz/content/schema.py:138
+msgid "Data source title"
+msgstr "Andmeallikas pealkiri"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:504
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:116
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:218
+msgid "Data sources"
+msgstr "Andmeallikate"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:204
+msgid "Data sources in latest figures"
+msgstr "Andmeallikad Viimaste andmete"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:180
+msgid "Data specifications"
+msgstr "Andmete kirjeldused"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_dataviewers.pt:15
+msgid "Data viewers"
+msgstr "Andmed vaatajad"
+
+#: eea.promotion/eea/promotion/browser/form.pt:46
+msgid "Datacentre"
+msgstr "Privaatvõrkude"
+
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:18
+msgid "Dataset"
+msgstr "Dataset"
+
+#: eea.sparql/eea/sparql/browser/view.pt:36
+msgid "Dataset preview"
+msgstr "Dataset preview"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:199
+msgid "Dates"
+msgstr "Kuupäevad"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:271
+msgid "Deadline"
+msgstr "Tähtaeg"
+
+#: eea.design/eea/design/browser/templates/comments.pt:105
+#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:63
+msgid "Delete"
+msgstr "Kustuta"
+
+#: eea.reports/eea/reports/skins/reports_templates/report_file.pt:33
+msgid "Delete current file"
+msgstr "Kustuta praeguse faili"
+
+#: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:22
+msgid "Delicious"
+msgstr "Maitsev"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:41
+msgid "Denmark"
+msgstr "Taani"
+
+#: eea/themecentre/profiles/default/actions.xml
+msgid "Depromote a theme centre"
+msgstr "Depromote teema keskus"
+
+#: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:67
+msgid "Deputy Director"
+msgstr "Direktori asetäitja"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:327
+msgid "Derived data set:"
+msgstr "Saadud andmete kogum:"
+
+#: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
+msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
+msgstr "Kas sa ei leia, mida otsisid? Proovi ${advanced_search} oma otsingu täpsustamiseks."
+
+#: eea.app.visualization/eea/app/visualization/views/edit.py:59
+msgid "Disable"
+msgstr "Keela"
+
+#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
+msgid "Disable user feedback"
+msgstr "Keela kasutaja tagasiside"
+
+#: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:157
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:305
+msgid "Disclaimer"
+msgstr "Vastutus"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:445
+msgid "Disclaimer:"
+msgstr "Disclaimer:"
+
+#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:172
+msgid "Display traceback as text"
+msgstr "Kuva Jälgimise tekstina"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_summary.pt:34
+msgid "Distinct:"
+msgstr "Erinev:"
+
+#: eea.design/eea/design/skins/eea_design/main_template.pt:99
+msgid "Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!"
+msgstr "Teha midagi meie planeedi, trüki leht ainult siis, kui vaja. Isegi väike tegevus võib anda tohutu erinevus, kui miljonid inimesed seda teha!"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:23
+msgid "Do you want to create this assessment ${here} here or ${newest} in the latest version of the Specification?"
+msgstr "Kas sa tahad luua selle hindamine ${here} siin või ${newest} viimases versioonis Täpsustus?"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:33
+#: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:42
+msgid "Document"
+msgstr "Dokument"
+
+#: eea.design/eea/design/browser/templates/document_actions.pt:9
+#: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:9
+msgid "Document Actions"
+msgstr "Tegevused dokumentidega"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:41
+msgid "Documentation search"
+msgstr "Dokumentatsioon otsing"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_summary.pt:73
+msgid "Documents containing links in the state ..."
+msgstr "Dokumendid, mis sisaldavad linke riik ..."
+
+#: eea.workflow/eea/workflow/portlets/readiness.pt:63
+msgid "Done"
+msgstr "Valmis"
+
+#: EEAContentTypes/skins/EEAContentTypes/cft_listing_view.pt:17
+#: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:24
+#: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:24
+msgid "Download PDF"
+msgstr "Lae PDF"
+
+#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:116
+msgid "Download detailed information and factsheets"
+msgstr "Lae üksikasjalikku teavet ja teabelehed"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:110
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:53
+msgid "Download file"
+msgstr "Salvesta fail"
+
+#: eea.sparql/eea/sparql/browser/view.pt:12
+msgid "Download this dataset"
+msgstr "Lae see andmestik"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:155
+msgid "Download this event in iCal format"
+msgstr "Lae see sündmus iCal formaadis"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:149
+msgid "Download this event in vCal format"
+msgstr "Lae see üritus vCal formaadis"
+
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:123
+msgid "Downloads"
+msgstr "Downloads"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:57
+msgid "Draft (not yet published - not quality assured)"
+msgstr "Eelnõu (seni avaldamata - mitte kvaliteet tagatud)"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:81
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:22
+msgid "Duplicate organisations"
+msgstr "Duplicate organisatsioone"
+
+msgid "Dutch"
+msgstr "Hollandi"
+
+#: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:42
+msgid "E-mail (Questions only):"
+msgstr "E-mail (küsimused ainult):"
+
+#: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:76
+msgid "EDO members"
+msgstr "EDO liikmetele"
+
+#: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:75
+msgid "EDO:"
+msgstr "EDO:"
+
+#: eea.design/eea/design/browser/templates/sections.pt:10
+#: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:132
+msgid "EEA"
+msgstr "EEA"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:162
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:302
+msgid "EEA Contact Info"
+msgstr "EEA Kontakt Info"
+
+#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:9
+msgid "EEA Faceted Navigation Tool"
+msgstr "EEA lihvitud Navigation Tool"
+
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:112
+msgid "EEA Forum, FAQs, discuss and share"
+msgstr "EMP foorum KKK, arutada ja jagada"
+
+#: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:10
+msgid "EEA Home page - select your preferred language"
+msgstr "EEA Koduleht - valige oma eelistatud keeles"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:17
+msgid "EEA Indicator Manager"
+msgstr "EEA indikaator Manager"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:191
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:342
+#: eea.reports/eea/reports/subtypes/report.py:228
+msgid "EEA Management Plan"
+msgstr "EEA veemajanduskava"
+
+#: eea.reports/eea/reports/subtypes/report.py:229
+msgid "EEA Management plan code. Internal EEA project line code, used to assign an EEA product output to a specific EEA project number in the management plan."
+msgstr "EEA juhtimine kava koodi. Internal EEA projekti line kood, mida kasutatakse, et määrata kohaldatav toote väljund konkreetse EMP projekt number majandamiskava."
+
+#: eea/mediacentre/Multimedia/multimedia.pt:43
+#: eea/mediacentre/Multimedia/multimedia2.pt:44
+#: eea/themecentre/skins/themecentre_templates/media_type_common.pt:26
+msgid "EEA Multimedia Centre"
+msgstr "EEA Multimeedia Keskus"
+
+#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:494
+msgid "EEA Organisational chart"
+msgstr "EEA Organisatsiooni skeem"
+
+#: eea.reports/eea/reports/subtypes/report.py:79
+msgid "EEA Publication Internal ID"
+msgstr "EEA avaldamine Internal ID"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:160
+msgid "EEA Publication title"
+msgstr "EEA avaldamine pealkiri"
+
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:16
+msgid "EEA Staff list"
+msgstr "Keskkonnaagentuuri töötajate nimekiri"
+
+#: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:163
+msgid "EEA Subscriptions"
+msgstr "EEA"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:137
+msgid "EEA Themes"
+msgstr "EEA Teemad"
+
+#: eea.design/eea/design/browser/templates/colophon.pt:62
+#: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:150
+msgid "EEA Web Team"
+msgstr "EKA veebirühm"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:181
+msgid "EEA data references"
+msgstr "EEA andmed viited"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:162
+msgid "EEA enquiry service"
+msgstr "EEA infoliini teenus"
+
+msgid "EEA homepage in your language"
+msgstr "EEA keel"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:591
+msgid "EEA management plan code:"
+msgstr "EEA majandamise kava kood:"
+
+#: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:12
+msgid "EEA notification service account"
+msgstr "EEA teatamise konto"
+
+#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:15
+msgid "EEA website search"
+msgstr "EEA veebilehe otsing"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
+msgid "EPA network"
+msgstr "EPA võrk"
+
+#: eea.epub/eea/epub/skins/eea_epub/portlet_epub.pt:7
+msgid "EPUB format"
+msgstr "EPUB formaadis"
+
+#: eea.googlecharts/eea/googlecharts/views/chart.py:222
+msgid "ERROR: An error occured while exporting your image. Please try again later."
+msgstr "VIGA: tekkis viga ekspordime oma pilt. Palun proovige hiljem uuesti."
+
+#: eea.design/eea/design/browser/templates/colophon.pt:36
+msgid "EU flag"
+msgstr "ELi lipu"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:69
+msgid "EU partners"
+msgstr "ELi partnerite"
+
+#: eea.reports/eea/reports/browser/report.pt:205
+msgid "EU-Bookshop"
+msgstr "EL Raamatupood"
+
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:282
+msgid "Eco agents logo"
+msgstr "Eco ained logo"
+
+#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:124
+#: eea.geotags/eea/geotags/widget/location.pt:28
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:344
+msgid "Edit"
+msgstr "Muuda"
+
+#: EEAContentTypes/skins/EEAContentTypes_popupedit/schemata_edit_macros.pt:16
+#: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:19
+msgid "Edit ${itemtype}"
+msgstr "Edit ${itemtype}"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:106
+msgid "Edit Classification"
+msgstr "Muuda klassifikatsioon"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:300
+msgid "Edit Codes"
+msgstr "Edit koodid"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:50
+msgid "Edit EEA Indicator Manager User Id"
+msgstr "Edit EEA indikaator Manager User Id"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:171
+msgid "Edit EEA Themes"
+msgstr "Edit EEA Teemad"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:344
+msgid "Edit Metadata"
+msgstr "Muuda Metadata"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:77
+msgid "Edit Responsibility and Ownership"
+msgstr "Muuda vastutust ja"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:129
+msgid "Edit Typology"
+msgstr "Edit tüpoloogia"
+
+#: EEAContentTypes/browser/crop/cropping.pt:19
+msgid "Edit croppable images"
+msgstr "Muuda croppable pildid"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:291
+msgid "Edit sub report"
+msgstr "Muuda sub aruanne"
+
+#: eea/mediacentre/profiles/default/actions.xml
+msgid "Edit video metadata"
+msgstr "Muuda video metaandmed"
+
+#: eea.design/eea/design/skins/eeadesign_cms/search.pt:86
+msgid "Edit your search options"
+msgstr "Muuda oma otsingu valikud"
+
+#: eea.workflow/eea/workflow/portlets/readiness.pt:21
+msgid "Editing progress"
+msgstr "Redigeerimisel edu"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:19
+msgid "Eionet"
+msgstr "Eionet"
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:55
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:93
+#: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:23
+msgid "Email"
+msgstr "E-mail"
+
+#: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:48
+msgid "Email Protected.<br /> Please enable JavaScript."
+msgstr "Email Protected. <br /> Palun luba JavaScript."
+
+#: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:22
+msgid "Email address"
+msgstr "E-posti aadress"
+
+#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
+msgid "Enable user feedback"
+msgstr "Luba kasutajate tagasiside"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:73
+msgid "Energy"
+msgstr "Energeetika"
+
+msgid "English"
+msgstr "Inglise"
+
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:25
+msgid "English eionet"
+msgstr "Inglise Eionet"
+
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:19
+msgid "English themes IMS link"
+msgstr "Inglise teemasid IMS link"
+
+#: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:31
+msgid "Enter"
+msgstr "Sisestama"
+
+#: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:22
+msgid "Enter email"
+msgstr "E-posti"
+
+#: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:42
+msgid "Enter one or more keywords for a search."
+msgstr "Sisesta üks või mitu märksõnu otsida."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:350
+msgid "Enter one or more keywords for a search. Use of AND/OR is supported."
+msgstr "Sisesta üks või mitu märksõnu otsida. Kasutage ja / või toetab."
+
+#: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:122
+msgid "Enter one tag per line, multiple words allowed."
+msgstr "Märkida 1 tag rea mitu sõna lubatud."
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:72
+msgid "Entire documentation area"
+msgstr "Kogu dokumentatsiooni alal"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:25
+msgid "EnviroWindows"
+msgstr "EnviroWindows"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:39
+msgid "Environment and health"
+msgstr "Keskkond ja tervis"
+
+#: eea/themecentre/browser/templates/themes_view.pt:85
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:105
+msgid "Environment in different regions and specific areas"
+msgstr "Keskkonna eri piirkondades ja konkreetsed"
+
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:28
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:32
+msgid "Environmental Atlas"
+msgstr "Environmental Atlas"
+
+#: eea.design/eea/design/browser/templates/calendar.pt:26
+msgid "Environmental events around the world"
+msgstr "Environmental sündmuste üle maailma"
+
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:120
+msgid "Environmental information anywhere"
+msgstr "Keskkonnainfo kõikjal"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:135
+msgid "Environmental scenarios"
+msgstr "Keskkonnastsenaariumid"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:127
+msgid "Environmental technology"
+msgstr "Keskkonnatehnoloogia"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:27
+msgid "Error"
+msgstr "VIGA:"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:77
+msgid "Error references"
+msgstr "Viga viited"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:42
+msgid "Estonia"
+msgstr "Eestis"
+
+msgid "Estonian"
+msgstr "Eesti"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:27
+msgid "Europe"
+msgstr "Euroopa"
+
+#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:51
+msgid "Europe and the world: global megatrends"
+msgstr "Euroopas ja maailmas: maailma megatrendid"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:23
+msgid "Europe has made considerable progress over recent decades in cleaning the air that we breathe, but air pollution remains a serious problem and continues to damage our health and the environment."
+msgstr "Euroopa on teinud märkimisväärseid edusamme viimastel aastakümnetel puhastamiseks õhku mida me hingame, kuid õhusaaste jätkuvalt tõsine probleem ning jätkab kahjustada meie tervist ja keskkonda."
+
+#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:37
+msgid "Europe's environment: thematic assessments"
+msgstr "Euroopa keskkond: temaatiline hindamine"
+
+#: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:132
+msgid "European Environment Agency"
+msgstr "Euroopa Keskkonnaagentuur"
+
+#: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:54
+#: eea.design/eea/design/browser/templates/colophon.pt:13
+msgid "European Environment Agency (EEA)"
+msgstr "Euroopa Keskkonnaagentuur (EEA)"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:33
+msgid "European Topic Centres (ETCs)"
+msgstr "Euroopa teemakeskused (ETCS)"
+
+#: eea.design/eea/design/browser/templates/colophon.pt:36
+msgid "European Union Flag"
+msgstr "Euroopa Liidu lipp"
+
+#: EEAContentTypes/skins/EEAContentTypes/event_submitted_confirmation.pt:12
+msgid "Event sent"
+msgstr "Event saata"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:34
+msgid "Excel doc on secure external link"
+msgstr "Excel doc turvaliste external link"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:330
+msgid "Excel link"
+msgstr "Excel link"
+
+#: eea.reports/eea/reports/subtypes/report.py:267
+msgid "Exclude from navigation"
+msgstr "Jätta navigation"
+
+#: eea.sparql/eea/sparql/browser/test_query.pt:21
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:82
+#: eea.sparql/eea/sparql/browser/view.pt:84
+msgid "Execute"
+msgstr "Täitma"
+
+#: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:61
+msgid "Executive Director"
+msgstr "Tegevdirektor"
+
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:21
+msgid "Existing visualizations"
+msgstr "Olemasolevad visualiseeringuid"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:151
+#: eea/mediacentre/Multimedia/multimedia.pt:194
+#: eea/mediacentre/Multimedia/multimedia2.pt:170
+msgid "Explore all tags"
+msgstr "Avastage kõik sildid"
+
+#: eea.promotion/eea/promotion/browser/admin.pt:21
+msgid "External"
+msgstr "Väline"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:192
+msgid "External data references"
+msgstr "Välisandmete viited"
+
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:12
+msgid "Eye On Earth – Citizen observatory on air and bathing water quality"
+msgstr "Eye Maal - Citizen observatoorium õhu ja suplusvee kvaliteedi"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:8
+msgid "Eye on Earth"
+msgstr "Eye on Earth"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:73
+msgid "FAQs"
+msgstr "KKK"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:19
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:316
+msgid "FTP link"
+msgstr "FTP link"
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:74
+msgid "Facebook icon"
+msgstr "Facebook ikoon"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:331
+msgid "Fake PDF file extension"
+msgstr "Teavita PDF faili laiend"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:181
+msgid "Fancybox pop-ups"
+msgstr "Fancybox pop-ups"
+
+#: eea.indicators/eea/indicators/browser/templates/assessmentpart_view.pt:23
+#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:106
+#: eea.reports/eea/reports/browser/report.pt:172
+msgid "Fancybox relations"
+msgstr "Fancybox suhted"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:127
+msgid "Featured Item Description"
+msgstr "Esile Toote kirjeldus"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:126
+msgid "Featured Item Title"
+msgstr "Esile Pealkiri"
+
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:90
+msgid "Featured article"
+msgstr "Soovitatavad artikli"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_maindatasets.pt:16
+msgid "Featured datasets"
+msgstr "Soovitatavad andmekogumite"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:91
+msgid "Feed for all documentation."
+msgstr "Sööda kõik dokumendid."
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:117
+msgid "Feed synced"
+msgstr "Sööda sünkroniseerida"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/eeafigure_view.pt:139
+msgid "Figure type:"
+msgstr "Joonis liik:"
+
+#: eea.indicators/eea/indicators/browser/templates/assessmentpart_view.pt:12
+#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:99
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:137
+msgid "Figures"
+msgstr "Arvandmed"
+
+#: eea.design/eea/design/skins/eeadesign_cms/search.pt:197
+#: eea.design/eea/design/skins/eeadesign_public/search.pt:166
+msgid "Filed under:"
+msgstr "Filed under:"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:36
+msgid "Files"
+msgstr "Faile"
+
+#: eea.reports/eea/reports/subtypes/report.py:80
+msgid "Fill in EEA publication internal id"
+msgstr "Täitke EEA avaldamine sisemist id"
+
+#: eea.reports/eea/reports/subtypes/report.py:126
+msgid "Fill in additional creators/authors"
+msgstr "Täitke veel loojad / autorid"
+
+#: eea.reports/eea/reports/subtypes/report.py:139
+msgid "Fill in additional publishers"
+msgstr "Täitke veel kirjastajad"
+
+#: eea.reports/eea/reports/subtypes/report.py:243
+msgid "Fill in copyrights"
+msgstr "Täitke autoriõigused"
+
+#: EEAContentTypes/content/Article.py:37
+#: eea.reports/eea/reports/subtypes/report.py:150
+msgid "Fill in publication groups"
+msgstr "Täitke avaldamine rühmade"
+
+#: eea.reports/eea/reports/subtypes/report.py:178
+msgid "Fill in publication price"
+msgstr "Täitke avaldamise hind"
+
+#: eea.reports/eea/reports/subtypes/report.py:113
+msgid "Fill in serial title"
+msgstr "Täitke seeria pealkiri"
+
+#: eea.reports/eea/reports/subtypes/report.py:68
+msgid "Fill in the ISBN Number of this publication."
+msgstr "Täitke ISBN Number käesoleva dokumendi avaldamist."
+
+#: eea.reports/eea/reports/subtypes/report.py:89
+msgid "Fill in the Order ID of this publication."
+msgstr "Täitke Order ID käesoleva dokumendi avaldamist."
+
+#: eea.reports/eea/reports/subtypes/report.py:57
+msgid "Fill in the publication file"
+msgstr "Täitke avaldamine fail"
+
+#: eea.reports/eea/reports/subtypes/report.py:255
+msgid "Fill in the trailer."
+msgstr "Täitke haagis."
+
+#: eea.reports/eea/reports/subtypes/report.py:202
+msgid "Fill in to add this text to the order text"
+msgstr "Täitke lisada selle teksti, et teksti"
+
+#: eea.reports/eea/reports/subtypes/report.py:190
+msgid "Fill in to override the order text"
+msgstr "Täitke alistada, et teksti"
+
+#: eea.reports/eea/reports/subtypes/report.py:213
+msgid "Fill in total number of pages"
+msgstr "Täitke lehekülgede koguarv"
+
+#: eea.versions/eea/versions/assign_version.pt:14
+msgid "Fill the new Version ID to be assigned"
+msgstr "Täida uus versioon ID tuleb määrata"
+
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:36
+msgid "Filter by topic"
+msgstr "Filtreeri topic"
+
+#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:70
+msgid "Find"
+msgstr "Leidma"
+
+#: eea.daviz/eea/daviz/content/schema.py:69
+msgid "Find and reuse existing data"
+msgstr "Leidke ja kasutada olemasolevaid andmeid"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:43
+msgid "Finland"
+msgstr "Soome"
+
+msgid "Finnish"
+msgstr "Soome"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:201
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:324
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:387
+msgid "First draft created: ${creation-date}"
+msgstr "Esimene projekt on loodud: ${creation-date}"
+
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:51
+msgid "First name"
+msgstr "Eesnimi"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:139
+msgid "First panel title"
+msgstr "Esimene paneel pealkiri"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:53
+msgid "First tab"
+msgstr "Esimene kaart"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:77
+msgid "Fisheries"
+msgstr "Kalandus"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:227
+msgid "Flexible tooltips"
+msgstr "Paindlik vihjed"
+
+#: eea.design/eea/design/skins/eea_design/smart_view.pt:24
+msgid "Folder overview"
+msgstr "Folder ülevaade"
+
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:16
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:69
+msgid "Follow us"
+msgstr "Jälgi meid"
+
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:23
+msgid "Follow us on Facebook"
+msgstr "Jälgi meid Facebook"
+
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:18
+msgid "Follow us on Twitter"
+msgstr "Jälgi meid Twitteris"
+
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:28
+msgid "Follow us on YouTube"
+msgstr "Jälgi meid YouTube"
+
+#: EEAContentTypes/browser/crop/cropping.pt:20
+msgid "For each image field in your content you can select below the image you want to crop."
+msgstr "Iga pildiväli oma sisu saad valida allpool pilt, mida soovite kärpida."
+
+#: eea.reports/eea/reports/subtypes/report.py:98
+msgid "For sale?"
+msgstr "Müügiks?"
+
+#: eea.design/eea/design/skins/eea_design/mail_password_form.pt:22
+msgid "For security reasons, we store your password encrypted, and cannot mail it to you. If you would like to reset your password, fill out the form below and we will send you an email at the address you gave when you registered to start the process of resetting your password."
+msgstr "Turvakaalutlustel me salvestada oma parooli krüpteeritud ja ei saa saatke see teile. Kui soovite salasõna, täitke allolev vorm ja me saadame sulle e-posti aadressil andsite registreeritud alustama parooli muuta."
+
+#: eea.sparql/eea/sparql/browser/view.pt:57
+msgid "For system integrators"
+msgstr "Sest süsteemiintegraatorid"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:174
+#: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:66
+msgid "Forgot your password?"
+msgstr "Unustasid oma parooli?"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:112
+#: eea.sparql/eea/sparql/browser/view.pt:13
+msgid "Formats suitable for human consumption"
+msgstr "Formaadid sobivad inimtoiduks"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:122
+#: eea.sparql/eea/sparql/browser/view.pt:22
+msgid "Formats suitable for machine-to-machine communication"
+msgstr "Formaadid sobib masin-masin side"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:44
+msgid "Former Yugoslav Republic of Macedonia"
+msgstr "Endine Jugoslaavia Makedoonia Vabariik"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:45
+msgid "France"
+msgstr "Prantsusmaa"
+
+#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:67
+msgid "Free text search"
+msgstr "Vaba teksti otsing"
+
+msgid "French"
+msgstr "Prantsuse"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:137
+msgid "Freshwater"
+msgstr "Magevee-"
+
+#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:29
+msgid "Friendly name"
+msgstr "Friendly name"
+
+#: eea.promotion/eea/promotion/browser/form.pt:28
+msgid "Front Page"
+msgstr "Front Page"
+
+#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:79
+msgid "Full screen"
+msgstr "Täisekraanil"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:170
+msgid "Fullscreen image"
+msgstr "Fullscreen pilti"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:250
+#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:38
+msgid "Further work"
+msgstr "Edasine töö"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:29
+msgid "Gallery view"
+msgstr "Galerii"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:10
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:297
+#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:45
+msgid "General metadata"
+msgstr "General metaandmed"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:32
+#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:36
+msgid "Generic metadata"
+msgstr "Generic metaandmed"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:386
+msgid "Geographic accuracy:"
+msgstr "Geograafiline täpsus:"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:366
+msgid "Geographical coverage:"
+msgstr "Geograafiline ulatus:"
+
+#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:60
+msgid "Geotags:"
+msgstr "Geosilt:"
+
+msgid "German"
+msgstr "Saksa"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:49
+msgid "Germany"
+msgstr "Saksamaa"
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:17
+msgid "Get notifications on new reports and products."
+msgstr "Saada teadet uute aruanded ja tooteid."
+
+#: eea.promotion/eea/promotion/browser/form.pt:51
+msgid "Global"
+msgstr "Globaalne"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:78
+msgid "Glossary definitions"
+msgstr "Sõnastik mõisted"
+
+#: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:29
+msgid "Go back and correct"
+msgstr "Minna tagasi ja parandada"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:22
+#: eea/mediacentre/Multimedia/multimedia.pt:92
+#: eea/mediacentre/Multimedia/multimedia2.pt:95
+msgid "Go to advanced search"
+msgstr "Mine Täpsem Otsing"
+
+#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:24
+msgid "Google Custom Search Engines"
+msgstr "Google Custom Search Engines"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:47
+msgid "Google search"
+msgstr "Google otsing"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:50
+msgid "Greece"
+msgstr "Kreeka"
+
+msgid "Greek"
+msgstr "Kreeka"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:89
+msgid "Green economy"
+msgstr "Roheline majandus"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:150
+#: eea/mediacentre/Multimedia/multimedia2.pt:128
+msgid "Green tips"
+msgstr "Green nõuanded"
+
+#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:114
+msgid "Groups:"
+msgstr "Gruppid"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:143
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:78
+msgid "HTML table"
+msgstr "HTML tabel"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:183
+msgid "Hello World!"
+msgstr "Hello World!"
+
+#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:168
+msgid "Here is the full error message:"
+msgstr "Siin on täielik tõrketeade:"
+
+#: eea.design/eea/design/skins/eeadesign_cms/search.pt:77
+msgid "Hide the search form"
+msgstr "Peida otsingumootorit"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:90
+msgid "Highlights"
+msgstr "Põhiküsimused"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:83
+msgid "History"
+msgstr "ajalugu"
+
+#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:42
+msgid "Home"
+msgstr "Koduleht"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:81
+msgid "Household consumption"
+msgstr "Tarbimine kodumajapidamistes"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:74
+msgid "How-tos"
+msgstr "Õpetused"
+
+msgid "Hungarian"
+msgstr "Ungari"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:51
+msgid "Hungary"
+msgstr "Ungari"
+
+#: eea/themecentre/skins/themecentre_templates/rod_listing.pt:25
+msgid "ID"
+msgstr "ID"
+
+#: eea.reports/eea/reports/subtypes/report.py:67
+msgid "ISBN"
+msgstr "ISBN"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:257
+msgid "Ice cream"
+msgstr "Jäätis"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:52
+msgid "Iceland"
+msgstr "Island"
+
+msgid "Icelandic"
+msgstr "Islandi"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:29
+msgid "Icons based on file extension, on different external sites and protocols"
+msgstr "Ikoonid põhineb faililaiendit, erinevate väliste saitide ja protokolle"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:15
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:312
+msgid "Icons based on protocols"
+msgstr "Ikoonid põhineb protokollidel"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:178
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:367
+#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:60
+msgid "Identification"
+msgstr "Identifitseerimine"
+
+#: eea.promotion/eea/promotion/browser/form.pt:53
+msgid "If checked, the promotion is shown at the top in navigation menu on all pages."
+msgstr "Kui on valitud, edendamine kuvatakse top navigatsioonimenüü kõigil lehekülgedel."
+
+#: eea.reports/eea/reports/subtypes/report.py:265
+msgid "If selected, this item will not appear in the navigation tree"
+msgstr "Kui valitud, see toode ei ilmu navigation puu"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:195
+msgid "If the a-tag hrefs to an image, it will be displayed in the popup. Be careful though, if the URL does not end with an image extension, fancybox will hang."
+msgstr "Kui A-tag hrefs et pilt, siis kuvatakse hüpikaken. Olge ettevaatlik, aga kui URL ei lõpe pildi laiendamine, fancybox riputada."
+
+#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:83
+msgid "If the map application above does not provide an integrated full screen feature (usually in the upper right corner), then you can try with the following ${full-screen-mode}"
+msgstr "Kui kaart taotluse üle ei anna integreeritud täisekraanil funktsioon (tavaliselt paremas nurgas), siis võite proovida koos järgmiste ${full-screen-mode}"
+
+#: eea.promotion/eea/promotion/profiles/default/actions.xml
+msgid "If translations of this item have been made after it was first promoted, this action promotes the new translations"
+msgstr "Kui tõlgete seda eset on tehtud pärast seda 1. edendada, see tegevus soodustab uute tõlked"
+
+#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:52
+msgid "If you are certain you have the correct web address but are encountering an error, please contact the ${site_admin}."
+msgstr "Kui olete kindel, on õige veebiaadress, kuid tekib viga, võtke ${site_admin}."
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:200
+msgid "If you do not have an account here, head over to the ${registration_form}."
+msgstr "Kui sul ei ole kontot siin, pea üle ${registration_form}."
+
+#: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:26
+msgid "If you experience problems please ${link}."
+msgstr "Kui teil tekib probleeme, siis ${link}."
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:180
+msgid "If you have forgotten your password, ${click_here}."
+msgstr "Kui Te olete unustanud oma parooli, ${click_here}."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:98
+msgid "If you have tabs that have longer titles consider using the extra 'two-rows' class for the tabs which makes the tabs larger in height and better styled to accomodate larger titles."
+msgstr "Kui teil on klapid, mis on enam tiitleid kaaluda ekstra 'kaks rida' klassi kaarte, mis muudab kaarte suurem kõrgus ja parem stiilis majutada rohkem tiitleid."
+
+#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:160
+msgid "If you need to report this to the ${site_admin}, please include this entry number in your message."
+msgstr "Kui teil on vaja aru, et see ${site_admin}, lisage see kirje number sõnum."
+
+#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:52
+msgid "If you want to read the content of this document, you have to switch to one of the following languages:"
+msgstr "Kui soovid lugeda selle dokumendi sisu, sa pead minema ühte järgmistest keeltest:"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:119
+msgid "If you wish to block or unblock certain categories of portlets, you can do so using the drop-down boxes."
+msgstr "Kui soovite blokeerida või vabastada teatavat liiki Mooduli, saate seda teha kasutades rippmenüüst."
+
+#: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:26
+#: eea.promotion/eea/promotion/browser/admin.pt:19
+#: eea.signals/eea/signals/skins/eea_signals/gallery_view.pt:63
+msgid "Image"
+msgstr "Pilt"
+
+#: EEAContentTypes/browser/crop/cropimage.pt:20
+msgid "Image Size:"
+msgstr "Image Size:"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:153
+#: eea/mediacentre/Multimedia/multimedia2.pt:131
+msgid "Image galleries"
+msgstr "Image galleries"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:194
+msgid "Image pop-ups"
+msgstr "Pilt pop-ups"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:283
+msgid "Image scales"
+msgstr "Pilt kaalud"
+
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:7
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:8
+msgid "In the spotlight"
+msgstr "Tähelepanu keskpunktis"
+
+#: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:16
+msgid "In these websites you will find all the summarised environmental information available in your language."
+msgstr "Neil veebilehtedel leiad kõik kokkuvõtlikult keskkonnateave kättesaadavaks oma emakeeles."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:250
+#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:30
+msgid "Indicator"
+msgstr "Indikaator"
+
+#: eea.indicators/eea/indicators/browser/templates/indicatorfactsheet/aggregated_edit.pt:26
+msgid "Indicator FactSheet versions"
+msgstr "Indikaator Teabeleht versioonid"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:188
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:370
+#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:63
+msgid "Indicator code"
+msgstr "Indikaator kood"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:65
+#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:65
+msgid "Indicator codes"
+msgstr "Indikaator koodid"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:89
+msgid "Indicator definition"
+msgstr "Indikaatori määratlus"
+
+#: eea.indicators/eea/indicators/browser/templates/wrong_specification_versions.pt:17
+msgid "Indicators that have wrong version ids"
+msgstr "Näitajad, mis on vale versioon ids"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:85
+msgid "Industry"
+msgstr "Tööstus"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:43
+#: eea.design/eea/design/skins/eea_design/global_statusmessage.pt:13
+msgid "Info"
+msgstr "Info"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:240
+msgid "Information about rights held in and over the resource. Typically a rights element will contain a rights management statement for the resource, or reference a service providing such information. Rights information often encompasses intellectual property rights (IPR), copyright and various property rights"
+msgstr "Teavet õiguste peetud ja üle ressurss. Tavaliselt õigused element sisaldab rights management avalduse ressurss, või viide teenuse sellise teabe. Rights info sageli hõlmab intellektuaalomandi õiguste (IPR), autoriõiguse ja mitmete õigusi"
+
+#: eea/mediacentre/browser/statistics.pt:5
+msgid "Information about the Media centre"
+msgstr "Teave meedia keskus"
+
+#: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:23
+msgid "Inherit faceted navigation configuration from:"
+msgstr "Pärida lihvitud navigation konfiguratsiooni alates:"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:51
+msgid "Inland, Coastal and Marine waters (ICM)"
+msgstr "Sise-, ranniku-ja merevee (ICM)"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:146
+msgid "Insert publication keywords to search for"
+msgstr "Sisesta avaldamine märksõnu otsida"
+
+#: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:32
+msgid "Instructions for Europass CV"
+msgstr "Juhendid Europassi CV"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:99
+msgid "Instructions on how to contribute to and use this resource."
+msgstr "Juhised, kuidas anda oma panus ja kasutada seda ressurssi."
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:227
+msgid "Interactive data viewer"
+msgstr "Interaktiivne andmed vaataja"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:51
+msgid "Interactive data viewers"
+msgstr "Interaktiivne andmed vaatajad"
+
+#: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:19
+msgid "Interested candidates must apply by filling in the application form below. To the application form must be attached:"
+msgstr "Huvitatud kandidaatidel tuleb kohaldada, täites taotlusvormi alla. Taotlusvormile tuleb lisada:"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:70
+msgid "International cooperation"
+msgstr "Rahvusvaheline koostöö"
+
+#: eea.design/eea/design/browser/templates/language_selector.pt:56
+msgid "Invalid translation"
+msgstr "Vigane tõlge"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:12
+msgid "Invalidate"
+msgstr "Kehtetuks"
+
+#: eea.sparql/eea/sparql/cache/caching.pt:15
+msgid "Invalidate cache"
+msgstr "Kehtetuks cache"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:12
+msgid "Invalidate cache for current page"
+msgstr "Kehtetuks cache praeguse lehele"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:18
+msgid "Invalidate cache for current page and all subpages"
+msgstr "Kehtetuks vahemälu praeguse lehe ning kõik alamlehed"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:53
+msgid "Ireland"
+msgstr "Iirimaa"
+
+#: eea.reports/eea/reports/subtypes/report.py:99
+msgid "Is this publication for sale?"
+msgstr "Kas see avaldamine müügiks?"
+
+msgid "Italian"
+msgstr "Itaalia"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:54
+msgid "Italy"
+msgstr "Itaalia"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:147
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:82
+msgid "JSON"
+msgstr "JSON"
+
+#: eea.sparql/eea/sparql/browser/view.pt:52
+msgid "JSON Url:"
+msgstr "JSON Url:"
+
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:57
+msgid "Job title"
+msgstr "Ametinimetus"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:136
+msgid "Jquerytools accordion"
+msgstr "Jquerytools akordion"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:51
+msgid "Jquerytools tabs"
+msgstr "Jquerytools kaardid"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:92
+msgid "Jquerytools tabs two rows title"
+msgstr "Jquerytools tabs 2 rida pealkiri"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:70
+msgid "Justification for indicator selection"
+msgstr "Põhjendus näitaja valik"
+
+#: eea.reports/eea/reports/skins/reports_templates/report_file.pt:23
+msgid "Keep existing file"
+msgstr "Hoidke olemasoleva faili"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:100
+#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:111
+msgid "Key assessment"
+msgstr "Key hindamine"
+
+#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:25
+msgid "Key facts and messages"
+msgstr "Peamised faktid ja teated"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:129
+msgid "Key message"
+msgstr "Põhisõnum"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:94
+#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:91
+msgid "Key messages"
+msgstr "Põhisõnumid"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:138
+msgid "Key policy question"
+msgstr "Peamiseks küsimuseks"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:92
+msgid "Key policy question: ${title}"
+msgstr "Peamised poliitilised küsimuse: ${title}"
+
+#: eea.design/eea/design/browser/templates/colophon.pt:16
+#: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:152
+msgid "Kongens Nytorv 6, 1050, Copenhagen K, Denmark."
+msgstr "Kongens Nytorv 6, 1050 Kopenhaagen K, Taani."
+
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:230
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:131
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:42
+msgid "Land use"
+msgstr "Maakasutus"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:34
+msgid "Last modified"
+msgstr "Viimati muudetud"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:209
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:331
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:394
+msgid "Last modified: ${modified-date}"
+msgstr "Viimati muudetud: ${modified-date}"
+
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:53
+msgid "Last name"
+msgstr "Perekonnanimi"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:58
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:48
+msgid "Last updated"
+msgstr "Viimati uuendatud"
+
+#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:498
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:20
+msgid "Last updated on:"
+msgstr "Viimati uuendatud:"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:354
+msgid "Last upload:"
+msgstr "Kesta laadida:"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:118
+msgid "Latest ${title}"
+msgstr "Viimased ${title}"
+
+#: eea/themecentre/browser/portlets/smartfolder.py:43
+msgid "Latest FAQ"
+msgstr "Viimased KKK"
+
+#: EEAContentTypes/browser/related_bytheme.pt:9
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:111
+msgid "Latest addition"
+msgstr "Viimane täiendus"
+
+#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:21
+#: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:82
+msgid "Latest publications"
+msgstr "Viimased avaldamised"
+
+#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:21
+msgid "Latest publications about Europe's environment published by EEA."
+msgstr "Viimased trükiste kohta Euroopa keskkonna avaldatud kohaldatav."
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:55
+msgid "Latvia"
+msgstr "Läti"
+
+msgid "Latvian"
+msgstr "Läti"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:126
+msgid "Legacy portlets"
+msgstr "Legacy Mooduli"
+
+#: eea.design/eea/design/browser/templates/colophon.pt:32
+#: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:155
+msgid "Legal notice"
+msgstr "Õigusalane teave"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:56
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:116
+#: eea/mediacentre/browser/multimedia_popup_view.pt:61
+#: eea/mediacentre/browser/video_popup_view.pt:79
+msgid "Link"
+msgstr "{link}');"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:26
+msgid "Link listing"
+msgstr "Link nimekirja"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_summary.pt:22
+msgid "Link management overview"
+msgstr "Link juhtimine ülevaade"
+
+#: eea.soer/eea/soer/skins/eea_soer/keyfact_view.pt:11
+msgid "Link to full assessment"
+msgstr "Seos täieliku hindamise"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:12
+msgid "Link types are automatically detected on client side by a javascript (scanforlinks) which will add the necessary class icon before the link."
+msgstr "Link tüüpi tuvastatakse automaatselt kliendi külg javascript (scanforlinks), mis lisab vajaliku klassi ikoon enne link."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:307
+msgid "Link types are automatically detected on client side by a javascript which will add the necessary class icon before the link. Here you see some examples:"
+msgstr "Link tüüpi tuvastatakse automaatselt kliendi külg javascript mis lisab vajaliku klassi ikoon enne link. Siin näete mõned näited:"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:312
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:376
+msgid "Link: ${link}"
+msgstr "Link: ${link}"
+
+#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:69
+msgid "Link: ${specification}"
+msgstr "Link: ${specification}"
+
+#: eea.sparql/eea/sparql/browser/view.pt:58
+msgid "Linked Data query (SPARQL)"
+msgstr "Seotud andmete päringu (SPARQL)"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:140
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:75
+msgid "Linked Open Data"
+msgstr "Seotud Open andmed"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:76
+#: eea.reports/eea/reports/browser/report.pt:133
+#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:43
+msgid "Links"
+msgstr "Lingid"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_summary.pt:44
+msgid "Links in the state ..."
+msgstr "Lingid riigis ..."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:11
+msgid "List of all icons available"
+msgstr "Nimekirja kõik ikoonid saadaval"
+
+#: eea.design/eea/design/skins/eea_design/smart_view.pt:15
+msgid "Listing"
+msgstr "Loetelu"
+
+#: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:18
+msgid "Listing not available"
+msgstr "Videod puuduvad"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:57
+msgid "Lithuania"
+msgstr "Leedu"
+
+msgid "Lithuanian"
+msgstr "Leedu"
+
+#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:16
+msgid "Loading..."
+msgstr "Loading ..."
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:91
+msgid "Location"
+msgstr "Asukoht"
+
+#: eea.promotion/eea/promotion/browser/admin.pt:23
+msgid "Locations"
+msgstr "Asukohad"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:159
+#: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:52
+msgid "Log in"
+msgstr "Sisselogimine"
+
+#: eea.design/eea/design/browser/templates/comments.pt:30
+msgid "Log in to add comments"
+msgstr "Logi sisse, et lisada kommentaare"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:89
+msgid "Login Name"
+msgstr "Logi sisse nimi"
+
+#: EEAContentTypes/skins/EEAContentTypes/workflow_action_message.pt:10
+msgid "Login at:"
+msgstr "Logi sisse juures:"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:22
+msgid "Login failed"
+msgstr "Logi sisse ebaõnnestus"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:274
+msgid "Long term work"
+msgstr "Pikaajaline töö"
+
+#: eea.daviz/eea/daviz/content/schema.py:70
+msgid "Look for compatible datasets in catalogue (e.g. visualization data, .tsv, .csv, SPARQL, etc)"
+msgstr "Vaata kooskõlas andmekogude kataloogis (näiteks visualiseerimine andmeid. Tsv. Csv, SPARQL jne)"
+
+#: eea.design/eea/design/skins/eea_design/mail_password_form.pt:19
+msgid "Lost Password"
+msgstr "Unustasin parooli"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:58
+msgid "Luxembourg"
+msgstr "Luksemburg"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_mainfigures.pt:16
+msgid "Main maps/graphs"
+msgstr "Main kaarte / graafikud"
+
+#: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:17
+#: eea.indicators/eea/indicators/browser/templates/timeline.pt:32
+msgid "Make fullscreen"
+msgstr "Tee fullscreen"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:59
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Maltese"
+msgstr "Malta"
+
+#: eea.design/eea/design/browser/templates/manage_footer.pt:24
+msgid "Manage Footer Portlets"
+msgstr "Hallata jalus Mooduli"
+
+#: eea.design/eea/design/browser/templates/footer.pt:11
+msgid "Manage footer portlets"
+msgstr "Hallata jalus Mooduli"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:98
+msgid "Map location"
+msgstr "Kaardil"
+
+#: eea.indicators/eea/indicators/browser/templates/assessmentpart_view.pt:16
+#: eea.reports/eea/reports/browser/report.pt:165
+msgid "Maps and graphs"
+msgstr "Kaardid ja graafikud"
+
+#: eea/mediacentre/browser/statistics.pt:9
+msgid "Media Centre is a virtual repository of multimedia files. It can be videos, interviews, maps, animations, images etc. The repository right now contains:"
+msgstr "Media Centre on virtuaalne varamu multimeedia faile. See võib olla videod, intervjuud, kaardid, animatsioonid, pildid jne hoidla praegu sisaldab:"
+
+#: eea/mediacentre/browser/statistics.pt:22
+msgid "Media Centre relies on plugins. Each plugin handles a set of media types and knows how to retrieve media files/data from the repository it handles. When Media Centre is asked for all videos that are available it will forward the question to all registered plugins and will then merge the results."
+msgstr "Media Centre tugineb plugins. Iga plugin käepidemed komplekti kandjatüübid ja teab, kuidas laadida meediafaile / andmete hoidla ta tegeleb. Kui Media Centre küsitakse kõik videod, mis on saadaval see edastada küsimus kõigile registreeritud plugins ja seejärel ühendada tulemusi."
+
+#: eea/mediacentre/browser/video-listed-single.pt:31
+#: eea/mediacentre/browser/video.pt:57
+msgid "Media Type:"
+msgstr "Meedia tüüp:"
+
+#: eea/mediacentre/profiles/default/actions.xml
+msgid "Media type"
+msgstr "Media type"
+
+#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:28
+msgid "Menu"
+msgstr "menüü avamiseks."
+
+#: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:29
+msgid "Message"
+msgstr "Sõnum"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:148
+msgid "Methodology"
+msgstr "Metoodika"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:157
+msgid "Methodology for gap filling"
+msgstr "Metoodika avatäitevaht"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:151
+msgid "Methodology for indicator calculation"
+msgstr "Metoodika näitaja arvutamine"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:164
+msgid "Methodology references"
+msgstr "Metoodika viited"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:232
+msgid "Methodology uncertainty"
+msgstr "Metoodika ebakindlus"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:457
+msgid "Methodology:"
+msgstr "Metoodika:"
+
+#: EEAContentTypes/migrate/migrate.pt:26
+msgid "Migrate"
+msgstr "Rändama"
+
+#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
+msgid "Migrate Data to ExternalDataSpec"
+msgstr "Rännata andmed ExternalDataSpec"
+
+#: EEAContentTypes/migrate/migrate.pt:9
+msgid "Migrate EEA Content-types: Image to Blob"
+msgstr "Rändavad EEA Content-tüüpi: Image to Blob"
+
+#: eea.workflow/eea/workflow/portlets/readiness.pt:41
+msgid "Missing fields"
+msgstr "Kadunud valdkondades"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:28
+msgid "Mix links examples"
+msgstr "Sega lingid näited"
+
+msgid "Mobile"
+msgstr "Liikuv"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:58
+#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:28
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:111
+msgid "Modified"
+msgstr "Muutmine"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:60
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: eea.design/eea/design/browser/templates/calendar.pt:48
+msgid "Month events"
+msgstr "Kuu sündmused"
+
+#: EEAContentTypes/skins/EEAContentTypes/highlight_macros.pt:55
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:131
+#: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed.pt:54
+msgid "More"
+msgstr "Täiendavalt"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_dataviewers.pt:46
+msgid "More data viewers"
+msgstr "Rohkem andmeid vaatajad"
+
+#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:24
+msgid "More green tips"
+msgstr "Rohkem rohelisi nõuanded"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:174
+msgid "More information about this event&hellip;"
+msgstr "Rohkem informatsiooni selle sündmuse ..."
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:157
+msgid "More information about this indicator"
+msgstr "Rohkem informatsiooni selle näitaja"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_dataviewers.pt:42
+msgid "More interactive data viewers"
+msgstr "Rohkem interaktiivseid andmeid vaatajad"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:38
+msgid "More multimedia"
+msgstr "Rohkem multimeedia"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:66
+msgid "More networks"
+msgstr "Rohkem võrke"
+
+#: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:162
+msgid "More subscriptions are available at ${link}"
+msgstr "Rohkem tellimusi on saadaval ${link}"
+
+#: eea/mediacentre/browser/multimedia_popup_view.pt:65
+#: eea/mediacentre/browser/video_popup_view.pt:80
+msgid "More videos"
+msgstr "More videos"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/portlet_mostreferenced.pt:14
+msgid "Most popular data and maps"
+msgstr "Kõige populaarsemad andmed ja kaardid"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/portlet_mostreferenced.pt:27
+msgid "Most popular datasets"
+msgstr "Kõige populaarsemad andmekogumite"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:202
+msgid "Move bottom"
+msgstr "Liiguta alla"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:195
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:96
+msgid "Move down"
+msgstr "Liiguta alla"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:181
+msgid "Move top"
+msgstr "Liiguta üles"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:188
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:94
+msgid "Move up"
+msgstr "Liiguta üles"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:9
+#: eea/mediacentre/Multimedia/multimedia.pt:7
+#: eea/mediacentre/Multimedia/multimedia2.pt:7
+msgid "Multimedia"
+msgstr "Multimeedia"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:19
+msgid "Multimedia highlights"
+msgstr "Multimedia rõhutab"
+
+#: eea/mediacentre/Multimedia/multimedia2.pt:134
+msgid "My playlist"
+msgstr "Minu playlist"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:56
+msgid "NOT CHECKED"
+msgstr "Ei kontrollita"
+
+#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:192
+msgid "Name"
+msgstr "Nimi"
+
+#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:87
+msgid "National SOE reports"
+msgstr "National SOE aruanded"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:151
+msgid "National and regional stories"
+msgstr "Riiklikud ja piirkondlikud lood"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:151
+msgid "National and regional story"
+msgstr "Riiklikud ja piirkondlikud lugu"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:45
+msgid "Natural resources"
+msgstr "Loodusvarad"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:125
+msgid "Nature protection and biodiversity"
+msgstr "Looduskaitse ja bioloogilise mitmekesisuse"
+
+#: NavigationManager/menu/navigation.py:26
+#: eea.design/eea/design/skins/eea_design/portlet_navigation.pt:7
+msgid "Navigation"
+msgstr "Navigation"
+
+#: NavigationManager/menu/navigation.py:27
+msgid "Navigation actions"
+msgstr "Navigation meetmete"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:65
+msgid "Netherlands"
+msgstr "Holland"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
+msgid "Network of the Heads of Environment Protection Agencies (EPA network)"
+msgstr "Network juhtide Keskkonnakaitse ametid (EPA võrgustik)"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:5
+msgid "Networks"
+msgstr "Võrgustikud"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:37
+msgid "New icons or updates can be done via the mimetypes_registry in the Plone CMS or through the EEADesign2006 product. Contact the EEA web development team in this case."
+msgstr "New ikoone või uuendusi saab teha mimetypes_registry sisse Plone CMS või EEADesign2006 toode. Võta EMP web areng meeskond sel juhul."
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:190
+#: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:72
+msgid "New user?"
+msgstr "Uus kasutaja?"
+
+#: eea.indicators/eea/indicators/content/Specification.py:791
+msgid "Newly created ${type_name}"
+msgstr "Vastloodud ${type_name}"
+
+#: eea.indicators/eea/indicators/content/WorkItem.py:107
+msgid "Newly created work item"
+msgstr "Vastloodud töö kirje"
+
+msgid "News"
+msgstr "Uudised"
+
+#: eea/mediacentre/browser/video_popup_view.pt:35
+msgid "News and articles"
+msgstr "Uudised ja artiklid"
+
+#: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:178
+msgid "Next"
+msgstr "Järgmine"
+
+#: eea.design/eea/design/browser/templates/calendar.pt:63
+msgid "Next month"
+msgstr "Järgmine kuu"
+
+#: eea/themecentre/skins/themecentre_templates/rod_listing.pt:28
+msgid "Next report deadline"
+msgstr "Järgmine aruanne tähtaeg"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:109
+msgid "No context has been specified"
+msgstr "Ei kontekstis on määratud"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:183
+msgid "No datasets have been specified here."
+msgstr "Ei andmekogusid on täpsustatud siin."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:92
+msgid "No definition has been specified"
+msgstr "Ei määratlus on määratud"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:259
+msgid "No further work description has been specified"
+msgstr "Enam töö kirjeldus on määratud"
+
+#: EEAContentTypes/browser/crop/cropping.pt:15
+msgid "No images found."
+msgstr "Pilte ei leitud."
+
+#: eea/themecentre/skins/themecentre_templates/media_type_common.pt:23
+msgid "No media files of this kind yet."
+msgstr "Ei meediumifaile selline veel."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:159
+msgid "No methodology for gap filling has been specified. Probably this info has been added together with indicator calculation."
+msgstr "Ei metoodika lõhe täitmine on määratud. Tõenäoliselt see info on lisatud koos näitaja arvutamisel."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:153
+msgid "No methodology for indicator calculation has been specified"
+msgstr "Ei metoodika näitaja arvutamine on määratud"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:172
+msgid "No methodology references available."
+msgstr "Ei metoodika HomeLinki."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:335
+msgid "No owners."
+msgstr "Ei omanikele."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:48
+msgid "No published assessments"
+msgstr "Ole avaldatud hinnanguid"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:55
+msgid "No reference set. Click the add button to select."
+msgstr "Ühtki viidet määratud. Klõpsake nuppu Lisa, et valida."
+
+#: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:142
+msgid "No reference set. Click the browse button to select."
+msgstr "Ühtki viidet määratud. Klõpsake Browse nuppu."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:129
+msgid "No related policy documents have been specified"
+msgstr "Nr seotud poliitika dokumendid on täpsustatud"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:264
+msgid "No resource needs have been specified"
+msgstr "Ei ressursivajadused on täpsustatud"
+
+#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:205
+msgid "No results are available for this topic"
+msgstr "Katsetulemused puuduvad selle teema"
+
+#: eea.design/eea/design/skins/eeadesign_cms/search.pt:136
+#: eea.design/eea/design/skins/eeadesign_public/search.pt:105
+msgid "No results were found."
+msgstr "Tulemusi ei leitud."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:269
+msgid "No status has been specified"
+msgstr "Ei staatus on määratud"
+
+#: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:81
+msgid "No tags currently selected."
+msgstr "Ühtegi märksõna ei valitud."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:115
+msgid "No targets have been specified"
+msgstr "Ei eesmärgid on määratletud"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:235
+msgid "No uncertainty has been specified"
+msgstr "Ei ebakindlus on määratud"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:98
+msgid "No units have been specified"
+msgstr "Ei üksused on kindlaks määratud"
+
+#: eea.indicators/eea/indicators/browser/templates/timeline.pt:40
+msgid "No."
+msgstr "Ei"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:48
+msgid "Noise"
+msgstr "Müra"
+
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:12
+msgid "Normal"
+msgstr "Normaalne"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:66
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:53
+msgid "Norway"
+msgstr "Norra"
+
+msgid "Norwegian"
+msgstr "Norra"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:25
+msgid "Note that for authenticated users the info below include the unpublished content."
+msgstr "Pange tähele, et autenditud kasutajad info allpool hulka avaldamata sisu."
+
+#: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:16
+msgid "Note: new version is available!"
+msgstr "Märkus: uus versioon on saadaval!"
+
+#: eea.reports/eea/reports/browser/report.pt:17
+msgid "Note: new versions are available!"
+msgstr "Märkus: uued versioonid on saadaval!"
+
+#: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:20
+msgid "Note: there is a new version available with state:"
+msgstr "Märkus: neil on uus versioon saadaval riik:"
+
+#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:46
+msgid "Note: this webpage has been archived."
+msgstr "Märkus: see veebileht on arhiveeritud."
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:148
+msgid "Nothing published in ${title}&hellip;"
+msgstr "Miski avaldatud ${title} ..."
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:88
+msgid "Notifications archive"
+msgstr "Teated arhiiv"
+
+#: eea.reports/eea/reports/subtypes/report.py:201
+msgid "OR add some text to the order screen"
+msgstr "Või lisada mõned teksti, et ekraan"
+
+#: eea.reports/eea/reports/subtypes/report.py:88
+msgid "ORDER ID (Catalogue Number)"
+msgstr "Tellimuse ID (Kataloog Number)"
+
+#: eea.reports/eea/reports/browser/report.pt:263
+#: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:58
+msgid "Older versions"
+msgstr "Vanemad versioonid"
+
+#: EEAContentTypes/browser/reorder.pt:69
+msgid "On the left side you have a list resources. Drag from the handle icon to reorder. After reordering, you need to use the Save button at the bottom of the list. On the right side you can see how the resources have been composed. Notice: this is not a preview. Hitting Save will generate new merged resources."
+msgstr "Vasakul pool teil on loetelu ressursse. Lohistada käepide ikoonil järjekorda. Pärast ümbertõstmine, peate kasutama nuppu Salvesta allosas nimekirja. Paremal näete, kuidas vahendeid on koosneb. Märkus: see ei ole eelvaade. Lööb Save loob uue ühinenud ressursse."
+
+#: eea/mediacentre/Multimedia/multimedia.pt:58
+#: eea/mediacentre/Multimedia/multimedia2.pt:56
+msgid "One degree matters"
+msgstr "Ühe kraadi küsimustes"
+
+#: eea.reports/eea/reports/browser/report.pt:198
+msgid "Order a printed copy at EU-Bookshop"
+msgstr "Telli trükitud koopia ELi-Raamatupood"
+
+#: eea.reports/eea/reports/browser/report.pt:198
+msgid "Order a printed copy online"
+msgstr "Telli prinditud koopia Internetis"
+
+#: eea.reports/eea/reports/browser/report.pt:196
+msgid "Order information"
+msgstr "Tellimisinfo"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:50
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:37
+msgid "Organisation name"
+msgstr "Organisatsiooni nimi"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:54
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:41
+msgid "Organisation website"
+msgstr "Organisatsiooni veebilehel"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:18
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:14
+msgid "Organisations control panel"
+msgstr "Organisatsioonid juhtpaneel"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:119
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:32
+msgid "Organisations with no reference"
+msgstr "Organisatsioonid, kellel ei ole viide"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:103
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:27
+msgid "Organisations with wrong title"
+msgstr "Organisatsioonid, mille vale pealkiri"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:215
+msgid "Original data used to produce the analysis"
+msgstr "Algandmed tootmiseks kasutatud analüüs"
+
+#: EEAContentTypes/browser/crop/cropping.pt:25
+msgid "Original image"
+msgstr "Original image"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:173
+msgid "Original link"
+msgstr "Algne link"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:119
+msgid "Original link for this report"
+msgstr "Algne link selle aruande"
+
+#: eea/themecentre/browser/themecentre.py:67
+msgid "Other"
+msgstr "Muud"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:341
+msgid "Other metadata"
+msgstr "Muud metaandmed"
+
+#: eea.design/eea/design/skins/eea_design/folder_accordion_view.pt:50
+#: eea.design/eea/design/skins/eea_design/folder_tabs_view.pt:48
+msgid "Other resources"
+msgstr "Muude ressursside"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:52
+#: eea/mediacentre/Multimedia/multimedia2.pt:61
+msgid "Our arctic challenge"
+msgstr "Meie Arktika väljakutse"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:36
+msgid "Overlay text goes here"
+msgstr "Overlay tekst läheb siia"
+
+#: eea.reports/eea/reports/subtypes/report.py:189
+msgid "Override the order text with your own text"
+msgstr "Alistamine et teksti oma teksti"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:44
+#: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:45
+msgid "Owner"
+msgstr "Omanik"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:31
+msgid "Owner of:"
+msgstr "Omanik:"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:526
+msgid "Owners:"
+msgstr "Omanikud:"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:183
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:58
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:323
+msgid "Ownership"
+msgstr "Omandiõigus"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:327
+msgid "PDF document"
+msgstr "PDF dokument"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:25
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:322
+msgid "PDF on new EEA domain link"
+msgstr "PDF uute EMP domeeni link"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:32
+msgid "PDF on secure external link"
+msgstr "PDF on turvalise väliskeskkonna link"
+
+#: eea.reports/eea/reports/subtypes/report.py:212
+msgid "Pages"
+msgstr "Pages"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:319
+msgid "Parent data set:"
+msgstr "Parent andmestik:"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:113
+msgid "Password"
+msgstr "Salasõna"
+
+#: eea.design/eea/design/skins/eea_design/portlet_promo_gallery.pt:94
+msgid "Pause"
+msgstr "Paus"
+
+#: eea.design/eea/design/skins/eea_design/portlet_promo_gallery.pt:94
+msgid "Pause slideshow"
+msgstr "Paus slideshow"
+
+#: eea.versions/eea/versions/skins/versions_templates/versions_macros.pt:12
+msgid "Permalink to latest version"
+msgstr "Permalink et uusim versioon"
+
+#: eea.versions/eea/versions/skins/versions_templates/versions_macros.pt:5
+msgid "Permalink to this version"
+msgstr "Permalink sellele versioonile"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:214
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:424
+#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:142
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: eea.indicators/eea/indicators/browser/templates/wrong_assessment_versions.pt:6
+#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:6
+#: eea.indicators/eea/indicators/browser/templates/wrong_specification_versions.pt:6
+msgid "Permissions Overview for Indicators Database"
+msgstr "Permissions ülevaade Indicators Database"
+
+#: eea.design/eea/design/browser/templates/personal_bar.pt:4
+msgid "Personal tools"
+msgstr "Personaalsed tööriistad"
+
+#: eea.design/eea/design/browser/templates/colophon.pt:20
+#: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:154
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:50
+msgid "Play in popup window"
+msgstr "Mängi popup aken"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:157
+msgid "Playlists"
+msgstr "Loendid"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:84
+#: eea/mediacentre/Multimedia/multimedia2.pt:87
+msgid "Please enable javascript or upgrade to ${flash} to watch the video."
+msgstr "Palun aktiveerige JavaScript või uuendada ${flash} vaadata video."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:24
+msgid "Please fill in"
+msgstr "Palun täitke"
+
+#: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:12
+msgid "Please help us increase the quality of the translations."
+msgstr "Palun aidake meil parandada tõlgete kvaliteedi."
+
+#: EEAContentTypes/skins/EEAContentTypes/cftrequestor_edit.pt:11
+msgid "Please provide the following contact information"
+msgstr "Palun esitage järgmised kontaktandmed"
+
+#: eea.indicators/eea/indicators/browser/specification.py:259
+#: eea.versions/eea/versions/versions.py:494
+msgid "Please specify a valid Version ID."
+msgstr "Palun täpsustage kehtiv versioon ID."
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:67
+msgid "Poland"
+msgstr "Poola"
+
+#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:31
+msgid "Policy"
+msgstr "Poliitika"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:104
+msgid "Policy context and targets"
+msgstr "Poliitiline kontekst ja eesmärgid"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:131
+msgid "Policy instruments<br />"
+msgstr "Poliitilisi vahendeid <br />"
+
+#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:83
+msgid "Policy issue"
+msgstr "Aruteluteema"
+
+msgid "Polish"
+msgstr "Poola"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:258
+msgid "Pony"
+msgstr "Poni"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:294
+msgid "Portal messages"
+msgstr "Portal kirjad"
+
+#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:31
+msgid "Portal type"
+msgstr "Portaali tüüpi"
+
+#: EEAContentTypes/migrate/migrate.pt:15
+msgid "Portal types"
+msgstr "Portal liigid"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:65
+msgid "Portlet assigned in this folder and displayed"
+msgstr "Mooduli määratud selles kaustas ja kuvatakse"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:69
+msgid "Portlet assigned in this folder but not displayed"
+msgstr "Mooduli määratud selles kaustas, kuid ei kuvata"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:72
+msgid "Portlet inherited and displayed"
+msgstr "Mooduli päritud ja kuvatakse"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:76
+msgid "Portlet inherited but not displayed"
+msgstr "Mooduli päritud, kuid ei kuvata"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/portlet_mostreferenced.pt:45
+msgid "Portlet title"
+msgstr "Mooduli nimetus"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:68
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Portuguese"
+msgstr "Portugali"
+
+#: eea.relations/eea/relations/profiles/default/controlpanel.xml
+msgid "Possible relations"
+msgstr "Võimalikud seosed"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:26
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:323
+msgid "Presentation on old EEA domain"
+msgstr "Ettekanne vana EMP domeeni"
+
+#: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:43
+msgid "Press the link to create a new content item in its default location"
+msgstr "Vajuta link luua uus sisuelement oma vaikeasukohta"
+
+#: EEAContentTypes/skins/EEAContentTypes/highlight_macros.pt:167
+#: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:170
+msgid "Previous"
+msgstr "Eelmine"
+
+#: eea.design/eea/design/browser/templates/calendar.pt:33
+msgid "Previous month"
+msgstr "Eelmine kuu"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:254
+msgid "Price"
+msgstr "Hind"
+
+#: eea.reports/eea/reports/subtypes/report.py:177
+msgid "Price (Euro)"
+msgstr "Hind (Euro)"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:398
+msgid "Primary theme:"
+msgstr "Primary teema:"
+
+#: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:158
+msgid "Privacy policy"
+msgstr "Eraelu puutumatuse poliitika"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:56
+msgid "Processor of:"
+msgstr "Töötleja:"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:547
+msgid "Processors:"
+msgstr "Protsessorid:"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:189
+msgid "Produced maps and graphs"
+msgstr "Toodetud kaardid ja graafikud"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:254
+msgid "Product"
+msgstr "tootlikkust."
+
+#: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:59
+msgid "Programme"
+msgstr "Programm"
+
+#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:39
+msgid "Projects"
+msgstr "Projektid"
+
+#: eea.promotion/eea/promotion/profiles/default/actions.xml
+msgid "Promote Translations"
+msgstr "Edendada tõlked"
+
+#: eea/themecentre/profiles/default/actions.xml
+msgid "Promote to theme centre"
+msgstr "Edendamiseks, et teema keskus"
+
+#: eea.promotion/eea/promotion/profiles/default/actions.xml
+msgid "Promotions"
+msgstr "Tutvustusi"
+
+#: eea.promotion/eea/promotion/browser/admin.pt:8
+#: eea.soer/eea/soer/browser/admin.pt:10
+msgid "Promotions Admin Panel"
+msgstr "Kampaaniad Admin Panel"
+
+#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:30
+msgid "Provided interface"
+msgstr "Tingimusel liides"
+
+#: eea.reports/eea/reports/profiles/default/types/Report.xml
+msgid "Publication"
+msgstr "Avaldamine"
+
+#: eea.reports/eea/reports/subtypes/report.py:56
+msgid "Publication file"
+msgstr "Publication fail"
+
+#: EEAContentTypes/content/Article.py:36
+#: eea.reports/eea/reports/subtypes/report.py:149
+msgid "Publication groups"
+msgstr "Publication rühmade"
+
+msgid "Publications"
+msgstr "Väljaanded"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:205
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:328
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:391
+msgid "Publish date: ${effective-date}"
+msgstr "Ilmumisaeg: ${effective-date}"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:29
+#: eea.reports/eea/reports/browser/report.pt:58
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:108
+msgid "Published"
+msgstr "Avaldatud"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:46
+msgid "Published (reviewed and quality assured)"
+msgstr "Avaldatud (läbi vaadatud ja kvaliteet on tagatud)"
+
+#: eea.reports/eea/reports/browser/report.pt:52
+msgid "Published by"
+msgstr "Välja andnud"
+
+#: eea/mediacentre/browser/video-listed-single.pt:37
+#: eea/mediacentre/browser/video.pt:63
+#: eea/themecentre/skins/themecentre_templates/listall.pt:29
+msgid "Published:"
+msgstr "Published:"
+
+#: eea.reports/eea/reports/subtypes/report.py:138
+msgid "Publishers"
+msgstr "Publishers"
+
+#: eea.sparql/eea/sparql/browser/test_query.pt:59
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:112
+#: eea.sparql/eea/sparql/browser/view.pt:100
+msgid "Query will not return a result."
+msgstr "Päring ei tagasta tulemusi."
+
+#: eea.sparql/eea/sparql/browser/test_query.pt:56
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:109
+#: eea.sparql/eea/sparql/browser/view.pt:97
+msgid "Query will return a result."
+msgstr "Päring tagastab tulemuse."
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:22
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:17
+msgid "Quick overview"
+msgstr "Kiirülevaade"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:21
+msgid "Quotations"
+msgstr "Tsitaadid"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed.pt:16
+#: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed_dbl.pt:76
+#: eea/themecentre/skins/themecentre_templates/portlet_themes_common.pt:16
+msgid "RSS"
+msgstr "RSS"
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:81
+msgid "RSS Feeds"
+msgstr "RSS Feeds"
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:80
+msgid "RSS logo"
+msgstr "RSS logo"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:244
+msgid "Rationale uncertainty"
+msgstr "Põhjendus ebakindlust"
+
+#: EEAContentTypes/skins/EEAContentTypes/highlight_view.pt:48
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:226
+#: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed.pt:34
+msgid "Read more"
+msgstr "Loe edasi"
+
+#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:29
+msgid "Read more of the key fact"
+msgstr "Loe edasi olulisemaid tegelikult"
+
+#: eea/themecentre/skins/themecentre_templates/portlet_themes_common.pt:47
+msgid "Read report"
+msgstr "Loe aruanne"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:23
+msgid "Records"
+msgstr "Andmed"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:18
+msgid "Recursive invalidation"
+msgstr "Rekursiivne kehtetuks tunnistamine"
+
+#: eea.indicators/eea/indicators/skins/indicators_templates/simple_content_edit_impl.py:49
+msgid "Reference added."
+msgstr "Viide lisatud."
+
+#: eea.indicators/eea/indicators/skins/indicators_templates/simple_content_edit_impl.py:51
+msgid "Reference edited."
+msgstr "Viide toimetanud."
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:79
+msgid "Reference manuals"
+msgstr "Käsiraamatud"
+
+#: eea.design/eea/design/browser/templates/colophon.pt:89
+msgid "Refresh this page"
+msgstr "Värskenda seda lehte"
+
+#: EEAContentTypes/skins/EEAContentTypes/workflow_action_message.pt:18
+#: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:15
+msgid "Regards<br />EEA Web Team"
+msgstr "Seoses <br /> EKA veebirühm"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:17
+msgid "Regions"
+msgstr "regiooni kohta."
+
+#: eea/mediacentre/browser/statistics.pt:30
+msgid "Registered plugins:"
+msgstr "Registreeritud plugins:"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:153
+msgid "Related"
+msgstr "Seotud"
+
+#: eea.relations/eea/relations/default/__init__.py:14
+#: eea.reports/eea/reports/subtypes/report.py:167
+msgid "Related Items"
+msgstr "Related Items"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:177
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/eeafigure_view.pt:149
+msgid "Related content"
+msgstr "Seotud sisu"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:274
+msgid "Related indicators"
+msgstr "Nendega seonduvad näitajad"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:67
+msgid "Related pages"
+msgstr "Seotud lehed"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:120
+msgid "Related policy documents"
+msgstr "Seotud poliitilised dokumendid"
+
+#: EEAContentTypes/skins/EEAContentTypes/document_themes.pt:11
+#: eea/themecentre/browser/portlets/related.py:19
+msgid "Related themes"
+msgstr "Seotud teemad"
+
+#: eea/themecentre/skins/themecentre_templates/portlet_relatedthemes.pt:14
+msgid "Related topics"
+msgstr "Seotud teemadel"
+
+#: eea/mediacentre/browser/video_popup_view.pt:34
+msgid "Related videos"
+msgstr "Sarnased videod"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:296
+msgid "Related websites"
+msgstr "Seotud veebilehed"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:316
+msgid "Relation:"
+msgstr "Suhe:"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:147
+msgid "Remember my email address."
+msgstr "Mäleta mu meiliaadress."
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:138
+msgid "Remember my name."
+msgstr "Mäleta mu nime."
+
+#: eea.promotion/eea/promotion/profiles/default/actions.xml
+msgid "Remove Promotion"
+msgstr "Eemalda Promotion"
+
+#: eea.promotion/eea/promotion/profiles/default/actions.xml
+msgid "Remove all promotions for this item"
+msgstr "Eemalda kõik tutvustusi seda eset"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:219
+msgid "Remove reference"
+msgstr "Eemalda viide"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:226
+msgid "Remove selected items"
+msgstr "Kustuta valitud elemendid"
+
+#: EEAContentTypes/browser/reorder.pt:58
+msgid "Reorder CSS"
+msgstr "Järjestuse CSS"
+
+#: EEAContentTypes/browser/reorder.pt:63
+msgid "Reorder Javascripts"
+msgstr "Järjestuse Javascripts"
+
+#: EEAContentTypes/browser/reorder.pt:7
+msgid "Reorder resources"
+msgstr "Järjestuse ressursid"
+
+#: eea.reports/eea/reports/skins/reports_templates/report_file.pt:44
+msgid "Replace with new file:"
+msgstr "Asendada uus fail:"
+
+#: eea.design/eea/design/browser/templates/comments.pt:134
+msgid "Reply"
+msgstr "Vastus"
+
+#: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:60
+msgid "Report number"
+msgstr "Report number"
+
+#: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:45
+msgid "Report type"
+msgstr "Aruanne tüüpi"
+
+#: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:70
+msgid "Report year"
+msgstr "Aruanne aasta"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:52
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:39
+msgid "Reporting country"
+msgstr "Andmeid esitav riik"
+
+#: eea/themecentre/skins/themecentre_templates/rod_listing.pt:27
+msgid "Reporting frequency"
+msgstr "Aruandluse sagedus"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:279
+msgid "Reporting obligations (ROD)"
+msgstr "Aruandluskohustused (ROD)"
+
+#: eea/themecentre/skins/themecentre_templates/rod_listing.pt:18
+msgid "Reporting obligations are requirements to provide information agreed between countries and international bodies such as the EEA or international conventions. Reporting obligations provide the basis for most environmental information flows."
+msgstr "Aruandekohustus on nõuded teabe vahel kokkulepitud riikide ja rahvusvaheliste organisatsioonide nagu Euroopa Majanduspiirkonna või rahvusvaheliste konventsioonidega. Aruandekohustus on aluseks kõige keskkonna infovoo."
+
+#: eea/themecentre/skins/themecentre_templates/rod_listing.pt:22
+msgid "Reporting obligations related to data stored at EEA"
+msgstr "Aruandluskohustuse seotud andmed säilitatakse EEA"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:113
+msgid "Reports about Air pollution"
+msgstr "Teateid Õhusaaste"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:137
+msgid "Reports about Freshwater"
+msgstr "Teateid Magevee"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:131
+msgid "Reports about Land use"
+msgstr "Teateid Maakasutus"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:125
+msgid "Reports about Nature protection and biodiversity"
+msgstr "Teateid Looduskaitse ja bioloogiline mitmekesisus"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:143
+msgid "Reports about Waste"
+msgstr "Teateid jäätmed"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:119
+msgid "Reports about climate change mitigation"
+msgstr "Aruanded kliimamuutuse leevendamise"
+
+#: EEAContentTypes/skins/EEAContentTypes/callfortender_view.pt:12
+msgid "Request call for tender information"
+msgstr "Nõuda pakkumiskutse info"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:162
+msgid "Request data source"
+msgstr "Taotlus andmeallikas"
+
+#: EEAContentTypes/skins/EEAContentTypes/cftrequestor_edit.pt:10
+msgid "Request for ${callforid}"
+msgstr "Request for ${callforid}"
+
+#: EEAContentTypes/browser/cache.py:89
+msgid "Request for cache invalidation sent"
+msgstr "Taotlus cache kehtetuks saata"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/countries_widget.pt:25
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:162
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_widget.pt:33
+msgid "Required"
+msgstr "Nõutav"
+
+#: eea.design/eea/design/skins/eea_design/mail_password_form.pt:33
+msgid "Reset Eionet account password page"
+msgstr "Nulli Eionet parooli lehekülge"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:261
+msgid "Resource needs"
+msgstr "Ressursivajadus"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:13
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:300
+#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:48
+msgid "Responsibility and ownership"
+msgstr "Vastutust ja"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:35
+#: eea.design/eea/design/browser/templates/manage_footer.pt:26
+msgid "Return to view"
+msgstr "Tagasi vaadata"
+
+#: eea.indicators/eea/indicators/profiles/default/actions.xml
+#: eea.versions/eea/versions/profiles/default/actions.xml
+msgid "Revoke version"
+msgstr "Tühistada versioon"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:433
+msgid "Rights:"
+msgstr "Õigused:"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:69
+msgid "Romania"
+msgstr "Rumeenia"
+
+msgid "Romanian"
+msgstr "Rumeenia"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:28
+msgid "SEIS network"
+msgstr "SEIS võrk"
+
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:53
+msgid "SOER 2010 website"
+msgstr "SOER 2010 veebilehel"
+
+#: eea.soer/eea/soer/browser/admin.pt:21
+msgid "SOER Country content status"
+msgstr "SOER Country sisu staatus"
+
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:41
+msgid "SOER message"
+msgstr "SOER sõnum"
+
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:46
+msgid "SOER viral video message"
+msgstr "SOER viiruse video sõnum"
+
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:65
+#: eea.sparql/eea/sparql/browser/view.pt:66
+msgid "SPARQL Endpoint:"
+msgstr "SPARQL Endpoint:"
+
+#: eea.sparql/eea/sparql/browser/view.pt:71
+msgid "SPARQL Query:"
+msgstr "SPARQL Query:"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:70
+#: eea/mediacentre/Multimedia/multimedia2.pt:73
+msgid "Sample Text"
+msgstr "Proovi tekst"
+
+#: EEAContentTypes/browser/reorder.pt:76
+#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:135
+#: eea.app.visualization/eea/app/visualization/facets/edit.py:65
+msgid "Save"
+msgstr "Salvesta"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:421
+msgid "Scale of the data set:"
+msgstr "Skaala andmekogum:"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:77
+msgid "Scientific references:"
+msgstr "Teaduslike viidete:"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:343
+msgid "Scope / Local search"
+msgstr "Reguleerimisala / Local otsing"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:43
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:151
+#: eea.design/eea/design/browser/templates/searchbox_cms.pt:25
+msgid "Search"
+msgstr "Otsi"
+
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:7
+msgid "Search Europe's environment"
+msgstr "Otsing Euroopa keskkonda"
+
+#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:94
+msgid "Search Member:"
+msgstr "Otsing:"
+
+#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:56
+msgid "Search SOER"
+msgstr "Otsi SOER"
+
+#: eea.design/eea/design/skins/eeadesign_cms/search.pt:48
+#: eea.design/eea/design/skins/eeadesign_public/search.pt:46
+#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:96
+msgid "Search Site"
+msgstr "Search Site"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:162
+msgid "Search all reports"
+msgstr "Otsi kõiki aruanded"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:167
+msgid "Search all reports from"
+msgstr "Otsi kõiki aruanded"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:30
+#: eea/themecentre/skins/themecentre_templates/dc_view.pt:28
+msgid "Search data, maps, indicators"
+msgstr "Search andmeid, kaarte, näitajad"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:143
+msgid "Search for Publication by title"
+msgstr "Otsi avaldamine pealkirja järgi"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:345
+msgid "Search on data set and application"
+msgstr "Otsi andmekogum ja kohaldamine"
+
+#: eea.design/eea/design/skins/eeadesign_cms/search.pt:113
+#: eea.design/eea/design/skins/eeadesign_public/search.pt:82
+msgid "Search results"
+msgstr "Otsingu tulemused"
+
+#: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:40
+msgid "Search this listing"
+msgstr "Otsing selle oksjoni eest"
+
+#: eea.design/eea/design/browser/templates/links_search.pt:3
+msgid "Search this site"
+msgstr "Otsi sellelt lehelt"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:99
+#: eea/mediacentre/Multimedia/multimedia2.pt:102
+msgid "Search videos, animations, image galleries"
+msgstr "Otsi videod, animatsioonid, pildi galeriid"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:145
+msgid "Second panel title"
+msgstr "Teises paneelis pealkirja"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:54
+msgid "Second tab"
+msgstr "Teine tab"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:95
+msgid "Second tab with longer title"
+msgstr "Teine tab pikema pealkiri"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:57
+#: EEAContentTypes/skins/EEAContentTypes_public/phc_linkfolder_view.pt:25
+#: eea.design/eea/design/browser/templates/sections.pt:4
+msgid "Sections"
+msgstr "Sektsioonid"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:50
+msgid "See all"
+msgstr "Vaata kõiki"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:151
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:86
+msgid "See all formats + SPARQL query details"
+msgstr "Vaata kõiki formaate + SPARQL päringu üksikasju"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:263
+msgid "See also"
+msgstr "Vaata ka"
+
+#: eea.indicators/eea/indicators/browser/templates/timeline.pt:95
+msgid "See comments"
+msgstr "Vt märkusi"
+
+#: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:49
+msgid "See older versions."
+msgstr "Vaata vanemad versioonid."
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:158
+msgid "See this ${indicator-specs} for more details."
+msgstr "Vaadake seda ${indicator-specs} lähemalt."
+
+#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:182
+msgid "Select all items"
+msgstr "Kõik teemad"
+
+#: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:26
+msgid "Select an item bellow to inherit faceted navigation configuration"
+msgstr "Valige objekt lõõtsa pärida lihvitud navigation konfiguratsiooni"
+
+#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:40
+msgid "Select figures to be converted."
+msgstr "Vali arvud ümber."
+
+#: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:43
+msgid "Select from existing tags."
+msgstr "Valige olemasolevate tags."
+
+#: eea.dataservice/eea/dataservice/templates/select_template.pt:10
+msgid "Select one of the below templates to apply its metadata."
+msgstr "Valige üks alltoodud templates rakendada oma metaandmetega."
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/temporal_widget.pt:86
+msgid "Selected value:"
+msgstr "Valitud väärtus:"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
+msgid "Semantic Data Service"
+msgstr "Semantiline Data Service"
+
+#: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:38
+msgid "Send"
+msgstr "Saatma"
+
+#: EEAContentTypes/profiles/default/actions.xml
+msgid "Send as notification"
+msgstr "Saada teade"
+
+#: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:21
+msgid "Sender_From_Address"
+msgstr "Sender_From_Address"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:70
+msgid "Serbia"
+msgstr "Serbia"
+
+#: eea.reports/eea/reports/subtypes/report.py:112
+msgid "Serial title"
+msgstr "Serial title"
+
+#: eea.sparql/eea/sparql/cache/caching.pt:6
+msgid "Set caching"
+msgstr "Määra caching"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:296
+msgid "Settings have been applied"
+msgstr "Seaded on kohaldatud"
+
+#: eea.design/eea/design/browser/templates/document_actions.pt:13
+#: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:13
+msgid "Share with others"
+msgstr "Jaga teistega"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:28
+msgid "Shared Environmental Information System (SEIS)"
+msgstr "Ühise keskkonnateabe süsteemi (SEIS)"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:236
+msgid "Short description of the data resource"
+msgstr "Lühikirjeldus andmete ressurss"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:253
+msgid "Short term work"
+msgstr "Lühiajaline töö"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/countries_widget.pt:70
+msgid "Show map preview"
+msgstr "Näita kaarti preview"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:72
+msgid "Show table definition"
+msgstr "Näita tabel määratlus"
+
+#: eea/mediacentre/browser/multimedia_popup_view.pt:46
+#: eea/mediacentre/browser/video_popup_view.pt:65
+msgid "Show the publishdate only (effective date)"
+msgstr "Näita publishdate ainult (jõustumise kuupäev)"
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:15
+msgid "Sign up now!"
+msgstr "Registreeru kohe!"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:46
+msgid "Since cookie authentication is disabled, cookie-based login is not available."
+msgstr "Kuna cookie autentimine on keelatud, cookie-põhine login ei ole kättesaadav."
+
+#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:53
+msgid "Site Administration"
+msgstr "Saidi administreerimine"
+
+#: NavigationManager/skins/NavigationManager/sitemap.pt:14
+#: eea/themecentre/skins/themecentre_templates/overview.pt:14
+msgid "Site map"
+msgstr "Sisukaart"
+
+#: eea.design/eea/design/browser/templates/skip_links.pt:4
+msgid "Skip to content."
+msgstr "Otse sisu juurde."
+
+#: eea.design/eea/design/browser/templates/skip_links.pt:8
+msgid "Skip to navigation"
+msgstr "Navigatsioonivaatesse"
+
+msgid "Slovak"
+msgstr "Slovaki"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:71
+msgid "Slovakia"
+msgstr "Slovakkia"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:72
+msgid "Slovenia"
+msgstr "Sloveenia"
+
+msgid "Slovenian"
+msgstr "Sloveeni"
+
+#: eea.design/eea/design/browser/templates/colophon.pt:80
+msgid "Software updates history"
+msgstr "Tarkvarauuendused ajalugu"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:51
+msgid "Soil"
+msgstr "Muld"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:218
+msgid "Solution"
+msgstr "Lahendus"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:251
+#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:31
+msgid "Solution I"
+msgstr "Lahust I"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:252
+#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:32
+msgid "Solution II"
+msgstr "Lahendus II"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:325
+msgid "Some popular file extensions"
+msgstr "Mõned populaarsed faililaiendid"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:251
+msgid "Sortable tables"
+msgstr "Kõrgeim tabelid"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:187
+msgid "Source"
+msgstr "Algallikas?"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:73
+msgid "Spain"
+msgstr "Hispaania"
+
+msgid "Spanish"
+msgstr "Hispaania"
+
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:21
+msgid "Spanish themes IMS link"
+msgstr "Hispaania teemasid IMS link"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:56
+msgid "Spatial Information and Analysis (SIA)"
+msgstr "Ruumiandmete ja analüüs (SIA)"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:111
+msgid "Specific assessment"
+msgstr "Erihinnang"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:142
+msgid "Specific policy question"
+msgstr "Konkreetse poliitika küsimus"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:106
+msgid "Specific policy question: ${title}"
+msgstr "Konkreetsete poliitiliste küsimuse: ${title}"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:113
+msgid "Specific regions"
+msgstr "Valitud piirkonnad"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:309
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:375
+#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:68
+msgid "Specification"
+msgstr "Spetsifikatsioon"
+
+#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:17
+msgid "Specifications with the wrong maincode"
+msgstr "Kirjeldused koos vale maincode"
+
+#: eea.daviz/eea/daviz/content/schema.py:139
+msgid "Specify data source"
+msgstr "Täpsustada andmeallikas"
+
+#: eea.daviz/eea/daviz/content/schema.py:160
+msgid "Specify data source Organisation"
+msgstr "Täpsustada andmeallikas Organisatsioon"
+
+#: eea.daviz/eea/daviz/content/schema.py:148
+msgid "Specify data source link"
+msgstr "Täpsustada andmeallikas link"
+
+#: eea.promotion/eea/promotion/browser/form.pt:40
+msgid "Spotlight"
+msgstr "Spotlight"
+
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:20
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:24
+msgid "Spotting the signs for a transport system by 2050"
+msgstr "Määrimine märke transpordisüsteemi 2050"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:266
+msgid "Status"
+msgstr "Olek"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:26
+msgid "Stavros Dimas, Commissioner for Environment"
+msgstr "Stavros Dimas Keskkond"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:28
+msgid "Submit"
+msgstr "Esitama"
+
+#: eea.design/eea/design/browser/templates/calendar.pt:130
+msgid "Submit a new event"
+msgstr "Esitada uus sündmus"
+
+#: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:10
+#: eea.design/eea/design/browser/templates/calendar.pt:130
+msgid "Submit an environmental event"
+msgstr "Esitada keskkonnaalaseid sündmus"
+
+#: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:17
+msgid "Submit event"
+msgstr "Esitama sündmus"
+
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:38
+msgid "Subscribe by email"
+msgstr "Telli e-posti teel"
+
+#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:33
+msgid "Subscribe to RSS Feed"
+msgstr "Telli RSS voog"
+
+#: eea.design/eea/design/skins/eeadesign_cms/search.pt:127
+#: eea.design/eea/design/skins/eeadesign_public/search.pt:96
+msgid "Subscribe to an always-updated feed of these search terms"
+msgstr "Telli alati uuendatava feed nende otsingusõnu"
+
+#: eea/themecentre/skins/themecentre_templates/themecentre_view.pt:38
+msgid "Subtopics"
+msgstr "Alateemad"
+
+#: eea.googlecharts/eea/googlecharts/views/chart.py:307
+msgid "Success"
+msgstr "Edu"
+
+#: eea.design/eea/design/skins/eea_design/smart_view.pt:18
+msgid "Summary view"
+msgstr "Kokkuvõte vaade"
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:60
+msgid "Sustainable Consumption and Production (SCP)"
+msgstr "Säästva tarbimise ja tootmise (STT)"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:74
+msgid "Sweden"
+msgstr "Rootsi"
+
+msgid "Swedish"
+msgstr "Rootsi"
+
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:27
+msgid "Swedish glossary"
+msgstr "Rootsi sõnastik"
+
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:15
+msgid "Swedish site"
+msgstr "Rootsi kohas"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:80
+msgid "Switch to full indicator view"
+msgstr "Lülituda indikaator vaade"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:75
+msgid "Switzerland"
+msgstr "Šveits"
+
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:69
+msgid "Synchronisation info"
+msgstr "Sünkroniseerimine info"
+
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:99
+msgid "Synchronize Queries with Bookmarks"
+msgstr "Sünkroonida päringut Bookmarks"
+
+#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:23
+msgid "Synthesis"
+msgstr "Süntees"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:31
+msgid "Table definition"
+msgstr "Tabel määratlus"
+
+#: eea.design/eea/design/skins/eea_design/smart_view.pt:27
+msgid "Tabs view"
+msgstr "Tabs vaade"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:401
+msgid "Tags:"
+msgstr "# Sildid"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:112
+msgid "Targets"
+msgstr "Eesmärgid"
+
+#: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:26
+msgid "Template Europass CV"
+msgstr "Mall Europass CV"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:342
+msgid "Temporal coverage:"
+msgstr "Ajaline ulatus:"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:23
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:320
+msgid "Test links"
+msgstr "Test lingid"
+
+#: EEAContentTypes/skins/EEAContentTypes/event_submitted_confirmation.pt:15
+msgid "Thank you for your event. The EEA web team will try to publish it as soon as possible."
+msgstr "Täname sündmus. EMP web meeskond püüab avaldada võimalikult kiiresti."
+
+#: EEAContentTypes/skins/EEAContentTypes/cftrequest_confirmation.pt:9
+msgid "Thank you for your request"
+msgstr "Täname taotluse"
+
+#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:58
+msgid "Thank you."
+msgstr "Tänan"
+
+#: eea.design/eea/design/browser/templates/colophon.pt:28
+msgid "The European Environment Agency (EEA) is an agency of the European Union."
+msgstr "Euroopa Keskkonnaagentuur (EEA) on asutus Euroopa Liidus."
+
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:47
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:10
+msgid "The European environment &ndash; state and outlook 2010"
+msgstr "Euroopa keskkond - seisund ja väljavaade 2010"
+
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:37
+msgid "The European environment – state and outlook 2010"
+msgstr "Euroopa keskkond - seisund ja väljavaade 2010"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:265
+#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:45
+msgid "The codes will be changed from ${code} to ${new-code}."
+msgstr "Koodid muutuvad alates ${code} to ${new-code}."
+
+#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:32
+msgid "The content you were viewing does not exist in the language you just selected. The site language has been switched to ${language} and you can keep browsing the site in this language."
+msgstr "Sisu, mida vaatasite ei ole selles keeles sa lihtsalt valida. Saidi keel on läinud ${language} ja sa saad jätkata saidi sirvimist selles keeles."
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:306
+msgid "The country assessments are the sole responsibility of the EEA member and cooperating countries supported by the EEA through guidance, translation and editing."
+msgstr "Riigi hinnangud on ainuvastutus Euroopa Majanduspiirkonna liige ja koostööd riikide toetavad EEA juhendamise, tõlkimine ja toimetamine."
+
+#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:154
+msgid "The error has been logged as entry number ${entryid}."
+msgstr "Viga on kantud kui kande number ${entryid}."
+
+#: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:22
+msgid "The folder you are trying to access is still in draft and therefore its content cannot be listed. If you are a content manager of this site, you need to login and publish this folder."
+msgstr "Kausta sa üritad pääseda on alles eelnõu, mistõttu selle sisu ei saa loetleda. Kui teil on sisu juht sellel saidil, peate sisse logima ja avaldab selle kausta."
+
+#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:18
+msgid "The following Indicator Specifications belong to the same versioning group but have a different main code. There are two ways of fixing this: either assign all the codes of this current specification, or assign just the maincode of this specification."
+msgstr "Järgmised indikaator Tehnilised andmed samasse versioonimise rühm on teistsugused peamised koodi. On kaks võimalust fikseerida see: kas loovutada kõik koodid sellest praegune spetsifikatsioon või määrata lihtsalt maincode käesoleva spetsifikatsiooni."
+
+#: eea.sparql/eea/sparql/browser/view.pt:59
+msgid "The following info can be used by a system developer / database administrator in order to retrieve this dataset programmatically over the web using a SPARQL client."
+msgstr "Järgmised info saab kasutada süsteemi arendaja / andmebaasi administraator, et laadida see andmestik programmiliselt üle veebi abil SPARQL klient."
+
+#: eea.indicators/eea/indicators/skins/indicators_templates/policy_doc_view.pt:9
+msgid "The link address is:"
+msgstr "Link aadress on:"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:228
+msgid "The name given to the resource. Typically, a title will be a name by which the resource is formally known"
+msgstr "Antud nimi ressurss. Tavaliselt pealkiri on nimi, mille ressurss on ametlikult teada"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:232
+msgid "The nature or genre of the content of the resource. Type includes terms describing general categories, functions, genres, or aggregation levels for content"
+msgstr "Laadi või žanri sisu ressurss. Tüüp hõlmab kirjeldavad terminid üldkategooriad, funktsioonid, žanrite või summaustapoja sisu eest"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:55
+msgid "The portlet columns will now display only those portlets explicitly assigned in this context. Use the buttons on each portlet to move them up or down, delete or edit them. To add a new portlet, use the drop-down list at the top of the column."
+msgstr "Mooduli veerud on nüüd kuvada ainult need Mooduli otseselt määratud antud kontekstis. Kasutage nuppe iga Mooduli neid liigutada üles või alla, kustutada või redigeerida. Uue Mooduli, kasutage rippmenüüst ülaosas kolonni."
+
+#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:504
+msgid "The source file XML contains the following organisations:"
+msgstr "Lähtefaili XML sisaldab järgmisi organisatsioone:"
+
+#: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:24
+msgid "The template CV below duly filled in, and"
+msgstr "Malli CV allpool nõuetekohaselt täidetud ja"
+
+#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:48
+msgid "Thematically"
+msgstr "Vastavalt valdkonnale"
+
+#: eea.soer/eea/soer/browser/admin.pt:47
+msgid "Theme: number of questions (5 per theme)"
+msgstr "Teema: mõned küsimused (5 kohta teema)"
+
+#: eea.promotion/eea/promotion/browser/admin.pt:24
+msgid "Themepage Section"
+msgstr "Themepage jagu"
+
+#: eea.promotion/eea/promotion/browser/admin.pt:25
+#: eea.promotion/eea/promotion/browser/form.pt:34
+#: eea/themecentre/profiles/default/actions.xml
+msgid "Themes"
+msgstr "Teemad"
+
+#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:35
+msgid "Themes and data"
+msgstr "Teemad ja andmed"
+
+#: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:124
+#: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:123
+msgid "There are currently no criteria on which to search. Please add them using the 'criteria' tab."
+msgstr "Praegu arvamused puuduvad kriteeriumid, mille alusel otsida. Palun lisage neid kasutades 'kriteeriumid' alt."
+
+#: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:120
+#: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:143
+#: eea.design/eea/design/skins/eea_design/atct_album_view.pt:72
+msgid "There are currently no items in this folder."
+msgstr "Hetkel ei ole esemed selles kaustas."
+
+#: EEAContentTypes/skins/EEAContentTypes/cft_listing_view.pt:53
+#: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:117
+#: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:116
+msgid "There are currently no results for this search."
+msgstr "Hetkel ei ole tulemusi selle otsingu."
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:128
+msgid "There are legacy portlets defined here. Click the button to convert them to new-style portlets."
+msgstr "On pärand Mooduli määratletakse siin. Klõpsake nuppu, et muuta neid uues stiilis Mooduli."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:335
+msgid "There are more icons detected, see ${link}"
+msgstr "Seal on rohkem ikoone avastatud, vaata ${link}"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:161
+msgid "There are no contained help center object types."
+msgstr "Puuduvad sisalduvad Abikeskus objekti tüübid."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:151
+msgid "Third panel title"
+msgstr "Kolmas paneel pealkiri"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:55
+msgid "Third tab"
+msgstr "Kolmas kaart"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:102
+msgid "This FAQ applies to a previous version"
+msgstr "Käesolev KKK kehtib eelmise versiooni"
+
+#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:42
+msgid "This content does not exist in your current language, ${language}, but you can keep browsing the site in this language."
+msgstr "See sisu ei ole oma praeguse keeles, ${language}, kuid võite jätkata saidi sirvimist selles keeles."
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:46
+msgid "This document is locked."
+msgstr "Käesolev dokument on lukus."
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:161
+msgid "This figure has no data source. For further information contact"
+msgstr "See arv ei ole andmeallika. Lisateavet saab aadressil"
+
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:14
+msgid "This file contains links that should be marked in different ways by the mark_special_link.js script. This is to test and verify that it works. Try it with <br /> ${normal} ${swedish-site} <br />"
+msgstr "See fail sisaldab linke, mis peaksid olema märgistatud erinevalt mark_special_link.js skripti. See on katsetada ja kontrollida, et see toimib. Proovi seda <br /> ${normal} ${swedish-site} <br />"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:16
+msgid "This indicator has a newer version, ${spec-title} from ${indicator-date}."
+msgstr "See näitaja on uuem versioon, ${spec-title} alates ${indicator-date}."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:276
+msgid "This is a h1"
+msgstr "See on h1"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:277
+msgid "This is a h2"
+msgstr "See on h2"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:278
+msgid "This is a h3"
+msgstr "See on H3"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:279
+msgid "This is a h4"
+msgstr "See on h4"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:281
+msgid "This is a moreLink"
+msgstr "See on moreLink"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:281
+msgid "This is a paragraph."
+msgstr "See on lõik."
+
+#: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:39
+msgid "This is the latest published version."
+msgstr "See on viimane avaldatud versiooni."
+
+#: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:42
+msgid "This is the latest version with state:"
+msgstr "See on viimane versioon riik:"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/phc_linkfolder_view.pt:61
+msgid "This item applies to a previous version"
+msgstr "See kirje kehtib eelmise versiooni"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:251
+msgid "This item does not have any body text, click the edit tab to change it."
+msgstr "See punkt ei ole põhiteksti, klõpsake edit tab seda muuta."
+
+#: EEAContentTypes/skins/EEAContentTypes_popupedit/schemata_edit_macros.pt:38
+#: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:46
+msgid "This item is in use by someone else and cannot be modified"
+msgstr "See punkt on kasutuses kellegi teise poolt ja ei saa seda muuta"
+
+#: eea.design/eea/design/browser/templates/goto_comments.pt:15
+msgid "This item is open for comments. See the comments"
+msgstr "See punkt on avatud kommenteerimiseks. Vt märkusi"
+
+#: eea.dataservice/eea/dataservice/converter/convert_figure.pt:17
+msgid "This operation might take a while."
+msgstr "See toiming võib aega võtta."
+
+#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:39
+msgid "This page does not seem to exist&hellip;"
+msgstr "See lehekülg ei näi olevat ..."
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_summary.pt:26
+msgid "This page gives you information about the links in your themecentre."
+msgstr "See leht annab sulle teavet lingid themecentre."
+
+#: EEAContentTypes/skins/EEAContentTypes/document_with_flash_view.pt:18
+#: EEAContentTypes/skins/EEAContentTypes/flashfile_fixed_width_view.pt:23
+#: EEAContentTypes/skins/EEAContentTypes/flashfile_popup_window.pt:17
+msgid "This page requires Flashplayer, please download it for free from ${flashplayer-link}"
+msgstr "See leht vajab Flashplayer, laadige see tasuta ${flashplayer-link}"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:17
+msgid "This page shows common html markup, css classes and javascripts we use across the EEA website. See example code and use Firefox Firebug plugin to inspect elements code."
+msgstr "Sellel lehel kuvatakse ühise HTML Markup, css klassid ja javascripts me kasutame kogu EEA kodulehel. Vaadake näiteks kood ja kasutamine Firefox Firebug plugin tutvuda elemente koodi."
+
+#: eea.design/eea/design/skins/eea_design/main_template.pt:233
+msgid "This page was translated by the Translation Centre for the Bodies of the European Union (CdT)"
+msgstr "Seda lehekülge tõlkida Tõlkekeskus asutused Euroopa Liidu (CdT)"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:14
+msgid "This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser."
+msgstr "See veebileht on piiratud funktsionaalsus javascript välja. Palun veenduge, et JavaScript on lubatud brauseris."
+
+#: eea/mediacentre/browser/video-listed-single.pt:28
+#: eea/mediacentre/browser/video.pt:54
+msgid "Time:"
+msgstr "t."
+
+#: eea.indicators/eea/indicators/browser/templates/timeline.pt:8
+msgid "Timeline overview for indicators database"
+msgstr "Timeline ülevaate näitajate andmebaas"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:50
+#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:20
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:349
+msgid "Title"
+msgstr "Pealkiri"
+
+#: eea/themecentre/skins/themecentre_templates/rod_listing.pt:26
+msgid "Title/Description"
+msgstr "Nimetus / kirjeldus"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:194
+msgid "To access this part of the site, you need to log in with your user name and password. You can use your Eionet username and password."
+msgstr "Kasutage seda osa saidi, pead sisse logima oma kasutajanime ja parooli. Te saate kasutada oma Eionet kasutajanimi ja parool."
+
+#: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:18
+msgid "To access your EEA notification service account please enter your email."
+msgstr "Et pääseda oma EEA teatamise konto sisestage oma e-posti."
+
+#: eea.design/eea/design/skins/eea_design/mail_password_form.pt:32
+msgid "To reset your password visit ${mail}."
+msgstr "Et parooli külastada ${mail}."
+
+#: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:18
+msgid "To unsubscribe from EEA notification service please enter your email. You will receive an email in order to confirm your unsubscription."
+msgstr "Lahkuda EEA teavitusteenus sisestage oma e-posti. Te saate e-posti, et kinnitada oma lahkumissoovi."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:215
+msgid "Tooltips"
+msgstr "Kohtspikrid"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:218
+msgid "Tooltips can go down"
+msgstr "Kohtspikrid võib minna"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:219
+msgid "Tooltips can go left"
+msgstr "Kohtspikrid võib minna vasakule"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:216
+msgid "Tooltips can go right"
+msgstr "Kohtspikrid võib minna paremale"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:217
+msgid "Tooltips can go up"
+msgstr "Kohtspikrid võib ulatuda kuni"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/data_maps_frontpage.pt:12
+msgid "Top content"
+msgstr "Top sisu"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:22
+msgid "Topic"
+msgstr "Teema"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_macros.pt:50
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:98
+msgid "Topic in the spotlight"
+msgstr "Topic tähelepanu keskpunktis"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:37
+#: eea/themecentre/browser/portlets/themes.py:22
+msgid "Topics"
+msgstr "Teemad"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_summary.pt:38
+msgid "Total documents"
+msgstr "Kõik dokumendid"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_summary.pt:30
+msgid "Total links"
+msgstr "Kõik lingid"
+
+#: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:56
+msgid "Total staff"
+msgstr "Personal kokku"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_summary.pt:32
+msgid "Total:"
+msgstr "Kokku:"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:93
+msgid "Tourism"
+msgstr "Turism"
+
+#: eea.reports/eea/reports/subtypes/report.py:254
+msgid "Trailer"
+msgstr "Haagis"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:58
+msgid "Transfer from"
+msgstr "Ülekanne"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:35
+msgid "Transfer references"
+msgstr "Transfer viited"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:65
+msgid "Transfer to"
+msgstr "Üleviimine"
+
+#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:24
+msgid "Translation Unavailable"
+msgstr "Tõlge pole kättesaadav"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:97
+msgid "Transport"
+msgstr "Transport"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:76
+msgid "Turkey"
+msgstr "Türgi"
+
+msgid "Turkish"
+msgstr "Türgi"
+
+#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:23
+msgid "Turkish subfolder"
+msgstr "Türgi alamkausta"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:75
+msgid "Tutorials"
+msgstr "Tutorials"
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:71
+msgid "Twitter icon"
+msgstr "Twitter ikoon"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:55
+#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:25
+msgid "Type"
+msgstr "Tüüp:"
+
+#: eea/mediacentre/browser/image-listed-single.pt:20
+msgid "Type:"
+msgstr "Tüüp:"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:60
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:114
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:434
+msgid "Typology"
+msgstr "Tüpoloogia"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:75
+msgid "URL"
+msgstr "URL"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:55
+msgid "URL status:"
+msgstr "URL staatus:"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:27
+msgid "URLs status checked:"
+msgstr "Aadressid staatust kontrollida:"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:230
+msgid "Uncertainties"
+msgstr "Ebakindlust"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:77
+msgid "United Kingdom"
+msgstr "Suurbritannia"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:96
+msgid "Units"
+msgstr "Units"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:469
+msgid "Units:"
+msgstr "Üksused:"
+
+#: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:32
+msgid "Unsubscribe"
+msgstr "Unsubscribe"
+
+#: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:12
+msgid "Unsubscribe from EEA notification service"
+msgstr "Unsubscribe EMP teavitusteenus"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:15
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:79
+#: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:50
+msgid "Up one level"
+msgstr "Up one level"
+
+#: eea.alchemy/eea/alchemy/browser/zpt/tool.pt:29
+#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:12
+msgid "Up to Site Setup"
+msgstr "Kuni Site Setup"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:24
+#: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:34
+msgid "Up to linkchecker summary"
+msgstr "Kuni linkchecker kokkuvõte"
+
+#: eea/themecentre/browser/portlets/smartfolder.py:41
+msgid "Upcoming events"
+msgstr "Tulevased üritused"
+
+#: eea.daviz/eea/daviz/content/schema.py:80
+msgid "Upload CSV/TSV data files from your computer"
+msgstr "Lisatud CSV / TSV andmed arvutist"
+
+#: eea.epub/eea/epub/skins/eea_epub/epubfile_edit.pt:9
+msgid "Upload epub file"
+msgstr "Lisatud EPUB fail"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datafile_view.pt:17
+#: eea.indicators/eea/indicators/skins/indicators_templates/factsheetdocument_view.pt:22
+msgid "Uploaded file"
+msgstr "Üles laaditud fail"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:117
+msgid "Urban environment"
+msgstr "Linnakeskkond"
+
+#: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:47
+msgid "Use Control/Command/Shift keys to select multiple tags."
+msgstr "Kasutage Control / Command / Shift klahve, et valida mitmeid märke."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:22
+msgid "Use of AND/OR/* is supported."
+msgstr "Kasutage ja / või / * toetab."
+
+#: eea.alchemy/eea/alchemy/browser/zpt/tool.pt:34
+msgid "Use the form bellow to auto-discover and update documents geotags, temportal coverage and keywords"
+msgstr "Kasutage vastavat vormi lõõtsa auto-avastada ja ajakohastada dokumentide geotags, temportal katvuse ja märksõnad"
+
+#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:17
+msgid "Use the form below to define, change or remove custom portal types."
+msgstr "Kasutage allpool olevat vormi, et määratleda, muuta või eemaldada custom portaali tüüpi."
+
+#: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:12
+msgid "Use this form to submit an environmental event. We will then check if the submitted event is relevant for publishing."
+msgstr "Kasuta seda vormi esitada keskkonna-sündmus. Siis vaadata, kas esitatud juhul on asjakohane avaldamine."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:218
+msgid "Used in figure ${link}"
+msgstr "Kasutatav näitaja ${link}"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:201
+msgid "Used in the following publications"
+msgstr "Kasutada järgmistes väljaannetes"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:173
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:37
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:313
+msgid "User not found:"
+msgstr "Kasutaja ei leitud:"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:60
+msgid "Various other issues"
+msgstr "Mitmed muud küsimused"
+
+#: eea.indicators/eea/indicators/browser/specification.py:257
+#: eea.versions/eea/versions/versions.py:492
+msgid "Version ID changed."
+msgstr "Versiooni ID muutunud."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:317
+msgid "Version id: ${number}"
+msgstr "Version id: ${number}"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:381
+#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:74
+msgid "Version id: ${version-number}"
+msgstr "Version id: ${version-number}"
+
+#: eea.versions/eea/versions/versions.py:520
+msgid "Version revoked."
+msgstr "Version tühistada."
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:26
+msgid "Vertical listing"
+msgstr "Vertical nimekirja"
+
+#: eea/mediacentre/browser/image-listed-single.pt:15
+#: eea/mediacentre/browser/video-listed-single.pt:17
+msgid "Video Album Art"
+msgstr "Video Album Art"
+
+#: EEAContentTypes/subtypes.py:349
+msgid "Video Topic Container"
+msgstr "Video Topic Container"
+
+#: eea/mediacentre/browser/video-listed-single.pt:22
+msgid "Video album art"
+msgstr "Video album art"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:204
+msgid "Video pop-ups"
+msgstr "Video pop-ups"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:147
+#: eea/mediacentre/Multimedia/multimedia2.pt:125
+msgid "Videos"
+msgstr "Videod"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:115
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:55
+msgid "View and interact online"
+msgstr "Vaata ja suhelda internetis"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:79
+msgid "View entire FAQ expanded"
+msgstr "Vaata kogu KKK laiendatud"
+
+#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:61
+msgid "View larger map on Eye on Earth"
+msgstr "Vaata suuremat kaart Eye on Earth"
+
+#: EEAContentTypes/skins/EEAContentTypes/promolink_view.pt:15
+msgid "Visit"
+msgstr "Külastama"
+
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:131
+#: eea/themecentre/browser/themes_view.py:33
+msgid "Visit our air pollution website"
+msgstr "Külasta meie õhusaaste veebilehel"
+
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:159
+#: eea/themecentre/browser/themes_view.py:36
+msgid "Visit our biodiversity website"
+msgstr "Külasta meie bioloogilise mitmekesisuse veebilehel"
+
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:188
+#: eea/themecentre/browser/themes_view.py:40
+msgid "Visit our climate change website"
+msgstr "Külasta meie kliimamuutuste veebisait"
+
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:216
+#: eea/themecentre/browser/themes_view.py:44
+msgid "Visit our land use website"
+msgstr "Külasta meie maakasutuse veebilehel"
+
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:244
+#: eea/themecentre/browser/themes_view.py:47
+msgid "Visit our water website"
+msgstr "Külasta meie vee veebilehel"
+
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:53
+msgid "Visit the ${soer-website}."
+msgstr "Külasta ${soer-website}."
+
+#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:10
+msgid "WISE Menu"
+msgstr "WISE Menu"
+
+#: eea.daviz/eea/daviz/content/schema.py:121
+msgid "Warning"
+msgstr "Hoiatus"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:302
+msgid "Warning! Core meltdown at EEA HQ, code super-duper-red"
+msgstr "Hoiatus! Core kokkuvarisemist on kohaldatav HQ, kood super-duper-red"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:143
+msgid "Waste"
+msgstr "Jäätmed"
+
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:54
+msgid "Waste and material resources"
+msgstr "Jäätmed ja materjaliressursid"
+
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:258
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:57
+msgid "Water"
+msgstr "Vesi"
+
+#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:15
+msgid "Water Information System for Europe"
+msgstr "Water Information System for Europe"
+
+#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:45
+msgid "We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for."
+msgstr "Me vabandame ebamugavuste pärast, kuid lehel üritasid pääseda, ei ole sellel aadressil. Te võite kasutada allolevaid linke, mis aitavad teil leida, mida otsivad."
+
+#: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:13
+msgid "We do not publish events that are purely commercial and with no references to the environment."
+msgstr "Me ei avalda sündmusi, mis on puhtalt äriline ning puudub viide keskkonnale."
+
+#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:144
+msgid "We&#8217;re sorry, but there seems to be an error&hellip;"
+msgstr "Vabandame, kuid tundub, et viga ..."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:14
+msgid "Welcome to EEA Web design elements, your browser should have autoscrolled down to me"
+msgstr "Tere tulemast EEA Web kujunduselemente, brauseri pidanud autoscrolled maha mulle"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:65
+msgid "Welcome! You are now logged in."
+msgstr "Tere tulemast! Sa oled praegu sisse loginud"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:30
+msgid "What"
+msgstr "Mida?"
+
+#: eea/themecentre/browser/templates/themes_view.pt:54
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:22
+msgid "What is happening?<br />Environmental issues"
+msgstr "Mis toimub? <br /> Keskkonnaküsimused"
+
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:33
+msgid "What's new"
+msgstr "Mis uudist"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:38
+msgid "When"
+msgstr "Kui"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:107
+msgid "Where"
+msgstr "Kus"
+
+#: eea/mediacentre/Multimedia/multimedia.pt:63
+#: eea/mediacentre/Multimedia/multimedia2.pt:66
+msgid "Which steps will bring us forward on the road to a Green economy?"
+msgstr "Milliseid samme viib meid edasi teel rohelise majanduse?"
+
+#: eea/themecentre/browser/templates/themes_view.pt:68
+#: eea/themecentre/skins/themecentre_templates/themes_view.pt:65
+msgid "Why is it happening?<br />Sectors and activities"
+msgstr "Miks see juhtub? <br /> Sektoreid ja tegevusalasid"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:31
+msgid "Word doc on external link"
+msgstr "Word doc välise link"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:328
+msgid "Word document"
+msgstr "Word dokument"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:256
+msgid "Work description"
+msgstr "Töö kirjeldus"
+
+#: eea.indicators/eea/indicators/content/WorkItem.py:110
+msgid "Work due ${due}"
+msgstr "Töö tõttu ${due}"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:254
+msgid "Work specified here requires to be completed within 1 year from now."
+msgstr "Töö siin määratud nõuab täidetakse jooksul 1 aasta pärast."
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:275
+msgid "Work specified here will require more than 1 year (from now) to be completed."
+msgstr "Töö täpsustatud siin on vaja rohkem kui 1 aasta (praegu) tuleb täita."
+
+#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
+msgid "Working list"
+msgstr "Töö nimekiri"
+
+#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:29
+msgid "World"
+msgstr "Maailm"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:130
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:133
+#: eea.sparql/eea/sparql/browser/view.pt:30
+msgid "XML with Schema"
+msgstr "XML Schema"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:149
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:84
+msgid "XML with schema"
+msgstr "XML schema"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/management_plan_widget.pt:59
+#: eea.forms/eea/forms/skins/eea_forms/management_plan_widget.pt:59
+#: eea.forms/eea/forms/widgets/managementplan.pt:11
+msgid "Year"
+msgstr "Aasta"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:48
+msgid "You are editing the default view of a container. If you wanted to edit the container itself, ${go_here}."
+msgstr "Te redigeerite vaikevaates konteinerisse. Kui sa tahad muuta pakend ise, ${go_here}."
+
+#: EEAContentTypes/browser/cache.py:72
+msgid "You are not allowed to invalidate cache in this context"
+msgstr "Sa ei tohi tunnistada kehtetuks cache selles kontekstis"
+
+#: eea.reports/eea/reports/browser/report.pt:240
+msgid "You can also obtain a copy from ${nearest-sale-agent} by providing the ordering info."
+msgstr "Võite saada ka koopia ${nearest-sale-agent} andes tellimuse info."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:188
+msgid "You can have arbitrary HTML in the pop-ups:"
+msgstr "Sul võib olla meelevaldne HTML pop-ups:"
+
+#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:73
+msgid "You might have been looking for&hellip;"
+msgstr "Te olete otsinud ..."
+
+#: EEAContentTypes/skins/EEAContentTypes/flashfile_noheader_view.pt:22
+msgid "You need Flash player to be able to see and use the ozone map viewer, please download it for free from ${flashpalyer-link}. If you don't have administrative rights on your computer, please contact your helpdesk."
+msgstr "Sa pead Flash Player, et oleks võimalik näha ja kasutada osooni kaart vaataja, laadige see tasuta ${flashpalyer-link}. Kui sul ei ole administraatori õigusi arvutisse, võtke ühendust kasutajatoega."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:30
+msgid "You need to enter an image scale after the image src otherwise the gallery will load the full-resolution images which could dramatically slow the page"
+msgstr "Peate sisestama pildi skaala pärast pildi src teisiti galerii laeb täis resolutsiooniga pilte, mis võiksid oluliselt aeglustada lehele"
+
+#: eea.daviz/eea/daviz/content/validators.py:25
+msgid "You should provide data in a valid CSV format(.csv, .tsv, etc)"
+msgstr "Teil tuleb anda andmeid kehtiva CSV vorming (. Csv. Tsv jne)"
+
+#: EEAContentTypes/skins/EEAContentTypes/cftrequest_confirmation.pt:11
+msgid "You should shortly receive an email with further information."
+msgstr "Sa peaksid peagi saada email täiendavat teavet."
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:77
+msgid "YouTube channel"
+msgstr "YouTube kanal"
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:77
+msgid "YouTube icon"
+msgstr "YouTube ikoon"
+
+#: eea.workflow/eea/workflow/skins/eea_workflow_templates/content_status_modify.cpy:108
+msgid "Your content's status has been modified."
+msgstr "Sinu sisu staatus on muudetud."
+
+#: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:30
+msgid "Your message"
+msgstr "Sinu sõnum"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:299
+msgid "Your screensaver has been upgraded, please consider to restart your computer ... Have a good day"
+msgstr "Sinu screensaver on uuendatud, siis võiksid kaaluda arvuti taaskäivitada ... Head päeva"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:329
+msgid "Zip archive"
+msgstr "Zip arhiiv"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:33
+msgid "Zip on FTP"
+msgstr "Zip on FTP"
+
+#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:151
+msgid "add selected group(s)"
+msgstr "lisada valitud grupp (s)"
+
+#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:214
+msgid "add selected users"
+msgstr "lisada valitud kasutajad"
+
+#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:22
+msgid "and"
+msgstr "ja"
+
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:151
+#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:149
+#: eea/themecentre/skins/themecentre_templates/dc_view.pt:50
+msgid "archive"
+msgstr "arhiiv"
+
+#: eea/themecentre/skins/themecentre_templates/media_type_common.pt:26
+msgid "browse all multimedia products"
+msgstr "sirvida kõiki multimeedia tooted"
+
+#: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:59
+#: eea.design/eea/design/browser/templates/document_byline.pt:61
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:197
+msgid "by ${author}"
+msgstr "by ${author}"
+
+#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:95
+msgid "by ${author}, ${date}"
+msgstr "by ${author} ${date}"
+
+#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:61
+msgid "by language"
+msgstr "keelte kaupa"
+
+#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:74
+msgid "by serial title"
+msgstr "väljaande pealkirjade järgi"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:20
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:317
+msgid "callto link"
+msgstr "callto link"
+
+#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:221
+msgid "close window"
+msgstr "sulge aken"
+
+#: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:30
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:353
+msgid "code"
+msgstr "kood"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:595
+msgid "code:"
+msgstr "kood:"
+
+#: eea.dataservice/eea/dataservice/converter/convert_figure.pt:22
+#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:27
+msgid "converting"
+msgstr "konverteeriva"
+
+#. Default: "Check these <a target=\"_blank\" href=\"http://www.eea.europa.eu/data-and-maps/daviz/learn-more/examples\">data examples</a> or read <a target=\"_blank\" href=\"http://www.eea.europa.eu/data-and-maps/daviz/learn-more/prepare-data\">how to prepare data</a>"
+#: eea.daviz/eea/daviz/content/schema.py:101
+msgid "copy-paste-description"
+msgstr "copy-paste-kirjeldus"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:36
+msgid "datasets"
+msgstr "andmekogumite"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:84
+msgid "delete portlet"
+msgstr "Kustuta Mooduli"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_topdatasets.pt:30
+msgid "downloads"
+msgstr "downloads"
+
+#: eea.design/eea/design/browser/templates/colophon.pt:61
+msgid "engineered by"
+msgstr "projekteeritud poolt"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:40
+msgid "expired"
+msgstr "lõppenud"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:46
+msgid "external data specs"
+msgstr "Välisandmete specs"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:17
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:314
+msgid "external link"
+msgstr "external link"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:41
+msgid "figures"
+msgstr "arvandmed"
+
+#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:67
+msgid "filename:"
+msgstr "filename:"
+
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:159
+msgid "from ${start} to ${end}"
+msgstr "alates ${start} to ${end}"
+
+#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:84
+msgid "full screen mode"
+msgstr "täisekraanil"
+
+#: EEAContentTypes/skins/EEAContentTypes/document_with_flash_view.pt:18
+#: EEAContentTypes/skins/EEAContentTypes/flashfile_fixed_width_view.pt:23
+#: EEAContentTypes/skins/EEAContentTypes/flashfile_noheader_view.pt:22
+msgid "get flashplayer"
+msgstr "saada flashplayer"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:48
+msgid "go here"
+msgstr "minna siin"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:20
+msgid "here"
+msgstr "siin"
+
+#: eea/themecentre/skins/themecentre_templates/dc_view.pt:69
+msgid "homepage"
+msgstr "avalehele"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:160
+msgid "iCal"
+msgstr "iCal"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:289
+msgid "image_icon"
+msgstr "image_icon"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:284
+msgid "image_large"
+msgstr "image_large"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:290
+msgid "image_listing"
+msgstr "image_listing"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:286
+msgid "image_mini"
+msgstr "image_mini"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:285
+msgid "image_preview"
+msgstr "image_preview"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:287
+msgid "image_thumb"
+msgstr "image_thumb"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:291
+msgid "image_thumb (videos get play button and black borders applied correctly)"
+msgstr "image_thumb (videod saavad play nuppu ja must piire rakendatud õigesti)"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:288
+msgid "image_tile"
+msgstr "image_tile"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:292
+msgid "image_wide (only available for videos)"
+msgstr "image_wide (saadaval ainult videod)"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:69
+msgid "in"
+msgstr "sisse"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:83
+msgid "in this folder and under this portlet is hidden"
+msgstr "selles kaustas ja käesoleva Mooduli peidetud"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:82
+msgid "in this folder and under this portlet is visible"
+msgstr "selles kaustas ja käesoleva Mooduli nähtav"
+
+#: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:31
+msgid "indicator"
+msgstr "indikaator"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:51
+msgid "indicator assessments"
+msgstr "indikaator hinnanguid"
+
+#: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:32
+msgid "indicator manager"
+msgstr "indikaator juht"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:158
+msgid "indicator specification"
+msgstr "indikaator spetsifikatsioon"
+
+#. Default: "Advanced Search…"
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:106
+msgid "label_advanced_search"
+msgstr "label_advanced_search"
+
+#. Default: "No matching results found."
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:105
+msgid "label_no_results_found"
+msgstr "label_no_results_found"
+
+#. Default: "Show all items"
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:107
+msgid "label_show_all"
+msgstr "label_show_all"
+
+#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:71
+msgid "last converted:"
+msgstr "Viimase ümber:"
+
+#: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:71
+#: eea.design/eea/design/browser/templates/document_byline.pt:71
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:210
+msgid "last modified"
+msgstr "Viimati muudetud"
+
+#. Default: "LiveSearch &#8595;"
+#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:104
+msgid "legend_livesearch"
+msgstr "legend_livesearch"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:336
+msgid "list of all icons available"
+msgstr "nimekirja kõik ikoonid saadaval"
+
+#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:591
+msgid "loading data ..."
+msgstr "Laen andmeid ..."
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:21
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:318
+msgid "mailto link"
+msgstr "mailto link"
+
+#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:29
+msgid "more"
+msgstr "rohkem"
+
+#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:19
+msgid "more green tips"
+msgstr "rohkem rohelisi nõuanded"
+
+#: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:27
+msgid "more info"
+msgstr "rohkem infot"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:80
+msgid "move portlet down"
+msgstr "liikuda Mooduli alla"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:79
+msgid "move portlet up"
+msgstr "liikuda Mooduli üles"
+
+#: eea.design/eea/design/browser/templates/manage-contextual.pt:81
+msgid "move portlet up or down"
+msgstr "liikuda Mooduli üles või alla"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:24
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:321
+msgid "new EEA domain link"
+msgstr "uus EEA domeeni link"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:23
+msgid "newest"
+msgstr "Uusim"
+
+#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:179
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:319
+msgid "no contact info"
+msgstr "ei kontaktinfo"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:43
+msgid "no user info"
+msgstr "ükski kasutaja infot"
+
+#: eea.design/eea/design/browser/templates/searchbox_cms.pt:37
+msgid "only in current section"
+msgstr "ainult praegusest punktist"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:45
+msgid "organisation URL:"
+msgstr "organisatsiooni URL:"
+
+#: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:119
+msgid "original"
+msgstr "originaal"
+
+#: eea/themecentre/skins/themecentre_templates/portlet_relatedthemes.pt:30
+msgid "portlet_relatedthemes.pt"
+msgstr "portlet_relatedthemes.pt"
+
+#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:55
+msgid "portlet_themes.pt"
+msgstr "portlet_themes.pt"
+
+#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:20
+msgid "powered by The Google AJAX Search API"
+msgstr "powered by Google AJAX Search API"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:74
+msgid "records:"
+msgstr "arvestust:"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:201
+msgid "registration form"
+msgstr "Registreerimisvorm"
+
+#: eea/themecentre/skins/themecentre_templates/rod_listing.pt:12
+msgid "related reporting obligations"
+msgstr "seotud aruandekohustus"
+
+#: eea/themecentre/browser/themecentre.py:65
+msgid "s"
+msgstr "s"
+
+#: eea.design/eea/design/browser/templates/comments.pt:87
+msgid "says:"
+msgstr "ütleb:"
+
+#: eea.design/eea/design/browser/templates/goto_comments.pt:16
+msgid "section below"
+msgstr "allpool"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:18
+#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:315
+msgid "secure link"
+msgstr "turvaline link"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:37
+msgid "see more"
+msgstr "vaata veel"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:48
+msgid "see more ..."
+msgstr "Vaata edasi ..."
+
+#: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:43
+msgid "should you have any questions, please use this email:"
+msgstr "peaks teil on küsimusi, siis kasuta seda e-post:"
+
+#: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:33
+msgid "state"
+msgstr "riik"
+
+#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:63
+msgid "state:"
+msgstr "riik:"
+
+#: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:41
+msgid "total"
+msgstr "täielik"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:358
+msgid "unplanned as usual :D"
+msgstr "planeerimata, nagu tavaliselt: D"
+
+#. Default: "Drag and drop '.tsv, .csv files' in the area below, see <a target=\"_blank\" href=\"http://www.eea.europa.eu/data-and-maps/daviz/learn-more/examples\">data examples</a> or read <a target=\"_blank\" href=\"http://www.eea.europa.eu/data-and-maps/daviz/learn-more/prepare-data\">how to prepare data</a>"
+#: eea.daviz/eea/daviz/content/schema.py:81
+msgid "upload-csv-description"
+msgstr "upload-csv-kirjeldus"
+
+#: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:87
+msgid "use this field if the report type is not listed in the previous Serial Title field"
+msgstr "seda välja kasutada, kui aruande tüüp ei ole eelmises punktis loetletud Serial Pealkiri valdkonnas"
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:154
+msgid "vCal"
+msgstr "vCal"
+
+#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:41
+msgid "visit the SOER 2010 website"
+msgstr "külastada SOER 2010 veebilehel"
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:181
+msgid "we can send you a new one"
+msgstr "me saadame sulle uue 1"
+
+#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:351
+msgid "year"
+msgstr "aasta"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:594
+msgid "year:"
+msgstr "aastal:"
+
+#: eea.reports/eea/reports/browser/report.pt:241
+msgid "your nearest sales agent"
+msgstr "Lähima müügiesindaja"
+
