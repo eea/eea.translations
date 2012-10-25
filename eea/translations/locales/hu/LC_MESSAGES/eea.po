@@ -2,17 +2,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2008-11-13 13:47+0100\n"
-"Last-Translator: Marie Jaegly <marie.jaegly@eea.europa.eu>\n"
+"PO-Revision-Date: 2012-10-25 17:11+0100\n"
+"Last-Translator: Christian-Xavier Prosperini <christian.prosperini@eea."
+"europa.eu>\n"
 "Language-Team: hu <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:33
 msgid "${context_icon} Manage portlets for ${context_title}"
@@ -20,7 +22,7 @@ msgstr "${context_icon} kezelése portletet ${context_title}"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:92
 msgid "${date} ${linebreak} from ${starttime} to ${endtime}"
-msgstr "${date} ${linebreak} a ${starttime} a ${endtime}"
+msgstr "${date} ${linebreak} ${starttime}-tól ${endtime}-ig"
 
 #: eea.design/eea/design/browser/templates/calendar.pt:55
 msgid "${monthname} ${year}"
@@ -45,7 +47,7 @@ msgstr "${percent}% százaléka kész."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:57
 msgid "${startdate} to ${linebreak} ${enddate}"
-msgstr "${startdate} a ${linebreak} ${enddate}"
+msgstr "${startdate} a ${linebreak} ${enddate}-ig"
 
 #: eea.design/eea/design/skins/eea_design/folder_listing.pt:132
 msgid "${start}"
@@ -53,15 +55,15 @@ msgstr "${start}"
 
 #: eea.design/eea/design/skins/eea_design/folder_listing.pt:147
 msgid "${start} from ${starttime} to ${end}"
-msgstr "${start} a ${starttime} a ${end}"
+msgstr "${start} ${starttime}-tól ${end}-ig"
 
 #: eea.indicators/eea/indicators/browser/templates/timeline.pt:68
 msgid "${state} assessment"
-msgstr "${state} felmérése"
+msgstr "${state} felmérés"
 
 #: eea.indicators/eea/indicators/browser/templates/timeline.pt:86
 msgid "${state} factsheet"
-msgstr "${state} tájékoztató"
+msgstr "${state} adatlap/tájékoztató"
 
 #: eea.indicators/eea/indicators/browser/templates/timeline.pt:77
 msgid "${state} specification"
@@ -71,22 +73,41 @@ msgstr "${state} specifikáció"
 msgid "% tags currently selected."
 msgstr "% Tag éppen kiválasztva."
 
+#: eea/mediacentre/Multimedia/multimedia.pt:69
+msgid ""
+"'One degree matters' follows social and business leaders as they travel to "
+"Greenland and experience for themselves the dramatic effects of the melting "
+"of the ice cap and come to understand the planetary effects of climate "
+"change and the impacts these will have on society and the economy. The film "
+"brings to the screen the latest science from the Arctic and shows why a "
+"further rise in global temperature of one degree matters for the future of "
+"humankind. Film had premiere 13 December 2009 during COP15."
+msgstr ""
+"Az \"Egy fok is számít\" hírességeket, üzletembereket követ nyomon, akik "
+"azért utaztak Grönlandra, hogy személyes tapasztalatot szerezzenek a "
+"jégsapka olvadásáról, jobban megértsék a klímaváltozás hatásait, társadalmi, "
+"gazdasági következményeit. A film bemutatja az Északi-sarkkörrel kapcsolatos "
+"tudományos ismereteket, és azt, hogy a Föld átlaghőmérskletének akár csak "
+"egy fokkal való emelkedése is mennyire kihat azemberiség jövőjére. A film "
+"bemutatójára 2009 december 13-án a COP15 (15. Részes Felek Konferencia) "
+"alatt került sor."
+
 #: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:64
 msgid "(${location}, from ${start} to ${end})"
-msgstr "(${location}, a ${start} és ${end})"
+msgstr "(${location}, ${start}-tól ${end})-ig"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:49
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:48
 msgid "(Directory: ${directory})"
-msgstr "(Directory: ${directory})"
+msgstr "(Meghajtó: ${directory})"
 
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:36
 msgid "(NOT SET)"
-msgstr "nincs megadva / Nincs beállítva"
+msgstr "nincs megadva / nincs beállítva"
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:84
 msgid "(Open: ${from-date} &mdash; Close: ${to-date})"
-msgstr "(Nyitva: ${from-date} - Close: $ to-date})"
+msgstr "(Nyitva: ${from-date} - Zárva: $ to-date})"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:162
 msgid "(Required)"
@@ -94,69 +115,70 @@ msgstr "Kötelező mező"
 
 #: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:76
 msgid "(from ${start} to ${end})"
-msgstr "(A ${start} a ${end})"
+msgstr "(${start} a ${end})"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:332
 msgid "(just add file extension in the URL as query at the end!)"
-msgstr "(Csak add file kiterjesztés az URL-ben a lekérdezés a végén!)"
+msgstr "(Adja meg a fálj kiterjesztését az URL-ben a lekérdezés a végén!)"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:195
 msgid "(note: EEA internal system)"
-msgstr "(Megjegyzés: EGT belső rendszer)"
+msgstr "(Megjegyzés: EEA belső rendszer)"
 
 #: EEAContentTypes/browser/crop/cropimage.pt:24
-msgid "*Note: Hitting the crop button will replace the original image with this cropped image"
-msgstr "* Megjegyzés: Ütő a termés gomb helyettesíti az eredeti képet a vágott kép"
+msgid ""
+"*Note: Hitting the crop button will replace the original image with this "
+"cropped image"
+msgstr ""
+"* Megjegyzés: A gomb megnyomásával az eredeti képet erre a képre cseréli"
 
 #: EEAContentTypes/browser/reorder.pt:92
 msgid "- (restricted to authenticated)"
-msgstr "- (Korlátozott hitelesített)"
+msgstr "- (Korlátozott hozzáférés)"
 
 #: EEAContentTypes/browser/reorder.pt:127
 msgid "- [Media: ${media}]"
-msgstr "- [Media: ${media}]"
-
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:51
-msgid "<div> <span>x</span> <span>x</span> </div>"
-msgstr "<div> <span> x </ span> <span> x </ span> </ div>"
+msgstr "- [Média: ${media}]"
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:38
 msgid "A letter of motivation"
-msgstr "A motivációs levél"
+msgstr "Motivációs levél"
 
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_popup_view.pt:22
-msgid "A new window has been opened with the flash application. <br /> If you don't see the window please check your browser preferences to allow popup windows. You'll then need to reload this page."
-msgstr "Egy új ablakot nyitott a flash alkalmazás. <br /> Ha nem látni az ablakon, kérjük ellenőrizze a böngészője beállításait, hogy felugró ablakokat. Ezután újra be kell tölteni ezt az oldalt."
+msgid ""
+"A new window has been opened with the flash application. <br /> If you don't "
+"see the window please check your browser preferences to allow popup windows. "
+"You'll then need to reload this page."
+msgstr ""
+"Egy új ablakot nyitott meg az alkalmazás. <br /> Ha nem látja az ablakot, "
+"kérjük ellenőrizze a böngészője beállításait, engedélyezze a felugró "
+"ablakokat. Ezután újra be kell töltenie ezt az oldalt."
 
 #: eea.reports/eea/reports/profiles/default/types/Report.xml
 msgid "A report publication."
-msgstr "A jelentés közzétételét."
+msgstr "A jelentés közzététele."
 
 #: eea.design/eea/design/browser/templates/global_searchbox.pt:22
 msgid "A-Z Glossary"
-msgstr "AZ Szószedet"
+msgstr "A-Z Szószedet"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:107
+#: eea/mediacentre/Multimedia/multimedia.pt:130
 msgid "About this item"
-msgstr "Körülbelül ez a tétel"
+msgstr "Erről az elemrőll"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:38
-#: eea/mediacentre/browser/video_popup_view.pt:36
+#: eea/mediacentre/browser/multimedia_popup_view.pt:39
+#: eea/mediacentre/browser/video_popup_view.pt:37
 msgid "About this video"
 msgstr "Erről a videóról"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:67
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
 msgid "Access our data via semantic APIs"
-msgstr "Hozzáférés a szemantikai API adatátvitel"
-
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:30
-msgid "Accordion view"
-msgstr "Harmonika nézet"
+msgstr "Adatokhoz való hozzáférés szemantikai API útján"
 
 #: eea/themecentre/browser/templates/themes_view.pt:99
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:123
 msgid "Across environmental issues and sectors"
-msgstr "Szerte a környezetvédelmi kérdések és ágazatok"
+msgstr "Átfogó, ágazatokon átívelő környezetvédelmi kérdések"
 
 #: eea.sparql/eea/sparql/browser/view-bookmarks.pt:24
 msgid "Action"
@@ -164,7 +186,7 @@ msgstr "cselekvés"
 
 #: EEAContentTypes/skins/EEAContentTypes/workflow_action_message.pt:6
 msgid "Action message for ${type} with scheduled publishing date ${date}"
-msgstr "Akció üzenetet ${type} a tervezett megjelenésének dátuma ${date}"
+msgstr "Akció üzenet ${type} a tervezett megjelenés dátuma ${date}"
 
 #: eea.promotion/eea/promotion/browser/admin.pt:20
 msgid "Active"
@@ -177,15 +199,15 @@ msgstr "Hozzáadás"
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:100
 msgid "Add Translation"
-msgstr "Add fordítás"
+msgstr "Fordítás hozzáadása"
 
-#: eea.design/eea/design/browser/templates/comments.pt:168
+#: eea.design/eea/design/browser/templates/comments.pt:169
 msgid "Add comment"
 msgstr "Szóljon hozzá!"
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:72
 msgid "Add content translation"
-msgstr "Add tartalom fordítás"
+msgstr "Fordítás hozzáadása"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:147
 msgid "Add event to calendar"
@@ -197,7 +219,7 @@ msgstr "Új kiadvány"
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:67
 msgid "Add portal type"
-msgstr "Add szemafor"
+msgstr "portál típus hozzáadása"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:108
 msgid "Add..."
@@ -208,8 +230,7 @@ msgid "Additional information"
 msgstr "További információk "
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:26
-#: eea/mediacentre/Multimedia/multimedia.pt:96
-#: eea/mediacentre/Multimedia/multimedia2.pt:99
+#: eea/mediacentre/Multimedia/multimedia.pt:119
 msgid "Advanced"
 msgstr "Haladó"
 
@@ -250,9 +271,9 @@ msgstr "Albánia"
 msgid "Album Art:"
 msgstr "Album Art:"
 
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:21
-msgid "Album view"
-msgstr "Album nézet"
+#: eea/themecentre/skins/themecentre_templates/mediacentre_macros.pt:8
+msgid "All"
+msgstr "Mind"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:142
 msgid "All ${number} ${title}&hellip;"
@@ -265,19 +286,19 @@ msgstr "Minden elem"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:18
 msgid "All documents in state ${state}"
-msgstr "Minden dokumentumot az állami ${state}"
+msgstr "Minden dokumentum a ${state} fázisban"
 
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:41
 msgid "All key facts"
-msgstr "Minden legfontosabb tényeket"
+msgstr "A legfontosabb tények"
 
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:46
 msgid "All key messages"
-msgstr "Minden kulcsfontosságú üzenetek"
+msgstr "A kulcsfontosságú üzenetek"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:29
 msgid "All links in state ${state}"
-msgstr "Összes linkek állapotban ${state}"
+msgstr "Az összes link az ${state} állapotban "
 
 msgid "All products"
 msgstr "Az összes termék"
@@ -294,7 +315,7 @@ msgstr "Ábécé-sorrendben"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:19
 msgid "Alpine region"
-msgstr "Alpesi régióban"
+msgstr "Alpesi régió"
 
 #: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:139
 #: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:138
@@ -307,12 +328,16 @@ msgstr "Alternatív"
 
 #: NavigationManager/skins/NavigationManager/sitemap.pt:16
 #: eea/themecentre/skins/themecentre_templates/overview.pt:16
-msgid "An overview of the available content on this site. Keep the pointer still over an item for a few seconds to get its description."
-msgstr "Az áttekintés az elérhető tartalom az oldalon. Tartsa az egérmutatót bármelyik elem fölött néhány másodpercig, hogy megjelenítse a leírását."
+msgid ""
+"An overview of the available content on this site. Keep the pointer still "
+"over an item for a few seconds to get its description."
+msgstr ""
+"Áttekintés az elérhető tartalomról ezen az oldalon. Tartsa az egérmutatót "
+"bármelyik elem fölött néhány másodpercig, hogy megjelenítse a leírását."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:140
 msgid "Any version."
-msgstr "Bármelyik változatot."
+msgstr "Bármelyik változat."
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:18
 msgid "Application form"
@@ -321,11 +346,11 @@ msgstr "Jelentkezési lap"
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:231
 #: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:51
 msgid "Apply fix"
-msgstr "Jelentkezzen erősít"
+msgstr ""
 
 #: eea.dataservice/eea/dataservice/templates/select_template.pt:22
 msgid "Apply template"
-msgstr "Jelentkezzen sablon"
+msgstr "Sablon alkalmazása"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:119
 msgid "Apps for your mobile"
@@ -341,49 +366,51 @@ msgstr "Archiválás"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:36
 msgid "Archive or title for more items"
-msgstr "Archívum vagy címet több elem"
+msgstr "Archív vagy ugyanaz a cím több elemre"
 
 #: eea.sparql/eea/sparql/browser/view.pt:62
 msgid "Are you new to Linked Data technology? visit http://linkeddata.org"
-msgstr "Új vagy kapcsolt adatátviteli technológiát? látogasson http://linkeddata.org"
+msgstr ""
+"Új Önnek a Linkek Data (kapcsolt adatátvitel) technológia? látogasson el ide "
+"http://linkeddata.org"
 
 msgid "Articles"
 msgstr "Cikkek"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:111
 msgid "Ask your question"
-msgstr "Tegye fel kérdését"
+msgstr "Kérdezzen"
 
 #: eea.indicators/eea/indicators/content/Assessment.py:199
 msgid "Assessment DRAFT created ${date}"
-msgstr "Értékelés TERVEZET létre ${date}"
+msgstr "Értékelés/tanulmány TERVEZET létrehozva ${date}"
 
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:19
 msgid "Assessment made on"
-msgstr "Értékelés készült"
+msgstr "Az értékelés/tanulmány ekkor készült"
 
 #: eea.indicators/eea/indicators/content/Assessment.py:190
 msgid "Assessment published ${date}"
-msgstr "Közzétett tanulmányt ${date}"
+msgstr "Az értékelés/tanulmány közzételének ideje ${date}"
 
 #: eea.indicators/eea/indicators/content/Assessment.py:187
 msgid "Assessment published with invalid published date"
-msgstr "Közzétett tanulmányt publikált dátum érvénytelen"
+msgstr "Az értékelés közzétételének dátuma érvénytelen "
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/aggregated_edit.pt:25
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:45
 msgid "Assessment versions"
-msgstr "Értékelés változat"
+msgstr "Értékelés/tanulmány változatok"
 
 #: eea.indicators/eea/indicators/browser/templates/wrong_assessment_versions.pt:17
 msgid "Assessments that have wrong version ids"
-msgstr "Értékeléseket, amelyek megfelelő verziójú azonosítók"
+msgstr "értékelés/tanulmány nem megfelelő verziójú azonosítóval"
 
 #: eea.indicators/eea/indicators/profiles/default/actions.xml
 #: eea.versions/eea/versions/assign_version.pt:7
 #: eea.versions/eea/versions/profiles/default/actions.xml
 msgid "Assign version"
-msgstr "Rendeljen verzió"
+msgstr "Verzió hozzárendelése"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:139
 msgid "Attendees"
@@ -398,9 +425,9 @@ msgstr "Ausztria"
 msgid "Author"
 msgstr "Szerző"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:51
-#: eea/mediacentre/browser/video-listed-single.pt:34
-#: eea/mediacentre/browser/video.pt:60
+#: eea/mediacentre/browser/multimedia_popup_view.pt:52
+#: eea/mediacentre/browser/video-listed-single.pt:32
+#: eea/mediacentre/browser/video.pt:58
 msgid "Author:"
 msgstr "Szerző:"
 
@@ -410,11 +437,13 @@ msgstr "Auto-Link-ikonok"
 
 #: eea.alchemy/eea/alchemy/browser/zpt/tool.pt:25
 msgid "Auto-discover geographical coverage, temporal coverage and keywords"
-msgstr "Automatikus felfedezni földrajzi lefedettség, az időbeli lefedettség és kulcsszavak"
+msgstr ""
+"A földrajzi lefedettség, az időbeli lefedettség és kulcsszavak felfedése"
 
 #: eea.reports/eea/reports/skins/reports_templates/report_file.pt:78
 msgid "Automatically update properties from pdf publication file metadata?"
-msgstr "Automatikusan frissíti a tulajdonságokat a kiadvány pdf fájl metaadatokat?"
+msgstr ""
+"Automatikusan frissíti a tulajdonságokat a pdf kiadvány metaadatai alapján?"
 
 #: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:7
 msgid "Available at:"
@@ -422,15 +451,15 @@ msgstr "Elérhető az alábbi címen:"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:36
 msgid "Available icons based on file extension"
-msgstr "Elérhető ikonok alapján fájlkiterjesztés"
+msgstr " fájlkiterjesztés alapján elérhető ikonok"
 
 #: EEAContentTypes/skins/EEAContentTypes/callfortender_view.pt:25
 msgid "Award notice"
-msgstr "Díjat értesítés"
+msgstr "felkérésről szóló értesítés"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:72
 msgid "Back to Table of Contents"
-msgstr "Mentse a tartalomjegyzékhez"
+msgstr "Vissza a tartalomjegyzékhez"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:23
 msgid "Baltic sea"
@@ -438,7 +467,7 @@ msgstr "Balti-tenger"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:275
 msgid "Basic text styles"
-msgstr "Alapvető szöveg stílusokat"
+msgstr "Alapvető szöveg stílusok"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:35
 msgid "Belgium"
@@ -446,23 +475,27 @@ msgstr "Belgium"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:120
 msgid "Below is a list of organisations on which no content is pointing at."
-msgstr "Az alábbi lista a szervezetek, amelyek tartalma nem mutat."
+msgstr "A szervezetek listája, ami nem mutat tartalomra"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:104
-msgid "Below is a list of organisations with wrong title, either empty or containing an URL instead of a title."
-msgstr "Az alábbi lista a szervezetek rossz cím, vagy üres, vagy egy URL-t tartalmazó, hanem egy cím."
+msgid ""
+"Below is a list of organisations with wrong title, either empty or "
+"containing an URL instead of a title."
+msgstr "A szervezetek rossz címmel (üres, vagy URL-t tartalmazó cím helyett)."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:23
 msgid "Below is the full list of organisations."
-msgstr "Íme a teljes lista szervezetek."
+msgstr "A  szervezetek teljes listája"
 
 #: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:16
 msgid "Below you will find all SOER content related to ${topic-label}"
-msgstr "Az alábbiakban megtalálod az összes kapcsolódó tartalom SOER ${topic-label}"
+msgstr ""
+"Itt található az összes tartalom SOER az alábbi témához kapcsolódóan: "
+"${topic-label}"
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:16
 msgid "Bend the trend social movement"
-msgstr "Csavard a trend társadalmi mozgalom"
+msgstr "\"Változtass a trenden\" mozgalom"
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:149
 msgid "Best regards"
@@ -487,32 +520,32 @@ msgstr "Box név (cím, amely megjelenik)"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:13
 msgid "Browse SOER geographically"
-msgstr "Böngésszen SOER földrajzilag"
+msgstr "Böngésszen a SOER-ben földrajzi egység szerint"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:58
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:57
 msgid "Browse by organisation"
-msgstr "Böngésszen a szervezet"
+msgstr "Böngésszen szervezet szerint"
 
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:76
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:110
 msgid "Browse by topic"
-msgstr "Tallózás témakör szerint"
+msgstr "Böngésszen témakör szerint"
 
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:36
 msgid "Browse catalogue"
-msgstr "Böngésszen katalógus"
+msgstr "Böngésszen a katalógusban"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:103
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:102
 msgid "Browse complete catalogue"
-msgstr "Böngésszen a teljes katalógus"
+msgstr "Böngésszen a teljes katalógusban"
 
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:87
 msgid "Browse geographically"
-msgstr "Böngésszen földrajzilag"
+msgstr "Böngésszen földrajzi egység szerint"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:213
 msgid "Browse..."
-msgstr "Tallózás ..."
+msgstr "Böngészés ..."
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:37
 msgid "Bulgaria"
@@ -521,17 +554,11 @@ msgstr "Bulgária"
 msgid "Bulgarian"
 msgstr "Bolgár"
 
-#: eea/mediacentre/Multimedia/multimedia2.pt:108
-msgid "By location"
-msgstr "Hely szerint"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:187
-#: eea/mediacentre/Multimedia/multimedia2.pt:163
+#: eea/mediacentre/Multimedia/multimedia.pt:213
 msgid "By tags"
-msgstr "A címkék"
+msgstr "Címkék szerint"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:186
-#: eea/mediacentre/Multimedia/multimedia2.pt:162
+#: eea/mediacentre/Multimedia/multimedia.pt:212
 msgid "By topics"
 msgstr "Téma szerint"
 
@@ -553,14 +580,14 @@ msgstr "CSV"
 msgid "Cache"
 msgstr "Cache"
 
-#: eea.googlecharts/eea/googlecharts/views/chart.py:283
+#: eea.googlecharts/eea/googlecharts/views/chart.py:318
 msgid "Can't set thumbnail on a non-folderish object !"
-msgstr "Nem lehet beállítani bélyegképek nem folderish tárgy!"
+msgstr "Nem lehet beállítani a thumbnailt ilyen tárgynál!"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:180
 #: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:193
 msgid "Cancel"
-msgstr "Mégsem"
+msgstr "Törlés/mégse"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:259
 msgid "Car"
@@ -576,35 +603,55 @@ msgstr "Kategória "
 
 #: eea.design/eea/design/browser/templates/language_selector.pt:13
 msgid "Change language"
-msgstr "Change language"
+msgstr "Nyelv megváltoztatása"
 
 #: eea.indicators/eea/indicators/skins/indicators_templates/simple_content_edit_impl.py:35
 msgid "Changes saved."
-msgstr "Változások mentésre."
+msgstr "Változások mentve."
 
 #: eea.daviz/eea/daviz/content/schema.py:122
-msgid "Changing data sources may break existing visualizations for this context. You should consider creating a new Visualization rather than changing this one if the new data is different than the existing one. Are you sure you want to continue?"
-msgstr "Változó adatforrások eltörhet a meglévő képi ebben az összefüggésben. Akkor érdemes létrehozni egy új vizualizáció nem változik ez, ha az új adatok más, mint a meglévőt. Biztos benne, hogy folytatja?"
+msgid ""
+"Changing data sources may break existing visualizations for this context. "
+"You should consider creating a new Visualization rather than changing this "
+"one if the new data is different than the existing one. Are you sure you "
+"want to continue?"
+msgstr ""
+"Az adatforrás megváltoztatása kárt okozhata meglévő megjelenítésban. Érdemes "
+"létrehozni egy új megjelenítést ennek megváltoztatása helyett, ha az új "
+"adatok a meglévőtől különböznek. Biztos benne, hogy folytatja?"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:41
 msgid "Channel"
-msgstr "Csatornát,"
+msgstr "Csatorna"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:34
 msgid "Check URLs status"
-msgstr "Ellenőrizze, URL-ek állapotát"
+msgstr "Ellenőrizze az URL-ek állapotát"
 
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:47
 msgid "Check all"
 msgstr "összes kijelölése"
 
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:33
+msgid "Check these ${data-examples} or read ${prepare-data}"
+msgstr ""
+"Nézze meg ezeket: ${data-examples} vagy olvassa el ezeket: ${prepare-data}"
+
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:149
-msgid "Check this to have your email address filled in automatically when you log in later."
-msgstr "Jelölje be ezt, hogy az e-mail címét automatikusan kitöltésre kerül, ha késõbb szeretnénk bejelentkezni."
+msgid ""
+"Check this to have your email address filled in automatically when you log "
+"in later."
+msgstr ""
+"Jelölje be ezt e mezőt, hogy szeretné, hogy a későbbi bejelentkezéskor az e-"
+"mail címe automatikusan megjelenjen."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:140
-msgid "Check this to have your user name filled in automatically when you log in later."
-msgstr "Jelöld be, hogy a felhasználó nevével tölti ki automatikusan, ha késõbb szeretnénk bejelentkezni."
+msgid ""
+"Check this to have your user name filled in automatically when you log in "
+"later."
+msgstr ""
+"Jelölje be ezt e mezőt, hogy szeretné, hogy a későbbi bejelentkezéskor a "
+"felhasználói neve automatikusan megjelenjen."
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:33
 msgid "Chemicals"
@@ -612,15 +659,19 @@ msgstr "Vegyi anyagok"
 
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:43
 msgid "Choose a newsletter"
-msgstr "Válasszon egy hírlevél"
+msgstr "Válasszon egy hírlevelet"
 
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:25
-msgid "Choose another media type or ${multimedia_center} (via EEA Multimedia Centre)."
-msgstr "Válasszon egy másik médiatípust vagy ${multimedia_center} (via EGT Multimédia Központ)."
+msgid ""
+"Choose another media type or ${multimedia_center} (via EEA Multimedia "
+"Centre)."
+msgstr ""
+"Válasszon egy másik médiatípust vagy ${multimedia_center} (via EGT "
+"Multimédia Központ)."
 
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:13
 msgid "Choose the EEA local website in your preferred language"
-msgstr "Válassza ki az EGT helyi honlapok a kiválasztott nyelven"
+msgstr "Olvassa az EEA honlapját a kiválasztott nyelven "
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:85
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:429
@@ -638,11 +689,12 @@ msgstr "Kattints ide!"
 
 #: eea.signals/eea/signals/skins/eea_signals/gallery_view.pt:67
 msgid "Click to view full-size image&hellip; <span>${DYNAMIC_CONTENT}</span>"
-msgstr "Kattints ide a teljes méretű képhez ... <span>${DYNAMIC_CONTENT}</ span>"
+msgstr ""
+"Kattints ide a teljes méretű képhez ... <span>${DYNAMIC_CONTENT}</ span>"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:47
 msgid "Climate Change Impacts, Vulnerability and Adaptation (CCA)"
-msgstr "Éghajlatváltozás hatásaival, a sebezhetőség és alkalmazkodás (CCA)"
+msgstr "Éghajlatváltozás hatásai, sebezhetőség és alkalmazkodás (CCA)"
 
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:202
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:36
@@ -669,32 +721,40 @@ msgstr "Kód"
 
 #: eea.design/eea/design/browser/templates/colophon.pt:84
 msgid "Code for developers"
-msgstr "Kódja fejlesztők"
+msgstr " fejlesztők kódja"
 
-#: eea.design/eea/design/browser/templates/comments.pt:143
+#: eea.design/eea/design/browser/templates/comments.pt:144
 msgid "Commenting has been disabled."
-msgstr "Kommentálva le van tiltva."
+msgstr "Kommentálás letiltva."
+
+#: eea.design/eea/design/browser/templates/comments.pt:2
+msgid "Comments"
+msgstr "Megjegyzések, vélemények"
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:11
 msgid "Comments on translations"
-msgstr "Hozzászólás fordítások"
+msgstr "fordítással kapcsolatos észrevétel"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:18
-msgid "Configure exhibit"
-msgstr "Konfigurálása mutatnak"
+msgid "Configure Visualization"
+msgstr "Megjelenítés beállítása"
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:19
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:36
 msgid "Confirm and send"
-msgstr "Erősítse meg, és küldje"
+msgstr "megerősítés és küldés"
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:24
 msgid "Confirm your event"
-msgstr "Erősítse meg a rendezvény"
+msgstr "esemény megerősítése"
 
 #: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:5
-msgid "Confirmation message for <strong>${type}</strong> with scheduled publishing date <strong>${date}</strong>"
-msgstr "Visszaigazoló üzenet <strong>${type}</ strong> a tervezett megjelenésének dátuma <strong>${date} </ strong>"
+msgid ""
+"Confirmation message for <strong>${type}</strong> with scheduled publishing "
+"date <strong>${date}</strong>"
+msgstr ""
+"Visszaigazoló üzenet <strong>${type}</ strong> a tervezett megjelenésének "
+"dátuma <strong>${date} </ strong>"
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:55
 msgid "Contact"
@@ -703,7 +763,7 @@ msgstr "Kapcsolatfelvétel"
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:27
 #: eea.design/eea/design/skins/eeadesign_public/contact-info.cpt:20
 msgid "Contact EEA Web Team"
-msgstr "Kapcsolat EGT Web csapat"
+msgstr "Az EEA Web csapattal való kapcsolatfelvétel"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:119
 msgid "Contact Name"
@@ -717,27 +777,27 @@ msgstr "Kapcsolattartó telefonszáma"
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:30
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:306
 msgid "Contact indicator manager"
-msgstr "Kapcsolat jelző menedzser"
+msgstr "Az indikátor felelősével való kapcsolatfelvétel"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:56
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:45
 msgid "Contact link"
-msgstr "Kapcsolat Link"
+msgstr "Kapcsolattartó - link"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:610
 msgid "Contact references at EEA:"
-msgstr "Kapcsolat az EGT referenciák:"
+msgstr "EEA kapcsolattartói referenciák:"
 
 msgid "Contact us"
-msgstr "Vegye fel velünk a kapcsola"
+msgstr "Vegye fel velünk a kapcsolatot"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:161
 msgid "Contacts and ownership"
-msgstr "Kapcsolatok és tulajdoni"
+msgstr "Kapcsolattartók, tulajdonos"
 
 #: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:8
 msgid "Contacts overview for indicators database"
-msgstr "Kapcsolatok áttekintést indikátorok adatbázis"
+msgstr "Áttekintés az indikátorok adatbázis kapcsolattartóiról"
 
 #: eea.reports/eea/reports/browser/report.pt:73
 msgid "Content"
@@ -767,9 +827,9 @@ msgstr "Tartalom"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:106
 msgid "Context description"
-msgstr "Kontextus leírása"
+msgstr "Háttér, összefüggések "
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:23
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:25
 msgid "Contribution"
 msgstr "Hozzájárulás"
 
@@ -779,40 +839,42 @@ msgstr "Közreműködők: ${name}"
 
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:44
 msgid "Convert"
-msgstr "Megtérít"
+msgstr "Átalakítás"
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Convert all figures"
-msgstr "Konvertálás minden számok"
+msgstr "Ábrák átalakítása"
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Convert all figures to predefined formats and resolutions"
-msgstr "Átalakítás az összes adat, hogy előre meghatározott formátumú és felbontású"
+msgstr "Az ábrák előre meghatározott formátumúvá és felbontásúvá alakítása"
 
 #: eea.dataservice/eea/dataservice/converter/convert_figure.pt:15
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Convert figure"
-msgstr "Átalakítás alak"
+msgstr "Ábra átalakítása"
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Convert figure to predefined formats and resolutions"
-msgstr "Átalakítás a szám előre meghatározott formátumú és felbontású"
+msgstr "Az ábra előre meghatározott formátumúvá és felbontásúvá alakítása"
 
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:16
 msgid "Convert figures"
-msgstr "Átalakítás számok"
+msgstr "Ábrák átalakítása"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:136
 msgid "Convert portlets"
-msgstr "Átalakítás portletek"
+msgstr "portletek átalakítása"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:58
 msgid "Cookies are not enabled. You must ${link} before you can log in."
-msgstr "A sütik nincsenek engedélyezve. Meg kell ${link} Mielőtt bejelentkezik,"
+msgstr "A cookie-k nincsenek engedélyezve. ${link} mielőtt bejelentkezik."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:30
 msgid "Cookies are not enabled. You must enable cookies before you can log in."
-msgstr "A sütik nincsenek engedélyezve. Engedélyeznie kell a cookie-kat Mielőtt bejelentkezik,"
+msgstr ""
+"A cookie-k nincsenek engedélyezve. Engedélyeznie kell a cookie-kat, mielőtt "
+"bejelentkezik."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:484
 msgid "Coordinate reference system:"
@@ -820,15 +882,15 @@ msgstr "Koordináta rendszer:"
 
 #: eea.daviz/eea/daviz/content/schema.py:100
 msgid "Copy and paste a data table from a file/webpage"
-msgstr "Másolja be egy adattábla egy fájl / weboldal"
+msgstr "adattábla másolása fájlból / weboldalról"
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Copy common metadata from a template"
-msgstr "Másolás közös metaadat egy sablonból"
+msgstr "közös metaadat másolása sablonból"
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Copy from template"
-msgstr "Másolás sablon"
+msgstr "Másolás sablonból"
 
 #: eea.reports/eea/reports/subtypes/report.py:242
 msgid "Copyrights"
@@ -836,59 +898,59 @@ msgstr "Szerzői jogok"
 
 #: EEAContentTypes/browser/crop/cropping.pt:31
 msgid "Correct the image ratio"
-msgstr "Javítsa a kép aránya"
+msgstr "Képarány javítása"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:31
 msgid "Countries A-F"
-msgstr "Országok AF"
+msgstr "Országok A-tól F-ig"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:47
 msgid "Countries G-M"
-msgstr "Országok GM"
+msgstr "Országok G-től M-ig"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:63
 msgid "Countries L-Y"
-msgstr "Országok LY"
+msgstr "Országok L-től Y-ig"
 
 #: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:65
 msgid "Country environment"
-msgstr "Ország környezetben"
+msgstr "Ország környezete"
 
 #: eea.soer/eea/soer/browser/admin.pt:36
 msgid "Country profile questions: ${count} of 4"
-msgstr "Ország profil kérdés: ${count} 4"
+msgstr "Országprofil kérdés sorszáma: ${count} "
 
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:103
 msgid "Country profile: read more"
-msgstr "Ország profil: tovább"
+msgstr "Országprofil bővebben"
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:41
 msgid "Create ${DYNAMIC_CONTENT}"
-msgstr "Létrehozása ${DYNAMIC_CONTENT}"
+msgstr "Létrehozás ${DYNAMIC_CONTENT}"
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:83
 msgid "Create ${language} translation of this item."
-msgstr "Létrehozása ${language} fordítása ez a tétel."
+msgstr "${language} elem fordítása "
 
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Create Promotion"
-msgstr "Létrehozása Promóció"
+msgstr "Promóció létrehozása "
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:38
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:53
 msgid "Create Visualization"
-msgstr "Látványterv készítése"
+msgstr "Megjelenítés készítése"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:10
 msgid "Create a new version of an Assessment"
-msgstr "Hozzon létre egy új változatának értékelése"
+msgstr "Az értékelés új változatának létrehozása"
 
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Create a promotion for this item"
-msgstr "Hozzon létre egy promóciós ehhez az elemhez"
+msgstr "ehhez az elemhez promóció létrehozása"
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:118
 msgid "Create and apply new tags."
-msgstr "Létrehozása és alkalmazása az új címkéket."
+msgstr "új címkék létrehozása és alkalmazása"
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:36
 msgid "Create new"
@@ -897,7 +959,7 @@ msgstr "Hozzon létre új"
 #: eea.indicators/eea/indicators/profiles/default/actions.xml
 #: eea.versions/eea/versions/profiles/default/actions.xml
 msgid "Create new version"
-msgstr "Hozzon létre új verzió"
+msgstr "Hozzon létre új verziót"
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:24
 msgid "Created"
@@ -905,7 +967,7 @@ msgstr "Létrehozva"
 
 #: eea.design/eea/design/browser/templates/colophon.pt:68
 msgid "Creative Commons Attribution License"
-msgstr "Creative Commons Nevezd meg! Licenc"
+msgstr "Creative Commons Attribution License"
 
 #: eea.reports/eea/reports/subtypes/report.py:125
 msgid "Creators/Authors"
@@ -917,7 +979,7 @@ msgstr "Horvátország"
 
 #: EEAContentTypes/browser/crop/cropimage.pt:25
 msgid "Crop"
-msgstr "Termés"
+msgstr "kivágás"
 
 #: EEAContentTypes/profiles/default/actions.xml
 msgid "Crop Image"
@@ -925,7 +987,7 @@ msgstr "Kép kivágása"
 
 #: EEAContentTypes/browser/crop/cropimage.pt:21
 msgid "Crop Size:"
-msgstr "Crop Méret:"
+msgstr "kivágás mérete:"
 
 #: eea.versions/eea/versions/assign_version.pt:9
 msgid "Current Version ID:"
@@ -937,7 +999,7 @@ msgstr "Jelenlegi értéke:"
 
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:20
 msgid "Currently we have ${nr} subscribers. Frequency: 3-4 emails / month."
-msgstr "Jelenleg ${nr} előfizetők nr. Frekvencia: 3-4 e-mailt / hó."
+msgstr "Jelenlegi előfizetők száma: ${nr} Gyakoriság: 3-4 e-mail / hó."
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:39
 msgid "Cyprus"
@@ -966,42 +1028,42 @@ msgstr "Adatok és térképek"
 msgid "Data link"
 msgstr "Adatkapcsolat"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:104
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:105
 msgid "Data owner"
 msgstr "Adattulajdonos"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:83
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:89
 msgid "Data policy"
-msgstr "Adat politika"
+msgstr "Adatpolitika"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:64
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:69
 msgid "Data repository info"
 msgstr "Adattár info"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:238
 msgid "Data sets uncertainty"
-msgstr "Adathalmazok bizonytalanság"
+msgstr "Adatsorokhoz kapcsolódó bizonytalanság"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:96
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:97
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:153
 msgid "Data source"
 msgstr "Az adatok forrása"
 
 #: eea.daviz/eea/daviz/content/schema.py:159
 msgid "Data source Organisation"
-msgstr "Adatforrás Szervezet"
+msgstr "Adatforrás - Szervezet"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:111
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:112
 msgid "Data source download"
 msgstr "Adatforrás letöltés"
 
 #: eea.daviz/eea/daviz/content/schema.py:147
 msgid "Data source link"
-msgstr "Adatforrás kapcsolat"
+msgstr "Adatforrás - link"
 
 #: eea.daviz/eea/daviz/content/schema.py:138
 msgid "Data source title"
-msgstr "Adatforrás cím"
+msgstr "Adatforrás címe"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:504
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:116
@@ -1011,27 +1073,27 @@ msgstr "Adatforrások"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:204
 msgid "Data sources in latest figures"
-msgstr "Adatforrások a legfrissebb adatok"
+msgstr " a legfrissebb adatokhoz tartozó adatforrások"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:180
 msgid "Data specifications"
-msgstr "Adatokra vonatkozó előírások"
+msgstr "Adatokra vonatkozó előírások, specifikációk"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_dataviewers.pt:15
 msgid "Data viewers"
-msgstr "Adatok nézők"
+msgstr "Adatmegtekintés"
 
 #: eea.promotion/eea/promotion/browser/form.pt:46
 msgid "Datacentre"
-msgstr "Adatközpontban"
+msgstr "Adatközpont"
 
 #: eea.sparql/eea/sparql/browser/view-bookmarks.pt:18
 msgid "Dataset"
-msgstr "Dataset"
+msgstr "adatsor"
 
 #: eea.sparql/eea/sparql/browser/view.pt:36
 msgid "Dataset preview"
-msgstr "Dataset előnézet"
+msgstr "adatsor előnézet"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:199
 msgid "Dates"
@@ -1041,14 +1103,14 @@ msgstr "Időpontok "
 msgid "Deadline"
 msgstr "Határidő"
 
-#: eea.design/eea/design/browser/templates/comments.pt:105
+#: eea.design/eea/design/browser/templates/comments.pt:106
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:63
 msgid "Delete"
 msgstr "Törlés"
 
 #: eea.reports/eea/reports/skins/reports_templates/report_file.pt:33
 msgid "Delete current file"
-msgstr "Törli az aktuális fájl"
+msgstr "az aktuális fájl törlése"
 
 #: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:22
 msgid "Delicious"
@@ -1060,7 +1122,7 @@ msgstr "Dánia"
 
 #: eea/themecentre/profiles/default/actions.xml
 msgid "Depromote a theme centre"
-msgstr "Depromote egy témát központ"
+msgstr "témaközpont érvénytelenítés"
 
 #: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:67
 msgid "Deputy Director"
@@ -1068,19 +1130,27 @@ msgstr "Igazgatóhelyettes"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:327
 msgid "Derived data set:"
-msgstr "Származtatott adatok beállítása:"
+msgstr "Származtatott adatok:"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:17
+msgid "Detect duplicates"
+msgstr "Ismétlődések azonosítása"
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
-msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
-msgstr "Hát nem találja, amit keres? Próbálja ki a ${advanced_search}, hogy finomítsa a keresést."
+msgid ""
+"Did you not find what you were looking for? Try the ${advanced_search} to "
+"refine your search."
+msgstr ""
+"Nem találja, amit keres? Próbálja ki ezt: ${advanced_search}, finomítsa a "
+"keresést."
 
 #: eea.app.visualization/eea/app/visualization/views/edit.py:59
 msgid "Disable"
-msgstr "tiltás"
+msgstr "letiltás"
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Disable user feedback"
-msgstr "Letiltása a felhasználók visszajelzéseit"
+msgstr "felhasználói visszajelzés letiltása "
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:157
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:305
@@ -1092,38 +1162,49 @@ msgid "Disclaimer:"
 msgstr "Jogi nyilatkozat:"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:172
+#, fuzzy
 msgid "Display traceback as text"
-msgstr "Kijelző traceback szövegként"
+msgstr "traceback szövegként való megjelenítése"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_summary.pt:34
+#, fuzzy
 msgid "Distinct:"
 msgstr "Eltérő:"
 
 #: eea.design/eea/design/skins/eea_design/main_template.pt:99
-msgid "Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!"
-msgstr "Tegyél valamit a bolygónk, nyomtassa ki ezt az oldal csak ha szükséges. Még egy kis akció is, hogy óriási a különbség, amikor emberek milliói csinálni!"
+msgid ""
+"Do something for our planet, print this page only if needed. Even a small "
+"action can make an enormous difference when millions of people do it!"
+msgstr ""
+"Gondoljon a környezetre, csak akkor nyomtassa ki ezt az oldalt, ha "
+"feltétlenül szükséges. Egy kis lépés is nagy változást hozhat, ha emberek "
+"milliói teszik azt!"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:23
-msgid "Do you want to create this assessment ${here} here or ${newest} in the latest version of the Specification?"
-msgstr "Szeretné létrehozni ezt az értékelést ${here} itt ${newest} legújabb a legújabb verziója a specifikáció?"
+msgid ""
+"Do you want to create this assessment ${here} here or ${newest} in the "
+"latest version of the Specification?"
+msgstr ""
+"Szeretné létrehozni ezt az értékelést itt ${here} vagy a specifikáció újabb "
+"verziója ${newest} alatt?"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:33
 #: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:42
 msgid "Document"
-msgstr "Document"
+msgstr "dokumentum"
 
 #: eea.design/eea/design/browser/templates/document_actions.pt:9
 #: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:9
 msgid "Document Actions"
-msgstr "Dokumentumtevékenységek"
+msgstr "Dokumentumhoz kapcsolódó lépések "
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:41
 msgid "Documentation search"
-msgstr "Dokumentáció keresés"
+msgstr "Dokumentum keresés"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_summary.pt:73
 msgid "Documents containing links in the state ..."
-msgstr "Tartalmazó dokumentumok kapcsolatok az állam ..."
+msgstr "Dokumentumok  ... állapotó linkekkel"
 
 #: eea.workflow/eea/workflow/portlets/readiness.pt:63
 msgid "Done"
@@ -1133,11 +1214,11 @@ msgstr "Kész "
 #: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:24
 #: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:24
 msgid "Download PDF"
-msgstr "Letöltés PDF"
+msgstr " PDF letöltése"
 
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:116
 msgid "Download detailed information and factsheets"
-msgstr "Töltse le részletes információk és tájékoztatók"
+msgstr "Részletes információk és adatlapok letöltése"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:110
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:53
@@ -1146,26 +1227,26 @@ msgstr "Fájl letöltése"
 
 #: eea.sparql/eea/sparql/browser/view.pt:12
 msgid "Download this dataset"
-msgstr "Töltse le ebben az adatállományban"
+msgstr "adatállomány letöltése"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:155
 msgid "Download this event in iCal format"
-msgstr "Töltse le ezt az eseményt az iCal formátumban"
+msgstr "esemény letöltése iCal formátumban"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:149
 msgid "Download this event in vCal format"
-msgstr "Töltse le ezt az eseményt a vCal formátumban"
+msgstr "esemény letöltése vCal formátumban"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:123
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:128
 msgid "Downloads"
 msgstr "Letöltések"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:57
 msgid "Draft (not yet published - not quality assured)"
-msgstr "Tervezet (még nem tették közzé - nem minőségbiztosított)"
+msgstr "Tervezet ( egyelőre nem publikált - nem minőségbiztosított)"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:81
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:22
+#, fuzzy
 msgid "Duplicate organisations"
 msgstr "Ismétlődő szervezetek"
 
@@ -1187,7 +1268,7 @@ msgstr "EDO:"
 #: eea.design/eea/design/browser/templates/sections.pt:10
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:132
 msgid "EEA"
-msgstr "EGK"
+msgstr "EEA"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:162
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:302
@@ -1195,12 +1276,13 @@ msgid "EEA Contact Info"
 msgstr "EEA Elérhetőség"
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:9
+#, fuzzy
 msgid "EEA Faceted Navigation Tool"
-msgstr "EEA csiszolt Navigációs Eszköz"
+msgstr "EEA Navigációs Eszköz"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:112
 msgid "EEA Forum, FAQs, discuss and share"
-msgstr "EEA fórum, GYIK, megvitatja és megosztani"
+msgstr "EEA fórum, GYIK, vélemény, megosztás"
 
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:10
 msgid "EEA Home page - select your preferred language"
@@ -1208,20 +1290,23 @@ msgstr "EEA Főoldal - válassza ki a kívánt nyelvet"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:17
 msgid "EEA Indicator Manager"
-msgstr "EEA jelző menedzser"
+msgstr "EEA indikátor kezelő"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:191
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:342
 #: eea.reports/eea/reports/subtypes/report.py:228
 msgid "EEA Management Plan"
-msgstr "EEA terv"
+msgstr "EEA gazdálkodási terv"
 
 #: eea.reports/eea/reports/subtypes/report.py:229
-msgid "EEA Management plan code. Internal EEA project line code, used to assign an EEA product output to a specific EEA project number in the management plan."
-msgstr "EEA kezelési terv kódot. Belső EGT projekt sorra kódot, használt hozzá az EGT termék kimenetet egy konkrét projekt EEA száma a gazdálkodási tervben."
+msgid ""
+"EEA Management plan code. Internal EEA project line code, used to assign an "
+"EEA product output to a specific EEA project number in the management plan."
+msgstr ""
+"EEA gazdálkodási  terv kód. Belső EEA projekt sor kód, amely egy adott "
+"terméket egy konkrét projektszámhoz rendel a gazdálkodási tervben."
 
 #: eea/mediacentre/Multimedia/multimedia.pt:43
-#: eea/mediacentre/Multimedia/multimedia2.pt:44
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:26
 msgid "EEA Multimedia Centre"
 msgstr "EEA Multimédia Központ"
@@ -1232,11 +1317,11 @@ msgstr "EEA Szervezeti felépítés"
 
 #: eea.reports/eea/reports/subtypes/report.py:79
 msgid "EEA Publication Internal ID"
-msgstr "EEA közzététele Belső azonosító"
+msgstr "EEA publikáció azonosítója"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:160
 msgid "EEA Publication title"
-msgstr "EGT-cím közzététele"
+msgstr "EEA publikáció címe"
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:16
 msgid "EEA Staff list"
@@ -1244,16 +1329,16 @@ msgstr "EEA munkatársak listája"
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:163
 msgid "EEA Subscriptions"
-msgstr "EGT-előfizetések"
+msgstr "EEA-előfizetések"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:137
 msgid "EEA Themes"
-msgstr "Témák EGT"
+msgstr "EEA témakörök"
 
 #: eea.design/eea/design/browser/templates/colophon.pt:62
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:150
 msgid "EEA Web Team"
-msgstr "EGT-Web csapat"
+msgstr "EEA Web csapat"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:181
 msgid "EEA data references"
@@ -1261,22 +1346,23 @@ msgstr "EEA adathivatkozások"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:162
 msgid "EEA enquiry service"
-msgstr "EEA tudakozószolgálatához"
+msgstr "EEA Tudakozó"
 
 msgid "EEA homepage in your language"
-msgstr "EEA honlapján az Ön nyelvén"
+msgstr "EEA honlap az Ön nyelvén"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:591
 msgid "EEA management plan code:"
-msgstr "EGT-gazdálkodási terv kód:"
+msgstr "EEA gazdálkodási terv kód:"
 
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:12
+#, fuzzy
 msgid "EEA notification service account"
-msgstr "EGT-értesítő szolgáltatást figyelembe"
+msgstr "EEA értesítési fiók"
 
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:15
 msgid "EEA website search"
-msgstr "EEA honlapján keresés"
+msgstr "keresés az EEA honlapján "
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:22
 msgid "EPA network"
@@ -1286,9 +1372,11 @@ msgstr "EPA hálózat"
 msgid "EPUB format"
 msgstr "EPUB formátum"
 
-#: eea.googlecharts/eea/googlecharts/views/chart.py:222
-msgid "ERROR: An error occured while exporting your image. Please try again later."
-msgstr "HIBA: Hiba történt az exportálás során a képet. Kérjük, próbálkozzon később."
+#: eea.googlecharts/eea/googlecharts/views/chart.py:257
+msgid ""
+"ERROR: An error occured while exporting your image. Please try again later."
+msgstr ""
+"HIBA: Hiba történt a kép exportálása során. Kérjük, próbálkozzon később."
 
 #: eea.design/eea/design/browser/templates/colophon.pt:36
 msgid "EU flag"
@@ -1327,11 +1415,11 @@ msgstr "Kódok szerkesztése"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:50
 msgid "Edit EEA Indicator Manager User Id"
-msgstr "Szerkesztés EGT Indicator Manager felhasználói azonosító"
+msgstr "EEA indikátor kezelő felhasználói azonosító szerkesztése"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:171
 msgid "Edit EEA Themes"
-msgstr "Témák szerkesztése EGT"
+msgstr "EEA témák szerkesztése "
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:344
 msgid "Edit Metadata"
@@ -1339,31 +1427,32 @@ msgstr "Metaadatok szerkesztése"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:77
 msgid "Edit Responsibility and Ownership"
-msgstr "Szerkesztés felelősségvállalás"
+msgstr "felelős adatainak szerkesztés "
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:129
 msgid "Edit Typology"
-msgstr "Szerkesztés tipológiája"
+msgstr "tipológia szerkesztése"
 
 #: EEAContentTypes/browser/crop/cropping.pt:19
 msgid "Edit croppable images"
-msgstr "Croppable képek szerkesztése"
+msgstr "képek szerkesztése"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:291
 msgid "Edit sub report"
-msgstr "Szerkesztés al-jelentés"
+msgstr "részjelentés szerkesztése"
 
 #: eea/mediacentre/profiles/default/actions.xml
 msgid "Edit video metadata"
-msgstr "Videó szerkesztése metaadatok"
+msgstr "Videó metaadatok szerkesztése "
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:86
 msgid "Edit your search options"
-msgstr "Szerkessze a keresési opciók"
+msgstr "a keresési opciók megadása"
 
 #: eea.workflow/eea/workflow/portlets/readiness.pt:21
+#, fuzzy
 msgid "Editing progress"
-msgstr "Szerkesztése folyamatban"
+msgstr "előrehaladás megadása"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:19
 msgid "Eionet"
@@ -1377,7 +1466,7 @@ msgstr "Email"
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:48
 msgid "Email Protected.<br /> Please enable JavaScript."
-msgstr "Email Protected. <br /> Kérjük, engedélyezze a JavaScript futtatását."
+msgstr "Email védett. <br /> Kérjük, engedélyezze a JavaScript futtatását."
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:22
 msgid "Email address"
@@ -1385,7 +1474,7 @@ msgstr "E-mail cím "
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Enable user feedback"
-msgstr "Lehetővé teszi a felhasználói visszajelzések"
+msgstr " felhasználói visszajelzések engedélyezése"
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:73
 msgid "Energy"
@@ -1400,7 +1489,7 @@ msgstr "Angol Eionet"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:19
 msgid "English themes IMS link"
-msgstr "Angol témák IMS kapcsolat"
+msgstr "témák angolul -  IMS link"
 
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:31
 msgid "Enter"
@@ -1408,7 +1497,7 @@ msgstr "Enter"
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:22
 msgid "Enter email"
-msgstr "Adja meg e-mail"
+msgstr "Adja meg e-mail címet"
 
 #: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:42
 msgid "Enter one or more keywords for a search."
@@ -1416,15 +1505,17 @@ msgstr "Írjon be egy vagy több kulcsszót a kereséshez."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:350
 msgid "Enter one or more keywords for a search. Use of AND/OR is supported."
-msgstr "Írjon be egy vagy több kulcsszót a kereséshez. Használja az ÉS / VAGY támogatott."
+msgstr ""
+"Írjon be egy vagy több kulcsszót a kereséshez, illetve használja az AND/OR "
+"(és / vagy) szavakat."
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:122
 msgid "Enter one tag per line, multiple words allowed."
-msgstr "Adjon meg egy tag egy sorban, több szót megengedett."
+msgstr "Adjon meg egy címkét soronként (a több szó megengedett)."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:72
 msgid "Entire documentation area"
-msgstr "Teljes dokumentáció területen"
+msgstr "Teljes dokumentum terület"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:25
 msgid "EnviroWindows"
@@ -1437,7 +1528,7 @@ msgstr "Környezet és egészség"
 #: eea/themecentre/browser/templates/themes_view.pt:85
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:105
 msgid "Environment in different regions and specific areas"
-msgstr "Környezetvédelem a különböző régiókban és egyes területeken"
+msgstr "Környezet a különböző térségekben és sajátos területeken"
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:28
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:32
@@ -1446,11 +1537,11 @@ msgstr "Környezeti Atlasz"
 
 #: eea.design/eea/design/browser/templates/calendar.pt:26
 msgid "Environmental events around the world"
-msgstr "Környezeti események szerte a világon"
+msgstr "Környezeti események világszerte "
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:120
 msgid "Environmental information anywhere"
-msgstr "Környezeti információ bárhonnan"
+msgstr "Környezeti információ bárhol"
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:135
 msgid "Environmental scenarios"
@@ -1458,7 +1549,7 @@ msgstr "Környezeti forgatókönyvek"
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:127
 msgid "Environmental technology"
-msgstr "Környezetbarát technológiák"
+msgstr "Környezettechnológia"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:27
 msgid "Error"
@@ -1477,15 +1568,21 @@ msgstr "Észt"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:27
 msgid "Europe"
-msgstr "{0}Európai Unió{/0} {1}"
+msgstr "Európai Unió"
 
 #: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:51
 msgid "Europe and the world: global megatrends"
 msgstr "Európa és a világ: a globális megatrendek"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:23
-msgid "Europe has made considerable progress over recent decades in cleaning the air that we breathe, but air pollution remains a serious problem and continues to damage our health and the environment."
-msgstr "Európa jelentős haladást ért el az elmúlt évtizedekben a levegő tisztítására, amit belélegzünk, de a légszennyezettség továbbra is komoly probléma, és továbbra is károsak az egészségre és a környezetre."
+msgid ""
+"Europe has made considerable progress over recent decades in cleaning the "
+"air that we breathe, but air pollution remains a serious problem and "
+"continues to damage our health and the environment."
+msgstr ""
+"Európa jelentős haladást ért el az elmúlt évtizedekben, ami a "
+"levegőtisztaságot illeti. Ennek ellenére légszennyezés továbbra is komoly "
+"probléma, ami károsítja az egészségünket és a környezetünket is."
 
 #: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:37
 msgid "Europe's environment: thematic assessments"
@@ -1510,25 +1607,27 @@ msgstr "Az Európai Unió zászlaja"
 
 #: EEAContentTypes/skins/EEAContentTypes/event_submitted_confirmation.pt:12
 msgid "Event sent"
-msgstr "Esemény küldött"
+msgstr "Esemény elküldve"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:34
 msgid "Excel doc on secure external link"
-msgstr "Excel doc biztonságos external link"
+msgstr "Excel dokumentum biztonságos külső linken"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:330
 msgid "Excel link"
-msgstr "Excel hivatkozásról"
+msgstr "Excel hivatkozás"
 
 #: eea.reports/eea/reports/subtypes/report.py:267
+#, fuzzy
 msgid "Exclude from navigation"
-msgstr "Kizárás navigáció"
+msgstr "Kizárás a navigációból"
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:21
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:82
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:87
 #: eea.sparql/eea/sparql/browser/view.pt:84
+#, fuzzy
 msgid "Execute"
-msgstr "kitöltés"
+msgstr "végrehajt"
 
 #: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:61
 msgid "Executive Director"
@@ -1536,13 +1635,12 @@ msgstr "Ügyvezető igazgatója"
 
 #: eea.sparql/eea/sparql/browser/view-bookmarks.pt:21
 msgid "Existing visualizations"
-msgstr "Meglévő vizualizáció"
+msgstr "Meglévő megjelenítés"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:151
-#: eea/mediacentre/Multimedia/multimedia.pt:194
-#: eea/mediacentre/Multimedia/multimedia2.pt:170
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
+#: eea/mediacentre/Multimedia/multimedia.pt:220
 msgid "Explore all tags"
-msgstr "Fedezze fel az összes tag"
+msgstr "az összes címke megtekintése"
 
 #: eea.promotion/eea/promotion/browser/admin.pt:21
 msgid "External"
@@ -1550,15 +1648,17 @@ msgstr "Külső"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:192
 msgid "External data references"
-msgstr "Külső adatok referenciák"
+msgstr "Külső adathivatkozás"
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:12
 msgid "Eye On Earth – Citizen observatory on air and bathing water quality"
-msgstr "Eye on Earth - Citizen obszervatórium a levegő és a fürdővizek minősége"
+msgstr ""
+"Eye on Earth - Tekintetünk a Földön - a levegő és a fürdővizek minőségének "
+"lakossági megfigyelése "
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:8
 msgid "Eye on Earth"
-msgstr "Eye on Earth"
+msgstr "Eye on Earth - Tekintetünk a Földön"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:73
 msgid "FAQs"
@@ -1575,7 +1675,7 @@ msgstr "Facebook ikon"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:331
 msgid "Fake PDF file extension"
-msgstr "Hamis PDF fájl kiterjesztését"
+msgstr "rossz PDF fájl kiterjesztés"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:181
 msgid "Fancybox pop-ups"
@@ -1584,14 +1684,15 @@ msgstr "Fancybox pop-up"
 #: eea.indicators/eea/indicators/browser/templates/assessmentpart_view.pt:23
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:106
 #: eea.reports/eea/reports/browser/report.pt:172
+#, fuzzy
 msgid "Fancybox relations"
 msgstr "Fancybox kapcsolatok"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:127
+#: eea/mediacentre/Multimedia/multimedia.pt:153
 msgid "Featured Item Description"
 msgstr "Kiemelt Leírás"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:126
+#: eea/mediacentre/Multimedia/multimedia.pt:152
 msgid "Featured Item Title"
 msgstr "Kiemelt Cím"
 
@@ -1604,12 +1705,14 @@ msgid "Featured datasets"
 msgstr "Kiemelt adatsorok"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:91
+#, fuzzy
 msgid "Feed for all documentation."
 msgstr "Feed az összes dokumentációt."
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:117
+#, fuzzy
 msgid "Feed synced"
-msgstr "Takarmány szinkronizálva"
+msgstr "szinkronizálva"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/eeafigure_view.pt:139
 msgid "Figure type:"
@@ -1619,7 +1722,7 @@ msgstr "Ábra típusa:"
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:99
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:137
 msgid "Figures"
-msgstr "Számok"
+msgstr "Ábrák"
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:197
 #: eea.design/eea/design/skins/eeadesign_public/search.pt:166
@@ -1632,36 +1735,36 @@ msgstr "Fájlok"
 
 #: eea.reports/eea/reports/subtypes/report.py:80
 msgid "Fill in EEA publication internal id"
-msgstr "Töltse ki az EGT-kiadvány belső azonosító"
+msgstr "Adja meg az EEA-kiadvány belső azonosítóját"
 
 #: eea.reports/eea/reports/subtypes/report.py:126
 msgid "Fill in additional creators/authors"
-msgstr "Töltse ki a további alkotók / szerzők"
+msgstr "Adja meg a további alkotókat / szerzőket"
 
 #: eea.reports/eea/reports/subtypes/report.py:139
 msgid "Fill in additional publishers"
-msgstr "Töltse ki a további kiadók"
+msgstr "Adja meg a további kiadók nevét"
 
 #: eea.reports/eea/reports/subtypes/report.py:243
 msgid "Fill in copyrights"
-msgstr "Töltse ki a szerzői jogok"
+msgstr "Adjon infromációt a szerzői jogokról"
 
 #: EEAContentTypes/content/Article.py:37
 #: eea.reports/eea/reports/subtypes/report.py:150
 msgid "Fill in publication groups"
-msgstr "Töltse ki a kiadvány csoportban"
+msgstr "Adja meg a kiadvány csoportot"
 
 #: eea.reports/eea/reports/subtypes/report.py:178
 msgid "Fill in publication price"
-msgstr "Töltse ki a kiadvány ára"
+msgstr "Adja meg a kiadvány árát"
 
 #: eea.reports/eea/reports/subtypes/report.py:113
 msgid "Fill in serial title"
-msgstr "Töltse ki a sorozat címe"
+msgstr "Adja meg a sorozat számát"
 
 #: eea.reports/eea/reports/subtypes/report.py:68
 msgid "Fill in the ISBN Number of this publication."
-msgstr "Töltse ki az ISBN száma a kiadvány."
+msgstr "Adja meg a kiadvány ISBN számát."
 
 #: eea.reports/eea/reports/subtypes/report.py:89
 msgid "Fill in the Order ID of this publication."
@@ -1736,10 +1839,6 @@ msgstr "Halászat"
 msgid "Flexible tooltips"
 msgstr "Rugalmas tippek"
 
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:24
-msgid "Folder overview"
-msgstr "Mappa áttekintése"
-
 #: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:16
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:69
 msgid "Follow us"
@@ -1758,16 +1857,27 @@ msgid "Follow us on YouTube"
 msgstr "Kövesse velünk a YouTube-on"
 
 #: EEAContentTypes/browser/crop/cropping.pt:20
-msgid "For each image field in your content you can select below the image you want to crop."
-msgstr "Minden képmezőben a tartalom alatt kiválaszthatja a kívánt képet vágni."
+msgid ""
+"For each image field in your content you can select below the image you want "
+"to crop."
+msgstr ""
+"Minden képmezőben a tartalom alatt kiválaszthatja a kívánt képet vágni."
 
 #: eea.reports/eea/reports/subtypes/report.py:98
 msgid "For sale?"
 msgstr "Eladó?"
 
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:22
-msgid "For security reasons, we store your password encrypted, and cannot mail it to you. If you would like to reset your password, fill out the form below and we will send you an email at the address you gave when you registered to start the process of resetting your password."
-msgstr "Biztonsági okokból tárolunk titkosított jelszavát, és nem postázza Önnek. Ha szeretné visszaállítani a jelszavát, töltse ki az alábbi űrlapot, és mi küldünk egy e-mail címen, amit adtál, ha regisztrált kezdeni a folyamatot az alaphelyzetbe a jelszavát."
+msgid ""
+"For security reasons, we store your password encrypted, and cannot mail it "
+"to you. If you would like to reset your password, fill out the form below "
+"and we will send you an email at the address you gave when you registered to "
+"start the process of resetting your password."
+msgstr ""
+"Biztonsági okokból tárolunk titkosított jelszavát, és nem postázza Önnek. Ha "
+"szeretné visszaállítani a jelszavát, töltse ki az alábbi űrlapot, és mi "
+"küldünk egy e-mail címen, amit adtál, ha regisztrált kezdeni a folyamatot az "
+"alaphelyzetbe a jelszavát."
 
 #: eea.sparql/eea/sparql/browser/view.pt:57
 msgid "For system integrators"
@@ -1778,12 +1888,12 @@ msgstr "A rendszerintegrátorok"
 msgid "Forgot your password?"
 msgstr "Elfelejtette a jelszavát?"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:112
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:113
 #: eea.sparql/eea/sparql/browser/view.pt:13
 msgid "Formats suitable for human consumption"
 msgstr "Formátumok, emberi fogyasztásra alkalmas"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:122
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:123
 #: eea.sparql/eea/sparql/browser/view.pt:22
 msgid "Formats suitable for machine-to-machine communication"
 msgstr "Formátumok alkalmas gép-gép kommunikáció"
@@ -1838,6 +1948,10 @@ msgstr "Galéria nézet"
 msgid "General metadata"
 msgstr "Általános metaadatok"
 
+#: eea.relations/eea/relations/browser/template/badrelations.pt:53
+msgid "Generate report"
+msgstr "Jelentéskészítés"
+
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:32
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:36
 msgid "Generic metadata"
@@ -1879,10 +1993,14 @@ msgid "Go back and correct"
 msgstr "Menj vissza és javítsa"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:22
-#: eea/mediacentre/Multimedia/multimedia.pt:92
-#: eea/mediacentre/Multimedia/multimedia2.pt:95
+#: eea/mediacentre/Multimedia/multimedia.pt:115
+#: eea/themecentre/skins/themecentre_templates/dc_view.pt:22
 msgid "Go to advanced search"
 msgstr "Ugrás a részletes keresés"
+
+#: EEAContentTypes/skins/EEAContentTypes/promotion_view.pt:39
+msgid "Go to site"
+msgstr "Az oldal megtekintése"
 
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:24
 msgid "Google Custom Search Engines"
@@ -1903,8 +2021,7 @@ msgstr "Görög"
 msgid "Green economy"
 msgstr "Zöld gazdaság"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:150
-#: eea/mediacentre/Multimedia/multimedia2.pt:128
+#: eea/mediacentre/Multimedia/multimedia.pt:176
 msgid "Green tips"
 msgstr "Zöld tippek"
 
@@ -1929,7 +2046,7 @@ msgstr "Itt a teljes hibaüzenet:"
 msgid "Hide the search form"
 msgstr "Dugd el a keresési forma"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:90
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:89
 msgid "Highlights"
 msgstr "Kiemelt hírek"
 
@@ -1976,8 +2093,10 @@ msgid "Icelandic"
 msgstr "Izlandi"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:29
-msgid "Icons based on file extension, on different external sites and protocols"
-msgstr "Ikonok alapuló fájl kiterjesztését, különböző külső oldalak és protokollok"
+msgid ""
+"Icons based on file extension, on different external sites and protocols"
+msgstr ""
+"Ikonok alapuló fájl kiterjesztését, különböző külső oldalak és protokollok"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:15
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:312
@@ -1991,31 +2110,55 @@ msgid "Identification"
 msgstr "Azonosítás"
 
 #: eea.promotion/eea/promotion/browser/form.pt:53
-msgid "If checked, the promotion is shown at the top in navigation menu on all pages."
-msgstr "Ha be van jelölve, a promóciós jelenik meg a felső navigációs menü minden oldalon."
+msgid ""
+"If checked, the promotion is shown at the top in navigation menu on all "
+"pages."
+msgstr ""
+"Ha be van jelölve, a promóciós jelenik meg a felső navigációs menü minden "
+"oldalon."
 
 #: eea.reports/eea/reports/subtypes/report.py:265
 msgid "If selected, this item will not appear in the navigation tree"
 msgstr "Ha be van jelölve, ez a tétel nem jelenik meg a navigációs fában"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:195
-msgid "If the a-tag hrefs to an image, it will be displayed in the popup. Be careful though, if the URL does not end with an image extension, fancybox will hang."
-msgstr "Ha az 1-tag hrefs egy képet, akkor megjelenik a popup. Légy óvatos, ha az URL nem ér véget a kép kiterjesztése, fancybox fog lógni."
+msgid ""
+"If the a-tag hrefs to an image, it will be displayed in the popup. Be "
+"careful though, if the URL does not end with an image extension, fancybox "
+"will hang."
+msgstr ""
+"Ha az 1-tag hrefs egy képet, akkor megjelenik a popup. Légy óvatos, ha az "
+"URL nem ér véget a kép kiterjesztése, fancybox fog lógni."
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:83
-msgid "If the map application above does not provide an integrated full screen feature (usually in the upper right corner), then you can try with the following ${full-screen-mode}"
-msgstr "Ha a térkép fölött alkalmazás nem nyújt teljes képernyős integrált funkció (általában a jobb felső sarokban), akkor próbáld meg a következő ${full-screen-mode}"
+msgid ""
+"If the map application above does not provide an integrated full screen "
+"feature (usually in the upper right corner), then you can try with the "
+"following ${full-screen-mode}"
+msgstr ""
+"Ha a térkép fölött alkalmazás nem nyújt teljes képernyős integrált funkció "
+"(általában a jobb felső sarokban), akkor próbáld meg a következő ${full-"
+"screen-mode}"
 
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
-msgid "If translations of this item have been made after it was first promoted, this action promotes the new translations"
-msgstr "Ha fordításait Az elemhez után először támogatta, ez a művelet elősegíti az új fordítások"
+msgid ""
+"If translations of this item have been made after it was first promoted, "
+"this action promotes the new translations"
+msgstr ""
+"Ha fordításait Az elemhez után először támogatta, ez a művelet elősegíti az "
+"új fordítások"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:52
-msgid "If you are certain you have the correct web address but are encountering an error, please contact the ${site_admin}."
-msgstr "Ha biztos vagy benne, hogy a megfelelő webcímet, de találkozik egy hiba, forduljon a ${site_admin}."
+msgid ""
+"If you are certain you have the correct web address but are encountering an "
+"error, please contact the ${site_admin}."
+msgstr ""
+"Ha biztos vagy benne, hogy a megfelelő webcímet, de találkozik egy hiba, "
+"forduljon a ${site_admin}."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:200
-msgid "If you do not have an account here, head over to the ${registration_form}."
+msgid ""
+"If you do not have an account here, head over to the ${registration_form}."
 msgstr "Ha nincs számla itt, feje fölött a ${registration_form}."
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:26
@@ -2027,20 +2170,38 @@ msgid "If you have forgotten your password, ${click_here}."
 msgstr "Ha elfelejtette jelszavát, ${click_here}."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:98
-msgid "If you have tabs that have longer titles consider using the extra 'two-rows' class for the tabs which makes the tabs larger in height and better styled to accomodate larger titles."
-msgstr "Ha a tabok, hogy hosszabb címek fontold meg az extra 'két sort' osztályban a fülek, amelyek miatt a lapok magassága nagyobb és jobb kialakítású befogadására nagyobb címeket."
+msgid ""
+"If you have tabs that have longer titles consider using the extra 'two-rows' "
+"class for the tabs which makes the tabs larger in height and better styled "
+"to accomodate larger titles."
+msgstr ""
+"Ha a tabok, hogy hosszabb címek fontold meg az extra 'két sort' osztályban a "
+"fülek, amelyek miatt a lapok magassága nagyobb és jobb kialakítású "
+"befogadására nagyobb címeket."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:160
-msgid "If you need to report this to the ${site_admin}, please include this entry number in your message."
-msgstr "Ha kell, hogy jelentse ezt a ${site_admin}, kérjük, ezt a bejegyzés száma az üzenetet."
+msgid ""
+"If you need to report this to the ${site_admin}, please include this entry "
+"number in your message."
+msgstr ""
+"Ha kell, hogy jelentse ezt a ${site_admin}, kérjük, ezt a bejegyzés száma az "
+"üzenetet."
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:52
-msgid "If you want to read the content of this document, you have to switch to one of the following languages:"
-msgstr "Ha szeretné elolvasni a jelen dokumentum tartalma, akkor át kell térni az alábbi nyelveken:"
+msgid ""
+"If you want to read the content of this document, you have to switch to one "
+"of the following languages:"
+msgstr ""
+"Ha szeretné elolvasni a jelen dokumentum tartalma, akkor át kell térni az "
+"alábbi nyelveken:"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:119
-msgid "If you wish to block or unblock certain categories of portlets, you can do so using the drop-down boxes."
-msgstr "Ha szeretne blokkolni vagy feloldása bizonyos kategóriái portletek, akkor megteheti a legördülő menüket."
+msgid ""
+"If you wish to block or unblock certain categories of portlets, you can do "
+"so using the drop-down boxes."
+msgstr ""
+"Ha szeretne blokkolni vagy feloldása bizonyos kategóriái portletek, akkor "
+"megteheti a legördülő menüket."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:26
 #: eea.promotion/eea/promotion/browser/admin.pt:19
@@ -2052,8 +2213,7 @@ msgstr "Image"
 msgid "Image Size:"
 msgstr "Képméret:"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:153
-#: eea/mediacentre/Multimedia/multimedia2.pt:131
+#: eea/mediacentre/Multimedia/multimedia.pt:179
 msgid "Image galleries"
 msgstr "Galériák"
 
@@ -2063,7 +2223,7 @@ msgstr "Kép pop-up"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:283
 msgid "Image scales"
-msgstr "Kép mérlegek"
+msgstr "skála"
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:7
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:8
@@ -2071,8 +2231,12 @@ msgid "In the spotlight"
 msgstr "A reflektorfényben"
 
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:16
-msgid "In these websites you will find all the summarised environmental information available in your language."
-msgstr "Az ilyen honlapok megtalál minden az összesített környezeti információk elérhetők az Ön nyelvén."
+msgid ""
+"In these websites you will find all the summarised environmental information "
+"available in your language."
+msgstr ""
+"Ezeken az oldalakon megtalál minden sűrített környezeti információt, amely "
+"az Ön nyelvén elérhető."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:250
 #: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:30
@@ -2081,18 +2245,18 @@ msgstr "Indikátor"
 
 #: eea.indicators/eea/indicators/browser/templates/indicatorfactsheet/aggregated_edit.pt:26
 msgid "Indicator FactSheet versions"
-msgstr "Indikátor Tájékoztató verzió"
+msgstr "Indikátor adatlap verzió"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:188
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:370
 #: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:63
 msgid "Indicator code"
-msgstr "Jelző kód"
+msgstr "indikátor kódja"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:65
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:65
 msgid "Indicator codes"
-msgstr "Jelző kódok"
+msgstr "indikátor kódok"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:89
 msgid "Indicator definition"
@@ -2100,7 +2264,7 @@ msgstr "Indikátor meghatározása"
 
 #: eea.indicators/eea/indicators/browser/templates/wrong_specification_versions.pt:17
 msgid "Indicators that have wrong version ids"
-msgstr "Indikátorok, amelyek megfelelő verziójú azonosítók"
+msgstr "Indikátoroknem megfelelő verzió azonosítóval"
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:85
 msgid "Industry"
@@ -2112,8 +2276,17 @@ msgid "Info"
 msgstr "info "
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:240
-msgid "Information about rights held in and over the resource. Typically a rights element will contain a rights management statement for the resource, or reference a service providing such information. Rights information often encompasses intellectual property rights (IPR), copyright and various property rights"
-msgstr "Információ lévő jogok és több mint a forrás. Tipikusan egy jogi elemet fog tartalmazni jogkezelési nyilatkozatot az erőforrás, vagy hivatkozás olyan szolgáltatás, ezeket az információkat. Jogi információk gyakran magában foglalja a szellemi tulajdonjogok (IPR), szerzői és különböző tulajdonjogok"
+msgid ""
+"Information about rights held in and over the resource. Typically a rights "
+"element will contain a rights management statement for the resource, or "
+"reference a service providing such information. Rights information often "
+"encompasses intellectual property rights (IPR), copyright and various "
+"property rights"
+msgstr ""
+"Információ lévő jogok és több mint a forrás. Tipikusan egy jogi elemet fog "
+"tartalmazni jogkezelési nyilatkozatot az erőforrás, vagy hivatkozás olyan "
+"szolgáltatás, ezeket az információkat. Jogi információk gyakran magában "
+"foglalja a szellemi tulajdonjogok (IPR), szerzői és különböző tulajdonjogok"
 
 #: eea/mediacentre/browser/statistics.pt:5
 msgid "Information about the Media centre"
@@ -2143,13 +2316,21 @@ msgstr "Tudnivalók a hozzájárulás és használja ehhez az erőforráshoz."
 msgid "Interactive data viewer"
 msgstr "Interaktív adatokat megjelenítő"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:51
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:50
 msgid "Interactive data viewers"
 msgstr "Interaktív adatok nézők"
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:19
-msgid "Interested candidates must apply by filling in the application form below. To the application form must be attached:"
-msgstr "Az érdekelt jelöltek kell alkalmazni kitöltésével az alábbi jelentkezési lapot. A pályázati űrlaphoz csatolni kell:"
+msgid ""
+"Interested candidates must apply by filling in the application form below. "
+"To the application form must be attached:"
+msgstr ""
+"Az érdekelt jelöltek kell alkalmazni kitöltésével az alábbi jelentkezési "
+"lapot. A pályázati űrlaphoz csatolni kell:"
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:42
+msgid "Interface"
+msgstr "Felület/interfész"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:70
 msgid "International cooperation"
@@ -2330,9 +2511,9 @@ msgstr "Jogi nyilatkozat"
 msgid "Liechtenstein"
 msgstr "Liechtenstein"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:116
-#: eea/mediacentre/browser/multimedia_popup_view.pt:61
-#: eea/mediacentre/browser/video_popup_view.pt:79
+#: eea/mediacentre/Multimedia/multimedia.pt:139
+#: eea/mediacentre/browser/multimedia_popup_view.pt:62
+#: eea/mediacentre/browser/video_popup_view.pt:80
 msgid "Link"
 msgstr "Link"
 
@@ -2349,12 +2530,21 @@ msgid "Link to full assessment"
 msgstr "Link a teljes értékelési"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:12
-msgid "Link types are automatically detected on client side by a javascript (scanforlinks) which will add the necessary class icon before the link."
-msgstr "Kapcsolat típusok automatikusan észleli a kliens oldalon egy javascript (scanforlinks), amely felveszi a szükséges osztály előtt ikonra a link."
+msgid ""
+"Link types are automatically detected on client side by a javascript "
+"(scanforlinks) which will add the necessary class icon before the link."
+msgstr ""
+"Kapcsolat típusok automatikusan észleli a kliens oldalon egy javascript "
+"(scanforlinks), amely felveszi a szükséges osztály előtt ikonra a link."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:307
-msgid "Link types are automatically detected on client side by a javascript which will add the necessary class icon before the link. Here you see some examples:"
-msgstr "Kapcsolat típusok automatikusan észleli a kliens oldalon egy javascript, ami hozzáadja a szükséges osztály előtt ikonra a link. Itt látható néhány példa:"
+msgid ""
+"Link types are automatically detected on client side by a javascript which "
+"will add the necessary class icon before the link. Here you see some "
+"examples:"
+msgstr ""
+"Kapcsolat típusok automatikusan észleli a kliens oldalon egy javascript, ami "
+"hozzáadja a szükséges osztály előtt ikonra a link. Itt látható néhány példa:"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:312
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:376
@@ -2384,13 +2574,17 @@ msgstr "Linkek"
 msgid "Links in the state ..."
 msgstr "Linkek az állam ..."
 
+#: eea.relations/eea/relations/browser/template/tool.pt:26
+msgid "List all relations that don't comply portal_relations schema"
+msgstr "A sémának nem megfelelő kapcsolódások listázása"
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:11
 msgid "List of all icons available"
 msgstr "Listát az összes rendelkezésre álló ikonok"
 
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:15
-msgid "Listing"
-msgstr "Listing"
+#: eea.relations/eea/relations/browser/template/tool.pt:26
+msgid "List of bad relations"
+msgstr "A rossz kapcsolódások listázása"
 
 #: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:18
 msgid "Listing not available"
@@ -2407,7 +2601,7 @@ msgstr "Litván"
 msgid "Loading..."
 msgstr "Betöltés..."
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:91
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:97
 msgid "Location"
 msgstr "Helyszín"
 
@@ -2420,7 +2614,7 @@ msgstr "Virtuális helyszínek"
 msgid "Log in"
 msgstr "Bejelentkezés"
 
-#: eea.design/eea/design/browser/templates/comments.pt:30
+#: eea.design/eea/design/browser/templates/comments.pt:31
 msgid "Log in to add comments"
 msgstr "Jelentkezzen be, hogy megjegyzéseket fűzzenek"
 
@@ -2441,8 +2635,12 @@ msgid "Long term work"
 msgstr "Hosszú távú munka"
 
 #: eea.daviz/eea/daviz/content/schema.py:70
-msgid "Look for compatible datasets in catalogue (e.g. visualization data, .tsv, .csv, SPARQL, etc)"
-msgstr "Keresse meg a katalógusban kompatibilis adatállományok (pl. vizuális adatok. TSV. Csv, SPARQL, stb.)"
+msgid ""
+"Look for compatible datasets in catalogue (e.g. visualization data, .tsv, ."
+"csv, SPARQL, etc)"
+msgstr ""
+"Keresse meg a katalógusban kompatibilis adatállományok (pl. vizuális adatok. "
+"TSV. Csv, SPARQL, stb.)"
 
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:19
 msgid "Lost Password"
@@ -2476,7 +2674,7 @@ msgstr "Kezelése lábléc portletek"
 msgid "Manage footer portlets"
 msgstr "Kezelése lábléc portletek"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:98
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:104
 msgid "Map location"
 msgstr "Térképpont"
 
@@ -2486,17 +2684,26 @@ msgid "Maps and graphs"
 msgstr "Térképek és grafikonok"
 
 #: eea/mediacentre/browser/statistics.pt:9
-msgid "Media Centre is a virtual repository of multimedia files. It can be videos, interviews, maps, animations, images etc. The repository right now contains:"
-msgstr "Media Centre egy virtuális adattár a multimédiás fájlokat. Lehet videók, interjúk, térképek, animációk, képek stb Az adattár most a következőket tartalmazza:"
+msgid ""
+"Media Centre is a virtual repository of multimedia files. It can be videos, "
+"interviews, maps, animations, images etc. The repository right now contains:"
+msgstr ""
+"Media Centre egy virtuális adattár a multimédiás fájlokat. Lehet videók, "
+"interjúk, térképek, animációk, képek stb Az adattár most a következőket "
+"tartalmazza:"
 
 #: eea/mediacentre/browser/statistics.pt:22
-msgid "Media Centre relies on plugins. Each plugin handles a set of media types and knows how to retrieve media files/data from the repository it handles. When Media Centre is asked for all videos that are available it will forward the question to all registered plugins and will then merge the results."
-msgstr "Media Centre támaszkodik plugins. Minden bővítmény kezeli egy sor médiatípusok és tudja, hogyan kell letölteni a média fájlok / adatok az adattárban kezeli. Amikor a Media Centre kérik az összes videót, hogy rendelkezésre állnak majd továbbítja a kérdést, hogy minden regisztrált bővítmények és egyesíti majd az eredményeket."
-
-#: eea/mediacentre/browser/video-listed-single.pt:31
-#: eea/mediacentre/browser/video.pt:57
-msgid "Media Type:"
-msgstr "Média típusa:"
+msgid ""
+"Media Centre relies on plugins. Each plugin handles a set of media types and "
+"knows how to retrieve media files/data from the repository it handles. When "
+"Media Centre is asked for all videos that are available it will forward the "
+"question to all registered plugins and will then merge the results."
+msgstr ""
+"Media Centre támaszkodik plugins. Minden bővítmény kezeli egy sor "
+"médiatípusok és tudja, hogyan kell letölteni a média fájlok / adatok az "
+"adattárban kezeli. Amikor a Media Centre kérik az összes videót, hogy "
+"rendelkezésre állnak majd továbbítja a kérdést, hogy minden regisztrált "
+"bővítmények és egyesíti majd az eredményeket."
 
 #: eea/mediacentre/profiles/default/actions.xml
 msgid "Media type"
@@ -2609,8 +2816,8 @@ msgstr "További hálózatok"
 msgid "More subscriptions are available at ${link}"
 msgstr "Több előfizetések állnak rendelkezésre ${link}"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:65
-#: eea/mediacentre/browser/video_popup_view.pt:80
+#: eea/mediacentre/browser/multimedia_popup_view.pt:66
+#: eea/mediacentre/browser/video_popup_view.pt:81
 msgid "More videos"
 msgstr "Még több videó"
 
@@ -2642,17 +2849,13 @@ msgstr "Fel"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:9
 #: eea/mediacentre/Multimedia/multimedia.pt:7
-#: eea/mediacentre/Multimedia/multimedia2.pt:7
+#: eea/themecentre/skins/themecentre_templates/media_type_common.pt:39
 msgid "Multimedia"
 msgstr "Multimédia"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:19
 msgid "Multimedia highlights"
 msgstr "Élmény"
-
-#: eea/mediacentre/Multimedia/multimedia2.pt:134
-msgid "My playlist"
-msgstr "Saját lejátszási lista"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:56
 msgid "NOT CHECKED"
@@ -2704,8 +2907,14 @@ msgid "Networks"
 msgstr "Hálózatok"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:37
-msgid "New icons or updates can be done via the mimetypes_registry in the Plone CMS or through the EEADesign2006 product. Contact the EEA web development team in this case."
-msgstr "Új ikonok és frissítések keresztül történik mimetypes_registry a Plone CMS vagy az EEADesign2006 terméket. Kapcsolat az EGT webfejlesztőkhöz ebben az esetben."
+msgid ""
+"New icons or updates can be done via the mimetypes_registry in the Plone CMS "
+"or through the EEADesign2006 product. Contact the EEA web development team "
+"in this case."
+msgstr ""
+"Új ikonok és frissítések keresztül történik mimetypes_registry a Plone CMS "
+"vagy az EEADesign2006 terméket. Kapcsolat az EGT webfejlesztőkhöz ebben az "
+"esetben."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:190
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:72
@@ -2723,7 +2932,7 @@ msgstr "Az újonnan létrehozott elem a munka"
 msgid "News"
 msgstr "Hírek"
 
-#: eea/mediacentre/browser/video_popup_view.pt:35
+#: eea/mediacentre/browser/video_popup_view.pt:36
 msgid "News and articles"
 msgstr "Hírek és cikkek"
 
@@ -2764,8 +2973,12 @@ msgid "No media files of this kind yet."
 msgstr "Nem médiafájlok ilyen jellegű még."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:159
-msgid "No methodology for gap filling has been specified. Probably this info has been added together with indicator calculation."
-msgstr "Nincs módszertan réskitöltés lett megadva. Valószínűleg ezt az infót adtak együtt indikátor számítás."
+msgid ""
+"No methodology for gap filling has been specified. Probably this info has "
+"been added together with indicator calculation."
+msgstr ""
+"Nincs módszertan réskitöltés lett megadva. Valószínűleg ezt az infót adtak "
+"együtt indikátor számítás."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:153
 msgid "No methodology for indicator calculation has been specified"
@@ -2848,9 +3061,13 @@ msgstr "Norvégia"
 msgid "Norwegian"
 msgstr "Norvég"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:25
-msgid "Note that for authenticated users the info below include the unpublished content."
-msgstr "Ne feledje, hogy a hitelesített felhasználók az info alatt is publikált a tartalmat."
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:27
+msgid ""
+"Note that for authenticated users the info below include the unpublished "
+"content."
+msgstr ""
+"Ne feledje, hogy a hitelesített felhasználók az info alatt is publikált a "
+"tartalmat."
 
 #: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:16
 msgid "Note: new version is available!"
@@ -2890,11 +3107,19 @@ msgid "Older versions"
 msgstr "Régebbi verziók"
 
 #: EEAContentTypes/browser/reorder.pt:69
-msgid "On the left side you have a list resources. Drag from the handle icon to reorder. After reordering, you need to use the Save button at the bottom of the list. On the right side you can see how the resources have been composed. Notice: this is not a preview. Hitting Save will generate new merged resources."
-msgstr "A bal oldalon van egy lista erőforrások. Húzzuk a fogantyú ikonra átrendezni. Átrendezési után, akkor kell használni a Mentés gombra a lista alján. A jobb oldalon látható, hogy a forrásokat áll. Megjegyzés: ez nem egy előnézet. Ütő mentése generál új egyesített erőforrásokat."
+msgid ""
+"On the left side you have a list resources. Drag from the handle icon to "
+"reorder. After reordering, you need to use the Save button at the bottom of "
+"the list. On the right side you can see how the resources have been "
+"composed. Notice: this is not a preview. Hitting Save will generate new "
+"merged resources."
+msgstr ""
+"A bal oldalon van egy lista erőforrások. Húzzuk a fogantyú ikonra "
+"átrendezni. Átrendezési után, akkor kell használni a Mentés gombra a lista "
+"alján. A jobb oldalon látható, hogy a forrásokat áll. Megjegyzés: ez nem egy "
+"előnézet. Ütő mentése generál új egyesített erőforrásokat."
 
-#: eea/mediacentre/Multimedia/multimedia.pt:58
-#: eea/mediacentre/Multimedia/multimedia2.pt:56
+#: eea/mediacentre/Multimedia/multimedia.pt:66
 msgid "One degree matters"
 msgstr "Egy fok ügyek"
 
@@ -2925,8 +3150,11 @@ msgstr "Szervezet honlapja"
 msgid "Organisations control panel"
 msgstr "Szervezetek kezelőpanel"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:119
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:32
+msgid "Organisations not in use"
+msgstr "Használaton kívüli szervezetek"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:119
 msgid "Organisations with no reference"
 msgstr "Szervezetek említése nélkül"
 
@@ -2965,7 +3193,6 @@ msgid "Other resources"
 msgstr "Egyéb források"
 
 #: eea/mediacentre/Multimedia/multimedia.pt:52
-#: eea/mediacentre/Multimedia/multimedia2.pt:61
 msgid "Our arctic challenge"
 msgstr "A Arctic Challenge"
 
@@ -2982,7 +3209,7 @@ msgstr "Felülbírálása érdekében szöveg saját szövegre"
 msgid "Owner"
 msgstr "Tulajdonos"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:31
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:33
 msgid "Owner of:"
 msgstr "Tulajdonosa:"
 
@@ -3049,10 +3276,6 @@ msgstr "Permalinks"
 msgid "Permissions Overview for Indicators Database"
 msgstr "Engedélyek áttekintése szolgáló mutatók Adatbázis"
 
-#: eea.design/eea/design/browser/templates/personal_bar.pt:4
-msgid "Personal tools"
-msgstr "Személyes eszközök"
-
 #: eea.design/eea/design/browser/templates/colophon.pt:20
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:154
 msgid "Phone:"
@@ -3062,14 +3285,15 @@ msgstr "Telefon"
 msgid "Play in popup window"
 msgstr "Játssz a felugró ablakban"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:157
+#: eea/mediacentre/Multimedia/multimedia.pt:183
 msgid "Playlists"
 msgstr "Listák"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:84
-#: eea/mediacentre/Multimedia/multimedia2.pt:87
+#: eea/mediacentre/Multimedia/multimedia.pt:107
 msgid "Please enable javascript or upgrade to ${flash} to watch the video."
-msgstr "Kérjük, engedélyezze a JavaScript vagy frissíteni a flash-} {$ nézni a videót."
+msgstr ""
+"Kérjük, engedélyezze a JavaScript vagy frissíteni a flash-} {$ nézni a "
+"videót."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:24
 msgid "Please fill in"
@@ -3084,7 +3308,7 @@ msgid "Please provide the following contact information"
 msgstr "Kérjük, adja meg az alábbi kapcsolati információk"
 
 #: eea.indicators/eea/indicators/browser/specification.py:259
-#: eea.versions/eea/versions/versions.py:494
+#: eea.versions/eea/versions/versions.py:497
 msgid "Please specify a valid Version ID."
 msgstr "Kérem adjon meg egy érvényes azonosítót verzió."
 
@@ -3120,6 +3344,7 @@ msgid "Portal messages"
 msgstr "Portál üzenetek"
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:31
+#: eea.relations/eea/relations/browser/template/badrelations.pt:29
 msgid "Portal type"
 msgstr "Szemafor"
 
@@ -3192,7 +3417,7 @@ msgstr "Elsődleges témája:"
 msgid "Privacy policy"
 msgstr "Titoktartási nyilatkozat"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:56
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:62
 msgid "Processor of:"
 msgstr "Processor:"
 
@@ -3273,8 +3498,8 @@ msgstr "Megjelent (felül, garantált minőségű)"
 msgid "Published by"
 msgstr "Kiadta:"
 
-#: eea/mediacentre/browser/video-listed-single.pt:37
-#: eea/mediacentre/browser/video.pt:63
+#: eea/mediacentre/browser/video-listed-single.pt:35
+#: eea/mediacentre/browser/video.pt:61
 #: eea/themecentre/skins/themecentre_templates/listall.pt:29
 msgid "Published:"
 msgstr "Publikálva / Megjelentetve"
@@ -3284,19 +3509,18 @@ msgid "Publishers"
 msgstr "Kiadók"
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:59
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:112
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:117
 #: eea.sparql/eea/sparql/browser/view.pt:100
 msgid "Query will not return a result."
 msgstr "Lekérdezés nem ad vissza eredményt."
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:56
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:109
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:114
 #: eea.sparql/eea/sparql/browser/view.pt:97
 msgid "Query will return a result."
 msgstr "Query ad vissza eredményt."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:22
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:17
 msgid "Quick overview"
 msgstr "Gyors áttekintés"
 
@@ -3408,7 +3632,7 @@ msgstr "Kapcsolódó témák"
 msgid "Related topics"
 msgstr "Kapcsolódó témák"
 
-#: eea/mediacentre/browser/video_popup_view.pt:34
+#: eea/mediacentre/browser/video_popup_view.pt:35
 msgid "Related videos"
 msgstr "Kapcsolódó videók"
 
@@ -3460,9 +3684,13 @@ msgstr "Források átrendezése"
 msgid "Replace with new file:"
 msgstr "Cserélje új fájlba:"
 
-#: eea.design/eea/design/browser/templates/comments.pt:134
+#: eea.design/eea/design/browser/templates/comments.pt:135
 msgid "Reply"
 msgstr "Válaszol / Válasz"
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:58
+msgid "Report"
+msgstr "Jelentés"
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:60
 msgid "Report number"
@@ -3490,8 +3718,16 @@ msgid "Reporting obligations (ROD)"
 msgstr "Beszámolási kötelezettségek (ROD)"
 
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:18
-msgid "Reporting obligations are requirements to provide information agreed between countries and international bodies such as the EEA or international conventions. Reporting obligations provide the basis for most environmental information flows."
-msgstr "Az adatszolgáltatási kötelezettség tájékoztatási követelmények közötti megállapodás országok és nemzetközi szervezetek, mint például az EGT vagy a nemzetközi egyezményeket. Jelentési kötelezettség az alapot a legtöbb környezeti információáramlást."
+msgid ""
+"Reporting obligations are requirements to provide information agreed between "
+"countries and international bodies such as the EEA or international "
+"conventions. Reporting obligations provide the basis for most environmental "
+"information flows."
+msgstr ""
+"Az adatszolgáltatási kötelezettség tájékoztatási követelmények közötti "
+"megállapodás országok és nemzetközi szervezetek, mint például az EGT vagy a "
+"nemzetközi egyezményeket. Jelentési kötelezettség az alapot a legtöbb "
+"környezeti információáramlást."
 
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:22
 msgid "Reporting obligations related to data stored at EEA"
@@ -3598,7 +3834,7 @@ msgstr "SOER üzenet"
 msgid "SOER viral video message"
 msgstr "SOER vírusos videóüzenet"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:65
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:70
 #: eea.sparql/eea/sparql/browser/view.pt:66
 msgid "SPARQL Endpoint:"
 msgstr "SPARQL Endpoint:"
@@ -3607,13 +3843,12 @@ msgstr "SPARQL Endpoint:"
 msgid "SPARQL Query:"
 msgstr "SPARQL Query:"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:70
-#: eea/mediacentre/Multimedia/multimedia2.pt:73
+#: eea/mediacentre/Multimedia/multimedia.pt:93
 msgid "Sample Text"
 msgstr "Minta szöveg"
 
 #: EEAContentTypes/browser/reorder.pt:76
-#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:135
+#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:145
 #: eea.app.visualization/eea/app/visualization/facets/edit.py:65
 msgid "Save"
 msgstr "Mentés"
@@ -3671,6 +3906,10 @@ msgstr "Keresési adatok, térképek, mutatók"
 msgid "Search for Publication by title"
 msgstr "Keresés Közzétételét cím"
 
+#: eea.relations/eea/relations/browser/template/badrelations.pt:12
+msgid "Search for bad relations"
+msgstr "Rossz kapcsolódások keresése"
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:345
 msgid "Search on data set and application"
 msgstr "Keresés az adatsor és alkalmazás"
@@ -3688,8 +3927,7 @@ msgstr "Keresés ebben a lista"
 msgid "Search this site"
 msgstr "Keresés az oldalon"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:99
-#: eea/mediacentre/Multimedia/multimedia2.pt:102
+#: eea/mediacentre/Multimedia/multimedia.pt:122
 msgid "Search videos, animations, image galleries"
 msgstr "Keresés a videók, animációk, képgalériák"
 
@@ -3711,7 +3949,7 @@ msgstr "Második fül hosszabb címmel"
 msgid "Sections"
 msgstr "Szekciók"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:50
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:49
 msgid "See all"
 msgstr "Az összes"
 
@@ -3742,7 +3980,9 @@ msgstr "Minden elem kijelölése"
 
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:26
 msgid "Select an item bellow to inherit faceted navigation configuration"
-msgstr "Válasszon ki egy elemet ordít, hogy örökölje sokoldalú navigációs konfigurációt"
+msgstr ""
+"Válasszon ki egy elemet ordít, hogy örökölje sokoldalú navigációs "
+"konfigurációt"
 
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:40
 msgid "Select figures to be converted."
@@ -3752,15 +3992,23 @@ msgstr "Válassza számokat kell konvertálni."
 msgid "Select from existing tags."
 msgstr "Válassza ki a meglévő címkéket."
 
+#: eea.relations/eea/relations/browser/template/badrelations.pt:43
+msgid "Select interface"
+msgstr "Interfész kiválasztása"
+
 #: eea.dataservice/eea/dataservice/templates/select_template.pt:10
 msgid "Select one of the below templates to apply its metadata."
 msgstr "Válasszon egyet az alábbi sablonokat is alkalmazza a metaadatokat."
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:30
+msgid "Select portal type"
+msgstr "A portál fajtájának kiválasztása"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/temporal_widget.pt:86
 msgid "Selected value:"
 msgstr "Kiválasztott érték:"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:65
 msgid "Semantic Data Service"
 msgstr "Szemantikus Data Service"
 
@@ -3817,8 +4065,8 @@ msgstr "Térkép előnézet"
 msgid "Show table definition"
 msgstr "Tábla definíció"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:46
-#: eea/mediacentre/browser/video_popup_view.pt:65
+#: eea/mediacentre/browser/multimedia_popup_view.pt:47
+#: eea/mediacentre/browser/video_popup_view.pt:66
 msgid "Show the publishdate only (effective date)"
 msgstr "Mutasd csak publishdate (hatály)"
 
@@ -3827,8 +4075,11 @@ msgid "Sign up now!"
 msgstr "Iratkozzon fel most!"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:46
-msgid "Since cookie authentication is disabled, cookie-based login is not available."
-msgstr "Mivel a cookie-alapú hitelesítés le van tiltva, a cookie-alapú login nem áll rendelkezésre."
+msgid ""
+"Since cookie authentication is disabled, cookie-based login is not available."
+msgstr ""
+"Mivel a cookie-alapú hitelesítés le van tiltva, a cookie-alapú login nem áll "
+"rendelkezésre."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:53
 msgid "Site Administration"
@@ -3841,7 +4092,7 @@ msgstr "Oldaltérkép"
 
 #: eea.design/eea/design/browser/templates/skip_links.pt:4
 msgid "Skip to content."
-msgstr "Ugrás: {0}Tartalom{/0},"
+msgstr "Ugrás: Tartalom,"
 
 #: eea.design/eea/design/browser/templates/skip_links.pt:8
 msgid "Skip to navigation"
@@ -3993,19 +4244,16 @@ msgstr "Iratkozzon fel RSS Feed"
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:127
 #: eea.design/eea/design/skins/eeadesign_public/search.pt:96
 msgid "Subscribe to an always-updated feed of these search terms"
-msgstr "Feliratkozás egy mindig naprakész takarmány ezeket a keresési kifejezések"
+msgstr ""
+"Feliratkozás egy mindig naprakész takarmány ezeket a keresési kifejezések"
 
 #: eea/themecentre/skins/themecentre_templates/themecentre_view.pt:38
 msgid "Subtopics"
 msgstr "Altémák"
 
-#: eea.googlecharts/eea/googlecharts/views/chart.py:307
+#: eea.googlecharts/eea/googlecharts/views/chart.py:342
 msgid "Success"
 msgstr "Sikeres művelet"
-
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:18
-msgid "Summary view"
-msgstr "Összefoglaló nézet"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:60
 msgid "Sustainable Consumption and Production (SCP)"
@@ -4034,11 +4282,11 @@ msgstr "Váltás teljes nézet jelző"
 msgid "Switzerland"
 msgstr "Svájc"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:69
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:74
 msgid "Synchronisation info"
 msgstr "Szinkronizálás info"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:99
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:104
 msgid "Synchronize Queries with Bookmarks"
 msgstr "Szinkronizálás lekérdezések könyvjelzők kezelése"
 
@@ -4049,10 +4297,6 @@ msgstr "Szintézis"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:31
 msgid "Table definition"
 msgstr "Táblázat definíciója"
-
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:27
-msgid "Tabs view"
-msgstr "Tabs nézet"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:401
 msgid "Tags:"
@@ -4076,8 +4320,12 @@ msgid "Test links"
 msgstr "Teszt linkek"
 
 #: EEAContentTypes/skins/EEAContentTypes/event_submitted_confirmation.pt:15
-msgid "Thank you for your event. The EEA web team will try to publish it as soon as possible."
-msgstr "Köszönjük esemény. Az EEA internetes csapat megpróbálja közzé azt a lehető leghamarabb."
+msgid ""
+"Thank you for your event. The EEA web team will try to publish it as soon as "
+"possible."
+msgstr ""
+"Köszönjük esemény. Az EEA internetes csapat megpróbálja közzé azt a lehető "
+"leghamarabb."
 
 #: EEAContentTypes/skins/EEAContentTypes/cftrequest_confirmation.pt:9
 msgid "Thank you for your request"
@@ -4088,8 +4336,10 @@ msgid "Thank you."
 msgstr "Köszönöm!"
 
 #: eea.design/eea/design/browser/templates/colophon.pt:28
-msgid "The European Environment Agency (EEA) is an agency of the European Union."
-msgstr "Az Európai Környezetvédelmi Ügynökség (EEA) egy ügynökség, az Európai Unió."
+msgid ""
+"The European Environment Agency (EEA) is an agency of the European Union."
+msgstr ""
+"Az Európai Környezetvédelmi Ügynökség (EEA) egy ügynökség, az Európai Unió."
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:47
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:10
@@ -4106,44 +4356,93 @@ msgid "The codes will be changed from ${code} to ${new-code}."
 msgstr "A kódokat kell változtatni a ${code} az ${new-code}."
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:32
-msgid "The content you were viewing does not exist in the language you just selected. The site language has been switched to ${language} and you can keep browsing the site in this language."
-msgstr "A tartalom megtekintéséhez voltál nem létezik az imént kiválasztott nyelven. Az oldal nyelve van kapcsolva a ${language}, és tudja tartani a böngészők ezen a nyelven."
+msgid ""
+"The content you were viewing does not exist in the language you just "
+"selected. The site language has been switched to ${language} and you can "
+"keep browsing the site in this language."
+msgstr ""
+"A tartalom megtekintéséhez voltál nem létezik az imént kiválasztott nyelven. "
+"Az oldal nyelve van kapcsolva a ${language}, és tudja tartani a böngészők "
+"ezen a nyelven."
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:306
-msgid "The country assessments are the sole responsibility of the EEA member and cooperating countries supported by the EEA through guidance, translation and editing."
-msgstr "Az ország értékelések kizárólagos felelőssége az EGT-tag és az együttműködő országok által támogatott az EGT között a tanácsadás, fordítás és szerkesztés."
+msgid ""
+"The country assessments are the sole responsibility of the EEA member and "
+"cooperating countries supported by the EEA through guidance, translation and "
+"editing."
+msgstr ""
+"Az ország értékelések kizárólagos felelőssége az EGT-tag és az együttműködő "
+"országok által támogatott az EGT között a tanácsadás, fordítás és "
+"szerkesztés."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:154
 msgid "The error has been logged as entry number ${entryid}."
 msgstr "A hiba bekerült a bejegyzés száma ${entryid}."
 
 #: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:22
-msgid "The folder you are trying to access is still in draft and therefore its content cannot be listed. If you are a content manager of this site, you need to login and publish this folder."
-msgstr "A mappát próbál hozzáférni még a tervezetet, és így annak tartalmát nem lehet a listán. Ha Ön Content Manager ezen az oldalon, be kell jelentkeznie, és közzé ezt a mappát."
+msgid ""
+"The folder you are trying to access is still in draft and therefore its "
+"content cannot be listed. If you are a content manager of this site, you "
+"need to login and publish this folder."
+msgstr ""
+"A mappát próbál hozzáférni még a tervezetet, és így annak tartalmát nem "
+"lehet a listán. Ha Ön Content Manager ezen az oldalon, be kell jelentkeznie, "
+"és közzé ezt a mappát."
 
 #: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:18
-msgid "The following Indicator Specifications belong to the same versioning group but have a different main code. There are two ways of fixing this: either assign all the codes of this current specification, or assign just the maincode of this specification."
-msgstr "A következő jelző adatok ugyanahhoz a csoporthoz verziók, de van egy másik fő kódot. Kétféle módon történő rögzítése e: vagy kiosztja az összes kód ennek aktuális előírásoknak, vagy csak a hozzá maincode jelen specifikáció."
+msgid ""
+"The following Indicator Specifications belong to the same versioning group "
+"but have a different main code. There are two ways of fixing this: either "
+"assign all the codes of this current specification, or assign just the "
+"maincode of this specification."
+msgstr ""
+"A következő jelző adatok ugyanahhoz a csoporthoz verziók, de van egy másik "
+"fő kódot. Kétféle módon történő rögzítése e: vagy kiosztja az összes kód "
+"ennek aktuális előírásoknak, vagy csak a hozzá maincode jelen specifikáció."
 
 #: eea.sparql/eea/sparql/browser/view.pt:59
-msgid "The following info can be used by a system developer / database administrator in order to retrieve this dataset programmatically over the web using a SPARQL client."
-msgstr "A következő információk lehet használni egy rendszer fejlesztője / adatbázis-kezelőt, hogy tölteni ezt az adatkészletet programból a weben keresztül egy SPARQL kliens."
+msgid ""
+"The following info can be used by a system developer / database "
+"administrator in order to retrieve this dataset programmatically over the "
+"web using a SPARQL client."
+msgstr ""
+"A következő információk lehet használni egy rendszer fejlesztője / adatbázis-"
+"kezelőt, hogy tölteni ezt az adatkészletet programból a weben keresztül egy "
+"SPARQL kliens."
 
 #: eea.indicators/eea/indicators/skins/indicators_templates/policy_doc_view.pt:9
 msgid "The link address is:"
 msgstr "A link címe:"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:228
-msgid "The name given to the resource. Typically, a title will be a name by which the resource is formally known"
-msgstr "A név az adott erőforrást. Jellemzően, a cím lesz a név, amellyel a forrás hivatalosan ismert"
+msgid ""
+"The name given to the resource. Typically, a title will be a name by which "
+"the resource is formally known"
+msgstr ""
+"A név az adott erőforrást. Jellemzően, a cím lesz a név, amellyel a forrás "
+"hivatalosan ismert"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:232
-msgid "The nature or genre of the content of the resource. Type includes terms describing general categories, functions, genres, or aggregation levels for content"
-msgstr "A műfaj jellege vagy a tartalom a forrás. Típus olyan kifejezéseket tartalmaz, amely leírja az általános kategóriák, funkciók, műfajok, vagy aggregációs szintek tartalmi"
+msgid ""
+"The nature or genre of the content of the resource. Type includes terms "
+"describing general categories, functions, genres, or aggregation levels for "
+"content"
+msgstr ""
+"A műfaj jellege vagy a tartalom a forrás. Típus olyan kifejezéseket "
+"tartalmaz, amely leírja az általános kategóriák, funkciók, műfajok, vagy "
+"aggregációs szintek tartalmi"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:55
-msgid "The portlet columns will now display only those portlets explicitly assigned in this context. Use the buttons on each portlet to move them up or down, delete or edit them. To add a new portlet, use the drop-down list at the top of the column."
-msgstr "A portlet oszlopok mostantól csak azokat jeleníti portletek kifejezetten kijelölt ebben az összefüggésben. Használja a gombokat az egyes portlet fel azokat fel vagy le, törölheti vagy szerkesztheti őket. Egy új portlet, használja a legördülő listából az oszlop tetejére."
+msgid ""
+"The portlet columns will now display only those portlets explicitly assigned "
+"in this context. Use the buttons on each portlet to move them up or down, "
+"delete or edit them. To add a new portlet, use the drop-down list at the top "
+"of the column."
+msgstr ""
+"A portlet oszlopok mostantól csak azokat jeleníti portletek kifejezetten "
+"kijelölt ebben az összefüggésben. Használja a gombokat az egyes portlet fel "
+"azokat fel vagy le, törölheti vagy szerkesztheti őket. Egy új portlet, "
+"használja a legördülő listából az oszlop tetejére."
 
 #: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:504
 msgid "The source file XML contains the following organisations:"
@@ -4177,8 +4476,12 @@ msgstr "Témák és adatok"
 
 #: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:124
 #: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:123
-msgid "There are currently no criteria on which to search. Please add them using the 'criteria' tab."
-msgstr "Jelenleg nincsenek kritériumok, amelyek alapján keresni. Kérjük, add hozzá a 'kritériumai' fülre."
+msgid ""
+"There are currently no criteria on which to search. Please add them using "
+"the 'criteria' tab."
+msgstr ""
+"Jelenleg nincsenek kritériumok, amelyek alapján keresni. Kérjük, add hozzá a "
+"'kritériumai' fülre."
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:120
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:143
@@ -4193,8 +4496,12 @@ msgid "There are currently no results for this search."
 msgstr "Jelenleg nincs erre a keresési eredményeket."
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:128
-msgid "There are legacy portlets defined here. Click the button to convert them to new-style portlets."
-msgstr "Vannak örökölt portlet meg itt. Kattintson a gombra átalakítani, hogy az új stílusú portlet."
+msgid ""
+"There are legacy portlets defined here. Click the button to convert them to "
+"new-style portlets."
+msgstr ""
+"Vannak örökölt portlet meg itt. Kattintson a gombra átalakítani, hogy az új "
+"stílusú portlet."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:335
 msgid "There are more icons detected, see ${link}"
@@ -4217,8 +4524,12 @@ msgid "This FAQ applies to a previous version"
 msgstr "Ez a GYIK azokra a korábbi verzió"
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:42
-msgid "This content does not exist in your current language, ${language}, but you can keep browsing the site in this language."
-msgstr "Ez a tartalom nem létezik az aktuális nyelv, nyelv} {$, de lehet böngészni a honlapon tartani ezen a nyelven."
+msgid ""
+"This content does not exist in your current language, ${language}, but you "
+"can keep browsing the site in this language."
+msgstr ""
+"Ez a tartalom nem létezik az aktuális nyelv, nyelv} {$, de lehet böngészni a "
+"honlapon tartani ezen a nyelven."
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:46
 msgid "This document is locked."
@@ -4229,11 +4540,22 @@ msgid "This figure has no data source. For further information contact"
 msgstr "Ez a szám nem adatforrás. További információ"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:14
-msgid "This file contains links that should be marked in different ways by the mark_special_link.js script. This is to test and verify that it works. Try it with <br /> ${normal} ${swedish-site} <br />"
-msgstr "Ez a fájl tartalmaz linkeket, hogy ki kell jelölni a különböző módon mark_special_link.js forgatókönyvet. Ennek célja, hogy teszteljék, és ellenőrizze, hogy működik. Próbáld ki <br /> ${normal} ${swedish-site} <br />"
+msgid ""
+"This file contains links that should be marked in different ways by the "
+"mark_special_link.js script. This is to test and verify that it works. Try "
+"it with <br /> ${normal} ${swedish-site} <br />"
+msgstr ""
+"Ez a fájl tartalmaz linkeket, hogy ki kell jelölni a különböző módon "
+"mark_special_link.js forgatókönyvet. Ennek célja, hogy teszteljék, és "
+"ellenőrizze, hogy működik. Próbáld ki <br /> ${normal} ${swedish-site} <br />"
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:16
+msgid "This form will help you find deprecated relation between portal content"
+msgstr "Ez a nyomtatvány segít az érvénytelen kapcsolódások felderítésében"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:16
-msgid "This indicator has a newer version, ${spec-title} from ${indicator-date}."
+msgid ""
+"This indicator has a newer version, ${spec-title} from ${indicator-date}."
 msgstr "Ez a mutató egy újabb változat, ${spec-title} tól ${indicator-date}."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:276
@@ -4274,7 +4596,9 @@ msgstr "Ez a tétel vonatkozik a korábbi verzió"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:251
 msgid "This item does not have any body text, click the edit tab to change it."
-msgstr "Ez a termék nem rendelkezik minden olyan intézmény, szöveget, kattintson a Szerkesztés lapon megváltoztatni."
+msgstr ""
+"Ez a termék nem rendelkezik minden olyan intézmény, szöveget, kattintson a "
+"Szerkesztés lapon megváltoztatni."
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/schemata_edit_macros.pt:38
 #: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:46
@@ -4300,20 +4624,36 @@ msgstr "Ez az oldal ad tájékoztatást a linkek a themecentre."
 #: EEAContentTypes/skins/EEAContentTypes/document_with_flash_view.pt:18
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_fixed_width_view.pt:23
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_popup_window.pt:17
-msgid "This page requires Flashplayer, please download it for free from ${flashplayer-link}"
-msgstr "Az oldal megtekintéséhez Flashplayer, kérjük, töltsd le ingyen a ${flashplayer-link}"
+msgid ""
+"This page requires Flashplayer, please download it for free from "
+"${flashplayer-link}"
+msgstr ""
+"Az oldal megtekintéséhez Flashplayer, kérjük, töltsd le ingyen a "
+"${flashplayer-link}"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:17
-msgid "This page shows common html markup, css classes and javascripts we use across the EEA website. See example code and use Firefox Firebug plugin to inspect elements code."
-msgstr "Ez az oldal megmutatja a közös HTML kódba, css osztályok és javascript használjuk az EEA honlapján. Lásd például a kódot, és használja a Firefox plugint Firebug ellenőrizni elemek kódot."
+msgid ""
+"This page shows common html markup, css classes and javascripts we use "
+"across the EEA website. See example code and use Firefox Firebug plugin to "
+"inspect elements code."
+msgstr ""
+"Ez az oldal megmutatja a közös HTML kódba, css osztályok és javascript "
+"használjuk az EEA honlapján. Lásd például a kódot, és használja a Firefox "
+"plugint Firebug ellenőrizni elemek kódot."
 
 #: eea.design/eea/design/skins/eea_design/main_template.pt:233
-msgid "This page was translated by the Translation Centre for the Bodies of the European Union (CdT)"
+msgid ""
+"This page was translated by the Translation Centre for the Bodies of the "
+"European Union (CdT)"
 msgstr "A lap fordította Fordítóközpontja Szerveinek az Európai Unió (CdT)"
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:14
-msgid "This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser."
-msgstr "Ez a honlap korlátozott funkcionalitással javascript ki. Kérjük, győződjön meg róla, engedélyezve van a JavaScript a böngészőjében."
+msgid ""
+"This website has limited functionality with javascript off. Please make sure "
+"javascript is enabled in your browser."
+msgstr ""
+"Ez a honlap korlátozott funkcionalitással javascript ki. Kérjük, győződjön "
+"meg róla, engedélyezve van a JavaScript a böngészőjében."
 
 #: eea/mediacentre/browser/video-listed-single.pt:28
 #: eea/mediacentre/browser/video.pt:54
@@ -4335,20 +4675,32 @@ msgid "Title/Description"
 msgstr "Cím / leírás"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:194
-msgid "To access this part of the site, you need to log in with your user name and password. You can use your Eionet username and password."
-msgstr "Eléréséhez ezt a részét a helyszínen, akkor be kell jelentkeznie az Ön felhasználói nevét és jelszavát. Használhatja a Eionet felhasználónevét és jelszavát."
+msgid ""
+"To access this part of the site, you need to log in with your user name and "
+"password. You can use your Eionet username and password."
+msgstr ""
+"Eléréséhez ezt a részét a helyszínen, akkor be kell jelentkeznie az Ön "
+"felhasználói nevét és jelszavát. Használhatja a Eionet felhasználónevét és "
+"jelszavát."
 
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:18
-msgid "To access your EEA notification service account please enter your email."
-msgstr "Ha hozzá szeretne férni EGT-értesítő szolgáltatást véve kérjük, adja meg email."
+msgid ""
+"To access your EEA notification service account please enter your email."
+msgstr ""
+"Ha hozzá szeretne férni EGT-értesítő szolgáltatást véve kérjük, adja meg "
+"email."
 
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:32
 msgid "To reset your password visit ${mail}."
 msgstr "A jelszó törléséhez keresse ${mail}."
 
 #: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:18
-msgid "To unsubscribe from EEA notification service please enter your email. You will receive an email in order to confirm your unsubscription."
-msgstr "A leiratkozáshoz EGT-értesítő szolgáltatást, kérjük, adja meg email. Hamarosan kapsz egy e-mailt annak érdekében, hogy erősítse meg a leiratkozás."
+msgid ""
+"To unsubscribe from EEA notification service please enter your email. You "
+"will receive an email in order to confirm your unsubscription."
+msgstr ""
+"A leiratkozáshoz EGT-értesítő szolgáltatást, kérjük, adja meg email. "
+"Hamarosan kapsz egy e-mailt annak érdekében, hogy erősítse meg a leiratkozás."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:215
 msgid "Tooltips"
@@ -4420,6 +4772,10 @@ msgstr "Transzfer"
 msgid "Transfer references"
 msgstr "Transzfer referenciák"
 
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:22
+msgid "Transfer relations"
+msgstr "kapcsolódás átvitele"
+
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:65
 msgid "Transfer to"
 msgstr "Transzfer"
@@ -4466,7 +4822,7 @@ msgstr "Típus:"
 msgid "Typology"
 msgstr "Tipológia"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:75
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:81
 msgid "URL"
 msgstr "Url"
 
@@ -4548,16 +4904,26 @@ msgid "Use of AND/OR/* is supported."
 msgstr "Használja az ÉS / VAGY / * támogatott."
 
 #: eea.alchemy/eea/alchemy/browser/zpt/tool.pt:34
-msgid "Use the form bellow to auto-discover and update documents geotags, temportal coverage and keywords"
-msgstr "Használja az űrlapot ordít, hogy felfedezzék és automatikus frissítésére dokumentumok geotag, időbeli lefedettség és kulcsszavak"
+msgid ""
+"Use the form bellow to auto-discover and update documents geotags, temportal "
+"coverage and keywords"
+msgstr ""
+"Használja az űrlapot ordít, hogy felfedezzék és automatikus frissítésére "
+"dokumentumok geotag, időbeli lefedettség és kulcsszavak"
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:17
 msgid "Use the form below to define, change or remove custom portal types."
-msgstr "Használja az alábbi űrlapot, hogy meghatározza, vagy cserélni az egyéni típusok portál."
+msgstr ""
+"Használja az alábbi űrlapot, hogy meghatározza, vagy cserélni az egyéni "
+"típusok portál."
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:12
-msgid "Use this form to submit an environmental event. We will then check if the submitted event is relevant for publishing."
-msgstr "Használja ezt az űrlapot, hogy nyújtson be egy környezeti esemény. Mi lesz akkor ellenőrizze, ha a benyújtott esemény releváns kiadói."
+msgid ""
+"Use this form to submit an environmental event. We will then check if the "
+"submitted event is relevant for publishing."
+msgstr ""
+"Használja ezt az űrlapot, hogy nyújtson be egy környezeti esemény. Mi lesz "
+"akkor ellenőrizze, ha a benyújtott esemény releváns kiadói."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:218
 msgid "Used in figure ${link}"
@@ -4578,7 +4944,7 @@ msgid "Various other issues"
 msgstr "Különféle egyéb ügyek"
 
 #: eea.indicators/eea/indicators/browser/specification.py:257
-#: eea.versions/eea/versions/versions.py:492
+#: eea.versions/eea/versions/versions.py:495
 msgid "Version ID changed."
 msgstr "Verzió ID megváltozott."
 
@@ -4591,7 +4957,7 @@ msgstr "Verzió azonosító: ${number}"
 msgid "Version id: ${version-number}"
 msgstr "Verzió azonosító: ${version-number}"
 
-#: eea.versions/eea/versions/versions.py:520
+#: eea.versions/eea/versions/versions.py:523
 msgid "Version revoked."
 msgstr "Verzió visszavonták."
 
@@ -4616,8 +4982,7 @@ msgstr "Videó lemezborítók"
 msgid "Video pop-ups"
 msgstr "Videó pop-up"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:147
-#: eea/mediacentre/Multimedia/multimedia2.pt:125
+#: eea/mediacentre/Multimedia/multimedia.pt:173
 msgid "Videos"
 msgstr "Videók"
 
@@ -4629,6 +4994,10 @@ msgstr "Megtekintése és on-line"
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:79
 msgid "View entire FAQ expanded"
 msgstr "Tekintse egész kibővített GYIK"
+
+#: eea.relations/eea/relations/browser/template/tool.pt:21
+msgid "View full graph"
+msgstr "A teljes ábra megtekintése"
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:61
 msgid "View larger map on Eye on Earth"
@@ -4679,6 +5048,10 @@ msgstr "Figyelmeztetés "
 msgid "Warning! Core meltdown at EEA HQ, code super-duper-red"
 msgstr "Figyelem! Core összeomlást az EGT HQ, szuper-kód duper-piros"
 
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:23
+msgid "Warning:"
+msgstr "Figyelmeztetés:"
+
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:143
 msgid "Waste"
 msgstr "Szennyvíz"
@@ -4697,20 +5070,33 @@ msgid "Water Information System for Europe"
 msgstr "Vízügyi információs rendszer Európában"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:45
-msgid "We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for."
-msgstr "Elnézést kérünk a kellemetlenségért, de az oldal, amit meg szeretne nézni, nem ezen a címen. Használhatja az alábbi linkek segítségével megtalálja, amit keres."
+msgid ""
+"We apologize for the inconvenience, but the page you were trying to access "
+"is not at this address. You can use the links below to help you find what "
+"you are looking for."
+msgstr ""
+"Elnézést kérünk a kellemetlenségért, de az oldal, amit meg szeretne nézni, "
+"nem ezen a címen. Használhatja az alábbi linkek segítségével megtalálja, "
+"amit keres."
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:13
-msgid "We do not publish events that are purely commercial and with no references to the environment."
-msgstr "Nem közzé eseményeket, mint a tisztán kereskedelmi és nem utal a környezetre."
+msgid ""
+"We do not publish events that are purely commercial and with no references "
+"to the environment."
+msgstr ""
+"Nem közzé eseményeket, mint a tisztán kereskedelmi és nem utal a környezetre."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:144
 msgid "We&#8217;re sorry, but there seems to be an error&hellip;"
 msgstr "Sajnáljuk, de úgy tűnik, hogy hiba ..."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:14
-msgid "Welcome to EEA Web design elements, your browser should have autoscrolled down to me"
-msgstr "Üdvözöljük az EGT Web design elemek, a böngésző autoscrolled kellett volna le hozzám"
+msgid ""
+"Welcome to EEA Web design elements, your browser should have autoscrolled "
+"down to me"
+msgstr ""
+"Üdvözöljük az EGT Web design elemek, a böngésző autoscrolled kellett volna "
+"le hozzám"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:65
 msgid "Welcome! You are now logged in."
@@ -4731,16 +5117,13 @@ msgstr "Újdonságok"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:38
 msgid "When"
-msgstr "Amikor a forrást csatlakoztatta az egyik kiválasztott JL video bemenethez, a jel elküldésre kerül."
+msgstr ""
+"Amikor a forrást csatlakoztatta az egyik kiválasztott JL video bemenethez, a "
+"jel elküldésre kerül."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:107
 msgid "Where"
 msgstr "Ahol"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:63
-#: eea/mediacentre/Multimedia/multimedia2.pt:66
-msgid "Which steps will bring us forward on the road to a Green economy?"
-msgstr "Milyen lépéseket fog minket előre az úton, hogy a zöld gazdaság?"
 
 #: eea/themecentre/browser/templates/themes_view.pt:68
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:65
@@ -4768,7 +5151,8 @@ msgid "Work specified here requires to be completed within 1 year from now."
 msgstr "Munka az itt megadott, be kell fejezni 1 év múlva."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:275
-msgid "Work specified here will require more than 1 year (from now) to be completed."
+msgid ""
+"Work specified here will require more than 1 year (from now) to be completed."
 msgstr "Munka itt megadott több szükséges, mint 1 év (most) kell kitölteni."
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
@@ -4779,8 +5163,8 @@ msgstr "Munka lista"
 msgid "World"
 msgstr "világo!"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:130
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:133
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:131
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:138
 #: eea.sparql/eea/sparql/browser/view.pt:30
 msgid "XML with Schema"
 msgstr "XML séma"
@@ -4797,16 +5181,24 @@ msgid "Year"
 msgstr "Év"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:48
-msgid "You are editing the default view of a container. If you wanted to edit the container itself, ${go_here}."
-msgstr "Szerkesztésekor az alapértelmezett nézet a konténer. Ha meg akarod szerkeszteni a tárolóedény maga, ${go_here}."
+msgid ""
+"You are editing the default view of a container. If you wanted to edit the "
+"container itself, ${go_here}."
+msgstr ""
+"Szerkesztésekor az alapértelmezett nézet a konténer. Ha meg akarod "
+"szerkeszteni a tárolóedény maga, ${go_here}."
 
 #: EEAContentTypes/browser/cache.py:72
 msgid "You are not allowed to invalidate cache in this context"
 msgstr "Ön nem érvényteleníti cache ebben az összefüggésben"
 
 #: eea.reports/eea/reports/browser/report.pt:240
-msgid "You can also obtain a copy from ${nearest-sale-agent} by providing the ordering info."
-msgstr "Azt is kaphatnak másolatot a ${nearest-sale-agent} azzal, hogy a rendelési információ."
+msgid ""
+"You can also obtain a copy from ${nearest-sale-agent} by providing the "
+"ordering info."
+msgstr ""
+"Azt is kaphatnak másolatot a ${nearest-sale-agent} azzal, hogy a rendelési "
+"információ."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:188
 msgid "You can have arbitrary HTML in the pop-ups:"
@@ -4817,16 +5209,27 @@ msgid "You might have been looking for&hellip;"
 msgstr "Lehet, hogy már keresett ..."
 
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_noheader_view.pt:22
-msgid "You need Flash player to be able to see and use the ozone map viewer, please download it for free from ${flashpalyer-link}. If you don't have administrative rights on your computer, please contact your helpdesk."
-msgstr "Be kell, Flash player, hogy képes legyen látni és használni a térképet néző ózon, kérjük, töltsd le ingyen a ${flashpalyer-link}. Ha nem rendelkezik rendszergazdai jogokkal a számítógépen, kérjük, forduljon a helpdesk."
+msgid ""
+"You need Flash player to be able to see and use the ozone map viewer, please "
+"download it for free from ${flashpalyer-link}. If you don't have "
+"administrative rights on your computer, please contact your helpdesk."
+msgstr ""
+"Be kell, Flash player, hogy képes legyen látni és használni a térképet néző "
+"ózon, kérjük, töltsd le ingyen a ${flashpalyer-link}. Ha nem rendelkezik "
+"rendszergazdai jogokkal a számítógépen, kérjük, forduljon a helpdesk."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:30
-msgid "You need to enter an image scale after the image src otherwise the gallery will load the full-resolution images which could dramatically slow the page"
-msgstr "Meg kell adnia a kép mérete után a kép src különben a galéria betölti a teljes felbontású képeket, amelyek drámaian lassítja az oldalt"
+msgid ""
+"You need to enter an image scale after the image src otherwise the gallery "
+"will load the full-resolution images which could dramatically slow the page"
+msgstr ""
+"Meg kell adnia a kép mérete után a kép src különben a galéria betölti a "
+"teljes felbontású képeket, amelyek drámaian lassítja az oldalt"
 
 #: eea.daviz/eea/daviz/content/validators.py:25
 msgid "You should provide data in a valid CSV format(.csv, .tsv, etc)"
-msgstr "Meg kell adnia egy érvényes adatokat CSV formátumban (. Csv,. Tsv, stb.)"
+msgstr ""
+"Meg kell adnia egy érvényes adatokat CSV formátumban (. Csv,. Tsv, stb.)"
 
 #: EEAContentTypes/skins/EEAContentTypes/cftrequest_confirmation.pt:11
 msgid "You should shortly receive an email with further information."
@@ -4849,8 +5252,12 @@ msgid "Your message"
 msgstr "Az Ön üzenete"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:299
-msgid "Your screensaver has been upgraded, please consider to restart your computer ... Have a good day"
-msgstr "Ön képernyővédő lett frissítve, kérjük, fontolja meg, hogy indítsa újra a számítógépet ... Van egy jó nap"
+msgid ""
+"Your screensaver has been upgraded, please consider to restart your "
+"computer ... Have a good day"
+msgstr ""
+"Ön képernyővédő lett frissítve, kérjük, fontolja meg, hogy indítsa újra a "
+"számítógépet ... Van egy jó nap"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:329
 msgid "Zip archive"
@@ -4872,7 +5279,7 @@ msgstr "adja hozzá a felhasználók"
 msgid "and"
 msgstr "És "
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:151
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
 #: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:149
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:50
 msgid "archive"
@@ -4928,7 +5335,11 @@ msgstr "konvertáló"
 msgid "copy-paste-description"
 msgstr "copy-paste-leírás"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:36
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:30
+msgid "data examples"
+msgstr "adat (példa)"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:38
 msgid "datasets"
 msgstr "adatsorok"
 
@@ -4936,19 +5347,24 @@ msgstr "adatsorok"
 msgid "delete portlet"
 msgstr "delete portlet"
 
+#. Default: "Jacqueline McGlade, Executive Director of the European Environment Agency (EEA), and three of her colleagues have chosen to be part of an extraordinary journey in East Greenland. They travel from their offices in Copenhagen to participate in a multi sport race, where they challenge themselves through 250 kilometers of the Arctic wilderness. On their way they encounter the effects of climate change and its impact on the Arctic environment. The Inuit are among the first people to experience the effects of climate change. They are in the middle of an environmental challenge that will change many parts of their culture. What is happening to the Inuit today will happen to the rest of the world tomorrow. We will all need to adapt to climate change."
+#: eea/mediacentre/Multimedia/multimedia.pt:56
+msgid "director-description"
+msgstr "igazgatói leírás"
+
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_topdatasets.pt:30
 msgid "downloads"
 msgstr "letöltések"
 
 #: eea.design/eea/design/browser/templates/colophon.pt:61
 msgid "engineered by"
-msgstr "hangmérnök"
+msgstr "mérnök"
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:40
 msgid "expired"
 msgstr "lejárt"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:46
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:48
 msgid "external data specs"
 msgstr "külső adatok specifikációk"
 
@@ -4957,7 +5373,7 @@ msgstr "külső adatok specifikációk"
 msgid "external link"
 msgstr "external link"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:41
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:43
 msgid "figures"
 msgstr "számok"
 
@@ -4981,15 +5397,19 @@ msgstr "get flashplayer"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:48
 msgid "go here"
-msgstr "megy itt"
+msgstr "menj ide"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:20
 msgid "here"
-msgstr "Nézd"
+msgstr "itt"
 
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:69
 msgid "homepage"
 msgstr "Honlap"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:34
+msgid "how to prepare data"
+msgstr "adat előkészítése"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:160
 msgid "iCal"
@@ -5020,8 +5440,10 @@ msgid "image_thumb"
 msgstr "image_thumb"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:291
-msgid "image_thumb (videos get play button and black borders applied correctly)"
-msgstr "image_thumb (videók kap play gombot és a fekete határok alkalmazzák helyesen)"
+msgid ""
+"image_thumb (videos get play button and black borders applied correctly)"
+msgstr ""
+"image_thumb (videók kap play gombot és a fekete határok alkalmazzák helyesen)"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:288
 msgid "image_tile"
@@ -5047,22 +5469,28 @@ msgstr "Ebben a mappában, és ebben a portlet látható"
 msgid "indicator"
 msgstr "indikátor"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:51
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:53
 msgid "indicator assessments"
-msgstr "értékelések jelzése"
+msgstr "indikátor értékelése"
 
 #: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:32
 msgid "indicator manager"
-msgstr "jelző menedzser"
+msgstr "indikátor kezelő"
 
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:58
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:158
 msgid "indicator specification"
-msgstr "indikátor meghatározása"
+msgstr "indikátor specifikáció"
 
 #. Default: "Advanced Search…"
 #: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:106
 msgid "label_advanced_search"
 msgstr "label_advanced_search"
+
+#. Default: "Log in with your Eionet password to see/add comments"
+#: eea.design/eea/design/browser/templates/comments.pt:16
+msgid "label_login_to_add_comments"
+msgstr ""
 
 #. Default: "No matching results found."
 #: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:105
@@ -5184,7 +5612,7 @@ msgstr "kapcsolódó jelentési kötelezettségeit"
 msgid "s"
 msgstr "s"
 
-#: eea.design/eea/design/browser/templates/comments.pt:87
+#: eea.design/eea/design/browser/templates/comments.pt:88
 msgid "says:"
 msgstr "azt mondja:"
 
@@ -5197,7 +5625,7 @@ msgstr "szakaszban alább"
 msgid "secure link"
 msgstr "biztonságos kapcsolat"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:37
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:39
 msgid "see more"
 msgstr "még több"
 
@@ -5207,7 +5635,7 @@ msgstr "még több ..."
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:43
 msgid "should you have any questions, please use this email:"
-msgstr "ha bármilyen kérdése van, kérjük használja az e-mail:"
+msgstr "ha bármilyen kérdése van, kérjük írjon e-mailt:"
 
 #: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:33
 msgid "state"
@@ -5231,8 +5659,12 @@ msgid "upload-csv-description"
 msgstr "upload-csv-leírás"
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:87
-msgid "use this field if the report type is not listed in the previous Serial Title field"
-msgstr "Használja ezt a mezőt, ha a jelentés típusa nem szerepel a Title mező korábbi Serial"
+msgid ""
+"use this field if the report type is not listed in the previous Serial Title "
+"field"
+msgstr ""
+"Használja ezt a mezőt, ha a jelentés típusa nem szerepel a Title mező "
+"korábbi Serial"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:154
 msgid "vCal"
@@ -5257,4 +5689,3 @@ msgstr "év"
 #: eea.reports/eea/reports/browser/report.pt:241
 msgid "your nearest sales agent"
 msgstr "A legközelebbi értékesítési ügynök"
-
