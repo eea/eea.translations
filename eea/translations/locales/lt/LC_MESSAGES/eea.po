@@ -2,17 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2008-11-14 14:13+0100\n"
+"PO-Revision-Date: 2012-11-05 11:26+0100\n"
 "Last-Translator: Marie Jaegly <marie.jaegly@eea.europa.eu>\n"
 "Language-Team: lt <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
+"X-Generator: Poedit 1.5.3\n"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:33
 msgid "${context_icon} Manage portlets for ${context_title}"
@@ -71,6 +72,24 @@ msgstr "${state} specifikacija"
 msgid "% tags currently selected."
 msgstr "% Žodžius pasirinktas."
 
+#: eea/mediacentre/Multimedia/multimedia.pt:69
+msgid ""
+"'One degree matters' follows social and business leaders as they travel to "
+"Greenland and experience for themselves the dramatic effects of the melting "
+"of the ice cap and come to understand the planetary effects of climate "
+"change and the impacts these will have on society and the economy. The film "
+"brings to the screen the latest science from the Arctic and shows why a "
+"further rise in global temperature of one degree matters for the future of "
+"humankind. Film had premiere 13 December 2009 during COP15."
+msgstr ""
+"\"Vienas laipsnis svarbus\"lydi visuomenes ir verslo lyderius, keliaujančius "
+"į Grenlandiją, kur jie patiria dramatiškus ledo dangos tirpimo efektus ir "
+"pradeda suprasti klimato kaitos poveikį planetai ir kokį poveikį tai turės "
+"visuomenei ir ekonomikai. Filmas pristato naujausius Arktikos gamtos mokslus "
+"ir rodo, kaip tolesnis pasaulinės temperatūros padidėjimas vienu laipsniu į "
+"takoja žmonijos ateitį. Filmo premjera įvyko 2009 metų gruodzio 13 dieną, "
+"COP 15 metu."
+
 #: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:64
 msgid "(${location}, from ${start} to ${end})"
 msgstr "(${location}, nuo ${start} ${end})"
@@ -105,8 +124,12 @@ msgid "(note: EEA internal system)"
 msgstr "(Pastaba: tinkamumas EEE vidaus sistema)"
 
 #: EEAContentTypes/browser/crop/cropimage.pt:24
-msgid "*Note: Hitting the crop button will replace the original image with this cropped image"
-msgstr "* Pastaba: Paspaudus mygtuką 'apkarpymo' bus pakeisti originalų vaizdą su šio apkarpyto paveikslėlio"
+msgid ""
+"*Note: Hitting the crop button will replace the original image with this "
+"cropped image"
+msgstr ""
+"* Pastaba: Paspaudus mygtuką 'apkarpymo' bus pakeisti originalų vaizdą su "
+"šio apkarpyto paveikslėlio"
 
 #: EEAContentTypes/browser/reorder.pt:92
 msgid "- (restricted to authenticated)"
@@ -116,17 +139,19 @@ msgstr "- (Tik į autentiškumą)"
 msgid "- [Media: ${media}]"
 msgstr "- [Media: ${media}]"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:51
-msgid "<div> <span>x</span> <span>x</span> </div>"
-msgstr "<div> <span> x </ span> <span> x </ span> </ div>"
-
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:38
 msgid "A letter of motivation"
 msgstr "Motyvacijos laiškas"
 
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_popup_view.pt:22
-msgid "A new window has been opened with the flash application. <br /> If you don't see the window please check your browser preferences to allow popup windows. You'll then need to reload this page."
-msgstr "Buvo atidarytas naujas langas su Flash programa. <br /> Jei nematote langas patikrinkite savo naršyklės nustatymus leisti iššokančius langus. Tada jums reikės perkrauti šį puslapį."
+msgid ""
+"A new window has been opened with the flash application. <br /> If you don't "
+"see the window please check your browser preferences to allow popup windows. "
+"You'll then need to reload this page."
+msgstr ""
+"Buvo atidarytas naujas langas su Flash programa. <br /> Jei nematote langas "
+"patikrinkite savo naršyklės nustatymus leisti iššokančius langus. Tada jums "
+"reikės perkrauti šį puslapį."
 
 #: eea.reports/eea/reports/profiles/default/types/Report.xml
 msgid "A report publication."
@@ -136,22 +161,18 @@ msgstr "Ataskaita paskelbimas."
 msgid "A-Z Glossary"
 msgstr "AZ Žodynėlis"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:107
+#: eea/mediacentre/Multimedia/multimedia.pt:130
 msgid "About this item"
 msgstr "Apie šią prekę"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:38
-#: eea/mediacentre/browser/video_popup_view.pt:36
+#: eea/mediacentre/browser/multimedia_popup_view.pt:39
+#: eea/mediacentre/browser/video_popup_view.pt:37
 msgid "About this video"
 msgstr "Apie sita video"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:67
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
 msgid "Access our data via semantic APIs"
 msgstr "Prisijunkite prie mūsų duomenų per semantinio API"
-
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:30
-msgid "Accordion view"
-msgstr "Akordeonas vaizdas"
 
 #: eea/themecentre/browser/templates/themes_view.pt:99
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:123
@@ -179,7 +200,7 @@ msgstr "Pridėti"
 msgid "Add Translation"
 msgstr "Pridėti Vertimas"
 
-#: eea.design/eea/design/browser/templates/comments.pt:168
+#: eea.design/eea/design/browser/templates/comments.pt:169
 msgid "Add comment"
 msgstr "Pridėti komentarą"
 
@@ -208,8 +229,7 @@ msgid "Additional information"
 msgstr "Papildoma informacija"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:26
-#: eea/mediacentre/Multimedia/multimedia.pt:96
-#: eea/mediacentre/Multimedia/multimedia2.pt:99
+#: eea/mediacentre/Multimedia/multimedia.pt:119
 msgid "Advanced"
 msgstr "Pažangus"
 
@@ -250,9 +270,9 @@ msgstr "Albanija"
 msgid "Album Art:"
 msgstr "Albumas Menas:"
 
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:21
-msgid "Album view"
-msgstr "Albumas vaizdas"
+#: eea/themecentre/skins/themecentre_templates/mediacentre_macros.pt:8
+msgid "All"
+msgstr "Visi"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:142
 msgid "All ${number} ${title}&hellip;"
@@ -307,8 +327,12 @@ msgstr "Alternatyva"
 
 #: NavigationManager/skins/NavigationManager/sitemap.pt:16
 #: eea/themecentre/skins/themecentre_templates/overview.pt:16
-msgid "An overview of the available content on this site. Keep the pointer still over an item for a few seconds to get its description."
-msgstr "Turima turinio šioje svetainėje apžvalga. Laikykite žymiklį virš elemento per kelias sekundes gauti aprašymą."
+msgid ""
+"An overview of the available content on this site. Keep the pointer still "
+"over an item for a few seconds to get its description."
+msgstr ""
+"Turima turinio šioje svetainėje apžvalga. Laikykite žymiklį virš elemento "
+"per kelias sekundes gauti aprašymą."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:140
 msgid "Any version."
@@ -345,7 +369,9 @@ msgstr "Archyvas ar daugiau elementų pavadinimas"
 
 #: eea.sparql/eea/sparql/browser/view.pt:62
 msgid "Are you new to Linked Data technology? visit http://linkeddata.org"
-msgstr "Ar esate naujas susietų duomenų, technologiją? aplankyti http://linkeddata.org"
+msgstr ""
+"Ar esate naujas susietų duomenų, technologiją? aplankyti http://linkeddata."
+"org"
 
 msgid "Articles"
 msgstr "Straipsniai"
@@ -398,9 +424,9 @@ msgstr "Austrija"
 msgid "Author"
 msgstr "Autorius/-ė"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:51
-#: eea/mediacentre/browser/video-listed-single.pt:34
-#: eea/mediacentre/browser/video.pt:60
+#: eea/mediacentre/browser/multimedia_popup_view.pt:52
+#: eea/mediacentre/browser/video-listed-single.pt:32
+#: eea/mediacentre/browser/video.pt:58
 msgid "Author:"
 msgstr "Autorius:"
 
@@ -410,7 +436,8 @@ msgstr "Auto-Link-Piktogramos"
 
 #: eea.alchemy/eea/alchemy/browser/zpt/tool.pt:25
 msgid "Auto-discover geographical coverage, temporal coverage and keywords"
-msgstr "Automatinis atrasti geografinė aprėptis, laiko aprėptis ir raktiniai žodžiai"
+msgstr ""
+"Automatinis atrasti geografinė aprėptis, laiko aprėptis ir raktiniai žodžiai"
 
 #: eea.reports/eea/reports/skins/reports_templates/report_file.pt:78
 msgid "Automatically update properties from pdf publication file metadata?"
@@ -449,8 +476,12 @@ msgid "Below is a list of organisations on which no content is pointing at."
 msgstr "Žemiau yra ne turinys yra nukreipta organizacijų sąrašas."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:104
-msgid "Below is a list of organisations with wrong title, either empty or containing an URL instead of a title."
-msgstr "Žemiau yra su neteisingu pavadinimu, arba tuščias, arba kuriame yra URL vietoj pavadinimo organizacijų sąrašas."
+msgid ""
+"Below is a list of organisations with wrong title, either empty or "
+"containing an URL instead of a title."
+msgstr ""
+"Žemiau yra su neteisingu pavadinimu, arba tuščias, arba kuriame yra URL "
+"vietoj pavadinimo organizacijų sąrašas."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:23
 msgid "Below is the full list of organisations."
@@ -489,7 +520,7 @@ msgstr "Laukelio pavadinimas (Pareigų pavadinimas, kuris rodo iki)"
 msgid "Browse SOER geographically"
 msgstr "Naršyti Soer geografiškai"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:58
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:57
 msgid "Browse by organisation"
 msgstr "Ieškoti pagal organizacijos"
 
@@ -502,7 +533,7 @@ msgstr "Naršyti pagal temą"
 msgid "Browse catalogue"
 msgstr "Naršyti katalogą"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:103
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:102
 msgid "Browse complete catalogue"
 msgstr "Peržiūrėti visą katalogą"
 
@@ -521,17 +552,11 @@ msgstr "Bulgarija"
 msgid "Bulgarian"
 msgstr "Bulgarų"
 
-#: eea/mediacentre/Multimedia/multimedia2.pt:108
-msgid "By location"
-msgstr "Pagal vietą"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:187
-#: eea/mediacentre/Multimedia/multimedia2.pt:163
+#: eea/mediacentre/Multimedia/multimedia.pt:213
 msgid "By tags"
 msgstr "Pagal žymes"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:186
-#: eea/mediacentre/Multimedia/multimedia2.pt:162
+#: eea/mediacentre/Multimedia/multimedia.pt:212
 msgid "By topics"
 msgstr "Pagal temas"
 
@@ -553,7 +578,7 @@ msgstr "CSV"
 msgid "Cache"
 msgstr "Laikinoji"
 
-#: eea.googlecharts/eea/googlecharts/views/chart.py:283
+#: eea.googlecharts/eea/googlecharts/views/chart.py:318
 msgid "Can't set thumbnail on a non-folderish object !"
 msgstr "Negali nustatyti miniatiūrą ne folderish objekto!"
 
@@ -583,8 +608,16 @@ msgid "Changes saved."
 msgstr "Pakeitimai išsaugoti."
 
 #: eea.daviz/eea/daviz/content/schema.py:122
-msgid "Changing data sources may break existing visualizations for this context. You should consider creating a new Visualization rather than changing this one if the new data is different than the existing one. Are you sure you want to continue?"
-msgstr "Keitimas gali nutraukti esamus duomenų šaltinius vizualizacijas šiame kontekste. Jūs turėtumėte apsvarstyti galimybę sukurti naują vizualizacija, o ne keičiant šį vieną, jei nauji duomenys yra kitoks nei dabartinių. Ar jūs tikrai norite tęsti?"
+msgid ""
+"Changing data sources may break existing visualizations for this context. "
+"You should consider creating a new Visualization rather than changing this "
+"one if the new data is different than the existing one. Are you sure you "
+"want to continue?"
+msgstr ""
+"Keitimas gali nutraukti esamus duomenų šaltinius vizualizacijas šiame "
+"kontekste. Jūs turėtumėte apsvarstyti galimybę sukurti naują vizualizacija, "
+"o ne keičiant šį vieną, jei nauji duomenys yra kitoks nei dabartinių. Ar jūs "
+"tikrai norite tęsti?"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:41
 msgid "Channel"
@@ -598,13 +631,25 @@ msgstr "Patikrinkite URL statusas"
 msgid "Check all"
 msgstr "Patikrinkite visas"
 
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:33
+msgid "Check these ${data-examples} or read ${prepare-data}"
+msgstr "Patikrinti šiuos duomenų pavyzdžius arba skaityti"
+
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:149
-msgid "Check this to have your email address filled in automatically when you log in later."
-msgstr "Pažymėkite šį Jūsų elektroninio pašto adresas užpildyti automatiškai, kai įeinate į vėliau."
+msgid ""
+"Check this to have your email address filled in automatically when you log "
+"in later."
+msgstr ""
+"Pažymėkite šį Jūsų elektroninio pašto adresas užpildyti automatiškai, kai "
+"įeinate į vėliau."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:140
-msgid "Check this to have your user name filled in automatically when you log in later."
-msgstr "Patikrinkite tai, kad jūsų vartotojo vardas užpildyti automatiškai, kai įeinate į vėliau."
+msgid ""
+"Check this to have your user name filled in automatically when you log in "
+"later."
+msgstr ""
+"Patikrinkite tai, kad jūsų vartotojo vardas užpildyti automatiškai, kai "
+"įeinate į vėliau."
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:33
 msgid "Chemicals"
@@ -615,8 +660,12 @@ msgid "Choose a newsletter"
 msgstr "Pasirinkite naujienas"
 
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:25
-msgid "Choose another media type or ${multimedia_center} (via EEA Multimedia Centre)."
-msgstr "Pasirinkite kitą laikmenos tipą arba ${multimedia_center} per EEE multimedijos centro)."
+msgid ""
+"Choose another media type or ${multimedia_center} (via EEA Multimedia "
+"Centre)."
+msgstr ""
+"Pasirinkite kitą laikmenos tipą arba ${multimedia_center} per EEE "
+"multimedijos centro)."
 
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:13
 msgid "Choose the EEA local website in your preferred language"
@@ -638,7 +687,9 @@ msgstr "Spausk čia!"
 
 #: eea.signals/eea/signals/skins/eea_signals/gallery_view.pt:67
 msgid "Click to view full-size image&hellip; <span>${DYNAMIC_CONTENT}</span>"
-msgstr "Spūstelėkite norėdami pamatyti pilno dydžio vaizdą ... <span>${DYNAMIC_CONTENT}</ span>"
+msgstr ""
+"Spūstelėkite norėdami pamatyti pilno dydžio vaizdą ... <span>"
+"${DYNAMIC_CONTENT}</ span>"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:47
 msgid "Climate Change Impacts, Vulnerability and Adaptation (CCA)"
@@ -671,17 +722,21 @@ msgstr "Kodas"
 msgid "Code for developers"
 msgstr "Kodas kūrėjams"
 
-#: eea.design/eea/design/browser/templates/comments.pt:143
+#: eea.design/eea/design/browser/templates/comments.pt:144
 msgid "Commenting has been disabled."
 msgstr "Komentuodamas buvo išjungtas."
+
+#: eea.design/eea/design/browser/templates/comments.pt:2
+msgid "Comments"
+msgstr "Komentarai"
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:11
 msgid "Comments on translations"
 msgstr "Pastabos dėl vertimų"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:18
-msgid "Configure exhibit"
-msgstr "Konfigūruoti eksponuoti"
+msgid "Configure Visualization"
+msgstr "Konfigūruoti vizualizaciją"
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:19
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:36
@@ -693,8 +748,12 @@ msgid "Confirm your event"
 msgstr "Patvirtinkite savo renginį"
 
 #: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:5
-msgid "Confirmation message for <strong>${type}</strong> with scheduled publishing date <strong>${date}</strong>"
-msgstr "Patvirtinimo pranešimas, <strong>${type}</ strong> su numatyto paskelbimo dienos <strong>${date}</ strong>"
+msgid ""
+"Confirmation message for <strong>${type}</strong> with scheduled publishing "
+"date <strong>${date}</strong>"
+msgstr ""
+"Patvirtinimo pranešimas, <strong>${type}</ strong> su numatyto paskelbimo "
+"dienos <strong>${date}</ strong>"
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:55
 msgid "Contact"
@@ -769,7 +828,7 @@ msgstr "Turinys"
 msgid "Context description"
 msgstr "Kontekstas aprašymas"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:23
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:25
 msgid "Contribution"
 msgstr "Įmoka"
 
@@ -787,7 +846,8 @@ msgstr "Konvertuoti Visi skaičiai"
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Convert all figures to predefined formats and resolutions"
-msgstr "Konvertuoti visus skaičius iš anksto nustatytais formatais ir rezoliucijas"
+msgstr ""
+"Konvertuoti visus skaičius iš anksto nustatytais formatais ir rezoliucijas"
 
 #: eea.dataservice/eea/dataservice/converter/convert_figure.pt:15
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
@@ -808,11 +868,15 @@ msgstr "Konvertuoti portlety"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:58
 msgid "Cookies are not enabled. You must ${link} before you can log in."
-msgstr "Jūsų naršyklės 'cookies' nėra įgalinti. Jūs turite ${link} prieš galite prisijungti."
+msgstr ""
+"Jūsų naršyklės 'cookies' nėra įgalinti. Jūs turite ${link} prieš galite "
+"prisijungti."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:30
 msgid "Cookies are not enabled. You must enable cookies before you can log in."
-msgstr "Jūsų naršyklės 'cookies' nėra įgalinti. Jūs turite įgalinti cookies, kad galėtumėte prisijungti."
+msgstr ""
+"Jūsų naršyklės 'cookies' nėra įgalinti. Jūs turite įgalinti cookies, kad "
+"galėtumėte prisijungti."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:484
 msgid "Coordinate reference system:"
@@ -874,7 +938,7 @@ msgstr "Sukurti ${language} vertimą šią prekę nėra."
 msgid "Create Promotion"
 msgstr "Sukurti Skatinimas"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:38
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:53
 msgid "Create Visualization"
 msgstr "Sukurti vizualizacija"
 
@@ -966,15 +1030,15 @@ msgstr "Duomenys ir žemėlapiai"
 msgid "Data link"
 msgstr "duomenų ryšys."
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:104
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:105
 msgid "Data owner"
 msgstr "Duomenys savininkas"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:83
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:89
 msgid "Data policy"
 msgstr "Duomenys politika"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:64
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:69
 msgid "Data repository info"
 msgstr "Duomenų saugykla informacija"
 
@@ -982,7 +1046,7 @@ msgstr "Duomenų saugykla informacija"
 msgid "Data sets uncertainty"
 msgstr "Duomenų grupės neapibrėžtumą"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:96
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:97
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:153
 msgid "Data source"
 msgstr "Duomenų šaltinis"
@@ -991,7 +1055,7 @@ msgstr "Duomenų šaltinis"
 msgid "Data source Organisation"
 msgstr "Duomenų šaltinis organizavimas"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:111
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:112
 msgid "Data source download"
 msgstr "Duomenų šaltinis parsisiųsti"
 
@@ -1041,7 +1105,7 @@ msgstr "Datos"
 msgid "Deadline"
 msgstr "Terminas"
 
-#: eea.design/eea/design/browser/templates/comments.pt:105
+#: eea.design/eea/design/browser/templates/comments.pt:106
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:63
 msgid "Delete"
 msgstr "Ištrinti"
@@ -1070,9 +1134,17 @@ msgstr "Direktoriaus pavaduotojas"
 msgid "Derived data set:"
 msgstr "Išvestiniai duomenys nustatyti:"
 
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:17
+msgid "Detect duplicates"
+msgstr "Išskirti dublikatus  "
+
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
-msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
-msgstr "Ar jūs negalite rasti tai, ko ieškote? Pabandykite ${advanced_search} patikslinti paiešką."
+msgid ""
+"Did you not find what you were looking for? Try the ${advanced_search} to "
+"refine your search."
+msgstr ""
+"Ar jūs negalite rasti tai, ko ieškote? Pabandykite ${advanced_search} "
+"patikslinti paiešką."
 
 #: eea.app.visualization/eea/app/visualization/views/edit.py:59
 msgid "Disable"
@@ -1100,12 +1172,21 @@ msgid "Distinct:"
 msgstr "Skiriasi:"
 
 #: eea.design/eea/design/skins/eea_design/main_template.pt:99
-msgid "Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!"
-msgstr "Ar kažką už mūsų planetos, tik esant būtinybei atsispausdinti šį puslapį. Net nedidelis veiksmas gali padaryti didžiulį skirtumą, kai milijonai žmonių tai padaryti!"
+msgid ""
+"Do something for our planet, print this page only if needed. Even a small "
+"action can make an enormous difference when millions of people do it!"
+msgstr ""
+"Ar kažką už mūsų planetos, tik esant būtinybei atsispausdinti šį puslapį. "
+"Net nedidelis veiksmas gali padaryti didžiulį skirtumą, kai milijonai žmonių "
+"tai padaryti!"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:23
-msgid "Do you want to create this assessment ${here} here or ${newest} in the latest version of the Specification?"
-msgstr "Ar norite sukurti šį vertinimo ${here} čia arba ${newest} naujausią versiją šios specifikacijos?"
+msgid ""
+"Do you want to create this assessment ${here} here or ${newest} in the "
+"latest version of the Specification?"
+msgstr ""
+"Ar norite sukurti šį vertinimo ${here} čia arba ${newest} naujausią versiją "
+"šios specifikacijos?"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:33
 #: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:42
@@ -1156,7 +1237,7 @@ msgstr "Atsisiųskite šį renginį iCal formatu"
 msgid "Download this event in vCal format"
 msgstr "Atsisiųskite šį renginį vCal formatu"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:123
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:128
 msgid "Downloads"
 msgstr "Siuntiniai"
 
@@ -1165,7 +1246,6 @@ msgid "Draft (not yet published - not quality assured)"
 msgstr "Projektas (dar nepaskelbta nėra užtikrinama kokybė)"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:81
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:22
 msgid "Duplicate organisations"
 msgstr "Dubliuoti organizacijas"
 
@@ -1217,11 +1297,14 @@ msgid "EEA Management Plan"
 msgstr "EEE valdymo planas"
 
 #: eea.reports/eea/reports/subtypes/report.py:229
-msgid "EEA Management plan code. Internal EEA project line code, used to assign an EEA product output to a specific EEA project number in the management plan."
-msgstr "EAA valdymas planas kodas. Vidaus EEE projektas eilutės kodas, naudojamas priskirti EEE produkto išėjimo į konkrečią EEE projekto valdymo plano."
+msgid ""
+"EEA Management plan code. Internal EEA project line code, used to assign an "
+"EEA product output to a specific EEA project number in the management plan."
+msgstr ""
+"EAA valdymas planas kodas. Vidaus EEE projektas eilutės kodas, naudojamas "
+"priskirti EEE produkto išėjimo į konkrečią EEE projekto valdymo plano."
 
 #: eea/mediacentre/Multimedia/multimedia.pt:43
-#: eea/mediacentre/Multimedia/multimedia2.pt:44
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:26
 msgid "EEA Multimedia Centre"
 msgstr "Tinkamumas Multimedijos centras"
@@ -1286,9 +1369,11 @@ msgstr "AAA tinklas"
 msgid "EPUB format"
 msgstr "Epub formatas"
 
-#: eea.googlecharts/eea/googlecharts/views/chart.py:222
-msgid "ERROR: An error occured while exporting your image. Please try again later."
-msgstr "KLAIDA: klaida, o eksportuojame savo įvaizdį. Bandykite dar kartą vėliau."
+#: eea.googlecharts/eea/googlecharts/views/chart.py:257
+msgid ""
+"ERROR: An error occured while exporting your image. Please try again later."
+msgstr ""
+"KLAIDA: klaida, o eksportuojame savo įvaizdį. Bandykite dar kartą vėliau."
 
 #: eea.design/eea/design/browser/templates/colophon.pt:36
 msgid "EU flag"
@@ -1416,7 +1501,9 @@ msgstr "Langelyje parašykite vieną ar daugiau paieškos raktažodžius."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:350
 msgid "Enter one or more keywords for a search. Use of AND/OR is supported."
-msgstr "Langelyje parašykite vieną ar daugiau paieškos raktažodžius. Žemėtvarka IR / ARBA remia."
+msgstr ""
+"Langelyje parašykite vieną ar daugiau paieškos raktažodžius. Žemėtvarka IR / "
+"ARBA remia."
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:122
 msgid "Enter one tag per line, multiple words allowed."
@@ -1484,8 +1571,14 @@ msgid "Europe and the world: global megatrends"
 msgstr "Europa ir pasaulis: pasaulio Pentax"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:23
-msgid "Europe has made considerable progress over recent decades in cleaning the air that we breathe, but air pollution remains a serious problem and continues to damage our health and the environment."
-msgstr "Europa padarė didelę pažangą per pastaruosius dešimtmečius valyti orą, kuriuo kvėpuojame, bet oro tarša vis dar išlieka rimta problema ir toliau žaloja mūsų sveikatą ir aplinką."
+msgid ""
+"Europe has made considerable progress over recent decades in cleaning the "
+"air that we breathe, but air pollution remains a serious problem and "
+"continues to damage our health and the environment."
+msgstr ""
+"Europa padarė didelę pažangą per pastaruosius dešimtmečius valyti orą, "
+"kuriuo kvėpuojame, bet oro tarša vis dar išlieka rimta problema ir toliau "
+"žaloja mūsų sveikatą ir aplinką."
 
 #: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:37
 msgid "Europe's environment: thematic assessments"
@@ -1525,7 +1618,7 @@ msgid "Exclude from navigation"
 msgstr "Pašalinti iš navigacijos"
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:21
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:82
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:87
 #: eea.sparql/eea/sparql/browser/view.pt:84
 msgid "Execute"
 msgstr "Vykdyti"
@@ -1538,9 +1631,8 @@ msgstr "Vykdomasis direktorius"
 msgid "Existing visualizations"
 msgstr "Esamos vizualizacijos"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:151
-#: eea/mediacentre/Multimedia/multimedia.pt:194
-#: eea/mediacentre/Multimedia/multimedia2.pt:170
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
+#: eea/mediacentre/Multimedia/multimedia.pt:220
 msgid "Explore all tags"
 msgstr "Naršyti visas žymes"
 
@@ -1587,11 +1679,11 @@ msgstr "Fancybox pop-up"
 msgid "Fancybox relations"
 msgstr "Fancybox santykiai"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:127
+#: eea/mediacentre/Multimedia/multimedia.pt:153
 msgid "Featured Item Description"
 msgstr "Teminiai Prekės aprašymas"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:126
+#: eea/mediacentre/Multimedia/multimedia.pt:152
 msgid "Featured Item Title"
 msgstr "Teminiai Pavadinimas"
 
@@ -1736,10 +1828,6 @@ msgstr "Žuvininkystė"
 msgid "Flexible tooltips"
 msgstr "Lanksčios patarimus"
 
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:24
-msgid "Folder overview"
-msgstr "Byla apžvalga"
-
 #: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:16
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:69
 msgid "Follow us"
@@ -1758,16 +1846,29 @@ msgid "Follow us on YouTube"
 msgstr "Follow us on YouTube"
 
 #: EEAContentTypes/browser/crop/cropping.pt:20
-msgid "For each image field in your content you can select below the image you want to crop."
-msgstr "Kiekvienam jūsų turinio vaizdo srityje galite pasirinkti žemiau paveikslėlio, kurį norite apkarpyti."
+msgid ""
+"For each image field in your content you can select below the image you want "
+"to crop."
+msgstr ""
+"Kiekvienam jūsų turinio vaizdo srityje galite pasirinkti žemiau "
+"paveikslėlio, kurį norite apkarpyti."
 
 #: eea.reports/eea/reports/subtypes/report.py:98
 msgid "For sale?"
 msgstr "Parduoti?"
 
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:22
-msgid "For security reasons, we store your password encrypted, and cannot mail it to you. If you would like to reset your password, fill out the form below and we will send you an email at the address you gave when you registered to start the process of resetting your password."
-msgstr "Saugumo sumetimais mes saugome jūsų slaptažodis užšifruotas ir negali nusiųsti jums elektroniniu paštu. Jei norite iš naujo nustatyti slaptažodį, užpildykite žemiau esančią formą ir mes atsiųsime jums laišką adresu, kurį nurodėte, kai esate registruotas pradėti slaptažodžio nustatymo iš naujo procesą."
+msgid ""
+"For security reasons, we store your password encrypted, and cannot mail it "
+"to you. If you would like to reset your password, fill out the form below "
+"and we will send you an email at the address you gave when you registered to "
+"start the process of resetting your password."
+msgstr ""
+"Saugumo sumetimais mes saugome jūsų slaptažodis užšifruotas ir negali "
+"nusiųsti jums elektroniniu paštu. Jei norite iš naujo nustatyti slaptažodį, "
+"užpildykite žemiau esančią formą ir mes atsiųsime jums laišką adresu, kurį "
+"nurodėte, kai esate registruotas pradėti slaptažodžio nustatymo iš naujo "
+"procesą."
 
 #: eea.sparql/eea/sparql/browser/view.pt:57
 msgid "For system integrators"
@@ -1778,12 +1879,12 @@ msgstr "Sistemos integratorius"
 msgid "Forgot your password?"
 msgstr "Pamiršote slaptažodį?"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:112
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:113
 #: eea.sparql/eea/sparql/browser/view.pt:13
 msgid "Formats suitable for human consumption"
 msgstr "Formatai tinkami vartoti žmonių maistui"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:122
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:123
 #: eea.sparql/eea/sparql/browser/view.pt:22
 msgid "Formats suitable for machine-to-machine communication"
 msgstr "Mašina ir mašinos bendravimo formatai tinkami"
@@ -1838,6 +1939,10 @@ msgstr "Rodyti galeriją"
 msgid "General metadata"
 msgstr "Bendra metaduomenys"
 
+#: eea.relations/eea/relations/browser/template/badrelations.pt:53
+msgid "Generate report"
+msgstr "Sukūrti ataskaitą"
+
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:32
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:36
 msgid "Generic metadata"
@@ -1879,10 +1984,14 @@ msgid "Go back and correct"
 msgstr "Grįžti atgal ir ištaisyti"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:22
-#: eea/mediacentre/Multimedia/multimedia.pt:92
-#: eea/mediacentre/Multimedia/multimedia2.pt:95
+#: eea/mediacentre/Multimedia/multimedia.pt:115
+#: eea/themecentre/skins/themecentre_templates/dc_view.pt:22
 msgid "Go to advanced search"
 msgstr "Grįžti į išplėstinę paiešką"
+
+#: EEAContentTypes/skins/EEAContentTypes/promotion_view.pt:39
+msgid "Go to site"
+msgstr "Eiti į svetainę"
 
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:24
 msgid "Google Custom Search Engines"
@@ -1903,8 +2012,7 @@ msgstr "Graikijos"
 msgid "Green economy"
 msgstr "Žalioji ekonomika"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:150
-#: eea/mediacentre/Multimedia/multimedia2.pt:128
+#: eea/mediacentre/Multimedia/multimedia.pt:176
 msgid "Green tips"
 msgstr "Žalieji patarimai"
 
@@ -1929,7 +2037,7 @@ msgstr "Čia yra pilnas klaidos pranešimas:"
 msgid "Hide the search form"
 msgstr "Slėpti paieškos formą"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:90
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:89
 msgid "Highlights"
 msgstr "Svarbūs pranešimai"
 
@@ -1976,8 +2084,10 @@ msgid "Icelandic"
 msgstr "Islandijos"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:29
-msgid "Icons based on file extension, on different external sites and protocols"
-msgstr "Piktogramos, pagal failo plėtinį, dėl įvairių išorinių svetainių ir protokolų"
+msgid ""
+"Icons based on file extension, on different external sites and protocols"
+msgstr ""
+"Piktogramos, pagal failo plėtinį, dėl įvairių išorinių svetainių ir protokolų"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:15
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:312
@@ -1991,7 +2101,9 @@ msgid "Identification"
 msgstr "Identifikacija"
 
 #: eea.promotion/eea/promotion/browser/form.pt:53
-msgid "If checked, the promotion is shown at the top in navigation menu on all pages."
+msgid ""
+"If checked, the promotion is shown at the top in navigation menu on all "
+"pages."
 msgstr "Jei pažymėta, skatinimas rodomas visų puslapių naršymo meniu viršuje."
 
 #: eea.reports/eea/reports/subtypes/report.py:265
@@ -1999,23 +2111,43 @@ msgid "If selected, this item will not appear in the navigation tree"
 msgstr "Jei pasirinktas šis punktas nebus rodomas navigacijos medis"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:195
-msgid "If the a-tag hrefs to an image, it will be displayed in the popup. Be careful though, if the URL does not end with an image extension, fancybox will hang."
-msgstr "Jei tegus HREF vaizdą, jis bus rodomas iššokantį. Būkite atsargūs, nors, jei URL nesibaigia su vaizdo pratęsimo, fancybox bus pakabinti."
+msgid ""
+"If the a-tag hrefs to an image, it will be displayed in the popup. Be "
+"careful though, if the URL does not end with an image extension, fancybox "
+"will hang."
+msgstr ""
+"Jei tegus HREF vaizdą, jis bus rodomas iššokantį. Būkite atsargūs, nors, jei "
+"URL nesibaigia su vaizdo pratęsimo, fancybox bus pakabinti."
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:83
-msgid "If the map application above does not provide an integrated full screen feature (usually in the upper right corner), then you can try with the following ${full-screen-mode}"
-msgstr "Jei virš žemėlapis taikymas nesuteikia integruotą visą ekraną funkciją (paprastai viršutiniame dešiniajame kampe), tada galite pabandyti su tokia ${full-screen-mode}"
+msgid ""
+"If the map application above does not provide an integrated full screen "
+"feature (usually in the upper right corner), then you can try with the "
+"following ${full-screen-mode}"
+msgstr ""
+"Jei virš žemėlapis taikymas nesuteikia integruotą visą ekraną funkciją "
+"(paprastai viršutiniame dešiniajame kampe), tada galite pabandyti su tokia "
+"${full-screen-mode}"
 
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
-msgid "If translations of this item have been made after it was first promoted, this action promotes the new translations"
-msgstr "Jei pagal šį punktą vertimai buvo atlikti po to, kai jis pirmą kartą buvo skatinama, šis veiksmas skatina naujus vertimus,"
+msgid ""
+"If translations of this item have been made after it was first promoted, "
+"this action promotes the new translations"
+msgstr ""
+"Jei pagal šį punktą vertimai buvo atlikti po to, kai jis pirmą kartą buvo "
+"skatinama, šis veiksmas skatina naujus vertimus,"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:52
-msgid "If you are certain you have the correct web address but are encountering an error, please contact the ${site_admin}."
-msgstr "Jei esate tikri, ar turite tinkamą interneto adresą, bet patiria klaidą, prašome susisiekti su ${site_admin}."
+msgid ""
+"If you are certain you have the correct web address but are encountering an "
+"error, please contact the ${site_admin}."
+msgstr ""
+"Jei esate tikri, ar turite tinkamą interneto adresą, bet patiria klaidą, "
+"prašome susisiekti su ${site_admin}."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:200
-msgid "If you do not have an account here, head over to the ${registration_form}."
+msgid ""
+"If you do not have an account here, head over to the ${registration_form}."
 msgstr "Jei neturite sąskaitos, pereikite į ${registration_form}."
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:26
@@ -2027,20 +2159,38 @@ msgid "If you have forgotten your password, ${click_here}."
 msgstr "Jei pamiršote slaptažodį, ${click_here}."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:98
-msgid "If you have tabs that have longer titles consider using the extra 'two-rows' class for the tabs which makes the tabs larger in height and better styled to accomodate larger titles."
-msgstr "Jei turite, skirtukai, kurie turi ilgesnius pavadinimus, naudojant papildomas dvejų eilėse klasę skirtukų todėl skirtukai didesnių aukščio ir geriau stiliaus sutalpinti didesnius titulus."
+msgid ""
+"If you have tabs that have longer titles consider using the extra 'two-rows' "
+"class for the tabs which makes the tabs larger in height and better styled "
+"to accomodate larger titles."
+msgstr ""
+"Jei turite, skirtukai, kurie turi ilgesnius pavadinimus, naudojant "
+"papildomas dvejų eilėse klasę skirtukų todėl skirtukai didesnių aukščio ir "
+"geriau stiliaus sutalpinti didesnius titulus."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:160
-msgid "If you need to report this to the ${site_admin}, please include this entry number in your message."
-msgstr "Jei reikia pranešti apie tai ${site_admin}, prašome nurodyti šį įrašą savo žinutę."
+msgid ""
+"If you need to report this to the ${site_admin}, please include this entry "
+"number in your message."
+msgstr ""
+"Jei reikia pranešti apie tai ${site_admin}, prašome nurodyti šį įrašą savo "
+"žinutę."
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:52
-msgid "If you want to read the content of this document, you have to switch to one of the following languages:"
-msgstr "Jei norite skaityti šio dokumento turinį, jūs turite pereiti į vieną iš šių kalbų:"
+msgid ""
+"If you want to read the content of this document, you have to switch to one "
+"of the following languages:"
+msgstr ""
+"Jei norite skaityti šio dokumento turinį, jūs turite pereiti į vieną iš šių "
+"kalbų:"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:119
-msgid "If you wish to block or unblock certain categories of portlets, you can do so using the drop-down boxes."
-msgstr "Jei norite blokuoti arba neblokuoti tam tikrų kategorijų portletach, galite tai padaryti naudojant išskleidžiamajame dėžės."
+msgid ""
+"If you wish to block or unblock certain categories of portlets, you can do "
+"so using the drop-down boxes."
+msgstr ""
+"Jei norite blokuoti arba neblokuoti tam tikrų kategorijų portletach, galite "
+"tai padaryti naudojant išskleidžiamajame dėžės."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:26
 #: eea.promotion/eea/promotion/browser/admin.pt:19
@@ -2052,8 +2202,7 @@ msgstr "Vaizdas"
 msgid "Image Size:"
 msgstr "Paveiksliuko dydis:"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:153
-#: eea/mediacentre/Multimedia/multimedia2.pt:131
+#: eea/mediacentre/Multimedia/multimedia.pt:179
 msgid "Image galleries"
 msgstr "Vaizdų galerija"
 
@@ -2071,8 +2220,12 @@ msgid "In the spotlight"
 msgstr "Dėmesio centre"
 
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:16
-msgid "In these websites you will find all the summarised environmental information available in your language."
-msgstr "Iš šių svetainių rasite visą apibendrintą informaciją apie aplinką jūsų kalba."
+msgid ""
+"In these websites you will find all the summarised environmental information "
+"available in your language."
+msgstr ""
+"Iš šių svetainių rasite visą apibendrintą informaciją apie aplinką jūsų "
+"kalba."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:250
 #: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:30
@@ -2112,8 +2265,17 @@ msgid "Info"
 msgstr "Informacija"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:240
-msgid "Information about rights held in and over the resource. Typically a rights element will contain a rights management statement for the resource, or reference a service providing such information. Rights information often encompasses intellectual property rights (IPR), copyright and various property rights"
-msgstr "Informacija apie teisių turėtojų ir daugiau išteklių. Paprastai teisės elementas yra teisių valdymo pareiškimą dėl išteklių, arba nuoroda paslauga, teikianti tokią informaciją. Teisė informacija dažnai apima intelektinės nuosavybės teisių (INT), autorinė teisė ir įvairių nuosavybės teises"
+msgid ""
+"Information about rights held in and over the resource. Typically a rights "
+"element will contain a rights management statement for the resource, or "
+"reference a service providing such information. Rights information often "
+"encompasses intellectual property rights (IPR), copyright and various "
+"property rights"
+msgstr ""
+"Informacija apie teisių turėtojų ir daugiau išteklių. Paprastai teisės "
+"elementas yra teisių valdymo pareiškimą dėl išteklių, arba nuoroda paslauga, "
+"teikianti tokią informaciją. Teisė informacija dažnai apima intelektinės "
+"nuosavybės teisių (INT), autorinė teisė ir įvairių nuosavybės teises"
 
 #: eea/mediacentre/browser/statistics.pt:5
 msgid "Information about the Media centre"
@@ -2143,13 +2305,21 @@ msgstr "Instrukcijos, kaip prisidėti prie ir naudoti šiuos išteklius."
 msgid "Interactive data viewer"
 msgstr "Interaktyvus duomenys žiūrovas"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:51
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:50
 msgid "Interactive data viewers"
 msgstr "Interaktyvūs duomenys žiūrovai"
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:19
-msgid "Interested candidates must apply by filling in the application form below. To the application form must be attached:"
-msgstr "Suinteresuoti kandidatai turi užpildyti paraiškos formoje žemiau. Prie paraiškos turi būti pridėta:"
+msgid ""
+"Interested candidates must apply by filling in the application form below. "
+"To the application form must be attached:"
+msgstr ""
+"Suinteresuoti kandidatai turi užpildyti paraiškos formoje žemiau. Prie "
+"paraiškos turi būti pridėta:"
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:42
+msgid "Interface"
+msgstr "Interfeisas"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:70
 msgid "International cooperation"
@@ -2330,9 +2500,9 @@ msgstr "Teisinis pranešimas"
 msgid "Liechtenstein"
 msgstr "Lichtenšteinas"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:116
-#: eea/mediacentre/browser/multimedia_popup_view.pt:61
-#: eea/mediacentre/browser/video_popup_view.pt:79
+#: eea/mediacentre/Multimedia/multimedia.pt:139
+#: eea/mediacentre/browser/multimedia_popup_view.pt:62
+#: eea/mediacentre/browser/video_popup_view.pt:80
 msgid "Link"
 msgstr "Nuoroda"
 
@@ -2349,12 +2519,22 @@ msgid "Link to full assessment"
 msgstr "Nuoroda į visą vertinimo"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:12
-msgid "Link types are automatically detected on client side by a javascript (scanforlinks) which will add the necessary class icon before the link."
-msgstr "Nuoroda tipai automatiškai aptikti kliento pusėje. JavaScript scanforlinks), kuris pridės būtiną klasės piktogramą prieš nuorodą."
+msgid ""
+"Link types are automatically detected on client side by a javascript "
+"(scanforlinks) which will add the necessary class icon before the link."
+msgstr ""
+"Nuoroda tipai automatiškai aptikti kliento pusėje. JavaScript scanforlinks), "
+"kuris pridės būtiną klasės piktogramą prieš nuorodą."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:307
-msgid "Link types are automatically detected on client side by a javascript which will add the necessary class icon before the link. Here you see some examples:"
-msgstr "Nuoroda tipai automatiškai aptikti kliento pusėje JavaScript, kuris pridės būtiną klasės piktogramą prieš nuorodą. Čia jūs matote kai kuriuos pavyzdžius:"
+msgid ""
+"Link types are automatically detected on client side by a javascript which "
+"will add the necessary class icon before the link. Here you see some "
+"examples:"
+msgstr ""
+"Nuoroda tipai automatiškai aptikti kliento pusėje JavaScript, kuris pridės "
+"būtiną klasės piktogramą prieš nuorodą. Čia jūs matote kai kuriuos "
+"pavyzdžius:"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:312
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:376
@@ -2384,13 +2564,17 @@ msgstr "Saitai"
 msgid "Links in the state ..."
 msgstr "Nuorodos į valstybės ..."
 
+#: eea.relations/eea/relations/browser/template/tool.pt:26
+msgid "List all relations that don't comply portal_relations schema"
+msgstr "Išvardinti visus ryšius, kurie neatitinka portalo_ryšio schemos"
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:11
 msgid "List of all icons available"
 msgstr "Visų turimų ikonų sąrašas"
 
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:15
-msgid "Listing"
-msgstr "Sąrašas"
+#: eea.relations/eea/relations/browser/template/tool.pt:26
+msgid "List of bad relations"
+msgstr "Išvardinti netinkamas ryšius"
 
 #: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:18
 msgid "Listing not available"
@@ -2407,7 +2591,7 @@ msgstr "Lietuvos"
 msgid "Loading..."
 msgstr "Įkeliama..."
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:91
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:97
 msgid "Location"
 msgstr "Vieta"
 
@@ -2420,7 +2604,7 @@ msgstr "Vietos"
 msgid "Log in"
 msgstr "Prisijungti"
 
-#: eea.design/eea/design/browser/templates/comments.pt:30
+#: eea.design/eea/design/browser/templates/comments.pt:31
 msgid "Log in to add comments"
 msgstr "Prisijunkite, jei norite pridėti komentarus"
 
@@ -2441,8 +2625,12 @@ msgid "Long term work"
 msgstr "Ilgalaikis darbas"
 
 #: eea.daviz/eea/daviz/content/schema.py:70
-msgid "Look for compatible datasets in catalogue (e.g. visualization data, .tsv, .csv, SPARQL, etc)"
-msgstr "Ieškokite suderinamų duomenų rinkinių katalogo (pvz., vizualizavimo duomenis, TSV, csv SPARQL, kt.)"
+msgid ""
+"Look for compatible datasets in catalogue (e.g. visualization data, .tsv, ."
+"csv, SPARQL, etc)"
+msgstr ""
+"Ieškokite suderinamų duomenų rinkinių katalogo (pvz., vizualizavimo "
+"duomenis, TSV, csv SPARQL, kt.)"
 
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:19
 msgid "Lost Password"
@@ -2476,7 +2664,7 @@ msgstr "Valdymas Footer Portlety"
 msgid "Manage footer portlets"
 msgstr "Valdymas poraštės portlety"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:98
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:104
 msgid "Map location"
 msgstr "Vieta žemėlapyje"
 
@@ -2486,17 +2674,25 @@ msgid "Maps and graphs"
 msgstr "Žemėlapiai ir grafikai"
 
 #: eea/mediacentre/browser/statistics.pt:9
-msgid "Media Centre is a virtual repository of multimedia files. It can be videos, interviews, maps, animations, images etc. The repository right now contains:"
-msgstr "Media centras yra virtuali multimedijos failų saugykloje. Tai gali būti filmai, interviu, žemėlapiai, animacija, paveikslėlius ir tt saugykloje dabar yra:"
+msgid ""
+"Media Centre is a virtual repository of multimedia files. It can be videos, "
+"interviews, maps, animations, images etc. The repository right now contains:"
+msgstr ""
+"Media centras yra virtuali multimedijos failų saugykloje. Tai gali būti "
+"filmai, interviu, žemėlapiai, animacija, paveikslėlius ir tt saugykloje "
+"dabar yra:"
 
 #: eea/mediacentre/browser/statistics.pt:22
-msgid "Media Centre relies on plugins. Each plugin handles a set of media types and knows how to retrieve media files/data from the repository it handles. When Media Centre is asked for all videos that are available it will forward the question to all registered plugins and will then merge the results."
-msgstr "Media centras priklauso įskiepių. Kiekvienas įskiepiai rankenos žiniasklaidos rūšių rinkinį, ir žino, kaip gauti medijos failus ir (arba) iš saugyklos, jis tvarko duomenis. Media centras paprašė visų video, kad ji bus perduoti klausimą visų registruotų plugins ir tada sujungti rezultatus."
-
-#: eea/mediacentre/browser/video-listed-single.pt:31
-#: eea/mediacentre/browser/video.pt:57
-msgid "Media Type:"
-msgstr "Failo rūšis:"
+msgid ""
+"Media Centre relies on plugins. Each plugin handles a set of media types and "
+"knows how to retrieve media files/data from the repository it handles. When "
+"Media Centre is asked for all videos that are available it will forward the "
+"question to all registered plugins and will then merge the results."
+msgstr ""
+"Media centras priklauso įskiepių. Kiekvienas įskiepiai rankenos "
+"žiniasklaidos rūšių rinkinį, ir žino, kaip gauti medijos failus ir (arba) iš "
+"saugyklos, jis tvarko duomenis. Media centras paprašė visų video, kad ji bus "
+"perduoti klausimą visų registruotų plugins ir tada sujungti rezultatus."
 
 #: eea/mediacentre/profiles/default/actions.xml
 msgid "Media type"
@@ -2609,8 +2805,8 @@ msgstr "Daugiau tinklai"
 msgid "More subscriptions are available at ${link}"
 msgstr "Daugiau prenumerata yra ${link}"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:65
-#: eea/mediacentre/browser/video_popup_view.pt:80
+#: eea/mediacentre/browser/multimedia_popup_view.pt:66
+#: eea/mediacentre/browser/video_popup_view.pt:81
 msgid "More videos"
 msgstr "Daugiau vaizdo įrašų"
 
@@ -2642,17 +2838,13 @@ msgstr "Perkelti aukštyn"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:9
 #: eea/mediacentre/Multimedia/multimedia.pt:7
-#: eea/mediacentre/Multimedia/multimedia2.pt:7
+#: eea/themecentre/skins/themecentre_templates/media_type_common.pt:39
 msgid "Multimedia"
 msgstr "Įvairialypė informacija"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:19
 msgid "Multimedia highlights"
 msgstr "Multimedijos akcentai"
-
-#: eea/mediacentre/Multimedia/multimedia2.pt:134
-msgid "My playlist"
-msgstr "Mano grojaraštis"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:56
 msgid "NOT CHECKED"
@@ -2704,8 +2896,14 @@ msgid "Networks"
 msgstr "Tinklai"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:37
-msgid "New icons or updates can be done via the mimetypes_registry in the Plone CMS or through the EEADesign2006 product. Contact the EEA web development team in this case."
-msgstr "Nauji piktogramas ar atnaujinimai gali būti padaryta per Plone CMS arba per EEADesign2006 produkto mimetypes_registry,,. Susisiekite su EAA interneto svetainės komanda šiuo atveju vystymuisi."
+msgid ""
+"New icons or updates can be done via the mimetypes_registry in the Plone CMS "
+"or through the EEADesign2006 product. Contact the EEA web development team "
+"in this case."
+msgstr ""
+"Nauji piktogramas ar atnaujinimai gali būti padaryta per Plone CMS arba per "
+"EEADesign2006 produkto mimetypes_registry,,. Susisiekite su EAA interneto "
+"svetainės komanda šiuo atveju vystymuisi."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:190
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:72
@@ -2723,7 +2921,7 @@ msgstr "Naujai sukurtas darbas punktas"
 msgid "News"
 msgstr "Naujienos"
 
-#: eea/mediacentre/browser/video_popup_view.pt:35
+#: eea/mediacentre/browser/video_popup_view.pt:36
 msgid "News and articles"
 msgstr "Naujienos ir straipsniai"
 
@@ -2764,8 +2962,12 @@ msgid "No media files of this kind yet."
 msgstr "Nėra tokio pobūdžio garso ir vaizdo failus dar nėra."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:159
-msgid "No methodology for gap filling has been specified. Probably this info has been added together with indicator calculation."
-msgstr "Jokio tarpelio pildymo metodika buvo nurodyta. Tikriausiai ši informacija buvo pridėta kartu su rodiklių skaičiavimo."
+msgid ""
+"No methodology for gap filling has been specified. Probably this info has "
+"been added together with indicator calculation."
+msgstr ""
+"Jokio tarpelio pildymo metodika buvo nurodyta. Tikriausiai ši informacija "
+"buvo pridėta kartu su rodiklių skaičiavimo."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:153
 msgid "No methodology for indicator calculation has been specified"
@@ -2785,11 +2987,13 @@ msgstr "Nėra paskelbtų vertinimai"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:55
 msgid "No reference set. Click the add button to select."
-msgstr "Nr nuoroda nustatyti. Spustelėkite Pridėti mygtuką, kad pasirinktumėte."
+msgstr ""
+"Nr nuoroda nustatyti. Spustelėkite Pridėti mygtuką, kad pasirinktumėte."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:142
 msgid "No reference set. Click the browse button to select."
-msgstr "Nr nuoroda nustatyti. Spustelėkite naršymo mygtuką, kad pasirinktumėte."
+msgstr ""
+"Nr nuoroda nustatyti. Spustelėkite naršymo mygtuką, kad pasirinktumėte."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:129
 msgid "No related policy documents have been specified"
@@ -2848,9 +3052,13 @@ msgstr "Norvegija"
 msgid "Norwegian"
 msgstr "Norvegų"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:25
-msgid "Note that for authenticated users the info below include the unpublished content."
-msgstr "Atkreipkite dėmesį, kad autentifikuotų vartotojų informacija žemiau nepublikuotą turinį."
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:27
+msgid ""
+"Note that for authenticated users the info below include the unpublished "
+"content."
+msgstr ""
+"Atkreipkite dėmesį, kad autentifikuotų vartotojų informacija žemiau "
+"nepublikuotą turinį."
 
 #: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:16
 msgid "Note: new version is available!"
@@ -2890,11 +3098,20 @@ msgid "Older versions"
 msgstr "Senesnės versijos"
 
 #: EEAContentTypes/browser/reorder.pt:69
-msgid "On the left side you have a list resources. Drag from the handle icon to reorder. After reordering, you need to use the Save button at the bottom of the list. On the right side you can see how the resources have been composed. Notice: this is not a preview. Hitting Save will generate new merged resources."
-msgstr "Kairėje pusėje turite sąrašas išteklius. Vilkite iš rankenos piktogramą, pertvarkymui. Po pertvarkymą jums reikia naudoti mygtuką Išsaugoti sąrašo apačioje. Dešinėje pusėje galite pamatyti, kaip šie ištekliai buvo sudarytas. Pastaba: tai nėra peržiūra. Paspaudus Įrašyti sukurs naujas apjungtas išteklius."
+msgid ""
+"On the left side you have a list resources. Drag from the handle icon to "
+"reorder. After reordering, you need to use the Save button at the bottom of "
+"the list. On the right side you can see how the resources have been "
+"composed. Notice: this is not a preview. Hitting Save will generate new "
+"merged resources."
+msgstr ""
+"Kairėje pusėje turite sąrašas išteklius. Vilkite iš rankenos piktogramą, "
+"pertvarkymui. Po pertvarkymą jums reikia naudoti mygtuką Išsaugoti sąrašo "
+"apačioje. Dešinėje pusėje galite pamatyti, kaip šie ištekliai buvo "
+"sudarytas. Pastaba: tai nėra peržiūra. Paspaudus Įrašyti sukurs naujas "
+"apjungtas išteklius."
 
-#: eea/mediacentre/Multimedia/multimedia.pt:58
-#: eea/mediacentre/Multimedia/multimedia2.pt:56
+#: eea/mediacentre/Multimedia/multimedia.pt:66
 msgid "One degree matters"
 msgstr "Vienu laipsnių klausimai su"
 
@@ -2925,8 +3142,11 @@ msgstr "Organizacijos svetainė"
 msgid "Organisations control panel"
 msgstr "Organizacijos valdymo pultas"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:119
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:32
+msgid "Organisations not in use"
+msgstr "Nevartojamos organizacijos"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:119
 msgid "Organisations with no reference"
 msgstr "Be nuorodos organizacijos"
 
@@ -2965,7 +3185,6 @@ msgid "Other resources"
 msgstr "Kiti ištekliai"
 
 #: eea/mediacentre/Multimedia/multimedia.pt:52
-#: eea/mediacentre/Multimedia/multimedia2.pt:61
 msgid "Our arctic challenge"
 msgstr "Mūsų arktinis iššūkis"
 
@@ -2982,7 +3201,7 @@ msgstr "Valdymas užsakymo tekstą savo tekstu"
 msgid "Owner"
 msgstr "Savininkas"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:31
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:33
 msgid "Owner of:"
 msgstr "Savininkas:"
 
@@ -3049,10 +3268,6 @@ msgstr "Nuolatiniai"
 msgid "Permissions Overview for Indicators Database"
 msgstr "Leidimai Apžvalga Rodiklių duomenų bazėje"
 
-#: eea.design/eea/design/browser/templates/personal_bar.pt:4
-msgid "Personal tools"
-msgstr "Asmeniniai įrankiai"
-
 #: eea.design/eea/design/browser/templates/colophon.pt:20
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:154
 msgid "Phone:"
@@ -3062,14 +3277,14 @@ msgstr "Telefonas:"
 msgid "Play in popup window"
 msgstr "Žaisti lango"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:157
+#: eea/mediacentre/Multimedia/multimedia.pt:183
 msgid "Playlists"
 msgstr "Grojaraščiai"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:84
-#: eea/mediacentre/Multimedia/multimedia2.pt:87
+#: eea/mediacentre/Multimedia/multimedia.pt:107
 msgid "Please enable javascript or upgrade to ${flash} to watch the video."
-msgstr "Prašome įjunkite javascript, arba atnaujinti į ${flash} žiūrėti vaizdo įrašą."
+msgstr ""
+"Prašome įjunkite javascript, arba atnaujinti į ${flash} žiūrėti vaizdo įrašą."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:24
 msgid "Please fill in"
@@ -3084,7 +3299,7 @@ msgid "Please provide the following contact information"
 msgstr "Prašome pateikti šią kontaktinę informaciją"
 
 #: eea.indicators/eea/indicators/browser/specification.py:259
-#: eea.versions/eea/versions/versions.py:494
+#: eea.versions/eea/versions/versions.py:497
 msgid "Please specify a valid Version ID."
 msgstr "Nurodykite galiojantį versiją ID."
 
@@ -3120,6 +3335,7 @@ msgid "Portal messages"
 msgstr "Portalo pranešimų"
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:31
+#: eea.relations/eea/relations/browser/template/badrelations.pt:29
 msgid "Portal type"
 msgstr "Portalas tipas"
 
@@ -3165,7 +3381,9 @@ msgstr "Ant senojo EEE domeno pristatymas"
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:43
 msgid "Press the link to create a new content item in its default location"
-msgstr "Paspauskite nuorodą, jei norite sukurti naują turinio elementą savo numatytąją vietą"
+msgstr ""
+"Paspauskite nuorodą, jei norite sukurti naują turinio elementą savo "
+"numatytąją vietą"
 
 #: EEAContentTypes/skins/EEAContentTypes/highlight_macros.pt:167
 #: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:170
@@ -3192,7 +3410,7 @@ msgstr "Pirminė tema:"
 msgid "Privacy policy"
 msgstr "Privatumo politika"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:56
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:62
 msgid "Processor of:"
 msgstr "Procesorius:"
 
@@ -3273,8 +3491,8 @@ msgstr "Paskelbta (peržiūrėti ir užtikrinama kokybė)"
 msgid "Published by"
 msgstr "Išleido"
 
-#: eea/mediacentre/browser/video-listed-single.pt:37
-#: eea/mediacentre/browser/video.pt:63
+#: eea/mediacentre/browser/video-listed-single.pt:35
+#: eea/mediacentre/browser/video.pt:61
 #: eea/themecentre/skins/themecentre_templates/listall.pt:29
 msgid "Published:"
 msgstr "Paskelbta:"
@@ -3284,19 +3502,18 @@ msgid "Publishers"
 msgstr "Leidėjai"
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:59
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:112
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:117
 #: eea.sparql/eea/sparql/browser/view.pt:100
 msgid "Query will not return a result."
 msgstr "Užklausa negrąžina rezultato."
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:56
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:109
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:114
 #: eea.sparql/eea/sparql/browser/view.pt:97
 msgid "Query will return a result."
 msgstr "Užklausa grįš rezultatą."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:22
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:17
 msgid "Quick overview"
 msgstr "Trumpa apžvalga"
 
@@ -3408,7 +3625,7 @@ msgstr "Susijusios temos"
 msgid "Related topics"
 msgstr "Susijusios temos"
 
-#: eea/mediacentre/browser/video_popup_view.pt:34
+#: eea/mediacentre/browser/video_popup_view.pt:35
 msgid "Related videos"
 msgstr "Susiję video"
 
@@ -3460,9 +3677,13 @@ msgstr "Pertvarkyti išteklius"
 msgid "Replace with new file:"
 msgstr "Pakeiskite naują failą:"
 
-#: eea.design/eea/design/browser/templates/comments.pt:134
+#: eea.design/eea/design/browser/templates/comments.pt:135
 msgid "Reply"
 msgstr "Atsakyti"
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:58
+msgid "Report"
+msgstr "Ataskaita"
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:60
 msgid "Report number"
@@ -3490,8 +3711,16 @@ msgid "Reporting obligations (ROD)"
 msgstr "Atskaitomybės įsipareigojimai (ROD)"
 
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:18
-msgid "Reporting obligations are requirements to provide information agreed between countries and international bodies such as the EEA or international conventions. Reporting obligations provide the basis for most environmental information flows."
-msgstr "Atsiskaitymo įsipareigojimai reikalavimai teikti informaciją, dėl kurios susitarta tarp šalių ir tarptautinėmis institucijomis, pavyzdžiui, EEE arba tarptautines konvencijas. Atsiskaitymo įsipareigojimai suteikia pagrindą aplinkos informacijos srautų."
+msgid ""
+"Reporting obligations are requirements to provide information agreed between "
+"countries and international bodies such as the EEA or international "
+"conventions. Reporting obligations provide the basis for most environmental "
+"information flows."
+msgstr ""
+"Atsiskaitymo įsipareigojimai reikalavimai teikti informaciją, dėl kurios "
+"susitarta tarp šalių ir tarptautinėmis institucijomis, pavyzdžiui, EEE arba "
+"tarptautines konvencijas. Atsiskaitymo įsipareigojimai suteikia pagrindą "
+"aplinkos informacijos srautų."
 
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:22
 msgid "Reporting obligations related to data stored at EEA"
@@ -3598,7 +3827,7 @@ msgstr "SOER pranešimą"
 msgid "SOER viral video message"
 msgstr "SOER virusinės vaizdo žinutė"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:65
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:70
 #: eea.sparql/eea/sparql/browser/view.pt:66
 msgid "SPARQL Endpoint:"
 msgstr "SPARQL Endpoint:"
@@ -3607,13 +3836,12 @@ msgstr "SPARQL Endpoint:"
 msgid "SPARQL Query:"
 msgstr "SPARQL Užklausa:"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:70
-#: eea/mediacentre/Multimedia/multimedia2.pt:73
+#: eea/mediacentre/Multimedia/multimedia.pt:93
 msgid "Sample Text"
 msgstr "Pavyzdinis tekstas"
 
 #: EEAContentTypes/browser/reorder.pt:76
-#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:135
+#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:145
 #: eea.app.visualization/eea/app/visualization/facets/edit.py:65
 msgid "Save"
 msgstr "&Išsaugoti"
@@ -3671,6 +3899,10 @@ msgstr "Paieška duomenys, žemėlapiai, rodikliai"
 msgid "Search for Publication by title"
 msgstr "Ieškoti pagal pavadinimą paskelbimas"
 
+#: eea.relations/eea/relations/browser/template/badrelations.pt:12
+msgid "Search for bad relations"
+msgstr "Ieškoti netinkamų ryšių"
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:345
 msgid "Search on data set and application"
 msgstr "Paieška duomenų rinkinį ir taikyti"
@@ -3688,8 +3920,7 @@ msgstr "Ieškoti šį įrašą"
 msgid "Search this site"
 msgstr "Ieškoti šioje svetainėje"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:99
-#: eea/mediacentre/Multimedia/multimedia2.pt:102
+#: eea/mediacentre/Multimedia/multimedia.pt:122
 msgid "Search videos, animations, image galleries"
 msgstr "Ieškoti video, animacija, vaizdo galerijos"
 
@@ -3711,7 +3942,7 @@ msgstr "Antrasis skirtukas su ilgesnį pavadinimą"
 msgid "Sections"
 msgstr "Skyriai"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:50
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:49
 msgid "See all"
 msgstr "Žiūrėti visus"
 
@@ -3742,7 +3973,9 @@ msgstr "Atrinkti visus elementus"
 
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:26
 msgid "Select an item bellow to inherit faceted navigation configuration"
-msgstr "Pasirinkite elementą žemiau paveldėti aspektų apimantį navigacijos konfigūraciją"
+msgstr ""
+"Pasirinkite elementą žemiau paveldėti aspektų apimantį navigacijos "
+"konfigūraciją"
 
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:40
 msgid "Select figures to be converted."
@@ -3752,15 +3985,23 @@ msgstr "Pasirinkite skaičiai turi būti perskaičiuotos."
 msgid "Select from existing tags."
 msgstr "Pasirinkite iš esamų žymių."
 
+#: eea.relations/eea/relations/browser/template/badrelations.pt:43
+msgid "Select interface"
+msgstr "Pasirinkti interfeisą"
+
 #: eea.dataservice/eea/dataservice/templates/select_template.pt:10
 msgid "Select one of the below templates to apply its metadata."
 msgstr "Pasirinkite vieną iš žemiau šablonų taiko savo metaduomenis."
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:30
+msgid "Select portal type"
+msgstr "Parinkti portalo tipą"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/temporal_widget.pt:86
 msgid "Selected value:"
 msgstr "Pasirinkta vertė:"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:65
 msgid "Semantic Data Service"
 msgstr "Semantiniai duomenų tarnyba"
 
@@ -3817,8 +4058,8 @@ msgstr "Rodyti žemėlapio peržiūrą"
 msgid "Show table definition"
 msgstr "Rodyti lentelės apibrėžimą"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:46
-#: eea/mediacentre/browser/video_popup_view.pt:65
+#: eea/mediacentre/browser/multimedia_popup_view.pt:47
+#: eea/mediacentre/browser/video_popup_view.pt:66
 msgid "Show the publishdate only (effective date)"
 msgstr ", Rodyti publishdate tik (įsigaliojimo data)"
 
@@ -3827,7 +4068,8 @@ msgid "Sign up now!"
 msgstr "Prisijunk dabar!"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:46
-msgid "Since cookie authentication is disabled, cookie-based login is not available."
+msgid ""
+"Since cookie authentication is disabled, cookie-based login is not available."
 msgstr "Kadangi slapukas autentiškumo išjungtas slapukų prisijungusi nėra."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:53
@@ -3999,13 +4241,9 @@ msgstr "Prenumeruoti visada atnaujintos rinkmenos šių paieškos terminus"
 msgid "Subtopics"
 msgstr "Poskyriai"
 
-#: eea.googlecharts/eea/googlecharts/views/chart.py:307
+#: eea.googlecharts/eea/googlecharts/views/chart.py:342
 msgid "Success"
 msgstr "Sėkmė"
-
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:18
-msgid "Summary view"
-msgstr "Santrauka vaizdas"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:60
 msgid "Sustainable Consumption and Production (SCP)"
@@ -4034,11 +4272,11 @@ msgstr "Perjungti į visą indikatoriaus siekiant"
 msgid "Switzerland"
 msgstr "Šveicarija "
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:69
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:74
 msgid "Synchronisation info"
 msgstr "Sinchronizacija informacija"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:99
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:104
 msgid "Synchronize Queries with Bookmarks"
 msgstr "Užklausų sinchronizuoti su Bookmarks"
 
@@ -4049,10 +4287,6 @@ msgstr "Sintezė"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:31
 msgid "Table definition"
 msgstr "Stalo apibrėžimas"
-
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:27
-msgid "Tabs view"
-msgstr "Kortelės vaizdas"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:401
 msgid "Tags:"
@@ -4076,8 +4310,12 @@ msgid "Test links"
 msgstr "Bandymo nuorodos"
 
 #: EEAContentTypes/skins/EEAContentTypes/event_submitted_confirmation.pt:15
-msgid "Thank you for your event. The EEA web team will try to publish it as soon as possible."
-msgstr "Dėkojame už jūsų atveju. EAA interneto svetainės komanda bandys jį kuo greičiau paskelbti."
+msgid ""
+"Thank you for your event. The EEA web team will try to publish it as soon as "
+"possible."
+msgstr ""
+"Dėkojame už jūsų atveju. EAA interneto svetainės komanda bandys jį kuo "
+"greičiau paskelbti."
 
 #: EEAContentTypes/skins/EEAContentTypes/cftrequest_confirmation.pt:9
 msgid "Thank you for your request"
@@ -4088,7 +4326,8 @@ msgid "Thank you."
 msgstr "Ačiū"
 
 #: eea.design/eea/design/browser/templates/colophon.pt:28
-msgid "The European Environment Agency (EEA) is an agency of the European Union."
+msgid ""
+"The European Environment Agency (EEA) is an agency of the European Union."
 msgstr "Europos aplinkos agentūra (EAA) yra Europos Sąjungos agentūra."
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:47
@@ -4106,44 +4345,91 @@ msgid "The codes will be changed from ${code} to ${new-code}."
 msgstr "Kodai bus pakeista iš ${code} ${new-code}."
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:32
-msgid "The content you were viewing does not exist in the language you just selected. The site language has been switched to ${language} and you can keep browsing the site in this language."
-msgstr "Į kalbą, kurią ką tik pasirinktą turinį, jūs žiūrėjote neegzistuoja. Svetainės kalba buvo įjungtas į ${language}, ir jūs galite toliau naršyti svetainę šia kalba."
+msgid ""
+"The content you were viewing does not exist in the language you just "
+"selected. The site language has been switched to ${language} and you can "
+"keep browsing the site in this language."
+msgstr ""
+"Į kalbą, kurią ką tik pasirinktą turinį, jūs žiūrėjote neegzistuoja. "
+"Svetainės kalba buvo įjungtas į ${language}, ir jūs galite toliau naršyti "
+"svetainę šia kalba."
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:306
-msgid "The country assessments are the sole responsibility of the EEA member and cooperating countries supported by the EEA through guidance, translation and editing."
-msgstr "Šalių vertinimai yra atsakinga tik EEE valstybių ir bendradarbiaujančių šalių remiamą EEE pasitelkiant orientavimą, vertimo ir redagavimo."
+msgid ""
+"The country assessments are the sole responsibility of the EEA member and "
+"cooperating countries supported by the EEA through guidance, translation and "
+"editing."
+msgstr ""
+"Šalių vertinimai yra atsakinga tik EEE valstybių ir bendradarbiaujančių "
+"šalių remiamą EEE pasitelkiant orientavimą, vertimo ir redagavimo."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:154
 msgid "The error has been logged as entry number ${entryid}."
 msgstr "Klaida buvo užfiksuota kaip įėjimo ${entryid}."
 
 #: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:22
-msgid "The folder you are trying to access is still in draft and therefore its content cannot be listed. If you are a content manager of this site, you need to login and publish this folder."
-msgstr "Aplankas, kurį bandote pasiekti, yra dar projektu, ir todėl jos turinys negali būti išvardyti. Jei esate turinys vadybininkas šios svetainės, Jūs turite prisijungti, ir skelbti šį aplanką."
+msgid ""
+"The folder you are trying to access is still in draft and therefore its "
+"content cannot be listed. If you are a content manager of this site, you "
+"need to login and publish this folder."
+msgstr ""
+"Aplankas, kurį bandote pasiekti, yra dar projektu, ir todėl jos turinys "
+"negali būti išvardyti. Jei esate turinys vadybininkas šios svetainės, Jūs "
+"turite prisijungti, ir skelbti šį aplanką."
 
 #: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:18
-msgid "The following Indicator Specifications belong to the same versioning group but have a different main code. There are two ways of fixing this: either assign all the codes of this current specification, or assign just the maincode of this specification."
-msgstr "Šie indikatorių specifikacijos priklauso tai pačiai versijų grupei, bet turi kitą pagrindinį kodą. Tvirtinimo Yra du būdai: arba priskirti visus šio specifikacijos kodus, arba priskirti tik, šią specifikaciją maincode,."
+msgid ""
+"The following Indicator Specifications belong to the same versioning group "
+"but have a different main code. There are two ways of fixing this: either "
+"assign all the codes of this current specification, or assign just the "
+"maincode of this specification."
+msgstr ""
+"Šie indikatorių specifikacijos priklauso tai pačiai versijų grupei, bet turi "
+"kitą pagrindinį kodą. Tvirtinimo Yra du būdai: arba priskirti visus šio "
+"specifikacijos kodus, arba priskirti tik, šią specifikaciją maincode,."
 
 #: eea.sparql/eea/sparql/browser/view.pt:59
-msgid "The following info can be used by a system developer / database administrator in order to retrieve this dataset programmatically over the web using a SPARQL client."
-msgstr "Ši informacija gali būti naudojama sistemos kūrėjas / Duomenų bazės administratoriaus, kad gauti šį rinkinį programiškai SPARQL klientui naudojant per www."
+msgid ""
+"The following info can be used by a system developer / database "
+"administrator in order to retrieve this dataset programmatically over the "
+"web using a SPARQL client."
+msgstr ""
+"Ši informacija gali būti naudojama sistemos kūrėjas / Duomenų bazės "
+"administratoriaus, kad gauti šį rinkinį programiškai SPARQL klientui "
+"naudojant per www."
 
 #: eea.indicators/eea/indicators/skins/indicators_templates/policy_doc_view.pt:9
 msgid "The link address is:"
 msgstr "Nuoroda adresas yra:"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:228
-msgid "The name given to the resource. Typically, a title will be a name by which the resource is formally known"
-msgstr "Pavadinimas, suteiktas išteklių. Paprastai pavadinimas yra pavadinimas, kuriuo ištekliai yra oficialiai žinomas"
+msgid ""
+"The name given to the resource. Typically, a title will be a name by which "
+"the resource is formally known"
+msgstr ""
+"Pavadinimas, suteiktas išteklių. Paprastai pavadinimas yra pavadinimas, "
+"kuriuo ištekliai yra oficialiai žinomas"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:232
-msgid "The nature or genre of the content of the resource. Type includes terms describing general categories, functions, genres, or aggregation levels for content"
-msgstr "Pobūdis arba žanras ištekliaus turinio. Tipas apima bendrąsias kategorijas apibūdinančias sąvokas, funkcijas, žanrus, ar agregavimo lygį turiniui"
+msgid ""
+"The nature or genre of the content of the resource. Type includes terms "
+"describing general categories, functions, genres, or aggregation levels for "
+"content"
+msgstr ""
+"Pobūdis arba žanras ištekliaus turinio. Tipas apima bendrąsias kategorijas "
+"apibūdinančias sąvokas, funkcijas, žanrus, ar agregavimo lygį turiniui"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:55
-msgid "The portlet columns will now display only those portlets explicitly assigned in this context. Use the buttons on each portlet to move them up or down, delete or edit them. To add a new portlet, use the drop-down list at the top of the column."
-msgstr "Parameter Dabar stulpeliai bus rodomi tik tuos portlety aiškiai paskirtas šiame kontekste. Naudokite mygtukus ant kiekvieno modulio ir perkelti juos aukštyn arba žemyn, ištrinti arba redaguoti juos. Norėdami pridėti naują pavaizdavimas, naudoti išplečiamojo sąrašo stulpelio viršuje."
+msgid ""
+"The portlet columns will now display only those portlets explicitly assigned "
+"in this context. Use the buttons on each portlet to move them up or down, "
+"delete or edit them. To add a new portlet, use the drop-down list at the top "
+"of the column."
+msgstr ""
+"Parameter Dabar stulpeliai bus rodomi tik tuos portlety aiškiai paskirtas "
+"šiame kontekste. Naudokite mygtukus ant kiekvieno modulio ir perkelti juos "
+"aukštyn arba žemyn, ištrinti arba redaguoti juos. Norėdami pridėti naują "
+"pavaizdavimas, naudoti išplečiamojo sąrašo stulpelio viršuje."
 
 #: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:504
 msgid "The source file XML contains the following organisations:"
@@ -4177,8 +4463,12 @@ msgstr "Temos ir duomenys"
 
 #: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:124
 #: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:123
-msgid "There are currently no criteria on which to search. Please add them using the 'criteria' tab."
-msgstr "Šiuo metu jokių kriterijai ieškoti. Prašome pridėti juos naudojant skirtuką 'kriterijus'."
+msgid ""
+"There are currently no criteria on which to search. Please add them using "
+"the 'criteria' tab."
+msgstr ""
+"Šiuo metu jokių kriterijai ieškoti. Prašome pridėti juos naudojant skirtuką "
+"'kriterijus'."
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:120
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:143
@@ -4193,8 +4483,12 @@ msgid "There are currently no results for this search."
 msgstr "Šiuo metu nėra šios paieškos rezultatų."
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:128
-msgid "There are legacy portlets defined here. Click the button to convert them to new-style portlets."
-msgstr "Yra čia apibrėžtus palikimas portletom. Spustelėkite mygtuką konvertuoti juos į naujo stiliaus portletów."
+msgid ""
+"There are legacy portlets defined here. Click the button to convert them to "
+"new-style portlets."
+msgstr ""
+"Yra čia apibrėžtus palikimas portletom. Spustelėkite mygtuką konvertuoti "
+"juos į naujo stiliaus portletów."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:335
 msgid "There are more icons detected, see ${link}"
@@ -4217,8 +4511,12 @@ msgid "This FAQ applies to a previous version"
 msgstr "Šie DUK tinka, ankstesnės versijos"
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:42
-msgid "This content does not exist in your current language, ${language}, but you can keep browsing the site in this language."
-msgstr "Šis turinys nėra jūsų dabartinėje kalboje, ${language}, bet jūs galite toliau naršyti svetainę šia kalba."
+msgid ""
+"This content does not exist in your current language, ${language}, but you "
+"can keep browsing the site in this language."
+msgstr ""
+"Šis turinys nėra jūsų dabartinėje kalboje, ${language}, bet jūs galite "
+"toliau naršyti svetainę šia kalba."
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:46
 msgid "This document is locked."
@@ -4226,14 +4524,26 @@ msgstr "Šis dokumentas yra užrakinta."
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:161
 msgid "This figure has no data source. For further information contact"
-msgstr "Šis skaičius neturi duomenų šaltinį. Dėl išsamesnės informacijos kreipkitės"
+msgstr ""
+"Šis skaičius neturi duomenų šaltinį. Dėl išsamesnės informacijos kreipkitės"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:14
-msgid "This file contains links that should be marked in different ways by the mark_special_link.js script. This is to test and verify that it works. Try it with <br /> ${normal} ${swedish-site} <br />"
-msgstr "Šis failas yra nuorodų, kad turėtų būti ženklinami skirtingai mark_special_link.js scenarijų. Tai yra išbandyti ir patikrinti, ar ji veikia. Išbandykite <br /> ${normal} ${swedish-site} <br />"
+msgid ""
+"This file contains links that should be marked in different ways by the "
+"mark_special_link.js script. This is to test and verify that it works. Try "
+"it with <br /> ${normal} ${swedish-site} <br />"
+msgstr ""
+"Šis failas yra nuorodų, kad turėtų būti ženklinami skirtingai "
+"mark_special_link.js scenarijų. Tai yra išbandyti ir patikrinti, ar ji "
+"veikia. Išbandykite <br /> ${normal} ${swedish-site} <br />"
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:16
+msgid "This form will help you find deprecated relation between portal content"
+msgstr "Ši forma padės Jums rasti neatitikimus esančius portalo turinyje"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:16
-msgid "This indicator has a newer version, ${spec-title} from ${indicator-date}."
+msgid ""
+"This indicator has a newer version, ${spec-title} from ${indicator-date}."
 msgstr "Šis rodiklis turi naujesnę versiją, ${spec-title} ${indicator-date}."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:276
@@ -4274,7 +4584,8 @@ msgstr "Šis punktas taikomas su ankstesne versija"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:251
 msgid "This item does not have any body text, click the edit tab to change it."
-msgstr "Šis punktas neturi jokio teksto, spustelėkite skirtuką Redaguoti jį pakeisti."
+msgstr ""
+"Šis punktas neturi jokio teksto, spustelėkite skirtuką Redaguoti jį pakeisti."
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/schemata_edit_macros.pt:38
 #: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:46
@@ -4300,20 +4611,37 @@ msgstr "Šis puslapis suteikia informaciją apie jūsų themecentre sąsajų."
 #: EEAContentTypes/skins/EEAContentTypes/document_with_flash_view.pt:18
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_fixed_width_view.pt:23
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_popup_window.pt:17
-msgid "This page requires Flashplayer, please download it for free from ${flashplayer-link}"
-msgstr "Šis puslapis reikalauja Flashplayer, galite jį atsisiųsti nemokamai nuo ${flashplayer-link}"
+msgid ""
+"This page requires Flashplayer, please download it for free from "
+"${flashplayer-link}"
+msgstr ""
+"Šis puslapis reikalauja Flashplayer, galite jį atsisiųsti nemokamai nuo "
+"${flashplayer-link}"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:17
-msgid "This page shows common html markup, css classes and javascripts we use across the EEA website. See example code and use Firefox Firebug plugin to inspect elements code."
-msgstr "Šis puslapis rodo bendrą žymėjimą html, css klasių ir JAVASCRIPTS mes naudojame per EAA tinklalapyje. Žr pavyzdį kodą ir naudoti Firefox Firebug plugin tikrinti elementai kodą."
+msgid ""
+"This page shows common html markup, css classes and javascripts we use "
+"across the EEA website. See example code and use Firefox Firebug plugin to "
+"inspect elements code."
+msgstr ""
+"Šis puslapis rodo bendrą žymėjimą html, css klasių ir JAVASCRIPTS mes "
+"naudojame per EAA tinklalapyje. Žr pavyzdį kodą ir naudoti Firefox Firebug "
+"plugin tikrinti elementai kodą."
 
 #: eea.design/eea/design/skins/eea_design/main_template.pt:233
-msgid "This page was translated by the Translation Centre for the Bodies of the European Union (CdT)"
-msgstr "Šis puslapis buvo išverstas Vertimo centras Europos Sąjungos įstaigų (CdT)"
+msgid ""
+"This page was translated by the Translation Centre for the Bodies of the "
+"European Union (CdT)"
+msgstr ""
+"Šis puslapis buvo išverstas Vertimo centras Europos Sąjungos įstaigų (CdT)"
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:14
-msgid "This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser."
-msgstr "Ši svetainė turi ribotą funkcionalumą su javascript išjungtas. Prašome įsitikinkite, kad jūsų naršyklėje įjungtas JavaScript."
+msgid ""
+"This website has limited functionality with javascript off. Please make sure "
+"javascript is enabled in your browser."
+msgstr ""
+"Ši svetainė turi ribotą funkcionalumą su javascript išjungtas. Prašome "
+"įsitikinkite, kad jūsų naršyklėje įjungtas JavaScript."
 
 #: eea/mediacentre/browser/video-listed-single.pt:28
 #: eea/mediacentre/browser/video.pt:54
@@ -4335,20 +4663,33 @@ msgid "Title/Description"
 msgstr "Pavadinimas / aprašymas"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:194
-msgid "To access this part of the site, you need to log in with your user name and password. You can use your Eionet username and password."
-msgstr "Norėdami prieiti prie šios svetainės dalį, jūs turite prisijungti su savo vartotojo vardu ir slaptažodžiu. Galite naudoti savo Eionet vartotojo vardą ir slaptažodį."
+msgid ""
+"To access this part of the site, you need to log in with your user name and "
+"password. You can use your Eionet username and password."
+msgstr ""
+"Norėdami prieiti prie šios svetainės dalį, jūs turite prisijungti su savo "
+"vartotojo vardu ir slaptažodžiu. Galite naudoti savo Eionet vartotojo vardą "
+"ir slaptažodį."
 
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:18
-msgid "To access your EEA notification service account please enter your email."
-msgstr "Norėdami prieiti prie savo EEE pranešimų paslaugos paskyrą, prašome įvesti savo elektroninio pašto adresą."
+msgid ""
+"To access your EEA notification service account please enter your email."
+msgstr ""
+"Norėdami prieiti prie savo EEE pranešimų paslaugos paskyrą, prašome įvesti "
+"savo elektroninio pašto adresą."
 
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:32
 msgid "To reset your password visit ${mail}."
 msgstr "Norėdami iš naujo nustatyti slaptažodį, apsilankykite ${mail}."
 
 #: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:18
-msgid "To unsubscribe from EEA notification service please enter your email. You will receive an email in order to confirm your unsubscription."
-msgstr "Norėdami išeiti iš EEE pranešimo paslaugos, prašome įvesti savo elektroninio pašto adresą. Jūs gausite elektroninį laišką, siekiant patvirtinti Jūsų prenumeratos nutraukimo."
+msgid ""
+"To unsubscribe from EEA notification service please enter your email. You "
+"will receive an email in order to confirm your unsubscription."
+msgstr ""
+"Norėdami išeiti iš EEE pranešimo paslaugos, prašome įvesti savo elektroninio "
+"pašto adresą. Jūs gausite elektroninį laišką, siekiant patvirtinti Jūsų "
+"prenumeratos nutraukimo."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:215
 msgid "Tooltips"
@@ -4420,6 +4761,10 @@ msgstr "Pervedimas iš"
 msgid "Transfer references"
 msgstr "Perkelkite nuorodos"
 
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:22
+msgid "Transfer relations"
+msgstr "Perkėlimo ryšiai"
+
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:65
 msgid "Transfer to"
 msgstr "Perkėlimas į"
@@ -4466,7 +4811,7 @@ msgstr "Tipas:"
 msgid "Typology"
 msgstr "Tipologija"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:75
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:81
 msgid "URL"
 msgstr "URL adresas"
 
@@ -4541,23 +4886,35 @@ msgstr "Miesto aplinka"
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:47
 msgid "Use Control/Command/Shift keys to select multiple tags."
-msgstr "Naudokite kontrolės ir valdymo / Shift klavišus, kad pasirinktumėte kelis žodžius."
+msgstr ""
+"Naudokite kontrolės ir valdymo / Shift klavišus, kad pasirinktumėte kelis "
+"žodžius."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:22
 msgid "Use of AND/OR/* is supported."
 msgstr "Žemėtvarka IR / ARBA / * palaiko."
 
 #: eea.alchemy/eea/alchemy/browser/zpt/tool.pt:34
-msgid "Use the form bellow to auto-discover and update documents geotags, temportal coverage and keywords"
-msgstr "Naudokite formą žemiau automatiškai rasti ir atnaujinti dokumentų Geotag,, temportal draudimą ir raktažodžius"
+msgid ""
+"Use the form bellow to auto-discover and update documents geotags, temportal "
+"coverage and keywords"
+msgstr ""
+"Naudokite formą žemiau automatiškai rasti ir atnaujinti dokumentų Geotag,, "
+"temportal draudimą ir raktažodžius"
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:17
 msgid "Use the form below to define, change or remove custom portal types."
-msgstr "Naudokite žemiau pateiktą formą, nustatyti, pakeisti arba pašalinti pasirinktines portalo rūšis."
+msgstr ""
+"Naudokite žemiau pateiktą formą, nustatyti, pakeisti arba pašalinti "
+"pasirinktines portalo rūšis."
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:12
-msgid "Use this form to submit an environmental event. We will then check if the submitted event is relevant for publishing."
-msgstr "Naudokite šią formą norėdami pateikti aplinkos įvykį. Mes tada patikrinkite, ar įvykis yra svarbūs leidybai."
+msgid ""
+"Use this form to submit an environmental event. We will then check if the "
+"submitted event is relevant for publishing."
+msgstr ""
+"Naudokite šią formą norėdami pateikti aplinkos įvykį. Mes tada patikrinkite, "
+"ar įvykis yra svarbūs leidybai."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:218
 msgid "Used in figure ${link}"
@@ -4578,7 +4935,7 @@ msgid "Various other issues"
 msgstr "Įvairūs kiti klausimai"
 
 #: eea.indicators/eea/indicators/browser/specification.py:257
-#: eea.versions/eea/versions/versions.py:492
+#: eea.versions/eea/versions/versions.py:495
 msgid "Version ID changed."
 msgstr "Versija ID pasikeitė."
 
@@ -4591,7 +4948,7 @@ msgstr "Versija id: ${number}"
 msgid "Version id: ${version-number}"
 msgstr "Versija id: ${version-number}"
 
-#: eea.versions/eea/versions/versions.py:520
+#: eea.versions/eea/versions/versions.py:523
 msgid "Version revoked."
 msgstr "Versija atšauktas."
 
@@ -4616,8 +4973,7 @@ msgstr "Vaizdo albumo iliustracija"
 msgid "Video pop-ups"
 msgstr "Vaizdo pop-up"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:147
-#: eea/mediacentre/Multimedia/multimedia2.pt:125
+#: eea/mediacentre/Multimedia/multimedia.pt:173
 msgid "Videos"
 msgstr "Vaizdo įrašai"
 
@@ -4629,6 +4985,10 @@ msgstr "Peržiūrėti ir bendrauti internete"
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:79
 msgid "View entire FAQ expanded"
 msgstr "Peržiūrėti visą DUK išplėstame"
+
+#: eea.relations/eea/relations/browser/template/tool.pt:21
+msgid "View full graph"
+msgstr "Peržiūrėti visą grafiką"
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:61
 msgid "View larger map on Eye on Earth"
@@ -4679,6 +5039,10 @@ msgstr "Įspėjimas"
 msgid "Warning! Core meltdown at EEA HQ, code super-duper-red"
 msgstr "Dėmesio! Core krizė EEE būstinėje, kodas Super-Duper-raudona"
 
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:23
+msgid "Warning:"
+msgstr "Perspėjimas"
+
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:143
 msgid "Waste"
 msgstr "Atliekos"
@@ -4697,20 +5061,34 @@ msgid "Water Information System for Europe"
 msgstr "Europos vandens informacijos sistema"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:45
-msgid "We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for."
-msgstr "Atsiprašome už nepatogumus, bet puslapis kurį bandėte naudotis šiuo adresu nėra. Galite naudoti toliau pateiktas nuorodas, kad padėtų jums rasti ko ieškote."
+msgid ""
+"We apologize for the inconvenience, but the page you were trying to access "
+"is not at this address. You can use the links below to help you find what "
+"you are looking for."
+msgstr ""
+"Atsiprašome už nepatogumus, bet puslapis kurį bandėte naudotis šiuo adresu "
+"nėra. Galite naudoti toliau pateiktas nuorodas, kad padėtų jums rasti ko "
+"ieškote."
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:13
-msgid "We do not publish events that are purely commercial and with no references to the environment."
-msgstr "Mes neskelbia įvykius, kurie yra grynai komercinis ir be jokių nuorodų į aplinką."
+msgid ""
+"We do not publish events that are purely commercial and with no references "
+"to the environment."
+msgstr ""
+"Mes neskelbia įvykius, kurie yra grynai komercinis ir be jokių nuorodų į "
+"aplinką."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:144
 msgid "We&#8217;re sorry, but there seems to be an error&hellip;"
 msgstr "Atsiprašome, tačiau atrodo, kad klaida ..."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:14
-msgid "Welcome to EEA Web design elements, your browser should have autoscrolled down to me"
-msgstr "Sveiki atvykę į EAA interneto svetainės dizaino elementų, jūsų naršyklė turi turėti autoscrolled man"
+msgid ""
+"Welcome to EEA Web design elements, your browser should have autoscrolled "
+"down to me"
+msgstr ""
+"Sveiki atvykę į EAA interneto svetainės dizaino elementų, jūsų naršyklė turi "
+"turėti autoscrolled man"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:65
 msgid "Welcome! You are now logged in."
@@ -4736,11 +5114,6 @@ msgstr "Kada"
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:107
 msgid "Where"
 msgstr "Kur:"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:63
-#: eea/mediacentre/Multimedia/multimedia2.pt:66
-msgid "Which steps will bring us forward on the road to a Green economy?"
-msgstr "Kokie žingsniai atneš mus į priekį kelyje į žaliąją ekonomiką?"
 
 #: eea/themecentre/browser/templates/themes_view.pt:68
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:65
@@ -4768,8 +5141,10 @@ msgid "Work specified here requires to be completed within 1 year from now."
 msgstr "Darbas nurodyta čia reikia būti baigtas per 1 metus nuo dabar."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:275
-msgid "Work specified here will require more than 1 year (from now) to be completed."
-msgstr "Darbas nurodyta čia reikės būti baigtas daugiau kaip 1 metams (nuo šiol)."
+msgid ""
+"Work specified here will require more than 1 year (from now) to be completed."
+msgstr ""
+"Darbas nurodyta čia reikės būti baigtas daugiau kaip 1 metams (nuo šiol)."
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Working list"
@@ -4779,8 +5154,8 @@ msgstr "Darbo sąrašas"
 msgid "World"
 msgstr "Pasaulis"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:130
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:133
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:131
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:138
 #: eea.sparql/eea/sparql/browser/view.pt:30
 msgid "XML with Schema"
 msgstr "XML su schema"
@@ -4797,16 +5172,23 @@ msgid "Year"
 msgstr "Metai"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:48
-msgid "You are editing the default view of a container. If you wanted to edit the container itself, ${go_here}."
-msgstr "Jūs redaguojate numatytąjį rodinį konteinerio. Jei norite redaguoti ir pati talpykla, ${go_here}."
+msgid ""
+"You are editing the default view of a container. If you wanted to edit the "
+"container itself, ${go_here}."
+msgstr ""
+"Jūs redaguojate numatytąjį rodinį konteinerio. Jei norite redaguoti ir pati "
+"talpykla, ${go_here}."
 
 #: EEAContentTypes/browser/cache.py:72
 msgid "You are not allowed to invalidate cache in this context"
 msgstr "Jums neleidžiama šiame kontekste netekti talpyklą"
 
 #: eea.reports/eea/reports/browser/report.pt:240
-msgid "You can also obtain a copy from ${nearest-sale-agent} by providing the ordering info."
-msgstr "Taip pat galite gauti kopiją iš ${nearest-sale-agent} užsakymo informacija."
+msgid ""
+"You can also obtain a copy from ${nearest-sale-agent} by providing the "
+"ordering info."
+msgstr ""
+"Taip pat galite gauti kopiją iš ${nearest-sale-agent} užsakymo informacija."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:188
 msgid "You can have arbitrary HTML in the pop-ups:"
@@ -4817,16 +5199,28 @@ msgid "You might have been looking for&hellip;"
 msgstr "Galbūt ieškote ..."
 
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_noheader_view.pt:22
-msgid "You need Flash player to be able to see and use the ozone map viewer, please download it for free from ${flashpalyer-link}. If you don't have administrative rights on your computer, please contact your helpdesk."
-msgstr "Jums reikia Flash player, kad būtų galima matyti ir naudoti ozono Map Viewer, galite jį atsisiųsti nemokamai nuo ${flashpalyer-link}. Jei jums nereikia turėti administratoriaus teises kompiuteryje, prašome kreipkitės pagalbos tarnyba."
+msgid ""
+"You need Flash player to be able to see and use the ozone map viewer, please "
+"download it for free from ${flashpalyer-link}. If you don't have "
+"administrative rights on your computer, please contact your helpdesk."
+msgstr ""
+"Jums reikia Flash player, kad būtų galima matyti ir naudoti ozono Map "
+"Viewer, galite jį atsisiųsti nemokamai nuo ${flashpalyer-link}. Jei jums "
+"nereikia turėti administratoriaus teises kompiuteryje, prašome kreipkitės "
+"pagalbos tarnyba."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:30
-msgid "You need to enter an image scale after the image src otherwise the gallery will load the full-resolution images which could dramatically slow the page"
-msgstr "Jums reikia įvesti vaizdo skalę po vaizdas src kitaip galerija įkelti visiškai raiškos vaizdus, ​​kurie gali smarkiai sulėtinti puslapį"
+msgid ""
+"You need to enter an image scale after the image src otherwise the gallery "
+"will load the full-resolution images which could dramatically slow the page"
+msgstr ""
+"Jums reikia įvesti vaizdo skalę po vaizdas src kitaip galerija įkelti "
+"visiškai raiškos vaizdus, ​​kurie gali smarkiai sulėtinti puslapį"
 
 #: eea.daviz/eea/daviz/content/validators.py:25
 msgid "You should provide data in a valid CSV format(.csv, .tsv, etc)"
-msgstr "Jūs turėtumėte suteikti duomenis galiojantį CSV formatu. Csv, TSV, ir tt)"
+msgstr ""
+"Jūs turėtumėte suteikti duomenis galiojantį CSV formatu. Csv, TSV, ir tt)"
 
 #: EEAContentTypes/skins/EEAContentTypes/cftrequest_confirmation.pt:11
 msgid "You should shortly receive an email with further information."
@@ -4849,8 +5243,12 @@ msgid "Your message"
 msgstr "Jūsų žinutė"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:299
-msgid "Your screensaver has been upgraded, please consider to restart your computer ... Have a good day"
-msgstr "Jūsų ekrano užsklanda buvo modernizuotos, prašome apsvarstyti iš naujo paleisti kompiuterį ... Have a good day"
+msgid ""
+"Your screensaver has been upgraded, please consider to restart your "
+"computer ... Have a good day"
+msgstr ""
+"Jūsų ekrano užsklanda buvo modernizuotos, prašome apsvarstyti iš naujo "
+"paleisti kompiuterį ... Have a good day"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:329
 msgid "Zip archive"
@@ -4872,7 +5270,7 @@ msgstr "pridėti pasirinktus naudotojus"
 msgid "and"
 msgstr "ir"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:151
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
 #: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:149
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:50
 msgid "archive"
@@ -4928,13 +5326,22 @@ msgstr "konvertuojant"
 msgid "copy-paste-description"
 msgstr "kopijavimo-įdėjimo aprašymas"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:36
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:30
+msgid "data examples"
+msgstr "duomenų pavyzdžiai"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:38
 msgid "datasets"
 msgstr "duomenų rinkiniai"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:84
 msgid "delete portlet"
 msgstr "Ištrinti pavaizdavimas"
+
+#. Default: "Jacqueline McGlade, Executive Director of the European Environment Agency (EEA), and three of her colleagues have chosen to be part of an extraordinary journey in East Greenland. They travel from their offices in Copenhagen to participate in a multi sport race, where they challenge themselves through 250 kilometers of the Arctic wilderness. On their way they encounter the effects of climate change and its impact on the Arctic environment. The Inuit are among the first people to experience the effects of climate change. They are in the middle of an environmental challenge that will change many parts of their culture. What is happening to the Inuit today will happen to the rest of the world tomorrow. We will all need to adapt to climate change."
+#: eea/mediacentre/Multimedia/multimedia.pt:56
+msgid "director-description"
+msgstr "direktoriaus aprašymas"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_topdatasets.pt:30
 msgid "downloads"
@@ -4948,7 +5355,7 @@ msgstr "suprojektavęs"
 msgid "expired"
 msgstr "pasibaigęs"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:46
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:48
 msgid "external data specs"
 msgstr "išorės duomenų Specifikacijos"
 
@@ -4957,7 +5364,7 @@ msgstr "išorės duomenų Specifikacijos"
 msgid "external link"
 msgstr "external link"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:41
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:43
 msgid "figures"
 msgstr "duomenys"
 
@@ -4991,6 +5398,10 @@ msgstr "čia"
 msgid "homepage"
 msgstr "pirmuoju"
 
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:34
+msgid "how to prepare data"
+msgstr "kaip parengti duomenis"
+
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:160
 msgid "iCal"
 msgstr "iCal"
@@ -5020,8 +5431,11 @@ msgid "image_thumb"
 msgstr "image_thumb"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:291
-msgid "image_thumb (videos get play button and black borders applied correctly)"
-msgstr "image_thumb vaizdo siužetus gauti paleidimo mygtuką ir juodos sienos teisingai taikoma)"
+msgid ""
+"image_thumb (videos get play button and black borders applied correctly)"
+msgstr ""
+"image_thumb vaizdo siužetus gauti paleidimo mygtuką ir juodos sienos "
+"teisingai taikoma)"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:288
 msgid "image_tile"
@@ -5047,7 +5461,7 @@ msgstr "šiame aplanke ir šis pavaizdavimas yra matomas"
 msgid "indicator"
 msgstr "rodiklis"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:51
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:53
 msgid "indicator assessments"
 msgstr "rodiklio vertinimai"
 
@@ -5055,6 +5469,7 @@ msgstr "rodiklio vertinimai"
 msgid "indicator manager"
 msgstr "rodiklis vadybininkas"
 
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:58
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:158
 msgid "indicator specification"
 msgstr "rodiklis specifikacija"
@@ -5063,6 +5478,11 @@ msgstr "rodiklis specifikacija"
 #: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:106
 msgid "label_advanced_search"
 msgstr "label_advanced_search"
+
+#. Default: "Log in with your Eionet password to see/add comments"
+#: eea.design/eea/design/browser/templates/comments.pt:16
+msgid "label_login_to_add_comments"
+msgstr "žymeklis_prisijungimas_pridėti_komentarus"
 
 #. Default: "No matching results found."
 #: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:105
@@ -5184,7 +5604,7 @@ msgstr "susijusių ataskaitų teikimo įpareigojimus,"
 msgid "s"
 msgstr "ai"
 
-#: eea.design/eea/design/browser/templates/comments.pt:87
+#: eea.design/eea/design/browser/templates/comments.pt:88
 msgid "says:"
 msgstr "sako:"
 
@@ -5197,7 +5617,7 @@ msgstr "Žemiau esančiame poskyryje"
 msgid "secure link"
 msgstr "saugus ryšys"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:37
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:39
 msgid "see more"
 msgstr "pamatyti daugiau"
 
@@ -5231,8 +5651,12 @@ msgid "upload-csv-description"
 msgstr "upload-csv-aprašymas"
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:87
-msgid "use this field if the report type is not listed in the previous Serial Title field"
-msgstr "naudoti šį lauką, jei pranešimas nėra išvardytos ankstesniame Serial antraštinės dalies srityje"
+msgid ""
+"use this field if the report type is not listed in the previous Serial Title "
+"field"
+msgstr ""
+"naudoti šį lauką, jei pranešimas nėra išvardytos ankstesniame Serial "
+"antraštinės dalies srityje"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:154
 msgid "vCal"
@@ -5257,4 +5681,3 @@ msgstr "metai:"
 #: eea.reports/eea/reports/browser/report.pt:241
 msgid "your nearest sales agent"
 msgstr "jūsų artimiausias pardavimo agentas"
-
