@@ -75,6 +75,10 @@ msgstr "${state} ispeċifikazzjoni"
 msgid "% tags currently selected."
 msgstr "% tags attwalment magħżula."
 
+#: eea/mediacentre/Multimedia/multimedia.pt:69
+msgid "'One degree matters' follows social and business leaders as they travel to Greenland and experience for themselves the dramatic effects of the melting of the ice cap and come to understand the planetary effects of climate change and the impacts these will have on society and the economy. The film brings to the screen the latest science from the Arctic and shows why a further rise in global temperature of one degree matters for the future of humankind. Film had premiere 13 December 2009 during COP15."
+msgstr ""
+
 #: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:64
 msgid "(${location}, from ${start} to ${end})"
 msgstr "(${location}, minn ${start} sa ${end})"
@@ -120,10 +124,6 @@ msgstr "- (Ristretta għall awtentikati)"
 msgid "- [Media: ${media}]"
 msgstr "- [Media: ${media}]"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:51
-msgid "<div> <span>x</span> <span>x</span> </div>"
-msgstr "<div> <span> x </ span> <span> x </ span> </ div>"
-
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:38
 msgid "A letter of motivation"
 msgstr "Ittra ta 'motivazzjoni"
@@ -140,22 +140,18 @@ msgstr "Pubblikazzjoni rapport."
 msgid "A-Z Glossary"
 msgstr "AZ Glossarju"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:107
+#: eea/mediacentre/Multimedia/multimedia.pt:130
 msgid "About this item"
 msgstr "Dwar din il-partita"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:38
-#: eea/mediacentre/browser/video_popup_view.pt:36
+#: eea/mediacentre/browser/multimedia_popup_view.pt:39
+#: eea/mediacentre/browser/video_popup_view.pt:37
 msgid "About this video"
 msgstr "Dwar dan il-video"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:67
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
 msgid "Access our data via semantic APIs"
 msgstr "Aċċess data tagħna permezz semantika APIs"
-
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:30
-msgid "Accordion view"
-msgstr "Ħsieb accordion"
 
 #: eea/themecentre/browser/templates/themes_view.pt:99
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:123
@@ -183,7 +179,7 @@ msgstr "Żid"
 msgid "Add Translation"
 msgstr "Żid Traduzzjoni"
 
-#: eea.design/eea/design/browser/templates/comments.pt:168
+#: eea.design/eea/design/browser/templates/comments.pt:169
 msgid "Add comment"
 msgstr "Żid kumment"
 
@@ -212,8 +208,7 @@ msgid "Additional information"
 msgstr "Informazzjoni addizzjonali"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:26
-#: eea/mediacentre/Multimedia/multimedia.pt:96
-#: eea/mediacentre/Multimedia/multimedia2.pt:99
+#: eea/mediacentre/Multimedia/multimedia.pt:119
 msgid "Advanced"
 msgstr "Avvanzata"
 
@@ -254,9 +249,9 @@ msgstr "Albanija"
 msgid "Album Art:"
 msgstr "Album Art:"
 
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:21
-msgid "Album view"
-msgstr "Ħsieb album"
+#: eea/themecentre/skins/themecentre_templates/mediacentre_macros.pt:8
+msgid "All"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:142
 msgid "All ${number} ${title}&hellip;"
@@ -402,9 +397,9 @@ msgstr "L-Awstrija"
 msgid "Author"
 msgstr "Awtur"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:51
-#: eea/mediacentre/browser/video-listed-single.pt:34
-#: eea/mediacentre/browser/video.pt:60
+#: eea/mediacentre/browser/multimedia_popup_view.pt:52
+#: eea/mediacentre/browser/video-listed-single.pt:32
+#: eea/mediacentre/browser/video.pt:58
 msgid "Author:"
 msgstr "Awtur:"
 
@@ -493,7 +488,7 @@ msgstr "Isem Kaxxa (Titolu li turi up)"
 msgid "Browse SOER geographically"
 msgstr "Browse SOER ġeografikament"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:58
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:57
 msgid "Browse by organisation"
 msgstr "Fittex mill-organizzazzjoni"
 
@@ -506,7 +501,7 @@ msgstr "Fittex skond is-suġġett"
 msgid "Browse catalogue"
 msgstr "Browse katalogu"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:103
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:102
 msgid "Browse complete catalogue"
 msgstr "Browse katalogu sħiħ"
 
@@ -525,17 +520,11 @@ msgstr "Il-Bulgarija"
 msgid "Bulgarian"
 msgstr "Bulgaru"
 
-#: eea/mediacentre/Multimedia/multimedia2.pt:108
-msgid "By location"
-msgstr "Bil-lokalità"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:187
-#: eea/mediacentre/Multimedia/multimedia2.pt:163
+#: eea/mediacentre/Multimedia/multimedia.pt:213
 msgid "By tags"
 msgstr "Permezz ta 'tikketti"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:186
-#: eea/mediacentre/Multimedia/multimedia2.pt:162
+#: eea/mediacentre/Multimedia/multimedia.pt:212
 msgid "By topics"
 msgstr "Billi suġġetti"
 
@@ -557,7 +546,7 @@ msgstr "CSV"
 msgid "Cache"
 msgstr "Cache"
 
-#: eea.googlecharts/eea/googlecharts/views/chart.py:283
+#: eea.googlecharts/eea/googlecharts/views/chart.py:318
 msgid "Can't set thumbnail on a non-folderish object !"
 msgstr "Ma jistgħux jistabbilixxu thumbnail fuq oġġett mhux folderish!"
 
@@ -601,6 +590,10 @@ msgstr "Iċċekkja l-istatus URLs"
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:47
 msgid "Check all"
 msgstr "Iċċekkja kollha"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:33
+msgid "Check these ${data-examples} or read ${prepare-data}"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:149
 msgid "Check this to have your email address filled in automatically when you log in later."
@@ -675,17 +668,21 @@ msgstr "Kodiċi"
 msgid "Code for developers"
 msgstr "Kodiċi għall-iżviluppaturi"
 
-#: eea.design/eea/design/browser/templates/comments.pt:143
+#: eea.design/eea/design/browser/templates/comments.pt:144
 msgid "Commenting has been disabled."
 msgstr "F'kumment ġie b'diżabilità."
+
+#: eea.design/eea/design/browser/templates/comments.pt:2
+msgid "Comments"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:11
 msgid "Comments on translations"
 msgstr "Kummenti dwar traduzzjonijiet"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:18
-msgid "Configure exhibit"
-msgstr "Kkonfigurat juru"
+msgid "Configure Visualization"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:19
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:36
@@ -773,7 +770,7 @@ msgstr "Contents"
 msgid "Context description"
 msgstr "Deskrizzjoni Kuntest"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:23
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:25
 msgid "Contribution"
 msgstr "Kontribuzzjoni"
 
@@ -878,7 +875,7 @@ msgstr "Oħloq traduzzjoni ${language} ta 'dan l-oġġett."
 msgid "Create Promotion"
 msgstr "Oħloq Promozzjoni"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:38
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:53
 msgid "Create Visualization"
 msgstr "Oħloq Viżwalizzazzjoni"
 
@@ -970,15 +967,15 @@ msgstr "Data u mapep"
 msgid "Data link"
 msgstr "Data rabta"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:104
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:105
 msgid "Data owner"
 msgstr "Data sid"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:83
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:89
 msgid "Data policy"
 msgstr "Politika tad-Data"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:64
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:69
 msgid "Data repository info"
 msgstr "Info repożitorju tad-Data"
 
@@ -986,7 +983,7 @@ msgstr "Info repożitorju tad-Data"
 msgid "Data sets uncertainty"
 msgstr "Settijiet ta 'data inċertezza"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:96
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:97
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:153
 msgid "Data source"
 msgstr "Sors tad-dejta"
@@ -995,7 +992,7 @@ msgstr "Sors tad-dejta"
 msgid "Data source Organisation"
 msgstr "Organizzazzjoni sors tad-data"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:111
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:112
 msgid "Data source download"
 msgstr "Download sors tad-data"
 
@@ -1045,7 +1042,7 @@ msgstr "Dati"
 msgid "Deadline"
 msgstr "Skadenza"
 
-#: eea.design/eea/design/browser/templates/comments.pt:105
+#: eea.design/eea/design/browser/templates/comments.pt:106
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:63
 msgid "Delete"
 msgstr "Ħassar"
@@ -1073,6 +1070,10 @@ msgstr "Deputat Direttur"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:327
 msgid "Derived data set:"
 msgstr "Informazzjoni miksuba stabbiliti:"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:17
+msgid "Detect duplicates"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
 msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
@@ -1160,7 +1161,7 @@ msgstr "Niżżel dan l-avveniment fil-format ika"
 msgid "Download this event in vCal format"
 msgstr "Niżżel dan l-avveniment fil-format vCal"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:123
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:128
 msgid "Downloads"
 msgstr "Downloads"
 
@@ -1169,7 +1170,6 @@ msgid "Draft (not yet published - not quality assured)"
 msgstr "Abbozz (għadha mhix ippubblikata - mhux assigurazzjoni ta 'kwalità)"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:81
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:22
 msgid "Duplicate organisations"
 msgstr "Duplikat organizzazzjonijiet"
 
@@ -1225,7 +1225,6 @@ msgid "EEA Management plan code. Internal EEA project line code, used to assign 
 msgstr "ŻEE Ġestjoni pjan kodiċi. Intern ŻEE linja ta 'proġett kodiċi, użati biex tassenja produzzjoni tal-prodott taż-ŻEE għal numru speċifiku proġett ŻEE numru fil-pjan ta' ġestjoni."
 
 #: eea/mediacentre/Multimedia/multimedia.pt:43
-#: eea/mediacentre/Multimedia/multimedia2.pt:44
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:26
 msgid "EEA Multimedia Centre"
 msgstr "ŻEE Multimedia Ċentru"
@@ -1290,7 +1289,7 @@ msgstr "EPA netwerk"
 msgid "EPUB format"
 msgstr "Format epub"
 
-#: eea.googlecharts/eea/googlecharts/views/chart.py:222
+#: eea.googlecharts/eea/googlecharts/views/chart.py:257
 msgid "ERROR: An error occured while exporting your image. Please try again later."
 msgstr "ERROR: Żball seħħet waqt l-esportazzjoni dehra tiegħek. Jekk jogħġbok erġa 'pprova aktar tard."
 
@@ -1529,7 +1528,7 @@ msgid "Exclude from navigation"
 msgstr "Jeskludu mill navigazzjoni"
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:21
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:82
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:87
 #: eea.sparql/eea/sparql/browser/view.pt:84
 msgid "Execute"
 msgstr "Teżegwixxi"
@@ -1542,9 +1541,8 @@ msgstr "Direttur Eżekuttiv"
 msgid "Existing visualizations"
 msgstr "Viżwalizazzjonijiet eżistenti"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:151
-#: eea/mediacentre/Multimedia/multimedia.pt:194
-#: eea/mediacentre/Multimedia/multimedia2.pt:170
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
+#: eea/mediacentre/Multimedia/multimedia.pt:220
 msgid "Explore all tags"
 msgstr "Esplora tikketti kollha"
 
@@ -1591,11 +1589,11 @@ msgstr "Fancybox pop-ups"
 msgid "Fancybox relations"
 msgstr "Fancybox relazzjonijiet"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:127
+#: eea/mediacentre/Multimedia/multimedia.pt:153
 msgid "Featured Item Description"
 msgstr "Deskrizzjoni Dehru Punt"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:126
+#: eea/mediacentre/Multimedia/multimedia.pt:152
 msgid "Featured Item Title"
 msgstr "Titolu Dehru Punt"
 
@@ -1740,10 +1738,6 @@ msgstr "Is-Sajd"
 msgid "Flexible tooltips"
 msgstr "Tooltips flessibbli"
 
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:24
-msgid "Folder overview"
-msgstr "Ħarsa ġenerali folder"
-
 #: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:16
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:69
 msgid "Follow us"
@@ -1782,12 +1776,12 @@ msgstr "Għal integraturi tas-sistema"
 msgid "Forgot your password?"
 msgstr "Insejt il-password tiegħek?"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:112
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:113
 #: eea.sparql/eea/sparql/browser/view.pt:13
 msgid "Formats suitable for human consumption"
 msgstr "Formati tajjeb għal konsum uman"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:122
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:123
 #: eea.sparql/eea/sparql/browser/view.pt:22
 msgid "Formats suitable for machine-to-machine communication"
 msgstr "Formati xierqa għall-magna għall-magni komunikazzjoni"
@@ -1842,6 +1836,10 @@ msgstr "Gallerija fehma"
 msgid "General metadata"
 msgstr "Ġenerali metadejta"
 
+#: eea.relations/eea/relations/browser/template/badrelations.pt:53
+msgid "Generate report"
+msgstr ""
+
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:32
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:36
 msgid "Generic metadata"
@@ -1883,10 +1881,14 @@ msgid "Go back and correct"
 msgstr "Mur lura u korretta"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:22
-#: eea/mediacentre/Multimedia/multimedia.pt:92
-#: eea/mediacentre/Multimedia/multimedia2.pt:95
+#: eea/mediacentre/Multimedia/multimedia.pt:115
+#: eea/themecentre/skins/themecentre_templates/dc_view.pt:22
 msgid "Go to advanced search"
 msgstr "Mur tfittxija avvanzata"
+
+#: EEAContentTypes/skins/EEAContentTypes/promotion_view.pt:39
+msgid "Go to site"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:24
 msgid "Google Custom Search Engines"
@@ -1907,8 +1909,7 @@ msgstr "Grieg"
 msgid "Green economy"
 msgstr "Green ekonomija"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:150
-#: eea/mediacentre/Multimedia/multimedia2.pt:128
+#: eea/mediacentre/Multimedia/multimedia.pt:176
 msgid "Green tips"
 msgstr "Tips Green"
 
@@ -1933,7 +1934,7 @@ msgstr "Hawn hu l-messaġġ ta 'żball sħiħa:"
 msgid "Hide the search form"
 msgstr "Aħbi l-formola tat-tiftix"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:90
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:89
 msgid "Highlights"
 msgstr "Punti ewlenin"
 
@@ -2056,8 +2057,7 @@ msgstr "Image"
 msgid "Image Size:"
 msgstr "Daqs Image:"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:153
-#: eea/mediacentre/Multimedia/multimedia2.pt:131
+#: eea/mediacentre/Multimedia/multimedia.pt:179
 msgid "Image galleries"
 msgstr "Image galleriji"
 
@@ -2147,13 +2147,17 @@ msgstr "Struzzjonijiet dwar kif li jikkontribwixxi għal u jużaw din ir-riżors
 msgid "Interactive data viewer"
 msgstr "Interactive data telespettatur"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:51
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:50
 msgid "Interactive data viewers"
 msgstr "Telespettaturi Interactive data"
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:19
 msgid "Interested candidates must apply by filling in the application form below. To the application form must be attached:"
 msgstr "Kandidati interessati għandhom japplikaw billi timla l-formola ta 'applikazzjoni taħt. Biex l-applikazzjoni għandu jkun mehmuż:"
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:42
+msgid "Interface"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:70
 msgid "International cooperation"
@@ -2334,9 +2338,9 @@ msgstr "Avviż legali"
 msgid "Liechtenstein"
 msgstr "Liechtenstein"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:116
-#: eea/mediacentre/browser/multimedia_popup_view.pt:61
-#: eea/mediacentre/browser/video_popup_view.pt:79
+#: eea/mediacentre/Multimedia/multimedia.pt:139
+#: eea/mediacentre/browser/multimedia_popup_view.pt:62
+#: eea/mediacentre/browser/video_popup_view.pt:80
 msgid "Link"
 msgstr "Link"
 
@@ -2388,13 +2392,17 @@ msgstr "Links"
 msgid "Links in the state ..."
 msgstr "Links fl-istat ..."
 
+#: eea.relations/eea/relations/browser/template/tool.pt:26
+msgid "List all relations that don't comply portal_relations schema"
+msgstr ""
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:11
 msgid "List of all icons available"
 msgstr "Lista tal-ikoni disponibbli"
 
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:15
-msgid "Listing"
-msgstr "Elenku"
+#: eea.relations/eea/relations/browser/template/tool.pt:26
+msgid "List of bad relations"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:18
 msgid "Listing not available"
@@ -2411,7 +2419,7 @@ msgstr "Litwan"
 msgid "Loading..."
 msgstr "Loading ..."
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:91
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:97
 msgid "Location"
 msgstr "Post"
 
@@ -2424,7 +2432,7 @@ msgstr "Lokalitajiet"
 msgid "Log in"
 msgstr "Idħol"
 
-#: eea.design/eea/design/browser/templates/comments.pt:30
+#: eea.design/eea/design/browser/templates/comments.pt:31
 msgid "Log in to add comments"
 msgstr "Log in fil-jżid il-kummenti"
 
@@ -2480,7 +2488,7 @@ msgstr "Manage Portlets Footer"
 msgid "Manage footer portlets"
 msgstr "Manage portlets footer"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:98
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:104
 msgid "Map location"
 msgstr "Map lokazzjoni"
 
@@ -2496,11 +2504,6 @@ msgstr "Media Centre hija repożitorju virtwali ta 'fajls multimedjali. Dan jist
 #: eea/mediacentre/browser/statistics.pt:22
 msgid "Media Centre relies on plugins. Each plugin handles a set of media types and knows how to retrieve media files/data from the repository it handles. When Media Centre is asked for all videos that are available it will forward the question to all registered plugins and will then merge the results."
 msgstr "Media Centre tistrieħ fuq plugins. Kull plugin mankijiet sett ta 'tipi tal-midja u jaf kif tkun irkuprata fajls multimedjali / tad-data mill-repożitorju li pumi. Meta Media Centre huwa mitlub għall-videos li huma disponibbli hu għandu jgħaddi l-kwistjoni lill-plugins reġistrati u mbagħad jingħaqdu r-riżultati."
-
-#: eea/mediacentre/browser/video-listed-single.pt:31
-#: eea/mediacentre/browser/video.pt:57
-msgid "Media Type:"
-msgstr "Tip Midja:"
 
 #: eea/mediacentre/profiles/default/actions.xml
 msgid "Media type"
@@ -2613,8 +2616,8 @@ msgstr "Netwerks Aktar"
 msgid "More subscriptions are available at ${link}"
 msgstr "Abbonamenti aktar huma disponibbli għal ${link}"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:65
-#: eea/mediacentre/browser/video_popup_view.pt:80
+#: eea/mediacentre/browser/multimedia_popup_view.pt:66
+#: eea/mediacentre/browser/video_popup_view.pt:81
 msgid "More videos"
 msgstr "Aktar filmati"
 
@@ -2646,17 +2649,13 @@ msgstr "Ningranaw"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:9
 #: eea/mediacentre/Multimedia/multimedia.pt:7
-#: eea/mediacentre/Multimedia/multimedia2.pt:7
+#: eea/themecentre/skins/themecentre_templates/media_type_common.pt:39
 msgid "Multimedia"
 msgstr "Multimedja"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:19
 msgid "Multimedia highlights"
 msgstr "Jenfasizza Multimedia"
-
-#: eea/mediacentre/Multimedia/multimedia2.pt:134
-msgid "My playlist"
-msgstr "Playlist tiegħi"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:56
 msgid "NOT CHECKED"
@@ -2727,7 +2726,7 @@ msgstr "Oġġett maħluqa mill-ġdid tax-xogħol"
 msgid "News"
 msgstr "Aħbarijiet"
 
-#: eea/mediacentre/browser/video_popup_view.pt:35
+#: eea/mediacentre/browser/video_popup_view.pt:36
 msgid "News and articles"
 msgstr "Aħbarijiet u artikli"
 
@@ -2852,7 +2851,7 @@ msgstr "In-Norveġja"
 msgid "Norwegian"
 msgstr "Norveġiż"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:25
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:27
 msgid "Note that for authenticated users the info below include the unpublished content."
 msgstr "Innota li għall-utenti awtentikati-info hawn taħt tinkludi l-kontenut mhux ippubblikat."
 
@@ -2897,8 +2896,7 @@ msgstr "Verżjonijiet anzjani"
 msgid "On the left side you have a list resources. Drag from the handle icon to reorder. After reordering, you need to use the Save button at the bottom of the list. On the right side you can see how the resources have been composed. Notice: this is not a preview. Hitting Save will generate new merged resources."
 msgstr "Fuq in-naħa tax-xellug inti għandek riżorsi lista. Drag mill-ikona manku biex ordni mill-ġdid. Wara irranġar mill-ġdid, jeħtieġ li tuża l-buttuna Ħlief fil-qiegħ tal-lista. Fuq il-lemin tista 'tara kif ir-riżorsi ġew magħmula. Avviż: din mhix preview. Tolqot Save se jiġġenera riżorsi magħquda ġodda."
 
-#: eea/mediacentre/Multimedia/multimedia.pt:58
-#: eea/mediacentre/Multimedia/multimedia2.pt:56
+#: eea/mediacentre/Multimedia/multimedia.pt:66
 msgid "One degree matters"
 msgstr "Grad kwistjonijiet Wieħed"
 
@@ -2929,8 +2927,11 @@ msgstr "Websajt Organizzazzjoni"
 msgid "Organisations control panel"
 msgstr "Pannell tal-kontroll Organizzazzjonijiet"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:119
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:32
+msgid "Organisations not in use"
+msgstr ""
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:119
 msgid "Organisations with no reference"
 msgstr "Organizzazzjonijiet bl-ebda referenza"
 
@@ -2969,7 +2970,6 @@ msgid "Other resources"
 msgstr "Riżorsi oħra"
 
 #: eea/mediacentre/Multimedia/multimedia.pt:52
-#: eea/mediacentre/Multimedia/multimedia2.pt:61
 msgid "Our arctic challenge"
 msgstr "Sfida Artiku tagħna"
 
@@ -2986,7 +2986,7 @@ msgstr "Jwarrab it-test sabiex ma 'test tiegħek"
 msgid "Owner"
 msgstr "Sid"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:31
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:33
 msgid "Owner of:"
 msgstr "Sid ta ':"
 
@@ -3053,10 +3053,6 @@ msgstr "Permalinks"
 msgid "Permissions Overview for Indicators Database"
 msgstr "Ħarsa ġenerali Permessi għal Indikaturi Database"
 
-#: eea.design/eea/design/browser/templates/personal_bar.pt:4
-msgid "Personal tools"
-msgstr "Għodda personali"
-
 #: eea.design/eea/design/browser/templates/colophon.pt:20
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:154
 msgid "Phone:"
@@ -3066,12 +3062,11 @@ msgstr "Telefon:"
 msgid "Play in popup window"
 msgstr "Play fil popup"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:157
+#: eea/mediacentre/Multimedia/multimedia.pt:183
 msgid "Playlists"
 msgstr "Playlists"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:84
-#: eea/mediacentre/Multimedia/multimedia2.pt:87
+#: eea/mediacentre/Multimedia/multimedia.pt:107
 msgid "Please enable javascript or upgrade to ${flash} to watch the video."
 msgstr "Jekk jogħġbok jippermettu javascript jew jaġġornaw sa ${flash} biex tara l-video."
 
@@ -3088,7 +3083,7 @@ msgid "Please provide the following contact information"
 msgstr "Jekk jogħġbok ipprovdi l-informazzjoni ta 'kuntatt li ġejja"
 
 #: eea.indicators/eea/indicators/browser/specification.py:259
-#: eea.versions/eea/versions/versions.py:494
+#: eea.versions/eea/versions/versions.py:497
 msgid "Please specify a valid Version ID."
 msgstr "Jekk jogħġbok speċifika ID Verżjoni valida."
 
@@ -3124,6 +3119,7 @@ msgid "Portal messages"
 msgstr "Messaġġi Portal"
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:31
+#: eea.relations/eea/relations/browser/template/badrelations.pt:29
 msgid "Portal type"
 msgstr "Portal tip"
 
@@ -3196,7 +3192,7 @@ msgstr "Primarja tema:"
 msgid "Privacy policy"
 msgstr "Politika ta 'privatezza"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:56
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:62
 msgid "Processor of:"
 msgstr "Processor ta ':"
 
@@ -3255,7 +3251,7 @@ msgid "Publication groups"
 msgstr "Pubblikazzjoni gruppi"
 
 msgid "Publications"
-msgstr "{0}{1}Pubblikazzjonijiet:{/1}{/0}"
+msgstr "Pubblikazzjonijiet:"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:205
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:328
@@ -3277,8 +3273,8 @@ msgstr "Ippubblikat (riveduti u kwalità assigurata)"
 msgid "Published by"
 msgstr "Published by"
 
-#: eea/mediacentre/browser/video-listed-single.pt:37
-#: eea/mediacentre/browser/video.pt:63
+#: eea/mediacentre/browser/video-listed-single.pt:35
+#: eea/mediacentre/browser/video.pt:61
 #: eea/themecentre/skins/themecentre_templates/listall.pt:29
 msgid "Published:"
 msgstr "Ippubblikat:"
@@ -3288,19 +3284,18 @@ msgid "Publishers"
 msgstr "Pubblikaturi"
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:59
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:112
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:117
 #: eea.sparql/eea/sparql/browser/view.pt:100
 msgid "Query will not return a result."
 msgstr "Mistoqsija mhux se tirritorna riżultat."
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:56
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:109
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:114
 #: eea.sparql/eea/sparql/browser/view.pt:97
 msgid "Query will return a result."
 msgstr "Mistoqsija se tirritorna riżultat."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:22
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:17
 msgid "Quick overview"
 msgstr "Quick ħarsa ġenerali"
 
@@ -3412,7 +3407,7 @@ msgstr "Temi relatati"
 msgid "Related topics"
 msgstr "Suġġetti relatati"
 
-#: eea/mediacentre/browser/video_popup_view.pt:34
+#: eea/mediacentre/browser/video_popup_view.pt:35
 msgid "Related videos"
 msgstr "Videos relatati"
 
@@ -3464,9 +3459,13 @@ msgstr "Mill-ġdid ir-riżorsi"
 msgid "Replace with new file:"
 msgstr "Ibdel il-fajl ġdid:"
 
-#: eea.design/eea/design/browser/templates/comments.pt:134
+#: eea.design/eea/design/browser/templates/comments.pt:135
 msgid "Reply"
 msgstr "Irrispondi"
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:58
+msgid "Report"
+msgstr ""
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:60
 msgid "Report number"
@@ -3602,7 +3601,7 @@ msgstr "Messaġġ SOER"
 msgid "SOER viral video message"
 msgstr "SOER virali video messaġġ"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:65
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:70
 #: eea.sparql/eea/sparql/browser/view.pt:66
 msgid "SPARQL Endpoint:"
 msgstr "SPARQL Endpoint:"
@@ -3611,13 +3610,12 @@ msgstr "SPARQL Endpoint:"
 msgid "SPARQL Query:"
 msgstr "SPARQL Mistoqsija:"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:70
-#: eea/mediacentre/Multimedia/multimedia2.pt:73
+#: eea/mediacentre/Multimedia/multimedia.pt:93
 msgid "Sample Text"
 msgstr "Test Kampjun"
 
 #: EEAContentTypes/browser/reorder.pt:76
-#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:135
+#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:145
 #: eea.app.visualization/eea/app/visualization/facets/edit.py:65
 msgid "Save"
 msgstr "Ħlief"
@@ -3675,6 +3673,10 @@ msgstr "Fittex data, mapep, indikaturi"
 msgid "Search for Publication by title"
 msgstr "Tiftix għal Pubblikazzjoni skont it-titolu"
 
+#: eea.relations/eea/relations/browser/template/badrelations.pt:12
+msgid "Search for bad relations"
+msgstr ""
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:345
 msgid "Search on data set and application"
 msgstr "Fittex fuq sett ta 'data u l-applikazzjoni"
@@ -3692,8 +3694,7 @@ msgstr "Fittex din il-lista"
 msgid "Search this site"
 msgstr "Fittex dan is-sit"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:99
-#: eea/mediacentre/Multimedia/multimedia2.pt:102
+#: eea/mediacentre/Multimedia/multimedia.pt:122
 msgid "Search videos, animations, image galleries"
 msgstr "Fittex videos, animazzjonijiet, galleriji immaġni"
 
@@ -3715,7 +3716,7 @@ msgstr "Tab-tieni ma 'titolu itwal"
 msgid "Sections"
 msgstr "Taqsimiet"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:50
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:49
 msgid "See all"
 msgstr "Ara kollha"
 
@@ -3756,15 +3757,23 @@ msgstr "Agħżel figuri li għandhom ikunu maqluba."
 msgid "Select from existing tags."
 msgstr "Agħżel minn tikketti eżistenti."
 
+#: eea.relations/eea/relations/browser/template/badrelations.pt:43
+msgid "Select interface"
+msgstr ""
+
 #: eea.dataservice/eea/dataservice/templates/select_template.pt:10
 msgid "Select one of the below templates to apply its metadata."
 msgstr "Agħżel wieħed mill-mudelli hawn taħt biex japplikaw metadata tagħha."
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:30
+msgid "Select portal type"
+msgstr ""
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/temporal_widget.pt:86
 msgid "Selected value:"
 msgstr "Magħżula valur:"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:65
 msgid "Semantic Data Service"
 msgstr "Semantika tad-Data Servizz"
 
@@ -3821,8 +3830,8 @@ msgstr "Uri preview mappa"
 msgid "Show table definition"
 msgstr "Uri definizzjoni tabella"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:46
-#: eea/mediacentre/browser/video_popup_view.pt:65
+#: eea/mediacentre/browser/multimedia_popup_view.pt:47
+#: eea/mediacentre/browser/video_popup_view.pt:66
 msgid "Show the publishdate only (effective date)"
 msgstr "Uri l-publishdate biss (effettivi data)"
 
@@ -4003,13 +4012,9 @@ msgstr "Abbona għal għalf dejjem-aġġornata ta 'dawn termini ta' tiftix"
 msgid "Subtopics"
 msgstr "Subtopics"
 
-#: eea.googlecharts/eea/googlecharts/views/chart.py:307
+#: eea.googlecharts/eea/googlecharts/views/chart.py:342
 msgid "Success"
 msgstr "Suċċess"
-
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:18
-msgid "Summary view"
-msgstr "Ħsieb Sommarju"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:60
 msgid "Sustainable Consumption and Production (SCP)"
@@ -4038,11 +4043,11 @@ msgstr "Jaqilbu għal opinjoni indikatur sħiħa"
 msgid "Switzerland"
 msgstr "L-Iżvizzera"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:69
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:74
 msgid "Synchronisation info"
 msgstr "Info Sinkronizzazzjoni"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:99
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:104
 msgid "Synchronize Queries with Bookmarks"
 msgstr "Synchronize Mistoqsijiet bi Bookmarks"
 
@@ -4053,10 +4058,6 @@ msgstr "Sinteżi"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:31
 msgid "Table definition"
 msgstr "Definizzjoni Tabella"
-
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:27
-msgid "Tabs view"
-msgstr "Tabs fehma"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:401
 msgid "Tags:"
@@ -4235,6 +4236,10 @@ msgstr "Din il-figura għandha l-ebda sors tad-data. Għal aktar informazzjoni k
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:14
 msgid "This file contains links that should be marked in different ways by the mark_special_link.js script. This is to test and verify that it works. Try it with <br /> ${normal} ${swedish-site} <br />"
 msgstr "Dan il-fajl fih links li għandhom jiġu mmarkati b'modi differenti mill-iskrittura mark_special_link.js. Dan huwa li jittestja u tivverifika li taħdem. Ipprova ma <br /> ${normal} ${swedish-site} <br />"
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:16
+msgid "This form will help you find deprecated relation between portal content"
+msgstr ""
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:16
 msgid "This indicator has a newer version, ${spec-title} from ${indicator-date}."
@@ -4424,6 +4429,10 @@ msgstr "Trasferiment minn"
 msgid "Transfer references"
 msgstr "Trasferiment referenzi"
 
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:22
+msgid "Transfer relations"
+msgstr ""
+
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:65
 msgid "Transfer to"
 msgstr "Ittrasferixxi għal"
@@ -4470,7 +4479,7 @@ msgstr "Tip"
 msgid "Typology"
 msgstr "Tipoloġija"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:75
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:81
 msgid "URL"
 msgstr "URL"
 
@@ -4582,7 +4591,7 @@ msgid "Various other issues"
 msgstr "Various other issues"
 
 #: eea.indicators/eea/indicators/browser/specification.py:257
-#: eea.versions/eea/versions/versions.py:492
+#: eea.versions/eea/versions/versions.py:495
 msgid "Version ID changed."
 msgstr "ID Verżjoni mibdula."
 
@@ -4595,7 +4604,7 @@ msgstr "Verżjoni id: ${number}"
 msgid "Version id: ${version-number}"
 msgstr "Verżjoni id: ${version-number}"
 
-#: eea.versions/eea/versions/versions.py:520
+#: eea.versions/eea/versions/versions.py:523
 msgid "Version revoked."
 msgstr "Verżjoni revokata."
 
@@ -4620,10 +4629,9 @@ msgstr "Album art Video"
 msgid "Video pop-ups"
 msgstr "Video pop-ups"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:147
-#: eea/mediacentre/Multimedia/multimedia2.pt:125
+#: eea/mediacentre/Multimedia/multimedia.pt:173
 msgid "Videos"
-msgstr "{0}Vidjows{/0}{1}: {/1}"
+msgstr "Vidjows:"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:115
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:55
@@ -4633,6 +4641,10 @@ msgstr "Ara u jinteraġixxu online"
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:79
 msgid "View entire FAQ expanded"
 msgstr "Ara kollha FAQ estiża"
+
+#: eea.relations/eea/relations/browser/template/tool.pt:21
+msgid "View full graph"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:61
 msgid "View larger map on Eye on Earth"
@@ -4682,6 +4694,10 @@ msgstr "Twissija"
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:302
 msgid "Warning! Core meltdown at EEA HQ, code super-duper-red"
 msgstr "Twissija! Kollass Core fil ŻEE HQ, kodiċi super duper-aħmar"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:23
+msgid "Warning:"
+msgstr ""
 
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:143
 msgid "Waste"
@@ -4741,11 +4757,6 @@ msgstr "Meta"
 msgid "Where"
 msgstr "Fejn"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:63
-#: eea/mediacentre/Multimedia/multimedia2.pt:66
-msgid "Which steps will bring us forward on the road to a Green economy?"
-msgstr "Liema passi se jressaqna quddiem fit-triq lejn ekonomija Paper?"
-
 #: eea/themecentre/browser/templates/themes_view.pt:68
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:65
 msgid "Why is it happening?<br />Sectors and activities"
@@ -4783,8 +4794,8 @@ msgstr "Ħidma lista"
 msgid "World"
 msgstr "Dinja"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:130
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:133
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:131
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:138
 #: eea.sparql/eea/sparql/browser/view.pt:30
 msgid "XML with Schema"
 msgstr "XML Schema ma"
@@ -4876,7 +4887,7 @@ msgstr "żżid l-utenti magħżula"
 msgid "and"
 msgstr "- u -"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:151
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
 #: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:149
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:50
 msgid "archive"
@@ -4932,13 +4943,22 @@ msgstr "konverżjoni"
 msgid "copy-paste-description"
 msgstr "kopja-paste-deskrizzjoni"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:36
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:30
+msgid "data examples"
+msgstr ""
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:38
 msgid "datasets"
 msgstr "datasets"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:84
 msgid "delete portlet"
 msgstr "ħassar portlet"
+
+#. Default: "Jacqueline McGlade, Executive Director of the European Environment Agency (EEA), and three of her colleagues have chosen to be part of an extraordinary journey in East Greenland. They travel from their offices in Copenhagen to participate in a multi sport race, where they challenge themselves through 250 kilometers of the Arctic wilderness. On their way they encounter the effects of climate change and its impact on the Arctic environment. The Inuit are among the first people to experience the effects of climate change. They are in the middle of an environmental challenge that will change many parts of their culture. What is happening to the Inuit today will happen to the rest of the world tomorrow. We will all need to adapt to climate change."
+#: eea/mediacentre/Multimedia/multimedia.pt:56
+msgid "director-description"
+msgstr ""
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_topdatasets.pt:30
 msgid "downloads"
@@ -4952,7 +4972,7 @@ msgstr "bl-inġinerija"
 msgid "expired"
 msgstr "skada"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:46
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:48
 msgid "external data specs"
 msgstr "specs esterni data"
 
@@ -4961,7 +4981,7 @@ msgstr "specs esterni data"
 msgid "external link"
 msgstr "esterna rabta"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:41
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:43
 msgid "figures"
 msgstr "figuri"
 
@@ -4994,6 +5014,10 @@ msgstr "hawn"
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:69
 msgid "homepage"
 msgstr "homepage"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:34
+msgid "how to prepare data"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:160
 msgid "iCal"
@@ -5051,7 +5075,7 @@ msgstr "f'dan il-folder u skond dan portlet huwa viżibbli"
 msgid "indicator"
 msgstr "indikatur"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:51
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:53
 msgid "indicator assessments"
 msgstr "indikatur valutazzjonijiet"
 
@@ -5059,6 +5083,7 @@ msgstr "indikatur valutazzjonijiet"
 msgid "indicator manager"
 msgstr "maniġer indikatur"
 
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:58
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:158
 msgid "indicator specification"
 msgstr "ispeċifikazzjoni indikatur"
@@ -5067,6 +5092,11 @@ msgstr "ispeċifikazzjoni indikatur"
 #: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:106
 msgid "label_advanced_search"
 msgstr "label_advanced_search"
+
+#. Default: "Log in with your Eionet password to see/add comments"
+#: eea.design/eea/design/browser/templates/comments.pt:16
+msgid "label_login_to_add_comments"
+msgstr ""
 
 #. Default: "No matching results found."
 #: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:105
@@ -5188,7 +5218,7 @@ msgstr "obbligi relatati rappurtar"
 msgid "s"
 msgstr "i"
 
-#: eea.design/eea/design/browser/templates/comments.pt:87
+#: eea.design/eea/design/browser/templates/comments.pt:88
 msgid "says:"
 msgstr "jgħid:"
 
@@ -5201,7 +5231,7 @@ msgstr "taqsima hawn taħt"
 msgid "secure link"
 msgstr "sigura rabta"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:37
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:39
 msgid "see more"
 msgstr "ara aktar"
 

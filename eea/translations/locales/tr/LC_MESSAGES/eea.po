@@ -71,6 +71,10 @@ msgstr "${state} özellikleri"
 msgid "% tags currently selected."
 msgstr "% Etiketleri seçili."
 
+#: eea/mediacentre/Multimedia/multimedia.pt:69
+msgid "'One degree matters' follows social and business leaders as they travel to Greenland and experience for themselves the dramatic effects of the melting of the ice cap and come to understand the planetary effects of climate change and the impacts these will have on society and the economy. The film brings to the screen the latest science from the Arctic and shows why a further rise in global temperature of one degree matters for the future of humankind. Film had premiere 13 December 2009 during COP15."
+msgstr ""
+
 #: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:64
 msgid "(${location}, from ${start} to ${end})"
 msgstr "(${location}  itibaren ${start}, ile ${end})"
@@ -116,10 +120,6 @@ msgstr "- (Doğrulanmış sınırlı)"
 msgid "- [Media: ${media}]"
 msgstr "- [Media: ${media}]"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:51
-msgid "<div> <span>x</span> <span>x</span> </div>"
-msgstr "<div> <span> x </ span> <span> x </ span> </ div>"
-
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:38
 msgid "A letter of motivation"
 msgstr "Motivasyon mektubu"
@@ -136,22 +136,18 @@ msgstr "Bir rapor yayın."
 msgid "A-Z Glossary"
 msgstr "AZ Sözlük"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:107
+#: eea/mediacentre/Multimedia/multimedia.pt:130
 msgid "About this item"
 msgstr "Bu öğeyi Hakkında"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:38
-#: eea/mediacentre/browser/video_popup_view.pt:36
+#: eea/mediacentre/browser/multimedia_popup_view.pt:39
+#: eea/mediacentre/browser/video_popup_view.pt:37
 msgid "About this video"
 msgstr "Bu video hakkında"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:67
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
 msgid "Access our data via semantic APIs"
 msgstr "Semantik API'ler üzerinden bizim veri erişim"
-
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:30
-msgid "Accordion view"
-msgstr "Akordeon görünümü"
 
 #: eea/themecentre/browser/templates/themes_view.pt:99
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:123
@@ -179,7 +175,7 @@ msgstr "Ekle"
 msgid "Add Translation"
 msgstr "Çeviri Ekle"
 
-#: eea.design/eea/design/browser/templates/comments.pt:168
+#: eea.design/eea/design/browser/templates/comments.pt:169
 msgid "Add comment"
 msgstr "Yorum ekle"
 
@@ -208,8 +204,7 @@ msgid "Additional information"
 msgstr "Ek bilgiler"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:26
-#: eea/mediacentre/Multimedia/multimedia.pt:96
-#: eea/mediacentre/Multimedia/multimedia2.pt:99
+#: eea/mediacentre/Multimedia/multimedia.pt:119
 msgid "Advanced"
 msgstr "Gelişmiş"
 
@@ -250,9 +245,9 @@ msgstr "Arnavutluk"
 msgid "Album Art:"
 msgstr "Sanat Albümü:"
 
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:21
-msgid "Album view"
-msgstr "Albüm görünümü"
+#: eea/themecentre/skins/themecentre_templates/mediacentre_macros.pt:8
+msgid "All"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:142
 msgid "All ${number} ${title}&hellip;"
@@ -398,9 +393,9 @@ msgstr "Avusturya"
 msgid "Author"
 msgstr "Yazar:"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:51
-#: eea/mediacentre/browser/video-listed-single.pt:34
-#: eea/mediacentre/browser/video.pt:60
+#: eea/mediacentre/browser/multimedia_popup_view.pt:52
+#: eea/mediacentre/browser/video-listed-single.pt:32
+#: eea/mediacentre/browser/video.pt:58
 msgid "Author:"
 msgstr "Yazar:"
 
@@ -489,7 +484,7 @@ msgstr "Kutu Adı (gösterir Başlığı)"
 msgid "Browse SOER geographically"
 msgstr "Coğrafi SOER Gözat"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:58
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:57
 msgid "Browse by organisation"
 msgstr "Kuruluş tarafından göz atın"
 
@@ -502,7 +497,7 @@ msgstr "Konuya göre gözat"
 msgid "Browse catalogue"
 msgstr "Kataloğu İnceleyin"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:103
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:102
 msgid "Browse complete catalogue"
 msgstr "Tam Kataloğu İnceleyin"
 
@@ -521,17 +516,11 @@ msgstr "Bulgaristan"
 msgid "Bulgarian"
 msgstr "Bulgar"
 
-#: eea/mediacentre/Multimedia/multimedia2.pt:108
-msgid "By location"
-msgstr "Yere göre"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:187
-#: eea/mediacentre/Multimedia/multimedia2.pt:163
+#: eea/mediacentre/Multimedia/multimedia.pt:213
 msgid "By tags"
 msgstr "Tags"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:186
-#: eea/mediacentre/Multimedia/multimedia2.pt:162
+#: eea/mediacentre/Multimedia/multimedia.pt:212
 msgid "By topics"
 msgstr "Konu ile"
 
@@ -553,7 +542,7 @@ msgstr "CSV"
 msgid "Cache"
 msgstr "Önbellek"
 
-#: eea.googlecharts/eea/googlecharts/views/chart.py:283
+#: eea.googlecharts/eea/googlecharts/views/chart.py:318
 msgid "Can't set thumbnail on a non-folderish object !"
 msgstr "Olmayan bir folderish nesne üzerinde küçük ayarlanamıyor!"
 
@@ -597,6 +586,10 @@ msgstr "URL'ler durumunu kontrol edin"
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:47
 msgid "Check all"
 msgstr "check all"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:33
+msgid "Check these ${data-examples} or read ${prepare-data}"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:149
 msgid "Check this to have your email address filled in automatically when you log in later."
@@ -671,17 +664,21 @@ msgstr "Kod"
 msgid "Code for developers"
 msgstr "Geliştiriciler için Kod"
 
-#: eea.design/eea/design/browser/templates/comments.pt:143
+#: eea.design/eea/design/browser/templates/comments.pt:144
 msgid "Commenting has been disabled."
 msgstr "Yorumda devre dışı bırakıldı."
+
+#: eea.design/eea/design/browser/templates/comments.pt:2
+msgid "Comments"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:11
 msgid "Comments on translations"
 msgstr "Çeviriler Comments on"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:18
-msgid "Configure exhibit"
-msgstr "Sergilemek yapılandırın"
+msgid "Configure Visualization"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:19
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:36
@@ -769,7 +766,7 @@ msgstr "İçindekiler"
 msgid "Context description"
 msgstr "Bağlam açıklaması"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:23
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:25
 msgid "Contribution"
 msgstr "Katkı"
 
@@ -874,7 +871,7 @@ msgstr "Bu nesnenin ${language} çevirisini oluşturun."
 msgid "Create Promotion"
 msgstr "Promosyon oluştur"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:38
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:53
 msgid "Create Visualization"
 msgstr "Görselleştirme oluşturma"
 
@@ -966,15 +963,15 @@ msgstr "Veri ve haritalar"
 msgid "Data link"
 msgstr "Veri bağlantı"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:104
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:105
 msgid "Data owner"
 msgstr "Veri sahibi"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:83
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:89
 msgid "Data policy"
 msgstr "Veri politikası"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:64
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:69
 msgid "Data repository info"
 msgstr "Veri deposu bilgisi"
 
@@ -982,7 +979,7 @@ msgstr "Veri deposu bilgisi"
 msgid "Data sets uncertainty"
 msgstr "Veri belirsizlik ayarlar"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:96
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:97
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:153
 msgid "Data source"
 msgstr "Veri kaynağı"
@@ -991,7 +988,7 @@ msgstr "Veri kaynağı"
 msgid "Data source Organisation"
 msgstr "Veri kaynağı Örgütü"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:111
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:112
 msgid "Data source download"
 msgstr "Veri kaynağı indir"
 
@@ -1041,7 +1038,7 @@ msgstr "Tarihler"
 msgid "Deadline"
 msgstr "Son Başvuru Tarihi"
 
-#: eea.design/eea/design/browser/templates/comments.pt:105
+#: eea.design/eea/design/browser/templates/comments.pt:106
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:63
 msgid "Delete"
 msgstr "Sil"
@@ -1069,6 +1066,10 @@ msgstr "Müdür Yardımcısı"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:327
 msgid "Derived data set:"
 msgstr "Türetilmiş veri kümesi:"
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:17
+msgid "Detect duplicates"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
 msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
@@ -1156,7 +1157,7 @@ msgstr "ICal biçiminde bu olay indirin"
 msgid "Download this event in vCal format"
 msgstr "VCal formatında bu olay indirin"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:123
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:128
 msgid "Downloads"
 msgstr "İndirmeler"
 
@@ -1165,7 +1166,6 @@ msgid "Draft (not yet published - not quality assured)"
 msgstr "Taslak (henüz yayınlanmadı - değil kalite güvence)"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:81
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:22
 msgid "Duplicate organisations"
 msgstr "Kuruluşlar çoğaltın"
 
@@ -1221,7 +1221,6 @@ msgid "EEA Management plan code. Internal EEA project line code, used to assign 
 msgstr "AÇA Yönetim planı kodu. Yönetim planında belirli bir EEA proje sayısı bir EEA ürün çıkış atamak için kullanılır İç EEA proje satır kod."
 
 #: eea/mediacentre/Multimedia/multimedia.pt:43
-#: eea/mediacentre/Multimedia/multimedia2.pt:44
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:26
 msgid "EEA Multimedia Centre"
 msgstr "EEA Multimedya Merkezi"
@@ -1286,7 +1285,7 @@ msgstr "EPA ağı"
 msgid "EPUB format"
 msgstr "EPUB formatı"
 
-#: eea.googlecharts/eea/googlecharts/views/chart.py:222
+#: eea.googlecharts/eea/googlecharts/views/chart.py:257
 msgid "ERROR: An error occured while exporting your image. Please try again later."
 msgstr "HATA: görüntü dışa aktarma sırasında bir hata oluştu. Daha sonra tekrar deneyiniz."
 
@@ -1525,7 +1524,7 @@ msgid "Exclude from navigation"
 msgstr "Navigasyondan çıkarılsın"
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:21
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:82
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:87
 #: eea.sparql/eea/sparql/browser/view.pt:84
 msgid "Execute"
 msgstr "Uygula"
@@ -1538,9 +1537,8 @@ msgstr "İcra Müdürü"
 msgid "Existing visualizations"
 msgstr "Mevcut görselleştirme"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:151
-#: eea/mediacentre/Multimedia/multimedia.pt:194
-#: eea/mediacentre/Multimedia/multimedia2.pt:170
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
+#: eea/mediacentre/Multimedia/multimedia.pt:220
 msgid "Explore all tags"
 msgstr "Tüm etiketler keşfedin"
 
@@ -1587,11 +1585,11 @@ msgstr "Fancybox pop-up"
 msgid "Fancybox relations"
 msgstr "Fancybox ilişkileri"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:127
+#: eea/mediacentre/Multimedia/multimedia.pt:153
 msgid "Featured Item Description"
 msgstr "Özellikli Ürün Açıklaması"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:126
+#: eea/mediacentre/Multimedia/multimedia.pt:152
 msgid "Featured Item Title"
 msgstr "Özellikli Ürün Başlığı"
 
@@ -1736,10 +1734,6 @@ msgstr "Balıkçılık"
 msgid "Flexible tooltips"
 msgstr "Esnek ipuçları"
 
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:24
-msgid "Folder overview"
-msgstr "Klasör genel bakış"
-
 #: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:16
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:69
 msgid "Follow us"
@@ -1778,12 +1772,12 @@ msgstr "Sistem entegratörleri için"
 msgid "Forgot your password?"
 msgstr "Parolanızı mı unuttunuz?"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:112
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:113
 #: eea.sparql/eea/sparql/browser/view.pt:13
 msgid "Formats suitable for human consumption"
 msgstr "Insan tüketimi için uygun formata"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:122
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:123
 #: eea.sparql/eea/sparql/browser/view.pt:22
 msgid "Formats suitable for machine-to-machine communication"
 msgstr "Makineden makineye iletişim için uygun Biçimleri"
@@ -1838,6 +1832,10 @@ msgstr "Galeri görünümü"
 msgid "General metadata"
 msgstr "Genel meta"
 
+#: eea.relations/eea/relations/browser/template/badrelations.pt:53
+msgid "Generate report"
+msgstr ""
+
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:32
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:36
 msgid "Generic metadata"
@@ -1879,10 +1877,14 @@ msgid "Go back and correct"
 msgstr "Geri dönün ve düzeltin"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:22
-#: eea/mediacentre/Multimedia/multimedia.pt:92
-#: eea/mediacentre/Multimedia/multimedia2.pt:95
+#: eea/mediacentre/Multimedia/multimedia.pt:115
+#: eea/themecentre/skins/themecentre_templates/dc_view.pt:22
 msgid "Go to advanced search"
 msgstr "Gelişmiş arama git"
+
+#: EEAContentTypes/skins/EEAContentTypes/promotion_view.pt:39
+msgid "Go to site"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:24
 msgid "Google Custom Search Engines"
@@ -1903,8 +1905,7 @@ msgstr "Yunan"
 msgid "Green economy"
 msgstr "Yeşil ekonomi"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:150
-#: eea/mediacentre/Multimedia/multimedia2.pt:128
+#: eea/mediacentre/Multimedia/multimedia.pt:176
 msgid "Green tips"
 msgstr "Yeşil ipuçları"
 
@@ -1929,7 +1930,7 @@ msgstr "İşte tam hata iletisi:"
 msgid "Hide the search form"
 msgstr "Arama formu gizle"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:90
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:89
 msgid "Highlights"
 msgstr "Önemli Noktalar"
 
@@ -2052,8 +2053,7 @@ msgstr "Imaj"
 msgid "Image Size:"
 msgstr "Resim Boyutu:"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:153
-#: eea/mediacentre/Multimedia/multimedia2.pt:131
+#: eea/mediacentre/Multimedia/multimedia.pt:179
 msgid "Image galleries"
 msgstr "Resim Galerisi"
 
@@ -2143,13 +2143,17 @@ msgstr "Katkıda bulunmak ve bu kaynağın nasıl kullanılacağı hakkında tal
 msgid "Interactive data viewer"
 msgstr "Etkileşimli veri görüntüleyici"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:51
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:50
 msgid "Interactive data viewers"
 msgstr "Etkileşimli veri izleyiciler"
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:19
 msgid "Interested candidates must apply by filling in the application form below. To the application form must be attached:"
 msgstr "İlgilenen adayların aşağıdaki başvuru formunu doldurarak başvurmaları gerekmektedir. Başvuru formuna eklenmesi gerekir:"
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:42
+msgid "Interface"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:70
 msgid "International cooperation"
@@ -2330,9 +2334,9 @@ msgstr "Yasal uyarı"
 msgid "Liechtenstein"
 msgstr "Lihtenştayn"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:116
-#: eea/mediacentre/browser/multimedia_popup_view.pt:61
-#: eea/mediacentre/browser/video_popup_view.pt:79
+#: eea/mediacentre/Multimedia/multimedia.pt:139
+#: eea/mediacentre/browser/multimedia_popup_view.pt:62
+#: eea/mediacentre/browser/video_popup_view.pt:80
 msgid "Link"
 msgstr "Link"
 
@@ -2384,13 +2388,17 @@ msgstr "Linkler (Bağlantılar)"
 msgid "Links in the state ..."
 msgstr "Devlet Bağlantılar ..."
 
+#: eea.relations/eea/relations/browser/template/tool.pt:26
+msgid "List all relations that don't comply portal_relations schema"
+msgstr ""
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:11
 msgid "List of all icons available"
 msgstr "Kullanılabilir tüm simgeleri listesi"
 
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:15
-msgid "Listing"
-msgstr "Listeleme"
+#: eea.relations/eea/relations/browser/template/tool.pt:26
+msgid "List of bad relations"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:18
 msgid "Listing not available"
@@ -2407,7 +2415,7 @@ msgstr "Litvanya"
 msgid "Loading..."
 msgstr "Yükleniyor..."
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:91
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:97
 msgid "Location"
 msgstr "Konum"
 
@@ -2420,7 +2428,7 @@ msgstr "Mekanlar."
 msgid "Log in"
 msgstr "Giriş yap"
 
-#: eea.design/eea/design/browser/templates/comments.pt:30
+#: eea.design/eea/design/browser/templates/comments.pt:31
 msgid "Log in to add comments"
 msgstr "Yorum eklemek için oturum açın"
 
@@ -2476,7 +2484,7 @@ msgstr "Altbilgi Portletler Yönet"
 msgid "Manage footer portlets"
 msgstr "Altbilgi portletler Yönet"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:98
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:104
 msgid "Map location"
 msgstr "Harita konumu"
 
@@ -2492,11 +2500,6 @@ msgstr "Medya Merkezi multimedya dosyalarını sanal bir deposudur. Bu videolar,
 #: eea/mediacentre/browser/statistics.pt:22
 msgid "Media Centre relies on plugins. Each plugin handles a set of media types and knows how to retrieve media files/data from the repository it handles. When Media Centre is asked for all videos that are available it will forward the question to all registered plugins and will then merge the results."
 msgstr "Medya Merkezi eklentileri dayanır. Her eklenti medya türlerini bir takım işler ve medya dosyalarını / işlediği deposundan veri almak nasıl bilir. Medya Merkezi, tüm kayıtlı eklentileri soru iletecek ve ardından sonuçları birleştirme kullanılabilen tüm videolar için sorulduğunda."
-
-#: eea/mediacentre/browser/video-listed-single.pt:31
-#: eea/mediacentre/browser/video.pt:57
-msgid "Media Type:"
-msgstr "Medya Türü:"
 
 #: eea/mediacentre/profiles/default/actions.xml
 msgid "Media type"
@@ -2609,8 +2612,8 @@ msgstr "Daha fazla ağ"
 msgid "More subscriptions are available at ${link}"
 msgstr "Daha fazla abonelikleri $ mevcuttur {link}"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:65
-#: eea/mediacentre/browser/video_popup_view.pt:80
+#: eea/mediacentre/browser/multimedia_popup_view.pt:66
+#: eea/mediacentre/browser/video_popup_view.pt:81
 msgid "More videos"
 msgstr "Daha fazla video"
 
@@ -2642,17 +2645,13 @@ msgstr "Yukarı taşı"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:9
 #: eea/mediacentre/Multimedia/multimedia.pt:7
-#: eea/mediacentre/Multimedia/multimedia2.pt:7
+#: eea/themecentre/skins/themecentre_templates/media_type_common.pt:39
 msgid "Multimedia"
 msgstr "Multimedya"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:19
 msgid "Multimedia highlights"
 msgstr "Multimedya golleri"
-
-#: eea/mediacentre/Multimedia/multimedia2.pt:134
-msgid "My playlist"
-msgstr "Playlistime"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:56
 msgid "NOT CHECKED"
@@ -2723,7 +2722,7 @@ msgstr "Yeni oluşturulan iş kalemi"
 msgid "News"
 msgstr "Haber"
 
-#: eea/mediacentre/browser/video_popup_view.pt:35
+#: eea/mediacentre/browser/video_popup_view.pt:36
 msgid "News and articles"
 msgstr "Haber ve makaleler"
 
@@ -2848,7 +2847,7 @@ msgstr "Norveç"
 msgid "Norwegian"
 msgstr "Norveç"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:25
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:27
 msgid "Note that for authenticated users the info below include the unpublished content."
 msgstr "Kimliği doğrulanmış kullanıcılar için aşağıdaki bilgileri yayınlanmamış içerik bulunmaktadır unutmayın."
 
@@ -2893,8 +2892,7 @@ msgstr "Eski sürümleri"
 msgid "On the left side you have a list resources. Drag from the handle icon to reorder. After reordering, you need to use the Save button at the bottom of the list. On the right side you can see how the resources have been composed. Notice: this is not a preview. Hitting Save will generate new merged resources."
 msgstr "Sol tarafta bir liste kaynaklara sahip. Yeniden düzenlemek için kolu simgesini sürükleyin. Reordering sonra, listenin en altındaki Kaydet düğmesini kullanmanız gerekir. Sağ tarafta kaynakları bestelenmiştir nasıl görebilirsiniz. Uyarı: Bu bir önizleme değildir. Kaydet vurmak yeni birleştirilmiş kaynakları oluşturur."
 
-#: eea/mediacentre/Multimedia/multimedia.pt:58
-#: eea/mediacentre/Multimedia/multimedia2.pt:56
+#: eea/mediacentre/Multimedia/multimedia.pt:66
 msgid "One degree matters"
 msgstr "Bir derece konularda"
 
@@ -2925,8 +2923,11 @@ msgstr "Organizasyonu web sitesi"
 msgid "Organisations control panel"
 msgstr "Kuruluşlar kontrol paneli"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:119
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:32
+msgid "Organisations not in use"
+msgstr ""
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:119
 msgid "Organisations with no reference"
 msgstr "Hiçbir referans Kuruluşlar"
 
@@ -2965,7 +2966,6 @@ msgid "Other resources"
 msgstr "Diğer kaynaklar"
 
 #: eea/mediacentre/Multimedia/multimedia.pt:52
-#: eea/mediacentre/Multimedia/multimedia2.pt:61
 msgid "Our arctic challenge"
 msgstr "Bizim kutup meydan"
 
@@ -2982,7 +2982,7 @@ msgstr "Kendi metin ile sipariş metni geçersiz kılma"
 msgid "Owner"
 msgstr "Sahibi"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:31
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:33
 msgid "Owner of:"
 msgstr "Sahibi:"
 
@@ -3049,10 +3049,6 @@ msgstr "Kalıcı"
 msgid "Permissions Overview for Indicators Database"
 msgstr "Göstergeleri veritabanı için izinler Genel Bakış"
 
-#: eea.design/eea/design/browser/templates/personal_bar.pt:4
-msgid "Personal tools"
-msgstr "Kişisel araçlar"
-
 #: eea.design/eea/design/browser/templates/colophon.pt:20
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:154
 msgid "Phone:"
@@ -3062,12 +3058,11 @@ msgstr "Telefon"
 msgid "Play in popup window"
 msgstr "Popup pencerede oyna"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:157
+#: eea/mediacentre/Multimedia/multimedia.pt:183
 msgid "Playlists"
 msgstr "Çalma Listesi"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:84
-#: eea/mediacentre/Multimedia/multimedia2.pt:87
+#: eea/mediacentre/Multimedia/multimedia.pt:107
 msgid "Please enable javascript or upgrade to ${flash} to watch the video."
 msgstr "Acmanız veya video izlemek için ${flash} yükseltin."
 
@@ -3084,7 +3079,7 @@ msgid "Please provide the following contact information"
 msgstr "Aşağıdaki iletişim bilgileri veriniz"
 
 #: eea.indicators/eea/indicators/browser/specification.py:259
-#: eea.versions/eea/versions/versions.py:494
+#: eea.versions/eea/versions/versions.py:497
 msgid "Please specify a valid Version ID."
 msgstr "Geçerli bir sürüm numarası belirtin."
 
@@ -3120,6 +3115,7 @@ msgid "Portal messages"
 msgstr "Portalı mesajları"
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:31
+#: eea.relations/eea/relations/browser/template/badrelations.pt:29
 msgid "Portal type"
 msgstr "Portal tipi"
 
@@ -3192,7 +3188,7 @@ msgstr "Birincil tema:"
 msgid "Privacy policy"
 msgstr "Gizlilik Politikası"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:56
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:62
 msgid "Processor of:"
 msgstr "Işlemci:"
 
@@ -3273,8 +3269,8 @@ msgstr "Yayın (Yorumlar ve kalite güvence)"
 msgid "Published by"
 msgstr "Yayınlayan"
 
-#: eea/mediacentre/browser/video-listed-single.pt:37
-#: eea/mediacentre/browser/video.pt:63
+#: eea/mediacentre/browser/video-listed-single.pt:35
+#: eea/mediacentre/browser/video.pt:61
 #: eea/themecentre/skins/themecentre_templates/listall.pt:29
 msgid "Published:"
 msgstr "Yayınlandı:"
@@ -3284,19 +3280,18 @@ msgid "Publishers"
 msgstr "Yayıncılar"
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:59
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:112
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:117
 #: eea.sparql/eea/sparql/browser/view.pt:100
 msgid "Query will not return a result."
 msgstr "Sorgulama sonucu geri dönmeyecek."
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:56
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:109
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:114
 #: eea.sparql/eea/sparql/browser/view.pt:97
 msgid "Query will return a result."
 msgstr "Sorgu sonucu dönecektir."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:22
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:17
 msgid "Quick overview"
 msgstr "Hızlı gözden geçirme"
 
@@ -3408,7 +3403,7 @@ msgstr "İlgili temalar"
 msgid "Related topics"
 msgstr "İlgili konular"
 
-#: eea/mediacentre/browser/video_popup_view.pt:34
+#: eea/mediacentre/browser/video_popup_view.pt:35
 msgid "Related videos"
 msgstr "İlgili videolar"
 
@@ -3460,9 +3455,13 @@ msgstr "Kaynakların yeniden sıralama"
 msgid "Replace with new file:"
 msgstr "Yeni bir dosya ile değiştirin:"
 
-#: eea.design/eea/design/browser/templates/comments.pt:134
+#: eea.design/eea/design/browser/templates/comments.pt:135
 msgid "Reply"
 msgstr "Yanıtla"
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:58
+msgid "Report"
+msgstr ""
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:60
 msgid "Report number"
@@ -3598,7 +3597,7 @@ msgstr "SOER mesajı"
 msgid "SOER viral video message"
 msgstr "SOER viral video mesajı"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:65
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:70
 #: eea.sparql/eea/sparql/browser/view.pt:66
 msgid "SPARQL Endpoint:"
 msgstr "SPARQL Endpoint:"
@@ -3607,13 +3606,12 @@ msgstr "SPARQL Endpoint:"
 msgid "SPARQL Query:"
 msgstr "SPARQL Sorgu:"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:70
-#: eea/mediacentre/Multimedia/multimedia2.pt:73
+#: eea/mediacentre/Multimedia/multimedia.pt:93
 msgid "Sample Text"
 msgstr "Örnek Metin"
 
 #: EEAContentTypes/browser/reorder.pt:76
-#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:135
+#: eea.app.visualization/eea/app/visualization/browser/app/properties.py:145
 #: eea.app.visualization/eea/app/visualization/facets/edit.py:65
 msgid "Save"
 msgstr "Kaydet"
@@ -3671,6 +3669,10 @@ msgstr "Arama veriler, haritalar, göstergeler"
 msgid "Search for Publication by title"
 msgstr "Başlığa göre Yayın ara"
 
+#: eea.relations/eea/relations/browser/template/badrelations.pt:12
+msgid "Search for bad relations"
+msgstr ""
+
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:345
 msgid "Search on data set and application"
 msgstr "Veri seti ve uygulama ara"
@@ -3688,8 +3690,7 @@ msgstr "Bu liste ara"
 msgid "Search this site"
 msgstr "Bu sitede ara"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:99
-#: eea/mediacentre/Multimedia/multimedia2.pt:102
+#: eea/mediacentre/Multimedia/multimedia.pt:122
 msgid "Search videos, animations, image galleries"
 msgstr "Ara videolar, animasyonlar, resim galerileri"
 
@@ -3711,7 +3712,7 @@ msgstr "Uzun başlığı ile ikinci sekmesi"
 msgid "Sections"
 msgstr "Bölümler"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:50
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:49
 msgid "See all"
 msgstr "Hepsine bak"
 
@@ -3752,15 +3753,23 @@ msgstr "Rakamları dönüştürülecek seçin."
 msgid "Select from existing tags."
 msgstr "Varolan etiketleri seçin."
 
+#: eea.relations/eea/relations/browser/template/badrelations.pt:43
+msgid "Select interface"
+msgstr ""
+
 #: eea.dataservice/eea/dataservice/templates/select_template.pt:10
 msgid "Select one of the below templates to apply its metadata."
 msgstr "Meta, uygulamak için aşağıdaki şablonlardan birini seçin."
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:30
+msgid "Select portal type"
+msgstr ""
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/temporal_widget.pt:86
 msgid "Selected value:"
 msgstr "Seçilen değeri:"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:65
 msgid "Semantic Data Service"
 msgstr "Anlamsal Veri Hizmeti"
 
@@ -3817,8 +3826,8 @@ msgstr "Harita önizlemesini göster"
 msgid "Show table definition"
 msgstr "Tablo tanımı göster"
 
-#: eea/mediacentre/browser/multimedia_popup_view.pt:46
-#: eea/mediacentre/browser/video_popup_view.pt:65
+#: eea/mediacentre/browser/multimedia_popup_view.pt:47
+#: eea/mediacentre/browser/video_popup_view.pt:66
 msgid "Show the publishdate only (effective date)"
 msgstr "Publishdate sadece (geçerlilik tarihi) göster"
 
@@ -3999,13 +4008,9 @@ msgstr "Bu arama terimlerini bir zaman güncellenen akışına abone ol"
 msgid "Subtopics"
 msgstr "Alt Konular"
 
-#: eea.googlecharts/eea/googlecharts/views/chart.py:307
+#: eea.googlecharts/eea/googlecharts/views/chart.py:342
 msgid "Success"
 msgstr "Başarılı"
-
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:18
-msgid "Summary view"
-msgstr "Özet görünümü"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:60
 msgid "Sustainable Consumption and Production (SCP)"
@@ -4034,11 +4039,11 @@ msgstr "Dolu göstergesi görünümüne geçme"
 msgid "Switzerland"
 msgstr "İsviçre"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:69
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:74
 msgid "Synchronisation info"
 msgstr "Senkronizasyon bilgisi"
 
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:99
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:104
 msgid "Synchronize Queries with Bookmarks"
 msgstr "Imleri ile sorgular senkronize"
 
@@ -4049,10 +4054,6 @@ msgstr "Sentez"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:31
 msgid "Table definition"
 msgstr "Tablo tanımı"
-
-#: eea.design/eea/design/skins/eea_design/smart_view.pt:27
-msgid "Tabs view"
-msgstr "Sekmeler görünümünde"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:401
 msgid "Tags:"
@@ -4231,6 +4232,10 @@ msgstr "Bu rakam herhangi bir veri kaynağı vardır. Daha fazla bilgi için"
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:14
 msgid "This file contains links that should be marked in different ways by the mark_special_link.js script. This is to test and verify that it works. Try it with <br /> ${normal} ${swedish-site} <br />"
 msgstr "Bu dosya mark_special_link.js komut dosyası tarafından farklı şekilde işaretlenmiş olmalıdır bağlantılar içerir. Bu test etmek ve bunun işe yaradığını doğrulamak içindir. <br /> ${normal} ${swedish-site} <br />"
+
+#: eea.relations/eea/relations/browser/template/badrelations.pt:16
+msgid "This form will help you find deprecated relation between portal content"
+msgstr ""
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:16
 msgid "This indicator has a newer version, ${spec-title} from ${indicator-date}."
@@ -4420,6 +4425,10 @@ msgstr "Transfer"
 msgid "Transfer references"
 msgstr "Transferi referanslar"
 
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:22
+msgid "Transfer relations"
+msgstr ""
+
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:65
 msgid "Transfer to"
 msgstr "Transfer"
@@ -4466,7 +4475,7 @@ msgstr "Tür:"
 msgid "Typology"
 msgstr "Tipoloji"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:75
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:81
 msgid "URL"
 msgstr "URL"
 
@@ -4578,7 +4587,7 @@ msgid "Various other issues"
 msgstr "Çeşitli diğer hususlar"
 
 #: eea.indicators/eea/indicators/browser/specification.py:257
-#: eea.versions/eea/versions/versions.py:492
+#: eea.versions/eea/versions/versions.py:495
 msgid "Version ID changed."
 msgstr "Sürüm numarası değişti."
 
@@ -4591,7 +4600,7 @@ msgstr "Sürüm id: ${number}"
 msgid "Version id: ${version-number}"
 msgstr "Sürüm id: ${version-number}"
 
-#: eea.versions/eea/versions/versions.py:520
+#: eea.versions/eea/versions/versions.py:523
 msgid "Version revoked."
 msgstr "Sürüm iptal etti."
 
@@ -4616,8 +4625,7 @@ msgstr "Video albüm"
 msgid "Video pop-ups"
 msgstr "Video pop-up"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:147
-#: eea/mediacentre/Multimedia/multimedia2.pt:125
+#: eea/mediacentre/Multimedia/multimedia.pt:173
 msgid "Videos"
 msgstr "Videolar"
 
@@ -4629,6 +4637,10 @@ msgstr "Çevrimiçi görüntüleme ve etkileşim"
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:79
 msgid "View entire FAQ expanded"
 msgstr "Tüm SSS genişletilmiş bilgileri"
+
+#: eea.relations/eea/relations/browser/template/tool.pt:21
+msgid "View full graph"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:61
 msgid "View larger map on Eye on Earth"
@@ -4678,6 +4690,10 @@ msgstr "Uyarı"
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:302
 msgid "Warning! Core meltdown at EEA HQ, code super-duper-red"
 msgstr "Uyarı! EEA HQ, kod-aldatıcı kırmızı Core erimesi"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:23
+msgid "Warning:"
+msgstr ""
 
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:143
 msgid "Waste"
@@ -4737,11 +4753,6 @@ msgstr "Ne zaman"
 msgid "Where"
 msgstr "Nereye"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:63
-#: eea/mediacentre/Multimedia/multimedia2.pt:66
-msgid "Which steps will bring us forward on the road to a Green economy?"
-msgstr "Hangi adımları Yeşil ekonomi yolunda ileriye getirecek?"
-
 #: eea/themecentre/browser/templates/themes_view.pt:68
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:65
 msgid "Why is it happening?<br />Sectors and activities"
@@ -4779,8 +4790,8 @@ msgstr "Çalışma listesi"
 msgid "World"
 msgstr "Dünya"
 
-#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:130
-#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:133
+#: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:131
+#: eea.sparql/eea/sparql/browser/view-bookmarks.pt:138
 #: eea.sparql/eea/sparql/browser/view.pt:30
 msgid "XML with Schema"
 msgstr "Şema ile XML"
@@ -4872,7 +4883,7 @@ msgstr "Seçilen kullanıcı eklemek"
 msgid "and"
 msgstr "Ve"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:151
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
 #: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:149
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:50
 msgid "archive"
@@ -4928,13 +4939,22 @@ msgstr "dönüştürme"
 msgid "copy-paste-description"
 msgstr "kopyala-yapıştır-açıklama"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:36
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:30
+msgid "data examples"
+msgstr ""
+
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:38
 msgid "datasets"
 msgstr "gerçekleştirmede"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:84
 msgid "delete portlet"
 msgstr "delete portleti"
+
+#. Default: "Jacqueline McGlade, Executive Director of the European Environment Agency (EEA), and three of her colleagues have chosen to be part of an extraordinary journey in East Greenland. They travel from their offices in Copenhagen to participate in a multi sport race, where they challenge themselves through 250 kilometers of the Arctic wilderness. On their way they encounter the effects of climate change and its impact on the Arctic environment. The Inuit are among the first people to experience the effects of climate change. They are in the middle of an environmental challenge that will change many parts of their culture. What is happening to the Inuit today will happen to the rest of the world tomorrow. We will all need to adapt to climate change."
+#: eea/mediacentre/Multimedia/multimedia.pt:56
+msgid "director-description"
+msgstr ""
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_topdatasets.pt:30
 msgid "downloads"
@@ -4948,7 +4968,7 @@ msgstr "tarafından tasarlanmıştır"
 msgid "expired"
 msgstr "süresi doldu"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:46
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:48
 msgid "external data specs"
 msgstr "dış veri özellikleri"
 
@@ -4957,7 +4977,7 @@ msgstr "dış veri özellikleri"
 msgid "external link"
 msgstr "dış bağlantı"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:41
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:43
 msgid "figures"
 msgstr "belirtin."
 
@@ -4990,6 +5010,10 @@ msgstr "Buradayım!"
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:69
 msgid "homepage"
 msgstr "anasayfa"
+
+#: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:34
+msgid "how to prepare data"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:160
 msgid "iCal"
@@ -5047,7 +5071,7 @@ msgstr "Bu klasör altında ve bu portleti görülebilir"
 msgid "indicator"
 msgstr "gösterge"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:51
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:53
 msgid "indicator assessments"
 msgstr "göstergesi değerlendirmeler"
 
@@ -5055,6 +5079,7 @@ msgstr "göstergesi değerlendirmeler"
 msgid "indicator manager"
 msgstr "göstergesi yöneticisi"
 
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:58
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:158
 msgid "indicator specification"
 msgstr "göstergesi özellikleri"
@@ -5063,6 +5088,11 @@ msgstr "göstergesi özellikleri"
 #: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:106
 msgid "label_advanced_search"
 msgstr "label_advanced_search"
+
+#. Default: "Log in with your Eionet password to see/add comments"
+#: eea.design/eea/design/browser/templates/comments.pt:16
+msgid "label_login_to_add_comments"
+msgstr ""
 
 #. Default: "No matching results found."
 #: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:105
@@ -5184,7 +5214,7 @@ msgstr "ilgili raporlama yükümlülüklerinin"
 msgid "s"
 msgstr "s"
 
-#: eea.design/eea/design/browser/templates/comments.pt:87
+#: eea.design/eea/design/browser/templates/comments.pt:88
 msgid "says:"
 msgstr "diyor ki:"
 
@@ -5197,7 +5227,7 @@ msgstr "aşağıda bölüm"
 msgid "secure link"
 msgstr "güvenli bağlantı"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:37
+#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:39
 msgid "see more"
 msgstr "Daha fazlasını görmek"
 
