@@ -2,25 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2008-11-14 15:51+0100\n"
+"PO-Revision-Date: 2012-11-13 15:04+0100\n"
 "Last-Translator: Marie Jaegly <marie.jaegly@eea.europa.eu>\n"
 "Language-Team: sl <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
+"X-Generator: Poedit 1.5.3\n"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:33
 msgid "${context_icon} Manage portlets for ${context_title}"
-msgstr "${context_icon} Uredi portletov za ${context_title}"
+msgstr "${context_icon} Uredi portalske programčke za ${context_title}"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:92
 msgid "${date} ${linebreak} from ${starttime} to ${endtime}"
-msgstr "${date} ${linebreak} od ${starttime} na ${endtime}"
+msgstr "${date} ${linebreak} od ${starttime} do ${endtime}"
 
 #: eea.design/eea/design/browser/templates/calendar.pt:55
 msgid "${monthname} ${year}"
@@ -28,7 +29,7 @@ msgstr "${monthname} ${year}"
 
 #: eea.geotags/eea/geotags/field/location.py:106
 msgid "${name} is required, please correct."
-msgstr "${name} je potrebno, popravite."
+msgstr "${name} je zahtevano, prosim popravite."
 
 #: EEAContentTypes/skins/EEAContentTypes/map_portlet.pt:61
 msgid "${number} events on map"
@@ -40,12 +41,13 @@ msgid "${number} items matching your search terms"
 msgstr "${number} postavke, ki ustrezajo kriteriju"
 
 #: eea.workflow/eea/workflow/portlets/readiness.pt:28
+#, fuzzy
 msgid "${percent}% percentage done."
-msgstr "${pecent}% Odstotkov odstotek storiti."
+msgstr "${pecent}% odstotek/a/ov opravljen/a/ih"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:57
 msgid "${startdate} to ${linebreak} ${enddate}"
-msgstr "${startdate} na ${linebreak} ${enddate}"
+msgstr "${startdate} do ${linebreak} ${enddate}"
 
 #: eea.design/eea/design/skins/eea_design/folder_listing.pt:132
 msgid "${start}"
@@ -53,11 +55,11 @@ msgstr "${start}"
 
 #: eea.design/eea/design/skins/eea_design/folder_listing.pt:147
 msgid "${start} from ${starttime} to ${end}"
-msgstr "${start} od ${starttime} na ${end}"
+msgstr "${start} od ${starttime} do ${end}"
 
 #: eea.indicators/eea/indicators/browser/templates/timeline.pt:68
 msgid "${state} assessment"
-msgstr "${state} oceno"
+msgstr "${state} ocena"
 
 #: eea.indicators/eea/indicators/browser/templates/timeline.pt:86
 msgid "${state} factsheet"
@@ -69,15 +71,23 @@ msgstr "${state} specifikacija"
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:82
 msgid "% tags currently selected."
-msgstr "Odstotno oznake trenutno izbrano."
+msgstr "Odstotek trenutno izbranih oznak."
 
 #: eea/mediacentre/Multimedia/multimedia.pt:69
-msgid "'One degree matters' follows social and business leaders as they travel to Greenland and experience for themselves the dramatic effects of the melting of the ice cap and come to understand the planetary effects of climate change and the impacts these will have on society and the economy. The film brings to the screen the latest science from the Arctic and shows why a further rise in global temperature of one degree matters for the future of humankind. Film had premiere 13 December 2009 during COP15."
+msgid ""
+"'One degree matters' follows social and business leaders as they travel to "
+"Greenland and experience for themselves the dramatic effects of the melting "
+"of the ice cap and come to understand the planetary effects of climate "
+"change and the impacts these will have on society and the economy. The film "
+"brings to the screen the latest science from the Arctic and shows why a "
+"further rise in global temperature of one degree matters for the future of "
+"humankind. Film had premiere 13 December 2009 during COP15."
 msgstr ""
 
+# It could be also used od (from) do (to) depends on the nouns used! It si not straightforward!
 #: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:64
 msgid "(${location}, from ${start} to ${end})"
-msgstr "(${location}, od ${start} na ${end})"
+msgstr "(${location}, od ${start} so ${end})"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:49
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:48
@@ -86,35 +96,39 @@ msgstr "(Directory: ${directory})"
 
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:36
 msgid "(NOT SET)"
-msgstr "(NE SET)"
+msgstr "(NI NASTAVLJENO)"
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:84
 msgid "(Open: ${from-date} &mdash; Close: ${to-date})"
-msgstr "(Odprto: ${from-date} - Zapri: ${to-date})"
+msgstr "(Odprto: ${from-date} - Zaprto: ${to-date})"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:162
 msgid "(Required)"
-msgstr "(Obvezno)"
+msgstr "(Zahtevano)"
 
 #: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:76
 msgid "(from ${start} to ${end})"
-msgstr "(Od ${start} na ${end})"
+msgstr "(Od ${start} do ${end})"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:332
 msgid "(just add file extension in the URL as query at the end!)"
-msgstr "(Dodajte končnico datoteke v URL kot poizvedbe na koncu!)"
+msgstr "(Dodajte pripono datoteke v URL kot poizvedbo na koncu!)"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:195
 msgid "(note: EEA internal system)"
-msgstr "(Opomba: velja za notranji sistem)"
+msgstr "(Opomba: velja za notranji sistem EAO)"
 
 #: EEAContentTypes/browser/crop/cropimage.pt:24
-msgid "*Note: Hitting the crop button will replace the original image with this cropped image"
-msgstr "* Opomba: S pritiskom na gumb pridelka bo nadomestila originalno podobo s to obrezana slika"
+msgid ""
+"*Note: Hitting the crop button will replace the original image with this "
+"cropped image"
+msgstr ""
+"* Opomba: S pritiskom na gumb obrezka boste nadomestili originalno podobo s "
+"to obrezano sliko"
 
 #: EEAContentTypes/browser/reorder.pt:92
 msgid "- (restricted to authenticated)"
-msgstr "- (Omejena na potrjeni)"
+msgstr "- (Omejeno - overovitev)"
 
 #: EEAContentTypes/browser/reorder.pt:127
 msgid "- [Media: ${media}]"
@@ -125,12 +139,18 @@ msgid "A letter of motivation"
 msgstr "Motivacijsko pismo"
 
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_popup_view.pt:22
-msgid "A new window has been opened with the flash application. <br /> If you don't see the window please check your browser preferences to allow popup windows. You'll then need to reload this page."
-msgstr "Novo okno je bil odprt pri uporabi bliskavice. <br /> Če ne vidite okna preverite nastavitve vašega brskalnika, da bi popup okna. Nato boste morali, da osvežite stran."
+msgid ""
+"A new window has been opened with the flash application. <br /> If you don't "
+"see the window please check your browser preferences to allow popup windows. "
+"You'll then need to reload this page."
+msgstr ""
+"Novo okno je bilo odprto v flash aplikaciji. <br /> Če ne vidite okna, "
+"preverite nastavitve vašega brskalnika, da bo dovolil prikazovanje pojavnih "
+"(popup) oken. Nato osvežite stran."
 
 #: eea.reports/eea/reports/profiles/default/types/Report.xml
 msgid "A report publication."
-msgstr "Poročilo objava."
+msgstr "Objava poročila."
 
 #: eea.design/eea/design/browser/templates/global_searchbox.pt:22
 msgid "A-Z Glossary"
@@ -147,33 +167,33 @@ msgstr "O tem videu"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
 msgid "Access our data via semantic APIs"
-msgstr "Dostop do naših podatkov prek semantični API"
+msgstr "Dostop do naših podatkov preko semantičnega vmesnika API"
 
 #: eea/themecentre/browser/templates/themes_view.pt:99
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:123
 msgid "Across environmental issues and sectors"
-msgstr "Čez okoljskih vprašanjih in sektorjih"
+msgstr "Čez okoljska vprašanja in sektorje"
 
 #: eea.sparql/eea/sparql/browser/view-bookmarks.pt:24
 msgid "Action"
-msgstr "ac"
+msgstr "Akcija"
 
 #: EEAContentTypes/skins/EEAContentTypes/workflow_action_message.pt:6
 msgid "Action message for ${type} with scheduled publishing date ${date}"
-msgstr "Akcija sporočilo ${type} z načrtovanim datumom objavljanje ${date}"
+msgstr "Akcijsko sporočilo ${type} z načrtovanim datumom objave ${date}"
 
 #: eea.promotion/eea/promotion/browser/admin.pt:20
 msgid "Active"
-msgstr "Activno"
+msgstr "Aktivno"
 
 #: eea.app.visualization/eea/app/visualization/facets/add.py:55
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:179
 msgid "Add"
-msgstr "Uvozi"
+msgstr "Uvozi/dodaj"
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:100
 msgid "Add Translation"
-msgstr "Dodaj Prevajanje"
+msgstr "Dodaj prevajanje"
 
 #: eea.design/eea/design/browser/templates/comments.pt:169
 msgid "Add comment"
@@ -181,7 +201,7 @@ msgstr "Dodaj komentar"
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:72
 msgid "Add content translation"
-msgstr "Dodaj vsebine prevod"
+msgstr "Dodaj prevod vsebine"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:147
 msgid "Add event to calendar"
@@ -193,11 +213,11 @@ msgstr "Dodaj novo objavo"
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:67
 msgid "Add portal type"
-msgstr "Dodaj portal tip"
+msgstr "Dodaj tip portala"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:108
 msgid "Add..."
-msgstr "Uvozi"
+msgstr "Uvozi/Dodaj..."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:178
 msgid "Additional information"
@@ -230,7 +250,7 @@ msgstr "Kmetijstvo"
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:113
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:26
 msgid "Air pollution"
-msgstr "Onesnaževanju zraka"
+msgstr "Onesnaževanje zraka"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:38
 msgid "Air pollution and Climate Change mitigation (ACM)"
@@ -243,11 +263,13 @@ msgstr "Albanija"
 #: eea/mediacentre/browser/image-listed-single.pt:12
 #: eea/mediacentre/browser/video-listed-single.pt:13
 msgid "Album Art:"
-msgstr "Album Art:"
+msgstr "Umetniški album:"
 
+# "Vsi" addresses things or persons in plural, masculine gender.
+# "Vse" addresses thisng or pesrons in plural, feminine gender!
 #: eea/themecentre/skins/themecentre_templates/mediacentre_macros.pt:8
 msgid "All"
-msgstr ""
+msgstr "Vsi"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:142
 msgid "All ${number} ${title}&hellip;"
@@ -264,7 +286,7 @@ msgstr "Vsi dokumenti v državni ${state}"
 
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:41
 msgid "All key facts"
-msgstr "Vse ključne dejstva"
+msgstr "Vsa ključne dejstva"
 
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:46
 msgid "All key messages"
@@ -302,8 +324,12 @@ msgstr "Alternativni"
 
 #: NavigationManager/skins/NavigationManager/sitemap.pt:16
 #: eea/themecentre/skins/themecentre_templates/overview.pt:16
-msgid "An overview of the available content on this site. Keep the pointer still over an item for a few seconds to get its description."
-msgstr "Pregled razpoložljivih vsebin na tej strani. Naj kazalec še vedno v elementu za nekaj sekund, da se prikaže opis."
+msgid ""
+"An overview of the available content on this site. Keep the pointer still "
+"over an item for a few seconds to get its description."
+msgstr ""
+"Pregled razpoložljivih vsebin na tej strani. Obdržite kazalec še vedno v "
+"elementu za nekaj sekund, da se prikaže opis."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:140
 msgid "Any version."
@@ -313,10 +339,13 @@ msgstr "Vsaka različica."
 msgid "Application form"
 msgstr "Prijavnica"
 
+# Does fix mean fixing something?
+# Unclear context in which apply fix is used.
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:231
 #: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:51
+#, fuzzy
 msgid "Apply fix"
-msgstr "Uporabi se določi"
+msgstr "Uporabi popravek"
 
 #: eea.dataservice/eea/dataservice/templates/select_template.pt:22
 msgid "Apply template"
@@ -328,7 +357,7 @@ msgstr "Aplikacije za vaš mobilnik"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:187
 msgid "Arbitrary HTML"
-msgstr "Poljubno HTML"
+msgstr "Poljuben HTML"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:89
 msgid "Archive"
@@ -336,11 +365,12 @@ msgstr "Arhiv"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:36
 msgid "Archive or title for more items"
-msgstr "Arhiv oziroma naziv za več predmetov"
+msgstr "Arhiv oziroma naziv za več postavk"
 
 #: eea.sparql/eea/sparql/browser/view.pt:62
 msgid "Are you new to Linked Data technology? visit http://linkeddata.org"
-msgstr "Ste novi na povezan tehnologije podatkov? obisk http://linkeddata.org"
+msgstr ""
+"Ste novi v tehnologiji povezanih podatkov? Obiščite http://linkeddata.org"
 
 msgid "Articles"
 msgstr "Članki"
@@ -351,7 +381,7 @@ msgstr "Zastavite vprašanje"
 
 #: eea.indicators/eea/indicators/content/Assessment.py:199
 msgid "Assessment DRAFT created ${date}"
-msgstr "Ocena OSNUTEK ustvaril ${date}"
+msgstr "OSNUTEK ocene ustvarjen ${date}"
 
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:19
 msgid "Assessment made on"
@@ -359,20 +389,20 @@ msgstr "Ocena narejena na"
 
 #: eea.indicators/eea/indicators/content/Assessment.py:190
 msgid "Assessment published ${date}"
-msgstr "Ocena objavil ${date}"
+msgstr "Ocena objavljena ${date}"
 
 #: eea.indicators/eea/indicators/content/Assessment.py:187
 msgid "Assessment published with invalid published date"
-msgstr "Ocena objavljeni z neveljavnim Datum objave"
+msgstr "Ocena objavljena z neveljavnim datumom objave"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/aggregated_edit.pt:25
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:45
 msgid "Assessment versions"
-msgstr "Ocenjevanje različice"
+msgstr "Različica ocene"
 
 #: eea.indicators/eea/indicators/browser/templates/wrong_assessment_versions.pt:17
 msgid "Assessments that have wrong version ids"
-msgstr "Ocene, ki imajo napačne ID različica"
+msgstr "Ocene, ki imajo napačno identifikacijo (ID) različice"
 
 #: eea.indicators/eea/indicators/profiles/default/actions.xml
 #: eea.versions/eea/versions/assign_version.pt:7
@@ -401,15 +431,17 @@ msgstr "Avtor:"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:306
 msgid "Auto-Link-Icons"
-msgstr "Auto-Link-Ikone"
+msgstr "Auto-Povezava-Ikone"
 
 #: eea.alchemy/eea/alchemy/browser/zpt/tool.pt:25
 msgid "Auto-discover geographical coverage, temporal coverage and keywords"
-msgstr "Samodejno odkrili geografska pokritost, časovno pokritost in ključne besede"
+msgstr ""
+"Samodejno odkrivanje geografske pokritosti, časovne pokritosti in ključnih "
+"besed"
 
 #: eea.reports/eea/reports/skins/reports_templates/report_file.pt:78
 msgid "Automatically update properties from pdf publication file metadata?"
-msgstr "Samodejno posodobi lastnosti iz pdf datoteke metapodatkov objave?"
+msgstr "Samodejno posodobi lastnosti iz metapodatkov pdf datoteke?"
 
 #: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:7
 msgid "Available at:"
@@ -417,7 +449,7 @@ msgstr "Na voljo na:"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:36
 msgid "Available icons based on file extension"
-msgstr "Na voljo ikone temelji na pripono"
+msgstr "Dostopne ikone na osnovi pripone datoteke"
 
 #: EEAContentTypes/skins/EEAContentTypes/callfortender_view.pt:25
 msgid "Award notice"
@@ -425,7 +457,7 @@ msgstr "Obvestilo o oddaji naročila"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:72
 msgid "Back to Table of Contents"
-msgstr "Nazaj na vsebino"
+msgstr "Nazaj na seznam vsebine"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:23
 msgid "Baltic sea"
@@ -433,7 +465,7 @@ msgstr "Baltsko morje"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:275
 msgid "Basic text styles"
-msgstr "Osnovni pisav"
+msgstr "Osnovni stili pisav"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:35
 msgid "Belgium"
@@ -441,11 +473,15 @@ msgstr "Belgija"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:120
 msgid "Below is a list of organisations on which no content is pointing at."
-msgstr "Spodaj je seznam organizacij, na katere ni vsebine, ki kažejo na."
+msgstr "Spodaj je seznam organizacij, na katere ne kaže noben vsebinski del."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:104
-msgid "Below is a list of organisations with wrong title, either empty or containing an URL instead of a title."
-msgstr "Spodaj je seznam organizacij z napačnega naslova, bodisi prazno ali pa vsebujejo URL namesto naslova."
+msgid ""
+"Below is a list of organisations with wrong title, either empty or "
+"containing an URL instead of a title."
+msgstr ""
+"Spodaj je seznam organizacij z napačnimi naslovom - bodisi prazno polje ali "
+"pa vsebuje URL namesto naslova."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:23
 msgid "Below is the full list of organisations."
@@ -453,11 +489,11 @@ msgstr "Spodaj je popoln seznam organizacij."
 
 #: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:16
 msgid "Below you will find all SOER content related to ${topic-label}"
-msgstr "Spodaj boste našli vse SOER vsebine, povezane z ${topic-label}"
+msgstr "Spodaj boste našli vse SOER vsebine, povezane s/z ${topic-label}"
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:16
 msgid "Bend the trend social movement"
-msgstr "Upognite trend socialno gibanje"
+msgstr "Socialno gibanje Upognite trend"
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:149
 msgid "Best regards"
@@ -470,7 +506,7 @@ msgstr "Biotska raznovrstnost"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:42
 msgid "Biological Diversity (BD)"
-msgstr "Biološki raznovrstnosti (BD)"
+msgstr "Biološka raznovrstnost (BD)"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:36
 msgid "Bosnia and Herzegovina"
@@ -478,11 +514,11 @@ msgstr "Bosna in Hercegovina"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:52
 msgid "Box Name (Title that shows up)"
-msgstr "Polje Ime (naslov, ki kaže navzgor)"
+msgstr "Polje Ime (naslov, ki se prikaže)"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:13
 msgid "Browse SOER geographically"
-msgstr "Brskanje SOER geografsko"
+msgstr "Brskanje po SOER geografsko"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:57
 msgid "Browse by organisation"
@@ -499,7 +535,7 @@ msgstr "Brskanje kataloga"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:102
 msgid "Browse complete catalogue"
-msgstr "Brskanje celoten katalog"
+msgstr "Brskanje po celotnem katalogu"
 
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:87
 msgid "Browse geographically"
@@ -507,7 +543,7 @@ msgstr "Brskanje geografsko"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:213
 msgid "Browse..."
-msgstr "Prebrskaj"
+msgstr "Prebrskaj..."
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:37
 msgid "Bulgaria"
@@ -544,7 +580,8 @@ msgstr "Cache"
 
 #: eea.googlecharts/eea/googlecharts/views/chart.py:318
 msgid "Can't set thumbnail on a non-folderish object !"
-msgstr "Ni mogoče nastaviti na sličice brez folderish objekta!"
+msgstr ""
+"Predogledne sličice (thumbnail) ni mogoče nastaviti za objekt, ki ni v mapi."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:180
 #: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:193
@@ -572,8 +609,16 @@ msgid "Changes saved."
 msgstr "Spremembe so shranjene."
 
 #: eea.daviz/eea/daviz/content/schema.py:122
-msgid "Changing data sources may break existing visualizations for this context. You should consider creating a new Visualization rather than changing this one if the new data is different than the existing one. Are you sure you want to continue?"
-msgstr "Spreminjanje virov podatkov se lahko zlomi obstoječih vizualizacij v ta kontekst. Ti morajo razmisliti o oblikovanju nove ponazoritve namesto spreminjanja tole, če je novi podatki razlikuje od obstoječe. Ali ste prepričani, da želite nadaljevati?"
+msgid ""
+"Changing data sources may break existing visualizations for this context. "
+"You should consider creating a new Visualization rather than changing this "
+"one if the new data is different than the existing one. Are you sure you "
+"want to continue?"
+msgstr ""
+"Spreminjanje virov podatkov lahko poruši obstoječo vizualizacioj v tem "
+"kontekstu. Razmislite o oblikovanju nove vizualizacije namesto spreminjanja "
+"obstoječe, če se novi podatki razlikujejo od obstoječih. Ali ste prepričani, "
+"da želite nadaljevati?"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:41
 msgid "Channel"
@@ -581,23 +626,32 @@ msgstr "kanal"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:34
 msgid "Check URLs status"
-msgstr "Preverite URL stanje"
+msgstr "Preverite stanje URL"
 
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:47
 msgid "Check all"
-msgstr "Preveri vse"
+msgstr "Preverite vse"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:33
+#, fuzzy
 msgid "Check these ${data-examples} or read ${prepare-data}"
-msgstr ""
+msgstr "Preveri ${data-examples} ali preberi ${prepare-data}"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:149
-msgid "Check this to have your email address filled in automatically when you log in later."
-msgstr "Preverite to, da je vaš e-poštni naslov izpolni samodejno, ko se prijavite kasneje."
+msgid ""
+"Check this to have your email address filled in automatically when you log "
+"in later."
+msgstr ""
+"Preverite, tako da se vaš e-poštni naslov izpolni samodejno, ko se prijavite "
+"kasneje."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:140
-msgid "Check this to have your user name filled in automatically when you log in later."
-msgstr "Preverite to, da ima vaše uporabniško ime izpolni samodejno, ko se prijavite kasneje."
+msgid ""
+"Check this to have your user name filled in automatically when you log in "
+"later."
+msgstr ""
+"Preverite, da se vaše uporabniško ime izpolni samodejno, ko se prijavite "
+"kasneje."
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:33
 msgid "Chemicals"
@@ -608,12 +662,18 @@ msgid "Choose a newsletter"
 msgstr "Izberite novice"
 
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:25
-msgid "Choose another media type or ${multimedia_center} (via EEA Multimedia Centre)."
-msgstr "Izberite drugo vrsto medija ali ${multimedia_center} (preko EGP Multimedijski center)."
+msgid ""
+"Choose another media type or ${multimedia_center} (via EEA Multimedia "
+"Centre)."
+msgstr ""
+"Izberite drugo vrsto medija ali ${multimedia_center} (preko EGP "
+"Multimedijski center)."
 
+# What is EGP in Slovenian llanguage?
+# If EEA refers to European Environment Agency, the tanslation should be EAO in Slovenian language! Check: http://www.eea.europa.eu/sl
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:13
 msgid "Choose the EEA local website in your preferred language"
-msgstr "Izberite EGP lokalno spletno stran v izbranem jeziku"
+msgstr "Izberite lokalno spletno stran EAO v izbranem jeziku"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:85
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:429
@@ -621,7 +681,10 @@ msgstr "Izberite EGP lokalno spletno stran v izbranem jeziku"
 msgid "Classification"
 msgstr "Razvrščanje"
 
+# Does this refer to clarify the reference or delete the reference?
+# The translation depends on the meaning!
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:114
+#, fuzzy
 msgid "Clear reference"
 msgstr "Jasno sporočilo"
 
@@ -631,7 +694,8 @@ msgstr "Klikni me!"
 
 #: eea.signals/eea/signals/skins/eea_signals/gallery_view.pt:67
 msgid "Click to view full-size image&hellip; <span>${DYNAMIC_CONTENT}</span>"
-msgstr "Kliknite za ogled polne velikosti slike ... <span>${DYNAMIC_CONTENT}</ span>"
+msgstr ""
+"Kliknite za ogled polne velikosti slike ... <span>${DYNAMIC_CONTENT}</ span>"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:47
 msgid "Climate Change Impacts, Vulnerability and Adaptation (CCA)"
@@ -666,32 +730,37 @@ msgstr "Koda za razvijalce"
 
 #: eea.design/eea/design/browser/templates/comments.pt:144
 msgid "Commenting has been disabled."
-msgstr "Komentiranje je bil onemogočen."
+msgstr "Komentiranje je onemogočeno."
 
 #: eea.design/eea/design/browser/templates/comments.pt:2
 msgid "Comments"
-msgstr ""
+msgstr "Komentarji"
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:11
 msgid "Comments on translations"
 msgstr "Komentarji na prevode"
 
+# The style of translation is not defined. One option is to use the verbs in the form of imperatives, the second option to use descriptive verbs. I ranslate by using verbs in the form of imperatives.
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:18
 msgid "Configure Visualization"
-msgstr ""
+msgstr "Nastavi vizualizacijo"
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:19
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:36
 msgid "Confirm and send"
-msgstr "Potrdi in pošiljanje"
+msgstr "Potrdi in pošlji"
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:24
 msgid "Confirm your event"
 msgstr "Potrdite svoj dogodek"
 
 #: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:5
-msgid "Confirmation message for <strong>${type}</strong> with scheduled publishing date <strong>${date}</strong>"
-msgstr "Potrditveno sporočilo za <strong>${type}</strong> z načrtovanim datum objave <strong>${date}</strong>"
+msgid ""
+"Confirmation message for <strong>${type}</strong> with scheduled publishing "
+"date <strong>${date}</strong>"
+msgstr ""
+"Potrditveno sporočilo za <strong>${type}</strong> z načrtovanim datum objave "
+"<strong>${date}</strong>"
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:55
 msgid "Contact"
@@ -700,30 +769,30 @@ msgstr "Kontakt"
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:27
 #: eea.design/eea/design/skins/eeadesign_public/contact-info.cpt:20
 msgid "Contact EEA Web Team"
-msgstr "Kontakt EGP Web Team"
+msgstr "Kontakt EAO Web Team"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:119
 msgid "Contact Name"
-msgstr "Ime stika"
+msgstr "Kontakt - ime"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:131
 msgid "Contact Phone"
-msgstr "Obrnite telefon"
+msgstr "Kontakt - telefon"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:166
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:30
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:306
 msgid "Contact indicator manager"
-msgstr "Kontakt indikator vodja"
+msgstr "Kontakt - vodja za indikatorje"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:56
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:45
 msgid "Contact link"
-msgstr "Kontakt povezavo"
+msgstr "Kontakt - povezava"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:610
 msgid "Contact references at EEA:"
-msgstr "Kontakt sklicevanje na EGP:"
+msgstr "Kontakt - reference v EAO:"
 
 msgid "Contact us"
 msgstr "Kontaktirajte nas"
@@ -734,7 +803,7 @@ msgstr "Kontakti in lastništvo"
 
 #: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:8
 msgid "Contacts overview for indicators database"
-msgstr "Kontakti za pregled baze kazalnikov"
+msgstr "Kontakti - pregled baze kazalnikov"
 
 #: eea.reports/eea/reports/browser/report.pt:73
 msgid "Content"
@@ -743,13 +812,13 @@ msgstr "Vsebina"
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:60
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:50
 msgid "Content license"
-msgstr "Vsebina dovoljenja"
+msgstr "Dovoljenje glede vsebine"
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:46
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:47
 #: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:17
 msgid "Content listing"
-msgstr "Seznamu vsebine"
+msgstr "Seznam vsebine"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:65
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:56
@@ -764,7 +833,7 @@ msgstr "Vsebina"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:106
 msgid "Context description"
-msgstr "Ozadje opis"
+msgstr "Opis konteksta"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:25
 msgid "Contribution"
@@ -778,38 +847,43 @@ msgstr "Sodelujoči: ${name}"
 msgid "Convert"
 msgstr "Pretvarjanje"
 
+# Does figure mean picture? It could mean also number?!
+# I suppose it menas picture, but please check all heh translations if the meaning is picture or not.
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
+#, fuzzy
 msgid "Convert all figures"
-msgstr "Pretvarjanje vse številke"
+msgstr "Pretvorite vse slike"
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Convert all figures to predefined formats and resolutions"
-msgstr "Pretvarjanje vse podatke z vnaprej določenimi formatov in resolucij"
+msgstr "Pretvori vse slike v vnaprej določene formate in resolucije"
 
 #: eea.dataservice/eea/dataservice/converter/convert_figure.pt:15
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Convert figure"
-msgstr "Pretvoriti sliko"
+msgstr "Pretvori sliko"
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Convert figure to predefined formats and resolutions"
-msgstr "Pretvoriti sliko v vnaprej določenih oblik in resolucij"
+msgstr "Pretvori sliko v vnaprej določen format in resolucijo"
 
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:16
 msgid "Convert figures"
-msgstr "Pretvarjanje številke"
+msgstr "Pretvori slike"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:136
 msgid "Convert portlets"
-msgstr "Pretvarjanje portletov"
+msgstr "Pretvori portalske programčke"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:58
 msgid "Cookies are not enabled. You must ${link} before you can log in."
-msgstr "Piškotki niso omogočeni. Morate ${link}, preden lahko prijavi?"
+msgstr "Piškotki niso omogočeni. Morate ${link}, preden se lahko prijavite."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:30
 msgid "Cookies are not enabled. You must enable cookies before you can log in."
-msgstr "Piškotki niso omogočeni. Morate omogočiti piškotke, preden lahko prijavi?"
+msgstr ""
+"Piškotki niso omogočeni. Morate omogočiti piškotke, preden se lahko "
+"prijavite."
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:484
 msgid "Coordinate reference system:"
@@ -817,7 +891,7 @@ msgstr "Koordinatni referenčni sistem:"
 
 #: eea.daviz/eea/daviz/content/schema.py:100
 msgid "Copy and paste a data table from a file/webpage"
-msgstr "Kopiranje in lepljenje podatkovno tabelo iz datoteke / spletno stran"
+msgstr "Kopiraj in prilepi podatkovno tabelo iz datoteke / s spletne strane"
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Copy common metadata from a template"
@@ -825,7 +899,7 @@ msgstr "Kopiraj skupne metapodatke iz predloge"
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Copy from template"
-msgstr "Kopiranje s predlogo"
+msgstr "Kopiraj iz predloge"
 
 #: eea.reports/eea/reports/subtypes/report.py:242
 msgid "Copyrights"
@@ -833,27 +907,28 @@ msgstr "Avtorske pravice"
 
 #: EEAContentTypes/browser/crop/cropping.pt:31
 msgid "Correct the image ratio"
-msgstr "Popravite slike razmerje"
+msgstr "Popravi razmerje slike"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:31
 msgid "Countries A-F"
-msgstr "Države AF"
+msgstr "Države A-F"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:47
 msgid "Countries G-M"
-msgstr "Countries GM"
+msgstr "Countries G-M"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:63
 msgid "Countries L-Y"
-msgstr "Države, LY"
+msgstr "Države L-Y"
 
 #: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:65
+#, fuzzy
 msgid "Country environment"
-msgstr "Država okolje"
+msgstr "Okolje v državi"
 
 #: eea.soer/eea/soer/browser/admin.pt:36
 msgid "Country profile questions: ${count} of 4"
-msgstr "Država profil vprašanja: ${count} od 4"
+msgstr "Profil države - vprašanja: ${count} od 4"
 
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:103
 msgid "Country profile: read more"
@@ -861,19 +936,21 @@ msgstr "Profil države: Preberi več"
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:41
 msgid "Create ${DYNAMIC_CONTENT}"
-msgstr "Ustvarite ${DYNAMIC_CONTENT}"
+msgstr "Ustvari ${DYNAMIC_CONTENT}"
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:83
 msgid "Create ${language} translation of this item."
-msgstr "Ustvarite ${language} prevod te postavke."
+msgstr "Ustvari ${language} prevod te postavke."
 
+# Promotion needs explanation, otherwise it is difficult to translate the word!
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
+#, fuzzy
 msgid "Create Promotion"
-msgstr "Ustvarite Promotion"
+msgstr "Ustvari Promotion"
 
 #: eea.sparql/eea/sparql/browser/view-bookmarks.pt:53
 msgid "Create Visualization"
-msgstr "Ustvarite ponazoritve"
+msgstr "Ustvari vizualizacijo"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:10
 msgid "Create a new version of an Assessment"
@@ -881,11 +958,11 @@ msgstr "Ustvari novo različico ocene"
 
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Create a promotion for this item"
-msgstr "Ustvarite promocija za ta artikel"
+msgstr "Ustvari promocijo za to postavko"
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:118
 msgid "Create and apply new tags."
-msgstr "Ustvarjajo in uporabljajo nove oznake."
+msgstr "Ustvari in uporabi nove oznake"
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:36
 msgid "Create new"
@@ -898,11 +975,11 @@ msgstr "Ustvari novo različico"
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:24
 msgid "Created"
-msgstr "Ustvaril"
+msgstr "Ustvarjeno/a"
 
 #: eea.design/eea/design/browser/templates/colophon.pt:68
 msgid "Creative Commons Attribution License"
-msgstr "Creative Commons License"
+msgstr "Creative Commons Attribution License"
 
 #: eea.reports/eea/reports/subtypes/report.py:125
 msgid "Creators/Authors"
@@ -914,15 +991,15 @@ msgstr "Hrvaška"
 
 #: EEAContentTypes/browser/crop/cropimage.pt:25
 msgid "Crop"
-msgstr "Crop"
+msgstr "Obreži"
 
 #: EEAContentTypes/profiles/default/actions.xml
 msgid "Crop Image"
-msgstr "Obrezovanje slike"
+msgstr "Obreži sliko"
 
 #: EEAContentTypes/browser/crop/cropimage.pt:21
 msgid "Crop Size:"
-msgstr "Crop Velikost:"
+msgstr "Obreži - Velikost:"
 
 #: eea.versions/eea/versions/assign_version.pt:9
 msgid "Current Version ID:"
@@ -969,15 +1046,15 @@ msgstr "Lastnik podatkov"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:89
 msgid "Data policy"
-msgstr "Podatkovne politike"
+msgstr "Podatkovna politika"
 
 #: eea.sparql/eea/sparql/browser/view-bookmarks.pt:69
 msgid "Data repository info"
-msgstr "Shranjevanje podatkov info"
+msgstr "Podatkovni repozitorij - informacije"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:238
 msgid "Data sets uncertainty"
-msgstr "Podatkovne nize negotovost"
+msgstr "Negotovost podatkovnih nizov"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:97
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:153
@@ -986,19 +1063,19 @@ msgstr "Vir podatkov"
 
 #: eea.daviz/eea/daviz/content/schema.py:159
 msgid "Data source Organisation"
-msgstr "Vir podatkov organizacija"
+msgstr "Vir podatkov - organizacija"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:112
 msgid "Data source download"
-msgstr "Vir podatkov prenesi"
+msgstr "Prenesi vir podatkov"
 
 #: eea.daviz/eea/daviz/content/schema.py:147
 msgid "Data source link"
-msgstr "Vir podatkov povezava"
+msgstr "Vir podatkov - povezava"
 
 #: eea.daviz/eea/daviz/content/schema.py:138
 msgid "Data source title"
-msgstr "Vir podatkov Naslov"
+msgstr "Vir podatkov - naslov"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:504
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:116
@@ -1006,21 +1083,23 @@ msgstr "Vir podatkov Naslov"
 msgid "Data sources"
 msgstr "Viri podatkov"
 
+# Figure means picture!
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:204
+#, fuzzy
 msgid "Data sources in latest figures"
-msgstr "Viri podatkov v zadnjih podatkih"
+msgstr "Viri podatkov v zadnjih slikah"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:180
 msgid "Data specifications"
-msgstr "Data specifikacije"
+msgstr "Podatkovne specifikacije"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_dataviewers.pt:15
 msgid "Data viewers"
-msgstr "Data gledalci"
+msgstr "Pregledovalnik podatkov"
 
 #: eea.promotion/eea/promotion/browser/form.pt:46
 msgid "Datacentre"
-msgstr "Datacentre"
+msgstr "Podatkovni center"
 
 #: eea.sparql/eea/sparql/browser/view-bookmarks.pt:18
 msgid "Dataset"
@@ -1028,7 +1107,7 @@ msgstr "Nabor podatkov"
 
 #: eea.sparql/eea/sparql/browser/view.pt:36
 msgid "Dataset preview"
-msgstr "Nabor podatkov Predogled"
+msgstr "Nabor podatkov - predogled"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:199
 msgid "Dates"
@@ -1047,6 +1126,7 @@ msgstr "Izbriši"
 msgid "Delete current file"
 msgstr "Izbriši trenutno datoteko"
 
+# It needs to understand teh complete context to translate this word!
 #: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:22
 msgid "Delicious"
 msgstr "Delicious"
@@ -1056,8 +1136,9 @@ msgid "Denmark"
 msgstr "Danska"
 
 #: eea/themecentre/profiles/default/actions.xml
+#, fuzzy
 msgid "Depromote a theme centre"
-msgstr "Depromote temo center"
+msgstr "Znižaj tematski center"
 
 #: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:67
 msgid "Deputy Director"
@@ -1065,15 +1146,19 @@ msgstr "Namestnik direktorja"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:327
 msgid "Derived data set:"
-msgstr "Izhajajo nabor podatkov:"
+msgstr "Izveden nabor podatkov:"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:17
 msgid "Detect duplicates"
-msgstr ""
+msgstr "Izbriši podvajanja"
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
-msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
-msgstr "Niste našli, kar ste iskali? Poskusite ${advanced_search} izboljšati iskanja."
+msgid ""
+"Did you not find what you were looking for? Try the ${advanced_search} to "
+"refine your search."
+msgstr ""
+"Niste našli, kar ste iskali? Poskusite ${advanced_search} za izboljšanje "
+"iskanja."
 
 #: eea.app.visualization/eea/app/visualization/views/edit.py:59
 msgid "Disable"
@@ -1086,27 +1171,35 @@ msgstr "Onemogoči povratne informacije od uporabnikov"
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:157
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:305
 msgid "Disclaimer"
-msgstr "Omejitev odgovornosti"
+msgstr "Zavrnitev odgovornosti"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:445
 msgid "Disclaimer:"
-msgstr "Disclaimer:"
+msgstr "Zavrnitev odgovornosti:"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:172
 msgid "Display traceback as text"
-msgstr "Prikazovanje traceback kot besedilo"
+msgstr "Prikaži traceback kot besedilo"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_summary.pt:34
 msgid "Distinct:"
-msgstr "Razlikuje:"
+msgstr "Razlikovanje:"
 
 #: eea.design/eea/design/skins/eea_design/main_template.pt:99
-msgid "Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!"
-msgstr "Naredite nekaj za naš planet, natisnite stran samo če je potrebno. Tudi majhen ukrep, da ogromno razliko, ko na milijone ljudi, da to storite!"
+msgid ""
+"Do something for our planet, print this page only if needed. Even a small "
+"action can make an enormous difference when millions of people do it!"
+msgstr ""
+"Naredite nekaj za naš planet, natisnite to stran samo, če je potrebno. Tudi "
+"majhen ukrep naredi ogromno razliko, kadar to stori na milijone ljudi!"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:23
-msgid "Do you want to create this assessment ${here} here or ${newest} in the latest version of the Specification?"
-msgstr "Ali želite ustvariti to oceno ${here} tukaj ali ${newest} v zadnji različici specifikacije?"
+msgid ""
+"Do you want to create this assessment ${here} here or ${newest} in the "
+"latest version of the Specification?"
+msgstr ""
+"Ali želite ustvariti to oceno ${here} tukaj ali ${newest} v zadnji različici "
+"specifikacije?"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:33
 #: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:42
@@ -1120,11 +1213,11 @@ msgstr "Akcije dokumenta"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:41
 msgid "Documentation search"
-msgstr "Dokumentacija iskanje"
+msgstr "Iskanje dokumentacije"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_summary.pt:73
 msgid "Documents containing links in the state ..."
-msgstr "Dokumenti vsebujejo povezave v državi ..."
+msgstr "Dokumenti, ki vsebujejo povezave v državi ..."
 
 #: eea.workflow/eea/workflow/portlets/readiness.pt:63
 msgid "Done"
@@ -1143,7 +1236,7 @@ msgstr "Prenesite podrobne informacije in informativne liste"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:110
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:53
 msgid "Download file"
-msgstr "Naložite datoteko"
+msgstr "Prenos datoteke"
 
 #: eea.sparql/eea/sparql/browser/view.pt:12
 msgid "Download this dataset"
@@ -1155,7 +1248,7 @@ msgstr "Prenesi ta dogodek v iCal formatu"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:149
 msgid "Download this event in vCal format"
-msgstr "Prenesi to dogodek v vcal formatu"
+msgstr "Prenesi to dogodek v vCal formatu"
 
 #: eea.sparql/eea/sparql/browser/view-bookmarks.pt:128
 msgid "Downloads"
@@ -1174,7 +1267,7 @@ msgstr "nizozemščina"
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:42
 msgid "E-mail (Questions only):"
-msgstr "E-pošta (samo vprašanja):"
+msgstr "E-pošta (samo za vprašanja):"
 
 #: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:76
 msgid "EDO members"
@@ -1184,6 +1277,7 @@ msgstr "EDO člani"
 msgid "EDO:"
 msgstr "EDO:"
 
+# General komentČ do zou prefer to tarnslate EEA (European Environment Agency) into Slovenian abbreviation of the Slovenian translation of the EEA? If yes, the Slovenian abbreviation shall be EAO for Evropska agencija za okolje!
 #: eea.design/eea/design/browser/templates/sections.pt:10
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:132
 msgid "EEA"
@@ -1196,11 +1290,11 @@ msgstr "EEA Kontaktne informacije"
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:9
 msgid "EEA Faceted Navigation Tool"
-msgstr "EEA obrazi Navigation orodje"
+msgstr "EEA usmerjeno navigacijsko orodje"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:112
 msgid "EEA Forum, FAQs, discuss and share"
-msgstr "EEA forum, pogosta vprašanja, razpravljajo in delijo"
+msgstr "EEA forum, pogosta vprašanja, razprave in skupna raba"
 
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:10
 msgid "EEA Home page - select your preferred language"
@@ -1208,7 +1302,7 @@ msgstr "EEA Domača stran - izberite želeni jezik"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:17
 msgid "EEA Indicator Manager"
-msgstr "EEA Indicator Manager"
+msgstr "EEA urejevalnik kazalcev"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:191
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:342
@@ -1216,9 +1310,15 @@ msgstr "EEA Indicator Manager"
 msgid "EEA Management Plan"
 msgstr "EEA načrt upravljanja"
 
+# Why it was proposed EGP instead of EEA? Abbreviation of the Slovenian translation of the EEA (European Environmet Agency) is EAO.
 #: eea.reports/eea/reports/subtypes/report.py:229
-msgid "EEA Management plan code. Internal EEA project line code, used to assign an EEA product output to a specific EEA project number in the management plan."
-msgstr "EEA Načrt upravljanja kodo. Notranja EEA projekt linija koda, ki se uporablja, da dodelijo proizvodu EGP na določeno število projektov EGP v načrtu upravljanja."
+msgid ""
+"EEA Management plan code. Internal EEA project line code, used to assign an "
+"EEA product output to a specific EEA project number in the management plan."
+msgstr ""
+"EEA koda načrta upravljanja. Notranja koda EEA projektne linije, ki se "
+"uporablja, ko se dodeli proizvod EEA k številki EEA projekta v EEA načrtu "
+"upravljanja."
 
 #: eea/mediacentre/Multimedia/multimedia.pt:43
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:26
@@ -1231,11 +1331,11 @@ msgstr "EEA Organigram"
 
 #: eea.reports/eea/reports/subtypes/report.py:79
 msgid "EEA Publication Internal ID"
-msgstr "EEA Objava Notranji ID"
+msgstr "EEA publikacija - notranji ID"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:160
 msgid "EEA Publication title"
-msgstr "EEA Objava naslov"
+msgstr "EEA naslov publikacije"
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:16
 msgid "EEA Staff list"
@@ -1256,22 +1356,22 @@ msgstr "EEA Web Team"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:181
 msgid "EEA data references"
-msgstr "EEA data reference"
+msgstr "EEA podatkovne reference"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:162
 msgid "EEA enquiry service"
-msgstr "EEA imeniška služba"
+msgstr "EEA poizvedbeni servis"
 
 msgid "EEA homepage in your language"
-msgstr "EEA stran v vašem jeziku"
+msgstr "EEA domača stran v vašem jeziku"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:591
 msgid "EEA management plan code:"
-msgstr "EEA načrt upravljanja številka:"
+msgstr "EEA koda načrt upravljanja:"
 
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:12
 msgid "EEA notification service account"
-msgstr "EEA obvestilo račun storitve"
+msgstr "EEA račun za obveščanje"
 
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:15
 msgid "EEA website search"
@@ -1286,7 +1386,8 @@ msgid "EPUB format"
 msgstr "EPUB format"
 
 #: eea.googlecharts/eea/googlecharts/views/chart.py:257
-msgid "ERROR: An error occured while exporting your image. Please try again later."
+msgid ""
+"ERROR: An error occured while exporting your image. Please try again later."
 msgstr "NAPAKA: napaka pri izvozu slike. Prosimo, poskusite znova pozneje."
 
 #: eea.design/eea/design/browser/templates/colophon.pt:36
@@ -1299,11 +1400,11 @@ msgstr "Partnerji EU"
 
 #: eea.reports/eea/reports/browser/report.pt:205
 msgid "EU-Bookshop"
-msgstr "EU Bookshop"
+msgstr "EU Knjigarna"
 
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:282
 msgid "Eco agents logo"
-msgstr "Eco agenti logo"
+msgstr "Eco agenti - logo"
 
 #: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:124
 #: eea.geotags/eea/geotags/widget/location.pt:28
@@ -1314,7 +1415,7 @@ msgstr "Uredi"
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/schemata_edit_macros.pt:16
 #: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:19
 msgid "Edit ${itemtype}"
-msgstr "Urejanje ${itemtype}"
+msgstr "Uredi ${itemtype}"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:106
 msgid "Edit Classification"
@@ -1322,11 +1423,11 @@ msgstr "Uredi klasifikacijo"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:300
 msgid "Edit Codes"
-msgstr "Urejanje kode"
+msgstr "Uredi kode"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:50
 msgid "Edit EEA Indicator Manager User Id"
-msgstr "Uredi EEA Indicator Manager ID uporabnika"
+msgstr "Uredi EEA Indicator Manager uporabniški ID"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:171
 msgid "Edit EEA Themes"
@@ -1338,19 +1439,19 @@ msgstr "Uredi metapodatke"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:77
 msgid "Edit Responsibility and Ownership"
-msgstr "Uredi odgovornosti in lastništva"
+msgstr "Uredi odgovornosti in lastništvo"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:129
 msgid "Edit Typology"
-msgstr "Uredi Tipologija"
+msgstr "Uredi Tipologijo"
 
 #: EEAContentTypes/browser/crop/cropping.pt:19
 msgid "Edit croppable images"
-msgstr "Uredi croppable slike"
+msgstr "Uredi obrezane slike"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:291
 msgid "Edit sub report"
-msgstr "Uredi sub poročilo"
+msgstr "Uredi delno poročilo"
 
 #: eea/mediacentre/profiles/default/actions.xml
 msgid "Edit video metadata"
@@ -1362,7 +1463,7 @@ msgstr "Uredite svoje možnosti iskanja"
 
 #: eea.workflow/eea/workflow/portlets/readiness.pt:21
 msgid "Editing progress"
-msgstr "Urejanje napredek"
+msgstr "Urejanje - napredek"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:19
 msgid "Eionet"
@@ -1376,11 +1477,11 @@ msgstr "E-pošta"
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:48
 msgid "Email Protected.<br /> Please enable JavaScript."
-msgstr "Email Protected. <br /> Prosimo, omogočite JavaScript."
+msgstr "Email zaščiten. <br /> Prosimo, omogočite JavaScript."
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:22
 msgid "Email address"
-msgstr "E-pošta"
+msgstr "E-poštni naslov"
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Enable user feedback"
@@ -1391,37 +1492,40 @@ msgid "Energy"
 msgstr "Energija"
 
 msgid "English"
-msgstr "angleška"
+msgstr "angleška/o"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:25
+#, fuzzy
 msgid "English eionet"
 msgstr "Angleško EIONET"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:19
 msgid "English themes IMS link"
-msgstr "Angleško teme IMS povezava"
+msgstr "Angleške teme - IMS povezava"
 
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:31
 msgid "Enter"
-msgstr "Vnesite"
+msgstr "Vnesi"
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:22
 msgid "Enter email"
-msgstr "Vpišite e-pošto"
+msgstr "Vnesii e-poštni naslov"
 
 #: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:42
 msgid "Enter one or more keywords for a search."
-msgstr "Vpišite eno ali več ključnih besed za iskanje."
+msgstr "Vnesite eno ali več ključnih besed za iskanje."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:350
 msgid "Enter one or more keywords for a search. Use of AND/OR is supported."
-msgstr "Vpišite eno ali več ključnih besed za iskanje. Uporaba in / ali podpirajo."
+msgstr ""
+"Vnesite eno ali več ključnih besed za iskanje. Uporaba IN / ALI je podprta."
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:122
 msgid "Enter one tag per line, multiple words allowed."
-msgstr "Vpišite eno oznako na liniji, več besede dovoljeno."
+msgstr "Vnesite eno oznako na linijo, uporaba več besed je dovoljena."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:72
+#, fuzzy
 msgid "Entire documentation area"
 msgstr "Celotna dokumentacija območje"
 
@@ -1441,11 +1545,11 @@ msgstr "Okolje v različnih regijah in na posameznih območjih"
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:28
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:32
 msgid "Environmental Atlas"
-msgstr "Okoljska Atlas"
+msgstr "Okoljski Atlas"
 
 #: eea.design/eea/design/browser/templates/calendar.pt:26
 msgid "Environmental events around the world"
-msgstr "Okoljske dogodkov po svetu"
+msgstr "Okoljski dogodki po svetu"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:120
 msgid "Environmental information anywhere"
@@ -1465,7 +1569,7 @@ msgstr "Napaka"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:77
 msgid "Error references"
-msgstr "Napaka pri reference"
+msgstr "Reference o napaki"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:42
 msgid "Estonia"
@@ -1480,11 +1584,18 @@ msgstr "Evropa"
 
 #: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:51
 msgid "Europe and the world: global megatrends"
-msgstr "Evropa in svet: svetovni Megatrends"
+msgstr "Evropa in svet: svetovni megatrendi"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:23
-msgid "Europe has made considerable progress over recent decades in cleaning the air that we breathe, but air pollution remains a serious problem and continues to damage our health and the environment."
-msgstr "Evropa je močno napredovala v zadnjih desetletjih pri čiščenju zraka, ki ga dihamo, vendar je onesnaženost zraka še vedno resen problem in še naprej škoduje našemu zdravju in okolju."
+#, fuzzy
+msgid ""
+"Europe has made considerable progress over recent decades in cleaning the "
+"air that we breathe, but air pollution remains a serious problem and "
+"continues to damage our health and the environment."
+msgstr ""
+"Evropa je v zadnjih desetletjih močno napredovala pri čiščenju zraka, ki ga "
+"dihamo, vendar je onesnaženost zraka še vedno resen problem in še naprej "
+"škoduje našemu zdravju in okolju."
 
 #: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:37
 msgid "Europe's environment: thematic assessments"
@@ -1494,6 +1605,7 @@ msgstr "Okolje Evrope: tematske ocene"
 msgid "European Environment Agency"
 msgstr "Evropska agencija za okolje"
 
+# If you want to use the Sloevnian abbreviation of the Slovenina translation of the EEA, it shall be EAO.
 #: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:54
 #: eea.design/eea/design/browser/templates/colophon.pt:13
 msgid "European Environment Agency (EEA)"
@@ -1505,15 +1617,15 @@ msgstr "Evropski tematski centri (ETC)"
 
 #: eea.design/eea/design/browser/templates/colophon.pt:36
 msgid "European Union Flag"
-msgstr "Evropska unija zastava"
+msgstr "Zastava Evropske unije"
 
 #: EEAContentTypes/skins/EEAContentTypes/event_submitted_confirmation.pt:12
 msgid "Event sent"
-msgstr "Dogodek pošlje"
+msgstr "Dogodek poslan"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:34
 msgid "Excel doc on secure external link"
-msgstr "Excel doc na varnem zunanje povezave"
+msgstr "Excel doc na varni zunanji povezavi"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:330
 msgid "Excel link"
@@ -1521,13 +1633,13 @@ msgstr "Excel povezava"
 
 #: eea.reports/eea/reports/subtypes/report.py:267
 msgid "Exclude from navigation"
-msgstr "Izključi iz navigacijo"
+msgstr "Izključi iz navigacije"
 
 #: eea.sparql/eea/sparql/browser/test_query.pt:21
 #: eea.sparql/eea/sparql/browser/view-bookmarks.pt:87
 #: eea.sparql/eea/sparql/browser/view.pt:84
 msgid "Execute"
-msgstr "Execute"
+msgstr "Izvedi"
 
 #: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:61
 msgid "Executive Director"
@@ -1540,7 +1652,7 @@ msgstr "Obstoječe vizualizacije"
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
 #: eea/mediacentre/Multimedia/multimedia.pt:220
 msgid "Explore all tags"
-msgstr "Raziščite vse oznake"
+msgstr "Razišči vse oznake"
 
 #: eea.promotion/eea/promotion/browser/admin.pt:21
 msgid "External"
@@ -1548,11 +1660,12 @@ msgstr "Zunanji"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:192
 msgid "External data references"
-msgstr "Zunanji reference data"
+msgstr "Reference o zunajih podatkih"
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:12
 msgid "Eye On Earth – Citizen observatory on air and bathing water quality"
-msgstr "Eye On Earth - Citizen observatorij na zraku in kakovosti kopalnih voda"
+msgstr ""
+"Eye On Earth - Observatorij prebivalcev o zraku in kakovosti kopalnih voda"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:8
 msgid "Eye on Earth"
@@ -1569,29 +1682,30 @@ msgstr "FTP povezava"
 
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:74
 msgid "Facebook icon"
-msgstr "Facebook icon"
+msgstr "Facebook ikona"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:331
 msgid "Fake PDF file extension"
-msgstr "Fake PDF razširitev"
+msgstr "Potvorjena pripoma PDF datoteke"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:181
 msgid "Fancybox pop-ups"
-msgstr "Fancybox pop-ups"
+msgstr "Fancybox pojavna okna"
 
 #: eea.indicators/eea/indicators/browser/templates/assessmentpart_view.pt:23
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:106
 #: eea.reports/eea/reports/browser/report.pt:172
 msgid "Fancybox relations"
-msgstr "Fancybox odnosi"
+msgstr "Fancybox povezave"
 
+# To check with Antonio De marinis what featured item means.
 #: eea/mediacentre/Multimedia/multimedia.pt:153
 msgid "Featured Item Description"
-msgstr "Oblikovan Postavka Opis"
+msgstr "Opis izbrane postavke"
 
 #: eea/mediacentre/Multimedia/multimedia.pt:152
 msgid "Featured Item Title"
-msgstr "Oblikovan Naslov"
+msgstr "Izbrana postavka - Naslov"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:90
 msgid "Featured article"
@@ -1599,50 +1713,54 @@ msgstr "Izbrani članek"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_maindatasets.pt:16
 msgid "Featured datasets"
-msgstr "Izbrani nizi"
+msgstr "Izbrani podatkovni nabor"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:91
 msgid "Feed for all documentation."
-msgstr "Krma za vsa dokumentacija."
+msgstr "Vir (feed) za vso dokumentacijo."
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:117
 msgid "Feed synced"
-msgstr "Feed sinhronizirana"
+msgstr "Sinhroniziran vir (feed)"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/eeafigure_view.pt:139
 msgid "Figure type:"
-msgstr "Slika tipa:"
+msgstr "Tip slike"
 
+# To clarifz the meaning of figures - is it related to images, data or numbers? I translated as images.
 #: eea.indicators/eea/indicators/browser/templates/assessmentpart_view.pt:12
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:99
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:137
+#, fuzzy
 msgid "Figures"
-msgstr "Podatki"
+msgstr "Slike"
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:197
 #: eea.design/eea/design/skins/eeadesign_public/search.pt:166
+#, fuzzy
 msgid "Filed under:"
-msgstr "Pila pod:"
+msgstr "Urejeno pod:"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:36
 msgid "Files"
 msgstr "Datoteke"
 
+# What is EGP? It should be EEA (in English language) or EAO (in Slovenian language)?
 #: eea.reports/eea/reports/subtypes/report.py:80
 msgid "Fill in EEA publication internal id"
-msgstr "Izpolnite EGP objavo internega id"
+msgstr "Izpolnite notranji ID publikacije EAO"
 
 #: eea.reports/eea/reports/subtypes/report.py:126
 msgid "Fill in additional creators/authors"
-msgstr "Izpolnite dodatnih ustvarjalcev / avtorjev"
+msgstr "Izpolnite dodatne ustvarjalce / avtorje"
 
 #: eea.reports/eea/reports/subtypes/report.py:139
 msgid "Fill in additional publishers"
-msgstr "Izpolnite dodatnih založniki"
+msgstr "Izpolnite dodatne založnike"
 
 #: eea.reports/eea/reports/subtypes/report.py:243
 msgid "Fill in copyrights"
-msgstr "Izpolnite avtorskih pravic"
+msgstr "Izpolnite avtorske pravice"
 
 #: EEAContentTypes/content/Article.py:37
 #: eea.reports/eea/reports/subtypes/report.py:150
@@ -1655,11 +1773,11 @@ msgstr "Izpolnite ceno publikacije"
 
 #: eea.reports/eea/reports/subtypes/report.py:113
 msgid "Fill in serial title"
-msgstr "Izpolnite serijsko naslov"
+msgstr "Izpolnite serijski naslov"
 
 #: eea.reports/eea/reports/subtypes/report.py:68
 msgid "Fill in the ISBN Number of this publication."
-msgstr "Vstaviti številko ISBN te publikacije."
+msgstr "Izpolnite številko ISBN te publikacije."
 
 #: eea.reports/eea/reports/subtypes/report.py:89
 msgid "Fill in the Order ID of this publication."
@@ -1667,39 +1785,39 @@ msgstr "Izpolnite ID naročila te publikacije."
 
 #: eea.reports/eea/reports/subtypes/report.py:57
 msgid "Fill in the publication file"
-msgstr "Izpolnite objave datoteke"
+msgstr "Vstavite datoteko publikacije"
 
 #: eea.reports/eea/reports/subtypes/report.py:255
 msgid "Fill in the trailer."
-msgstr "Izpolnite priklopnika."
+msgstr "Izpolnite napovednik."
 
 #: eea.reports/eea/reports/subtypes/report.py:202
 msgid "Fill in to add this text to the order text"
-msgstr "Izpolnite dodati to besedilo naročilnice besedilo"
+msgstr "Izpolnite - to besedilo bo dodano k besedilu naročilnice"
 
 #: eea.reports/eea/reports/subtypes/report.py:190
 msgid "Fill in to override the order text"
-msgstr "Izpolnite premagati zaporedno besedilo"
+msgstr "Izpolnite - to besedilo bo zamenjalo besedilo naročilnice"
 
 #: eea.reports/eea/reports/subtypes/report.py:213
 msgid "Fill in total number of pages"
-msgstr "Izpolnite skupnega števila strani"
+msgstr "Izpolnite skupno število strani"
 
 #: eea.versions/eea/versions/assign_version.pt:14
 msgid "Fill the new Version ID to be assigned"
-msgstr "Napolnite novo ID Različica, ki se dodeli"
+msgstr "Izpolnite -nov ID različice bo dodeljen"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:36
 msgid "Filter by topic"
-msgstr "Filtrirajte glede na to temo"
+msgstr "Filter - po temi"
 
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:70
 msgid "Find"
-msgstr "Znak/simptom"
+msgstr "Poišči"
 
 #: eea.daviz/eea/daviz/content/schema.py:69
 msgid "Find and reuse existing data"
-msgstr "Našli in ponovno uporabo obstoječih podatkov"
+msgstr "Poišči in ponovno uporabi obstoječe podatke"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:43
 msgid "Finland"
@@ -1712,7 +1830,7 @@ msgstr "finščina"
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:324
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:387
 msgid "First draft created: ${creation-date}"
-msgstr "Prva ustvaril osnutek: ${creation-date}"
+msgstr "Prvi osnutek ustvarjen: ${creation-date}"
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:51
 msgid "First name"
@@ -1720,11 +1838,11 @@ msgstr "Ime"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:139
 msgid "First panel title"
-msgstr "Prva plošča naslov"
+msgstr "Naslov prvega panela"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:53
 msgid "First tab"
-msgstr "Prvi jeziček"
+msgstr "Prvi zavihek"
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:77
 msgid "Fisheries"
@@ -1732,7 +1850,7 @@ msgstr "Ribištvo"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:227
 msgid "Flexible tooltips"
-msgstr "Prilagodljive namigi"
+msgstr "Prilagodljivi namigi orodij"
 
 #: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:16
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:69
@@ -1741,7 +1859,7 @@ msgstr "Spremljajte nas"
 
 #: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:23
 msgid "Follow us on Facebook"
-msgstr "Spremljajte nas na Facebook"
+msgstr "Spremljajte nas na Facebook-u"
 
 #: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:18
 msgid "Follow us on Twitter"
@@ -1752,16 +1870,29 @@ msgid "Follow us on YouTube"
 msgstr "Spremljajte nas na YouTube"
 
 #: EEAContentTypes/browser/crop/cropping.pt:20
-msgid "For each image field in your content you can select below the image you want to crop."
-msgstr "Za vsako polje za sliko v vašem vsebino lahko izberete pod sliko, ki jo želite obrezati."
+msgid ""
+"For each image field in your content you can select below the image you want "
+"to crop."
+msgstr ""
+"Za vsako polje za sliko v vaši vsebini lahko spodaj izberete sliko, ki jo "
+"želite obrezati."
 
 #: eea.reports/eea/reports/subtypes/report.py:98
 msgid "For sale?"
 msgstr "Za prodajo?"
 
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:22
-msgid "For security reasons, we store your password encrypted, and cannot mail it to you. If you would like to reset your password, fill out the form below and we will send you an email at the address you gave when you registered to start the process of resetting your password."
-msgstr "Zaradi varnostnih razlogov hranimo vaše geslo samo v šifrirani obliki in ne more po elektronski pošti. Če želite ponastaviti geslo, izpolnite spodnji obrazec in vam bomo poslali elektronsko sporočilo na naslov, ki ste ga podali ob registraciji, da začne postopek nastavitve vašega gesla."
+msgid ""
+"For security reasons, we store your password encrypted, and cannot mail it "
+"to you. If you would like to reset your password, fill out the form below "
+"and we will send you an email at the address you gave when you registered to "
+"start the process of resetting your password."
+msgstr ""
+"Zaradi varnostnih razlogov hranimo vaše geslo samo v šifrirani obliki in ne "
+"moremo vam ga poslati po elektronski pošti. Če želite ponastaviti geslo, "
+"izpolnite spodnji obrazec in poslali vam bomo elektronsko sporočilo na "
+"naslov, ki ste ga podali ob registraciji, za začetek postopka o ponastavitvi "
+"vašega gesla."
 
 #: eea.sparql/eea/sparql/browser/view.pt:57
 msgid "For system integrators"
@@ -1775,12 +1906,12 @@ msgstr "Ste pozabili geslo?"
 #: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:113
 #: eea.sparql/eea/sparql/browser/view.pt:13
 msgid "Formats suitable for human consumption"
-msgstr "Formate, primerne za prehrano ljudi"
+msgstr "Formati, primerni za človeško uporabo"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/view.pt:123
 #: eea.sparql/eea/sparql/browser/view.pt:22
 msgid "Formats suitable for machine-to-machine communication"
-msgstr "Formate, primerne za komunikacijo stroj-to-stroj"
+msgstr "Formati, primerni za komunikacijo stroj-stroj"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:44
 msgid "Former Yugoslav Republic of Macedonia"
@@ -1792,14 +1923,17 @@ msgstr "Francija"
 
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:67
 msgid "Free text search"
-msgstr "Prosto besedilo iskanje"
+msgstr "Iiskanje po prostem besedilu"
 
+#, fuzzy
 msgid "French"
-msgstr "francoska"
+msgstr "francoska/o/e/i"
 
+# If this ai an adjective, the proper form is related to the gender and multiplicity of the noune (m.s. or f.s. or m.pl. or f.pl)!
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:137
+#, fuzzy
 msgid "Freshwater"
-msgstr "Sladkovodne"
+msgstr "Sladkovodno/a/e/i"
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:29
 msgid "Friendly name"
@@ -1815,7 +1949,7 @@ msgstr "Cel zaslon"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:170
 msgid "Fullscreen image"
-msgstr "Polnoekranski slika"
+msgstr "Polnoekranska slika"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:250
 #: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:38
@@ -1824,26 +1958,26 @@ msgstr "Nadaljnje delo"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:29
 msgid "Gallery view"
-msgstr "Galerija pogled"
+msgstr "Galerija - pogled"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:10
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:297
 #: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:45
 msgid "General metadata"
-msgstr "Splošno metapodatki"
+msgstr "Splošni metapodatki"
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:53
 msgid "Generate report"
-msgstr ""
+msgstr "Ustvari poročilo"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:32
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:36
 msgid "Generic metadata"
-msgstr "Generično metapodatki"
+msgstr "Generični metapodatki"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:386
 msgid "Geographic accuracy:"
-msgstr "Geographic natančnost:"
+msgstr "Geografska/prostorska natančnost:"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:366
 msgid "Geographical coverage:"
@@ -1858,19 +1992,19 @@ msgstr "nemška"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:49
 msgid "Germany"
-msgstr "Nemčiji."
+msgstr "Nemčija"
 
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:17
 msgid "Get notifications on new reports and products."
-msgstr "Dobili obvestila o novih poročil in izdelkov."
+msgstr "Prejmite obvestila o novih poročilih in izdelkih"
 
 #: eea.promotion/eea/promotion/browser/form.pt:51
 msgid "Global"
-msgstr "."
+msgstr "svetovno/a"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:78
 msgid "Glossary definitions"
-msgstr "Slovar opredelitve"
+msgstr "Glosar - definicije"
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:29
 msgid "Go back and correct"
@@ -1884,7 +2018,7 @@ msgstr "Pojdi na napredno iskanje"
 
 #: EEAContentTypes/skins/EEAContentTypes/promotion_view.pt:39
 msgid "Go to site"
-msgstr ""
+msgstr "Pojdi na stran"
 
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:24
 msgid "Google Custom Search Engines"
@@ -1916,7 +2050,7 @@ msgstr "Skupine:"
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:143
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:78
 msgid "HTML table"
-msgstr "HTML tabele"
+msgstr "HTML tabela"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:183
 msgid "Hello World!"
@@ -1948,7 +2082,7 @@ msgstr "Potrošnja gospodinjstev"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:74
 msgid "How-tos"
-msgstr "Nasveti tos"
+msgstr "Nasveti kako narediti"
 
 msgid "Hungarian"
 msgstr "madžarščina"
@@ -1974,11 +2108,14 @@ msgid "Iceland"
 msgstr "islandščina"
 
 msgid "Icelandic"
-msgstr "islandščina"
+msgstr "islandski/a"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:29
-msgid "Icons based on file extension, on different external sites and protocols"
-msgstr "Ikone, ki temeljijo na pripono, na različnih zunanjih straneh in protokolov"
+msgid ""
+"Icons based on file extension, on different external sites and protocols"
+msgstr ""
+"Ikone, ki temeljijo na priponah datotek, na različnih zunanjih straneh in "
+"protokolih"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:15
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:312
@@ -1992,56 +2129,99 @@ msgid "Identification"
 msgstr "Identifikacija"
 
 #: eea.promotion/eea/promotion/browser/form.pt:53
-msgid "If checked, the promotion is shown at the top in navigation menu on all pages."
-msgstr "Če pregled, ki je promocija prikazana na vrhu v meniju za krmarjenje na vseh straneh."
+msgid ""
+"If checked, the promotion is shown at the top in navigation menu on all "
+"pages."
+msgstr ""
+"Če je pregledano, je promocija prikazana na vrhu v meniju za krmarjenje na "
+"vseh straneh."
 
 #: eea.reports/eea/reports/subtypes/report.py:265
 msgid "If selected, this item will not appear in the navigation tree"
-msgstr "Če izberete ta postavka ne bo prikazana v drevesu navigacijo"
+msgstr "Če izberete to postavko, ne bo prikazana v drevesu za krmarjenje"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:195
-msgid "If the a-tag hrefs to an image, it will be displayed in the popup. Be careful though, if the URL does not end with an image extension, fancybox will hang."
-msgstr "Če-tag hrefs v sliko, se prikaže v pojavnem. Bodite previdni, čeprav, če je URL se ne konča s slike podaljšanja, bodo fancybox visi."
+msgid ""
+"If the a-tag hrefs to an image, it will be displayed in the popup. Be "
+"careful though, if the URL does not end with an image extension, fancybox "
+"will hang."
+msgstr ""
+"Če a-tag vsebuje povezavo na sliko (href), bo ta prikazana v pojavnem oknu. "
+"Bodite previdni, kajti če se URL ne konča s pripono za slikovno datoteko, bo "
+"fancybox obvisel."
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:83
-msgid "If the map application above does not provide an integrated full screen feature (usually in the upper right corner), then you can try with the following ${full-screen-mode}"
-msgstr "Če zemljevid uporaba zgoraj ne zagotavlja integrirano polno funkcijo zaslona (ponavadi v zgornjem desnem kotu), nato pa lahko poskusite z naslednjim ${full-screen-mode}"
+msgid ""
+"If the map application above does not provide an integrated full screen "
+"feature (usually in the upper right corner), then you can try with the "
+"following ${full-screen-mode}"
+msgstr ""
+"Če zgornja aplikacija za zemljevide nima vgrajenega prikaza na polnem "
+"zaslonu (ponavadi v zgornjem desnem kotu), lahko poskusite z naslednjim "
+"${full-screen-mode}"
 
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
-msgid "If translations of this item have been made after it was first promoted, this action promotes the new translations"
-msgstr "Če so bili prevodi znan po tem, ko je bila prvič napredoval, to dejanje spodbuja nove prevode"
+msgid ""
+"If translations of this item have been made after it was first promoted, "
+"this action promotes the new translations"
+msgstr ""
+"Če so bili prevodi za to postavko znani po tem, ko je bila postavka prvič "
+"promovirana, potem to dejanje promovira nove prevode"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:52
-msgid "If you are certain you have the correct web address but are encountering an error, please contact the ${site_admin}."
-msgstr "Če ste prepričani, da imate pravilen spletni naslov, vendar so naleteli na napako, se obrnite na ${site_admin}."
+msgid ""
+"If you are certain you have the correct web address but are encountering an "
+"error, please contact the ${site_admin}."
+msgstr ""
+"Če ste prepričani, da imate pravilen spletni naslov, vendar ste naleteli na "
+"napako, se obrnite na ${site_admin}."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:200
-msgid "If you do not have an account here, head over to the ${registration_form}."
-msgstr "Če nimate računa tukaj, nad glavo na ${registration_form}."
+msgid ""
+"If you do not have an account here, head over to the ${registration_form}."
+msgstr "Če nimate računa tukaj, nadaljujte na ${registration_form}."
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:26
 msgid "If you experience problems please ${link}."
-msgstr "Če imate težave prosim ${link}."
+msgstr "Če imate težave, prosim ${link}."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:180
 msgid "If you have forgotten your password, ${click_here}."
 msgstr "Če ste pozabili geslo, ${click_here}."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:98
-msgid "If you have tabs that have longer titles consider using the extra 'two-rows' class for the tabs which makes the tabs larger in height and better styled to accomodate larger titles."
-msgstr "Če imate zavihke, ki imajo daljše naslove, razmislite o uporabi ekstra razred dveh vrstah strank za zavihki, zaradi česar so zavihki večje višine in bolje oblikovani za namestitev večjih naslovov."
+msgid ""
+"If you have tabs that have longer titles consider using the extra 'two-rows' "
+"class for the tabs which makes the tabs larger in height and better styled "
+"to accomodate larger titles."
+msgstr ""
+"Če imate zavihke, ki imajo daljše naslove, razmislite o uporabi posebnega "
+"dvo-vrstičnega razreda za zavihke, ki omogoča, da so zavihki višji in bolje "
+"oblikovani za uporabo daljših naslovov."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:160
-msgid "If you need to report this to the ${site_admin}, please include this entry number in your message."
-msgstr "Če morate prijaviti to ${site_admin}, vključite ta vnos številko v sporočilu."
+msgid ""
+"If you need to report this to the ${site_admin}, please include this entry "
+"number in your message."
+msgstr ""
+"Če morate prijaviti to ${site_admin}, vključite to številko v vaše sporočilo."
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:52
-msgid "If you want to read the content of this document, you have to switch to one of the following languages:"
-msgstr "Če želite prebrati vsebino tega dokumenta, morate izbrati enega od naslednjih jezikov:"
+msgid ""
+"If you want to read the content of this document, you have to switch to one "
+"of the following languages:"
+msgstr ""
+"Če želite prebrati vsebino tega dokumenta, morate izbrati enega od "
+"naslednjih jezikov:"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:119
-msgid "If you wish to block or unblock certain categories of portlets, you can do so using the drop-down boxes."
-msgstr "Če želite blokirati ali odblokirati določene kategorije portletov, lahko to storite z uporabo spustni polji."
+msgid ""
+"If you wish to block or unblock certain categories of portlets, you can do "
+"so using the drop-down boxes."
+msgstr ""
+"Če želite blokirati ali odblokirati določene kategorije portalskih "
+"programčkov (portlets), lahko to storite z uporabo padajočih polj (drop-down "
+"box)."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:26
 #: eea.promotion/eea/promotion/browser/admin.pt:19
@@ -2059,11 +2239,11 @@ msgstr "Galerija slik"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:194
 msgid "Image pop-ups"
-msgstr "Slika pop-ups"
+msgstr "Pojavna okna za slike"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:283
 msgid "Image scales"
-msgstr "Image lestvice"
+msgstr "Velikosti slike"
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:7
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:8
@@ -2071,8 +2251,12 @@ msgid "In the spotlight"
 msgstr "V središču pozornosti"
 
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:16
-msgid "In these websites you will find all the summarised environmental information available in your language."
-msgstr "Na teh spletnih straneh boste našli vse povzetke informacij o okolju, ki je na voljo v vašem jeziku."
+msgid ""
+"In these websites you will find all the summarised environmental information "
+"available in your language."
+msgstr ""
+"Na teh spletnih straneh boste našli vse povzetke informacij o okolju, ki so "
+"na voljo v vašem jeziku."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:250
 #: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:30
@@ -2112,8 +2296,17 @@ msgid "Info"
 msgstr "Info"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:240
-msgid "Information about rights held in and over the resource. Typically a rights element will contain a rights management statement for the resource, or reference a service providing such information. Rights information often encompasses intellectual property rights (IPR), copyright and various property rights"
-msgstr "Informacije o pravicah, ki v in preko vira. Ponavadi pravice element vsebuje pravice izjavo za upravljanje virov, ali sklic storitev posredovanja informacij. Pravice informacije pogosto vključuje pravice intelektualne lastnine (PIL), avtorske in različne pravice lastnine"
+msgid ""
+"Information about rights held in and over the resource. Typically a rights "
+"element will contain a rights management statement for the resource, or "
+"reference a service providing such information. Rights information often "
+"encompasses intellectual property rights (IPR), copyright and various "
+"property rights"
+msgstr ""
+"Informacije o pravicah, ki v in preko vira. Ponavadi pravice element vsebuje "
+"pravice izjavo za upravljanje virov, ali sklic storitev posredovanja "
+"informacij. Pravice informacije pogosto vključuje pravice intelektualne "
+"lastnine (PIL), avtorske in različne pravice lastnine"
 
 #: eea/mediacentre/browser/statistics.pt:5
 msgid "Information about the Media centre"
@@ -2148,12 +2341,16 @@ msgid "Interactive data viewers"
 msgstr "Interaktivne gledalci podatkov"
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:19
-msgid "Interested candidates must apply by filling in the application form below. To the application form must be attached:"
-msgstr "Zainteresirani kandidati se morajo uporabljati tako, da izpolnite spodnji obrazec za prijavo. Na prijavnici je treba priložiti:"
+msgid ""
+"Interested candidates must apply by filling in the application form below. "
+"To the application form must be attached:"
+msgstr ""
+"Zainteresirani kandidati se morajo uporabljati tako, da izpolnite spodnji "
+"obrazec za prijavo. Na prijavnici je treba priložiti:"
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:42
 msgid "Interface"
-msgstr ""
+msgstr "Vmesnik"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:70
 msgid "International cooperation"
@@ -2353,12 +2550,22 @@ msgid "Link to full assessment"
 msgstr "Povezava do popolne ocene"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:12
-msgid "Link types are automatically detected on client side by a javascript (scanforlinks) which will add the necessary class icon before the link."
-msgstr "Link vrste samodejno zazna na strani stranke, ki jo JavaScript (scanforlinks), ki bo potrebno dodati ikono razred pred povezavo."
+msgid ""
+"Link types are automatically detected on client side by a javascript "
+"(scanforlinks) which will add the necessary class icon before the link."
+msgstr ""
+"Link vrste samodejno zazna na strani stranke, ki jo JavaScript "
+"(scanforlinks), ki bo potrebno dodati ikono razred pred povezavo."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:307
-msgid "Link types are automatically detected on client side by a javascript which will add the necessary class icon before the link. Here you see some examples:"
-msgstr "Link vrste samodejno zazna na strani stranke, ki jo javascript, ki bodo dodali ustrezno ikono razred pred povezavo. Tukaj lahko vidite nekaj primerov:"
+msgid ""
+"Link types are automatically detected on client side by a javascript which "
+"will add the necessary class icon before the link. Here you see some "
+"examples:"
+msgstr ""
+"Link vrste samodejno zazna na strani stranke, ki jo javascript, ki bodo "
+"dodali ustrezno ikono razred pred povezavo. Tukaj lahko vidite nekaj "
+"primerov:"
 
 #: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:312
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:376
@@ -2388,9 +2595,10 @@ msgstr "Povezave"
 msgid "Links in the state ..."
 msgstr "Povezave v državi ..."
 
+# Is it necessary to translate portal_relations?
 #: eea.relations/eea/relations/browser/template/tool.pt:26
 msgid "List all relations that don't comply portal_relations schema"
-msgstr ""
+msgstr "Prikaži vse povezave, ki ne ustrezajo shemi portal_relations"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:11
 msgid "List of all icons available"
@@ -2398,7 +2606,7 @@ msgstr "Seznam vseh ikon, ki so na voljo"
 
 #: eea.relations/eea/relations/browser/template/tool.pt:26
 msgid "List of bad relations"
-msgstr ""
+msgstr "Seznam slabih povezav"
 
 #: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:18
 msgid "Listing not available"
@@ -2449,8 +2657,12 @@ msgid "Long term work"
 msgstr "Dolgoročno delo"
 
 #: eea.daviz/eea/daviz/content/schema.py:70
-msgid "Look for compatible datasets in catalogue (e.g. visualization data, .tsv, .csv, SPARQL, etc)"
-msgstr "Poiščite združljiv podatkovnih bazah v katalogu (npr. vizualizacijo podatkov. TSV. Csv, SPARQL, itd)"
+msgid ""
+"Look for compatible datasets in catalogue (e.g. visualization data, .tsv, ."
+"csv, SPARQL, etc)"
+msgstr ""
+"Poiščite združljiv podatkovnih bazah v katalogu (npr. vizualizacijo "
+"podatkov. TSV. Csv, SPARQL, itd)"
 
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:19
 msgid "Lost Password"
@@ -2494,12 +2706,26 @@ msgid "Maps and graphs"
 msgstr "Zemljevidi in grafi"
 
 #: eea/mediacentre/browser/statistics.pt:9
-msgid "Media Centre is a virtual repository of multimedia files. It can be videos, interviews, maps, animations, images etc. The repository right now contains:"
-msgstr "Media Center je virtualna zbirka multimedijskih datotek. To je lahko video posnetke, intervjuji, zemljevidi, animacije, slike itd skladišče zdaj vsebuje:"
+msgid ""
+"Media Centre is a virtual repository of multimedia files. It can be videos, "
+"interviews, maps, animations, images etc. The repository right now contains:"
+msgstr ""
+"Media Center je virtualna zbirka multimedijskih datotek. To je lahko video "
+"posnetke, intervjuji, zemljevidi, animacije, slike itd skladišče zdaj "
+"vsebuje:"
 
 #: eea/mediacentre/browser/statistics.pt:22
-msgid "Media Centre relies on plugins. Each plugin handles a set of media types and knows how to retrieve media files/data from the repository it handles. When Media Centre is asked for all videos that are available it will forward the question to all registered plugins and will then merge the results."
-msgstr "Medijsko središče temelji na plugins. Vsak plugin ročaji niz vrste medijev in ve, kako pridobiti medijskih datotek oziroma podatkov iz skladišča obdeluje. Ko se Medijsko središče prosil za vse videoposnetke, ki so na voljo, da bo pošlje vprašanje za vse prijavljene plugins in nato združiti rezultate."
+msgid ""
+"Media Centre relies on plugins. Each plugin handles a set of media types and "
+"knows how to retrieve media files/data from the repository it handles. When "
+"Media Centre is asked for all videos that are available it will forward the "
+"question to all registered plugins and will then merge the results."
+msgstr ""
+"Medijsko središče temelji na plugins. Vsak plugin ročaji niz vrste medijev "
+"in ve, kako pridobiti medijskih datotek oziroma podatkov iz skladišča "
+"obdeluje. Ko se Medijsko središče prosil za vse videoposnetke, ki so na "
+"voljo, da bo pošlje vprašanje za vse prijavljene plugins in nato združiti "
+"rezultate."
 
 #: eea/mediacentre/profiles/default/actions.xml
 msgid "Media type"
@@ -2703,8 +2929,14 @@ msgid "Networks"
 msgstr "Omrežja"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:37
-msgid "New icons or updates can be done via the mimetypes_registry in the Plone CMS or through the EEADesign2006 product. Contact the EEA web development team in this case."
-msgstr "Nove ikone ali posodobitve je mogoče storiti prek mimetypes_registry v Plone ali prek EEADesign2006 izdelka. Obrnite se na EGP spletno razvojne ekipe v tem primeru."
+msgid ""
+"New icons or updates can be done via the mimetypes_registry in the Plone CMS "
+"or through the EEADesign2006 product. Contact the EEA web development team "
+"in this case."
+msgstr ""
+"Nove ikone ali posodobitve je mogoče storiti prek mimetypes_registry v Plone "
+"ali prek EEADesign2006 izdelka. Obrnite se na EGP spletno razvojne ekipe v "
+"tem primeru."
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:190
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:72
@@ -2763,8 +2995,12 @@ msgid "No media files of this kind yet."
 msgstr "Ni medijskih datotek te vrste še."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:159
-msgid "No methodology for gap filling has been specified. Probably this info has been added together with indicator calculation."
-msgstr "Št metodologija za polnjenje vrzeli je bila določena. Verjetno je bila ta info dodano skupaj z izračunom kazalcev."
+msgid ""
+"No methodology for gap filling has been specified. Probably this info has "
+"been added together with indicator calculation."
+msgstr ""
+"Št metodologija za polnjenje vrzeli je bila določena. Verjetno je bila ta "
+"info dodano skupaj z izračunom kazalcev."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:153
 msgid "No methodology for indicator calculation has been specified"
@@ -2848,8 +3084,12 @@ msgid "Norwegian"
 msgstr "norveščina"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:27
-msgid "Note that for authenticated users the info below include the unpublished content."
-msgstr "Upoštevajte, da za njihove overjene uporabniki info spodaj vključujejo neobjavljenih vsebine."
+msgid ""
+"Note that for authenticated users the info below include the unpublished "
+"content."
+msgstr ""
+"Upoštevajte, da za njihove overjene uporabniki info spodaj vključujejo "
+"neobjavljenih vsebine."
 
 #: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:16
 msgid "Note: new version is available!"
@@ -2889,8 +3129,18 @@ msgid "Older versions"
 msgstr "Starejše različice"
 
 #: EEAContentTypes/browser/reorder.pt:69
-msgid "On the left side you have a list resources. Drag from the handle icon to reorder. After reordering, you need to use the Save button at the bottom of the list. On the right side you can see how the resources have been composed. Notice: this is not a preview. Hitting Save will generate new merged resources."
-msgstr "Na levi strani imate seznam virov. Povlecite z ročajem ikona za preusmeritev. Po prerazporeditvi, morate uporabiti gumb Shrani na dnu seznama. Na desni strani si lahko ogledate, kako so bili sestavljeni sredstva. Opomba: to ni Predogled. Hitting Shrani bodo zagotovili nove spojene virov."
+msgid ""
+"On the left side you have a list resources. Drag from the handle icon to "
+"reorder. After reordering, you need to use the Save button at the bottom of "
+"the list. On the right side you can see how the resources have been "
+"composed. Notice: this is not a preview. Hitting Save will generate new "
+"merged resources."
+msgstr ""
+"Na levi strani imate seznam virov. Povlecite z ročajem ikona za "
+"preusmeritev. Po prerazporeditvi, morate uporabiti gumb Shrani na dnu "
+"seznama. Na desni strani si lahko ogledate, kako so bili sestavljeni "
+"sredstva. Opomba: to ni Predogled. Hitting Shrani bodo zagotovili nove "
+"spojene virov."
 
 #: eea/mediacentre/Multimedia/multimedia.pt:66
 msgid "One degree matters"
@@ -2923,6 +3173,7 @@ msgstr "Organizacija spletna stran"
 msgid "Organisations control panel"
 msgstr "Organizacije, nadzorna plošča"
 
+# What is the meaning not in use? It is difficult to translate.
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:32
 msgid "Organisations not in use"
 msgstr ""
@@ -3161,7 +3412,8 @@ msgstr "Predstavitev na stari domeni EGP"
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:43
 msgid "Press the link to create a new content item in its default location"
-msgstr "Pritisnite na povezavo ustvariti nov element vsebine v svojem privzetem mestu"
+msgstr ""
+"Pritisnite na povezavo ustvariti nov element vsebine v svojem privzetem mestu"
 
 #: EEAContentTypes/skins/EEAContentTypes/highlight_macros.pt:167
 #: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:170
@@ -3461,7 +3713,7 @@ msgstr "Odgovori"
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:58
 msgid "Report"
-msgstr ""
+msgstr "Poročilo"
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:60
 msgid "Report number"
@@ -3489,8 +3741,16 @@ msgid "Reporting obligations (ROD)"
 msgstr "Obveznosti poročanja (ROD)"
 
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:18
-msgid "Reporting obligations are requirements to provide information agreed between countries and international bodies such as the EEA or international conventions. Reporting obligations provide the basis for most environmental information flows."
-msgstr "Obveznosti poročanja so zahteve za zagotavljanje informacij, ki je dogovorjena med državami in mednarodnimi telesi, kot so EGP ali mednarodnih konvencij. Obveznosti poročanja so podlaga za večino okoljskih informacijskih tokov."
+msgid ""
+"Reporting obligations are requirements to provide information agreed between "
+"countries and international bodies such as the EEA or international "
+"conventions. Reporting obligations provide the basis for most environmental "
+"information flows."
+msgstr ""
+"Obveznosti poročanja so zahteve za zagotavljanje informacij, ki je "
+"dogovorjena med državami in mednarodnimi telesi, kot so EGP ali mednarodnih "
+"konvencij. Obveznosti poročanja so podlaga za večino okoljskih "
+"informacijskih tokov."
 
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:22
 msgid "Reporting obligations related to data stored at EEA"
@@ -3671,7 +3931,7 @@ msgstr "Išči objave po naslovu"
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:12
 msgid "Search for bad relations"
-msgstr ""
+msgstr "Poišči slabe povezave"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:345
 msgid "Search on data set and application"
@@ -3743,7 +4003,8 @@ msgstr "Izberite vse predmete"
 
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:26
 msgid "Select an item bellow to inherit faceted navigation configuration"
-msgstr "Izberite predmet spodaj do dedovanja raznoliko navigacijske konfiguracije"
+msgstr ""
+"Izberite predmet spodaj do dedovanja raznoliko navigacijske konfiguracije"
 
 #: eea.dataservice/eea/dataservice/converter/convert_figures.pt:40
 msgid "Select figures to be converted."
@@ -3755,7 +4016,7 @@ msgstr "Izberite med obstoječimi oznakami."
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:43
 msgid "Select interface"
-msgstr ""
+msgstr "Izberi vmesnik"
 
 #: eea.dataservice/eea/dataservice/templates/select_template.pt:10
 msgid "Select one of the below templates to apply its metadata."
@@ -3763,7 +4024,7 @@ msgstr "Izberite eno od spodnjih predlog, da uporabljajo njegove metapodatke."
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:30
 msgid "Select portal type"
-msgstr ""
+msgstr "Izberi tip portala"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/temporal_widget.pt:86
 msgid "Selected value:"
@@ -3836,8 +4097,11 @@ msgid "Sign up now!"
 msgstr "Prijavite se zdaj!"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:46
-msgid "Since cookie authentication is disabled, cookie-based login is not available."
-msgstr "Ker je nesposoben piškotek za preverjanje pristnosti, piškotek, ki temelji prijava ni na voljo."
+msgid ""
+"Since cookie authentication is disabled, cookie-based login is not available."
+msgstr ""
+"Ker je nesposoben piškotek za preverjanje pristnosti, piškotek, ki temelji "
+"prijava ni na voljo."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:53
 msgid "Site Administration"
@@ -4077,8 +4341,12 @@ msgid "Test links"
 msgstr "Testna povezava"
 
 #: EEAContentTypes/skins/EEAContentTypes/event_submitted_confirmation.pt:15
-msgid "Thank you for your event. The EEA web team will try to publish it as soon as possible."
-msgstr "Zahvaljujemo se vam za vaš dogodek. Spletni EEA ekipa bo poskušal objaviti čim prej."
+msgid ""
+"Thank you for your event. The EEA web team will try to publish it as soon as "
+"possible."
+msgstr ""
+"Zahvaljujemo se vam za vaš dogodek. Spletni EEA ekipa bo poskušal objaviti "
+"čim prej."
 
 #: EEAContentTypes/skins/EEAContentTypes/cftrequest_confirmation.pt:9
 msgid "Thank you for your request"
@@ -4089,7 +4357,8 @@ msgid "Thank you."
 msgstr " Hvala."
 
 #: eea.design/eea/design/browser/templates/colophon.pt:28
-msgid "The European Environment Agency (EEA) is an agency of the European Union."
+msgid ""
+"The European Environment Agency (EEA) is an agency of the European Union."
 msgstr "Evropska agencija za okolje (EEA) je agencija Evropske unije."
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:47
@@ -4107,44 +4376,92 @@ msgid "The codes will be changed from ${code} to ${new-code}."
 msgstr "Kode se spremeni iz ${code} na ${new-code}."
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:32
-msgid "The content you were viewing does not exist in the language you just selected. The site language has been switched to ${language} and you can keep browsing the site in this language."
-msgstr "Vsebina, ki jo pregledovali, ne obstaja v vašem izbranem jeziku. Spletna stran jezik je bil prehod na ${language} in lahko nadaljujete pregled spletišča v tem jeziku."
+msgid ""
+"The content you were viewing does not exist in the language you just "
+"selected. The site language has been switched to ${language} and you can "
+"keep browsing the site in this language."
+msgstr ""
+"Vsebina, ki jo pregledovali, ne obstaja v vašem izbranem jeziku. Spletna "
+"stran jezik je bil prehod na ${language} in lahko nadaljujete pregled "
+"spletišča v tem jeziku."
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:306
-msgid "The country assessments are the sole responsibility of the EEA member and cooperating countries supported by the EEA through guidance, translation and editing."
-msgstr "Je država ocene so v izključni pristojnosti držav EGP in sodelujočih držav, ki jih podpira EGP pomočjo karierne orientacije, prevajanje in lektoriranje."
+msgid ""
+"The country assessments are the sole responsibility of the EEA member and "
+"cooperating countries supported by the EEA through guidance, translation and "
+"editing."
+msgstr ""
+"Je država ocene so v izključni pristojnosti držav EGP in sodelujočih držav, "
+"ki jih podpira EGP pomočjo karierne orientacije, prevajanje in lektoriranje."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:154
 msgid "The error has been logged as entry number ${entryid}."
 msgstr "Napaka je bil prijavljen kot vstopno številko ${entryid}."
 
 #: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:22
-msgid "The folder you are trying to access is still in draft and therefore its content cannot be listed. If you are a content manager of this site, you need to login and publish this folder."
-msgstr "Mapa, ki jo poskušate dostop je še v fazi osnutka, zato njena vsebina ni mogoče našteti. Če ste vodja vsebino te spletne strani, morate biti prijavljeni in objavi to mapo."
+msgid ""
+"The folder you are trying to access is still in draft and therefore its "
+"content cannot be listed. If you are a content manager of this site, you "
+"need to login and publish this folder."
+msgstr ""
+"Mapa, ki jo poskušate dostop je še v fazi osnutka, zato njena vsebina ni "
+"mogoče našteti. Če ste vodja vsebino te spletne strani, morate biti "
+"prijavljeni in objavi to mapo."
 
 #: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:18
-msgid "The following Indicator Specifications belong to the same versioning group but have a different main code. There are two ways of fixing this: either assign all the codes of this current specification, or assign just the maincode of this specification."
-msgstr "Naslednje Kazalnik podatki sodijo v isto skupino različic, vendar imajo drugačen glavno kodo. Obstajata dva načina za določitev to: ali nalagati vse oznake tega trenutno specifikacijo, ali dodeli samo maincode te specifikacije."
+msgid ""
+"The following Indicator Specifications belong to the same versioning group "
+"but have a different main code. There are two ways of fixing this: either "
+"assign all the codes of this current specification, or assign just the "
+"maincode of this specification."
+msgstr ""
+"Naslednje Kazalnik podatki sodijo v isto skupino različic, vendar imajo "
+"drugačen glavno kodo. Obstajata dva načina za določitev to: ali nalagati vse "
+"oznake tega trenutno specifikacijo, ali dodeli samo maincode te "
+"specifikacije."
 
 #: eea.sparql/eea/sparql/browser/view.pt:59
-msgid "The following info can be used by a system developer / database administrator in order to retrieve this dataset programmatically over the web using a SPARQL client."
-msgstr "Naslednje informacije se lahko uporablja s sistemom razvijalec / baze podatkov administratorja, da bi naloľiti nabor podatkov programmatically preko spleta s pomočjo SPARQL stranko."
+msgid ""
+"The following info can be used by a system developer / database "
+"administrator in order to retrieve this dataset programmatically over the "
+"web using a SPARQL client."
+msgstr ""
+"Naslednje informacije se lahko uporablja s sistemom razvijalec / baze "
+"podatkov administratorja, da bi naloľiti nabor podatkov programmatically "
+"preko spleta s pomočjo SPARQL stranko."
 
 #: eea.indicators/eea/indicators/skins/indicators_templates/policy_doc_view.pt:9
 msgid "The link address is:"
 msgstr "Povezava naslov:"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:228
-msgid "The name given to the resource. Typically, a title will be a name by which the resource is formally known"
-msgstr "Ime za vira. Značilno je, da bo naslov je ime, s katerim je vir formalno poznana"
+msgid ""
+"The name given to the resource. Typically, a title will be a name by which "
+"the resource is formally known"
+msgstr ""
+"Ime za vira. Značilno je, da bo naslov je ime, s katerim je vir formalno "
+"poznana"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:232
-msgid "The nature or genre of the content of the resource. Type includes terms describing general categories, functions, genres, or aggregation levels for content"
-msgstr "Narava ali žanr vsebine vira. Vrsta vključuje izraze, ki opisujejo splošne kategorije, funkcije, zvrsti ali združevanje nivojev vsebino"
+msgid ""
+"The nature or genre of the content of the resource. Type includes terms "
+"describing general categories, functions, genres, or aggregation levels for "
+"content"
+msgstr ""
+"Narava ali žanr vsebine vira. Vrsta vključuje izraze, ki opisujejo splošne "
+"kategorije, funkcije, zvrsti ali združevanje nivojev vsebino"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:55
-msgid "The portlet columns will now display only those portlets explicitly assigned in this context. Use the buttons on each portlet to move them up or down, delete or edit them. To add a new portlet, use the drop-down list at the top of the column."
-msgstr "The portletov stolpci bo sedaj prikazal samo tiste portletov izrecno dodeljene v tem okviru. Uporabite gumbe na vsaki portletov, da jih premaknete navzgor ali navzdol, izbrisati ali urediti jih. Če želite dodati novo portletov, uporabite spustni seznam na vrhu kolone."
+msgid ""
+"The portlet columns will now display only those portlets explicitly assigned "
+"in this context. Use the buttons on each portlet to move them up or down, "
+"delete or edit them. To add a new portlet, use the drop-down list at the top "
+"of the column."
+msgstr ""
+"The portletov stolpci bo sedaj prikazal samo tiste portletov izrecno "
+"dodeljene v tem okviru. Uporabite gumbe na vsaki portletov, da jih "
+"premaknete navzgor ali navzdol, izbrisati ali urediti jih. Če želite dodati "
+"novo portletov, uporabite spustni seznam na vrhu kolone."
 
 #: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:504
 msgid "The source file XML contains the following organisations:"
@@ -4178,8 +4495,12 @@ msgstr "Teme in podatki"
 
 #: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:124
 #: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:123
-msgid "There are currently no criteria on which to search. Please add them using the 'criteria' tab."
-msgstr "Trenutno ni merila, na katerih iskati. Prosimo, da jih dodate z zavihku 'merilom."
+msgid ""
+"There are currently no criteria on which to search. Please add them using "
+"the 'criteria' tab."
+msgstr ""
+"Trenutno ni merila, na katerih iskati. Prosimo, da jih dodate z zavihku "
+"'merilom."
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:120
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:143
@@ -4194,8 +4515,12 @@ msgid "There are currently no results for this search."
 msgstr "Trenutno ni zadetkov tega iskanja."
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:128
-msgid "There are legacy portlets defined here. Click the button to convert them to new-style portlets."
-msgstr "Obstaja zapuščina portletov opredeljene tukaj. Kliknite na gumb, da jih pretvorite v novo slogu portletov."
+msgid ""
+"There are legacy portlets defined here. Click the button to convert them to "
+"new-style portlets."
+msgstr ""
+"Obstaja zapuščina portletov opredeljene tukaj. Kliknite na gumb, da jih "
+"pretvorite v novo slogu portletov."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:335
 msgid "There are more icons detected, see ${link}"
@@ -4218,8 +4543,12 @@ msgid "This FAQ applies to a previous version"
 msgstr "To pogosto vprašanje velja za prejšnje različice"
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:42
-msgid "This content does not exist in your current language, ${language}, but you can keep browsing the site in this language."
-msgstr "Ta vsebina ne obstaja v vašem vsakdanjem jeziku, ${language}, vendar pa lahko nadaljujete pregled spletišča v tem jeziku."
+msgid ""
+"This content does not exist in your current language, ${language}, but you "
+"can keep browsing the site in this language."
+msgstr ""
+"Ta vsebina ne obstaja v vašem vsakdanjem jeziku, ${language}, vendar pa "
+"lahko nadaljujete pregled spletišča v tem jeziku."
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:46
 msgid "This document is locked."
@@ -4230,15 +4559,26 @@ msgid "This figure has no data source. For further information contact"
 msgstr "Ta številka ni vir podatkov. Dodatne informacije"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:14
-msgid "This file contains links that should be marked in different ways by the mark_special_link.js script. This is to test and verify that it works. Try it with <br /> ${normal} ${swedish-site} <br />"
-msgstr "Ta datoteka vsebuje povezave, ki morajo biti označene na različne načine z mark_special_link.js scenarij. To je preizkusiti in preveriti, ali deluje. Poskusite z <br /> ${normal} ${swedish-site} <br />"
+msgid ""
+"This file contains links that should be marked in different ways by the "
+"mark_special_link.js script. This is to test and verify that it works. Try "
+"it with <br /> ${normal} ${swedish-site} <br />"
+msgstr ""
+"Ta datoteka vsebuje povezave, ki morajo biti označene na različne načine z "
+"mark_special_link.js scenarij. To je preizkusiti in preveriti, ali deluje. "
+"Poskusite z <br /> ${normal} ${swedish-site} <br />"
 
+# What is a meaning of form - form as a template, formular?
+# Is deprecated similar to broken or similar to outdated and replaced with new ones?
+# In the world of software development, "deprecated" refers to functions or elements that are in the process of being replaced by newer ones.
 #: eea.relations/eea/relations/browser/template/badrelations.pt:16
 msgid "This form will help you find deprecated relation between portal content"
 msgstr ""
+"Ta obrazec vam bo pomagal poiskati porušene povezave med vsebinami portala"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:16
-msgid "This indicator has a newer version, ${spec-title} from ${indicator-date}."
+msgid ""
+"This indicator has a newer version, ${spec-title} from ${indicator-date}."
 msgstr "Ta kazalnik ima novejšo različico ${spec-title} od ${indicator-date}."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:276
@@ -4279,12 +4619,14 @@ msgstr "Ta točka se nanaša na prejšnjo različico"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:251
 msgid "This item does not have any body text, click the edit tab to change it."
-msgstr "Ta točka nima telo besedila, kliknite jeziček Urejanje, da jo spremeni."
+msgstr ""
+"Ta točka nima telo besedila, kliknite jeziček Urejanje, da jo spremeni."
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/schemata_edit_macros.pt:38
 #: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:46
 msgid "This item is in use by someone else and cannot be modified"
-msgstr "Ta postavka je v uporabi s strani nekoga drugega in ga ni mogoče spremeniti"
+msgstr ""
+"Ta postavka je v uporabi s strani nekoga drugega in ga ni mogoče spremeniti"
 
 #: eea.design/eea/design/browser/templates/goto_comments.pt:15
 msgid "This item is open for comments. See the comments"
@@ -4305,20 +4647,38 @@ msgstr "Ta stran vam ponuja informacije o povezavah v vašem themecentre."
 #: EEAContentTypes/skins/EEAContentTypes/document_with_flash_view.pt:18
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_fixed_width_view.pt:23
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_popup_window.pt:17
-msgid "This page requires Flashplayer, please download it for free from ${flashplayer-link}"
-msgstr "Ta stran zahteva Flashplayer, ga lahko prenesete brezplačno iz ${flashplayer-link}"
+msgid ""
+"This page requires Flashplayer, please download it for free from "
+"${flashplayer-link}"
+msgstr ""
+"Ta stran zahteva Flashplayer, ga lahko prenesete brezplačno iz ${flashplayer-"
+"link}"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:17
-msgid "This page shows common html markup, css classes and javascripts we use across the EEA website. See example code and use Firefox Firebug plugin to inspect elements code."
-msgstr "Ta stran prikazuje skupno html oznake, ki css razredov in javaScript, ki jih uporabljamo po spletni strani EEA. Glej primer kode in uporabo Firefox Firebug plugin za pregled elementov kodo."
+msgid ""
+"This page shows common html markup, css classes and javascripts we use "
+"across the EEA website. See example code and use Firefox Firebug plugin to "
+"inspect elements code."
+msgstr ""
+"Ta stran prikazuje skupno html oznake, ki css razredov in javaScript, ki jih "
+"uporabljamo po spletni strani EEA. Glej primer kode in uporabo Firefox "
+"Firebug plugin za pregled elementov kodo."
 
 #: eea.design/eea/design/skins/eea_design/main_template.pt:233
-msgid "This page was translated by the Translation Centre for the Bodies of the European Union (CdT)"
-msgstr "Ta stran je bila prevedena z Prevajalski center za organe Evropske unije (CdT)"
+msgid ""
+"This page was translated by the Translation Centre for the Bodies of the "
+"European Union (CdT)"
+msgstr ""
+"Ta stran je bila prevedena z Prevajalski center za organe Evropske unije "
+"(CdT)"
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:14
-msgid "This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser."
-msgstr "Ta spletna stran je omejena funkcionalnost z javascript off. Prepričajte se, da je omogočen javascript v vašem brskalniku."
+msgid ""
+"This website has limited functionality with javascript off. Please make sure "
+"javascript is enabled in your browser."
+msgstr ""
+"Ta spletna stran je omejena funkcionalnost z javascript off. Prepričajte se, "
+"da je omogočen javascript v vašem brskalniku."
 
 #: eea/mediacentre/browser/video-listed-single.pt:28
 #: eea/mediacentre/browser/video.pt:54
@@ -4340,11 +4700,16 @@ msgid "Title/Description"
 msgstr "Naslov / Opis"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:194
-msgid "To access this part of the site, you need to log in with your user name and password. You can use your Eionet username and password."
-msgstr "Za dostop do tega dela mesta, se morate prijaviti s svojim uporabniškim imenom in geslom. Lahko uporabite vaš Eionet uporabniško ime in geslo."
+msgid ""
+"To access this part of the site, you need to log in with your user name and "
+"password. You can use your Eionet username and password."
+msgstr ""
+"Za dostop do tega dela mesta, se morate prijaviti s svojim uporabniškim "
+"imenom in geslom. Lahko uporabite vaš Eionet uporabniško ime in geslo."
 
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:18
-msgid "To access your EEA notification service account please enter your email."
+msgid ""
+"To access your EEA notification service account please enter your email."
 msgstr "Dostop do vašega računa EGP obveščanja storitev vpišite e-pošto."
 
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:32
@@ -4352,8 +4717,12 @@ msgid "To reset your password visit ${mail}."
 msgstr "Če želite ponastaviti svoje geslo obiščite ${mail}."
 
 #: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:18
-msgid "To unsubscribe from EEA notification service please enter your email. You will receive an email in order to confirm your unsubscription."
-msgstr "Če se želite odjaviti iz prometa EGP obvestila vpišite e-pošto. Prejeli boste e-poštno sporočilo za potrditev vašega odjavo."
+msgid ""
+"To unsubscribe from EEA notification service please enter your email. You "
+"will receive an email in order to confirm your unsubscription."
+msgstr ""
+"Če se želite odjaviti iz prometa EGP obvestila vpišite e-pošto. Prejeli "
+"boste e-poštno sporočilo za potrditev vašega odjavo."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:215
 msgid "Tooltips"
@@ -4427,7 +4796,7 @@ msgstr "Prenos reference"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:22
 msgid "Transfer relations"
-msgstr ""
+msgstr "Prenos povezav"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:65
 msgid "Transfer to"
@@ -4557,16 +4926,26 @@ msgid "Use of AND/OR/* is supported."
 msgstr "Uporaba in / ali / * podpira."
 
 #: eea.alchemy/eea/alchemy/browser/zpt/tool.pt:34
-msgid "Use the form bellow to auto-discover and update documents geotags, temportal coverage and keywords"
-msgstr "Uporabite spodnji obrazec za avtomatski odkrijejo in posodabljanje dokumentov geografskih oznak in temportal pokritost in ključne besede"
+msgid ""
+"Use the form bellow to auto-discover and update documents geotags, temportal "
+"coverage and keywords"
+msgstr ""
+"Uporabite spodnji obrazec za avtomatski odkrijejo in posodabljanje "
+"dokumentov geografskih oznak in temportal pokritost in ključne besede"
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:17
 msgid "Use the form below to define, change or remove custom portal types."
-msgstr "Uporabite spodnji obrazec za opredelitev, spremeniti ali odstraniti meri portal vrst."
+msgstr ""
+"Uporabite spodnji obrazec za opredelitev, spremeniti ali odstraniti meri "
+"portal vrst."
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:12
-msgid "Use this form to submit an environmental event. We will then check if the submitted event is relevant for publishing."
-msgstr "Uporabite ta obrazec, da predložijo okoljsko dogodek. Bomo potem preveri, če je predložena dogodek je primeren za objavo."
+msgid ""
+"Use this form to submit an environmental event. We will then check if the "
+"submitted event is relevant for publishing."
+msgstr ""
+"Uporabite ta obrazec, da predložijo okoljsko dogodek. Bomo potem preveri, če "
+"je predložena dogodek je primeren za objavo."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:218
 msgid "Used in figure ${link}"
@@ -4640,7 +5019,7 @@ msgstr "Oglejte si celotno Pogosta vprašanja Expanded"
 
 #: eea.relations/eea/relations/browser/template/tool.pt:21
 msgid "View full graph"
-msgstr ""
+msgstr "Poglej poln grafikon"
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:61
 msgid "View larger map on Eye on Earth"
@@ -4693,7 +5072,7 @@ msgstr "Opozorilo! Core zlom na EGP sedežu, koda super Prevarant-rdeče"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:23
 msgid "Warning:"
-msgstr ""
+msgstr "Opozorilo:"
 
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:143
 msgid "Waste"
@@ -4713,20 +5092,34 @@ msgid "Water Information System for Europe"
 msgstr "Informacijski sistem za vode Evropi"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:45
-msgid "We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for."
-msgstr "Opravičujemo se za nevšečnosti, vendar je stran, ki jo skušali dostopati ni na tem naslovu. Lahko uporabite spodnje povezave, ki vam pomaga najti tisto, kar iščete."
+msgid ""
+"We apologize for the inconvenience, but the page you were trying to access "
+"is not at this address. You can use the links below to help you find what "
+"you are looking for."
+msgstr ""
+"Opravičujemo se za nevšečnosti, vendar je stran, ki jo skušali dostopati ni "
+"na tem naslovu. Lahko uporabite spodnje povezave, ki vam pomaga najti tisto, "
+"kar iščete."
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:13
-msgid "We do not publish events that are purely commercial and with no references to the environment."
-msgstr "Mi ne objavi dogodkov, ki so povsem komercialne in brez sklicevanja na okolje."
+msgid ""
+"We do not publish events that are purely commercial and with no references "
+"to the environment."
+msgstr ""
+"Mi ne objavi dogodkov, ki so povsem komercialne in brez sklicevanja na "
+"okolje."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:144
 msgid "We&#8217;re sorry, but there seems to be an error&hellip;"
 msgstr "Žal pa se zdi, da napaka ..."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:14
-msgid "Welcome to EEA Web design elements, your browser should have autoscrolled down to me"
-msgstr "Dobrodošli na spletnih EGP oblikovalskih elementov, mora vaš brskalnik autoscrolled so do mene"
+msgid ""
+"Welcome to EEA Web design elements, your browser should have autoscrolled "
+"down to me"
+msgstr ""
+"Dobrodošli na spletnih EGP oblikovalskih elementov, mora vaš brskalnik "
+"autoscrolled so do mene"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:65
 msgid "Welcome! You are now logged in."
@@ -4779,8 +5172,10 @@ msgid "Work specified here requires to be completed within 1 year from now."
 msgstr "Delo določeno tukaj zahteva, da se zaključijo v 1 letu od zdaj."
 
 #: eea.indicators/eea/indicators/browser/templates/specification/view.pt:275
-msgid "Work specified here will require more than 1 year (from now) to be completed."
-msgstr "Delo določeno tu bo potrebno več kot 1 leto (od zdaj) je treba izpolniti."
+msgid ""
+"Work specified here will require more than 1 year (from now) to be completed."
+msgstr ""
+"Delo določeno tu bo potrebno več kot 1 leto (od zdaj) je treba izpolniti."
 
 #: eea.dataservice/eea/dataservice/profiles/default/actions.xml
 msgid "Working list"
@@ -4808,16 +5203,24 @@ msgid "Year"
 msgstr "Leto"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:48
-msgid "You are editing the default view of a container. If you wanted to edit the container itself, ${go_here}."
-msgstr "Urejate privzeti pogled na posodi. Če si hotel urediti sama embalaža, ${go_here}."
+msgid ""
+"You are editing the default view of a container. If you wanted to edit the "
+"container itself, ${go_here}."
+msgstr ""
+"Urejate privzeti pogled na posodi. Če si hotel urediti sama embalaža, "
+"${go_here}."
 
 #: EEAContentTypes/browser/cache.py:72
 msgid "You are not allowed to invalidate cache in this context"
 msgstr "Ti ne smejo razveljaviti predpomnilnik v tem kontekstu"
 
 #: eea.reports/eea/reports/browser/report.pt:240
-msgid "You can also obtain a copy from ${nearest-sale-agent} by providing the ordering info."
-msgstr "Prav tako lahko pridobijo kopijo od ${nearest-sale-agent} z zagotavljanjem naročanje info."
+msgid ""
+"You can also obtain a copy from ${nearest-sale-agent} by providing the "
+"ordering info."
+msgstr ""
+"Prav tako lahko pridobijo kopijo od ${nearest-sale-agent} z zagotavljanjem "
+"naročanje info."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:188
 msgid "You can have arbitrary HTML in the pop-ups:"
@@ -4828,12 +5231,22 @@ msgid "You might have been looking for&hellip;"
 msgstr "Morda so iskali ..."
 
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_noheader_view.pt:22
-msgid "You need Flash player to be able to see and use the ozone map viewer, please download it for free from ${flashpalyer-link}. If you don't have administrative rights on your computer, please contact your helpdesk."
-msgstr "Morate Flash player, da bi lahko videli in uporabo gledalca ozonski karto, ga lahko prenesete brezplačno iz ${flashpalyer-link}. Če nimate skrbniške pravice v računalniku, se obrnite na službo za pomoč uporabnikom."
+msgid ""
+"You need Flash player to be able to see and use the ozone map viewer, please "
+"download it for free from ${flashpalyer-link}. If you don't have "
+"administrative rights on your computer, please contact your helpdesk."
+msgstr ""
+"Morate Flash player, da bi lahko videli in uporabo gledalca ozonski karto, "
+"ga lahko prenesete brezplačno iz ${flashpalyer-link}. Če nimate skrbniške "
+"pravice v računalniku, se obrnite na službo za pomoč uporabnikom."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:30
-msgid "You need to enter an image scale after the image src otherwise the gallery will load the full-resolution images which could dramatically slow the page"
-msgstr "Morate vnesti slike lestvico po tem, ko slika src drugače bo galerija nalaganje polni ločljivosti, ki bi lahko drastično upočasnijo stran"
+msgid ""
+"You need to enter an image scale after the image src otherwise the gallery "
+"will load the full-resolution images which could dramatically slow the page"
+msgstr ""
+"Morate vnesti slike lestvico po tem, ko slika src drugače bo galerija "
+"nalaganje polni ločljivosti, ki bi lahko drastično upočasnijo stran"
 
 #: eea.daviz/eea/daviz/content/validators.py:25
 msgid "You should provide data in a valid CSV format(.csv, .tsv, etc)"
@@ -4860,8 +5273,12 @@ msgid "Your message"
 msgstr "Vaše sporočilo"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:299
-msgid "Your screensaver has been upgraded, please consider to restart your computer ... Have a good day"
-msgstr "Vaš screensaver je bil nadgrajen, prosimo, razmislite ponovno zagnati računalnik ... Lep dan"
+msgid ""
+"Your screensaver has been upgraded, please consider to restart your "
+"computer ... Have a good day"
+msgstr ""
+"Vaš screensaver je bil nadgrajen, prosimo, razmislite ponovno zagnati "
+"računalnik ... Lep dan"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:329
 msgid "Zip archive"
@@ -4941,7 +5358,7 @@ msgstr "copy-paste-opis"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:30
 msgid "data examples"
-msgstr ""
+msgstr "primeri podatkov"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:38
 msgid "datasets"
@@ -5013,7 +5430,7 @@ msgstr "Domača stran"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:34
 msgid "how to prepare data"
-msgstr ""
+msgstr "kako pripraviti podatke"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:160
 msgid "iCal"
@@ -5044,8 +5461,11 @@ msgid "image_thumb"
 msgstr "image_thumb"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:291
-msgid "image_thumb (videos get play button and black borders applied correctly)"
-msgstr "image_thumb (video posnetki dobili gumb za predvajanje in črne obrobe uporabljajo pravilno)"
+msgid ""
+"image_thumb (videos get play button and black borders applied correctly)"
+msgstr ""
+"image_thumb (video posnetki dobili gumb za predvajanje in črne obrobe "
+"uporabljajo pravilno)"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:288
 msgid "image_tile"
@@ -5093,6 +5513,8 @@ msgstr "label_advanced_search"
 #: eea.design/eea/design/browser/templates/comments.pt:16
 msgid "label_login_to_add_comments"
 msgstr ""
+"Privzeto: \"Prijavite se z vašim Eionet geslom - za vpogled ali dodajanje "
+"komentarjev\""
 
 #. Default: "No matching results found."
 #: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:105
@@ -5261,8 +5683,12 @@ msgid "upload-csv-description"
 msgstr "upload-CSV-opis"
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:87
-msgid "use this field if the report type is not listed in the previous Serial Title field"
-msgstr "uporabiti to polje, če je poročilo vrsta ni navedena v prejšnjem Serial področju naslova"
+msgid ""
+"use this field if the report type is not listed in the previous Serial Title "
+"field"
+msgstr ""
+"uporabiti to polje, če je poročilo vrsta ni navedena v prejšnjem Serial "
+"področju naslova"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:154
 msgid "vCal"
@@ -5287,4 +5713,3 @@ msgstr "Leto:"
 #: eea.reports/eea/reports/browser/report.pt:241
 msgid "your nearest sales agent"
 msgstr "vam najbližjega prodajalca"
-
