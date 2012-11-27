@@ -1,5 +1,5 @@
 eea.translations Package Readme
-=========================
+===============================
 
 Overview
 --------
