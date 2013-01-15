@@ -2,17 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2008-11-13 12:24+0100\n"
+"PO-Revision-Date: 2013-01-15 10:26+0100\n"
 "Last-Translator: Marie Jaegly <marie.jaegly@eea.europa.eu>\n"
 "Language-Team: es <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
+"X-Generator: Poedit 1.5.3\n"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:33
 msgid "${context_icon} Manage portlets for ${context_title}"
@@ -73,7 +74,7 @@ msgstr "Etiquetas% actualmente seleccionado."
 
 #: eea/mediacentre/Multimedia/multimedia.pt:69
 msgid "'One degree matters' follows social and business leaders as they travel to Greenland and experience for themselves the dramatic effects of the melting of the ice cap and come to understand the planetary effects of climate change and the impacts these will have on society and the economy. The film brings to the screen the latest science from the Arctic and shows why a further rise in global temperature of one degree matters for the future of humankind. Film had premiere 13 December 2009 during COP15."
-msgstr ""
+msgstr "'One degree matters' sigue a destacadas personalidades de la sociedad y los negocios en su viaje a Groenlandia, donde experimentarán por sí mismos los drásticos efectos del deshielo del casquete polar hasta entender los efectos planetarios del cambio climático y los impactos que tendrán en la sociedad y la economía. El filme lleva a la pantalla la ciencia más reciente sobre el Ártico y muestra cómo un incremento de un grado en la temperatura global es importante para la humanidad. El filme se estrenó el 13 de diciembre de 2009 durante el COP15."
 
 #: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:64
 msgid "(${location}, from ${start} to ${end})"
@@ -247,7 +248,7 @@ msgstr "Album Art:"
 
 #: eea/themecentre/skins/themecentre_templates/mediacentre_macros.pt:8
 msgid "All"
-msgstr ""
+msgstr "Todos/as"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:142
 msgid "All ${number} ${title}&hellip;"
@@ -589,7 +590,7 @@ msgstr "selecciona todos"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:33
 msgid "Check these ${data-examples} or read ${prepare-data}"
-msgstr ""
+msgstr "Compruebe estos ${data-examples} o lea ${prepare-data}"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:149
 msgid "Check this to have your email address filled in automatically when you log in later."
@@ -609,7 +610,7 @@ msgstr "Elija un boletín de noticias"
 
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:25
 msgid "Choose another media type or ${multimedia_center} (via EEA Multimedia Centre)."
-msgstr "Elegir otro tipo de soporte o ${multimedia_center}  (a través de Centro Multimedia del EEE)."
+msgstr "Elegir otro tipo de soporte o ${multimedia_center} (a través de Centro Multimedia del EEE)."
 
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:13
 msgid "Choose the EEA local website in your preferred language"
@@ -670,7 +671,7 @@ msgstr "Al comentar ha sido desactivada."
 
 #: eea.design/eea/design/browser/templates/comments.pt:2
 msgid "Comments"
-msgstr ""
+msgstr "Comentarios"
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:11
 msgid "Comments on translations"
@@ -678,7 +679,7 @@ msgstr "Comentarios sobre traducciones"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:18
 msgid "Configure Visualization"
-msgstr ""
+msgstr "Configurar visualización"
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:19
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:36
@@ -1069,7 +1070,7 @@ msgstr "Datos derivados establece:"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:17
 msgid "Detect duplicates"
-msgstr ""
+msgstr "Detectar duplicados"
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
 msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
@@ -1415,7 +1416,8 @@ msgstr "Introduzca una o varias palabras clave para una búsqueda."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:350
 msgid "Enter one or more keywords for a search. Use of AND/OR is supported."
-msgstr "Introduzca una o varias palabras clave para una búsqueda. El uso de Y / O es compatible."
+msgstr "Introduzca una o varias palabras clave para una búsqueda. El uso de Y / O es "
+"compatible."
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:122
 msgid "Enter one tag per line, multiple words allowed."
@@ -1834,7 +1836,7 @@ msgstr "General de los metadatos"
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:53
 msgid "Generate report"
-msgstr ""
+msgstr "Generar informe"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:32
 #: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:36
@@ -1884,7 +1886,7 @@ msgstr "Ir a la búsqueda avanzada"
 
 #: EEAContentTypes/skins/EEAContentTypes/promotion_view.pt:39
 msgid "Go to site"
-msgstr ""
+msgstr "Ir al sitio"
 
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:24
 msgid "Google Custom Search Engines"
@@ -2153,7 +2155,7 @@ msgstr "Los candidatos interesados ​​deberán presentar su solicitud rellena
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:42
 msgid "Interface"
-msgstr ""
+msgstr "Interfaz"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:70
 msgid "International cooperation"
@@ -2390,7 +2392,7 @@ msgstr "Enlaces en el estado ..."
 
 #: eea.relations/eea/relations/browser/template/tool.pt:26
 msgid "List all relations that don't comply portal_relations schema"
-msgstr ""
+msgstr "Listar todas las relaciones que no cumplen con el esquema del portal"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:11
 msgid "List of all icons available"
@@ -2398,7 +2400,7 @@ msgstr "Lista de todos los iconos disponibles"
 
 #: eea.relations/eea/relations/browser/template/tool.pt:26
 msgid "List of bad relations"
-msgstr ""
+msgstr "Lista de malas relaciones"
 
 #: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:18
 msgid "Listing not available"
@@ -2829,7 +2831,7 @@ msgstr "No hay unidades que se hayan especificado"
 
 #: eea.indicators/eea/indicators/browser/templates/timeline.pt:40
 msgid "No."
-msgstr "-No."
+msgstr "No."
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:48
 msgid "Noise"
@@ -2925,7 +2927,7 @@ msgstr "Organizaciones panel de control"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:32
 msgid "Organisations not in use"
-msgstr ""
+msgstr "Organizaciones que no se emplean"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:119
 msgid "Organisations with no reference"
@@ -3461,7 +3463,7 @@ msgstr "Responder"
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:58
 msgid "Report"
-msgstr ""
+msgstr "Informe"
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:60
 msgid "Report number"
@@ -3671,7 +3673,7 @@ msgstr "Buscar por título de publicación"
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:12
 msgid "Search for bad relations"
-msgstr ""
+msgstr "Buscar malas relaciones"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:345
 msgid "Search on data set and application"
@@ -3755,7 +3757,7 @@ msgstr "Seleccione una de las etiquetas existentes."
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:43
 msgid "Select interface"
-msgstr ""
+msgstr "Seleccionar interfaz"
 
 #: eea.dataservice/eea/dataservice/templates/select_template.pt:10
 msgid "Select one of the below templates to apply its metadata."
@@ -3763,7 +3765,7 @@ msgstr "Seleccione una de las plantillas a continuación para aplicar sus metada
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:30
 msgid "Select portal type"
-msgstr ""
+msgstr "Seleccionar tipo de portal"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/temporal_widget.pt:86
 msgid "Selected value:"
@@ -4053,7 +4055,7 @@ msgstr "Síntesis"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:31
 msgid "Table definition"
-msgstr "Definiciones de Tablas ................................................ .................................................. ..........................."
+msgstr "Definiciones de Tablas"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:401
 msgid "Tags:"
@@ -4127,7 +4129,8 @@ msgid "The following Indicator Specifications belong to the same versioning grou
 msgstr "Las especificaciones del indicador siguientes pertenecen al grupo de versiones misma, pero tienen un código principal diferente. Hay dos formas de fijación de este: o bien asignar todos los códigos de esta especificación actual, o asignar sólo el maincode de esta especificación."
 
 #: eea.sparql/eea/sparql/browser/view.pt:59
-msgid "The following info can be used by a system developer / database administrator in order to retrieve this dataset programmatically over the web using a SPARQL client."
+msgid "The following info can be used by a system developer / database administrator in order to retrieve this dataset programmatically over the "
+"web using a SPARQL client."
 msgstr "La siguiente información puede ser utilizada por un sistema de programador / administrador de la base de datos con el fin de recuperar este conjunto de datos mediante programación a través de Internet utilizando un cliente de SPARQL."
 
 #: eea.indicators/eea/indicators/skins/indicators_templates/policy_doc_view.pt:9
@@ -4235,7 +4238,7 @@ msgstr "Este archivo contiene los vínculos que deben ser señalizadas de difere
 
 #: eea.relations/eea/relations/browser/template/badrelations.pt:16
 msgid "This form will help you find deprecated relation between portal content"
-msgstr ""
+msgstr "Este formulario le ayudará a encontrar relaciones despreciadas entre contenido de los portales"
 
 #: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:16
 msgid "This indicator has a newer version, ${spec-title} from ${indicator-date}."
@@ -4357,7 +4360,7 @@ msgstr "Para darse de baja de servicio de notificación a efectos del EEE por fa
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:215
 msgid "Tooltips"
-msgstr "· Herramientas"
+msgstr "Herramientas"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:218
 msgid "Tooltips can go down"
@@ -4427,7 +4430,7 @@ msgstr "Referencias de transferencia"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:22
 msgid "Transfer relations"
-msgstr ""
+msgstr "Transferir relaciones"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:65
 msgid "Transfer to"
@@ -4640,7 +4643,7 @@ msgstr "Ver toda la ampliación de Preguntas Frecuentes"
 
 #: eea.relations/eea/relations/browser/template/tool.pt:21
 msgid "View full graph"
-msgstr ""
+msgstr "Ver gráfico completo"
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:61
 msgid "View larger map on Eye on Earth"
@@ -4693,7 +4696,7 @@ msgstr "¡Advertencia! Core crisis en la sede del EEE, el código de super-duper
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:23
 msgid "Warning:"
-msgstr ""
+msgstr "Atención:"
 
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:143
 msgid "Waste"
@@ -4941,7 +4944,7 @@ msgstr "copiar y pegar-descripción"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:30
 msgid "data examples"
-msgstr ""
+msgstr "ejemplos de datos"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:38
 msgid "datasets"
@@ -4954,7 +4957,7 @@ msgstr "Eliminar portlet"
 #. Default: "Jacqueline McGlade, Executive Director of the European Environment Agency (EEA), and three of her colleagues have chosen to be part of an extraordinary journey in East Greenland. They travel from their offices in Copenhagen to participate in a multi sport race, where they challenge themselves through 250 kilometers of the Arctic wilderness. On their way they encounter the effects of climate change and its impact on the Arctic environment. The Inuit are among the first people to experience the effects of climate change. They are in the middle of an environmental challenge that will change many parts of their culture. What is happening to the Inuit today will happen to the rest of the world tomorrow. We will all need to adapt to climate change."
 #: eea/mediacentre/Multimedia/multimedia.pt:56
 msgid "director-description"
-msgstr ""
+msgstr "descripción-director"
 
 #: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_topdatasets.pt:30
 msgid "downloads"
@@ -5013,7 +5016,7 @@ msgstr "Inicio"
 
 #: eea.app.visualization/eea/app/visualization/browser/zpt/edit.pt:34
 msgid "how to prepare data"
-msgstr ""
+msgstr "cómo preparar datos"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:160
 msgid "iCal"
@@ -5117,7 +5120,7 @@ msgstr "Última modificación"
 #. Default: "LiveSearch &#8595;"
 #: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:104
 msgid "legend_livesearch"
-msgstr "búsqueda rápida &#8595;"
+msgstr "Búsqueda rápida &#8595;"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:336
 msgid "list of all icons available"
@@ -5287,4 +5290,3 @@ msgstr "Año"
 #: eea.reports/eea/reports/browser/report.pt:241
 msgid "your nearest sales agent"
 msgstr "más cercana a su agente de ventas"
-
