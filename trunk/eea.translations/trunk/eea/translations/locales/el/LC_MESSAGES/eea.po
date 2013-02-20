@@ -36,7 +36,7 @@ msgid "${number} events on map"
 msgstr "${number} αγγελίες στον χάρτη"
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:119
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:88
+#: eea.design/eea/design/skins/eeadesign_public/search.pt:87
 msgid "${number} items matching your search terms"
 msgstr "${number} αντικείμενα που ταιριάζουν με τους δικούς σας όρους αναζήτησης"
 
@@ -52,32 +52,15 @@ msgstr "${start}"
 msgid "${start} from ${starttime} to ${end}"
 msgstr "${sart} από ${starttime} μέχρι  ${end}"
 
-#: eea.indicators/eea/indicators/browser/templates/timeline.pt:68
-msgid "${state} assessment"
-msgstr "${state} αξιολόγηση"
-
-#: eea.indicators/eea/indicators/browser/templates/timeline.pt:86
-msgid "${state} factsheet"
-msgstr "${state} δελτίο"
-
-#: eea.indicators/eea/indicators/browser/templates/timeline.pt:77
-msgid "${state} specification"
-msgstr "${state} προδιαγραφή"
-
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:82
 msgid "% tags currently selected."
 msgstr "% ετικετών επιλεγμένες τώρα."
-
-#: eea/mediacentre/Multimedia/multimedia.pt:69
-msgid "'One degree matters' follows social and business leaders as they travel to Greenland and experience for themselves the dramatic effects of the melting of the ice cap and come to understand the planetary effects of climate change and the impacts these will have on society and the economy. The film brings to the screen the latest science from the Arctic and shows why a further rise in global temperature of one degree matters for the future of humankind. Film had premiere 13 December 2009 during COP15."
-msgstr "Η ταινία \"'Ενας βαθμός μετράει\" ακολουθεί τους κοινωνικούς και επιχειρηματικούς ηγέτες καθώς ταξιδεύουν στη Γροιλανδία και έχουν οι ίδιοι την εμπειρία των δραματικών εντυπώσεων των πάγων που λιώνουν. 'Ετσι φτάνουν να καταλάβουν τα πλανητικά αποτελέσματα της κλιματικής αλλαγής και τις επιπτώσεις που θα έχουν στην κοινωνία και την οικονομία. Η ταινία φέρνει στην οθόνη τις πρόσφατες επιστημονικές απόψεις για την Αρκτική και δείχνει γιατί η περαιτέρω αύξηση της παγκόσμιας θερμοκρασίας κατά ένα βαθμό έχει σημασία για το μέλλον της ανθρωπότητας. Η ταινία παίχτηκε για π΄ρωτη φορά στις 13 Δεκεμβρίου 2009, κατα τη διάρκεια της  COP15."
 
 #: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:64
 msgid "(${location}, from ${start} to ${end})"
 msgstr "(${location}, από ${start} μέχρι  ${end})"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:49
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:48
 msgid "(Directory: ${directory})"
 msgstr "(Κατάλογος: ${directory})"
 
@@ -89,37 +72,21 @@ msgstr "(Δεν έχει οριστεί)"
 msgid "(Open: ${from-date} &mdash; Close: ${to-date})"
 msgstr "(Ανοικτό: ${from-date} - Κλείσιμο: ${to-date})"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:162
-msgid "(Required)"
-msgstr "(απαιτείται)"
-
 #: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:76
 msgid "(from ${start} to ${end})"
 msgstr "(Από ${start} μέχρι  ${end})"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:335
-msgid "(just add file extension in the URL as query at the end!)"
-msgstr "(Απλά προσθέστε την επέκταση αρχείου στο URL όπως το ερώτημα στο τέλος!)"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:201
-msgid "(note: EEA internal system)"
-msgstr "(Σημείωση: σύστημα εσωτερικό ΕΕΑ)"
 
 #: EEAContentTypes/browser/crop/cropimage.pt:24
 msgid "*Note: Hitting the crop button will replace the original image with this cropped image"
 msgstr "* Σημείωση: Το πάτημα της ένδειξης crop / περικοπή θα αντικαταστήσει την αρχική εικόνα με αυτή την περικομμένη εικόνα"
 
-#: EEAContentTypes/browser/reorder.pt:92
+#: EEAContentTypes/browser/reorder.pt:91
 msgid "- (restricted to authenticated)"
 msgstr "- (Διαθέσιμο μόνο σε πιστοποιημένους)"
 
-#: EEAContentTypes/browser/reorder.pt:127
+#: EEAContentTypes/browser/reorder.pt:126
 msgid "- [Media: ${media}]"
 msgstr "- [Media: ${media}]"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:180
-msgid "<span>x</span>"
-msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:38
 msgid "A letter of motivation"
@@ -136,15 +103,6 @@ msgstr "Η δημοσίευση της έκθεσης."
 #: eea.design/eea/design/browser/templates/global_searchbox.pt:22
 msgid "A-Z Glossary"
 msgstr "Α- Ω Γλωσσάριο"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:130
-msgid "About this item"
-msgstr "Σχετικά με αυτό "
-
-#: eea/mediacentre/browser/multimedia_popup_view.pt:39
-#: eea/mediacentre/browser/video_popup_view.pt:37
-msgid "About this video"
-msgstr "Σχετικά με αυτό το βίντεο"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
 msgid "Access our data via semantic APIs"
@@ -164,9 +122,9 @@ msgstr "Μήνυμα δράσης για ${type}  με την προγραμμα
 msgid "Active"
 msgstr "Ενεργό"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:179
-msgid "Add"
-msgstr "Προσθήκη"
+#: EEAContentTypes/skins/EEAContentTypes/portlet_cms_activity.pt:14
+msgid "Activity lists"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:100
 msgid "Add Translation"
@@ -184,24 +142,11 @@ msgstr "Προσθήκη μετάφρασης του περιεχομένου"
 msgid "Add event to calendar"
 msgstr "Προσθήκη συμβάντος στο ημερολόγιο"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:158
-msgid "Add new publication"
-msgstr "Προσθήκη νέας δημοσίευσης"
-
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:67
 msgid "Add portal type"
 msgstr "Προσθήκη τύπου portal"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:108
-msgid "Add..."
-msgstr "Προσθήκη ->"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:537
-msgid "Additional information"
-msgstr "Πρόσθετες πληροφορίες"
-
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:26
-#: eea/mediacentre/Multimedia/multimedia.pt:119
 msgid "Advanced"
 msgstr "Σύνθετα"
 
@@ -237,11 +182,6 @@ msgstr "Η ατμοσφαιρική ρύπανση και η άμβλυνση τ
 msgid "Albania"
 msgstr "Αλβανία"
 
-#: eea/mediacentre/browser/image-listed-single.pt:12
-#: eea/mediacentre/browser/video-listed-single.pt:13
-msgid "Album Art:"
-msgstr "Διακόσμηση  άλμπουμ:"
-
 #: eea/themecentre/skins/themecentre_templates/mediacentre_macros.pt:8
 msgid "All"
 msgstr "όλοι/ όλες/όλα"
@@ -270,10 +210,6 @@ msgstr "Όλα τα βασικά μηνύματα"
 #: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:29
 msgid "All links in state ${state}"
 msgstr "Όλες οι συνδέσεις σε κατάσταση ${state}"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:364
-msgid "All that you need is a block element like a div with class paginate and children as content inside of it."
-msgstr ""
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:37
 #: eea/themecentre/browser/templates/themes_view.pt:51
@@ -311,22 +247,9 @@ msgstr "Κάθε έκδοση."
 msgid "Application form"
 msgstr "Αίτηση"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:231
-#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:51
-msgid "Apply fix"
-msgstr "Εφαρμογή διόρθωσης"
-
-#: eea.dataservice/eea/dataservice/templates/select_template.pt:22
-msgid "Apply template"
-msgstr "Εφαρμογή προτύπου"
-
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:119
 msgid "Apps for your mobile"
 msgstr "Εφαρμογές για το κινητό σας"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:187
-msgid "Arbitrary HTML"
-msgstr "Αυθαίρετη HTML"
 
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:89
 msgid "Archive"
@@ -343,37 +266,6 @@ msgstr ""
 msgid "Ask your question"
 msgstr "Κάντε την ερώτησή σας"
 
-#: eea.indicators/eea/indicators/content/Assessment.py:200
-msgid "Assessment DRAFT created ${date}"
-msgstr "ΣΧΕΔΙΟ αξιολόγησης  δημιουργήθηκε ${date}"
-
-#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:19
-msgid "Assessment made on"
-msgstr "Αξιολόγηση έγινε στις"
-
-#: eea.indicators/eea/indicators/content/Assessment.py:191
-msgid "Assessment published ${date}"
-msgstr "Η αξιολόγηση δημοσιεύθηκε ${date}"
-
-#: eea.indicators/eea/indicators/content/Assessment.py:187
-msgid "Assessment published with invalid published date"
-msgstr "Η αξιολόγηση δημοσιεύθηκε με μη έγκυρη ημερομηνία δημοσίευσης"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/aggregated_edit.pt:27
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:41
-msgid "Assessment versions"
-msgstr "Αξιολόγηση εκδόσεων"
-
-#: eea.indicators/eea/indicators/browser/templates/wrong_assessment_versions.pt:17
-msgid "Assessments that have wrong version ids"
-msgstr "Αξιολογήσεις που έχουν λάθος  version ids"
-
-#: eea.indicators/eea/indicators/profiles/default/actions.xml
-#: eea.versions/eea/versions/assign_version.pt:7
-#: eea.versions/eea/versions/profiles/default/actions.xml
-msgid "Assign version"
-msgstr "Εκχώρησε έκδοση [ version]"
-
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:139
 msgid "Attendees"
 msgstr "Οι παρευρισκόμενοι"
@@ -386,16 +278,6 @@ msgstr "Αυστρία"
 #: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:23
 msgid "Author"
 msgstr "Συγγραφέας"
-
-#: eea/mediacentre/browser/multimedia_popup_view.pt:52
-#: eea/mediacentre/browser/video-listed-single.pt:32
-#: eea/mediacentre/browser/video.pt:35
-msgid "Author:"
-msgstr "Συντάκτης:"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:309
-msgid "Auto-Link-Icons"
-msgstr "Auto-Link-Εικόνες"
 
 #: eea.reports/eea/reports/skins/reports_templates/report_file.pt:78
 msgid "Automatically update properties from pdf publication file metadata?"
@@ -430,25 +312,9 @@ msgstr ""
 msgid "Based on the following data"
 msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:276
-msgid "Basic text styles"
-msgstr "Βασικά στυλ κειμένου"
-
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:35
 msgid "Belgium"
 msgstr "Βέλγιο"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:120
-msgid "Below is a list of organisations on which no content is pointing at."
-msgstr "Παρακάτω είναι μια λίστα των οργανώσεων για τις οποίες δεν δείχνεται περιεχόμενο "
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:104
-msgid "Below is a list of organisations with wrong title, either empty or containing an URL instead of a title."
-msgstr "Παρακάτω είναι μια λίστα των οργανώσεων είτε με λάθος τίτλο,  είτε κενές ή περιέχουν μια διεύθυνση URL αντί του τίτλου."
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:23
-msgid "Below is the full list of organisations."
-msgstr "Παρακάτω είναι ο πλήρης κατάλογος των οργανώσεων."
 
 #: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:16
 msgid "Below you will find all SOER content related to ${topic-label}"
@@ -513,18 +379,6 @@ msgstr "Αναζήτηση ..."
 msgid "Bulgaria"
 msgstr "Βουλγαρία"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:369
-msgid "By default after 12 children the content will be paginated."
-msgstr ""
-
-#: eea/mediacentre/Multimedia/multimedia.pt:213
-msgid "By tags"
-msgstr "Κατά / Με ετικέτες"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:212
-msgid "By topics"
-msgstr "Κατά/ Με θέματα"
-
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:61
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:51
 msgid "CC By 2.5"
@@ -534,59 +388,21 @@ msgstr "Κατά/ Με 2,5 CC"
 msgid "CMS login"
 msgstr "CMS login"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:145
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:80
-msgid "CSV"
-msgstr "CSV"
-
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:8
 msgid "Cache"
 msgstr "Προσωρινή μνήμη"
-
-#: eea.googlecharts/eea/googlecharts/views/chart.py:466
-msgid "Can't save png chart on a non-folderish object !"
-msgstr ""
-
-#: eea.googlecharts/eea/googlecharts/views/chart.py:497
-msgid "Can't set thumbnail on a non-folderish object !"
-msgstr "Δεν μπορείτε να ορίσετε thumbnail σε αντικείμενο που δεν είναι φάκελος!"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:180
-#: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:193
-msgid "Cancel"
-msgstr "Ακύρωση"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:260
-msgid "Car"
-msgstr "Αυτοκίνητα"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:21
 msgid "Carpathians"
 msgstr "Καρπάθια"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:14
-msgid "Category"
-msgstr "Κατηγορία"
-
 #: eea.design/eea/design/browser/templates/language_selector.pt:13
 msgid "Change language"
 msgstr "Αλλαγή γλώσσας"
 
-#: eea.indicators/eea/indicators/skins/indicators_templates/simple_content_edit_impl.py:35
-msgid "Changes saved."
-msgstr "Οι αλλαγές αποθηκεύτηκαν."
-
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:41
 msgid "Channel"
 msgstr "Κανάλι"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:34
-msgid "Check URLs status"
-msgstr "Ελέγξτε την κατάσταση διευθύνσεις URL"
-
-#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:47
-msgid "Check all"
-msgstr "Check all"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:149
 msgid "Check this to have your email address filled in automatically when you log in later."
@@ -612,31 +428,9 @@ msgstr "Επιλέξτε άλλο τύπο μέσου ή ${multimedia_center} (�
 msgid "Choose the EEA local website in your preferred language"
 msgstr "Επιλέξτε την τοπική ιστοσελίδα του ΕΟΠ στη γλώσσα της προτίμησής σας"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:85
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:426
-#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:89
-msgid "Classification"
-msgstr "Κατάταξη"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:114
-msgid "Clear reference"
-msgstr "Σαφής αναφορά"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:190
-msgid "Click me!"
-msgstr "Κάντε μου κλικ !"
-
 #: eea.signals/eea/signals/skins/eea_signals/gallery_view.pt:67
 msgid "Click to view full-size image&hellip; <span>${DYNAMIC_CONTENT}</span>"
 msgstr "Κάντε κλικ για να δείτε το πλήρες μέγεθος της εικόνας ... <span>${DYNAMIC_CONTENT}</ span>"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:363
-msgid "Client Side Pagination"
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:524
-msgid "Client Side Pagination with Tabs"
-msgstr ""
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:47
 msgid "Climate Change Impacts, Vulnerability and Adaptation (CCA)"
@@ -652,19 +446,9 @@ msgstr "Αλλαγή του κλίματος"
 msgid "Climate change mitigation"
 msgstr "Μετριασμός της αλλαγής του κλίματος"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:118
-msgid "Close"
-msgstr "Κλείσιμο"
-
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:109
 msgid "Coasts and seas"
 msgstr "Ακτές και θάλασσες"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/management_plan_widget.pt:62
-#: eea.forms/eea/forms/skins/eea_forms/management_plan_widget.pt:62
-#: eea.forms/eea/forms/widgets/managementplan.pt:14
-msgid "Code"
-msgstr "Κώδικας"
 
 #: eea.design/eea/design/browser/templates/colophon.pt:86
 msgid "Code for developers"
@@ -712,28 +496,10 @@ msgstr "Όνομα Επικοινωνίας "
 msgid "Contact Phone"
 msgstr "Τηλέφωνο Επικοινωνίας"
 
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:172
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:30
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:303
-msgid "Contact indicator manager"
-msgstr "Επικοινωνία με τον υπεύθυνο του δείκτη"
-
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:56
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:45
 msgid "Contact link"
 msgstr "Σύνδεσμος επικοινωνίας"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:511
-msgid "Contact references at EEA:"
-msgstr "Επικοινωνήστε με αναφορές στον ΕΟΧ:"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:167
-msgid "Contacts and ownership"
-msgstr "Επαφές και ιδιοκτησία"
-
-#: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:8
-msgid "Contacts overview for indicators database"
-msgstr "Επισκόπηση επαφών για την βάση δεδομένων των δεικτών"
 
 #: eea.reports/eea/reports/browser/report.pt:96
 msgid "Content"
@@ -765,42 +531,9 @@ msgstr "Πάροχος περιεχομένου"
 msgid "Contents"
 msgstr "Περιεχόμενα"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:102
-msgid "Context description"
-msgstr "Περιγραφή περιεχομένων"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:26
-msgid "Contribution"
-msgstr "Συμβολή"
-
 #: eea.design/eea/design/browser/templates/document_byline.pt:91
 msgid "Contributors: ${name}"
 msgstr "Συντελεστές: ${name}"
-
-#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:44
-msgid "Convert"
-msgstr "Μετατροπή"
-
-#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
-msgid "Convert all figures"
-msgstr "Μετατροπή όλων των στοιχείων"
-
-#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
-msgid "Convert all figures to predefined formats and resolutions"
-msgstr "Μετατροπή όλων των στοιχείων σε προκαθορισμένα σχήματα και τα ψηφίσματα"
-
-#: eea.dataservice/eea/dataservice/converter/convert_figure.pt:15
-#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
-msgid "Convert figure"
-msgstr "Μετατροπή σχήματος"
-
-#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
-msgid "Convert figure to predefined formats and resolutions"
-msgstr "Μετατροπή  σχήματος σε προκαθορισμένα  formats και resolutions "
-
-#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:16
-msgid "Convert figures"
-msgstr "Μετατρέψτε τα στοιχεία"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:136
 msgid "Convert portlets"
@@ -813,18 +546,6 @@ msgstr "Τα cookies δεν είναι ενεργοποιημένα. Πρέπε�
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:30
 msgid "Cookies are not enabled. You must enable cookies before you can log in."
 msgstr "Τα cookies δεν είναι ενεργοποιημένα. Πρέπει να τα ενεργοποιήσετε για να μπορέσετε να συνδεθείτε!"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:396
-msgid "Coordinate reference system:"
-msgstr "Σύστημα αναφοράς συντεταγμένων:"
-
-#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
-msgid "Copy common metadata from a template"
-msgstr "Αντιγράψτε κοινά μεταδεδομένα από ένα πρότυπο"
-
-#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
-msgid "Copy from template"
-msgstr "Αντιγραφή από το πρότυπο"
 
 #: eea.reports/eea/reports/subtypes/report.py:242
 msgid "Copyrights"
@@ -871,10 +592,6 @@ msgstr "Δημιουργία ${language} μετάφραση αυτού του α
 msgid "Create Promotion"
 msgstr "Δημιουργία Προώθησης"
 
-#: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:10
-msgid "Create a new version of an Assessment"
-msgstr "Δημιουργήστε μια νέα έκδοση της αξιολόγησης"
-
 #: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Create a promotion for this item"
@@ -887,11 +604,6 @@ msgstr "Δημιουργία και εφαρμογή νέων ετικετών."
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:36
 msgid "Create new"
 msgstr "Δημιουργία νέας"
-
-#: eea.indicators/eea/indicators/profiles/default/actions.xml
-#: eea.versions/eea/versions/profiles/default/actions.xml
-msgid "Create new version"
-msgstr "Δημιουργία νέας έκδοσης"
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:24
 msgid "Created"
@@ -921,14 +633,6 @@ msgstr "Περικοπή εικόνας"
 msgid "Crop Size:"
 msgstr "Περικοπή Μεγέους:"
 
-#: eea.versions/eea/versions/assign_version.pt:9
-msgid "Current Version ID:"
-msgstr "Τρέχουσα ID Έκδοση:"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/temporal_widget.pt:92
-msgid "Current value:"
-msgstr "Τρέχουσα τιμή:"
-
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:20
 msgid "Currently we have ${nr} subscribers. Frequency: 3-4 emails / month."
 msgstr "Αυτή τη στιγμή έχουμε ${nr} συνδρομητές. Συχνότητα: 3-4 e-mails / μήνα."
@@ -941,22 +645,8 @@ msgstr "Κύπρος"
 msgid "Czech Republic"
 msgstr "Δημοκρατία της Τσεχίας"
 
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:63
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:91
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:428
-msgid "DPSIR"
-msgstr "DPSIR"
-
 msgid "Data"
 msgstr ""
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:63
-msgid "Data link"
-msgstr "Σύνδεσμος δεδομένων"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:94
-msgid "Data policy"
-msgstr "Πολιτική δεδομένων"
 
 msgid "Data references"
 msgstr ""
@@ -964,47 +654,21 @@ msgstr ""
 msgid "Data references used for this indicator"
 msgstr ""
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:235
-msgid "Data sets uncertainty"
-msgstr "Αβεβαιότητα των δεδομένων "
-
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:153
 msgid "Data source"
 msgstr "Πηγή δεδομένων"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:412
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:122
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:218
 msgid "Data sources"
 msgstr "Οι πηγές δεδομένων"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:201
-msgid "Data sources in latest figures"
-msgstr "Οι πηγές δεδομένων στα πιό πρόσφατα στοιχεία"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:177
-msgid "Data specifications"
-msgstr "Οι  προδιαγραφές δεδομένων"
-
 msgid "Data used for this interactive map"
 msgstr ""
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_dataviewers.pt:13
-msgid "Data viewers"
-msgstr "Οθόνες θέασης δεδομένων "
 
 #: eea.promotion/build/lib/eea/promotion/browser/form.pt:46
 #: eea.promotion/eea/promotion/browser/form.pt:46
 msgid "Datacentre"
 msgstr "Κέντρα δεδομένων"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:205
-msgid "Dates"
-msgstr "Ημερομηνίες"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:268
-msgid "Deadline"
-msgstr "Προθεσμία"
 
 #: eea.design/eea/design/browser/templates/comments.pt:106
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:63
@@ -1031,40 +695,20 @@ msgstr "Αναίρεση προώθησης θέματικού κέντρου"
 msgid "Deputy Director"
 msgstr "Αναπληρωτής Διευθυντής"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:238
-msgid "Derived data set:"
-msgstr "Παράγωγο σύνολο δεδομένων "
-
 msgid "Derived dataset"
 msgstr ""
 
 msgid "Derived datasets"
 msgstr ""
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:17
-msgid "Detect duplicates"
-msgstr "Ανιχνεύστε διπλές εισαγωγές"
-
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
 msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 msgstr "Δεν βρήκατε αυτό που ψάχνατε; Δοκιμάστε το ${advanced_search} να βελτιώσετε την αναζήτησή σας."
-
-#: eea.design/eea/design/profiles/default/actions.xml
-msgid "Disable Subfolder Listing"
-msgstr ""
-
-#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
-msgid "Disable user feedback"
-msgstr "Απενεργοποιήστε τα σχόλια των χρηστών"
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:157
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:305
 msgid "Disclaimer"
 msgstr "Αποποιήση ευθύνσης "
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:357
-msgid "Disclaimer:"
-msgstr "Αποποίηση ευθύνης:"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:174
 msgid "Display traceback as text"
@@ -1077,10 +721,6 @@ msgstr "Ξεχωριστά:"
 #: eea.design/eea/design/skins/eea_design/main_template.pt:99
 msgid "Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!"
 msgstr "Κάντε κάτι για τον πλανήτη μας, τυπώστε αυτή τη σελίδα μόνο εάν είναι απαραίτητο. Ακόμη και μια μικρή δράση μπορεί να κάνει μια τεράστια διαφορά όταν την κάνουν εκατομμύρια άνθρωποι !"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:23
-msgid "Do you want to create this assessment ${here} here or ${newest} in the latest version of the Specification?"
-msgstr "Θέλετε να δημιουργήσετε αυτή την εκτίμηση ${here} εδώ ${newest} στην τελευταία έκδοση των προδιαγραφών;"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:33
 #: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:42
@@ -1106,15 +746,6 @@ msgstr "Έγγραφα που περιέχουν συνδέσμους σε κα�
 msgid "Download PDF"
 msgstr "Κατεβάστε το αρχείο PDF"
 
-#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:115
-msgid "Download detailed information and factsheets"
-msgstr "Κατεβάστε αναλυτικές πληροφορίες και πληροφοριακά δελτία"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:110
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:53
-msgid "Download file"
-msgstr "Κατεβάστε το αρχείο"
-
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:155
 msgid "Download this event in iCal format"
 msgstr "Κατεβάστε αυτό το γεγονός σε μορφή iCal"
@@ -1122,28 +753,6 @@ msgstr "Κατεβάστε αυτό το γεγονός σε μορφή iCal"
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:149
 msgid "Download this event in vCal format"
 msgstr "Κατεβάστε αυτό το γεγονός σε μορφή vCal"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:53
-msgid "Draft (not yet published - not quality assured)"
-msgstr "Σχέδιο (δεν έχει ακόμα δημοσιευθεί - δεν είναι διασφαλισμένη η ποιότητά)"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:81
-msgid "Duplicate organisations"
-msgstr "Διπλότυπο οργανώσεις"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/countries_widget.pt:99
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:251
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/temporal_widget.pt:81
-msgid "Dynamic"
-msgstr ""
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/countries_widget.pt:70
-msgid "Dynamic Geographical Coverage"
-msgstr ""
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/temporal_widget.pt:70
-msgid "Dynamic Temporal Coverage"
-msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:42
 msgid "E-mail (Questions only):"
@@ -1162,11 +771,6 @@ msgstr "ΕΔΩ:"
 msgid "EEA"
 msgstr "ΕΟΠ"
 
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:168
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:299
-msgid "EEA Contact Info"
-msgstr "ΕΟΠ Επικοινωνία"
-
 msgid "EEA Data sets used in this indicator"
 msgstr ""
 
@@ -1182,12 +786,6 @@ msgstr "Φόρουμ του ΕΟΠ, ερωτήσεις και σχόλια"
 msgid "EEA Home page - select your preferred language"
 msgstr "Αρχική σελίδα του ΕΟΠ - επιλέξτε τη γλώσσα της προτίμησής σας"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:17
-msgid "EEA Indicator Manager"
-msgstr "ΕΟΠ Υπέυθυνος Δεικτών"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:197
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:339
 #: eea.reports/eea/reports/subtypes/report.py:228
 msgid "EEA Management Plan"
 msgstr "Σχέδιο Διαχείρισης του ΕΟΠ"
@@ -1196,7 +794,6 @@ msgstr "Σχέδιο Διαχείρισης του ΕΟΠ"
 msgid "EEA Management plan code. Internal EEA project line code, used to assign an EEA product output to a specific EEA project number in the management plan."
 msgstr "ΕΟΠ κωδικός Σχέδιου Διαχείρισης. Εσωτερικός γραμμικός κωδικός έργου ΕΟΠ, που χρησιμοποιείται για να συνδέσει το τελικό προϊόν του  ΕΟΠ σε ένα συγκεκριμένο αριθμό έργου ΕΟΠ στο σχέδιο διαχείρισης."
 
-#: eea/mediacentre/Multimedia/multimedia.pt:43
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:26
 msgid "EEA Multimedia Centre"
 msgstr "Κέντρο Πολυμέσων του ΕΟΠ"
@@ -1209,10 +806,6 @@ msgstr "Οργανόγραμμα του ΕΟΠ "
 msgid "EEA Publication Internal ID"
 msgstr "Εσωτερικό ID Δημοσίευσης ΕΟΠ "
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:160
-msgid "EEA Publication title"
-msgstr "Τίτλος Δημοσίευσης  ΕΟΠ"
-
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:16
 msgid "EEA Staff list"
 msgstr "Κατάλογος προσωπικού του ΕΟΠ"
@@ -1221,26 +814,14 @@ msgstr "Κατάλογος προσωπικού του ΕΟΠ"
 msgid "EEA Subscriptions"
 msgstr "Συνδρομές ΕΟΠ"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:137
-msgid "EEA Themes"
-msgstr "Θέματα του ΕΟΠ"
-
 #: eea.design/eea/design/browser/templates/colophon.pt:63
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:150
 msgid "EEA Web Team"
 msgstr "Η Ομάδα  διαδικτύου του ΕΟΠ "
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:178
-msgid "EEA data references"
-msgstr "Αναφορές δεδομένων ΕΟΠ"
-
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:162
 msgid "EEA enquiry service"
 msgstr " Υπηρεσία πληροφοριών ΕΟΠ"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:492
-msgid "EEA management plan code:"
-msgstr "Κωδικός σχέδιου διαχείρισης ΕΟΠ:"
 
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:12
 msgid "EEA notification service account"
@@ -1257,10 +838,6 @@ msgstr "Δίκτυο Οργανισμών Περιβαλλοντικής Προ�
 #: eea.epub/eea/epub/skins/eea_epub/portlet_epub.pt:7
 msgid "EPUB format"
 msgstr "EPUB format"
-
-#: eea.googlecharts/eea/googlecharts/views/chart.py:400
-msgid "ERROR: An error occured while exporting your image. Please try again later."
-msgstr "ΣΦΑΛΜΑ: Σφάλμα κατά την εξαγωγή της εικόνας σας. Παρακαλώ δοκιμάστε αργότερα."
 
 #: eea.design/eea/design/browser/templates/colophon.pt:37
 msgid "EU flag"
@@ -1281,42 +858,13 @@ msgstr "Λογότυπο Eco- agents (Οικο - πράκτορες)"
 
 #: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:124
 #: eea.geotags/eea/geotags/widget/location.pt:28
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:344
+#: eea.relations/eea/relations/skins/eea_relations/eeareferencebrowser.pt:80
 msgid "Edit"
 msgstr "Επεξεργασία"
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/schemata_edit_macros.pt:16
-#: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:19
 msgid "Edit ${itemtype}"
 msgstr "Επεξεργασία ${itemtype}"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:106
-msgid "Edit Classification"
-msgstr "Επεξεργασία Ταξινόμησης"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:300
-msgid "Edit Codes"
-msgstr "Επεξεργασία Κωδικών"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:50
-msgid "Edit EEA Indicator Manager User Id"
-msgstr "Επεξεργασία Κωδικού Χρήστη του Διαχειριστή Δεικτών ΕΟΠ"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:171
-msgid "Edit EEA Themes"
-msgstr "Επεξεργασία Θέματων ΕΟΠ "
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:344
-msgid "Edit Metadata"
-msgstr "Επεξεργασία Μεταδεδομένων"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:77
-msgid "Edit Responsibility and Ownership"
-msgstr "Επεξεργασία Ευθύνης και Κυριότητας"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:129
-msgid "Edit Typology"
-msgstr "Επεξεργασία Τυπολογίας"
 
 #: EEAContentTypes/browser/crop/cropping.pt:19
 msgid "Edit croppable images"
@@ -1325,10 +873,6 @@ msgstr "Επεξεργασία εικόνων croppable"
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:291
 msgid "Edit sub report"
 msgstr "Επεξεργασία υποέκθεσης"
-
-#: eea/mediacentre/profiles/default/actions.xml
-msgid "Edit video metadata"
-msgstr "Επεξεργασία μεταδεδομένων βίντεο"
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:86
 msgid "Edit your search options"
@@ -1352,17 +896,9 @@ msgstr "Προστασία ηλεκτρονικού ταχυδρομείου. <b
 msgid "Email address"
 msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου"
 
-#: EEAContentTypes/skins/EEAContentTypes/portlet_email_queue.pt:13
-msgid "Emails queue (last 24h)"
-msgstr ""
-
 #: eea.design/eea/design/profiles/default/actions.xml
 msgid "Enable Subfolder Listing"
 msgstr ""
-
-#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
-msgid "Enable user feedback"
-msgstr "Ενεργοποιήστε τα σχόλια των χρηστών"
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:73
 msgid "Energy"
@@ -1450,10 +986,6 @@ msgstr "Ευρώπη"
 msgid "Europe and the world: global megatrends"
 msgstr "Η Ευρώπη και ο κόσμος: παγκόσμιες μεγα-τάσεις "
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:23
-msgid "Europe has made considerable progress over recent decades in cleaning the air that we breathe, but air pollution remains a serious problem and continues to damage our health and the environment."
-msgstr "Η Ευρώπη έχει σημειώσει σημαντική πρόοδο τις τελευταίες δεκαετίες στον καθαρισμό του αέρα που αναπνέουμε, αλλά η ατμοσφαιρική ρύπανση εξακολουθεί να αποτελεί σοβαρό πρόβλημα και συνεχίζει να βλάπτει την υγεία μας και το περιβάλλον."
-
 #: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:37
 msgid "Europe's environment: thematic assessments"
 msgstr "Το περιβάλλον στην Ευρώπη: θεματικές αξιολογήσεις"
@@ -1483,10 +1015,6 @@ msgstr "Η Εκδήλωση αποστάλθηκε "
 msgid "Excel doc on secure external link"
 msgstr "Excel έγγραφο σε ασφαλή εξωτερικό σύνδεσμο"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:333
-msgid "Excel link"
-msgstr "Excel σύνδεσμος"
-
 #: eea.reports/eea/reports/subtypes/report.py:267
 msgid "Exclude from navigation"
 msgstr "Εξαίρεση από τη ναυσιπλοΐα"
@@ -1496,7 +1024,6 @@ msgid "Executive Director"
 msgstr "Εκτελεστικός Διευθυντής"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
-#: eea/mediacentre/Multimedia/multimedia.pt:220
 msgid "Explore all tags"
 msgstr "Εξερευνήστε όλες τις ετικέτες"
 
@@ -1504,10 +1031,6 @@ msgstr "Εξερευνήστε όλες τις ετικέτες"
 #: eea.promotion/eea/promotion/browser/admin.pt:21
 msgid "External"
 msgstr "Εξωτερικός"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:189
-msgid "External data references"
-msgstr "Εξωτερικές αναφορές δεδομένων"
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:12
 msgid "Eye On Earth – Citizen observatory on air and bathing water quality"
@@ -1522,7 +1045,6 @@ msgid "FAQs"
 msgstr "Συχνές ερωτήσεις"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:19
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:319
 msgid "FTP link"
 msgstr "FTP σύνδεσμος"
 
@@ -1530,34 +1052,9 @@ msgstr "FTP σύνδεσμος"
 msgid "Facebook icon"
 msgstr "Facebook εικονίδιο"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:334
-msgid "Fake PDF file extension"
-msgstr "Fake επέκταση αρχείου PDF"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:181
-msgid "Fancybox pop-ups"
-msgstr "Fancybox pop-ups"
-
-#: eea.indicators/eea/indicators/browser/templates/assessmentpart_view.pt:23
-#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:105
-msgid "Fancybox relations"
-msgstr "Fancybox σχέσεις"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:153
-msgid "Featured Item Description"
-msgstr "Προτεινόμενα Περιγραφή αντικειμένου"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:152
-msgid "Featured Item Title"
-msgstr " Τίτλος κύριου αντικειμένου"
-
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:90
 msgid "Featured article"
 msgstr "Κύριο άρθρο"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_maindatasets.pt:16
-msgid "Featured datasets"
-msgstr "Κύρια σύνολα δεδομένων"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:91
 msgid "Feed for all documentation."
@@ -1567,12 +1064,6 @@ msgstr "Feed για όλη την τεκμηρίωση"
 msgid "Feed synced"
 msgstr "Feed synced"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/eeafigure_view.pt:144
-msgid "Figure type:"
-msgstr "Tύπος στοιχείου"
-
-#: eea.indicators/eea/indicators/browser/templates/assessmentpart_view.pt:12
-#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:98
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:137
 msgid "Figures"
 msgstr "Στοιχεία"
@@ -1587,13 +1078,9 @@ msgid "Figures used in this publication"
 msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:197
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:166
+#: eea.design/eea/design/skins/eeadesign_public/search.pt:165
 msgid "Filed under:"
 msgstr "Αρχειοθετήθηκε  στο:"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:36
-msgid "Files"
-msgstr "Αρχεία"
 
 #: eea.reports/eea/reports/subtypes/report.py:80
 msgid "Fill in EEA publication internal id"
@@ -1652,10 +1139,6 @@ msgstr "Συμπληρώστε για να παρακάμψετε το κείμ�
 msgid "Fill in total number of pages"
 msgstr "Συμπληρώστε το συνολικό αριθμό των σελίδων"
 
-#: eea.versions/eea/versions/assign_version.pt:14
-msgid "Fill the new Version ID to be assigned"
-msgstr "Συμπληρώστε το νέο VERSION ID που θα δοθεί "
-
 msgid "Filter by publishing date"
 msgstr ""
 
@@ -1671,35 +1154,13 @@ msgstr "Bρείτε"
 msgid "Finland"
 msgstr "Φινλανδία"
 
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:207
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:324
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:384
-msgid "First draft created: ${creation-date}"
-msgstr "Πρώτο σχέδιο δημιουργήθηκε: ${creation-date}"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:533
-msgid "First extra element is an h3 which contains the title of the tab."
-msgstr ""
-
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:51
 msgid "First name"
 msgstr "Όνομα"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:139
-msgid "First panel title"
-msgstr "Πρώτος τίτλος του πίνακα"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:53
-msgid "First tab"
-msgstr "Πρώτη καρτέλα"
-
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:77
 msgid "Fisheries"
 msgstr "Αλιεία"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:228
-msgid "Flexible tooltips"
-msgstr "Ευέλικτα tooltips"
 
 #: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:17
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:69
@@ -1717,6 +1178,10 @@ msgstr "Ακολουθήστε μας στο Twitter"
 #: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:29
 msgid "Follow us on YouTube"
 msgstr "Ακολουθήστε μας στο YouTube"
+
+#: eea.design/eea/design/skins/eea_design/outdated_browsers.pt:45
+msgid "For a better experience using this site please upgrade to a modern browser."
+msgstr ""
 
 #: EEAContentTypes/browser/crop/cropping.pt:20
 msgid "For each image field in your content you can select below the image you want to crop."
@@ -1768,38 +1233,6 @@ msgstr "Πλήρης οθόνη"
 msgid "Fullscreen image"
 msgstr "Εικόνα πλήρους οθόνης"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:247
-#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:37
-msgid "Further work"
-msgstr "Περαιτέρω εργασίες"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:29
-msgid "Gallery view"
-msgstr "Οψη της Γκαλερί "
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:10
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:294
-#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:40
-msgid "General metadata"
-msgstr "Γενικά μεταδεδομένα"
-
-#: eea.relations/eea/relations/browser/template/badrelations.pt:39
-msgid "Generate report"
-msgstr "Δημιουργήστε έκθεση αποτελεσμάτων "
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:38
-#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:35
-msgid "Generic metadata"
-msgstr "Γενικά μεταδεδομένα"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:298
-msgid "Geographic accuracy:"
-msgstr "Γεωγραφική ακρίβεια:"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:278
-msgid "Geographical coverage:"
-msgstr "Γεωγραφική κάλυψη:"
-
 #: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:60
 msgid "Geotags:"
 msgstr "Geotags:"
@@ -1826,7 +1259,6 @@ msgid "Go back and correct"
 msgstr "Πηγαίνετε πίσω και να διορθώσει"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:22
-#: eea/mediacentre/Multimedia/multimedia.pt:115
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:22
 msgid "Go to advanced search"
 msgstr "Πηγαίνετε στην Προχωρημένη αναζήτηση ( Advanced Search)"
@@ -1839,10 +1271,6 @@ msgstr "Πηγαίνετε στην ιστοσελίδα"
 msgid "Google Custom Search Engines"
 msgstr "Μηχανές αναζήτησης προσαρμοσμένες στο Google "
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:47
-msgid "Google search"
-msgstr "Αναζήτηση Google"
-
 msgid "Graph"
 msgstr ""
 
@@ -1853,23 +1281,6 @@ msgstr "Ελλάδα"
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:89
 msgid "Green economy"
 msgstr "Πράσινη οικονομία"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:176
-msgid "Green tips"
-msgstr "Πράσινες συμβουλές"
-
-#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:114
-msgid "Groups:"
-msgstr "Ομάδες:"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:143
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:78
-msgid "HTML table"
-msgstr "Πίνακας HTML"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:183
-msgid "Hello World!"
-msgstr "Γεια σου Κόσμε!"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:170
 msgid "Here is the full error message:"
@@ -1911,10 +1322,6 @@ msgstr "Ταυτότητα"
 msgid "ISBN"
 msgstr "ISBN"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:258
-msgid "Ice cream"
-msgstr "Παγωτό"
-
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:52
 msgid "Iceland"
 msgstr "Ισλανδία"
@@ -1924,15 +1331,8 @@ msgid "Icons based on file extension, on different external sites and protocols"
 msgstr "Εικόνες βασισμένες στην επέκταση αρχείου, σε διαφορετικούς εξωτερικούς δικτυακούς τόπους και πρωτόκολλα"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:15
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:315
 msgid "Icons based on protocols"
 msgstr "Εικόνες βασισμένες σε πρωτόκολλα"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:178
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:364
-#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:55
-msgid "Identification"
-msgstr "Αναγνώριση"
 
 #: eea.promotion/build/lib/eea/promotion/browser/form.pt:53
 #: eea.promotion/eea/promotion/browser/form.pt:53
@@ -1942,10 +1342,6 @@ msgstr "Άν σημειωθεί, η προώθηση εμφανίζεται στ
 #: eea.reports/eea/reports/subtypes/report.py:265
 msgid "If selected, this item will not appear in the navigation tree"
 msgstr "Αν επιλεγεί, το στοιχείο αυτό δεν θα εμφανιστεί στο δέντρο πλοήγησης"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:195
-msgid "If the a-tag hrefs to an image, it will be displayed in the popup. Be careful though, if the URL does not end with an image extension, fancybox will hang."
-msgstr "Αν η α-ετικέτα είναι συνδεδεμένη ( hrefs) σε μια εικόνα, θα εμφανιστεί στο αναδυόμενο παράθυρο. Προσοχή όμως, εάν η διεύθυνση URL δεν τελειώνει με την επέκταση της εικόνας, to fancybox θα κρεμάσει."
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:83
 msgid "If the map application above does not provide an integrated full screen feature (usually in the upper right corner), then you can try with the following ${full-screen-mode}"
@@ -1972,10 +1368,6 @@ msgstr "Εάν αντιμετωπίζετε προβλήματα παρακαλ�
 msgid "If you have forgotten your password, ${click_here}."
 msgstr "Αν έχετε ξεχάσει τον κωδικό σας, ${click_here}."
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:98
-msgid "If you have tabs that have longer titles consider using the extra 'two-rows' class for the tabs which makes the tabs larger in height and better styled to accomodate larger titles."
-msgstr "Αν έχετε καρτέλες που έχουν μαγαλύτερους τίτλους εξετάστε τη χρήση της επιπλέον κατηγορίας «δύο γραμμές» για τις καρτέλες που κάνει τις καρτέλες μεγαλύτερες σε ύψος και με καλύτερο στυλ για να φιλοξενήσουν μεγαλύτερα τίτλους."
-
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:162
 msgid "If you need to report this to the ${site_admin}, please include this entry number in your message."
 msgstr "Εάν πρέπει να το αναφέρετε στο ${site_admin}, παρακαλούμε να συμπεριλάβετε αυτόν τον αριθμό εγγραφής στο μήνυμά σας."
@@ -1998,18 +1390,6 @@ msgstr "Εικόνα"
 msgid "Image Size:"
 msgstr "Μέγεθος εικόνας:"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:179
-msgid "Image galleries"
-msgstr " Γκαλερί με εικόνες "
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:194
-msgid "Image pop-ups"
-msgstr " pop-ups εικόνας"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:284
-msgid "Image scales"
-msgstr "Κλίμακες εικόνας "
-
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:7
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:8
 msgid "In the spotlight"
@@ -2019,42 +1399,14 @@ msgstr "Στο προσκήνιο"
 msgid "In these websites you will find all the summarised environmental information available in your language."
 msgstr "Σε αυτές τις ιστοσελίδες θα βρείτε όλες τις συνοπτικές περιβαλλοντικές πληροφορίες στη γλώσσα σας."
 
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:250
-#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:30
-msgid "Indicator"
-msgstr "Δείκτης"
-
-#: eea.indicators/eea/indicators/browser/templates/indicatorfactsheet/aggregated_edit.pt:26
-msgid "Indicator FactSheet versions"
-msgstr "Version του Δελτίου Δείκτη "
-
 msgid "Indicator assessments answering this policy question"
 msgstr ""
 
 msgid "Indicator assessments supported by this figure"
 msgstr ""
 
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:188
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:367
-#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:58
-msgid "Indicator code"
-msgstr "Κωδικός Δείκτη"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:71
-#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:64
-msgid "Indicator codes"
-msgstr "Κωδικοί  Δεικτών"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:85
-msgid "Indicator definition"
-msgstr "Ορισμό Δείκτη"
-
 msgid "Indicators related to this policy document"
 msgstr ""
-
-#: eea.indicators/eea/indicators/browser/templates/wrong_specification_versions.pt:17
-msgid "Indicators that have wrong version ids"
-msgstr "Δείκτες που έχουν λάθος version-id"
 
 msgid "Indicators using this data set"
 msgstr ""
@@ -2071,14 +1423,6 @@ msgstr "Βιομηχανία"
 msgid "Info"
 msgstr "Πληροφορίες"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:241
-msgid "Information about rights held in and over the resource. Typically a rights element will contain a rights management statement for the resource, or reference a service providing such information. Rights information often encompasses intellectual property rights (IPR), copyright and various property rights"
-msgstr "Πληροφορίες σχετικά με τα δικαιώματα που επί και εντός του πόρου. Συνήθως, ένα στοιχείο δικαιωμάτων θα περιέχει μία διοικητική δήλωση δικαιωμάτων για τον πόρο, ή μία αναφορά σε υπηρεσία που παρέχει τέτοιες πληροφορίες. Πληροφορίες για τα δικαιώματα περιλαμβάνουν συχνά τα δικαιώματα πνευματικής ιδιοκτησίας (ΔΠΙ), πνευματικά δικαιώματα και τα διάφορα δικαιώματα ιδιοκτησίας"
-
-#: eea/mediacentre/browser/statistics.pt:5
-msgid "Information about the Media centre"
-msgstr "Πληροφορίες για το Γραφείο Τύπου"
-
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:23
 msgid "Inherit faceted navigation configuration from:"
 msgstr "Κληρονόμησε ρυθμίσεις πολύπλευρης πλοήγησης από:"
@@ -2086,10 +1430,6 @@ msgstr "Κληρονόμησε ρυθμίσεις πολύπλευρης πλο�
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:51
 msgid "Inland, Coastal and Marine waters (ICM)"
 msgstr "Εσωτερικά, παράκτια και θαλάσσια ύδατα (ΜΠΕ)"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:146
-msgid "Insert publication keywords to search for"
-msgstr "Εισάγετε λέξεις-κλειδιά για τη δημοσίευση για να αναζητήσετε"
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:32
 msgid "Instructions for Europass CV"
@@ -2120,6 +1460,10 @@ msgstr "Οι ενδιαφερόμενοι υποψήφιοι πρέπει να �
 msgid "International cooperation"
 msgstr "Διεθνής συνεργασία"
 
+#: eea.design/eea/design/skins/eea_design/outdated_browsers.pt:29
+msgid "Internet Explorer 9+"
+msgstr ""
+
 #: eea.design/eea/design/browser/templates/language_selector.pt:56
 msgid "Invalid translation"
 msgstr "Άκυρα μετάφραση"
@@ -2148,39 +1492,13 @@ msgstr "Διατίθεται η δημοσίευση προς πώληση;"
 msgid "Italy"
 msgstr "Ιταλία"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:147
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:82
-msgid "JSON"
-msgstr "JSON"
-
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:57
 msgid "Job title"
 msgstr "Τίτλος θέσης"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:136
-msgid "Jquerytools accordion"
-msgstr "Jquerytools ακορντεόν"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:51
-msgid "Jquerytools tabs"
-msgstr "Jquerytools καρτέλες"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:92
-msgid "Jquerytools tabs two rows title"
-msgstr "Jquerytools  καρτέλες τίτλου με  δύο σειρές"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:66
-msgid "Justification for indicator selection"
-msgstr "Αιτιολόγηση για την επιλογή δεικτών"
-
 #: eea.reports/eea/reports/skins/reports_templates/report_file.pt:23
 msgid "Keep existing file"
 msgstr "Διατήρησε το υφιστάμενου αρχείου"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:106
-#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:110
-msgid "Key assessment"
-msgstr "Σημαντική αξιολόγηση "
 
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:25
 msgid "Key facts and messages"
@@ -2189,19 +1507,6 @@ msgstr "Σημαντικά  δεδομένα και μηνύματα"
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:129
 msgid "Key message"
 msgstr "Βασικό μήνυμα"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:100
-#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:90
-msgid "Key messages"
-msgstr "Βασικά μηνύματα"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:134
-msgid "Key policy question"
-msgstr "Σημαντική ερώτηση πολιτικής"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:98
-msgid "Key policy question: ${title}"
-msgstr "Κύριο ερώτημα πολιτικής: ${title}"
 
 #: eea.design/eea/design/browser/templates/colophon.pt:17
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:152
@@ -2218,12 +1523,6 @@ msgstr "Χρήσεις γης"
 msgid "Last modified"
 msgstr "Τελευταία τροποποίηση :"
 
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:215
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:331
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:391
-msgid "Last modified: ${modified-date}"
-msgstr "Τελευταία ενημέρωση: ${modified-date}"
-
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:53
 msgid "Last name"
 msgstr "Επώνυμο"
@@ -2238,10 +1537,6 @@ msgstr "Τελευταία ενημέρωση"
 msgid "Last updated on:"
 msgstr "Τελευταία ενημέρωση στις:"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:266
-msgid "Last upload:"
-msgstr "Τελευταία μεταφόρτωση:"
-
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:118
 msgid "Latest ${title}"
 msgstr "Τελευταίες ${title}"
@@ -2250,7 +1545,7 @@ msgstr "Τελευταίες ${title}"
 msgid "Latest FAQ"
 msgstr "Πρόσφατες Συχνές Ερωτήσεις"
 
-#: EEAContentTypes/browser/related_bytheme.pt:9
+#: EEAContentTypes/browser/related_bytheme.pt:8
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:111
 msgid "Latest addition"
 msgstr "Πρόσφατες προσθήκες"
@@ -2281,12 +1576,6 @@ msgstr "Ανακοίνωση νομικού περιεχομένου"
 msgid "Liechtenstein"
 msgstr "Λιχτενστάιν"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:139
-#: eea/mediacentre/browser/multimedia_popup_view.pt:62
-#: eea/mediacentre/browser/video_popup_view.pt:80
-msgid "Link"
-msgstr "Σύνδεσμος"
-
 #: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:26
 msgid "Link listing"
 msgstr "Σύνδεσμος λίστα"
@@ -2302,24 +1591,6 @@ msgstr "Σύνδεση με πλήρη αξιολόγηση"
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:12
 msgid "Link types are automatically detected on client side by a javascript (scanforlinks) which will add the necessary class icon before the link."
 msgstr "Οι τύποι συνδέσμων εντοπίζονται αυτόματα στην πλευρά του πελάτη από το javascript (scanforlinks), το οποίο θα προσθέσει την απαραίτητη κατηγορία εικονιδίου πριν από το σύνδεσμο."
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:310
-msgid "Link types are automatically detected on client side by a javascript which will add the necessary class icon before the link. Here you see some examples:"
-msgstr "Οι τύποι συνδέσμων εντοπίζονται αυτόματα απο την πλευρά του πελάτη από το javascript που θα προσθέσει την απαραίτητη κατηγορία εικονιδίου  πριν από το σύνδεσμο. Εδώ μπορείτε να δείτε μερικά παραδείγματα:"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:312
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:373
-msgid "Link: ${link}"
-msgstr "Σύνδεσμός: ${link}"
-
-#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:64
-msgid "Link: ${specification}"
-msgstr "Σύνδεσμος: ${specification}"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:140
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:75
-msgid "Linked Open Data"
-msgstr "Linked Open Data"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:76
 #: eea.reports/eea/reports/browser/report.pt:156
@@ -2355,10 +1626,6 @@ msgstr "Λιθουανία"
 msgid "Loading..."
 msgstr "Φόρτωση..."
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:102
-msgid "Location"
-msgstr "Τοποθεσία"
-
 #: eea.promotion/build/lib/eea/promotion/browser/admin.pt:23
 #: eea.promotion/eea/promotion/browser/admin.pt:23
 msgid "Locations"
@@ -2385,10 +1652,6 @@ msgstr "Σύνδεση στο:"
 msgid "Login failed"
 msgstr "Η σύνδεση απέτυχε"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:271
-msgid "Long term work"
-msgstr "Μακροπρόθεσμες εργασίας"
-
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:19
 msgid "Lost Password"
 msgstr "Ξεχάσατε τον κωδικό σας"
@@ -2396,15 +1659,6 @@ msgstr "Ξεχάσατε τον κωδικό σας"
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:58
 msgid "Luxembourg"
 msgstr "Λουξεμβούργο"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_mainfigures.pt:16
-msgid "Main maps/graphs"
-msgstr "Κύριοι χάρτες / διαγράμματα "
-
-#: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:17
-#: eea.indicators/eea/indicators/browser/templates/timeline.pt:32
-msgid "Make fullscreen"
-msgstr "μετατρέψτε σε πλήρη οθόνη"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:59
 msgid "Malta"
@@ -2421,26 +1675,6 @@ msgstr "Διαχείριση υποσέλιδων portlets"
 msgid "Map"
 msgstr ""
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:109
-msgid "Map location"
-msgstr "Χάρτης τοποθεσίας"
-
-#: eea.indicators/eea/indicators/browser/templates/assessmentpart_view.pt:16
-msgid "Maps and graphs"
-msgstr "Χάρτες και διαγράμματα"
-
-#: eea/mediacentre/browser/statistics.pt:9
-msgid "Media Centre is a virtual repository of multimedia files. It can be videos, interviews, maps, animations, images etc. The repository right now contains:"
-msgstr "Το Κέντρο Μέσων είναι μια εικονική αποθήκη αρχείων πολυμέσων. Μπορεί να είναι βίντεο, συνεντεύξεις, χάρτες, κινούμενα σχέδια, εικόνες κλπ. Η εν λόγω βιβλιοθήκη περιέχει αυτή τη στιγμή:"
-
-#: eea/mediacentre/browser/statistics.pt:22
-msgid "Media Centre relies on plugins. Each plugin handles a set of media types and knows how to retrieve media files/data from the repository it handles. When Media Centre is asked for all videos that are available it will forward the question to all registered plugins and will then merge the results."
-msgstr "Το Κέντρο Μέσων βασίζεται σε plugins. Κάθε plugin χειρίζεται μια σειρά από τύπους μέσων και ξέρει πώς να ανακτήσει τα αρχεία πολυμέσων / δεδομένων από το αποθετήριο που χειρίζεται. Όταν το Κέντρο Μέσων ρωτηθεί  για όλα τα βίντεο που είναι διαθέσιμα θα διαβιβάσει την ερώτηση σε όλους τους εγγεγραμμένους plugins και στη συνέχεια θα συγχωνεύσει τα αποτελέσματα."
-
-#: eea/mediacentre/profiles/default/actions.xml
-msgid "Media type"
-msgstr "Τύπος Μέσου"
-
 #: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:28
 msgid "Menu"
 msgstr "Μενού"
@@ -2449,37 +1683,9 @@ msgstr "Μενού"
 msgid "Message"
 msgstr "Μήνυμα"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:144
-msgid "Methodology"
-msgstr "Μεθοδολογία"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:153
-msgid "Methodology for gap filling"
-msgstr "Μεθοδολογία για την πλήρωση των κενών "
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:147
-msgid "Methodology for indicator calculation"
-msgstr "Μεθοδολογία για τον υπολογισμό δεικτών"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:161
-msgid "Methodology references"
-msgstr "Αναφορές μεθοδολογίας "
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:229
-msgid "Methodology uncertainty"
-msgstr "Αβεβαιότητα μεθοδολογίας "
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:369
-msgid "Methodology:"
-msgstr "Μεθοδολογία:"
-
 #: EEAContentTypes/migrate/migrate.pt:26
 msgid "Migrate"
 msgstr "Μετεγκατάσταση"
-
-#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
-msgid "Migrate Data to ExternalDataSpec"
-msgstr "Μετεγκατάσταση δεδομένων για ExternalDataSpec"
 
 #: EEAContentTypes/migrate/migrate.pt:9
 msgid "Migrate EEA Content-types: Image to Blob"
@@ -2509,29 +1715,13 @@ msgstr "Τα γεγονότα του μήνα"
 msgid "More"
 msgstr "Περισσότερα"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_dataviewers.pt:40
-msgid "More data viewers"
-msgstr "Περισσότεροι θεατές δεδομένων (data viewers)"
-
-#: EEAContentTypes/skins/EEAContentTypes/portlet_email_queue.pt:33
-msgid "More details and history"
-msgstr ""
-
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:24
+#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:26
 msgid "More green tips"
 msgstr "Περισσότερες πράσινες συμβουλές"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:174
 msgid "More information about this event&hellip;"
 msgstr "Περισσότερες πληροφορίες σχετικά με αυτό το συμβάν ..."
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:162
-msgid "More information about this indicator"
-msgstr "Περισσότερες πληροφορίες σχετικά με αυτό το δείκτη"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_dataviewers.pt:36
-msgid "More interactive data viewers"
-msgstr "Περισσότεροι διαδραστικοί data viewers"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:38
 msgid "More multimedia"
@@ -2544,11 +1734,6 @@ msgstr "Περισσότερα δίκτυα"
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:162
 msgid "More subscriptions are available at ${link}"
 msgstr "Περισσότερες συνδρομές είναι διαθέσιμες στο ${link} σύνδεσμο"
-
-#: eea/mediacentre/browser/multimedia_popup_view.pt:66
-#: eea/mediacentre/browser/video_popup_view.pt:81
-msgid "More videos"
-msgstr "Περισσότερα βίντεο"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_mostreferenced.pt:14
 msgid "Most popular data and maps"
@@ -2563,25 +1748,18 @@ msgid "Move bottom"
 msgstr "Μετακίνησε το κάτω μέρος"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:195
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:96
 msgid "Move down"
 msgstr "Μετακίνηση προς τα κάτω"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:286
-msgid "Move mouse over the map for details."
-msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:181
 msgid "Move top"
 msgstr "Μετακίνηση προς τα πάνω"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:188
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:94
 msgid "Move up"
 msgstr "Μετακίνηση επάνω"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:9
-#: eea/mediacentre/Multimedia/multimedia.pt:7
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:39
 msgid "Multimedia"
 msgstr "Πολυμέσα"
@@ -2589,14 +1767,6 @@ msgstr "Πολυμέσα"
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:19
 msgid "Multimedia highlights"
 msgstr "Τα σημαντικότερα από τα πολυμέσα"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:56
-msgid "NOT CHECKED"
-msgstr "ΔΕΝ ΕΛΕΓΧΘΗΚΕ "
-
-#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:192
-msgid "Name"
-msgstr "Όνομα"
 
 #: eea.design/eea/design/skins/eea_design/portlet_reports.pt:87
 msgid "National SOE reports"
@@ -2648,20 +1818,8 @@ msgstr "Νέα εικονίδια ή ενημερώσεις μπορούν  να
 msgid "New user?"
 msgstr "Νέος χρήστης;"
 
-#: eea.indicators/eea/indicators/content/Specification.py:784
-msgid "Newly created ${type_name}"
-msgstr "Πρόσφατα δημιουργήθηκε ${type_name}"
-
-#: eea.indicators/eea/indicators/content/WorkItem.py:107
-msgid "Newly created work item"
-msgstr "Πρόσφατα δημιουργήθηκε στοιχείο εργασίας"
-
 msgid "News about this publication"
 msgstr ""
-
-#: eea/mediacentre/browser/video_popup_view.pt:36
-msgid "News and articles"
-msgstr "Νέα και άρθρα"
 
 msgid "News and articles about this data"
 msgstr ""
@@ -2672,10 +1830,6 @@ msgstr ""
 msgid "News and articles about this map"
 msgstr ""
 
-#: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:178
-msgid "Next"
-msgstr "Επόμενο"
-
 #: eea.design/eea/design/browser/templates/calendar.pt:63
 msgid "Next month"
 msgstr "Τον επόμενο μήνα"
@@ -2683,22 +1837,6 @@ msgstr "Τον επόμενο μήνα"
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:28
 msgid "Next report deadline"
 msgstr "Επόμενη προθεσμία υποβολής έκθεσης"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:105
-msgid "No context has been specified"
-msgstr "Δεν έχει προσδιοριστεί πλαίσιο "
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:180
-msgid "No datasets have been specified here."
-msgstr "Δεν έχουν προσδιοριστεί σύνολα δεδομένων εδώ."
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:88
-msgid "No definition has been specified"
-msgstr "Δεν έχει προσδιοριστεί ορισμός"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:256
-msgid "No further work description has been specified"
-msgstr "Δεν έχει προσδιοριστεί καμία περαιτέρω περιγραφή εργασίας "
 
 #: EEAContentTypes/browser/crop/cropping.pt:15
 msgid "No images found."
@@ -2708,74 +1846,22 @@ msgstr "Δεν βρέθηκαν εικόνες."
 msgid "No media files of this kind yet."
 msgstr "Δεν υπάρχουν αρχεία πολυμέσων αυτού του είδους ακόμα."
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:156
-msgid "No methodology for gap filling has been specified. Probably this info has been added together with indicator calculation."
-msgstr "Δεν έχει προσδιοριστεί μεθοδολογία για την συμπλήρωση κενών . Πιθανώς αυτή η πληροφορία έχει προστεθεί μαζί με τον υπολογισμό του δείκτη."
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:149
-msgid "No methodology for indicator calculation has been specified"
-msgstr "Δεν έχει προσδιοριστεί μεθοδολογία για τον υπολογισμό του δείκτη "
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:169
-msgid "No methodology references available."
-msgstr "Δεν είναι διαθέσιμες αναφοές στη μεθοδολογία."
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:332
-msgid "No owners."
-msgstr "Δεν υπάρχουν ιδιοκτήτες."
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:44
-msgid "No published assessments"
-msgstr "Δεν υπάρχουν δημοσιευμένες αξιολογήσεις "
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:55
-msgid "No reference set. Click the add button to select."
-msgstr "Δεν έχει τεθεί καμία αναφορά. Κάντε κλικ στο κουμπί Προσθήκη για να επιλέξετε."
-
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:142
 msgid "No reference set. Click the browse button to select."
 msgstr "Δεν έχει τεθεί καμία αναφορά που. Κάντε κλικ στο κουμπί Αναζήτηση για να επιλέξετε."
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:125
-msgid "No related policy documents have been specified"
-msgstr "Δεν έχουν προσδιοριστεί τα σχετικά έγγραφα πολιτικής που καθορίζεται"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:261
-msgid "No resource needs have been specified"
-msgstr "Δεν έχουν προσδιοριστεί ανάγκες πόρων "
 
 #: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:205
 msgid "No results are available for this topic"
 msgstr "Δεν υπάρχουν διαθέσιμα αποτελέσματα για αυτό το θέμα"
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:136
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:105
+#: eea.design/eea/design/skins/eeadesign_public/search.pt:104
 msgid "No results were found."
 msgstr "Δεν βρέθηκαν αποτελέσματα."
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:266
-msgid "No status has been specified"
-msgstr "Δεν έχει προσδιοριστεί  κατάσταση "
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:81
 msgid "No tags currently selected."
 msgstr "Δεν έχει επιλεγεί καμία ετικέττα ."
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:111
-msgid "No targets have been specified"
-msgstr "Δεν έχουνπροσδιοριστεί στόχοι"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:232
-msgid "No uncertainty has been specified"
-msgstr "Δεν έχει προσδιοριστεί καμία αβεβαιότητα "
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:94
-msgid "No units have been specified"
-msgstr "Δεν έχουν οριστεί συγκεκριμένες μονάδες"
-
-#: eea.indicators/eea/indicators/browser/templates/timeline.pt:40
-msgid "No."
-msgstr "Αριθμός"
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:48
 msgid "Noise"
@@ -2790,21 +1876,9 @@ msgstr "Κανονικός"
 msgid "Norway"
 msgstr "Νορβηγία"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:28
-msgid "Note that for authenticated users the info below include the unpublished content."
-msgstr "Σημειώστε ότι για τους πιστοποιημένους χρήστες η παρακάτω πληροφορία περιλαμβάνει το ανέκδοτο περιεχόμενο."
-
-#: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:16
-msgid "Note: new version is available!"
-msgstr "Σημείωση: νέα έκδοση είναι διαθέσιμη!"
-
 #: eea.reports/eea/reports/browser/report.pt:40
 msgid "Note: new versions are available!"
 msgstr "Σημείωση: οι νέες εκδόσεις είναι διαθέσιμες!"
-
-#: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:20
-msgid "Note: there is a new version available with state:"
-msgstr "Σημείωση: υπάρχει μια νέα έκδοση διατίθεται με την κατάσταση:"
 
 #: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:46
 msgid "Note: this webpage has been archived."
@@ -2826,13 +1900,9 @@ msgstr "Ή προσθέστε κάποιο κείμενο στην οθόνη γ
 msgid "ORDER ID (Catalogue Number)"
 msgstr "Κωδικός παραγγελίας (Αριθμός Καταλόγου)"
 
-#: EEAContentTypes/browser/reorder.pt:69
+#: EEAContentTypes/browser/reorder.pt:68
 msgid "On the left side you have a list resources. Drag from the handle icon to reorder. After reordering, you need to use the Save button at the bottom of the list. On the right side you can see how the resources have been composed. Notice: this is not a preview. Hitting Save will generate new merged resources."
 msgstr "Στην αριστερή πλευρά θα έχετε μια λίστα πόρων. Σύρετε το  εικονίδιο επεξεργασίας για να αλλάξετε τη σειρά. Μετά την αναδιάταξη, θα πρέπει να χρησιμοποιήσετε το κουμπί Αποθήκευση στο κάτω μέρος της λίστας. Στη δεξιά πλευρά μπορείτε να δείτε πώς οι πόροι έχουν συντεθεί. Σημείωση: αυτό δεν είναι μια προεπισκόπηση. Αν πατήσετε Αποθήκευση θα δημιουργήσει νέους συγχωνευμένους πόρους."
-
-#: eea/mediacentre/Multimedia/multimedia.pt:66
-msgid "One degree matters"
-msgstr "Ένας βαθμός έχει σημασία"
 
 #: eea.reports/eea/reports/browser/report.pt:205
 msgid "Order a printed copy at EU-Bookshop"
@@ -2856,24 +1926,6 @@ msgstr "Όνομα Οργανισμού  "
 msgid "Organisation website"
 msgstr "Ιστοσελίδα Οργανισμού "
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:18
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:14
-msgid "Organisations control panel"
-msgstr "Πίνακας ελέγχου Οργανισμών  "
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:32
-msgid "Organisations not in use"
-msgstr "Οργανισμοί που δεν είναι σε χρήση"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:119
-msgid "Organisations with no reference"
-msgstr "Οι οργανισμοί δεν έχουν αναφορές"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:103
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:27
-msgid "Organisations with wrong title"
-msgstr "Οργανισμοί με λάθος τίτλο"
-
 #: EEAContentTypes/browser/crop/cropping.pt:25
 msgid "Original image"
 msgstr "Αρχική εικόνα"
@@ -2890,22 +1942,10 @@ msgstr "Αρχικός σύνδεσμος για αυτή την έκθεση"
 msgid "Other"
 msgstr "Άλλο"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:341
-msgid "Other metadata"
-msgstr "Άλλα μεταδεδομένα"
-
 #: eea.design/eea/design/skins/eea_design/folder_accordion_view.pt:50
 #: eea.design/eea/design/skins/eea_design/folder_tabs_view.pt:48
 msgid "Other resources"
 msgstr "Άλλοι πόροι"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:52
-msgid "Our arctic challenge"
-msgstr "Η πρόκληση της Αρκτικής"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:36
-msgid "Overlay text goes here"
-msgstr "Το κείμενο επικάλυψης πηγαίνει εδώ"
 
 #: eea.reports/eea/reports/subtypes/report.py:189
 msgid "Override the order text with your own text"
@@ -2916,26 +1956,7 @@ msgstr "Επικάλυψε το κείμενο της παραγγελίας μ�
 msgid "Owner"
 msgstr "Ιδιοκτήτης (owner)"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:34
-msgid "Owner of:"
-msgstr "Ιδιοκτήτης της/ του :"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:427
-msgid "Owners:"
-msgstr "Ιδιοκτήτες:"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:189
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:58
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:320
-msgid "Ownership"
-msgstr "{0}Ιδιοκτησία.{/0}"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:330
-msgid "PDF document"
-msgstr "Εγγράφο PDF"
-
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:25
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:325
 msgid "PDF on new EEA domain link"
 msgstr "PDF στο νέο σύνδεσμο  του τομέα 9 δομαιν ) του ΕΟΠ"
 
@@ -2946,10 +1967,6 @@ msgstr "PDF σε ασφαλή εξωτερικό σύνδεσμο"
 #: eea.reports/eea/reports/subtypes/report.py:212
 msgid "Pages"
 msgstr "Σελίδες"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:230
-msgid "Parent data set:"
-msgstr "Μητρικά δεδομένα:"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:113
 msgid "Password"
@@ -2963,26 +1980,6 @@ msgstr "Παύση"
 msgid "Pause slideshow"
 msgstr "Παύση slideshow"
 
-#: eea.versions/eea/versions/skins/versions_templates/versions_macros.pt:12
-msgid "Permalink to latest version"
-msgstr "Permalink στην πιο πρόσφατη έκδοση"
-
-#: eea.versions/eea/versions/skins/versions_templates/versions_macros.pt:5
-msgid "Permalink to this version"
-msgstr "Permalink σε αυτήν την έκδοση"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:220
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:421
-#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:141
-msgid "Permalinks"
-msgstr "Permalinks"
-
-#: eea.indicators/eea/indicators/browser/templates/wrong_assessment_versions.pt:6
-#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:6
-#: eea.indicators/eea/indicators/browser/templates/wrong_specification_versions.pt:6
-msgid "Permissions Overview for Indicators Database"
-msgstr "Επισκόπηση αδειών για τη βάση δεδομένων δεικτών"
-
 #: eea.design/eea/design/browser/templates/colophon.pt:21
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:154
 msgid "Phone:"
@@ -2992,18 +1989,6 @@ msgstr "Τηλέφωνο: +"
 msgid "Play in popup window"
 msgstr "Παίξτε σε αναδυόμενο παράθυρο"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:183
-msgid "Playlists"
-msgstr "Λίστες αναπαραγωγής"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:107
-msgid "Please enable javascript or upgrade to ${flash} to watch the video."
-msgstr "Παρακαλούμε ενεργοποιήστε την JavaScript ή αναβαθμιστείτε σε ${flash}  για να παρακολουθήσετε το βίντεο."
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:24
-msgid "Please fill in"
-msgstr "Παρακαλούμε συμπληρώστε"
-
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:12
 msgid "Please help us increase the quality of the translations."
 msgstr "Παρακαλούμε να μας βοηθήσει να αυξήσουμε την ποιότητα των μεταφράσεων."
@@ -3011,11 +1996,6 @@ msgstr "Παρακαλούμε να μας βοηθήσει να αυξήσου�
 #: EEAContentTypes/skins/EEAContentTypes/cftrequestor_edit.pt:11
 msgid "Please provide the following contact information"
 msgstr "Παρακαλώ δώστε τα παρακάτω στοιχεία επικοινωνίας"
-
-#: eea.indicators/eea/indicators/browser/specification.py:259
-#: eea.versions/eea/versions/versions.py:497
-msgid "Please specify a valid Version ID."
-msgstr "Παρακαλώ εισάγετε μια έγκυρη Version ID"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:67
 msgid "Poland"
@@ -3025,28 +2005,11 @@ msgstr "Poland"
 msgid "Policy"
 msgstr "Πολιτικές"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:100
-msgid "Policy context and targets"
-msgstr "Πλαίσιο και στόχοι πολιτικών "
-
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:131
 msgid "Policy instruments<br />"
 msgstr "Μέσα άσκησης πολιτικών <br />"
 
-#: eea.indicators/eea/indicators/skins/indicators_templates/indicatorfactsheet_view.pt:82
-msgid "Policy issue"
-msgstr "Ζήτημα πολιτικών"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:259
-msgid "Pony"
-msgstr "Πόνυ"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:297
-msgid "Portal messages"
-msgstr "Μηνύματα Portal "
-
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:31
-#: eea.relations/eea/relations/browser/template/badrelations.pt:28
 msgid "Portal type"
 msgstr "Τύπος Portal"
 
@@ -3083,7 +2046,6 @@ msgid "Possible relations"
 msgstr "Πιθανές σχέσεις"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:26
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:326
 msgid "Presentation on old EEA domain"
 msgstr "Παρουσίαση στο παλιό τομέα domain του ΕΟΠ "
 
@@ -3092,7 +2054,6 @@ msgid "Press the link to create a new content item in its default location"
 msgstr "Πατήστε το σύνδεσμο για να δημιουργήσετε ένα νέο στοιχείο περιεχομένου στην προεπιλεγμένη θέση του"
 
 #: EEAContentTypes/skins/EEAContentTypes/highlight_macros.pt:167
-#: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:170
 msgid "Previous"
 msgstr "Προηγούμενο"
 
@@ -3100,36 +2061,16 @@ msgstr "Προηγούμενο"
 msgid "Previous month"
 msgstr "Προηγούμενος μήνας"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:255
-msgid "Price"
-msgstr "Τιμή"
-
 #: eea.reports/eea/reports/subtypes/report.py:177
 msgid "Price (Euro)"
 msgstr "Τιμή (Ευρώ)"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:395
-msgid "Primary theme:"
-msgstr "Κύριο θέμα:"
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:158
 msgid "Privacy policy"
 msgstr "Πολιτικές ιδιωτικότητας"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:67
-msgid "Processor of:"
-msgstr "Επεξεργαστής του:"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:448
-msgid "Processors:"
-msgstr "Επεξεργαστές:"
-
 msgid "Produced figures"
 msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:255
-msgid "Product"
-msgstr "Προιόν"
 
 msgid "Product type"
 msgstr ""
@@ -3167,6 +2108,7 @@ msgid "Provided interface"
 msgstr "Παρεχόμενο interface"
 
 #: eea.reports/eea/reports/profiles/default/types/Report.xml
+#: eea.reports/eea/reports/skins/reports_templates/report_file.pt:8
 msgid "Publication"
 msgstr "Έκδοση/ Δημοσίευση"
 
@@ -3179,28 +2121,16 @@ msgstr " Αρχείο Δημοσίευσης"
 msgid "Publication groups"
 msgstr "Ομάδες δημοσίευσης "
 
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:211
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:328
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:388
-msgid "Publish date: ${effective-date}"
-msgstr "Ημερομηνία δημοσίευσης: ${effective-date}"
-
 #: eea.design/eea/design/browser/templates/document_byline.pt:29
 #: eea.reports/eea/reports/browser/report.pt:81
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:108
 msgid "Published"
 msgstr "Δημοσίευση"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:42
-msgid "Published (reviewed and quality assured)"
-msgstr "Δημοσιεύθηκε (αξιολογήθηκε και διασφαλίστηκε η ποιότητα του)"
-
 #: eea.reports/eea/reports/browser/report.pt:75
 msgid "Published by"
 msgstr "Δημοσιεύτηκε από"
 
-#: eea/mediacentre/browser/video-listed-single.pt:35
-#: eea/mediacentre/browser/video.pt:38
 #: eea/themecentre/skins/themecentre_templates/listall.pt:29
 msgid "Published:"
 msgstr "Δημοσιεύθηκε:"
@@ -3208,14 +2138,6 @@ msgstr "Δημοσιεύθηκε:"
 #: eea.reports/eea/reports/subtypes/report.py:138
 msgid "Publishers"
 msgstr "Εκδότες"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:22
-msgid "Quick overview"
-msgstr "Γρήγορη επισκόπηση"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:21
-msgid "Quotations"
-msgstr "Παραθέσεις"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed.pt:16
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed_dbl.pt:76
@@ -3231,10 +2153,6 @@ msgstr "RSS Feeds"
 msgid "RSS logo"
 msgstr "RSS λογότυπο"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:241
-msgid "Rationale uncertainty"
-msgstr "Αβεβαιότητα αιτιολόγησης  "
-
 #: EEAContentTypes/skins/EEAContentTypes/highlight_view.pt:48
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:226
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed.pt:34
@@ -3249,21 +2167,9 @@ msgstr "Διαβάστε περισσότερα από το βασικό γεγ�
 msgid "Read report"
 msgstr "Διάβασε την αναφορά"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:23
-msgid "Records"
-msgstr "Εγγραφές"
-
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:18
 msgid "Recursive invalidation"
 msgstr "Αναδρομική ακύρωση"
-
-#: eea.indicators/eea/indicators/skins/indicators_templates/simple_content_edit_impl.py:49
-msgid "Reference added."
-msgstr "Αναφορά προστέθηκε "
-
-#: eea.indicators/eea/indicators/skins/indicators_templates/simple_content_edit_impl.py:51
-msgid "Reference edited."
-msgstr "Αναφορά διορθώθηκε."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:79
 msgid "Reference manuals"
@@ -3281,10 +2187,6 @@ msgstr "Χαιρετίσματα <br /> Ομάδα Διαδικτύου ΕΟΠ  
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:17
 msgid "Regions"
 msgstr "Περιφερειών"
-
-#: eea/mediacentre/browser/statistics.pt:30
-msgid "Registered plugins:"
-msgstr "Εγγεγραμμένοι plugins:"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:153
 msgid "Related"
@@ -3332,10 +2234,6 @@ msgstr ""
 msgid "Related pages"
 msgstr "Συναφείς σελίδες"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:116
-msgid "Related policy documents"
-msgstr "Σχετικά έγγραφα πολιτικών"
-
 msgid "Related policy questions"
 msgstr ""
 
@@ -3356,18 +2254,6 @@ msgstr "Σχετικά Θέματα"
 
 msgid "Related video"
 msgstr ""
-
-#: eea/mediacentre/browser/video_popup_view.pt:35
-msgid "Related videos"
-msgstr "Σχετικά βίντεο"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:206
-msgid "Related websites"
-msgstr "Σχετικές ιστοσελίδες"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:227
-msgid "Relation:"
-msgstr "Σχέση:"
 
 msgid "Relevant policy documents for this indicator"
 msgstr ""
@@ -3398,11 +2284,11 @@ msgstr "Καταργήστε την αναφορά"
 msgid "Remove selected items"
 msgstr "Κατάργηση επιλεγμένων στοιχείων"
 
-#: EEAContentTypes/browser/reorder.pt:58
+#: EEAContentTypes/browser/reorder.pt:57
 msgid "Reorder CSS"
 msgstr "Αναδιάταξη CSS"
 
-#: EEAContentTypes/browser/reorder.pt:63
+#: EEAContentTypes/browser/reorder.pt:62
 msgid "Reorder Javascripts"
 msgstr "Αναδιάταξη Javascripts"
 
@@ -3438,10 +2324,6 @@ msgstr "Χώρα που υποβάλλει την αναφορά "
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:27
 msgid "Reporting frequency"
 msgstr "Συχνότητα αναφοράς "
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:180
-msgid "Reporting obligations (ROD)"
-msgstr "Υποχρεώσεις υποβολής εκθέσεων (ROD)"
 
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:18
 msgid "Reporting obligations are requirements to provide information agreed between countries and international bodies such as the EEA or international conventions. Reporting obligations provide the basis for most environmental information flows."
@@ -3491,37 +2373,14 @@ msgstr "Αίτηση για ${callforid}"
 msgid "Request for cache invalidation sent"
 msgstr "Αίτηση για ακύρωση cache αποσταλθηκε"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:162
-msgid "Required"
-msgstr "Απαιτούμενη "
-
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:33
 msgid "Reset Eionet account password page"
 msgstr "Σελίδα Επαναρύθμισης του κωδικού πρόσβασης του λογαριασμού Eionet "
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:258
-msgid "Resource needs"
-msgstr "Ανάγκες γιά πόρους "
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:13
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:297
-#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:43
-msgid "Responsibility and ownership"
-msgstr "Ευθύνη και ιδιοκτησία"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:35
 #: eea.design/eea/design/browser/templates/manage_footer.pt:26
 msgid "Return to view"
 msgstr "Επιστροφή στην προβολή"
-
-#: eea.indicators/eea/indicators/profiles/default/actions.xml
-#: eea.versions/eea/versions/profiles/default/actions.xml
-msgid "Revoke version"
-msgstr "Ανάκληση έκδοσης"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:345
-msgid "Rights:"
-msgstr "Δικαιώματα:"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:69
 msgid "Romania"
@@ -3547,27 +2406,14 @@ msgstr "Το μήνυμα του SOER "
 msgid "SOER viral video message"
 msgstr "Το βιντεοσκοπημένο μήνυμα του SOER"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:93
-msgid "Sample Text"
-msgstr "Δείγμα κειμένου"
-
-#: EEAContentTypes/browser/reorder.pt:76
+#: EEAContentTypes/browser/reorder.pt:75
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:68
-#: eea.googlecharts/eea/googlecharts/widgets/edit.py:92
 msgid "Save"
 msgstr "Αποθήκευση"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:333
-msgid "Scale of the data set:"
-msgstr "Κλίμακα του συνόλου δεδομένων:"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:73
-msgid "Scientific references:"
-msgstr "Επιστημονικές αναφορές:"
-
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:43
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:151
 #: eea.design/eea/design/browser/templates/searchbox_cms.pt:25
+#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:28
 msgid "Search"
 msgstr "Αναζήτηση"
 
@@ -3575,17 +2421,12 @@ msgstr "Αναζήτηση"
 msgid "Search Europe's environment"
 msgstr "Ανατρέξτε το περιβάλλον της Ευρώπης"
 
-#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:94
-msgid "Search Member:"
-msgstr "Αναζήτηση μελών:"
-
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:56
 msgid "Search SOER"
 msgstr "Αναζήτηση SOER"
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:48
 #: eea.design/eea/design/skins/eeadesign_public/search.pt:46
-#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:96
 msgid "Search Site"
 msgstr "Αναζήτηση Site"
 
@@ -3602,16 +2443,8 @@ msgstr "Αναζήτηση όλων των εκθέσεων από"
 msgid "Search data, maps, indicators"
 msgstr "Αναζήτηση δεδομένων, χαρτών, δεικτών"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/figure_referencebrowser.pt:143
-msgid "Search for Publication by title"
-msgstr "Αναζήτηση δημοσιεύσεων βάσει τίτλου"
-
-#: eea.relations/eea/relations/browser/template/badrelations.pt:12
-msgid "Search for bad relations"
-msgstr "Αναζήτηση  για  κακές σχέσεις"
-
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:113
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:82
+#: eea.design/eea/design/skins/eeadesign_public/search.pt:81
 msgid "Search results"
 msgstr "Αποτελέσματα αναζήτησης"
 
@@ -3623,26 +2456,6 @@ msgstr "Αναζήτηση αυτής της καταχώρισης"
 msgid "Search this site"
 msgstr "Αναζήτηση αυτής της ιστοσελίδας"
 
-#: eea/mediacentre/Multimedia/multimedia.pt:122
-msgid "Search videos, animations, image galleries"
-msgstr "Αναζήτηση βίντεο, κινούμενων εικόνων , γκαλερί εικόνων"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:536
-msgid "Second extra element is a simple div that wraps the content that you would like to have paginated."
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:145
-msgid "Second panel title"
-msgstr "Δεύτερος panel title "
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:54
-msgid "Second tab"
-msgstr "Δεύτερη καρτέλα"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:95
-msgid "Second tab with longer title"
-msgstr "Δεύτερη καρτέλα με μακρύτερο τίτλο "
-
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:57
 #: EEAContentTypes/skins/EEAContentTypes_public/phc_linkfolder_view.pt:25
 #: eea.design/eea/design/browser/templates/sections.pt:4
@@ -3653,58 +2466,20 @@ msgstr " Τμήματα "
 msgid "See all"
 msgstr "Προβολή όλων"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:151
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:86
-msgid "See all formats + SPARQL query details"
-msgstr "Δείτε όλες τις μορφές + λεπτομέρειες ερωτήματος SPARQL"
-
 msgid "See also"
 msgstr ""
 
-#: eea.indicators/eea/indicators/browser/templates/timeline.pt:95
-msgid "See comments"
-msgstr "Δείτε τα σχόλια"
-
-#: EEAContentTypes/skins/EEAContentTypes/portlet_email_queue.pt:29
-msgid "See more historical email queue charts"
-msgstr ""
-
 #: eea.reports/eea/reports/browser/report.pt:19
-#: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:49
 msgid "See older versions."
 msgstr "Δείτε παλαιότερες εκδόσεις."
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:164
-msgid "See this ${indicator-specs} for more details."
-msgstr "Δείτε αυτό το ${indicator-specs} για περισσότερες λεπτομέρειες."
-
-#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:182
-msgid "Select all items"
-msgstr "Επιλογή όλων των στοιχείων"
 
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:26
 msgid "Select an item bellow to inherit faceted navigation configuration"
 msgstr "Επιλέξτε ένα στοιχείο παρακάτω για να κληροδοτηθεί η  διαμόρφωση πολύπλευρης  πλοήγησης"
 
-#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:40
-msgid "Select figures to be converted."
-msgstr "Επιλέξτε τα στοιχεία που πρόκειται να μετατραπούν."
-
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:43
 msgid "Select from existing tags."
 msgstr "Επιλέξτε από τις υπάρχουσες ετικέτες."
-
-#: eea.dataservice/eea/dataservice/templates/select_template.pt:10
-msgid "Select one of the below templates to apply its metadata."
-msgstr "Επιλέξτε ένα από τα παρακάτω πρότυπα για να εφαρμόσετε τα μεταδεδομένα του."
-
-#: eea.relations/eea/relations/browser/template/badrelations.pt:29
-msgid "Select portal type"
-msgstr "Επιλέξτε τύπο portal"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/temporal_widget.pt:93
-msgid "Selected value:"
-msgstr "Επιλεγμένη τιμή:"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:65
 msgid "Semantic Data Service"
@@ -3730,10 +2505,6 @@ msgstr "Σερβία"
 msgid "Serial title"
 msgstr "Σειριακός τίτλος"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:299
-msgid "Settings have been applied"
-msgstr "Οι ρυθμίσεις εφαρμόστηκαν"
-
 #: eea.design/eea/design/browser/templates/document_actions.pt:13
 #: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:13
 msgid "Share with others"
@@ -3742,23 +2513,6 @@ msgstr "Μοιραστείτε το με τους άλλους"
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:28
 msgid "Shared Environmental Information System (SEIS)"
 msgstr "Κοινό Σύστημα Περιβαλλοντικών Πληροφοριών (SEIS)"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:237
-msgid "Short description of the data resource"
-msgstr "Σύντομη περιγραφή του πόρου δεδομένων"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:250
-msgid "Short term work"
-msgstr "Βραχυπρόθεσμη εργασία"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:72
-msgid "Show table definition"
-msgstr "Εμφάνιση ορισμού του πίνακα"
-
-#: eea/mediacentre/browser/multimedia_popup_view.pt:47
-#: eea/mediacentre/browser/video_popup_view.pt:66
-msgid "Show the publishdate only (effective date)"
-msgstr "Εμφάνιση μόνο της publishdate (ημερομηνία έναρξης ισχύος)"
 
 #: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:15
 msgid "Sign up now!"
@@ -3804,28 +2558,6 @@ msgstr "Ιστορικό ενημερώσεων λογισμικού "
 msgid "Soil"
 msgstr "Έδαφος"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:218
-msgid "Solution"
-msgstr "Λύση"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:251
-#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:31
-msgid "Solution I"
-msgstr "Λύση Ι"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:252
-#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:32
-msgid "Solution II"
-msgstr "Λύση ΙΙ"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:328
-msgid "Some popular file extensions"
-msgstr "Μερικές δημοφιλείς επεκτάσεις αρχείων"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:252
-msgid "Sortable tables"
-msgstr "Sortable πίνακες"
-
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:187
 msgid "Source"
 msgstr "Πηγή"
@@ -3842,31 +2574,9 @@ msgstr "Σύνδεσμος IMS  για Ισπανικά θέματα"
 msgid "Spatial Information and Analysis (SIA)"
 msgstr "Χωρικές Πληροφορίες και Ανάλυση (SIA)"
 
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:117
-msgid "Specific assessment"
-msgstr "Εξειδικευμένη αξιολόγηση "
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:138
-msgid "Specific policy question"
-msgstr "Εξειδικευμένο ερώτημα πολιτικών"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:112
-msgid "Specific policy question: ${title}"
-msgstr "Εξειδικευμένο ερώτημα πολιτικών: ${title}"
-
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:113
 msgid "Specific regions"
 msgstr "Συγκεκριμένες περιοχές"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:309
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:372
-#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:63
-msgid "Specification"
-msgstr "Προδιαγραφές"
-
-#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:17
-msgid "Specifications with the wrong maincode"
-msgstr "Προδιαγραφές με λάθος maincode"
 
 #: eea.promotion/build/lib/eea/promotion/browser/form.pt:40
 #: eea.promotion/eea/promotion/browser/form.pt:40
@@ -3878,14 +2588,6 @@ msgstr "Spotlight"
 msgid "Spotting the signs for a transport system by 2050"
 msgstr "Αναζητώντας τα σημάδια για ένα σύστημα μεταφορών το 2050"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:263
-msgid "Status"
-msgstr "Κατάσταση"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:26
-msgid "Stavros Dimas, Commissioner for Environment"
-msgstr "Σταύρος Δήμας, Επίτροπος για το Περιβάλλον"
-
 msgid "Strongly related indicators"
 msgstr ""
 
@@ -3896,10 +2598,6 @@ msgstr ""
 #: eea.design/eea/design/browser/subfolder_listing.py:34
 msgid "SubfolderListing enabled"
 msgstr ""
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:28
-msgid "Submit"
-msgstr "Υποβολή"
 
 #: eea.design/eea/design/browser/templates/calendar.pt:130
 msgid "Submit a new event"
@@ -3923,17 +2621,13 @@ msgid "Subscribe to RSS Feed"
 msgstr "Εγγραφή στο RSS Feed"
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:127
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:96
+#: eea.design/eea/design/skins/eeadesign_public/search.pt:95
 msgid "Subscribe to an always-updated feed of these search terms"
 msgstr "Εγγραφή σε-πάντα ενημερωμένη τροφοδότηση  αυτών των όρων αναζήτησης"
 
 #: eea/themecentre/skins/themecentre_templates/themecentre_view.pt:38
 msgid "Subtopics"
 msgstr "Υποθέματα "
-
-#: eea.googlecharts/eea/googlecharts/views/chart.py:490
-msgid "Success"
-msgstr "Επιτυχία"
 
 msgid "Supports the following assessments"
 msgstr ""
@@ -3954,10 +2648,6 @@ msgstr "Σουηδική γλωσσάριο"
 msgid "Swedish site"
 msgstr "Σουηδική ιστοσελίδα"
 
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:86
-msgid "Switch to full indicator view"
-msgstr "Αλλαγή σε προβολή του πλήρους δείκτη"
-
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:75
 msgid "Switzerland"
 msgstr "Ελβετία"
@@ -3966,36 +2656,11 @@ msgstr "Ελβετία"
 msgid "Synthesis"
 msgstr "Σύνθεση"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:543
-msgid "Tab number 1"
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:666
-msgid "Tab number 2"
-msgstr ""
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:31
-msgid "Table definition"
-msgstr "Ορισμός Πίνακα"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:313
-msgid "Tags:"
-msgstr "Ετικέτες:"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:108
-msgid "Targets"
-msgstr "Στόχοι"
-
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:26
 msgid "Template Europass CV"
 msgstr "Πρότυπο βιογραφικού σημειώματος Europass"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:254
-msgid "Temporal coverage:"
-msgstr "Χρονική κάλυψη:"
-
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:23
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:323
 msgid "Test links"
 msgstr "Δοκιμή συνδέσεων"
 
@@ -4024,11 +2689,6 @@ msgstr "Το ευρωπαϊκό περιβάλλον - κατάσταση και
 msgid "The European environment – state and outlook 2010"
 msgstr "Το ευρωπαϊκό περιβάλλον - κατάσταση και προοπτικές 2010"
 
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:265
-#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:45
-msgid "The codes will be changed from ${code} to ${new-code}."
-msgstr "Οι κωδικοί θα πρέπει να αλλάξει από ${code} σε ${new-code}."
-
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:32
 msgid "The content you were viewing does not exist in the language you just selected. The site language has been switched to ${language} and you can keep browsing the site in this language."
 msgstr "Το περιεχόμενο που βλέπετε δεν υπάρχει στη γλώσσα που επιλέξατε. Η γλώσσα της ιστοσελίδας έχει αλλάξει  σε ${language} και μπορείτε να συνεχίσετε την περιήγηση στο χώρο σε αυτή τη γλώσσα."
@@ -4044,22 +2704,6 @@ msgstr "Το σφάλμα έχει καταγραφεί ως αριθμός εγ
 #: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:22
 msgid "The folder you are trying to access is still in draft and therefore its content cannot be listed. If you are a content manager of this site, you need to login and publish this folder."
 msgstr "Ο φάκελος που προσπαθείτε να ανοίξετε είναι ακόμα προσχέδιο και ως εκ τούτου το περιεχόμενό της δεν μπορεί να δημοσιοποιηθεί. Αν είστε ο διαχειριστής περιεχόμενου αυτού του ιστοτόπου, θα πρέπει να συνδεθείτε και να δημοσιεύσετε αυτό το φάκελο."
-
-#: eea.indicators/eea/indicators/browser/templates/wrong_maincode.pt:18
-msgid "The following Indicator Specifications belong to the same versioning group but have a different main code. There are two ways of fixing this: either assign all the codes of this current specification, or assign just the maincode of this specification."
-msgstr "Οι ακόλουθες Προδιαγραφές Δείκτη ανήκουν στήν ίδια ομάδα εκδόσεων (versioning group) , αλλά έχουν ένα διαφορετικό κύριο κωδικό. Υπάρχουν δύο τρόποι για το διορθώσετε: είτε να εκχωρήσετε όλους τους κωδικούς της τρέχουσας προδιαγραφής, ή να εκχωρήσετε μόνο τον κύριο κωδικό (maincode) της παρούσας προδιαγραφής."
-
-#: eea.indicators/eea/indicators/skins/indicators_templates/policy_doc_view.pt:9
-msgid "The link address is:"
-msgstr "Η διεύθυνση του συνδέσμου είναι:"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:229
-msgid "The name given to the resource. Typically, a title will be a name by which the resource is formally known"
-msgstr "Το όνομα που δίνεται στον πόρο. Συνήθως, ένας τίτλος θα είναι ένα όνομα με το οποίο ο πόρος θα είναι επίσημα γνωστός"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:233
-msgid "The nature or genre of the content of the resource. Type includes terms describing general categories, functions, genres, or aggregation levels for content"
-msgstr "Η φύση ή το είδος του περιεχομένου του πόρου. Ο τύπος περιλαμβάνει όρους που περιγράφουν γενικές κατηγορίες, λειτουργίες, ύφη ή επίπεδα συμψηφισμού για το περιεχόμενο"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:55
 msgid "The portlet columns will now display only those portlets explicitly assigned in this context. Use the buttons on each portlet to move them up or down, delete or edit them. To add a new portlet, use the drop-down list at the top of the column."
@@ -4117,21 +2761,9 @@ msgstr "Δεν υπάρχουν αποτελέσματα για αυτήν τη�
 msgid "There are legacy portlets defined here. Click the button to convert them to new-style portlets."
 msgstr "Υπάρχουν παλαιότερα  καθορισμένα (legacy)  portlets εδώ. Κάντε κλικ στο κουμπί για να τα μετατρέψετε σε portlets νέου στυλ."
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:338
-msgid "There are more icons detected, see ${link}"
-msgstr "'Εχουν εντοπιστεί περισσότερα εικονίδια , βλέπε ${link}"
-
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:161
 msgid "There are no contained help center object types."
 msgstr "Δεν υπάρχουν συμπεριλαμβανόμενοι τύποι αντικείμενου help center."
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:151
-msgid "Third panel title"
-msgstr "Τρίτος τίτλος του πίνακα"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:55
-msgid "Third tab"
-msgstr "Τρίτη καρτέλα"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:102
 msgid "This FAQ applies to a previous version"
@@ -4148,14 +2780,6 @@ msgstr ""
 msgid "This document is locked."
 msgstr "Αυτό το έγγραφο είναι κλειδωμένο."
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:525
-msgid "This example demonstrates the pagination with headers as tabs."
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:373
-msgid "This example has a couple of divs but the div with class paginate could contain anything."
-msgstr ""
-
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:161
 msgid "This figure has no data source. For further information contact"
 msgstr "Ο αριθμός αυτός δεν έχει καμία πηγή δεδομένων. Για περισσότερες πληροφορίες επικοινωνήστε"
@@ -4164,52 +2788,9 @@ msgstr "Ο αριθμός αυτός δεν έχει καμία πηγή δεδ�
 msgid "This file contains links that should be marked in different ways by the mark_special_link.js script. This is to test and verify that it works. Try it with <br /> ${normal} ${swedish-site} <br />"
 msgstr "Αυτό το αρχείο περιέχει συνδέσμους που θα πρέπει να επισημαίνονται με διάφορους τρόπους από το mark_special_link.js script. Δοκιμάστε και βεβαιώστε οτι  λειτουργεί. Δοκιμάστε το με <br /> ${normal} ${swedish-site} <br />"
 
-#: eea.relations/eea/relations/browser/template/badrelations.pt:16
-msgid "This form will help you find deprecated relations between portal content."
-msgstr ""
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:16
-msgid "This indicator has a newer version, ${spec-title} from ${indicator-date}."
-msgstr "Ο δείκτης αυτός έχει μια νεότερη έκδοση (version), ${spec-title} από ${indicator-date}."
-
-#: eea.googlecharts/eea/googlecharts/views/zpt/charts.pt:7
-#: eea.googlecharts/eea/googlecharts/views/zpt/dashboard.pt:9
-#: eea.googlecharts/eea/googlecharts/views/zpt/dashboards.pt:9
-msgid "This is NOT a real chart. To see the real chart, you need Javascript enabled in your browser."
-msgstr ""
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:277
-msgid "This is a h1"
-msgstr "Αυτό είναι ένα h1"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:278
-msgid "This is a h2"
-msgstr "Αυτό είναι ένα h2"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:279
-msgid "This is a h3"
-msgstr "Αυτό είναι ένα h3"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:280
-msgid "This is a h4"
-msgstr "Αυτό είναι ένα h4"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:282
-msgid "This is a moreLink"
-msgstr "Αυτό είναι ένα moreLink"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:282
-msgid "This is a paragraph."
-msgstr "Αυτή είναι μια παράγραφος."
-
 #: eea.reports/eea/reports/browser/report.pt:17
-#: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:39
 msgid "This is the latest published version."
 msgstr "Αυτή είναι η τελευταία δημοσιευμένη έκδοση (version)."
-
-#: eea.versions/eea/versions/skins/versions_templates/portlet_versions.pt:42
-msgid "This is the latest version with state:"
-msgstr "Αυτή είναι η τελευταία έκδοση (version) με την κατάσταση:"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/phc_linkfolder_view.pt:61
 msgid "This item applies to a previous version"
@@ -4220,17 +2801,12 @@ msgid "This item does not have any body text, click the edit tab to change it."
 msgstr "Αυτό το στοιχείο δεν έχει  σώμα κειμένου, κάντε κλικ στην καρτέλα επεξεργασίας για να το αλλάξετε."
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/schemata_edit_macros.pt:38
-#: eea.indicators/eea/indicators/browser/templates/edit_macros.pt:46
 msgid "This item is in use by someone else and cannot be modified"
 msgstr "Αυτό το στοιχείο είναι σε χρήση από κάποιον άλλο και δεν μπορεί να τροποποιηθεί"
 
 #: eea.design/eea/design/browser/templates/goto_comments.pt:15
 msgid "This item is open for comments. See the comments"
 msgstr "Αυτό το στοιχείο είναι ανοιχτό για σχόλια. Δείτε τα σχόλια"
-
-#: eea.dataservice/eea/dataservice/converter/convert_figure.pt:17
-msgid "This operation might take a while."
-msgstr "Αυτή η λειτουργία μπορεί να πάρει κάποιο χρόνο."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:41
 msgid "This page does not seem to exist&hellip;"
@@ -4246,22 +2822,9 @@ msgstr "Αυτή η σελίδα σας δίνει πληροφορίες σχε
 msgid "This page requires Flashplayer, please download it for free from ${flashplayer-link}"
 msgstr "Αυτή η σελίδα απαιτεί Flashplayer, παρακαλούμε να το κατεβάσετε δωρεάν από ${flashplayer-link}"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:17
-msgid "This page shows common html markup, css classes and javascripts we use across the EEA website. See example code and use Firefox Firebug plugin to inspect elements code."
-msgstr "Αυτή η σελίδα εμφανίζει common html markup, css classes and javascripts που χρησιμοποιούμε σε όλη την ιστοσελίδα του ΕΟΠ. Δείτε το παράδειγμα κώδικα και τη χρήση του Firefox Firebug plugin για να επιθεωρηθεί ο κώδικας των στοιχείων."
-
 #: eea.design/eea/design/browser/templates/document_byline.pt:14
 msgid "This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser."
 msgstr "Αυτή η ιστοσελίδα έχει περιορισμένη λειτουργικότητα με απενεργοποιημένο javascript . Παρακαλώ βεβαιωθείτε ότι είναι ενεργοποιημένο το javascript στο browser ."
-
-#: eea/mediacentre/browser/video-listed-single.pt:28
-#: eea/mediacentre/browser/video.pt:31
-msgid "Time:"
-msgstr "Χρόνος:"
-
-#: eea.indicators/eea/indicators/browser/templates/timeline.pt:8
-msgid "Timeline overview for indicators database"
-msgstr "Επισκόπηση χρονογραμμής (Timeline) για τη βάσης δεδομένων των δεικτών"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:50
 #: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:20
@@ -4289,30 +2852,6 @@ msgstr "Για να επαναφέρετε τον κωδικό πρόσβασή�
 msgid "To unsubscribe from EEA notification service please enter your email. You will receive an email in order to confirm your unsubscription."
 msgstr "Για να διαγραφείτε από την υπηρεσία κοινοποίησης του ΕΟΠ  παρακαλούμε εισάγετε το email σας. Θα λάβετε ένα email για να επιβεβαιώσει τη διαγραφή σας."
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:216
-msgid "Tooltips"
-msgstr "Tooltips"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:219
-msgid "Tooltips can go down"
-msgstr "Tooltips μπορεί να πάει κάτω"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:220
-msgid "Tooltips can go left"
-msgstr "Tooltips μπορεί να πάει αριστερά"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:217
-msgid "Tooltips can go right"
-msgstr "Tooltips μπορεί να πάει δεξιά"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:218
-msgid "Tooltips can go up"
-msgstr "Tooltips μπορεί να ανεβεί"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/data_maps_frontpage.pt:12
-msgid "Top content"
-msgstr "Περιεχόμενο στο πάνω μέρος"
-
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:22
 msgid "Topic"
 msgstr "Ειδικό θέμα"
@@ -4322,7 +2861,6 @@ msgstr "Ειδικό θέμα"
 msgid "Topic in the spotlight"
 msgstr "Θέμα στο προσκήνιο"
 
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:43
 #: eea/themecentre/browser/portlets/themes.py:22
 msgid "Topics"
 msgstr "Ειδικά θέματα"
@@ -4350,22 +2888,6 @@ msgstr "Τουρισμός"
 #: eea.reports/eea/reports/subtypes/report.py:254
 msgid "Trailer"
 msgstr "Trailer"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:58
-msgid "Transfer from"
-msgstr "Μεταφορά από"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:35
-msgid "Transfer references"
-msgstr "Μεταφορά αναφορών"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_manage_organisations.pt:22
-msgid "Transfer relations"
-msgstr "Μεταφέρετε σχέσεις "
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:65
-msgid "Transfer to"
-msgstr "Μεταφορά σε"
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:24
 msgid "Translation Unavailable"
@@ -4396,43 +2918,9 @@ msgstr "ΕικονίδιοTwitter "
 msgid "Type"
 msgstr "Τύπος"
 
-#: eea/mediacentre/browser/image-listed-single.pt:20
-msgid "Type:"
-msgstr "Τύπος:"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:66
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:114
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:431
-msgid "Typology"
-msgstr "Τυπολογία"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:86
-msgid "URL"
-msgstr "Διεύθυνση URL"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:55
-msgid "URL status:"
-msgstr "Κατάσταση URL:"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:27
-msgid "URLs status checked:"
-msgstr "Κατάσταση URL ελεγμένη:"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:227
-msgid "Uncertainties"
-msgstr "Αβεβαιότητες"
-
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:77
 msgid "United Kingdom"
 msgstr "Ηνωμένο Βασίλειο"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:92
-msgid "Units"
-msgstr "μονάδες"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:381
-msgid "Units:"
-msgstr "μονάδες:"
 
 #: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:32
 msgid "Unsubscribe"
@@ -4465,11 +2953,6 @@ msgstr "Προσεχείς εκδηλώσεις"
 msgid "Upload epub file"
 msgstr "Ανεβάστε epub file"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datafile_view.pt:17
-#: eea.indicators/eea/indicators/skins/indicators_templates/factsheetdocument_view.pt:22
-msgid "Uploaded file"
-msgstr "Αρχείο \"ανεβασμένο\"(Uploaded)"
-
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:117
 msgid "Urban environment"
 msgstr "Αστικό περιβάλλον"
@@ -4490,21 +2973,11 @@ msgstr "Χρησιμοποιήστε την παρακάτω φόρμα για �
 msgid "Use this form to submit an environmental event. We will then check if the submitted event is relevant for publishing."
 msgstr "Χρησιμοποιήστε αυτή τη φόρμα για να υποβάλλετε μία περιβαλλοντική εκδήλωση. Στη συνέχεια, θα ελέγξουμε αν η υποβληθείσα  εκδήλωση είναι σχετική για δημοσίευση."
 
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:215
-msgid "Used in figure ${link}"
-msgstr "Χρησιμοποιείται στο διάγραμμα/  σχήμα ${link}"
-
 msgid "Used in publications"
 msgstr ""
 
 msgid "Used in the following publications"
 msgstr ""
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:179
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:37
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:310
-msgid "User not found:"
-msgstr "Ο χρήστης δεν βρέθηκε:"
 
 msgid "Uses the following visualisation"
 msgstr ""
@@ -4513,56 +2986,16 @@ msgstr ""
 msgid "Various other issues"
 msgstr "Διάφορα άλλα θέματα"
 
-#: eea.indicators/eea/indicators/browser/specification.py:257
-#: eea.versions/eea/versions/versions.py:495
-msgid "Version ID changed."
-msgstr "Η έκδοση ID (Version ID) έχει αλλάξει."
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:317
-msgid "Version id: ${number}"
-msgstr "Έκδοση ID (Version id): ${number}"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:378
-#: eea.indicators/eea/indicators/browser/templates/specification_aggregated_edit.pt:69
-msgid "Version id: ${version-number}"
-msgstr "Έκδοση ID (Version id): ${version-number}"
-
-#: eea.versions/eea/versions/versions.py:523
-msgid "Version revoked."
-msgstr "Έκδοση (Version) ανακλήθηκε."
-
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:26
 msgid "Vertical listing"
 msgstr "Κατακόρυφη δημιουργία  λίστας"
 
-#: eea/mediacentre/browser/image-listed-single.pt:15
-#: eea/mediacentre/browser/video-listed-single.pt:17
-msgid "Video Album Art"
-msgstr "Video Album Art"
-
 msgid "Video File"
 msgstr ""
 
-#: EEAContentTypes/subtypes.py:347
+#: EEAContentTypes/subtypes.py:356
 msgid "Video Topic Container"
 msgstr "Video Topic Container"
-
-#: eea/mediacentre/browser/video-listed-single.pt:22
-msgid "Video album art"
-msgstr "Video album art"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:204
-msgid "Video pop-ups"
-msgstr "Video pop-ups"
-
-#: eea/mediacentre/Multimedia/multimedia.pt:173
-msgid "Videos"
-msgstr "Βίντεο"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:115
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:55
-msgid "View and interact online"
-msgstr "Θέαση και διάδραση online"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:79
 msgid "View entire FAQ expanded"
@@ -4624,10 +3057,6 @@ msgstr ""
 msgid "WISE Menu"
 msgstr "WISE Μενού"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:305
-msgid "Warning! Core meltdown at EEA HQ, code super-duper-red"
-msgstr "Προσοχή! Τήξη του πυρήνα, στο στρατηγείο του ΕΟΠ, κωδικός super-duper-κόκκινο"
-
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:143
 msgid "Waste"
 msgstr "Απόβλητα"
@@ -4654,17 +3083,9 @@ msgstr "Ζητούμε συγγνώμη για την ταλαιπωρία, αλ
 msgid "We do not publish events that are purely commercial and with no references to the environment."
 msgstr "Δεν δημοσιεύουμε εκδηλώσεις που είναι καθαρά εμπορικά και χωρίς αναφορές για το περιβάλλον."
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:529
-msgid "We need some extra markup besides the parent div with class paginate as found in the previous example."
-msgstr ""
-
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:146
 msgid "We&#8217;re sorry, but there seems to be an error&hellip;"
 msgstr "Λυπούμαστε, αλλά δεν φαίνεται να υπάρχει ένα λάθος ..."
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:14
-msgid "Welcome to EEA Web design elements, your browser should have autoscrolled down to me"
-msgstr "Καλώς ήλθατε στα Web design elements του ΕΟΠ,  ο browser σας θα πρέπει να έχει αυτόματα κατέβει σε μένα"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:65
 msgid "Welcome! You are now logged in."
@@ -4700,44 +3121,9 @@ msgstr "Γιατί συμβαίνει αυτό; <br /> Τομείς και δρ�
 msgid "Word doc on external link"
 msgstr "Word doc σε εξωτερικό σύνδεσμο"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:331
-msgid "Word document"
-msgstr "Έγγραφο του Word"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:253
-msgid "Work description"
-msgstr "Περιγραφή Εργασίας "
-
-#: eea.indicators/eea/indicators/content/WorkItem.py:110
-msgid "Work due ${due}"
-msgstr "Προθεσμία εργασίας ${due}"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:251
-msgid "Work specified here requires to be completed within 1 year from now."
-msgstr "Οι εργασίες που αναφέρονται εδώ απαιτείται να ολοκληρωθούν μέσα σε 1 χρόνο από σήμερα."
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:272
-msgid "Work specified here will require more than 1 year (from now) to be completed."
-msgstr "Οι εργασίες που αναφέρονται εδώ θα απαιτήσουν περισσότερο από 1 έτος (από τώρα) για να ολοκληρωθεί."
-
-#: eea.dataservice/eea/dataservice/profiles/default/actions.xml
-msgid "Working list"
-msgstr "Λίστα Εργασίας "
-
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:29
 msgid "World"
 msgstr "Κόσμος"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:149
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/datatable_view.pt:84
-msgid "XML with schema"
-msgstr "XML with schema"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/management_plan_widget.pt:59
-#: eea.forms/eea/forms/skins/eea_forms/management_plan_widget.pt:59
-#: eea.forms/eea/forms/widgets/managementplan.pt:11
-msgid "Year"
-msgstr "Έτος"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:48
 msgid "You are editing the default view of a container. If you wanted to edit the container itself, ${go_here}."
@@ -4747,13 +3133,13 @@ msgstr "Επεξεργάζεστε την προεπιλεγμένη προβο�
 msgid "You are not allowed to invalidate cache in this context"
 msgstr "Δεν επιτρέπεται να ακυρώσετε το  cache στο πλαίσιο αυτό"
 
+#: eea.design/eea/design/skins/eea_design/outdated_browsers.pt:44
+msgid "You are using an outdated browser"
+msgstr ""
+
 #: eea.reports/eea/reports/browser/report.pt:247
 msgid "You can also obtain a copy from ${nearest-sale-agent} by providing the ordering info."
 msgstr "Μπορείτε επίσης να αποκτήσετε ένα αντίγραφο από ${nearest-sale-agent}, με το να δώσετε παρέχοντας τις πληροφορίες για την παραγγελία."
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:188
-msgid "You can have arbitrary HTML in the pop-ups:"
-msgstr "Μπορείτε να έχετε αυθαίρετα HTML στο pop-ups:"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:75
 msgid "You might have been looking for&hellip;"
@@ -4762,10 +3148,6 @@ msgstr "Μπορεί να έχετε ψάξει για ..."
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_noheader_view.pt:22
 msgid "You need Flash player to be able to see and use the ozone map viewer, please download it for free from ${flashpalyer-link}. If you don't have administrative rights on your computer, please contact your helpdesk."
 msgstr "Χρειάζεται Flash player για να μπορέσετε να δείτε και να χρησιμοποιήσετε το Θεατή Χαρτών του όζοντος, παρακαλούμε να το κατεβάσετε δωρεάν από ${flashpalyer-link}. Αν δεν έχετε δικαιώματα διαχειριστή στον υπολογιστή σας, παρακαλούμε επικοινωνήστε με το γραφείο σας."
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:30
-msgid "You need to enter an image scale after the image src otherwise the gallery will load the full-resolution images which could dramatically slow the page"
-msgstr "Θα πρέπει να εισάγετε μια εικόνα κλίμακας μετά το  image src, αλλιώς η γκαλερί θα φορτώσει τις εικόνες πλήρους ανάλυσης που θα μπορούσε να επιβραδύνει δραματικά τη σελίδα"
 
 #: EEAContentTypes/skins/EEAContentTypes/cftrequest_confirmation.pt:11
 msgid "You should shortly receive an email with further information."
@@ -4783,25 +3165,9 @@ msgstr "YouTube εικονίδιο"
 msgid "Your message"
 msgstr "Το μήνυμά σας "
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:302
-msgid "Your screensaver has been upgraded, please consider to restart your computer ... Have a good day"
-msgstr "Το screensaver της οθόνης σας έχει αναβαθμιστεί, παρακαλώ σκεφτείτε να επανεκκινήσετε τον υπολογιστή σας ... Να έχετε μια καλή μέρα"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:332
-msgid "Zip archive"
-msgstr "Zip αρχείο"
-
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:33
 msgid "Zip on FTP"
 msgstr "Zip σε FTP"
-
-#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:151
-msgid "add selected group(s)"
-msgstr "προσθέσετε επιλεγμένη ομάδα (ες)"
-
-#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:214
-msgid "add selected users"
-msgstr "Προσθήκη επιλεγμένων χρηστών"
 
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:22
 msgid "and"
@@ -4836,52 +3202,12 @@ msgid "by serial title"
 msgstr "ανά τίτλο σειράς"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:20
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:320
 msgid "callto link"
 msgstr "σύνδεσμος callto "
-
-#: eea.indicators/eea/indicators/skins/indicators_overrides/userandgroupselect_popup.pt:221
-msgid "close window"
-msgstr "κλείσε το παράθυρο"
-
-#: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:30
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:350
-msgid "code"
-msgstr "Κωδικός"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:496
-msgid "code:"
-msgstr "κωδικός:"
-
-#: eea.dataservice/eea/dataservice/converter/convert_figure.pt:22
-#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:27
-msgid "converting"
-msgstr "μετατροπή"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:63
-msgid "data visualization"
-msgstr ""
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:39
-msgid "datasets"
-msgstr "Σύνολα δεδομένων"
 
 #: eea.design/eea/design/browser/templates/manage-contextual.pt:84
 msgid "delete portlet"
 msgstr "Διαγραφή portlet"
-
-#. Default: "Jacqueline McGlade, Executive Director of the European Environment Agency (EEA), and three of her colleagues have chosen to be part of an extraordinary journey in East Greenland. They travel from their offices in Copenhagen to participate in a multi sport race, where they challenge themselves through 250 kilometers of the Arctic wilderness. On their way they encounter the effects of climate change and its impact on the Arctic environment. The Inuit are among the first people to experience the effects of climate change. They are in the middle of an environmental challenge that will change many parts of their culture. What is happening to the Inuit today will happen to the rest of the world tomorrow. We will all need to adapt to climate change."
-#: eea/mediacentre/Multimedia/multimedia.pt:56
-msgid "director-description"
-msgstr "director-description/διευθυντής - περιγραφή"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/portlet_topdatasets.pt:30
-msgid "downloads"
-msgstr "λήψεις"
-
-#: eea.googlecharts/eea/googlecharts/views/zpt/charts.pt:45
-msgid "embed"
-msgstr ""
 
 #: eea.design/eea/design/browser/templates/colophon.pt:62
 msgid "engineered by"
@@ -4891,26 +3217,9 @@ msgstr "Σχεδιασμένο από την"
 msgid "expired"
 msgstr "έχει λήξει"
 
-#: eea.googlecharts/eea/googlecharts/views/zpt/charts.pt:52
-msgid "export to png"
-msgstr ""
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:49
-msgid "external data specs"
-msgstr "εξωτερικά χαρακτηριστικά των δεδομένων"
-
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:17
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:317
 msgid "external link"
 msgstr "εξωτερικός σύνδεσμος"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:44
-msgid "figures"
-msgstr "στοιχεία"
-
-#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:67
-msgid "filename:"
-msgstr "όνομα αρχείου"
 
 #: eea.design/eea/design/skins/eea_design/folder_listing.pt:160
 msgid "from ${start} to ${end}"
@@ -4930,10 +3239,6 @@ msgstr "πάρετε Flashplayer"
 msgid "go here"
 msgstr "πηγαίνετε εδώ"
 
-#: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:20
-msgid "here"
-msgstr "Εδώ"
-
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:69
 msgid "homepage"
 msgstr "αρχική σελίδα"
@@ -4941,42 +3246,6 @@ msgstr "αρχική σελίδα"
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:160
 msgid "iCal"
 msgstr "iCal"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:290
-msgid "image_icon"
-msgstr "image_icon"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:285
-msgid "image_large"
-msgstr "image_large"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:291
-msgid "image_listing"
-msgstr "image_listing"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:287
-msgid "image_mini"
-msgstr "image_mini"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:286
-msgid "image_preview"
-msgstr "image_preview"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:288
-msgid "image_thumb"
-msgstr "image_thumb"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:292
-msgid "image_thumb (videos get play button and black borders applied correctly)"
-msgstr "image_thumb (videos get play button and black borders applied correctly)"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:289
-msgid "image_tile"
-msgstr "image_tile"
-
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:293
-msgid "image_wide (only available for videos)"
-msgstr "image_wide (διαθέσιμη μόνο για βίντεο)"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:69
 msgid "in"
@@ -4990,22 +3259,9 @@ msgstr "σε αυτό το φάκελο και υπό αυτό το portlet εί
 msgid "in this folder and under this portlet is visible"
 msgstr "σε αυτόν τον φάκελο και υπό αυτό το portlet είναι ορατές"
 
-#: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:31
-msgid "indicator"
-msgstr "δείκτης"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:54
-msgid "indicator assessments"
-msgstr "Αξιολόγηση δείκτη"
-
-#: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:32
-msgid "indicator manager"
-msgstr "διαχειριστής δείκτη "
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:59
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:164
-msgid "indicator specification"
-msgstr "προδιαγραφή δείκτη"
+#: eea.design/eea/design/browser/templates/cross_site_top.pt:56
+msgid "items"
+msgstr ""
 
 #. Default: "Advanced Search…"
 #: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:106
@@ -5027,10 +3283,6 @@ msgstr "Δεν βρέθηκαν ταιριαστά αποτελέσματα"
 msgid "label_show_all"
 msgstr "Δείξτε όλα τα στοιχεία"
 
-#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:71
-msgid "last converted:"
-msgstr "πιό πρόσφατη μετατροπή:"
-
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:71
 #: eea.design/eea/design/browser/templates/document_byline.pt:71
 #: eea.design/eea/design/skins/eea_design/folder_listing.pt:211
@@ -5042,30 +3294,19 @@ msgstr "πιό πρόσφατη τροποποίηση"
 msgid "legend_livesearch"
 msgstr "Γρήγορη αναζήτηση &#8595;"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:339
-msgid "list of all icons available"
-msgstr "κατάλογος όλων των διαθέσιμων εικόνων"
-
 #: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:591
 msgid "loading data ..."
 msgstr "φόρτωση δεδομένων...."
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:21
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:321
 msgid "mailto link"
 msgstr "σύνδεση mailto"
-
-#. Default: "Metadata"
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:168
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/eeafigure_view.pt:116
-msgid "metadata"
-msgstr ""
 
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:29
 msgid "more"
 msgstr "περισσότερα"
 
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:19
+#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:21
 msgid "more green tips"
 msgstr "περισσότερες  πράσινες συμβουλές"
 
@@ -5086,34 +3327,16 @@ msgid "move portlet up or down"
 msgstr "μετακινήσετε το portlet πάνω ή  κάτω"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:24
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:324
 msgid "new EEA domain link"
 msgstr "νέος σύνδεσμος του τομέα του ΕΟΠ"
-
-#: eea.indicators/eea/indicators/browser/templates/assessment/create_version.pt:23
-msgid "newest"
-msgstr "πιό πρόσφατο"
 
 #: eea.design/eea/design/browser/templates/cross_site_top.pt:54
 msgid "next"
 msgstr ""
 
-#: eea.indicators/eea/indicators/browser/templates/assessment/view.pt:185
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:316
-msgid "no contact info"
-msgstr "κανένα στοιχείο επικοινωνίας"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/fragment_metadata.pt:43
-msgid "no user info"
-msgstr "καμμία πληροφορία χρήστη"
-
 #: eea.design/eea/design/browser/templates/searchbox_cms.pt:37
 msgid "only in current section"
 msgstr "μόνο στην τρέχουσα ενότητα"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:45
-msgid "organisation URL:"
-msgstr " URL Οργανισμού:"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:119
 msgid "original"
@@ -5131,9 +3354,9 @@ msgstr "portlet_themes.pt"
 msgid "powered by The Google AJAX Search API"
 msgstr "τροφοδοτείται από το Google AJAX Search API"
 
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:74
-msgid "records:"
-msgstr "εγγραφές:"
+#: eea.design/eea/design/browser/templates/cross_site_top.pt:55
+msgid "previous"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:201
 msgid "registration form"
@@ -5156,44 +3379,16 @@ msgid "section below"
 msgstr "παρακάτω ενότητα"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:18
-#: eea.design/eea/design/skins/eeadesign_style_docs/design_elements.pt:318
 msgid "secure link"
 msgstr "ασφαλής σύνδεση"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_view.pt:40
-msgid "see more"
-msgstr "δείτε περισσότερα"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisations_overview.pt:48
-msgid "see more ..."
-msgstr "δείτε περισσότερα ..."
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:43
 msgid "should you have any questions, please use this email:"
 msgstr "αν έχετε οποιεσδήποτε απορίες, παρακαλούμε να χρησιμοποιήσετε αυτό το email:"
 
-#: eea.indicators/eea/indicators/browser/templates/ims_overview.pt:33
-msgid "state"
-msgstr "κατάσταση"
-
-#: eea.dataservice/eea/dataservice/converter/convert_figures.pt:63
-msgid "state:"
-msgstr "κατάσταση:"
-
-#. Default: "Required"
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/countries_widget.pt:25
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/obligations_widget.pt:32
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/organisation_widget.pt:33
-msgid "title_required"
-msgstr ""
-
 #: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:41
 msgid "total"
 msgstr "Σύνολο"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:355
-msgid "unplanned as usual :D"
-msgstr "απρογραμμάτιστη ως συνήθως: D"
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:87
 msgid "use this field if the report type is not listed in the previous Serial Title field"
@@ -5210,14 +3405,6 @@ msgstr "επισκεφθείτε την ιστοσελίδα SOER 2010"
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:181
 msgid "we can send you a new one"
 msgstr "μπορούμε να σας στείλουμε ένα νέο"
-
-#: eea.indicators/eea/indicators/browser/templates/specification/view.pt:348
-msgid "year"
-msgstr "έτος"
-
-#: eea.dataservice/eea/dataservice/skins/dataservice_templates/dataset_view.pt:495
-msgid "year:"
-msgstr "έτος:"
 
 #: eea.reports/eea/reports/browser/report.pt:248
 msgid "your nearest sales agent"
