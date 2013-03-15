@@ -113,10 +113,6 @@ msgstr "Достъп до нашите данни чрез семантичен 
 msgid "Across environmental issues and sectors"
 msgstr "През въпроси, свързани с околната среда и секторите"
 
-#: EEAContentTypes/skins/EEAContentTypes/workflow_action_message.pt:6
-msgid "Action message for ${type} with scheduled publishing date ${date}"
-msgstr "Съобщение за действие ${type} с планираната дата на публикуване ${date}"
-
 #: eea.promotion/build/lib/eea/promotion/browser/admin.pt:20
 #: eea.promotion/eea/promotion/browser/admin.pt:20
 msgid "Active"
@@ -247,11 +243,11 @@ msgstr "Всяка версия."
 msgid "Application form"
 msgstr "Формуляр за кандидатстване"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:119
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:122
 msgid "Apps for your mobile"
 msgstr "Приложения за мобилния Ви телефон"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:89
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:91
 msgid "Archive"
 msgstr "Архив"
 
@@ -262,7 +258,7 @@ msgstr "Архив или заглавие за повече елементи"
 msgid "Article"
 msgstr ""
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:111
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:113
 msgid "Ask your question"
 msgstr "Задайте Вашия въпрос"
 
@@ -282,10 +278,6 @@ msgstr "Автор"
 #: eea.reports/eea/reports/skins/reports_templates/report_file.pt:78
 msgid "Automatically update properties from pdf publication file metadata?"
 msgstr "Автоматично актуализирай свойствата от PDF публикацията на файла с метаданни?"
-
-#: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:7
-msgid "Available at:"
-msgstr "На разположение на:"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:36
 msgid "Available icons based on file extension"
@@ -384,7 +376,7 @@ msgstr "България "
 msgid "CC By 2.5"
 msgstr "CC с 2,5"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:78
+#: eea.design/eea/design/browser/templates/colophon.pt:80
 msgid "CMS login"
 msgstr "CMS вход"
 
@@ -450,7 +442,7 @@ msgstr "Смекчаване на последиците от изменение
 msgid "Coasts and seas"
 msgstr "Брегове и морета"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:86
+#: eea.design/eea/design/browser/templates/colophon.pt:88
 msgid "Code for developers"
 msgstr "Код за разработчици"
 
@@ -474,10 +466,6 @@ msgstr "Потвърдете и изпратете"
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:24
 msgid "Confirm your event"
 msgstr "Потвърдете вашето събитие"
-
-#: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:5
-msgid "Confirmation message for <strong>${type}</strong> with scheduled publishing date <strong>${date}</strong>"
-msgstr "Съобщение за потвърждение на <strong> ${type} </ STRONG> с планирана дата на публикуване <strong>${date} </strong>"
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:55
 msgid "Contact"
@@ -609,7 +597,7 @@ msgstr "Създаване на нов"
 msgid "Created"
 msgstr "Създаден"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:69
+#: eea.design/eea/design/browser/templates/colophon.pt:71
 msgid "Creative Commons Attribution License"
 msgstr "Лиценз за признаване на народното творчество"
 
@@ -679,7 +667,7 @@ msgstr "Изтрий"
 msgid "Delete current file"
 msgstr "Изтриване на текущия файл"
 
-#: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:22
+#: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:62
 msgid "Delicious"
 msgstr "Възхитителен"
 
@@ -718,7 +706,7 @@ msgstr "Показване на проследяването като текст
 msgid "Distinct:"
 msgstr "Отделна:"
 
-#: eea.design/eea/design/skins/eea_design/main_template.pt:99
+#: eea.design/eea/design/skins/eea_design/main_template.pt:103
 msgid "Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!"
 msgstr "Направете нещо за нашата планета, отпечатайте тази страница само ако е необходимо. Колкото и малко да е ефекта може да е огромен, когато милиони хора го правят!"
 
@@ -778,7 +766,7 @@ msgstr ""
 msgid "EEA Faceted Navigation Tool"
 msgstr "ЕАОС Инструмент за навигация по различни аспекти"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:112
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:114
 msgid "EEA Forum, FAQs, discuss and share"
 msgstr "ЕАОС форум, често задавани въпроси, обсъдете и споделете"
 
@@ -814,7 +802,7 @@ msgstr "Списък на служителите на ЕАОС"
 msgid "EEA Subscriptions"
 msgstr "ЕАОС Абонаменти"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:63
+#: eea.design/eea/design/browser/templates/colophon.pt:65
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:150
 msgid "EEA Web Team"
 msgstr "Екип за уеб сайта на ЕАОС "
@@ -839,7 +827,7 @@ msgstr "Мрежа на агенциите по защита на околнат
 msgid "EPUB format"
 msgstr "EPUB формат"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:37
+#: eea.design/eea/design/browser/templates/colophon.pt:39
 msgid "EU flag"
 msgstr "Знамето на ЕС"
 
@@ -954,7 +942,7 @@ msgstr "Атлас на околната среда"
 msgid "Environmental events around the world"
 msgstr "Събития от околната среда по целия свят"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:120
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:123
 msgid "Environmental information anywhere"
 msgstr "Информацията за околната среда навсякъде"
 
@@ -1003,7 +991,7 @@ msgstr "Европейската агенция по околна среда (Е
 msgid "European Topic Centres (ETCs)"
 msgstr "Европейски тематични центрове (ЕТЦ)"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:37
+#: eea.design/eea/design/browser/templates/colophon.pt:39
 msgid "European Union Flag"
 msgstr "Знаме на Европейския съюз"
 
@@ -1052,7 +1040,7 @@ msgstr "FTP връзка"
 msgid "Facebook icon"
 msgstr "Facebook икона"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:90
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:92
 msgid "Featured article"
 msgstr "Характерна статия"
 
@@ -1225,10 +1213,6 @@ msgstr "Приятелско име"
 msgid "Front Page"
 msgstr "Главна страница"
 
-#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:79
-msgid "Full screen"
-msgstr "Цял екран"
-
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:170
 msgid "Fullscreen image"
 msgstr "Изображение на цял екран"
@@ -1342,10 +1326,6 @@ msgstr "Ако е избрано, промоцията е показана на 
 #: eea.reports/eea/reports/subtypes/report.py:265
 msgid "If selected, this item will not appear in the navigation tree"
 msgstr "Ако бъде избран, тази позиция няма да се появи в дървото за навигация"
-
-#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:83
-msgid "If the map application above does not provide an integrated full screen feature (usually in the upper right corner), then you can try with the following ${full-screen-mode}"
-msgstr "Ако прилагането на картата по-горе не предоставя интегриран пълен екран (обикновено в горния десен ъгъл), тогава можете да опитате следното ${full-screen-mode}"
 
 #: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
@@ -1508,7 +1488,6 @@ msgstr "Основни факти и съобщения"
 msgid "Key message"
 msgstr "Ключово послание"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:17
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:152
 msgid "Kongens Nytorv 6, 1050, Copenhagen K, Denmark."
 msgstr "Koнгенс Нюторв 6, 1050, K Копенхаген, Дания."
@@ -1567,7 +1546,7 @@ msgstr "Латвия"
 msgid "Legacy portlets"
 msgstr "Допустими портлети"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:33
+#: eea.design/eea/design/browser/templates/colophon.pt:35
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:155
 msgid "Legal notice"
 msgstr "Правна информация"
@@ -1643,10 +1622,6 @@ msgstr "Влезте, за да добавяте коментари"
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:89
 msgid "Login Name"
 msgstr "Потребителско име"
-
-#: EEAContentTypes/skins/EEAContentTypes/workflow_action_message.pt:10
-msgid "Login at:"
-msgstr "Влез в:"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:22
 msgid "Login failed"
@@ -1880,10 +1855,6 @@ msgstr "Норвегия"
 msgid "Note: new versions are available!"
 msgstr "Забележка: Новите версии са на разположение!"
 
-#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:46
-msgid "Note: this webpage has been archived."
-msgstr "Забележка: тази страница е архивирана."
-
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:148
 msgid "Nothing published in ${title}&hellip;"
 msgstr "Нищо публикувано в ${title}&помощ;"
@@ -1980,7 +1951,7 @@ msgstr "Пауза"
 msgid "Pause slideshow"
 msgstr "Пауза за шоу със слайдове"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:21
+#: eea.design/eea/design/browser/templates/colophon.pt:23
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:154
 msgid "Phone:"
 msgstr "Телефон:"
@@ -2175,14 +2146,9 @@ msgstr "Рекурсивна недействителност"
 msgid "Reference manuals"
 msgstr "Ръководство за справки"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:91
+#: eea.design/eea/design/browser/templates/colophon.pt:93
 msgid "Refresh this page"
 msgstr "Обновете тази страница"
-
-#: EEAContentTypes/skins/EEAContentTypes/workflow_action_message.pt:18
-#: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:15
-msgid "Regards<br />EEA Web Team"
-msgstr "Поздрави <br /> уеб екип на ЕАОС"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:17
 msgid "Regions"
@@ -2474,8 +2440,8 @@ msgid "See older versions."
 msgstr "Вижте по-стари версии."
 
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:26
-msgid "Select an item bellow to inherit faceted navigation configuration"
-msgstr "Изберете по-долу елемент, за да наследи аспекта на конфигурация за навигация"
+msgid "Select an item below to inherit faceted navigation configuration"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:43
 msgid "Select from existing tags."
@@ -2550,7 +2516,7 @@ msgstr "Словакия"
 msgid "Slovenia"
 msgstr "Словения"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:82
+#: eea.design/eea/design/browser/templates/colophon.pt:84
 msgid "Software updates history"
 msgstr "Актуализации на софтуера"
 
@@ -2676,7 +2642,7 @@ msgstr "Благодаря Ви за вашето запитване"
 msgid "Thank you."
 msgstr "Благодаря Ви. "
 
-#: eea.design/eea/design/browser/templates/colophon.pt:29
+#: eea.design/eea/design/browser/templates/colophon.pt:31
 msgid "The European Environment Agency (EEA) is an agency of the European Union."
 msgstr "Европейската агенция по околна среда (ЕАОС) е агенция на Европейския съюз. "
 
@@ -2857,7 +2823,7 @@ msgid "Topic"
 msgstr "Тема"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_macros.pt:50
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:98
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:100
 msgid "Topic in the spotlight"
 msgstr "Тема в светлината на прожекторите"
 
@@ -3004,10 +2970,6 @@ msgstr "Вижте целия разширен Често Задавани Въ�
 #: eea.relations/eea/relations/browser/template/tool.pt:24
 msgid "View full graph"
 msgstr "Виж пълна графика"
-
-#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:61
-msgid "View larger map on Eye on Earth"
-msgstr "Вижте по-голяма карта на Поглед върху Земята"
 
 #: EEAContentTypes/skins/EEAContentTypes/promolink_view.pt:15
 msgid "Visit"
@@ -3209,7 +3171,12 @@ msgstr "връзка за обаждане към"
 msgid "delete portlet"
 msgstr "изтриване портлет"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:62
+#. Default: "Kongens Nytorv 6<br /> 1050 Copenhagen K<br /> Denmark"
+#: eea.design/eea/design/browser/templates/colophon.pt:17
+msgid "eea_address"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/colophon.pt:64
 msgid "engineered by"
 msgstr "проектирана от"
 
@@ -3224,10 +3191,6 @@ msgstr "външна връзка"
 #: eea.design/eea/design/skins/eea_design/folder_listing.pt:160
 msgid "from ${start} to ${end}"
 msgstr "от ${start} до ${end}"
-
-#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:84
-msgid "full screen mode"
-msgstr "режим цял екран"
 
 #: EEAContentTypes/skins/EEAContentTypes/document_with_flash_view.pt:18
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_fixed_width_view.pt:23

@@ -113,11 +113,6 @@ msgstr "Přístup našich dat přes sémantické API"
 msgid "Across environmental issues and sectors"
 msgstr "V celé problematice životního prostředí a sektorů"
 
-#: EEAContentTypes/skins/EEAContentTypes/workflow_action_message.pt:6
-#, fuzzy
-msgid "Action message for ${type} with scheduled publishing date ${date}"
-msgstr "Zpráva o dění pro ${type} s plánovaným datem zveřejnění ${date}"
-
 #: eea.promotion/build/lib/eea/promotion/browser/admin.pt:20
 #: eea.promotion/eea/promotion/browser/admin.pt:20
 msgid "Active"
@@ -248,11 +243,11 @@ msgstr "Žádná verze."
 msgid "Application form"
 msgstr "Přihláška"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:119
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:122
 msgid "Apps for your mobile"
 msgstr "Aplikace pro váš mobil"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:89
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:91
 msgid "Archive"
 msgstr "Archivovat"
 
@@ -263,7 +258,7 @@ msgstr "Archiv nebo titul pro více položek"
 msgid "Article"
 msgstr ""
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:111
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:113
 msgid "Ask your question"
 msgstr "Zeptejte se"
 
@@ -283,10 +278,6 @@ msgstr "Autor"
 #: eea.reports/eea/reports/skins/reports_templates/report_file.pt:78
 msgid "Automatically update properties from pdf publication file metadata?"
 msgstr "Automaticky aktualizovat vlastnosti z metadat PDF publikace?"
-
-#: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:7
-msgid "Available at:"
-msgstr "Dostupné na:"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:36
 msgid "Available icons based on file extension"
@@ -386,7 +377,7 @@ msgstr "Bulharsko"
 msgid "CC By 2.5"
 msgstr "CC 2.5"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:78
+#: eea.design/eea/design/browser/templates/colophon.pt:80
 msgid "CMS login"
 msgstr "CMS přihlášení"
 
@@ -452,7 +443,7 @@ msgstr "Zmírnění změny klimatu"
 msgid "Coasts and seas"
 msgstr "Pobřeží a moře"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:86
+#: eea.design/eea/design/browser/templates/colophon.pt:88
 msgid "Code for developers"
 msgstr "Kód pro vývojáře"
 
@@ -476,10 +467,6 @@ msgstr "Potvrdit a odeslat"
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:24
 msgid "Confirm your event"
 msgstr "Potvrdit svou akci"
-
-#: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:5
-msgid "Confirmation message for <strong>${type}</strong> with scheduled publishing date <strong>${date}</strong>"
-msgstr "Potvrzení zprávy pro <strong>${type}</ strong> s plánovaným datem zveřejnění <strong>${date}</ strong>"
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:55
 msgid "Contact"
@@ -611,7 +598,7 @@ msgstr "Vytvořit nový..."
 msgid "Created"
 msgstr "Vytvořen"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:69
+#: eea.design/eea/design/browser/templates/colophon.pt:71
 msgid "Creative Commons Attribution License"
 msgstr "Creative Commons Attribution License"
 
@@ -681,7 +668,7 @@ msgstr "Smazat"
 msgid "Delete current file"
 msgstr "Smazat aktuální soubor"
 
-#: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:22
+#: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:62
 msgid "Delicious"
 msgstr "Skvělý"
 
@@ -720,7 +707,7 @@ msgstr "Zobrazit zpětný záznam jako text"
 msgid "Distinct:"
 msgstr "Zřetelné:"
 
-#: eea.design/eea/design/skins/eea_design/main_template.pt:99
+#: eea.design/eea/design/skins/eea_design/main_template.pt:103
 msgid "Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!"
 msgstr "Udělejte něco pro naši planetu, vytiskněte tuto stránku jen v případě potřeby. I malá akce může mít obrovský význam, když ji udělají miliony lidí!"
 
@@ -780,7 +767,7 @@ msgstr ""
 msgid "EEA Faceted Navigation Tool"
 msgstr "EEA Faceted Navigation Tool"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:112
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:114
 msgid "EEA Forum, FAQs, discuss and share"
 msgstr "EEA Fórum, často kladené dotazy, diskutovat a sdílet"
 
@@ -816,7 +803,7 @@ msgstr "EEA Seznam pracovníků"
 msgid "EEA Subscriptions"
 msgstr "EEA Předplatné"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:63
+#: eea.design/eea/design/browser/templates/colophon.pt:65
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:150
 msgid "EEA Web Team"
 msgstr "EEA Webový tým"
@@ -841,7 +828,7 @@ msgstr "síť EPA"
 msgid "EPUB format"
 msgstr "Formát EPUB"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:37
+#: eea.design/eea/design/browser/templates/colophon.pt:39
 msgid "EU flag"
 msgstr "Vlajka Evropské unie"
 
@@ -956,7 +943,7 @@ msgstr "Atlas životního prostředí"
 msgid "Environmental events around the world"
 msgstr "Environmentální akce po celém světě"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:120
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:123
 msgid "Environmental information anywhere"
 msgstr "Informace o životním prostředí kdekoliv"
 
@@ -1005,7 +992,7 @@ msgstr "Evropská agentura pro životní prostředí (EEA)"
 msgid "European Topic Centres (ETCs)"
 msgstr "Evropská tematická střediska (ETCs)"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:37
+#: eea.design/eea/design/browser/templates/colophon.pt:39
 msgid "European Union Flag"
 msgstr "Vlajka Evropské unie"
 
@@ -1054,7 +1041,7 @@ msgstr "FTP odkaz"
 msgid "Facebook icon"
 msgstr "Facebook icon"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:90
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:92
 msgid "Featured article"
 msgstr "Významný článek"
 
@@ -1227,10 +1214,6 @@ msgstr "Přátelské jméno"
 msgid "Front Page"
 msgstr "Přední strana"
 
-#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:79
-msgid "Full screen"
-msgstr "Celá obrazovka"
-
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:170
 msgid "Fullscreen image"
 msgstr "Obrázek na celou obrazovku"
@@ -1344,10 +1327,6 @@ msgstr "Pokud je zatrženo, je na všech stránkách zobrazena podpora v horní 
 #: eea.reports/eea/reports/subtypes/report.py:265
 msgid "If selected, this item will not appear in the navigation tree"
 msgstr "Pokud je zatrženo, neobjeví se tato položka v navigačním stromě."
-
-#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:83
-msgid "If the map application above does not provide an integrated full screen feature (usually in the upper right corner), then you can try with the following ${full-screen-mode}"
-msgstr "Pokud výše zobrazená mapová aplikace neposkytuje odkaz na zobrazení přes celou obrazovku (obvykle v pravém horním rohu), pak můžete zkusit následující ${full-screen-mode}"
 
 #: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
@@ -1510,7 +1489,6 @@ msgstr "Klíčová fakta a sdělení"
 msgid "Key message"
 msgstr "Klíčové sdělení"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:17
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:152
 msgid "Kongens Nytorv 6, 1050, Copenhagen K, Denmark."
 msgstr "Kongens Nytorv 6, 1050, Copenhagen K, Dánsko."
@@ -1569,7 +1547,7 @@ msgstr "Lotyšsko"
 msgid "Legacy portlets"
 msgstr "Starší portlety"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:33
+#: eea.design/eea/design/browser/templates/colophon.pt:35
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:155
 msgid "Legal notice"
 msgstr "Právní upozornění"
@@ -1645,10 +1623,6 @@ msgstr "Přihlásit se pro přidání komentáře"
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:89
 msgid "Login Name"
 msgstr "Přihlašovací jméno:"
-
-#: EEAContentTypes/skins/EEAContentTypes/workflow_action_message.pt:10
-msgid "Login at:"
-msgstr "Přihlásit se na adrese:"
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:22
 msgid "Login failed"
@@ -1882,10 +1856,6 @@ msgstr "Norsko"
 msgid "Note: new versions are available!"
 msgstr "Poznámka: k dispozici jsou nové verze!"
 
-#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:46
-msgid "Note: this webpage has been archived."
-msgstr "Poznámka: Tato webová stránka byla archivována."
-
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:148
 msgid "Nothing published in ${title}&hellip;"
 msgstr "Nic není publikováno v {title} ..."
@@ -1983,7 +1953,7 @@ msgstr "Pozastavit"
 msgid "Pause slideshow"
 msgstr "Pozastavit slideshow"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:21
+#: eea.design/eea/design/browser/templates/colophon.pt:23
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:154
 msgid "Phone:"
 msgstr "Telefon:"
@@ -2180,14 +2150,9 @@ msgstr "Rekurzivní zneplatnění"
 msgid "Reference manuals"
 msgstr "Referenční příručky"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:91
+#: eea.design/eea/design/browser/templates/colophon.pt:93
 msgid "Refresh this page"
 msgstr "Aktualizovat tuto stránku"
-
-#: EEAContentTypes/skins/EEAContentTypes/workflow_action_message.pt:18
-#: EEAContentTypes/skins/EEAContentTypes/workflow_confirmation_message.pt:15
-msgid "Regards<br />EEA Web Team"
-msgstr "EEA Web Team"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:17
 msgid "Regions"
@@ -2480,9 +2445,8 @@ msgid "See older versions."
 msgstr "Viz starší verze."
 
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:26
-#, fuzzy
-msgid "Select an item bellow to inherit faceted navigation configuration"
-msgstr "Vyberte položku níže pro zachování konfigurace navigace"
+msgid "Select an item below to inherit faceted navigation configuration"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:43
 msgid "Select from existing tags."
@@ -2557,7 +2521,7 @@ msgstr "Slovensko"
 msgid "Slovenia"
 msgstr "Slovinsko"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:82
+#: eea.design/eea/design/browser/templates/colophon.pt:84
 msgid "Software updates history"
 msgstr "Historie aktualizace softwaru"
 
@@ -2684,7 +2648,7 @@ msgstr "Děkujeme Vám za vaši žádost"
 msgid "Thank you."
 msgstr "Děkujeme Vám."
 
-#: eea.design/eea/design/browser/templates/colophon.pt:29
+#: eea.design/eea/design/browser/templates/colophon.pt:31
 msgid "The European Environment Agency (EEA) is an agency of the European Union."
 msgstr "Evropská agentura pro životní prostředí (EEA) je agenturou Evropské unie."
 
@@ -2867,7 +2831,7 @@ msgid "Topic"
 msgstr "Téma"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_macros.pt:50
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:98
+#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:100
 msgid "Topic in the spotlight"
 msgstr "Hlavní téma"
 
@@ -3017,10 +2981,6 @@ msgstr "Zobrazit všechny rozbalené otázky"
 #: eea.relations/eea/relations/browser/template/tool.pt:24
 msgid "View full graph"
 msgstr "Zobrazit celý graf"
-
-#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:61
-msgid "View larger map on Eye on Earth"
-msgstr "Zobrazit větší mapu na stránkách Eye on Earth"
 
 #: EEAContentTypes/skins/EEAContentTypes/promolink_view.pt:15
 msgid "Visit"
@@ -3222,7 +3182,12 @@ msgstr "volejte zde"
 msgid "delete portlet"
 msgstr "odstranit portlet"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:62
+#. Default: "Kongens Nytorv 6<br /> 1050 Copenhagen K<br /> Denmark"
+#: eea.design/eea/design/browser/templates/colophon.pt:17
+msgid "eea_address"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/colophon.pt:64
 msgid "engineered by"
 msgstr "navrhovaný"
 
@@ -3237,10 +3202,6 @@ msgstr "externí odkaz"
 #: eea.design/eea/design/skins/eea_design/folder_listing.pt:160
 msgid "from ${start} to ${end}"
 msgstr "od ${start} do ${end}"
-
-#: EEAContentTypes/skins/EEAContentTypes/gis_view.pt:84
-msgid "full screen mode"
-msgstr "režim celé obrazovky"
 
 #: EEAContentTypes/skins/EEAContentTypes/document_with_flash_view.pt:18
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_fixed_width_view.pt:23
