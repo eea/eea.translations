@@ -1,0 +1,11 @@
+============================
+eea.translations installation
+============================
+
+Addition of translations CSS resource:
+  >>> translations_css = ''
+  >>> for k in self.portal.portal_css.getResources():
+  ...    if k.getId() == '++resource++eea.translations-logo.css':
+  ...        translations_css = k.getId()
+  >>> translations_css
+  '++resource++eea.translations-logo.css'
