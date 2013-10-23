@@ -15,10 +15,6 @@ msgstr ""
 "Domain: DOMAIN\n"
 "X-Generator: Poedit 1.5.3\n"
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:33
-msgid "${context_icon} Manage portlets for ${context_title}"
-msgstr "${context_icon} hallinta portlet for ${context_title}"
-
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:92
 msgid "${date} ${linebreak} from ${starttime} to ${endtime}"
 msgstr "${date} ${linebreak} alkaen ${starttime} on ${endtime}"
@@ -40,15 +36,19 @@ msgstr "${number} tapahtumia kartalla"
 msgid "${number} items matching your search terms"
 msgstr "${number} hakutulosta hakutermi"
 
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:70
+msgid "${sign-up} to receive our reports (print and/or electronic) and quarterly e-newsletter."
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:57
 msgid "${startdate} to ${linebreak} ${enddate}"
 msgstr "${startdate} on ${linebreak} ${enddate}"
 
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:133
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:136
 msgid "${start}"
 msgstr "${start}"
 
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:148
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:151
 msgid "${start} from ${starttime} to ${end}"
 msgstr "${start} alkaen ${starttime} ja ${end}"
 
@@ -77,18 +77,14 @@ msgid "(from ${start} to ${end})"
 msgstr "(Alkaen ${start} ${end} asti )"
 
 #: EEAContentTypes/browser/crop/cropimage.pt:24
-msgid ""
-"*Note: Hitting the crop button will replace the original image with this "
-"cropped image"
-msgstr ""
-"* Huom: Painamalla rajaa-painiketta korvaat alkuperäisen kuvan rajaamallasi "
-"kuvalla"
+msgid "*Note: Hitting the crop button will replace the original image with this cropped image"
+msgstr "* Huom: Painamalla rajaa-painiketta korvaat alkuperäisen kuvan rajaamallasi kuvalla"
 
-#: EEAContentTypes/browser/reorder.pt:91
+#: EEAContentTypes/browser/reorder.pt:92
 msgid "- (restricted to authenticated)"
 msgstr "- (varattu virallisille)"
 
-#: EEAContentTypes/browser/reorder.pt:126
+#: EEAContentTypes/browser/reorder.pt:128
 msgid "- [Media: ${media}]"
 msgstr "- [Media: ${media}]"
 
@@ -97,13 +93,8 @@ msgid "A letter of motivation"
 msgstr "Vapaamuotoinen hakemus"
 
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_popup_view.pt:22
-msgid ""
-"A new window has been opened with the flash application. <br /> If you don't "
-"see the window please check your browser preferences to allow popup windows. "
-"You'll then need to reload this page."
-msgstr ""
-"Uusi ikkuna on avattu Flash-sovelluksella. <br /> Jos et näe ikkunaa, vaihda "
-"selaimen asetukset sallimalla ponnahdusikkunat ja lataa sivu uudestaan."
+msgid "A new window has been opened with the flash application. <br /> If you don't see the window please check your browser preferences to allow popup windows. You'll then need to reload this page."
+msgstr "Uusi ikkuna on avattu Flash-sovelluksella. <br /> Jos et näe ikkunaa, vaihda selaimen asetukset sallimalla ponnahdusikkunat ja lataa sivu uudestaan."
 
 #: eea.reports/eea/reports/profiles/default/types/Report.xml
 msgid "A report publication."
@@ -123,10 +114,10 @@ msgid "Across environmental issues and sectors"
 msgstr "ympäristökysymysten ja -alojen välillä"
 
 #: eea.promotion/build/lib/eea/promotion/browser/admin.pt:20
-#: eea.promotion/eea/promotion/browser/admin.pt:20
 msgid "Active"
 msgstr "Aktiivinen"
 
+#: EEAContentTypes/skins/EEAContentTypes/portlet_cms_activity.pt:14
 msgid "Activity lists"
 msgstr "Luettelo toiminnasta"
 
@@ -134,7 +125,7 @@ msgstr "Luettelo toiminnasta"
 msgid "Add Translation"
 msgstr "Lisää käännös"
 
-#: eea.design/eea/design/browser/templates/comments.pt:169
+#: eea.design/eea/design/browser/templates/comments.pt:175
 msgid "Add comment"
 msgstr "Lisää kommentti"
 
@@ -173,7 +164,7 @@ msgid "Agriculture"
 msgstr "Maatalous"
 
 #: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:144
-#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:144
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:152
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:113
 msgid "Air pollution"
 msgstr "Ilmansaastuminen"
@@ -182,9 +173,15 @@ msgstr "Ilmansaastuminen"
 msgid "Air pollution and Climate Change mitigation (ACM)"
 msgstr "Ilmansaastumisen ja ilmastonmuutoksen hillintä (ACM)"
 
+msgid "Air pollution by ozone"
+msgstr ""
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:33
 msgid "Albania"
 msgstr "Albania"
+
+msgid "Albanian"
+msgstr ""
 
 #: eea/themecentre/skins/themecentre_templates/mediacentre_macros.pt:8
 msgid "All"
@@ -195,7 +192,7 @@ msgid "All ${number} ${title}&hellip;"
 msgstr "Kaikki ${number} ${title} ..."
 
 #: eea.design/eea/design/skins/eea_design/folder_accordion_view.pt:41
-#: eea.design/eea/design/skins/eea_design/folder_tabs_view.pt:39
+#: eea.design/eea/design/skins/eea_design/folder_tabs_view.pt:42
 msgid "All Items"
 msgstr "Kaikki "
 
@@ -243,12 +240,8 @@ msgstr "Vaihtoehto"
 
 #: NavigationManager/skins/NavigationManager/sitemap.pt:16
 #: eea/themecentre/skins/themecentre_templates/overview.pt:16
-msgid ""
-"An overview of the available content on this site. Keep the pointer still "
-"over an item for a few seconds to get its description."
-msgstr ""
-"Yleiskatsaus tämän sivuston sisällöstä. Pidä kohdistinta kohteen päällä "
-"muutaman sekunnin ajan saadaksesi siitä tarkemman kuvauksen."
+msgid "An overview of the available content on this site. Keep the pointer still over an item for a few seconds to get its description."
+msgstr "Yleiskatsaus tämän sivuston sisällöstä. Pidä kohdistinta kohteen päällä muutaman sekunnin ajan saadaksesi siitä tarkemman kuvauksen."
 
 msgid "Answer policy questions"
 msgstr "Vastaa toimintalinjoja koskeviin kysymyksiin"
@@ -268,11 +261,14 @@ msgstr "Hakulomake (Application Form)"
 msgid "Apps for your mobile"
 msgstr "mobiilisovellukset"
 
+msgid "Arabic"
+msgstr ""
+
 #: eea.design/eea/design/skins/eea_design/frontpage_view.pt:91
 msgid "Archive"
 msgstr "Arkisto"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:36
+#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:53
 msgid "Archive or title for more items"
 msgstr "Arkisto tai nimi useammille kohteille"
 
@@ -310,6 +306,9 @@ msgstr "Päivitä ominaisuudet automaattisesti pdf-julkaisun metatiedoista?"
 msgid "Available icons based on file extension"
 msgstr "Käytettävissä olevat kuvakkeet perustuen tiedostotunnisteeseen"
 
+msgid "Available topics"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes/callfortender_view.pt:25
 msgid "Award notice"
 msgstr "Ilmoitus valinnasta"
@@ -345,7 +344,7 @@ msgid "Best regards"
 msgstr "Parhain terveisin,"
 
 #: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:173
-#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:173
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:181
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:30
 msgid "Biodiversity"
 msgstr "luonnon monimuotoisuus"
@@ -358,9 +357,18 @@ msgstr "luonnon monimuotoisuus (BD)"
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnia ja Hertsegovina"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:52
+msgid "Bosnian"
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:70
 msgid "Box Name (Title that shows up)"
 msgstr "laatikon nimi (Nimi joka näkyy)"
+
+msgid "Briefing"
+msgstr ""
+
+msgid "Brochure"
+msgstr ""
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:13
 msgid "Browse SOER geographically"
@@ -395,6 +403,9 @@ msgstr "Selaa ..."
 msgid "Bulgaria"
 msgstr "Bulgaria"
 
+msgid "Bulgarian"
+msgstr ""
+
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:61
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:51
 msgid "CC By 2.5"
@@ -412,7 +423,7 @@ msgstr "Välimuisti"
 msgid "Carpathians"
 msgstr "Karpaatit"
 
-#: eea.design/eea/design/browser/templates/language_selector.pt:13
+#: eea.design/eea/design/browser/templates/language_selector.pt:14
 msgid "Change language"
 msgstr "Vaihda kieli"
 
@@ -420,37 +431,28 @@ msgstr "Vaihda kieli"
 msgid "Channel"
 msgstr "Kanava"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:149
-msgid ""
-"Check this to have your email address filled in automatically when you log "
-"in later."
-msgstr ""
-"valitse tämä niin sähköpostiosoitteesi täytetään automaattisesti kun "
-"kirjaudut sisään myöhemmin."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:214
+msgid "Check this to have your email address filled in automatically when you log in later."
+msgstr "valitse tämä niin sähköpostiosoitteesi täytetään automaattisesti kun kirjaudut sisään myöhemmin."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:140
-msgid ""
-"Check this to have your user name filled in automatically when you log in "
-"later."
-msgstr ""
-"valitse tämä niin käyttäjätunnuksesi täytetään automaattisesti kun kirjaudut "
-"sisään myöhemmin."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:205
+msgid "Check this to have your user name filled in automatically when you log in later."
+msgstr "valitse tämä niin käyttäjätunnuksesi täytetään automaattisesti kun kirjaudut sisään myöhemmin."
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:33
 msgid "Chemicals"
 msgstr "Kemikaalit"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:43
+msgid "Chinese"
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:36
 msgid "Choose a newsletter"
 msgstr "Valitse uutiskirje"
 
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:25
-msgid ""
-"Choose another media type or ${multimedia_center} (via EEA Multimedia "
-"Centre)."
-msgstr ""
-"Valitse toinen mediatyyppi tai ${multimedia_center} (via EEA Multimedia "
-"Centre)."
+msgid "Choose another media type or ${multimedia_center} (via EEA Multimedia Centre)."
+msgstr "Valitse toinen mediatyyppi tai ${multimedia_center} (via EEA Multimedia Centre)."
 
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:13
 msgid "Choose the EEA local website in your preferred language"
@@ -458,17 +460,14 @@ msgstr "Valitse EEA paikallinen sivusto haluamallasi kielellä"
 
 #: eea.signals/eea/signals/skins/eea_signals/gallery_view.pt:67
 msgid "Click to view full-size image&hellip; <span>${DYNAMIC_CONTENT}</span>"
-msgstr ""
-"Klikkaa nähdäksesi kuva täydessä koossa ... <span>${DYNAMIC_CONTENT}</ span>"
+msgstr "Klikkaa nähdäksesi kuva täydessä koossa ... <span>${DYNAMIC_CONTENT}</ span>"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:47
 msgid "Climate Change Impacts, Vulnerability and Adaptation (CCA)"
-msgstr ""
-"ilmastonmuutoksen vaikutukset, haavoittuvuus ilmastonmuutokselle ja "
-"ilmastonmuutokseen sopeutuminen (CCA)"
+msgstr "ilmastonmuutoksen vaikutukset, haavoittuvuus ilmastonmuutokselle ja ilmastonmuutokseen sopeutuminen (CCA)"
 
 #: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:202
-#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:202
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:210
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:36
 msgid "Climate change"
 msgstr "Ilmastonmuutos"
@@ -476,6 +475,9 @@ msgstr "Ilmastonmuutos"
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:119
 msgid "Climate change mitigation"
 msgstr "Ilmastonmuutoksen hillitseminen"
+
+msgid "Climate impacts and trends"
+msgstr ""
 
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:109
 msgid "Coasts and seas"
@@ -485,7 +487,7 @@ msgstr "Rannikot ja meret"
 msgid "Code for developers"
 msgstr "Koodi kehittäjille"
 
-#: eea.design/eea/design/browser/templates/comments.pt:144
+#: eea.design/eea/design/browser/templates/comments.pt:150
 msgid "Commenting has been disabled."
 msgstr "Kommentointi on poistettu käytöstä."
 
@@ -531,10 +533,11 @@ msgstr "linkki yhteydenottoon"
 msgid "Contact us"
 msgstr "ota yhteyttä"
 
-#: eea.reports/eea/reports/browser/report.pt:96
+#: eea.reports/eea/reports/browser/report.pt:88
 msgid "Content"
 msgstr "sisältö"
 
+#: EEAContentTypes/skins/EEAContentTypes/portlet_cms_activity.pt:13
 msgid "Content activity"
 msgstr "Sisältöön liittyvä toiminta"
 
@@ -564,25 +567,20 @@ msgstr "sisältö"
 msgid "Contributors: ${name}"
 msgstr "Tekijät: ${name}"
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:136
-msgid "Convert portlets"
-msgstr "Muunna portletit"
-
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:58
 msgid "Cookies are not enabled. You must ${link} before you can log in."
-msgstr ""
-"Evästeet eivät ole käytössä. Sinun täytyy ${link} ennen kuin voit kirjautua "
-"sisään"
+msgstr "Evästeet eivät ole käytössä. Sinun täytyy ${link} ennen kuin voit kirjautua sisään"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:30
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:68
 msgid "Cookies are not enabled. You must enable cookies before you can log in."
-msgstr ""
-"Evästeet eivät ole käytössä. Sinun täytyy sallia evästeet ennen kuin voit "
-"kirjautua sisään"
+msgstr "Evästeet eivät ole käytössä. Sinun täytyy sallia evästeet ennen kuin voit kirjautua sisään"
 
-#: eea.reports/eea/reports/subtypes/report.py:242
+#: eea.reports/eea/reports/subtypes/report.py:240
 msgid "Copyrights"
 msgstr "Tekijänoikeudet"
+
+msgid "Corporate document"
+msgstr ""
 
 #: EEAContentTypes/browser/crop/cropping.pt:31
 msgid "Correct the image ratio"
@@ -646,13 +644,16 @@ msgstr "Luotu"
 msgid "Creative Commons Attribution License"
 msgstr "Creative Commons Attribution -lisenssi"
 
-#: eea.reports/eea/reports/subtypes/report.py:125
+#: eea.reports/eea/reports/subtypes/report.py:123
 msgid "Creators/Authors"
 msgstr "Tekijät / kirjoittajat"
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:38
 msgid "Croatia"
 msgstr "Kroatia"
+
+msgid "Croatian"
+msgstr ""
 
 #: EEAContentTypes/browser/crop/cropimage.pt:25
 msgid "Crop"
@@ -666,18 +667,23 @@ msgstr "Rajaa kuva"
 msgid "Crop Size:"
 msgstr "Rajaa Koko:"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:20
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:111
 msgid "Currently we have ${nr} subscribers. Frequency: 3-4 emails / month."
-msgstr ""
-"Tällä hetkellä meillä on ${nr} tilaajaa. lähetysväli: 3-4 sähköpostia / kk."
+msgstr "Tällä hetkellä meillä on ${nr} tilaajaa. lähetysväli: 3-4 sähköpostia / kk."
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:39
 msgid "Cyprus"
 msgstr "Kypros"
 
+msgid "Czech"
+msgstr ""
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:40
 msgid "Czech Republic"
 msgstr "Tšekin tasavalta"
+
+msgid "Danish"
+msgstr ""
 
 msgid "Data"
 msgstr "Tiedot"
@@ -707,7 +713,7 @@ msgstr "Käytetty tieto"
 msgid "Datacentre"
 msgstr "datakeskus"
 
-#: eea.design/eea/design/browser/templates/comments.pt:106
+#: eea.design/eea/design/browser/templates/comments.pt:112
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:63
 msgid "Delete"
 msgstr "Poista"
@@ -720,6 +726,7 @@ msgstr "Poista nykyinen tiedosto"
 msgid "Delicious"
 msgstr "'Delicious'"
 
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:114
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:41
 msgid "Denmark"
 msgstr "Tanska"
@@ -736,9 +743,7 @@ msgid "Derived dataset"
 msgstr "Saatu tiedosto"
 
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
-msgid ""
-"Did you not find what you were looking for? Try the ${advanced_search} to "
-"refine your search."
+msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
 msgstr "Etkö löydänyt etsimääsi? Yritä ${advanced_search} tarkentaa hakua."
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:157
@@ -754,14 +759,9 @@ msgstr "Näytä 'traceback' tekstinä"
 msgid "Distinct:"
 msgstr "Erityiset:"
 
-#: eea.design/eea/design/skins/eea_design/main_template.pt:103
-msgid ""
-"Do something for our planet, print this page only if needed. Even a small "
-"action can make an enormous difference when millions of people do it!"
-msgstr ""
-"Tee jotain planeettamme hyväksi, tulosta tämä sivu vain tarvittaessa. "
-"Pienikin teko voi vaikuttaa valtavasti, kun miljoonat ihmiset totetuttavat "
-"sen!"
+#: eea.design/eea/design/skins/eea_design/main_template.pt:101
+msgid "Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!"
+msgstr "Tee jotain planeettamme hyväksi, tulosta tämä sivu vain tarvittaessa. Pienikin teko voi vaikuttaa valtavasti, kun miljoonat ihmiset totetuttavat sen!"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:33
 #: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:42
@@ -795,6 +795,9 @@ msgstr "Lataa tämä tapahtuma iCal-muodossa"
 msgid "Download this event in vCal format"
 msgstr "Lataa tämä tapahtuma vCal muodossa"
 
+msgid "Dutch"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:42
 msgid "E-mail (Questions only):"
 msgstr "E-mail (vain kysymykset):"
@@ -824,17 +827,17 @@ msgstr "EEA-foorumi, , keskustelele ja jaa"
 msgid "EEA Home page - select your preferred language"
 msgstr "EEA:n Etusivu - valitse haluamasi kieli"
 
-#: eea.reports/eea/reports/subtypes/report.py:228
+#: eea.reports/eea/reports/subtypes/report.py:226
 msgid "EEA Management Plan"
 msgstr "EEA:n hallintosuunnitelma"
 
-#: eea.reports/eea/reports/subtypes/report.py:229
-msgid ""
-"EEA Management plan code. Internal EEA project line code, used to assign an "
-"EEA product output to a specific EEA project number in the management plan."
+#: EEAContentTypes/subtypes.py:277
+msgid "EEA Management plan code."
 msgstr ""
-"EEA:n hallintosuunnitelman koodi. EEA:n sisäisen projektikoodin avulla "
-"liitetään projektin lopputulosEEA:n hallintosuunnitelmaan."
+
+#: eea.reports/eea/reports/subtypes/report.py:227
+msgid "EEA Management plan code. Internal EEA project line code, used to assign an EEA product output to a specific EEA project number in the management plan."
+msgstr "EEA:n hallintosuunnitelman koodi. EEA:n sisäisen projektikoodin avulla liitetään projektin lopputulosEEA:n hallintosuunnitelmaan."
 
 #: eea/themecentre/skins/themecentre_templates/media_type_common.pt:26
 msgid "EEA Multimedia Centre"
@@ -844,9 +847,12 @@ msgstr "EEA:n multimedia-keskus"
 msgid "EEA Organisational chart"
 msgstr "EEA:n organisaatiokaavio"
 
-#: eea.reports/eea/reports/subtypes/report.py:79
+#: eea.reports/eea/reports/subtypes/report.py:77
 msgid "EEA Publication Internal ID"
 msgstr "EEA:n julkaisun sisäinen tunnus"
+
+msgid "EEA Report"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:16
 msgid "EEA Staff list"
@@ -876,13 +882,22 @@ msgstr "EEA:n ilmoituspalvelun tili"
 msgid "EEA website search"
 msgstr "EEA:n nettisivuston haku"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
+msgid "EMEP/EEA Emission Inventory Guidebook"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:19
 msgid "EPA network"
 msgstr "EPA-verkosto"
 
 #: eea.epub/eea/epub/skins/eea_epub/portlet_epub.pt:7
 msgid "EPUB format"
 msgstr "EPUB-muoto"
+
+msgid "EU Greenhouse Gas Inventory"
+msgstr ""
+
+msgid "EU LRTAP Convention Emission Inventory"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/colophon.pt:39
 msgid "EU flag"
@@ -892,16 +907,16 @@ msgstr "EU-lippu"
 msgid "EU partners"
 msgstr "EU-kumppanit"
 
-#: eea.reports/eea/reports/browser/report.pt:212
+#: eea.reports/eea/reports/browser/report.pt:224
 msgid "EU-Bookshop"
 msgstr "EU-kirjakauppa"
 
 #: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:282
-#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:282
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:290
 msgid "Eco agents logo"
 msgstr "Ekoagentit logo"
 
-#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:124
+#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:142
 #: eea.geotags/eea/geotags/widget/location.pt:28
 #: eea.relations/eea/relations/skins/eea_relations/eeareferencebrowser.pt:80
 msgid "Edit"
@@ -923,12 +938,15 @@ msgstr "Muokkaa ala-raporttia"
 msgid "Edit your search options"
 msgstr "Muokkaa hakuvaihtoehtoja"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:19
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:16
 msgid "Eionet"
 msgstr "Eionet"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:55
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:93
+msgid "Eionet priority data flows"
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:53
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:158
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:23
 msgid "Email"
 msgstr "Sähköposti"
@@ -941,6 +959,9 @@ msgstr "sähköposti suojattu. <br /> Ota JavaScript käyttöön."
 msgid "Email address"
 msgstr "Sähköpostiosoite"
 
+msgid "Emissions Trading Directive"
+msgstr ""
+
 #: eea.design/eea/design/profiles/default/actions.xml
 msgid "Enable Subfolder Listing"
 msgstr ""
@@ -948,6 +969,12 @@ msgstr ""
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:73
 msgid "Energy"
 msgstr "Energia"
+
+msgid "Energy and environment"
+msgstr ""
+
+msgid "English"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:25
 msgid "English eionet"
@@ -977,7 +1004,7 @@ msgstr "Kirjoita yksi tag riville, useita sanoja sallittu."
 msgid "Entire documentation area"
 msgstr "Koko dokumentaatio alue"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:25
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
 msgid "EnviroWindows"
 msgstr "EnviroWindows"
 
@@ -1011,7 +1038,7 @@ msgstr "Ympäristöskenaariot"
 msgid "Environmental technology"
 msgstr "Ympäristöteknologia"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:27
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:65
 msgid "Error"
 msgstr "Virhe"
 
@@ -1022,6 +1049,9 @@ msgstr "virheviitteet"
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:42
 msgid "Estonia"
 msgstr "Viro"
+
+msgid "Estonian"
+msgstr ""
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:27
 msgid "Europe"
@@ -1035,6 +1065,7 @@ msgstr "Eurooppa ja maailma: globaalit megatrendit"
 msgid "Europe's environment: thematic assessments"
 msgstr "Euroopan ympäristö: temaattiset arvioinnit"
 
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:111
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:132
 msgid "European Environment Agency"
 msgstr "Euroopan ympäristökeskus"
@@ -1060,7 +1091,7 @@ msgstr "Tapahtuma lähetetty"
 msgid "Excel doc on secure external link"
 msgstr "Excel -dokumentti varmannettusta ulkoisesta linkistä"
 
-#: eea.reports/eea/reports/subtypes/report.py:267
+#: eea.reports/eea/reports/subtypes/report.py:265
 msgid "Exclude from navigation"
 msgstr "poista navigoinista"
 
@@ -1073,7 +1104,6 @@ msgid "Explore all tags"
 msgstr "selaa kaikkia tageja"
 
 #: eea.promotion/build/lib/eea/promotion/browser/admin.pt:21
-#: eea.promotion/eea/promotion/browser/admin.pt:21
 msgid "External"
 msgstr "Ulkoinen"
 
@@ -1081,7 +1111,7 @@ msgstr "Ulkoinen"
 msgid "Eye On Earth – Citizen observatory on air and bathing water quality"
 msgstr "Eye On Earth - ilman- ja uimaveden laadun kansalaisobservatorio"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:8
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:25
 msgid "Eye on Earth"
 msgstr "Eye on Earth"
 
@@ -1093,7 +1123,7 @@ msgstr "usein kysyttyä"
 msgid "FTP link"
 msgstr "FTP-linkki"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:74
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:78
 msgid "Facebook icon"
 msgstr "Facebook-kuvake"
 
@@ -1127,60 +1157,60 @@ msgstr "Käytetyt luvut"
 msgid "Filed under:"
 msgstr "tallennettu kohteeseen:"
 
-#: eea.reports/eea/reports/subtypes/report.py:80
+#: eea.reports/eea/reports/subtypes/report.py:78
 msgid "Fill in EEA publication internal id"
 msgstr "Täytä EEA:n julkaisun sisäinen tunnus"
 
-#: eea.reports/eea/reports/subtypes/report.py:126
+#: eea.reports/eea/reports/subtypes/report.py:124
 msgid "Fill in additional creators/authors"
 msgstr "Täytä lisätekijät / -kirjoittajat"
 
-#: eea.reports/eea/reports/subtypes/report.py:139
+#: eea.reports/eea/reports/subtypes/report.py:137
 msgid "Fill in additional publishers"
 msgstr "Täytä lisäjulkaisijat"
 
-#: eea.reports/eea/reports/subtypes/report.py:243
+#: eea.reports/eea/reports/subtypes/report.py:241
 msgid "Fill in copyrights"
 msgstr "Täytä tekijänoikeudet"
 
 #: EEAContentTypes/content/Article.py:28
-#: eea.reports/eea/reports/subtypes/report.py:150
+#: eea.reports/eea/reports/subtypes/report.py:148
 msgid "Fill in publication groups"
 msgstr "Täytä julkaisuryhmät"
 
-#: eea.reports/eea/reports/subtypes/report.py:178
+#: eea.reports/eea/reports/subtypes/report.py:176
 msgid "Fill in publication price"
 msgstr "Täytä julkaisuhinta"
 
-#: eea.reports/eea/reports/subtypes/report.py:113
+#: eea.reports/eea/reports/subtypes/report.py:111
 msgid "Fill in serial title"
 msgstr "Täytä sarjan otsikko"
 
-#: eea.reports/eea/reports/subtypes/report.py:68
+#: eea.reports/eea/reports/subtypes/report.py:66
 msgid "Fill in the ISBN Number of this publication."
 msgstr "Täytä tämän julkaisun ISBN-numero"
 
-#: eea.reports/eea/reports/subtypes/report.py:89
+#: eea.reports/eea/reports/subtypes/report.py:87
 msgid "Fill in the Order ID of this publication."
 msgstr "Täytä tämän julkaiusn tlausnumero"
 
-#: eea.reports/eea/reports/subtypes/report.py:57
+#: eea.reports/eea/reports/subtypes/report.py:55
 msgid "Fill in the publication file"
 msgstr "Täytä julkaisun tiedosto"
 
-#: eea.reports/eea/reports/subtypes/report.py:255
+#: eea.reports/eea/reports/subtypes/report.py:253
 msgid "Fill in the trailer."
 msgstr "Täytä traileri."
 
-#: eea.reports/eea/reports/subtypes/report.py:202
+#: eea.reports/eea/reports/subtypes/report.py:200
 msgid "Fill in to add this text to the order text"
 msgstr "Täytä, jos haluat lisätä tekstiä tilaukseeen"
 
-#: eea.reports/eea/reports/subtypes/report.py:190
+#: eea.reports/eea/reports/subtypes/report.py:188
 msgid "Fill in to override the order text"
 msgstr "Täytä, jos haluat ohittaa tilauksen tekstin"
 
-#: eea.reports/eea/reports/subtypes/report.py:213
+#: eea.reports/eea/reports/subtypes/report.py:211
 msgid "Fill in total number of pages"
 msgstr "Täytä sivujen kokonaismäärä"
 
@@ -1199,6 +1229,9 @@ msgstr "Etsi"
 msgid "Finland"
 msgstr "Suomi"
 
+msgid "Finnish"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:51
 msgid "First name"
 msgstr "Etunimi"
@@ -1208,7 +1241,7 @@ msgid "Fisheries"
 msgstr "Kalastus"
 
 #: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:17
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:69
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:73
 msgid "Follow us"
 msgstr "Seuraa meitä"
 
@@ -1224,34 +1257,23 @@ msgstr "Seuraa meitä Twitterissä"
 msgid "Follow us on YouTube"
 msgstr "Seuraa meitä YouTubessa"
 
-msgid ""
-"For a better experience using this site please upgrade to a modern browser."
+#: eea.design/eea/design/skins/eea_design/outdated_browsers.pt:43
+msgid "For a better experience using this site please upgrade to a modern browser."
 msgstr "Ota käyttöön nykyaikainen selain parantaaksesi tämän sivuston käyttöä"
 
 #: EEAContentTypes/browser/crop/cropping.pt:20
-msgid ""
-"For each image field in your content you can select below the image you want "
-"to crop."
-msgstr ""
-"Jokaiseen sisältösi kuvakenttään voit valita alta kuvan, jonka voit rajata."
+msgid "For each image field in your content you can select below the image you want to crop."
+msgstr "Jokaiseen sisältösi kuvakenttään voit valita alta kuvan, jonka voit rajata."
 
-#: eea.reports/eea/reports/subtypes/report.py:98
+#: eea.reports/eea/reports/subtypes/report.py:96
 msgid "For sale?"
 msgstr "Myytävänä?"
 
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:22
-msgid ""
-"For security reasons, we store your password encrypted, and cannot mail it "
-"to you. If you would like to reset your password, fill out the form below "
-"and we will send you an email at the address you gave when you registered to "
-"start the process of resetting your password."
-msgstr ""
-"Turvallisuussyistä tallennamme salasanasi koodattuna, emmekä siksi voi "
-"lähettää sitä sinulle. Jos haluat palauttaa salasanasi, täytä alla oleva "
-"lomake ja lähetämme sinulle sähköpostin osoitteeseen, jonka annoit kun "
-"rekisteröidyit salasanan palauttamista varten."
+msgid "For security reasons, we store your password encrypted, and cannot mail it to you. If you would like to reset your password, fill out the form below and we will send you an email at the address you gave when you registered to start the process of resetting your password."
+msgstr "Turvallisuussyistä tallennamme salasanasi koodattuna, emmekä siksi voi lähettää sitä sinulle. Jos haluat palauttaa salasanasi, täytä alla oleva lomake ja lähetämme sinulle sähköpostin osoitteeseen, jonka annoit kun rekisteröidyit salasanan palauttamista varten."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:174
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:307
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:66
 msgid "Forgot your password?"
 msgstr "Unohtuiko salasana?"
@@ -1267,6 +1289,13 @@ msgstr "Ranska"
 #: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:67
 msgid "Free text search"
 msgstr "Vapaa tekstihaku"
+
+msgid "French"
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:17
+msgid "Frequency: 3-4 emails / month."
+msgstr ""
 
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:137
 msgid "Freshwater"
@@ -1285,9 +1314,12 @@ msgstr "Etusivu"
 msgid "Fullscreen image"
 msgstr "koko näytön kuva"
 
-#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:60
+#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:70
 msgid "Geotags:"
 msgstr "Geo-tagit:"
+
+msgid "German"
+msgstr ""
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:49
 msgid "Germany"
@@ -1330,9 +1362,15 @@ msgstr "Grafiikkaa"
 msgid "Greece"
 msgstr "Kreikka"
 
+msgid "Greek"
+msgstr ""
+
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:89
 msgid "Green economy"
 msgstr "Vihreä talous"
+
+msgid "Greenhouse gas emission trends and projections"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:170
 msgid "Here is the full error message:"
@@ -1362,6 +1400,13 @@ msgstr "Kotitalouksien kulutus"
 msgid "How-tos"
 msgstr "ohjeita"
 
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:47
+msgid "Human verification: leave empty"
+msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:51
 msgid "Hungary"
 msgstr "Unkari"
@@ -1370,7 +1415,7 @@ msgstr "Unkari"
 msgid "ID"
 msgstr "Tunnus"
 
-#: eea.reports/eea/reports/subtypes/report.py:67
+#: eea.reports/eea/reports/subtypes/report.py:65
 msgid "ISBN"
 msgstr "ISBN"
 
@@ -1378,12 +1423,12 @@ msgstr "ISBN"
 msgid "Iceland"
 msgstr "Islanti"
 
-#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:29
-msgid ""
-"Icons based on file extension, on different external sites and protocols"
+msgid "Icelandic"
 msgstr ""
-"Kuvakkeet, jotka perustuvat tiedostopäätteeseen, eri ulkosiin sivustoihin ja "
-"protokolliin"
+
+#: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:29
+msgid "Icons based on file extension, on different external sites and protocols"
+msgstr "Kuvakkeet, jotka perustuvat tiedostopäätteeseen, eri ulkosiin sivustoihin ja protokolliin"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:15
 msgid "Icons based on protocols"
@@ -1391,73 +1436,45 @@ msgstr "protokolliin perustuvat kuvakkeet"
 
 #: eea.promotion/build/lib/eea/promotion/browser/form.pt:53
 #: eea.promotion/eea/promotion/browser/form.pt:53
-msgid ""
-"If checked, the promotion is shown at the top in navigation menu on all "
-"pages."
-msgstr ""
-"Jos tämä on valittu, valinta näkyy yläosan navigointivalikossa kaikilla "
-"sivuilla."
+msgid "If checked, the promotion is shown at the top in navigation menu on all pages."
+msgstr "Jos tämä on valittu, valinta näkyy yläosan navigointivalikossa kaikilla sivuilla."
 
-#: eea.reports/eea/reports/subtypes/report.py:265
+#: eea.reports/eea/reports/subtypes/report.py:263
 msgid "If selected, this item will not appear in the navigation tree"
 msgstr "Jos valittu, tämä kohta ei näy sivukartalla"
 
 #: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
-msgid ""
-"If translations of this item have been made after it was first promoted, "
-"this action promotes the new translations"
-msgstr ""
-"Jos tämän kohteen käännös on tehty sen ensimmäisen promootion jälkeen, "
-"promovoi tämä toiminto uusia käännöksiä"
+msgid "If translations of this item have been made after it was first promoted, this action promotes the new translations"
+msgstr "Jos tämän kohteen käännös on tehty sen ensimmäisen promootion jälkeen, promovoi tämä toiminto uusia käännöksiä"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:54
-msgid ""
-"If you are certain you have the correct web address but are encountering an "
-"error, please contact the ${site_admin}."
-msgstr ""
-"Jos olet varma oikeasta web-osoiteesta, mutta saat virhekoodin, ota yhteyttä "
-"${site_admin}."
+msgid "If you are certain you have the correct web address but are encountering an error, please contact the ${site_admin}."
+msgstr "Jos olet varma oikeasta web-osoiteesta, mutta saat virhekoodin, ota yhteyttä ${site_admin}."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:200
-msgid ""
-"If you do not have an account here, head over to the ${registration_form}."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:332
+msgid "If you do not have an account here, head over to the ${registration_form}."
 msgstr "Jos sinulla ei ole tunnusta täällä, mene ${registration_form}."
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:26
 msgid "If you experience problems please ${link}."
 msgstr "Jos sinulla on ongelmia ota ${link}."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:180
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:313
 msgid "If you have forgotten your password, ${click_here}."
 msgstr "Jos olet unohtanut salasanasi, ${click_here}."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:162
-msgid ""
-"If you need to report this to the ${site_admin}, please include this entry "
-"number in your message."
-msgstr ""
-"Jos haluat raportoida tämän ${site_admin}, liitä viestiin mukaan tämä numero."
+msgid "If you need to report this to the ${site_admin}, please include this entry number in your message."
+msgstr "Jos haluat raportoida tämän ${site_admin}, liitä viestiin mukaan tämä numero."
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:52
-msgid ""
-"If you want to read the content of this document, you have to switch to one "
-"of the following languages:"
-msgstr ""
-"Jos haluat lukea tämän dokumentin sisällön, on sinun vaihdettava jollekin "
-"seuraavista kielistä:"
-
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:119
-msgid ""
-"If you wish to block or unblock certain categories of portlets, you can do "
-"so using the drop-down boxes."
-msgstr ""
-"Jos haluat estää tai sallia tiettyjä portlet-kategorioita, voit tehdä sen "
-"käyttämällä pudotusvalikkoa."
+msgid "If you want to read the content of this document, you have to switch to one of the following languages:"
+msgstr "Jos haluat lukea tämän dokumentin sisällön, on sinun vaihdettava jollekin seuraavista kielistä:"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:26
 #: eea.promotion/build/lib/eea/promotion/browser/admin.pt:19
-#: eea.promotion/eea/promotion/browser/admin.pt:19
+#: eea.signals/eea/signals/skins/eea_signals/gallery_view.pt:63
 msgid "Image"
 msgstr "Kuva"
 
@@ -1471,9 +1488,7 @@ msgid "In the spotlight"
 msgstr "ajankohtaista"
 
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:16
-msgid ""
-"In these websites you will find all the summarised environmental information "
-"available in your language."
+msgid "In these websites you will find all the summarised environmental information available in your language."
 msgstr "Näiltä sivuilta löydät ympäristötiejen yhteenvedot omalla kielelläsi."
 
 msgid "Indicators using this data"
@@ -1483,7 +1498,6 @@ msgstr "Tätä tietoa käyttävät indikaattorit"
 msgid "Industry"
 msgstr "Teollisuus"
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:43
 #: eea.design/eea/design/skins/eea_design/global_statusmessage.pt:13
 msgid "Info"
 msgstr "Tietoja"
@@ -1518,21 +1532,22 @@ msgid "Interactive maps produced"
 msgstr "Tuotetut vuorovaikutteiset kartat"
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:19
-msgid ""
-"Interested candidates must apply by filling in the application form below. "
-"To the application form must be attached:"
-msgstr ""
-"Kiinnostuneiden kandidaattien on haettava täyttämällä alla oleva lomake. "
-"Hakemuslomakkeeseen on liitettävä:"
+msgid "Interested candidates must apply by filling in the application form below. To the application form must be attached:"
+msgstr "Kiinnostuneiden kandidaattien on haettava täyttämällä alla oleva lomake. Hakemuslomakkeeseen on liitettävä:"
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:70
 msgid "International cooperation"
 msgstr "Kansainvälinen yhteistyö"
 
+#: eea.design/eea/design/skins/eea_design/outdated_browsers.pt:29
 msgid "Internet Explorer 9+"
 msgstr "Internet Explorer 9+"
 
-#: eea.design/eea/design/browser/templates/language_selector.pt:56
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:92
+msgid "Internet Explorer is not recommended for the CMS area."
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/language_selector.pt:57
 msgid "Invalid translation"
 msgstr "Virheellinen käännös"
 
@@ -1552,9 +1567,15 @@ msgstr "Mitätöi nykyisen sivun ja kaikkien alasivujen välimuisti"
 msgid "Ireland"
 msgstr "Irlanti"
 
-#: eea.reports/eea/reports/subtypes/report.py:99
+msgid "Irish Gaelic"
+msgstr ""
+
+#: eea.reports/eea/reports/subtypes/report.py:97
 msgid "Is this publication for sale?"
 msgstr "Onko tämä julkaisu myytävänä?"
+
+msgid "Italian"
+msgstr ""
 
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:54
 msgid "Italy"
@@ -1581,7 +1602,7 @@ msgid "Kongens Nytorv 6, 1050, Copenhagen K, Denmark."
 msgstr ""
 
 #: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:230
-#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:230
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:238
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:131
 msgid "Land use"
 msgstr "Maankäyttö"
@@ -1613,7 +1634,6 @@ msgid "Latest FAQ"
 msgstr "FAQ - uusimmat"
 
 #: EEAContentTypes/browser/related_bytheme.pt:8
-#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:111
 msgid "Latest addition"
 msgstr "Uusin lisäys"
 
@@ -1630,9 +1650,8 @@ msgstr "EEA:n uusimmat julkaisut Euroopan ympäristöstä."
 msgid "Latvia"
 msgstr "Latvia"
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:126
-msgid "Legacy portlets"
-msgstr "legacy portlets"
+msgid "Latvian"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/colophon.pt:35
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:155
@@ -1656,15 +1675,11 @@ msgid "Link to full assessment"
 msgstr "Linkki koko arviointiin"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:12
-msgid ""
-"Link types are automatically detected on client side by a javascript "
-"(scanforlinks) which will add the necessary class icon before the link."
-msgstr ""
-"Javascript (scanforlinks) tunnistaa automaattisesti linkkityypit "
-"käyttäjäpuolella ja lisää tarvittavan kuvakkeen linkin eteen"
+msgid "Link types are automatically detected on client side by a javascript (scanforlinks) which will add the necessary class icon before the link."
+msgstr "Javascript (scanforlinks) tunnistaa automaattisesti linkkityypit käyttäjäpuolella ja lisää tarvittavan kuvakkeen linkin eteen"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:76
-#: eea.reports/eea/reports/browser/report.pt:156
+#: eea.reports/eea/reports/browser/report.pt:168
 #: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:43
 msgid "Links"
 msgstr "Linkit"
@@ -1693,29 +1708,31 @@ msgstr "Luettelo ei ole käytettävissä"
 msgid "Lithuania"
 msgstr "Liettua"
 
+msgid "Lithuanian"
+msgstr ""
+
 #: eea.design/eea/design/skins/eeadesign_public/google_search.pt:16
 msgid "Loading..."
 msgstr "Ladataan..."
 
 #: eea.promotion/build/lib/eea/promotion/browser/admin.pt:23
-#: eea.promotion/eea/promotion/browser/admin.pt:23
 msgid "Locations"
 msgstr "Paikat"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:159
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:224
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:52
 msgid "Log in"
 msgstr "Kirjaudu sisään"
 
-#: eea.design/eea/design/browser/templates/comments.pt:31
+#: eea.design/eea/design/browser/templates/comments.pt:37
 msgid "Log in to add comments"
 msgstr "Kirjaudu sisään ja lisää kommentteja"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:89
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:154
 msgid "Login Name"
 msgstr "Kirjautumistunnus"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:22
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:21
 msgid "Login failed"
 msgstr "sisäänkirjautuminen epäonnistui"
 
@@ -1727,9 +1744,15 @@ msgstr "Kadonnut salasana"
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
+msgid "Macedonian"
+msgstr ""
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:59
 msgid "Malta"
 msgstr "Malta"
+
+msgid "Maltese"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/manage_footer.pt:24
 msgid "Manage Footer Portlets"
@@ -1741,6 +1764,9 @@ msgstr "Hallitse alamarginaalin sisältöruutuja"
 
 msgid "Map"
 msgstr "Kartta"
+
+msgid "Mediterranean environment"
+msgstr ""
 
 #: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:28
 msgid "Menu"
@@ -1781,7 +1807,7 @@ msgstr "kuukauden tapahtumat"
 
 #: EEAContentTypes/skins/EEAContentTypes/highlight_macros.pt:55
 #: EEAContentTypes/skins/EEAContentTypes/portlet_cms_activity.pt:23
-#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:131
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:100
 msgid "More"
 msgstr "Lisää"
 
@@ -1838,6 +1864,9 @@ msgstr "Multimedia"
 msgid "Multimedia highlights"
 msgstr "Multimedia, ajankohtaista"
 
+msgid "NEC directive status"
+msgstr ""
+
 #: eea.design/eea/design/skins/eea_design/portlet_reports.pt:87
 msgid "National SOE reports"
 msgstr "Kansalliset SOER raportit"
@@ -1871,7 +1900,7 @@ msgstr "Navigointitoiminnot"
 msgid "Netherlands"
 msgstr "Alankomaat"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:19
 msgid "Network of the Heads of Environment Protection Agencies (EPA network)"
 msgstr "ympäristönsuojeluvirastojen johtajien verkosto (EPA-verkosto)"
 
@@ -1880,16 +1909,10 @@ msgid "Networks"
 msgstr "verkostot"
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:37
-msgid ""
-"New icons or updates can be done via the mimetypes_registry in the Plone CMS "
-"or through the EEADesign2006 product. Contact the EEA web development team "
-"in this case."
-msgstr ""
-"Uusia kuvakkeita tai päivityksiä voi tehdä mimetypes_registry Plone CMS:ssä "
-"tai EEADesign2006 -tuotteella. Tässä tapauksessa ota yhteyttä EEAn "
-"webkehitystiimiin."
+msgid "New icons or updates can be done via the mimetypes_registry in the Plone CMS or through the EEADesign2006 product. Contact the EEA web development team in this case."
+msgstr "Uusia kuvakkeita tai päivityksiä voi tehdä mimetypes_registry Plone CMS:ssä tai EEADesign2006 -tuotteella. Tässä tapauksessa ota yhteyttä EEAn webkehitystiimiin."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:190
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:322
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:72
 msgid "New user?"
 msgstr "Uusi käyttäjä?"
@@ -1923,7 +1946,7 @@ msgstr "Ei vielä tällaisia mediatiedostoja"
 msgid "No reference set. Click the browse button to select."
 msgstr "Viittausta ei asetettu. Paina Selaa-painiketta valitaksesi."
 
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:205
+#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:234
 msgid "No results are available for this topic"
 msgstr "Tästä aiheesta ei tuloksia"
 
@@ -1949,7 +1972,10 @@ msgstr "normaali"
 msgid "Norway"
 msgstr "Norja"
 
-#: eea.reports/eea/reports/browser/report.pt:40
+msgid "Norwegian"
+msgstr ""
+
+#: eea.reports/eea/reports/browser/report.pt:39
 msgid "Note: new versions are available!"
 msgstr "Huom: uusia versioita on saatavilla!"
 
@@ -1957,40 +1983,35 @@ msgstr "Huom: uusia versioita on saatavilla!"
 msgid "Nothing published in ${title}&hellip;"
 msgstr "Mitään ei julkaistu ${title} ..."
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:88
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:15
+msgid "Notifications"
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:164
 msgid "Notifications archive"
 msgstr "Ilmoitusarkisto"
 
-#: eea.reports/eea/reports/subtypes/report.py:201
+#: eea.reports/eea/reports/subtypes/report.py:199
 msgid "OR add some text to the order screen"
 msgstr "TAI lisää tekstiä tilausnäyttöön"
 
-#: eea.reports/eea/reports/subtypes/report.py:88
+#: eea.reports/eea/reports/subtypes/report.py:86
 msgid "ORDER ID (Catalogue Number)"
 msgstr "Tilausnumero (luettelonumero)"
 
 #: EEAContentTypes/browser/reorder.pt:68
-msgid ""
-"On the left side you have a list resources. Drag from the handle icon to "
-"reorder. After reordering, you need to use the Save button at the bottom of "
-"the list. On the right side you can see how the resources have been "
-"composed. Notice: this is not a preview. Hitting Save will generate new "
-"merged resources."
-msgstr ""
-"Vasemmalla puolella on lista resursseista. Järjestä uudelleen vetämällä "
-"kahvakuvakkeesta. Kun olet valmis, käytä Tallenna-painiketta listan "
-"alaosassa. Oikealla puolella näet miten resurssit on muodostettu. Huomaa: "
-"Tämä ei ole esikatselu. Tallenna-komento luo uusia yhdistettyjä resursseja."
+msgid "On the left side you have a list resources. Drag from the handle icon to reorder. After reordering, you need to use the Save button at the bottom of the list. On the right side you can see how the resources have been composed. Notice: this is not a preview. Hitting Save will generate new merged resources."
+msgstr "Vasemmalla puolella on lista resursseista. Järjestä uudelleen vetämällä kahvakuvakkeesta. Kun olet valmis, käytä Tallenna-painiketta listan alaosassa. Oikealla puolella näet miten resurssit on muodostettu. Huomaa: Tämä ei ole esikatselu. Tallenna-komento luo uusia yhdistettyjä resursseja."
 
-#: eea.reports/eea/reports/browser/report.pt:205
+#: eea.reports/eea/reports/browser/report.pt:217
 msgid "Order a printed copy at EU-Bookshop"
 msgstr "Tilaa painettu kopio EU-kirjakaupasta"
 
-#: eea.reports/eea/reports/browser/report.pt:205
+#: eea.reports/eea/reports/browser/report.pt:217
 msgid "Order a printed copy online"
 msgstr "Tilaa painettu kopio netistä"
 
-#: eea.reports/eea/reports/browser/report.pt:203
+#: eea.reports/eea/reports/browser/report.pt:215
 msgid "Order information"
 msgstr "Tilaa tietoa"
 
@@ -2021,11 +2042,11 @@ msgid "Other"
 msgstr "Muu"
 
 #: eea.design/eea/design/skins/eea_design/folder_accordion_view.pt:50
-#: eea.design/eea/design/skins/eea_design/folder_tabs_view.pt:48
+#: eea.design/eea/design/skins/eea_design/folder_tabs_view.pt:51
 msgid "Other resources"
 msgstr "Muut resurssit"
 
-#: eea.reports/eea/reports/subtypes/report.py:189
+#: eea.reports/eea/reports/subtypes/report.py:187
 msgid "Override the order text with your own text"
 msgstr "Korvaa tilausteksti omallasi"
 
@@ -2042,21 +2063,20 @@ msgstr "PDF uudessa EEA-verkkotunnuksen linkissä"
 msgid "PDF on secure external link"
 msgstr "PDF turvallisessa ulkoisessa linkissä"
 
-#: eea.reports/eea/reports/subtypes/report.py:212
+#: eea.reports/eea/reports/subtypes/report.py:210
 msgid "Pages"
 msgstr "Sivut"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:113
+msgid "Pan-European state of the environment reports"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:178
 msgid "Password"
 msgstr "Salasana"
 
-#: eea.design/eea/design/skins/eea_design/portlet_promo_gallery.pt:94
-msgid "Pause"
-msgstr "Tauko"
-
-#: eea.design/eea/design/skins/eea_design/portlet_promo_gallery.pt:94
-msgid "Pause slideshow"
-msgstr "Keskeytä diaesitys"
+#: eea.design/eea/design/skins/eea_design/portlet_promo_gallery.pt:92
+msgid "Pause/Play slideshow"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/colophon.pt:23
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:154
@@ -2087,6 +2107,9 @@ msgstr "Politiikka"
 msgid "Policy instruments<br />"
 msgstr "toimintapolitiikan välineet <br />"
 
+msgid "Polish"
+msgstr ""
+
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:31
 msgid "Portal type"
 msgstr "Portal-tyyppi"
@@ -2095,22 +2118,6 @@ msgstr "Portal-tyyppi"
 msgid "Portal types"
 msgstr "Portal-tyypit"
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:65
-msgid "Portlet assigned in this folder and displayed"
-msgstr "Portlet siirretty tähän kansioon ja näkyvissä"
-
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:69
-msgid "Portlet assigned in this folder but not displayed"
-msgstr "Portlet siirretty tähän kansioon, mutta ei näkyvissä"
-
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:72
-msgid "Portlet inherited and displayed"
-msgstr "Portlet peritty ja näkyvissä"
-
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:76
-msgid "Portlet inherited but not displayed"
-msgstr "Portlet peritty mutta ei näkyvissä"
-
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_mostreferenced.pt:45
 msgid "Portlet title"
 msgstr "Portletin otsikko"
@@ -2118,6 +2125,9 @@ msgstr "Portletin otsikko"
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:68
 msgid "Portugal"
 msgstr "Portugali"
+
+msgid "Portuguese"
+msgstr ""
 
 #: eea.relations/eea/relations/profiles/default/controlpanel.xml
 msgid "Possible relations"
@@ -2139,7 +2149,7 @@ msgstr "Edellinen"
 msgid "Previous month"
 msgstr "Edellinen kuukausi"
 
-#: eea.reports/eea/reports/subtypes/report.py:177
+#: eea.reports/eea/reports/subtypes/report.py:175
 msgid "Price (Euro)"
 msgstr "Hinta (euroa)"
 
@@ -2176,7 +2186,6 @@ msgid "Promotions"
 msgstr "promootiot"
 
 #: eea.promotion/build/lib/eea/promotion/browser/admin.pt:8
-#: eea.promotion/eea/promotion/browser/admin.pt:8
 #: eea.soer/eea/soer/browser/admin.pt:10
 msgid "Promotions Admin Panel"
 msgstr "Promootiot ylläpitopaneeli"
@@ -2190,35 +2199,48 @@ msgstr "annettu käyttöliittymä"
 msgid "Publication"
 msgstr "Julkaisu"
 
-#: eea.reports/eea/reports/subtypes/report.py:56
+#: eea.reports/eea/reports/subtypes/report.py:54
 msgid "Publication file"
 msgstr "Julkaisutiedosto"
 
 #: EEAContentTypes/content/Article.py:27
-#: eea.reports/eea/reports/subtypes/report.py:149
+#: eea.reports/eea/reports/subtypes/report.py:147
 msgid "Publication groups"
 msgstr "Julkaisuryhmät"
+
+msgid "Publication series"
+msgstr ""
 
 msgid "Publications"
 msgstr "Julkaisut"
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:29
-#: eea.reports/eea/reports/browser/report.pt:81
+#: eea.reports/eea/reports/browser/report.pt:76
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:108
 msgid "Published"
 msgstr "Julkaistu"
 
-#: eea.reports/eea/reports/browser/report.pt:75
+#: eea.reports/eea/reports/browser/report.pt:70
 msgid "Published by"
 msgstr "Julkaisija"
+
+msgid "Published on"
+msgstr ""
 
 #: eea/themecentre/skins/themecentre_templates/listall.pt:29
 msgid "Published:"
 msgstr "Julkaistu:"
 
-#: eea.reports/eea/reports/subtypes/report.py:138
+#: eea.reports/eea/reports/subtypes/report.py:136
 msgid "Publishers"
 msgstr "Kustantajat"
+
+#: eea.relations/eea/relations/skins/eea_relations/eea_relateditems.pt:44
+msgid "Publishing date"
+msgstr ""
+
+msgid "Quality of bathing water"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed.pt:16
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed_dbl.pt:76
@@ -2226,16 +2248,16 @@ msgstr "Kustantajat"
 msgid "RSS"
 msgstr "RSS"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:81
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:85
 msgid "RSS Feeds"
 msgstr "RSS-syötteet"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:80
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:84
 msgid "RSS logo"
 msgstr "RSS logo"
 
 #: EEAContentTypes/skins/EEAContentTypes/highlight_view.pt:48
-#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:226
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:195
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed.pt:34
 msgid "Read more"
 msgstr "Lue lisää"
@@ -2247,6 +2269,9 @@ msgstr "Lue lisää avainasioista"
 #: eea/themecentre/skins/themecentre_templates/portlet_themes_common.pt:47
 msgid "Read report"
 msgstr "Lue raportti"
+
+msgid "Recurrent publications"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:18
 msgid "Recursive invalidation"
@@ -2264,17 +2289,17 @@ msgstr "Päivitä tämä sivu"
 msgid "Regions"
 msgstr "Alueet"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:153
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:122
 msgid "Related"
 msgstr "Liittyvät"
 
-#: eea.relations/eea/relations/default/__init__.py:14
-#: eea.reports/eea/reports/subtypes/report.py:167
+#: eea.relations/eea/relations/default/subtypes.py:11
+#: eea.reports/eea/reports/subtypes/report.py:165
 msgid "Related Items"
 msgstr "Vastaavia kohteita"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:177
-#: eea.relations/eea/relations/skins/eea_relations/eea_relateditems.pt:41
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:146
+#: eea.relations/eea/relations/skins/eea_relations/eea_relateditems.pt:39
 msgid "Related content"
 msgstr "Asiaan liittyvää sisältöä"
 
@@ -2325,11 +2350,11 @@ msgstr "Asiaan liittyvä video"
 msgid "Relevant policy documents"
 msgstr "Keskeisiä poliittisia asiakirjoja"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:147
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:212
 msgid "Remember my email address."
 msgstr "Muista minun sähköpostiosoiteeni."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:138
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:203
 msgid "Remember my name."
 msgstr "Muista nimeni."
 
@@ -2359,7 +2384,7 @@ msgstr "Järjestä CSS uudelleen"
 msgid "Reorder Javascripts"
 msgstr "Järjestä JavaScript uudelleen"
 
-#: EEAContentTypes/browser/reorder.pt:7
+#: EEAContentTypes/browser/reorder.pt:8
 msgid "Reorder resources"
 msgstr "Järjestä resurssit uudelleen"
 
@@ -2367,7 +2392,7 @@ msgstr "Järjestä resurssit uudelleen"
 msgid "Replace with new file:"
 msgstr "korvaa uudella tiedostolla:"
 
-#: eea.design/eea/design/browser/templates/comments.pt:135
+#: eea.design/eea/design/browser/templates/comments.pt:141
 msgid "Reply"
 msgstr "Vastaa"
 
@@ -2393,15 +2418,8 @@ msgid "Reporting frequency"
 msgstr "Raportointitiheys"
 
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:18
-msgid ""
-"Reporting obligations are requirements to provide information agreed between "
-"countries and international bodies such as the EEA or international "
-"conventions. Reporting obligations provide the basis for most environmental "
-"information flows."
-msgstr ""
-"Raportointivelvoitteet on sovittu maiden ja kansainvälisten elinten, kuten "
-"EEAn, kesken tai perustuen kansainvälisiin sopimuksiin. Useimmiten "
-"ympäristötiedon kulku perustuu raportointivelvoitteisiin."
+msgid "Reporting obligations are requirements to provide information agreed between countries and international bodies such as the EEA or international conventions. Reporting obligations provide the basis for most environmental information flows."
+msgstr "Raportointivelvoitteet on sovittu maiden ja kansainvälisten elinten, kuten EEAn, kesken tai perustuen kansainvälisiin sopimuksiin. Useimmiten ympäristötiedon kulku perustuu raportointivelvoitteisiin."
 
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:22
 msgid "Reporting obligations related to data stored at EEA"
@@ -2451,7 +2469,6 @@ msgstr "Pyyntö välimuistin mitätöinnistä lähetetty"
 msgid "Reset Eionet account password page"
 msgstr "Eionet-salasana palautussivu"
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:35
 #: eea.design/eea/design/browser/templates/manage_footer.pt:26
 msgid "Return to view"
 msgstr "Paluu katseluun"
@@ -2459,6 +2476,12 @@ msgstr "Paluu katseluun"
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:69
 msgid "Romania"
 msgstr "Romania"
+
+msgid "Romanian"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:28
 msgid "SEIS network"
@@ -2517,6 +2540,9 @@ msgstr "hae kaikki raportit:"
 msgid "Search data, maps, indicators"
 msgstr "Hae tietoa, karttoja, indikaattoreita"
 
+msgid "Search on title / abstract"
+msgstr ""
+
 #: eea.design/eea/design/skins/eeadesign_cms/search.pt:113
 #: eea.design/eea/design/skins/eeadesign_public/search.pt:81
 msgid "Search results"
@@ -2540,10 +2566,11 @@ msgstr "osiot"
 msgid "See all"
 msgstr "Katso kaikki"
 
+#: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:80
 msgid "See also"
 msgstr "Katso myös"
 
-#: eea.reports/eea/reports/browser/report.pt:19
+#: eea.reports/eea/reports/browser/report.pt:20
 msgid "See older versions."
 msgstr "Katso vanhempia versioita."
 
@@ -2575,9 +2602,24 @@ msgstr "lähettäjä_osoitteesta"
 msgid "Serbia"
 msgstr "Serbia"
 
-#: eea.reports/eea/reports/subtypes/report.py:112
+msgid "Serbian"
+msgstr ""
+
+#: eea.reports/eea/reports/subtypes/report.py:110
 msgid "Serial title"
 msgstr "sarjan otsikko"
+
+#: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:42
+msgid "Share on Facebook"
+msgstr ""
+
+#: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:33
+msgid "Share on Google+"
+msgstr ""
+
+#: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:27
+msgid "Share on Twitter"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/document_actions.pt:13
 #: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:13
@@ -2588,19 +2630,23 @@ msgstr "Jaa muiden kanssa"
 msgid "Shared Environmental Information System (SEIS)"
 msgstr "Shared Environmental Information System (SEIS)"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:15
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:70
+msgid "Sign up"
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:106
 msgid "Sign up now!"
 msgstr "Liity nyt!"
+
+msgid "Signals"
+msgstr ""
 
 msgid "Similar interactive maps"
 msgstr "Samanlaisia vuorovaikutteisia karttoja"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:46
-msgid ""
-"Since cookie authentication is disabled, cookie-based login is not available."
-msgstr ""
-"Koska eväste autentikointi ei ole käytössä, evästeisiin perustuva "
-"kirjautuminen ei ole käytettävissä."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:73
+msgid "Since cookie authentication is disabled, cookie-based login is not available."
+msgstr "Koska eväste autentikointi ei ole käytössä, evästeisiin perustuva kirjautuminen ei ole käytettävissä."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:55
 msgid "Site Administration"
@@ -2619,6 +2665,9 @@ msgstr "siirry sisältöön."
 msgid "Skip to navigation"
 msgstr "siirry navigointiin"
 
+msgid "Slovak"
+msgstr ""
+
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:71
 msgid "Slovakia"
 msgstr "Slovakia"
@@ -2626,6 +2675,9 @@ msgstr "Slovakia"
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:72
 msgid "Slovenia"
 msgstr "Slovenia"
+
+msgid "Slovenian"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/colophon.pt:84
 msgid "Software updates history"
@@ -2635,6 +2687,10 @@ msgstr "Ohjelmistopäivityksien historia"
 msgid "Soil"
 msgstr "Maaperä"
 
+#: eea.relations/eea/relations/skins/eea_relations/eea_relateditems.pt:42
+msgid "Sort by:"
+msgstr ""
+
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:187
 msgid "Source"
 msgstr "Lähde:"
@@ -2642,6 +2698,9 @@ msgstr "Lähde:"
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:73
 msgid "Spain"
 msgstr "Espanja"
+
+msgid "Spanish"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:21
 msgid "Spanish themes IMS link"
@@ -2664,6 +2723,9 @@ msgstr "ajankohtaista"
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:24
 msgid "Spotting the signs for a transport system by 2050"
 msgstr "Huomaa merkit, liikennejärjestelmälle vuonna 2050"
+
+msgid "State of the environment reports"
+msgstr ""
 
 msgid "Strongly related indicators"
 msgstr "Asiaan voimakkaasti liittyviä indikaattoreita"
@@ -2702,6 +2764,10 @@ msgstr "Tilaa RSS-syöte"
 msgid "Subscribe to an always-updated feed of these search terms"
 msgstr "Tilaa jatkuvasti päivittyvä syöte näillä hakuehdoilla"
 
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:67
+msgid "Subscriptions"
+msgstr ""
+
 #: eea/themecentre/skins/themecentre_templates/themecentre_view.pt:38
 msgid "Subtopics"
 msgstr "ala-aiheet"
@@ -2716,6 +2782,9 @@ msgstr "Kestävä kulutus ja tuotanto (SCP)"
 #: eea.design/eea/design/skins/eea_design/soer_geographically.pt:74
 msgid "Sweden"
 msgstr "Ruotsi"
+
+msgid "Swedish"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:27
 msgid "Swedish glossary"
@@ -2733,6 +2802,12 @@ msgstr "Sveitsi"
 msgid "Synthesis"
 msgstr "tiivistelmä"
 
+msgid "TERM reports"
+msgstr ""
+
+msgid "Technical report"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:26
 msgid "Template Europass CV"
 msgstr "Europass-ansioluettelon malli"
@@ -2742,12 +2817,8 @@ msgid "Test links"
 msgstr "Testaa linkkejä"
 
 #: EEAContentTypes/skins/EEAContentTypes/event_submitted_confirmation.pt:15
-msgid ""
-"Thank you for your event. The EEA web team will try to publish it as soon as "
-"possible."
-msgstr ""
-"Kiitos tapahtuman ilmoittamisesta. EEA:n web tiimi yrittää julkaista sen "
-"mahdollisimman pian."
+msgid "Thank you for your event. The EEA web team will try to publish it as soon as possible."
+msgstr "Kiitos tapahtuman ilmoittamisesta. EEA:n web tiimi yrittää julkaista sen mahdollisimman pian."
 
 #: EEAContentTypes/skins/EEAContentTypes/cftrequest_confirmation.pt:9
 msgid "Thank you for your request"
@@ -2757,9 +2828,12 @@ msgstr "Kiitos pyynnöstänne"
 msgid "Thank you."
 msgstr "Kiitos."
 
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:81
+msgid "The EEA Web CMS works best with following browsers:"
+msgstr ""
+
 #: eea.design/eea/design/browser/templates/colophon.pt:31
-msgid ""
-"The European Environment Agency (EEA) is an agency of the European Union."
+msgid "The European Environment Agency (EEA) is an agency of the European Union."
 msgstr "Euroopan ympäristökeskus (EEA) on Euroopan unionin virasto"
 
 #: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:47
@@ -2772,48 +2846,20 @@ msgid "The European environment – state and outlook 2010"
 msgstr "Euroopan ympäristö - tila ja tulevaisuudennäkymät 2010"
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:32
-msgid ""
-"The content you were viewing does not exist in the language you just "
-"selected. The site language has been switched to ${language} and you can "
-"keep browsing the site in this language."
-msgstr ""
-"Tätä sisältöä ei ole saatavilla valitsemallasi kielellä. Kieleksi on nyt "
-"valittu ${language} ja voit jatkaa sivuston selaamista tällä kielellä."
+msgid "The content you were viewing does not exist in the language you just selected. The site language has been switched to ${language} and you can keep browsing the site in this language."
+msgstr "Tätä sisältöä ei ole saatavilla valitsemallasi kielellä. Kieleksi on nyt valittu ${language} ja voit jatkaa sivuston selaamista tällä kielellä."
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:306
-msgid ""
-"The country assessments are the sole responsibility of the EEA member and "
-"cooperating countries supported by the EEA through guidance, translation and "
-"editing."
-msgstr ""
-"EEAn jäsen- ja yhteityömaat ovat vastuussa maakohtaisista arvioinneista. EEA "
-"tukee maita neuvomalla sekä käännöksissä ja editoinnissa."
+msgid "The country assessments are the sole responsibility of the EEA member and cooperating countries supported by the EEA through guidance, translation and editing."
+msgstr "EEAn jäsen- ja yhteityömaat ovat vastuussa maakohtaisista arvioinneista. EEA tukee maita neuvomalla sekä käännöksissä ja editoinnissa."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:156
 msgid "The error has been logged as entry number ${entryid}."
 msgstr "Virhe on kirjattu numerolla ${entryid}."
 
 #: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:22
-msgid ""
-"The folder you are trying to access is still in draft and therefore its "
-"content cannot be listed. If you are a content manager of this site, you "
-"need to login and publish this folder."
-msgstr ""
-"Kansio, jota yrität käyttää, on vielä luonnosvaiheessa, joten sen sisältöä "
-"ei voi näyttää. Jos olet tämän sivuston sisällön tuottaja , sinun tulee "
-"kirjautua sisään, ja julkaista tämä kansio."
-
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:55
-msgid ""
-"The portlet columns will now display only those portlets explicitly assigned "
-"in this context. Use the buttons on each portlet to move them up or down, "
-"delete or edit them. To add a new portlet, use the drop-down list at the top "
-"of the column."
-msgstr ""
-"Portlet sarakkeet näyttävät nyt vain portletit, jotka on nimenomaisesti "
-"tähän sisältöön liitetty. Käytä painikkeita kunkin portletin siirtämiseen "
-"ylös tai alas, poistoon tai muokkaukseen. Voit lisätä uusia portletteja "
-"käyttämällä avattavaa luettelosta sarakkeen yläreunassa."
+msgid "The folder you are trying to access is still in draft and therefore its content cannot be listed. If you are a content manager of this site, you need to login and publish this folder."
+msgstr "Kansio, jota yrität käyttää, on vielä luonnosvaiheessa, joten sen sisältöä ei voi näyttää. Jos olet tämän sivuston sisällön tuottaja , sinun tulee kirjautua sisään, ja julkaista tämä kansio."
 
 #: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:504
 msgid "The source file XML contains the following organisations:"
@@ -2832,13 +2878,12 @@ msgid "Theme: number of questions (5 per theme)"
 msgstr "Teema: kysymysten määrä (5 per teema)"
 
 #: eea.promotion/build/lib/eea/promotion/browser/admin.pt:24
-#: eea.promotion/eea/promotion/browser/admin.pt:24
 msgid "Themepage Section"
 msgstr "teemasivu jakso"
 
 #: eea.promotion/build/lib/eea/promotion/browser/admin.pt:25
 #: eea.promotion/build/lib/eea/promotion/browser/form.pt:34
-#: eea.promotion/eea/promotion/browser/admin.pt:25
+#: eea.promotion/eea/promotion/browser/form.pt:34
 msgid "Themes"
 msgstr "Teemat"
 
@@ -2848,12 +2893,8 @@ msgstr "Teemat ja data"
 
 #: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:124
 #: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:127
-msgid ""
-"There are currently no criteria on which to search. Please add them using "
-"the 'criteria' tab."
-msgstr ""
-"Tällä hetkellä ei hakukriteereitä ole valittuna. Ole hyvä ja lisää ne "
-"käyttämällä 'kriteerit' välilehteä."
+msgid "There are currently no criteria on which to search. Please add them using the 'criteria' tab."
+msgstr "Tällä hetkellä ei hakukriteereitä ole valittuna. Ole hyvä ja lisää ne käyttämällä 'kriteerit' välilehteä."
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:120
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:143
@@ -2867,14 +2908,6 @@ msgstr "Tällä hetkellä tässä kansiossa ei ole kohteita."
 msgid "There are currently no results for this search."
 msgstr "Tällä haulla ei tuloksia."
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:128
-msgid ""
-"There are legacy portlets defined here. Click the button to convert them to "
-"new-style portlets."
-msgstr ""
-"Tässä on vanhoja portlet-määrittelyjä. Klikkaa painiketta muuntaaksesi ne "
-"uudentyylisiksi."
-
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:161
 msgid "There are no contained help center object types."
 msgstr "Ei sisällön apukohteen tyyppejä."
@@ -2884,12 +2917,8 @@ msgid "This FAQ applies to a previous version"
 msgstr "Nämä usein kysytyt kysymykset  liittyvät edelliseen versioon"
 
 #: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:42
-msgid ""
-"This content does not exist in your current language, ${language}, but you "
-"can keep browsing the site in this language."
-msgstr ""
-"Tätä sisältöä ei ole valitsemallasi kielellä ${language}, mutta voit jatkaa "
-"sivuston selaamista tällä kielellä."
+msgid "This content does not exist in your current language, ${language}, but you can keep browsing the site in this language."
+msgstr "Tätä sisältöä ei ole valitsemallasi kielellä ${language}, mutta voit jatkaa sivuston selaamista tällä kielellä."
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:46
 msgid "This document is locked."
@@ -2900,14 +2929,8 @@ msgid "This figure has no data source. For further information contact"
 msgstr "Ei tietolähdettä. Lisätietoja:"
 
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:14
-msgid ""
-"This file contains links that should be marked in different ways by the "
-"mark_special_link.js script. This is to test and verify that it works. Try "
-"it with <br /> ${normal} ${swedish-site} <br />"
-msgstr ""
-"Tämä tiedosto sisältää linkkejä, jotka tulee merkitä käyttäen "
-"mark_special_link.js-koodia. Tällä testataan, että koodi toimii. Kokeile "
-"sitä <br /> ${normal} ${swedish-site} <br />"
+msgid "This file contains links that should be marked in different ways by the mark_special_link.js script. This is to test and verify that it works. Try it with <br /> ${normal} ${swedish-site} <br />"
+msgstr "Tämä tiedosto sisältää linkkejä, jotka tulee merkitä käyttäen mark_special_link.js-koodia. Tällä testataan, että koodi toimii. Kokeile sitä <br /> ${normal} ${swedish-site} <br />"
 
 #: eea.reports/eea/reports/browser/report.pt:17
 msgid "This is the latest published version."
@@ -2919,9 +2942,7 @@ msgstr "Tämä kohta liittyy edelliseen versioon"
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:251
 msgid "This item does not have any body text, click the edit tab to change it."
-msgstr ""
-"Tässä kohteessa ei ole leipätekstiä, valitse Muokkaa-välilehti muuttaaksesi "
-"sitä."
+msgstr "Tässä kohteessa ei ole leipätekstiä, valitse Muokkaa-välilehti muuttaaksesi sitä."
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/schemata_edit_macros.pt:38
 msgid "This item is in use by someone else and cannot be modified"
@@ -2942,20 +2963,12 @@ msgstr "Tällä sivulla saat tietoa linkkien themecentre."
 #: EEAContentTypes/skins/EEAContentTypes/document_with_flash_view.pt:18
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_fixed_width_view.pt:23
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_popup_window.pt:17
-msgid ""
-"This page requires Flashplayer, please download it for free from "
-"${flashplayer-link}"
-msgstr ""
-"Tämä sivu vaatii Flashplayerin, voit ladata sen ilmaiseksi ${flashplayer-"
-"link}"
+msgid "This page requires Flashplayer, please download it for free from ${flashplayer-link}"
+msgstr "Tämä sivu vaatii Flashplayerin, voit ladata sen ilmaiseksi ${flashplayer-link}"
 
 #: eea.design/eea/design/browser/templates/document_byline.pt:14
-msgid ""
-"This website has limited functionality with javascript off. Please make sure "
-"javascript is enabled in your browser."
-msgstr ""
-"Tämä sivusto toimii rajoitetusti, jos javascript pois käytöstä. Varmista, "
-"että Javascript on käytössä selaimessasi."
+msgid "This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser."
+msgstr "Tämä sivusto toimii rajoitetusti, jos javascript pois käytöstä. Varmista, että Javascript on käytössä selaimessasi."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:50
 #: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:20
@@ -2963,36 +2976,28 @@ msgstr ""
 msgid "Title"
 msgstr "Otsikko"
 
+msgid "Title starts with"
+msgstr ""
+
 #: eea/themecentre/skins/themecentre_templates/rod_listing.pt:26
 msgid "Title/Description"
 msgstr "Otsikko / kuvaus"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:194
-msgid ""
-"To access this part of the site, you need to log in with your user name and "
-"password. You can use your Eionet username and password."
-msgstr ""
-"Päästäksesi tähän osaan sivustoa, sinun tulee kirjautua sisään omalla "
-"käyttäjätunnuksellasi ja salasanalla. Voit käyttää Eionet-käyttäjätunnusta "
-"ja -salasanaa."
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:326
+msgid "To access this part of the site, you need to log in with your user name and password. You can use your Eionet username and password."
+msgstr "Päästäksesi tähän osaan sivustoa, sinun tulee kirjautua sisään omalla käyttäjätunnuksellasi ja salasanalla. Voit käyttää Eionet-käyttäjätunnusta ja -salasanaa."
 
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:18
-msgid ""
-"To access your EEA notification service account please enter your email."
-msgstr ""
-"Päästäksesi EEAn ilmoitusten palvelutilille, kirjoita sähköpostiosoitteesi."
+msgid "To access your EEA notification service account please enter your email."
+msgstr "Päästäksesi EEAn ilmoitusten palvelutilille, kirjoita sähköpostiosoitteesi."
 
 #: eea.design/eea/design/skins/eea_design/mail_password_form.pt:32
 msgid "To reset your password visit ${mail}."
 msgstr "Voit vaihtaa salasanasi osoitteessa ${mail}."
 
 #: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:18
-msgid ""
-"To unsubscribe from EEA notification service please enter your email. You "
-"will receive an email in order to confirm your unsubscription."
-msgstr ""
-"Irtisanoaksesi EEAn ilmoituspalvelut kirjoita sähköpostiosoitteesi. Saat "
-"sähköpostitse vahvistuksen tilauksen lopettamisesta."
+msgid "To unsubscribe from EEA notification service please enter your email. You will receive an email in order to confirm your unsubscription."
+msgstr "Irtisanoaksesi EEAn ilmoituspalvelut kirjoita sähköpostiosoitteesi. Saat sähköpostitse vahvistuksen tilauksen lopettamisesta."
 
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:22
 msgid "Topic"
@@ -3027,7 +3032,7 @@ msgstr "Yhteensä:"
 msgid "Tourism"
 msgstr "Turismi"
 
-#: eea.reports/eea/reports/subtypes/report.py:254
+#: eea.reports/eea/reports/subtypes/report.py:252
 msgid "Trailer"
 msgstr "traileri"
 
@@ -3043,6 +3048,9 @@ msgstr "Liikenne"
 msgid "Turkey"
 msgstr "Turkki"
 
+msgid "Turkish"
+msgstr ""
+
 #: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:23
 msgid "Turkish subfolder"
 msgstr "Turkin alakansio"
@@ -3051,7 +3059,7 @@ msgstr "Turkin alakansio"
 msgid "Tutorials"
 msgstr "Oppaat"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:71
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:75
 msgid "Twitter icon"
 msgstr "Twitter-kuvake"
 
@@ -3073,7 +3081,7 @@ msgid "Unsubscribe from EEA notification service"
 msgstr "Peruuta EEAn ilmoituspalvelu"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:15
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:80
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:83
 #: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:50
 msgid "Up one level"
 msgstr "yksi taso ylös"
@@ -3109,17 +3117,11 @@ msgstr "JA /TAI/* -ehtoja tuetaan."
 
 #: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:17
 msgid "Use the form below to define, change or remove custom portal types."
-msgstr ""
-"Käytä allaolevaa lomaketta määritääksesi, muuttaaksesi tai poistaaksesi "
-"mukautettuja portaalityyppejä."
+msgstr "Käytä allaolevaa lomaketta määritääksesi, muuttaaksesi tai poistaaksesi mukautettuja portaalityyppejä."
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:12
-msgid ""
-"Use this form to submit an environmental event. We will then check if the "
-"submitted event is relevant for publishing."
-msgstr ""
-"Tällä lomakkeella voit ilmoittaa ympäristötapahtumasta. Tarkistamme, onko "
-"tapahtuma sopiva julkaistavaksi."
+msgid "Use this form to submit an environmental event. We will then check if the submitted event is relevant for publishing."
+msgstr "Tällä lomakkeella voit ilmoittaa ympäristötapahtumasta. Tarkistamme, onko tapahtuma sopiva julkaistavaksi."
 
 msgid "Used in indicators"
 msgstr "Käytetty indikaattoreissa"
@@ -3138,10 +3140,6 @@ msgstr "Vertikaalinen lista"
 msgid "Video File"
 msgstr "Videotiedosto"
 
-#: EEAContentTypes/subtypes.py:356
-msgid "Video Topic Container"
-msgstr "Video Topic Container"
-
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:79
 msgid "View entire FAQ expanded"
 msgstr "Näytä kaikki usein kysytyt kysymykset"
@@ -3155,31 +3153,31 @@ msgid "Visit"
 msgstr "Käy"
 
 #: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:131
-#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:131
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:139
 #: eea/themecentre/browser/themes_view.py:33
 msgid "Visit our air pollution website"
 msgstr "Käy ilmansaasteet sivustolla"
 
 #: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:159
-#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:159
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:167
 #: eea/themecentre/browser/themes_view.py:36
 msgid "Visit our biodiversity website"
 msgstr "Käy luonnon monimuotoisuuden sivustolla"
 
 #: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:188
-#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:188
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:196
 #: eea/themecentre/browser/themes_view.py:40
 msgid "Visit our climate change website"
 msgstr "Käy ilmastonmuutos sivustolla"
 
 #: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:216
-#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:216
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:224
 #: eea/themecentre/browser/themes_view.py:44
 msgid "Visit our land use website"
 msgstr "Käy maankäyttö sivustolla"
 
 #: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:244
-#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:244
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:252
 #: eea/themecentre/browser/themes_view.py:47
 msgid "Visit our water website"
 msgstr "Vieraile vesisivustolla"
@@ -3210,7 +3208,7 @@ msgid "Waste and material resources"
 msgstr "Jätteet ja raaka-ainevarat"
 
 #: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:258
-#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:258
+#: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:266
 #: eea/themecentre/skins/themecentre_templates/themes_view.pt:57
 msgid "Water"
 msgstr "Vesi"
@@ -3220,27 +3218,18 @@ msgid "Water Information System for Europe"
 msgstr "Water Information System for Europe"
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:47
-msgid ""
-"We apologize for the inconvenience, but the page you were trying to access "
-"is not at this address. You can use the links below to help you find what "
-"you are looking for."
-msgstr ""
-"Pahoittelemme häiriötä, mutta sivu, jolle yritit päästä ei ole tässä "
-"osoitteessa. Allaolevien linkkien avulla voit löytää etsimäsi."
+msgid "We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for."
+msgstr "Pahoittelemme häiriötä, mutta sivu, jolle yritit päästä ei ole tässä osoitteessa. Allaolevien linkkien avulla voit löytää etsimäsi."
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:13
-msgid ""
-"We do not publish events that are purely commercial and with no references "
-"to the environment."
-msgstr ""
-"Emme julkaise tapahtumia, jotka ovat puhtaasti kaupallisia ja joilla ei ole "
-"viittauksia ympäristöön."
+msgid "We do not publish events that are purely commercial and with no references to the environment."
+msgstr "Emme julkaise tapahtumia, jotka ovat puhtaasti kaupallisia ja joilla ei ole viittauksia ympäristöön."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:146
 msgid "We&#8217;re sorry, but there seems to be an error&hellip;"
 msgstr "Pahoittelemme, mutta jossain on virhe ..."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:65
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:70
 msgid "Welcome! You are now logged in."
 msgstr "Tervetuloa! Olet nyt kirjautunut sisään"
 
@@ -3278,51 +3267,35 @@ msgstr "Ulkoinen linkki Word dokomenttiin"
 msgid "World"
 msgstr "Maailma"
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:48
-msgid ""
-"You are editing the default view of a container. If you wanted to edit the "
-"container itself, ${go_here}."
-msgstr ""
-"Olet muokkaamassa kansion oletusnäkymää . Täällä voi muokata itse sisältöä, "
-"${go_here}."
-
 #: EEAContentTypes/browser/cache.py:72
 msgid "You are not allowed to invalidate cache in this context"
 msgstr "Et voi mitätöidä välimuistia tässä yhteydessä"
 
+#: eea.design/eea/design/skins/eea_design/outdated_browsers.pt:42
 msgid "You are using an outdated browser"
 msgstr "Käytössäsi on vanhentunut selain"
 
-#: eea.reports/eea/reports/browser/report.pt:247
-msgid ""
-"You can also obtain a copy from ${nearest-sale-agent} by providing the "
-"ordering info."
-msgstr ""
-"Voit myös saada kopion ${nearest-sale-agent} ilmoittamalla tilaustiedot."
+#: eea.reports/eea/reports/browser/report.pt:259
+msgid "You can also obtain a copy from ${nearest-sale-agent} by providing the ordering info."
+msgstr "Voit myös saada kopion ${nearest-sale-agent} ilmoittamalla tilaustiedot."
 
 #: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:75
 msgid "You might have been looking for&hellip;"
 msgstr "Olet ehkä etsinyt ..."
 
 #: EEAContentTypes/skins/EEAContentTypes/flashfile_noheader_view.pt:22
-msgid ""
-"You need Flash player to be able to see and use the ozone map viewer, please "
-"download it for free from ${flashpalyer-link}. If you don't have "
-"administrative rights on your computer, please contact your helpdesk."
-msgstr ""
-"Tarvitset Flash Playerin katsellaksesi ja käyttääksesi otsonikarttaa, voit "
-"ladata sen ilmaiseksi ${flashpalyer-link}. Jos sinulla ei ole "
-"järjestelmänvalvojan oikeuksia tietokoneeseesi, ota yhteyttä ylläpitoon."
+msgid "You need Flash player to be able to see and use the ozone map viewer, please download it for free from ${flashpalyer-link}. If you don't have administrative rights on your computer, please contact your helpdesk."
+msgstr "Tarvitset Flash Playerin katsellaksesi ja käyttääksesi otsonikarttaa, voit ladata sen ilmaiseksi ${flashpalyer-link}. Jos sinulla ei ole järjestelmänvalvojan oikeuksia tietokoneeseesi, ota yhteyttä ylläpitoon."
 
 #: EEAContentTypes/skins/EEAContentTypes/cftrequest_confirmation.pt:11
 msgid "You should shortly receive an email with further information."
 msgstr "Saat pian lisätietoja sähköpostitse."
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:77
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:81
 msgid "YouTube channel"
 msgstr "YouTube-kanava"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:77
+#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:81
 msgid "YouTube icon"
 msgstr "YouTube-kuvake"
 
@@ -3339,8 +3312,7 @@ msgid "and"
 msgstr "ja"
 
 #: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:149
-#: eea/themecentre/skins/themecentre_templates/dc_view.pt:50
+#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:177
 msgid "archive"
 msgstr "arkisto"
 
@@ -3350,7 +3322,7 @@ msgstr "selaa multimedia tuotteita"
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:59
 #: eea.design/eea/design/browser/templates/document_byline.pt:61
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:198
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:201
 msgid "by ${author}"
 msgstr "tekijä ${author}"
 
@@ -3370,9 +3342,85 @@ msgstr "julkaisusarjan nimen mukaan"
 msgid "callto link"
 msgstr "callto-linkki"
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:84
-msgid "delete portlet"
-msgstr "Poista portlet"
+#. Default: "Kongens Nytorv 6"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:112
+msgid "copyright-address1"
+msgstr ""
+
+#. Default: "1050 Copenhagen K"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:113
+msgid "copyright-address2"
+msgstr ""
+
+#. Default: "Web: eea.europa.eu"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:117
+msgid "copyright-email"
+msgstr ""
+
+#. Default: "Enquiries: eea.europa.eu/enquiries"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:118
+msgid "copyright-enquiries"
+msgstr ""
+
+#. Default: "Fax: + 45 33 36 71 99"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:116
+msgid "copyright-fax"
+msgstr ""
+
+#. Default: "The contents of this publication do not necessarily reflect the official opinions of the European Commission or other institutions of the European Union. Neither the European Environment Agency nor any person or company acting on behalf of the Agency is responsible for the use that may be made of the information contained in this report."
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:86
+msgid "copyright-legal-description"
+msgstr ""
+
+#. Default: "Legal notice"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:85
+msgid "copyright-legal-name"
+msgstr ""
+
+#. Default: "Reproduction is authorised, provided the source is acknowledged, save where otherwise stated."
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:97
+msgid "copyright-notice-desc1"
+msgstr ""
+
+#. Default: "Information about the European Union is available on the Internet. It can be accessed through the Europa server (www.europa.eu)."
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:99
+msgid "copyright-notice-desc2"
+msgstr ""
+
+#. Default: "Luxembourg: Publications Office of the European Union, ${copyright-notice-year}"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:101
+msgid "copyright-notice-desc3"
+msgstr ""
+
+#. Default: "© European Environment Agency, ${copyright-notice-year}"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:96
+msgid "copyright-notice-eea"
+msgstr ""
+
+#. Default: "Copyright notice"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:95
+msgid "copyright-notice-name"
+msgstr ""
+
+#. Default: "Tel.: + 45 33 36 71 00"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:115
+msgid "copyright-phone"
+msgstr ""
+
+#. Default: "Cover design: EEA"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:79
+msgid "cover-design"
+msgstr ""
+
+#. Default: "Layout: EEA"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:81
+msgid "cover-layout"
+msgstr ""
+
+#. Default: "Cover photo: © ${copyright-name}"
+#: eea.design/eea/design/browser/templates/pdf.cover.pt:80
+msgid "cover-photo"
+msgstr ""
 
 #. Default: "Kongens Nytorv 6<br /> 1050 Copenhagen K<br /> Denmark"
 #: eea.design/eea/design/browser/templates/colophon.pt:17
@@ -3391,7 +3439,7 @@ msgstr "vanhentunut"
 msgid "external link"
 msgstr "ulkoinen linkki"
 
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:160
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:163
 msgid "from ${start} to ${end}"
 msgstr "alkaen ${start} asti ${end}"
 
@@ -3401,11 +3449,7 @@ msgstr "alkaen ${start} asti ${end}"
 msgid "get flashplayer"
 msgstr "hae flashplayer"
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:48
-msgid "go here"
-msgstr "täältä"
-
-#: eea/themecentre/skins/themecentre_templates/dc_view.pt:69
+#: eea/themecentre/skins/themecentre_templates/dc_view.pt:54
 msgid "homepage"
 msgstr "Kotisivu"
 
@@ -3417,14 +3461,7 @@ msgstr "iCal"
 msgid "in"
 msgstr "kohteessa"
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:83
-msgid "in this folder and under this portlet is hidden"
-msgstr "Tähän kansioon ja portlettiin on piilotettu"
-
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:82
-msgid "in this folder and under this portlet is visible"
-msgstr "Tässä kansiossa ja portletissa näkyy"
-
+#: eea.design/eea/design/browser/templates/cross_site_top.pt:58
 msgid "items"
 msgstr "kohdat"
 
@@ -3433,11 +3470,15 @@ msgstr "kohdat"
 msgid "label_advanced_search"
 msgstr "Tarkennettu haku"
 
-#. Default: "Log in with your Eionet password to see/add comments"
-#: eea.design/eea/design/browser/templates/comments.pt:16
-msgid "label_login_to_add_comments"
+#. Default: "Log in"
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:252
+msgid "label_log_in"
 msgstr ""
-"Kirjaudu sisää Eionet-salasanallasi, jos haluat lukea tai lisätä kommentteja."
+
+#. Default: "Log in with your Eionet password to see/add comments"
+#: eea.design/eea/design/browser/templates/comments.pt:19
+msgid "label_login_to_add_comments"
+msgstr "Kirjaudu sisää Eionet-salasanallasi, jos haluat lukea tai lisätä kommentteja."
 
 #. Default: "No matching results found."
 #: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:105
@@ -3451,7 +3492,7 @@ msgstr "Näytä kaikki kohteet"
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:71
 #: eea.design/eea/design/browser/templates/document_byline.pt:71
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:211
+#: eea.design/eea/design/skins/eea_design/folder_listing.pt:214
 msgid "last modified"
 msgstr "viimeksi muutettu"
 
@@ -3480,22 +3521,11 @@ msgstr "lisää ekovinkkejä"
 msgid "more info"
 msgstr "Lisätietoja"
 
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:80
-msgid "move portlet down"
-msgstr "Siirrä portlet alas"
-
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:79
-msgid "move portlet up"
-msgstr "Siirrä portlet ylös"
-
-#: eea.design/eea/design/browser/templates/manage-contextual.pt:81
-msgid "move portlet up or down"
-msgstr "Siirrä portlet ylös-tai alaspäin"
-
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:24
 msgid "new EEA domain link"
 msgstr "Uusi EEA domain-linkki"
 
+#: eea.design/eea/design/browser/templates/cross_site_top.pt:56
 msgid "next"
 msgstr "seuraava"
 
@@ -3519,10 +3549,11 @@ msgstr "portlet_themes.pt"
 msgid "powered by The Google AJAX Search API"
 msgstr "powered by Google AJAX Search API"
 
+#: eea.design/eea/design/browser/templates/cross_site_top.pt:57
 msgid "previous"
 msgstr "edellinen"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:201
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:333
 msgid "registration form"
 msgstr "rekisteröintilomake"
 
@@ -3534,7 +3565,7 @@ msgstr "tähän liittyvät raportointivelvollisuudet"
 msgid "s"
 msgstr "s"
 
-#: eea.design/eea/design/browser/templates/comments.pt:88
+#: eea.design/eea/design/browser/templates/comments.pt:94
 msgid "says:"
 msgstr "sanoo:"
 
@@ -3555,12 +3586,8 @@ msgid "total"
 msgstr "yhteensä"
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:87
-msgid ""
-"use this field if the report type is not listed in the previous Serial Title "
-"field"
-msgstr ""
-"Käytä tätä kenttää, jos raporttityyppiä ei ole mainittu edellisessä Serial "
-"Title -kentässä"
+msgid "use this field if the report type is not listed in the previous Serial Title field"
+msgstr "Käytä tätä kenttää, jos raporttityyppiä ei ole mainittu edellisessä Serial Title -kentässä"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:154
 msgid "vCal"
@@ -3570,10 +3597,11 @@ msgstr "vCal"
 msgid "visit the SOER 2010 website"
 msgstr "käy SOER 2010 -verkkosivuilla"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:181
+#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:314
 msgid "we can send you a new one"
 msgstr "voimme lähettää sinulle uuden"
 
-#: eea.reports/eea/reports/browser/report.pt:248
+#: eea.reports/eea/reports/browser/report.pt:260
 msgid "your nearest sales agent"
 msgstr "Lähin myyntiedustaja"
+
