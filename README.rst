@@ -23,7 +23,7 @@ This script will generate a log with the directories scanned and the errors foun
 
 **Important note**
 
-In order to be able to successfully run tools/translate-check-i18ndude.sh the PT files that generates XML/RSS must be temporarily altered (more [details](http://trac.plumi.org/ticket/221)).
+In order to be able to successfully run tools/translate-check-i18ndude.sh the PT files that generates XML/RSS must be temporarily altered (more `details <http://trac.plumi.org/ticket/221>`_).
 
 Right now there are 2 templates that will generate errors:
 
@@ -37,8 +37,6 @@ To generate the **eea.pot** file you must temporarily change all the <link> tags
 
     $ tools/translate-generate-po.sh
 
-4. use your text editor or [Poedit](https://poedit.net/download) to update the translations in the po files.
+4. use your text editor or `Poedit <https://poedit.net/download>`_ to update the translations in the po files.
 
-[HowToUsePoedit](https://taskman.eionet.europa.eu/projects/zope/wiki/HowToUsePoedit)
-
-5. [HowToManageTranslations](https://taskman.eionet.europa.eu/projects/content/wiki/HowToManageTranslations)
+5. `HowToManageTranslations <https://taskman.eionet.europa.eu/projects/content/wiki/HowToManageTranslations>`_
