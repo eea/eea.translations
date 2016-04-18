@@ -5,3 +5,36 @@ Overview
 --------
 
 Translations for EEA website. Most translations come from old local.eea.europa.eu website. We also have translated logos here.
+
+
+Fixing templates and generate new pot and po files
+--------------------------------------------------
+
+1. go to your buildout home directory, witch on a VM should be:
+
+    $ pwd
+    /var/local/deploy/eea-buildout-plone4
+
+2. check templates for errors and generate the **eea.pot** file:
+
+    $ tools/translate-check-i18ndude.sh
+
+This script will generate a log with the directories scanned and the errors found. All the reported errors must be fixed.
+
+**Important note**
+
+In order to be able to successfully run tools/translate-check-i18ndude.sh the PT files that generates XML/RSS must be temporarily altered (more details: http://trac.plumi.org/ticket/221 ).
+
+Right now there are 2 templates that will generate errors:
+
+    TALError: empty HTML tags cannot use tal:content: 'link', at line 12, column 5, in file src/Products.EEAContentTypes/Products/EEAContentTypes/browser/rss.xml.pt
+    
+    TALError: empty HTML tags cannot use tal:content: 'link', at line 22, column 3, in file src/Products.EEAContentTypes/Products/EEAContentTypes/skins/EEAContentTypes_public/rss_template.pt
+
+To generate the **eea.pot** file you must temporarily change all the <link> tags to something like <linka>; after the file generation switch back.
+
+3. generate the **po** files:
+
+    $ tools/translate-generate-po.sh
+
+4. use your text editor or Poedit: https://poedit.net/download to update the translations in the po files.
