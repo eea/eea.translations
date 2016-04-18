@@ -12,7 +12,6 @@ Fixing templates and generate new pot and po files
 
 1. go to your buildout home directory, witch on a VM should be:
 
-    $ pwd
     /var/local/deploy/eea-buildout-plone4
 
 2. check templates for errors and generate the **eea.pot** file:
