@@ -13,7 +13,7 @@ setup(name=name,
       description="Translations for EEA website. Most translations come from "
                   "old local.eea.europa.eu website. We also have translated "
                   "logos here.",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
         "Framework :: Plone",

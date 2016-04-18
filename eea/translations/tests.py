@@ -36,14 +36,14 @@ def test_suite():
     """ Suite
     """
     return unittest.TestSuite([
-        #doctestunit.DocFileSuite('README.txt',
+        #doctestunit.DocFileSuite('README.rst',
                                  #package='eea.translations',
                                  #setUp=testing.setUp,
                                  #tearDown=testing.tearDown),
         #doctestunit.DocTestSuite(module='eea.translations.mymodule',
                                  #setUp=testing.setUp,
                                  #tearDown=testing.tearDown),
-        ztc.ZopeDocFileSuite('README.txt',
+        ztc.ZopeDocFileSuite('README.rst',
                              package='eea.translations',
                              test_class=TestCase),
         #ztc.FunctionalDocFileSuite('browser.txt',
