@@ -59,4 +59,14 @@ In this case the indicated po file must be opened in your editor; go to that lin
 
 5. use your text editor or `Poedit <https://poedit.net/download>`_ to update the translations in the po files.
 
+Sometimes, it happens that a message is missing from a PO file, let's say the one for Italian (it). In that case, a manual sync must be done:
+
+    $ cd src/eea.translations/eea/translations/locales/
+    
+    $ /var/local/deploy/eea-buildout-plone4/bin/i18ndude sync --pot eea.pot  it/LC_MESSAGES/eea.po
+    
+    $ it/LC_MESSAGES/eea.po: 102 added, 84 removed
+
+After that, reload the PO file and try again.
+
 6. `HowToManageTranslations <https://taskman.eionet.europa.eu/projects/content/wiki/HowToManageTranslations>`_
