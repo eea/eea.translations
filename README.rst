@@ -36,6 +36,27 @@ To generate the **eea.pot** file you must temporarily change all the <link> tags
 
     $ tools/translate-generate-po.sh
 
-4. use your text editor or `Poedit <https://poedit.net/download>`_ to update the translations in the po files.
+4. start your www1 in debug mode
 
-5. `HowToManageTranslations <https://taskman.eionet.europa.eu/projects/content/wiki/HowToManageTranslations>`_
+    $ bin/www1 fg
+
+and check to see there are no warnings like:
+
+    2016-04-19 10:58:33 WARNING zope.i18n Error while compiling /var/local/deploy/eea-buildout-plone4/src/eea.translations/eea/translations/locales/it/LC_MESSAGES/eea.po
+
+If there are such warinings, stop www1 and:
+
+    $ cd src/eea.translations/eea/translations/locales/ 
+    
+    $ ./generate-mo.sh
+
+This script will display the po files with error indicated the exact message, e.g.
+
+    bg/LC_MESSAGES/eea.po:3238: keyword "$" unknown
+
+In this case the indicated po file must be opened in your editor; go to that line (3228) and see what message caused the error and where it comes from. After fixging all the errors repeat the process.
+
+
+5. use your text editor or `Poedit <https://poedit.net/download>`_ to update the translations in the po files.
+
+6. `HowToManageTranslations <https://taskman.eionet.europa.eu/projects/content/wiki/HowToManageTranslations>`_
