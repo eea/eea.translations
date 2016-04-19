@@ -5,7 +5,6 @@ msgstr ""
 "PO-Revision-Date: 2013-11-25 13:52+0100\n"
 "Last-Translator: Prosperini Christian-Xavier  <Christian.Prosperini@eea.europa.eu>\n"
 "Language-Team: is <>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,52 +13,76 @@ msgstr ""
 "Language-Name: Icelandic\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: DOMAIN\n"
+"Language: \n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:92
+#: eea.design/eea/design/browser/templates/document_byline.pt:82
+msgid "${author}"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:69
+msgid "${author} <span>x</span>"
+msgstr ""
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:86
 msgid "${date} ${linebreak} from ${starttime} to ${endtime}"
 msgstr "${date} ${linebreak} minn ${starttime} sa ${endtime}"
+
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:34
+msgid "${download_type} not available"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/calendar.pt:55
 msgid "${monthname} ${year}"
 msgstr "${monthname} ${year}"
 
-#: eea.geotags/eea/geotags/field/location.py:106
+#: eea.design/eea/design/skins/eea_overrides_scripts/check_id.py:85
+msgid "${name} is not a legal name. The following characters are invalid: ${characters}"
+msgstr ""
+
+#: eea.geotags/eea/geotags/field/location.py:137
 msgid "${name} is required, please correct."
 msgstr "${name} huwa meħtieġ, jekk jogħġbok ikkoreġi dan."
+
+#: eea.design/eea/design/skins/eea_overrides_scripts/check_id.py:74
+msgid "${name} is reserved."
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/map_portlet.pt:61
 msgid "${number} events on map"
 msgstr "${number} avvenimenti fuq mappa"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:119
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:87
-msgid "${number} items matching your search terms"
-msgstr "${number} punti li jaqblu mat-termini tat-tiftix tiegħek"
-
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:70
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:70
 msgid "${sign-up} to receive our reports (print and/or electronic) and quarterly e-newsletter."
 msgstr "${inkiteb} biex tirċievi r-rapporti tagħna (stampati jew/u f’forma elettronika) u n-newsletter elettronika ta’ kull tliet xhur."
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:57
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:51
 msgid "${startdate} to ${linebreak} ${enddate}"
 msgstr "${startdate} sa ${linebreak} ${enddate}"
 
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:136
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_listing.pt:140
 msgid "${start}"
 msgstr "${start}"
 
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:151
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_listing.pt:155
 msgid "${start} from ${starttime} to ${end}"
 msgstr "${start} minn ${starttime} sa ${end}"
+
+#: EEAContentTypes/skins/EEAContentTypes/revertversion.py:39
+msgid "${title} has been reverted to revision ${version}."
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:82
 msgid "% tags currently selected."
 msgstr "% tags attwalment magħżula."
 
-#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:64
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_summary_view.pt:63
 msgid "(${location}, from ${start} to ${end})"
 msgstr "(${location}, minn ${start} sa ${end})"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:69
+msgid "(Contact Author)"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:49
 msgid "(Directory: ${directory})"
@@ -73,11 +96,15 @@ msgstr "(MHUX ISSETTJAT"
 msgid "(Open: ${from-date} &mdash; Close: ${to-date})"
 msgstr "(Iftaħ: ${from-date} &mdash; Agħlaq: ${to-date})"
 
-#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:76
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_summary_view.pt:75
 msgid "(from ${start} to ${end})"
 msgstr "minn ${start} sa ${end})"
 
-#: EEAContentTypes/browser/crop/cropimage.pt:24
+#: eea.epub/eea/epub/browser/app/download.py:90
+msgid "* The email is only used for the purpose of sending the ePub. We do not store it for any other use."
+msgstr ""
+
+#: EEAContentTypes/browser/crop/cropimage.pt:26
 msgid "*Note: Hitting the crop button will replace the original image with this cropped image"
 msgstr "*Nota: Jekk tagħfas il-buttuna biex tikkroppja l-immaġni oriġinali ser tiġi sostitwita b’dan  l-istampa kkroppjata"
 
@@ -88,6 +115,10 @@ msgstr "(limitat għal dak awtentikat)"
 #: EEAContentTypes/browser/reorder.pt:128
 msgid "- [Media: ${media}]"
 msgstr "[Midja"
+
+#: EEAContentTypes/actions/rabbitmq_message.py:130
+msgid "A RabbitMQ message."
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:38
 msgid "A letter of motivation"
@@ -101,83 +132,81 @@ msgstr "Infetħet window ġdida bl-applikazzjoni flash. <br /> Jekk matarax il-w
 msgid "A report publication."
 msgstr "Pubblikazzjoni ta’ rapport."
 
-#: eea.design/eea/design/browser/templates/global_searchbox.pt:22
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:18
 msgid "A-Z Glossary"
 msgstr "Glossarju A-Z"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:51
 msgid "Access our data via semantic APIs"
 msgstr "Aċċessa d-dejta tagħna permezz ta’ APIs semantiċi"
 
 #: eea/themecentre/browser/templates/themes_view.pt:99
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:123
 msgid "Across environmental issues and sectors"
 msgstr "Fi kwistjonijiet u setturi ambjentali"
-
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:20
-msgid "Active"
-msgstr "Attiv"
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_cms_activity.pt:14
 msgid "Activity lists"
 msgstr "Listi ta’ attività"
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:100
+#: EEAContentTypes/actions/rabbitmq_message.py:129
+msgid "Add RabbitMQ message Action"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:139
+msgid "Add Set effective/publishing date action"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:100
 msgid "Add Translation"
 msgstr "Daħħal it-Traduzzjoni"
 
-#: eea.design/eea/design/browser/templates/comments.pt:175
+#: EEAContentTypes/actions/set_effective_date.py:24
+msgid "Add an entry in workflow history"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/comments.pt:177
 msgid "Add comment"
 msgstr "Daħħal kumment"
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:72
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:72
 msgid "Add content translation"
 msgstr "Daħħal traduzzjoni tal-kontenut"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:147
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:139
 msgid "Add event to calendar"
 msgstr "Daħħal avveniment fil-kalendarju"
 
-#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:67
+#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:68
 msgid "Add portal type"
 msgstr "Daħħal it-tip ta’ portal"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:26
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:92
 msgid "Advanced"
 msgstr "Avvanzat"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:65
-msgid "Advanced Search"
-msgstr "Tiftixa Avvanzata"
-
-#: eea.design/eea/design/browser/templates/searchbox_cms.pt:50
+#: eea.design/eea/design/browser/templates/searchbox_cms.pt:46
 msgid "Advanced Search&hellip;"
 msgstr "Tiftixa Avvanzata"
 
-#: eea.design/eea/design/browser/templates/global_searchbox.pt:19
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:58
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:14
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:68
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:23
 msgid "Advanced search"
 msgstr "Tiftixa avvanzata"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:69
-msgid "Agriculture"
-msgstr "Agrikoltura "
-
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:144
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:152
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:113
 msgid "Air pollution"
 msgstr "Tniġġiż tal-arja"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:38
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:35
 msgid "Air pollution and Climate Change mitigation (ACM)"
 msgstr "Tniġġiż tal-arja u Mitigazzjoni tat-Tibdil fil-Klima (ACM)"
 
 msgid "Air pollution by ozone"
 msgstr "Tniġġiż tal-arja skont l-ozon"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:33
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:33
 msgid "Albania"
 msgstr "L-Albanija"
 
@@ -192,8 +221,8 @@ msgstr "Kollha"
 msgid "All ${number} ${title}&hellip;"
 msgstr "Kollha"
 
-#: eea.design/eea/design/skins/eea_design/folder_accordion_view.pt:41
-#: eea.design/eea/design/skins/eea_design/folder_tabs_view.pt:42
+#: eea.design/eea/design/skins/eeadesign_templates/folder_accordion_view.pt:42
+#: eea.design/eea/design/skins/eeadesign_templates/folder_tabs_view.pt:42
 msgid "All Items"
 msgstr "Punti kollha"
 
@@ -201,13 +230,9 @@ msgstr "Punti kollha"
 msgid "All documents in state ${state}"
 msgstr "Id-dokumenti kollha fl-istat "
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:41
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:51
 msgid "All key facts"
 msgstr "Il-fatti ewlenin kollha"
-
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:46
-msgid "All key messages"
-msgstr "Il-messaġġi ewlenin kollha"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:29
 msgid "All links in state ${state}"
@@ -216,28 +241,35 @@ msgstr "Il-links kollha fl-istat "
 msgid "All products"
 msgstr "Il-prodotti kollha"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:37
-#: eea/themecentre/browser/templates/themes_view.pt:51
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:20
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:65
+#: eea/themecentre/browser/templates/themes_view.pt:48
 msgid "All topics"
 msgstr "is-suġġetti kollha"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:35
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:35
 msgid "Alphabetically"
 msgstr "Alfabetikament"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:19
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:19
 msgid "Alpine region"
 msgstr "Reġjun Alpin"
 
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:139
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:142
+#: eea.design/eea/design/skins/eea_overrides_templates/atct_topic_view.pt:143
+#: eea.design/eea/design/skins/eeadesign_templates/atct_topic_full_view.pt:139
 msgid "Also in this section"
 msgstr "F’din is-sezzjoni wkoll"
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:85
 msgid "Alternative"
 msgstr "Alternattive"
+
+#: eea.epub/eea/epub/browser/app/download.py:160
+msgid "An email will be sent to you when the ePub is ready"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:25
+msgid "An entry will be added in the object's workflow history."
+msgstr ""
 
 #: NavigationManager/skins/NavigationManager/sitemap.pt:16
 #: eea/themecentre/skins/themecentre_templates/overview.pt:16
@@ -258,18 +290,18 @@ msgstr "Kwalunkwe verżjoni."
 msgid "Application form"
 msgstr "Formola ta’ applikazzjoni"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:122
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:144
 msgid "Apps for your mobile"
 msgstr "Apps għall-mowbajl tiegħek"
 
 msgid "Arabic"
 msgstr "Għarbi"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:91
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:114
 msgid "Archive"
 msgstr "Arkivju"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:53
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_macros.pt:187
 msgid "Archive or title for more items"
 msgstr "Arkivju jew titolu għal iktar punti"
 
@@ -279,25 +311,29 @@ msgstr "Artikolu"
 msgid "Articles"
 msgstr "Artikoli"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:113
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:135
 msgid "Ask your question"
 msgstr "Staqsi l-mistoqsija tiegħek"
 
 msgid "Assessments supported"
 msgstr "Valutazzjonijiet appoġġjati"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:139
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:131
 msgid "Attendees"
 msgstr "Persuni li attendew"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:34
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:34
 msgid "Austria"
 msgstr "L-Awstrija"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:53
-#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:23
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_tabular_view.pt:23
 msgid "Author"
 msgstr "Awtur"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:59
+msgid "Authors:"
+msgstr ""
 
 #: eea.reports/eea/reports/skins/reports_templates/report_file.pt:78
 msgid "Automatically update properties from pdf publication file metadata?"
@@ -318,7 +354,7 @@ msgstr "Avviż ta’ għoti"
 msgid "Back to Table of Contents"
 msgstr "Lura għall-Werrej"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:23
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:23
 msgid "Baltic sea"
 msgstr "Il-baħar baltiku"
 
@@ -328,40 +364,38 @@ msgstr "Ibbażat fuq dejta"
 msgid "Based on linked open data"
 msgstr "Ibbażat fuq dejta miftuħa llinkjata"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:35
+#: EEAContentTypes/skins/EEAContentTypes/revertversion.py:19
+msgid "Before reverting to revision ${version}"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:35
 msgid "Belgium"
 msgstr "Il-Belġju"
 
-#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:16
+#: eea.design/eea/design/skins/eeadesign_templates/soer_topic_search.pt:16
 msgid "Below you will find all SOER content related to ${topic-label}"
 msgstr "Hawn taħt issib il-kontenut SOER kollu relatat ma’"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:16
-msgid "Bend the trend social movement"
-msgstr "Il-moviment soċjali ‘bend the trend’"
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:149
 msgid "Best regards"
 msgstr "Tislijiet"
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:173
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:181
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:30
 msgid "Biodiversity"
 msgstr "Bijodiversità"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:42
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:38
 msgid "Biological Diversity (BD)"
 msgstr "Diversità Bijoloġika (BD)"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:36
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:36
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnja u Ħerżegovina"
 
 msgid "Bosnian"
 msgstr "Bożnjan"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:70
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_macros.pt:204
 msgid "Box Name (Title that shows up)"
 msgstr "Isem tal-Kaxxa (Titolu li jitla’)"
 
@@ -371,15 +405,15 @@ msgstr "Struzzjoni"
 msgid "Brochure"
 msgstr "Fuljett"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:13
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:13
 msgid "Browse SOER geographically"
 msgstr "Ibbrawżja SOER ġeografikament"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:57
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:42
 msgid "Browse by organisation"
 msgstr "Ibbrawżja skont l-organizzazzjoni"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:76
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:86
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:110
 msgid "Browse by topic"
 msgstr "Ibbrawżja skont is-suġġett"
@@ -388,11 +422,11 @@ msgstr "Ibbrawżja skont is-suġġett"
 msgid "Browse catalogue"
 msgstr "Ibbrawżja l-katalgu"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:102
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:104
 msgid "Browse complete catalogue"
 msgstr "Ibbrawżja l-katalgu komplut"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:87
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:97
 msgid "Browse geographically"
 msgstr "Ibbrawżja ġeografikament"
 
@@ -400,7 +434,7 @@ msgstr "Ibbrawżja ġeografikament"
 msgid "Browse..."
 msgstr "Ibbrawżja…"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:37
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:37
 msgid "Bulgaria"
 msgstr "Il-Bulgarija"
 
@@ -412,15 +446,15 @@ msgstr "Bulgaru"
 msgid "CC By 2.5"
 msgstr "CC b’2.5"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:80
+#: eea.design/eea/design/browser/templates/colophon.pt:68
 msgid "CMS login"
 msgstr "CMS Login"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:8
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_cache.pt:8
 msgid "Cache"
 msgstr "Cache"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:21
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:21
 msgid "Carpathians"
 msgstr "Il-Karpazji"
 
@@ -432,22 +466,18 @@ msgstr "Biddel il-lingwa"
 msgid "Channel"
 msgstr "Kanal"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:214
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:209
 msgid "Check this to have your email address filled in automatically when you log in later."
 msgstr "Immarka hawn jekk tixtieq li jkollok l-indirizz tal-posta elettronika miktub awtomatikament meta tilloggjaaktar tard."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:205
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:200
 msgid "Check this to have your user name filled in automatically when you log in later."
 msgstr "Immarka hawn jekk tixtieq li jkollok l-isem tal-utent miktub awtomatikament meta tilloggja aktar tard."
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:33
-msgid "Chemicals"
-msgstr "Sustanzi kimiċi"
 
 msgid "Chinese"
 msgstr "Ċiniż"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:36
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:36
 msgid "Choose a newsletter"
 msgstr "Agħżel bullettin"
 
@@ -463,13 +493,11 @@ msgstr "Agħżel il-websajt lokali tal-EEA bil-lingwa li tippreferi"
 msgid "Click to view full-size image&hellip; <span>${DYNAMIC_CONTENT}</span>"
 msgstr "Ikklikkja għall-istampa bid-daqs sħiħ&hellip; <span>${DYNAMIC_CONTENT}</span>"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:47
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:41
 msgid "Climate Change Impacts, Vulnerability and Adaptation (CCA)"
 msgstr "Impatti, Vulnerabbiltà u Adattament għat-Tibdil fil-Klima (CCA)"
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:202
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:210
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:36
 msgid "Climate change"
 msgstr "Tibdil fil-klima"
 
@@ -480,25 +508,29 @@ msgstr "Mitigazzjoni tat-tibdil fil-klima"
 msgid "Climate impacts and trends"
 msgstr "Impatti u tendenzi klimatiċi "
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:109
-msgid "Coasts and seas"
-msgstr "Kosti u ibħra"
-
-#: eea.design/eea/design/browser/templates/colophon.pt:88
+#: eea.design/eea/design/browser/templates/colophon.pt:76
 msgid "Code for developers"
 msgstr "Kodiċi għall-iżviluppaturi"
 
-#: eea.design/eea/design/browser/templates/comments.pt:150
+#: eea.design/eea/design/browser/templates/comments.pt:152
 msgid "Commenting has been disabled."
 msgstr "Ma jistgħux jitħallew kummenti."
 
-#: eea.design/eea/design/browser/templates/comments.pt:2
+#: eea.design/eea/design/browser/templates/comments.pt:14
 msgid "Comments"
 msgstr "Kummenti"
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:11
 msgid "Comments on translations"
 msgstr "Kummenti dwar traduzzjonijiet"
+
+#: EEAContentTypes/actions/set_effective_date.py:144
+msgid "Configure action"
+msgstr ""
+
+#: EEAContentTypes/actions/rabbitmq_message.py:131
+msgid "Configure element"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:19
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:36
@@ -514,15 +546,14 @@ msgid "Contact"
 msgstr "Kuntatt"
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:27
-#: eea.design/eea/design/skins/eeadesign_public/contact-info.cpt:20
 msgid "Contact EEA Web Team"
 msgstr "Ikkuntattja lit-Tim tal-Web tal-EEA"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:119
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:111
 msgid "Contact Name"
 msgstr "Isem ta’ Kuntatt"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:131
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:123
 msgid "Contact Phone"
 msgstr "Numru tat-telefown ta’ Kuntatt"
 
@@ -534,7 +565,7 @@ msgstr "Link ta’ kuntatt"
 msgid "Contact us"
 msgstr "Ikkuntattjana"
 
-#: eea.reports/eea/reports/browser/report.pt:88
+#: eea.reports/eea/reports/browser/report.pt:78
 msgid "Content"
 msgstr "Kontenut"
 
@@ -549,7 +580,7 @@ msgstr "Liċenzja tal-kontenut"
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:46
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:47
-#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:17
+#: eea.design/eea/design/skins/eea_overrides_templates/atct_topic_view.pt:63
 msgid "Content listing"
 msgstr "Elenkar tal-kontenut"
 
@@ -559,22 +590,26 @@ msgid "Content provider"
 msgstr "Fornitur tal-kontenut"
 
 #. Default: "Content"
-#: eea.design/eea/design/skins/eea_design/portlet_toc.pt:11
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_toc.pt:11
 #: eea.epub/eea/epub/skins/eea_epub/portlet_toc.pt:10
 msgid "Contents"
 msgstr "Kontenut"
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:91
-msgid "Contributors: ${name}"
-msgstr "Kontributuri: ${name}"
+#: eea.design/eea/design/browser/templates/document_byline.pt:77
+msgid "Contributors:"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:58
 msgid "Cookies are not enabled. You must ${link} before you can log in."
 msgstr "Cookies mhumiex permessi. Għandek ${link} qabel tkun tista’ tilloggja."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:68
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:68
 msgid "Cookies are not enabled. You must enable cookies before you can log in."
 msgstr "Cookies mhumiex permessi. Għandek tippermetti l-cookies qabel tkun tista’ tilloggja."
+
+#: eea.design/eea/design/controlpanel/controlpanel.py:66
+msgid "Copyright info is displayed for the following portal types"
+msgstr ""
 
 #: eea.reports/eea/reports/subtypes/report.py:240
 msgid "Copyrights"
@@ -587,19 +622,19 @@ msgstr "Dokument korporatti"
 msgid "Correct the image ratio"
 msgstr "Ikkoreġi l-proporzjon tal-immaġni"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:31
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:31
 msgid "Countries A-F"
 msgstr "Pajjiżi A-F"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:47
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:47
 msgid "Countries G-M"
 msgstr "Pajjiżi G-M"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:63
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:63
 msgid "Countries L-Y"
 msgstr "Pajjiżi L-Y"
 
-#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:65
+#: eea.design/eea/design/skins/eeadesign_templates/soer_topic_search.pt:65
 msgid "Country environment"
 msgstr "L-ambjent fil-pajjiż"
 
@@ -615,16 +650,14 @@ msgstr "Il-profil tal-pajjiż: aqra iktar"
 msgid "Create ${DYNAMIC_CONTENT}"
 msgstr "Oħloq ${DYNAMIC_CONTENT}"
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:83
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:83
 msgid "Create ${language} translation of this item."
 msgstr "Oħloq ${language} traduzzjoni ta’ dan il-punt."
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Create Promotion"
 msgstr "Oħloq Promozzjoni"
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Create a promotion for this item"
 msgstr "Oħloq promozzjoni għal dan il-punt"
@@ -637,11 +670,11 @@ msgstr "Oħloq u applika tags ġodda."
 msgid "Create new"
 msgstr "Oħloq ġdid"
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:24
+#: eea.design/eea/design/browser/templates/document_byline.pt:33
 msgid "Created"
 msgstr "Maħluq"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:71
+#: eea.design/eea/design/browser/templates/colophon.pt:57
 msgid "Creative Commons Attribution License"
 msgstr "Liċenzja ta’ Attribuzzjoni ta’ ‘Creative Commons’"
 
@@ -649,14 +682,14 @@ msgstr "Liċenzja ta’ Attribuzzjoni ta’ ‘Creative Commons’"
 msgid "Creators/Authors"
 msgstr "Ħallieqa/Awturi"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:38
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:38
 msgid "Croatia"
 msgstr "Il-Kroazja"
 
 msgid "Croatian"
 msgstr "Kroat"
 
-#: EEAContentTypes/browser/crop/cropimage.pt:25
+#: EEAContentTypes/browser/crop/cropimage.pt:28
 msgid "Crop"
 msgstr "Ikkroppja"
 
@@ -664,22 +697,22 @@ msgstr "Ikkroppja"
 msgid "Crop Image"
 msgstr "Qasqas l-immaġni"
 
-#: EEAContentTypes/browser/crop/cropimage.pt:21
+#: EEAContentTypes/browser/crop/cropimage.pt:22
 msgid "Crop Size:"
 msgstr "Ikkroppja d-Daqs:"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:111
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:111
 msgid "Currently we have ${nr} subscribers. Frequency: 3-4 emails / month."
 msgstr "Attwalment għandna ${nr} abbonati. Frekwenza: 3-4 posta elettronika / xahar."
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:39
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:39
 msgid "Cyprus"
 msgstr "Ċipru"
 
 msgid "Czech"
 msgstr "Ċek"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:40
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:40
 msgid "Czech Republic"
 msgstr "Ir-Repubblika Ċeka"
 
@@ -709,13 +742,12 @@ msgstr "Sorsi ta’ dejta"
 msgid "Data used"
 msgstr "Dejta used"
 
-#: eea.promotion/build/lib/eea/promotion/browser/form.pt:46
 #: eea.promotion/eea/promotion/browser/form.pt:46
 msgid "Datacentre"
 msgstr "Ċentru tad-dejta"
 
-#: eea.design/eea/design/browser/templates/comments.pt:112
-#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:63
+#: eea.design/eea/design/browser/templates/comments.pt:114
+#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:64
 msgid "Delete"
 msgstr "Ħassar"
 
@@ -727,8 +759,7 @@ msgstr "Ħassar il-fajl attwali"
 msgid "Delicious"
 msgstr "Tajjeb ħafna"
 
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:114
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:41
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:41
 msgid "Denmark"
 msgstr "Id-Danimarka"
 
@@ -743,16 +774,20 @@ msgstr "Viċi-Direttur"
 msgid "Derived dataset"
 msgstr "Dataset derivata"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
-msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
-msgstr "Ma sibtx dak li kont qed tfittex? Ipprova ${advanced_search} biex tirfina t-tiftixa tiegħek."
+#: EEAContentTypes/browser/interfaces.py:287
+msgid "Disable Temporal Coverage Schema Extender"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:288
+msgid "Disables the Temporal Coverage Schema Extender for the following content-types"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:157
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:305
 msgid "Disclaimer"
 msgstr "Dikjarazzjoni ta’ ċaħda ta’ responsabbiltà"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:174
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:238
 msgid "Display traceback as text"
 msgstr "Uri t-traceback bħala kliem"
 
@@ -760,7 +795,7 @@ msgstr "Uri t-traceback bħala kliem"
 msgid "Distinct:"
 msgstr "Distint:"
 
-#: eea.design/eea/design/skins/eea_design/main_template.pt:101
+#: eea.design/eea/design/skins/eea_overrides_templates/main_template.pt:118
 msgid "Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!"
 msgstr "Għin lill-pjaneta tagħna, ipprintja din il-paġna biss jekk ikollok bżonnha. Anke azzjoni żgħira tista’ tagħmel differenza enormi meta jagħmluha miljuni ta’ persuni!"
 
@@ -774,6 +809,12 @@ msgstr "Dokument"
 msgid "Document Actions"
 msgstr "Dokument ta’ Azzjonijiet"
 
+#: eea.design/eea/design/controlpanel/controlpanel.py:146
+#: eea.design/eea/design/profiles/default/controlpanel.xml
+#: eea.design/eea/design/profiles/upgrades/to_123/controlpanel.xml
+msgid "Document by line settings"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:41
 msgid "Documentation search"
 msgstr "Tiftixa għal Dokumentazzjoni"
@@ -783,16 +824,16 @@ msgid "Documents containing links in the state ..."
 msgstr "Dokumenti li fihom links fl-istat..."
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing_view.pt:17
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:24
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:30
+#: eea.design/eea/design/skins/eea_overrides_templates/atct_topic_view.pt:31
+#: eea.design/eea/design/skins/eeadesign_templates/atct_topic_full_view.pt:24
 msgid "Download PDF"
 msgstr "Niżżel il-PDF"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:155
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:147
 msgid "Download this event in iCal format"
 msgstr "Niżżel dan l-avveniment fil-format iCal"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:149
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:141
 msgid "Download this event in vCal format"
 msgstr "Niżżel dan l-avveniment fil-format vCal"
 
@@ -803,6 +844,10 @@ msgstr "Olandiż"
 msgid "E-mail (Questions only):"
 msgstr "Posta elettronika (Mistoqsijiet biss):"
 
+#: EEAContentTypes/content/CallForInterest.py:21
+msgid "E.g: EEA/NSV/14/004"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:76
 msgid "EDO members"
 msgstr "Membri tal-EDO"
@@ -811,7 +856,6 @@ msgstr "Membri tal-EDO"
 msgid "EDO:"
 msgstr "EDO"
 
-#: eea.design/eea/design/browser/templates/sections.pt:10
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:132
 msgid "EEA"
 msgstr "EEA"
@@ -820,7 +864,7 @@ msgstr "EEA"
 msgid "EEA Faceted Navigation Tool"
 msgstr "Għodda ta’ Navigazzjoni b’Aspetti tal-EEA"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:114
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:136
 msgid "EEA Forum, FAQs, discuss and share"
 msgstr "Forum tal-EEA, FAQs, iddiskuti u kkondividi"
 
@@ -832,7 +876,7 @@ msgstr "Paġna ewlenija tal-EEA - agħżel il-lingwa li tippreferi"
 msgid "EEA Management Plan"
 msgstr "Pjan ta’ Ġestjoni tal-EEA"
 
-#: EEAContentTypes/subtypes.py:277
+#: EEAContentTypes/subtypes.py:312
 msgid "EEA Management plan code."
 msgstr "Kodiċi ta’ pjanifikazzjoni tal-Amministrazzjoni tal-EEA."
 
@@ -844,7 +888,7 @@ msgstr "Kodiċi tal-pjan ta’ ġestjoni tal-EEA. Kodiċi intern tal-linja tal-p
 msgid "EEA Multimedia Centre"
 msgstr "Ċentru ta’ Multimidja tal-EEA"
 
-#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:494
+#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:19
 msgid "EEA Organisational chart"
 msgstr "Tabella organizzattiva tal-EEA"
 
@@ -863,7 +907,7 @@ msgstr "Lista tal-persunal tal-EEA"
 msgid "EEA Subscriptions"
 msgstr "Abbonamenti mal-EEA"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:65
+#: eea.design/eea/design/browser/templates/colophon.pt:51
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:150
 msgid "EEA Web Team"
 msgstr "Tim tal-Web tal-EEA"
@@ -879,7 +923,7 @@ msgstr "Paġna ewlenija tal-EEA bil-lingwa tiegħek"
 msgid "EEA notification service account"
 msgstr "Kont ta’ servizz ta’ notifika tal-EEA"
 
-#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:15
+#: eea.design/eea/design/skins/eeadesign_templates/google_search.pt:15
 msgid "EEA website search"
 msgstr "Tiftixa fuq il-websajt tal-EEA"
 
@@ -900,32 +944,39 @@ msgstr "Inventarju tal-Gass Effett Serra tal-UE"
 msgid "EU LRTAP Convention Emission Inventory"
 msgstr "Inventarju tal-Emissjonijiet tal-Konvenzjoni tal-UE LRTAP"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:39
+#: eea.design/eea/design/browser/templates/colophon.pt:37
 msgid "EU flag"
 msgstr "Bandiera tal-UE"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:69
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:58
 msgid "EU partners"
 msgstr "Imsieħba tal-UE"
 
-#: eea.reports/eea/reports/browser/report.pt:224
+#: eea.reports/eea/reports/browser/report.pt:217
 msgid "EU-Bookshop"
 msgstr "Librerija tal-UE"
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:282
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:290
 msgid "Eco agents logo"
 msgstr "Lowgo tal-aġenti tal-Eko"
 
-#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:142
+#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:63
 #: eea.geotags/eea/geotags/widget/location.pt:28
-#: eea.relations/eea/relations/skins/eea_relations/eeareferencebrowser.pt:80
+#: eea.relations/eea/relations/skins/eea_relations/eeareferencebrowser.pt:79
 msgid "Edit"
 msgstr "Editja"
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/schemata_edit_macros.pt:16
 msgid "Edit ${itemtype}"
 msgstr "Editja ${itemtype}"
+
+#: EEAContentTypes/actions/rabbitmq_message.py:148
+msgid "Edit RabbitMQ message Action"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:157
+msgid "Edit Set effective/publishing date action"
+msgstr ""
 
 #: EEAContentTypes/browser/crop/cropping.pt:19
 msgid "Edit croppable images"
@@ -935,9 +986,9 @@ msgstr "Editja l-immaġni li jistgħu jiġu kkroppjati"
 msgid "Edit sub report"
 msgstr "Editja s-subrapport"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:86
-msgid "Edit your search options"
-msgstr "Editja l-għażliet għat-tiftix tiegħek"
+#: eea.design/eea/design/browser/history.py:39
+msgid "Edited"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:16
 msgid "Eionet"
@@ -946,9 +997,9 @@ msgstr "Eionet"
 msgid "Eionet priority data flows"
 msgstr "Flussi ta’ data ta’ prijorità tal-Eionet"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:53
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:158
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:153
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:23
+#: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:24
 msgid "Email"
 msgstr "Posta elettronika"
 
@@ -967,9 +1018,10 @@ msgstr "Direttiva tal-Kummerċ tal-Emissjonijiet"
 msgid "Enable Subfolder Listing"
 msgstr "Ippermetti l-elenkar tas-Subfolder"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:73
-msgid "Energy"
-msgstr "Enerġija"
+#: EEAContentTypes/browser/interfaces.py:298
+#: EEAContentTypes/profiles/upgrade/to_117/registry.xml
+msgid "Enable body fullwidth class for the following content-types"
+msgstr ""
 
 msgid "Energy and environment"
 msgstr "Enerġija u ambjent"
@@ -977,11 +1029,11 @@ msgstr "Enerġija u ambjent"
 msgid "English"
 msgstr "Ingliż"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:25
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:25
 msgid "English eionet"
 msgstr "Eionet Ingliż"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:19
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:19
 msgid "English themes IMS link"
 msgstr "Temi bl-Ingliż għal-link IMS"
 
@@ -993,7 +1045,7 @@ msgstr "Agħfas Enter"
 msgid "Enter email"
 msgstr "Daħħal il-posta elettronika"
 
-#: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:42
+#: eea.design/eea/design/skins/eeadesign_templates/folder_summary_search_view.pt:42
 msgid "Enter one or more keywords for a search."
 msgstr "Daħħal kelma jew kliem ewlenin għal tiftixa."
 
@@ -1001,45 +1053,27 @@ msgstr "Daħħal kelma jew kliem ewlenin għal tiftixa."
 msgid "Enter one tag per line, multiple words allowed."
 msgstr "Daħħal tag waħda għal kull linja, jistgħu jiddaħħlu diversi kliem."
 
+#: eea.epub/eea/epub/browser/app/download.py:114
+msgid "Enter your email address where to send '${title}' ePub when ready"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:72
 msgid "Entire documentation area"
 msgstr "Il-qasam tad-dokumentazzjoni kollu"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
-msgid "EnviroWindows"
-msgstr "EnviroWindows"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:39
-msgid "Environment and health"
-msgstr "Ambjent u saħħa"
-
-#: eea/themecentre/browser/templates/themes_view.pt:85
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:105
+#: eea/themecentre/browser/templates/themes_view.pt:84
 msgid "Environment in different regions and specific areas"
 msgstr "Ambjent f’reġjuni differenti u oqsma speċifiċi"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:28
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:32
-msgid "Environmental Atlas"
-msgstr "Atlas Ambjentali"
 
 #: eea.design/eea/design/browser/templates/calendar.pt:26
 msgid "Environmental events around the world"
 msgstr "Avvenimenti ambjentali fid-dinja kollha"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:123
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:145
 msgid "Environmental information anywhere"
 msgstr "Informazzjoni ambjentali kullimkien"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:135
-msgid "Environmental scenarios"
-msgstr "Xenarji ambjentali"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:127
-msgid "Environmental technology"
-msgstr "Teknoloġija ambjentali"
-
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:65
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:65
 msgid "Error"
 msgstr "Żball"
 
@@ -1047,40 +1081,39 @@ msgstr "Żball"
 msgid "Error references"
 msgstr "Referenzi ta’ żbalji"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:42
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:42
 msgid "Estonia"
 msgstr "L-Estonja"
 
 msgid "Estonian"
 msgstr "Estonu"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:27
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:27
 msgid "Europe"
 msgstr "L-Ewropa"
 
-#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:51
+#: eea.design/eea/design/skins/eeadesign_templates/soer_topic_search.pt:51
 msgid "Europe and the world: global megatrends"
 msgstr "L-Ewropa u d-dinja: it-tendenzi l-kbar globali"
 
-#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:37
+#: eea.design/eea/design/skins/eeadesign_templates/soer_topic_search.pt:37
 msgid "Europe's environment: thematic assessments"
 msgstr "L-ambjent Ewropew: valutazzjonijiet tematiċi"
 
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:111
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:132
 msgid "European Environment Agency"
 msgstr "Aġenzija Ewropea għall-Ambjent"
 
 #: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:54
-#: eea.design/eea/design/browser/templates/colophon.pt:14
+#: eea.design/eea/design/browser/templates/colophon.pt:12
 msgid "European Environment Agency (EEA)"
 msgstr "Aġenzija Ewropea għall-Ambjent (EEA)"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:33
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:30
 msgid "European Topic Centres (ETCs)"
 msgstr "Ċentri Tematiċi Ewropej (ETCs)"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:39
+#: eea.design/eea/design/browser/templates/colophon.pt:37
 msgid "European Union Flag"
 msgstr "Bandiera tal-Unjoni Ewropea"
 
@@ -1100,22 +1133,6 @@ msgstr "Eskludi min-navigazzjoni"
 msgid "Executive Director"
 msgstr "Direttur Eżekuttiv"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
-msgid "Explore all tags"
-msgstr "Esplora t-tags kollha"
-
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:21
-msgid "External"
-msgstr "Esterna"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:12
-msgid "Eye On Earth – Citizen observatory on air and bathing water quality"
-msgstr "Eye On Earth – Osservatorju taċ-ċittadini dwar il-kwalità tal-arja u tal-ilma għall-għawm"
-
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:25
-msgid "Eye on Earth"
-msgstr "Eye on Earth"
-
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:73
 msgid "FAQs"
 msgstr "FAQs"
@@ -1124,11 +1141,11 @@ msgstr "FAQs"
 msgid "FTP link"
 msgstr "Link FTP"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:78
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:78
 msgid "Facebook icon"
 msgstr "Ikona tal-Facebook"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:92
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:115
 msgid "Featured article"
 msgstr "Artikolu muri"
 
@@ -1153,11 +1170,6 @@ msgstr "Figuri li jappoġġjaw dan"
 msgid "Figures used"
 msgstr "Figuri użati"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:197
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:165
-msgid "Filed under:"
-msgstr "Iffajljati taħt:"
-
 #: eea.reports/eea/reports/subtypes/report.py:78
 msgid "Fill in EEA publication internal id"
 msgstr "Imla l-ID intern tal-pubblikazzjoni tal-EEA"
@@ -1174,7 +1186,7 @@ msgstr "Daħħal il-pubblikaturi addizzjonali"
 msgid "Fill in copyrights"
 msgstr "Daħħal id-drittijiet tal-awtur"
 
-#: EEAContentTypes/content/Article.py:28
+#: EEAContentTypes/content/Article.py:30
 #: eea.reports/eea/reports/subtypes/report.py:148
 msgid "Fill in publication groups"
 msgstr "Daħħal il-gruppi ta’ pubblikazzjoni"
@@ -1218,15 +1230,15 @@ msgstr "Daħħal in-numru totali ta’ paġni"
 msgid "Filter by publishing date"
 msgstr "Iffiltra skont id-data tal-pubblikazzjoni"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:36
-msgid "Filter by topic"
-msgstr "Iffiltra skont is-suġġett"
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_macros.pt:114
+msgid "Filtered by"
+msgstr ""
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:70
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:80
 msgid "Find"
 msgstr "Sib"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:43
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:43
 msgid "Finland"
 msgstr "Il-Finlandja"
 
@@ -1237,28 +1249,24 @@ msgstr "Finlandiż"
 msgid "First name"
 msgstr "Isem"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:77
-msgid "Fisheries"
-msgstr "Is-Sajd"
-
-#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:17
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:73
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_social_links.pt:17
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:73
 msgid "Follow us"
 msgstr "Segwina"
 
-#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:24
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_social_links.pt:24
 msgid "Follow us on Facebook"
 msgstr "Segwina fuq Facebook"
 
-#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:19
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_social_links.pt:19
 msgid "Follow us on Twitter"
 msgstr "Segwina fuq Twitter"
 
-#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:29
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_social_links.pt:29
 msgid "Follow us on YouTube"
 msgstr "Segwina fuq YouTube"
 
-#: eea.design/eea/design/skins/eea_design/outdated_browsers.pt:43
+#: eea.design/eea/design/skins/eeadesign_templates/outdated_browsers.pt:43
 msgid "For a better experience using this site please upgrade to a modern browser."
 msgstr "Għal esperjenza aħjar waqt li tuża dan is-sit jekk jogħġbok aġġorna l-brawżer tiegħek għal wieħed modern."
 
@@ -1270,31 +1278,31 @@ msgstr "Għal kull qasam ta’ immaġni fil-kontenut tiegħek tista’ tagħżel
 msgid "For sale?"
 msgstr "Għall-bejgħ?"
 
-#: eea.design/eea/design/skins/eea_design/mail_password_form.pt:22
+#: eea.design/eea/design/skins/eea_overrides_templates/mail_password_form.pt:22
 msgid "For security reasons, we store your password encrypted, and cannot mail it to you. If you would like to reset your password, fill out the form below and we will send you an email at the address you gave when you registered to start the process of resetting your password."
 msgstr "Għal raġunijiet ta’ sigurtà, aħna naħżnu l-password tiegħek kriptata, u ma nistgħux nibagħtuhielek.Jekk tixtieq tirrisettja l-password tiegħek, imla l-formola ta’ hawn taħt u nibagħtulek posta elettronika fl-indirizz li tajtna meta rreġistrajt biex tibda l-proċess tar-risettjar tal-password tiegħek."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:307
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:302
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:66
 msgid "Forgot your password?"
 msgstr "Insejt il-password"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:44
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:44
 msgid "Former Yugoslav Republic of Macedonia"
 msgstr "Dik li kienet ir-Repubblika Jugoslava tal-Maċedonja"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:45
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:45
 msgid "France"
 msgstr "Franza"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:67
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:77
 msgid "Free text search"
 msgstr "Tiftix għat-test liberu"
 
 msgid "French"
 msgstr "Franċiż"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:17
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:17
 msgid "Frequency: 3-4 emails / month."
 msgstr "Frekwenza: 3-4 emails / xahar."
 
@@ -1306,7 +1314,6 @@ msgstr "Ilma ħelu"
 msgid "Friendly name"
 msgstr "Isem mhux formali"
 
-#: eea.promotion/build/lib/eea/promotion/browser/form.pt:28
 #: eea.promotion/eea/promotion/browser/form.pt:28
 msgid "Front Page"
 msgstr "Paġna ta’ quddiem"
@@ -1315,25 +1322,28 @@ msgstr "Paġna ta’ quddiem"
 msgid "Fullscreen image"
 msgstr "Immaġni daqs l-iskrin kollu"
 
-#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:70
+#: EEAContentTypes/browser/interfaces.py:297
+msgid "Fullwidth ContentTypes"
+msgstr ""
+
+#: EEAContentTypes/profiles/upgrade/to_117/registry.xml
+msgid "Fullwidth content types"
+msgstr ""
+
+#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:32
 msgid "Geotags:"
 msgstr "Geotags"
 
 msgid "German"
 msgstr "Ġermaniż"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:49
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:49
 msgid "Germany"
 msgstr "Il-Ġermanja"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:17
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:17
 msgid "Get notifications on new reports and products."
 msgstr "Irċievi notifiki dwar rapporti u prodotti ġodda."
-
-#: eea.promotion/build/lib/eea/promotion/browser/form.pt:51
-#: eea.promotion/eea/promotion/browser/form.pt:51
-msgid "Global"
-msgstr "Globali"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:78
 msgid "Glossary definitions"
@@ -1343,7 +1353,11 @@ msgstr "Definizzjonijiet tal-glossarju"
 msgid "Go back and correct"
 msgstr "Mur lura u kkoreġi"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:22
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:72
+msgid "Go back to the main page of this link"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:88
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:22
 msgid "Go to advanced search"
 msgstr "Mur għal tiftix avvanzat"
@@ -1352,63 +1366,71 @@ msgstr "Mur għal tiftix avvanzat"
 msgid "Go to site"
 msgstr "Mur fis-sit"
 
-#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:24
+#: eea.design/eea/design/skins/eeadesign_templates/google_search.pt:24
 msgid "Google Custom Search Engines"
 msgstr "Custom Search Engines tal-Google"
 
 msgid "Graph"
 msgstr "Grafika"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:50
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:50
 msgid "Greece"
 msgstr "Il-Greċja"
 
 msgid "Greek"
 msgstr "Grieg"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:89
-msgid "Green economy"
-msgstr "Ekonomija ekoloġika"
-
 msgid "Greenhouse gas emission trends and projections"
 msgstr "Tendenzi u projezzjonijiet tal-emissjonijiet tal-gassijiet tal-effett serra"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:170
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:234
 msgid "Here is the full error message:"
 msgstr "Hawn hu l-messaġġ sħiħ tal-iżball:"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:77
-msgid "Hide the search form"
-msgstr "Aħbi l-formola tat-tiftix"
+#: EEAContentTypes/browser/interfaces.py:266
+msgid "Hide Geographic Coverage Viewlet"
+msgstr ""
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:89
-msgid "Highlights"
-msgstr "Enfasi"
+#: EEAContentTypes/browser/interfaces.py:277
+msgid "Hide Temporal Coverage Viewlet"
+msgstr ""
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:83
+#: EEAContentTypes/browser/interfaces.py:267
+msgid "Hide the Geographic Coverage Viewlet for the following content-types"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:278
+msgid "Hide the Temporal Coverage Viewlet for the following content-types"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:105
 msgid "History"
 msgstr "Storja"
 
-#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:42
+#: EEAContentTypes/actions/set_effective_date.py:34
+msgid "History entry action (required if 'Yes' is selected)"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:41
+msgid "History entry comment (optional)"
+msgstr ""
+
+#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:40
 msgid "Home"
 msgstr "Bidu"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:81
-msgid "Household consumption"
-msgstr "Konsum fid-dar"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:74
 msgid "How-tos"
 msgstr "Kif tagħmel ċerti affarijiet"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:47
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:47
 msgid "Human verification: leave empty"
 msgstr "Verifika umana: ħalli vojt"
 
 msgid "Hungarian"
 msgstr "Ungeriż"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:51
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:51
 msgid "Hungary"
 msgstr "L-Ungerija"
 
@@ -1420,7 +1442,7 @@ msgstr "ID"
 msgid "ISBN"
 msgstr "ISBN"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:52
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:52
 msgid "Iceland"
 msgstr "L-Islanda"
 
@@ -1435,58 +1457,50 @@ msgstr "Ikoni bbażati fuq l-estensjoni tal-fajls, fuq siti esterni u protokolli
 msgid "Icons based on protocols"
 msgstr "Ikoni bbażati fuq protokolli"
 
-#: eea.promotion/build/lib/eea/promotion/browser/form.pt:53
-#: eea.promotion/eea/promotion/browser/form.pt:53
-msgid "If checked, the promotion is shown at the top in navigation menu on all pages."
-msgstr "Jekk ivverifikat, il-promozzjoni tintwera fil-parti ta’ fuq tal-menu tan-navigazzjoni fuq il-paġni kollha."
-
 #: eea.reports/eea/reports/subtypes/report.py:263
 msgid "If selected, this item will not appear in the navigation tree"
 msgstr "Jekk magħżul, dan il-punt ma jidhirx fis-siġra tan-navigazzjoni"
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "If translations of this item have been made after it was first promoted, this action promotes the new translations"
 msgstr "Jekk it-traduzzjonijiet ta’ dan il-punt ikunu saru wara li ġie promoss għall-ewwel darba, din l-azzjoni tippromwovi t-traduzzjonijiet ġodda"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:54
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:120
 msgid "If you are certain you have the correct web address but are encountering an error, please contact the ${site_admin}."
 msgstr "Jekk inti ċert li li għandek l-indirizz tal-web korrett iżda qed jitla’ żball, jekk jogħġbok ikkuntattja ${site_admin}."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:332
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:327
 msgid "If you do not have an account here, head over to the ${registration_form}."
 msgstr "Jekk m’għandekx kont hawnhekk, mur f’ ${registration_form}."
+
+#: eea.epub/eea/epub/browser/app/download.py:163
+msgid "If you don't have access to your email address check <a href='${link}'>this link</a> in a few ${period}."
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:26
 msgid "If you experience problems please ${link}."
 msgstr "Jekk issib problemi jekk jogħġbok ${link}."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:313
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:308
 msgid "If you have forgotten your password, ${click_here}."
 msgstr "Jekk insejt il-password tiegħek, ${click_here}"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:162
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:226
 msgid "If you need to report this to the ${site_admin}, please include this entry number in your message."
 msgstr "Jekk għandek bżonn tirrapporta dan lil ${site_admin}, jekk jogħġbok inkludi dan in-numru ta’ dħul fil-messaġġ tiegħek"
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:52
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:52
 msgid "If you want to read the content of this document, you have to switch to one of the following languages:"
 msgstr "Jekk tixtieq taqra l-kontenut ta’ dan id-dokument, ikollok taqleb għal waħda mil-lingwi li ġejjin:"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:26
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:19
 #: eea.signals/eea/signals/skins/eea_signals/gallery_view.pt:63
 msgid "Image"
 msgstr "Immaġni"
 
-#: EEAContentTypes/browser/crop/cropimage.pt:20
+#: EEAContentTypes/browser/crop/cropimage.pt:21
 msgid "Image Size:"
 msgstr "Daqs tal-Immaġni:"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:7
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:8
-msgid "In the spotlight"
-msgstr "Attenzjoni fuq"
 
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:16
 msgid "In these websites you will find all the summarised environmental information available in your language."
@@ -1495,19 +1509,23 @@ msgstr "F’dawn il-websajts se ssib l-informazzjoni ambjentali kollha fil-qosor
 msgid "Indicators using this data"
 msgstr "Indikaturi li jużaw din id-dejta"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:85
-msgid "Industry"
-msgstr "Industrija"
-
-#: eea.design/eea/design/skins/eea_design/global_statusmessage.pt:13
+#: eea.design/eea/design/skins/eea_overrides_templates/global_statusmessage.pt:13
 msgid "Info"
 msgstr "Info"
+
+#: EEAContentTypes/content/infographic.py:23
+msgid "Infographic"
+msgstr ""
+
+#: EEAContentTypes/content/infographic.py:24
+msgid "Infographic image"
+msgstr ""
 
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:23
 msgid "Inherit faceted navigation configuration from:"
 msgstr "Iret konfigurazzjoni tan-navigazzjoni b’diversi aspetti minn:"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:51
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:44
 msgid "Inland, Coastal and Marine waters (ICM)"
 msgstr "Ilmijiet Interni, Kostali u Marittimi (ICM)"
 
@@ -1522,7 +1540,7 @@ msgstr "Istruzzjonijiet dwar kif tikkontribwixxi u tuża dan ir-riżors."
 msgid "Interactive data"
 msgstr "Dejta interattiva"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:50
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:35
 msgid "Interactive data viewers"
 msgstr "Telespettaturi tad-dejta interattiva"
 
@@ -1536,35 +1554,39 @@ msgstr "Prodotti mapep interattivi"
 msgid "Interested candidates must apply by filling in the application form below. To the application form must be attached:"
 msgstr "Il-kandidati interessati għandhom japplikaw billi jimlew il-formola ta’ applikazzjoni ta’ hawn taħt. Mal-formola ta’ applikazzjoni għandu jiġi anness:"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:70
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:59
 msgid "International cooperation"
 msgstr "Kooperazzjoni internazzjonali"
 
-#: eea.design/eea/design/skins/eea_design/outdated_browsers.pt:29
+#: eea.design/eea/design/skins/eeadesign_templates/outdated_browsers.pt:29
 msgid "Internet Explorer 9+"
 msgstr "Internet Explorer 9+"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:92
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:89
 msgid "Internet Explorer is not recommended for the CMS area."
 msgstr "L-Internet Explorer mhux rakkomandat għall-parti tas-CMS."
 
-#: eea.design/eea/design/browser/templates/language_selector.pt:57
+#: eea.design/eea/design/browser/templates/language_selector.pt:53
 msgid "Invalid translation"
 msgstr "Traduzzjoni invalida"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:12
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_cache.pt:12
 msgid "Invalidate"
 msgstr "Invalida"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:12
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_cache.pt:12
 msgid "Invalidate cache for current page"
 msgstr "Invalida l-cache għall-paġna attwali"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:18
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_cache.pt:18
 msgid "Invalidate cache for current page and all subpages"
 msgstr "Invalida l-cache għall-paġna attwali u għas-subpaġni kollha"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:53
+#: eea.epub/eea/epub/cache/behavior.py:21
+msgid "Invalidate latest generated ePub file"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:53
 msgid "Ireland"
 msgstr "L-Irlanda"
 
@@ -1575,10 +1597,14 @@ msgstr "Irlandiż"
 msgid "Is this publication for sale?"
 msgstr "Din il-pubblikazzjoni hija għall-bejgħ?"
 
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:52
+msgid "It will be available soon."
+msgstr ""
+
 msgid "Italian"
 msgstr "Taljan"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:54
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:54
 msgid "Italy"
 msgstr "L-Italja"
 
@@ -1590,27 +1616,30 @@ msgstr "Titolu tal-impjieg"
 msgid "Keep existing file"
 msgstr "Żomm il-fajl eżistenti"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:25
-msgid "Key facts and messages"
-msgstr "Fatti u messaġġi ewlenin"
-
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:129
 msgid "Key message"
 msgstr "Messaġġ ewlieni"
+
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:30
+msgid "Key messages"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:152
 msgid "Kongens Nytorv 6, 1050, Copenhagen K, Denmark."
 msgstr "Kongens Nytorv 6, 1050, Kopenħagen K, id-Danimarka."
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:230
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:238
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:131
 msgid "Land use"
 msgstr "Użu tal-art"
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:34
+#: eea.design/eea/design/browser/templates/document_byline.pt:43
 msgid "Last modified"
 msgstr "Mibdul l-aħħar"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:93
+msgid "Last modified:"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:53
 msgid "Last name"
@@ -1621,7 +1650,7 @@ msgstr "Kunjom"
 msgid "Last updated"
 msgstr "Aġġornat l-aħħar"
 
-#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:498
+#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:23
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:20
 msgid "Last updated on:"
 msgstr "Aġġornat l-aħħar fi:"
@@ -1638,28 +1667,28 @@ msgstr "FAQ l-aktar reċenti"
 msgid "Latest addition"
 msgstr "L-addizzjoni l-aktar reċenti"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:21
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:82
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:21
 msgid "Latest publications"
 msgstr "Il-pubblikazzjonijiet l-aktar reċenti"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:21
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:21
 msgid "Latest publications about Europe's environment published by EEA."
 msgstr "Il-pubblikazzjonijiet l-aktar reċenti dwar l-ambjent tal-Ewropa ppubblikati mill-EEA."
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:55
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:55
 msgid "Latvia"
 msgstr "Il-Latvja"
 
 msgid "Latvian"
 msgstr "Latvjan"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:35
+#: eea.design/eea/design/browser/templates/colophon.pt:33
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:155
 msgid "Legal notice"
 msgstr "Avviż legali"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:56
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:56
 msgid "Liechtenstein"
 msgstr "Il-Liechtenstein"
 
@@ -1680,7 +1709,7 @@ msgid "Link types are automatically detected on client side by a javascript (sca
 msgstr "It-tipi ta’ links huma individwati awtomatikament fuq in-naħa tal-klijent minn javascript (scanforlinks) li se żżid l-ikoni tal-klassi meħtieġa qabel il-link."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:76
-#: eea.reports/eea/reports/browser/report.pt:168
+#: eea.reports/eea/reports/browser/report.pt:159
 #: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:43
 msgid "Links"
 msgstr "Links"
@@ -1701,54 +1730,50 @@ msgstr "Lista tal-ikoni kollha disponibbli"
 msgid "List of bad relations"
 msgstr "Lista ta’ relazzjonijiet ħżiena"
 
-#: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:18
+#: eea.design/eea/design/skins/eeadesign_templates/listing_not_available.pt:18
 msgid "Listing not available"
 msgstr "Elenkar mhux disponibbli"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:57
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:57
 msgid "Lithuania"
 msgstr "Il-Litwanja"
 
 msgid "Lithuanian"
 msgstr "Litwan"
 
-#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:16
+#: eea.design/eea/design/skins/eeadesign_templates/google_search.pt:16
 msgid "Loading..."
 msgstr "Qed jillowdja…"
 
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:23
-msgid "Locations"
-msgstr "Postijiet"
-
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:224
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:219
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:52
 msgid "Log in"
 msgstr "Illoggja"
 
-#: eea.design/eea/design/browser/templates/comments.pt:37
+#: eea.design/eea/design/browser/templates/comments.pt:39
 msgid "Log in to add comments"
 msgstr "Illoggja biex iżżid kummenti"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:154
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:149
 msgid "Login Name"
 msgstr "Isem biex tilloggja"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:21
+#: eea.design/eea/design/skins/eea_overrides_scripts/login_next.cpy:21
 msgid "Login failed"
 msgstr "Login ma rnexxiex"
 
-#: eea.design/eea/design/skins/eea_design/mail_password_form.pt:19
+#: eea.design/eea/design/skins/eea_overrides_templates/mail_password_form.pt:19
 msgid "Lost Password"
 msgstr "Password Mitlufa"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:58
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:58
 msgid "Luxembourg"
 msgstr "Il-Lussemburgu"
 
 msgid "Macedonian"
 msgstr "Maċedonu"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:59
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:59
 msgid "Malta"
 msgstr "Malta"
 
@@ -1769,10 +1794,11 @@ msgstr "Mappa"
 msgid "Mediterranean environment"
 msgstr "Ambjent mediterranju"
 
-#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:28
+#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:26
 msgid "Menu"
 msgstr "Menu"
 
+#: EEAContentTypes/actions/rabbitmq_message.py:59
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:29
 msgid "Message"
 msgstr "Messaġġ"
@@ -1793,12 +1819,12 @@ msgid "Mobile"
 msgstr "Mowbajl"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:58
-#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:28
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_tabular_view.pt:28
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:111
 msgid "Modified"
 msgstr "Modifikat"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:60
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:60
 msgid "Montenegro"
 msgstr "Montenegro"
 
@@ -1806,17 +1832,13 @@ msgstr "Montenegro"
 msgid "Month events"
 msgstr "Avvenimenti tax-xahar"
 
-#: EEAContentTypes/skins/EEAContentTypes/highlight_macros.pt:55
 #: EEAContentTypes/skins/EEAContentTypes/portlet_cms_activity.pt:23
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:100
+#: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed.pt:54
 msgid "More"
 msgstr "Iktar"
 
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:26
-msgid "More green tips"
-msgstr "Iktar suġġerimenti ekoloġiċi"
-
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:174
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:166
 msgid "More information about this event&hellip;"
 msgstr "Aktar informazzjoni dwar dan l-avveniment&hellip"
 
@@ -1824,7 +1846,7 @@ msgstr "Aktar informazzjoni dwar dan l-avveniment&hellip"
 msgid "More multimedia"
 msgstr "Aktar multimidja"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:66
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:55
 msgid "More networks"
 msgstr "Aktar netwerks"
 
@@ -1868,7 +1890,7 @@ msgstr "Enfasi tal-multimidja"
 msgid "NEC directive status"
 msgstr "Status ta’ direttiva NEC"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:87
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:87
 msgid "National SOE reports"
 msgstr "Rapporti SOE nazzjonali"
 
@@ -1880,16 +1902,12 @@ msgstr "Stejjer nazzjonali u reġjonali"
 msgid "National and regional story"
 msgstr "Storja nazzjonali u reġjonali"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:45
-msgid "Natural resources"
-msgstr "Riżorsi naturali"
-
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:125
 msgid "Nature protection and biodiversity"
 msgstr "Protezzjoni tan-natura u l-bijodiversità"
 
 #: NavigationManager/menu/navigation.py:26
-#: eea.design/eea/design/skins/eea_design/portlet_navigation.pt:7
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_navigation.pt:7
 msgid "Navigation"
 msgstr "Navigazzjoni"
 
@@ -1897,7 +1915,7 @@ msgstr "Navigazzjoni"
 msgid "Navigation actions"
 msgstr "Azzjonijiet tan-navigazzjoni"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:65
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:65
 msgid "Netherlands"
 msgstr "Il-Pajjiżi l-Baxxi"
 
@@ -1913,7 +1931,7 @@ msgstr "Netwerks"
 msgid "New icons or updates can be done via the mimetypes_registry in the Plone CMS or through the EEADesign2006 product. Contact the EEA web development team in this case."
 msgstr "Ikoni jew aġġornamenti ġodda jistgħu jsiru permezz tal-mimetypes_registry fil-Plone CMS jew permezz tal-prodott EEADesign2006. Ikkuntattja lit-tim tal-iżvilupp tal-web tal-EEA f’dan il-każ."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:322
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:317
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:72
 msgid "New user?"
 msgstr "Utent ġdid?"
@@ -1947,28 +1965,19 @@ msgstr "Ma hemm l-ebda fajl tal-midja ta’ dan it-tip s’issa"
 msgid "No reference set. Click the browse button to select."
 msgstr "Ma hemm l-ebda referenza ssettjata. Ikklikkja l-buttuna tal-ibbrawżjar biex tagħżel"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:234
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_macros.pt:139
 msgid "No results are available for this topic"
 msgstr "L-ebda riżultat ma huwa disponibbli għal dan is-suġġett"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:136
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:104
-msgid "No results were found."
-msgstr "Ma nstab l-ebda riżultat."
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:81
 msgid "No tags currently selected."
 msgstr "Attwalment ma hija magħżula l-ebda tag."
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:48
-msgid "Noise"
-msgstr "Storbju"
-
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:12
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:12
 msgid "Normal"
 msgstr "Normali"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:66
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:66
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:53
 msgid "Norway"
 msgstr "In-Norveġja"
@@ -1984,11 +1993,11 @@ msgstr "Nota: verżjonijiet ġodda huma disponibbli!"
 msgid "Nothing published in ${title}&hellip;"
 msgstr "Xejn ma huwa ppubblikat f’${title}&hellip;"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:15
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:15
 msgid "Notifications"
 msgstr "Notifiki"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:164
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:164
 msgid "Notifications archive"
 msgstr "Arkivju tan-notifiki"
 
@@ -2004,15 +2013,15 @@ msgstr "ID TAL-ORDNI (Numru tal-Katalgu)"
 msgid "On the left side you have a list resources. Drag from the handle icon to reorder. After reordering, you need to use the Save button at the bottom of the list. On the right side you can see how the resources have been composed. Notice: this is not a preview. Hitting Save will generate new merged resources."
 msgstr "Fuq in-naħa tax-xellug għandek lista ta’ riżorsi. Mexxi l-ikona tal-handle biex tordna mill-ġdid. Wara li tordna mill-ġdid, għandek tuża l-buttuna biex tissejvja fil-qiegħ tal-lista. Fuq in-naħa ta-lemin tista’ tara kif ir-riżorsi ġew komposti. Nota: din mhix previżjoni. Jekk tagħfas Issejvja, se tiġġenera riżorsi ġodda immerġjati."
 
-#: eea.reports/eea/reports/browser/report.pt:217
+#: eea.reports/eea/reports/browser/report.pt:208
 msgid "Order a printed copy at EU-Bookshop"
 msgstr "Ordna kopja stampata mil-Librerija tal-UE"
 
-#: eea.reports/eea/reports/browser/report.pt:217
+#: eea.reports/eea/reports/browser/report.pt:208
 msgid "Order a printed copy online"
 msgstr "Ordna kopja stampata onlajn"
 
-#: eea.reports/eea/reports/browser/report.pt:215
+#: eea.reports/eea/reports/browser/report.pt:206
 msgid "Order information"
 msgstr "Ordna l-informazzjoni"
 
@@ -2038,12 +2047,16 @@ msgstr "Link oriġinali"
 msgid "Original link for this report"
 msgstr "Link oriġinali għal dan ir-rapport"
 
-#: eea/themecentre/browser/themecentre.py:67
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:39
+msgid "Original page"
+msgstr ""
+
+#: eea/themecentre/browser/themecentre.py:70
 msgid "Other"
 msgstr "Oħrajn"
 
-#: eea.design/eea/design/skins/eea_design/folder_accordion_view.pt:50
-#: eea.design/eea/design/skins/eea_design/folder_tabs_view.pt:51
+#: eea.design/eea/design/skins/eeadesign_templates/folder_accordion_view.pt:51
+#: eea.design/eea/design/skins/eeadesign_templates/folder_tabs_view.pt:51
 msgid "Other resources"
 msgstr "Riżorsi oħrajn"
 
@@ -2071,15 +2084,19 @@ msgstr "Paġni"
 msgid "Pan-European state of the environment reports"
 msgstr "Rapporti pan-Ewropej dwar l-istat tal-ambjent"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:178
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
+msgid "Partnerships beyond Eionet (PBE)"
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:173
 msgid "Password"
 msgstr "Password"
 
-#: eea.design/eea/design/skins/eea_design/portlet_promo_gallery.pt:92
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_promo_gallery.pt:92
 msgid "Pause/Play slideshow"
 msgstr "Pause/Play slideshow"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:23
+#: eea.design/eea/design/browser/templates/colophon.pt:21
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:154
 msgid "Phone:"
 msgstr "Telefown:"
@@ -2087,6 +2104,10 @@ msgstr "Telefown:"
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:50
 msgid "Play in popup window"
 msgstr "Play f'popup window"
+
+#: eea.design/eea/design/skins/eea_overrides_scripts/check_id.py:56
+msgid "Please enter a name."
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:12
 msgid "Please help us increase the quality of the translations."
@@ -2096,17 +2117,13 @@ msgstr "Jekk jogħġbok għinna ntejbu l-kwalità tat-traduzzjonijiet."
 msgid "Please provide the following contact information"
 msgstr "Jekk jogħġbok ipprovdi l-informazzjoni ta’ kuntatt li ġejja"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:67
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:67
 msgid "Poland"
 msgstr "Il-Polonja"
 
 #: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:31
 msgid "Policy"
 msgstr "Politika"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:131
-msgid "Policy instruments<br />"
-msgstr "Strumenti ta’ politika<br />"
 
 msgid "Polish"
 msgstr "Pollakk"
@@ -2119,11 +2136,31 @@ msgstr "Tip ta’ portal"
 msgid "Portal types"
 msgstr "Tipi ta’ portal"
 
+#: eea.design/eea/design/controlpanel/controlpanel.py:54
+msgid "Portal types black list label"
+msgstr ""
+
+#: eea.design/eea/design/controlpanel/controlpanel.py:43
+msgid "Portal types show creation date"
+msgstr ""
+
+#: eea.design/eea/design/controlpanel/controlpanel.py:32
+msgid "Portal types show modification date"
+msgstr ""
+
+#: eea.design/eea/design/controlpanel/controlpanel.py:21
+msgid "Portal types show publication date"
+msgstr ""
+
+#: eea.design/eea/design/controlpanel/controlpanel.py:65
+msgid "Portal types show rights"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_mostreferenced.pt:45
 msgid "Portlet title"
 msgstr "Titolu tal-Portlet"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:68
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:68
 msgid "Portugal"
 msgstr "Il-Portugall"
 
@@ -2141,10 +2178,6 @@ msgstr "Preżentazzjoni dwar dominju antik tal-EEA"
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:43
 msgid "Press the link to create a new content item in its default location"
 msgstr "Agħfas fuq il-link biex toħloq punt ta’ kontenut ġdid fil-post default tiegħu"
-
-#: EEAContentTypes/skins/EEAContentTypes/highlight_macros.pt:167
-msgid "Previous"
-msgstr "Preċedenti"
 
 #: eea.design/eea/design/browser/templates/calendar.pt:33
 msgid "Previous month"
@@ -2172,7 +2205,6 @@ msgstr "Programm"
 msgid "Projects"
 msgstr "Proġetti"
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Promote Translations"
 msgstr "Ippromwovi t-Traduzzjonijiet"
@@ -2181,12 +2213,10 @@ msgstr "Ippromwovi t-Traduzzjonijiet"
 msgid "Promote to theme centre"
 msgstr "Ippromwovi għaċ-ċentru tematiku"
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Promotions"
 msgstr "Promozzjonijiet"
 
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:8
 #: eea.soer/eea/soer/browser/admin.pt:10
 msgid "Promotions Admin Panel"
 msgstr "Panil tal-Admin tal-Promozzjonijiet"
@@ -2204,7 +2234,7 @@ msgstr "Pubblikazzjoni"
 msgid "Publication file"
 msgstr "Fajl ta’ pubblikazzjoni"
 
-#: EEAContentTypes/content/Article.py:27
+#: EEAContentTypes/content/Article.py:29
 #: eea.reports/eea/reports/subtypes/report.py:147
 msgid "Publication groups"
 msgstr "Gruppi ta’ pubblikazzjoni"
@@ -2215,15 +2245,14 @@ msgstr "Serje tal-pubblikazzjoni"
 msgid "Publications"
 msgstr "Pubblikazzjonijiet"
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:29
-#: eea.reports/eea/reports/browser/report.pt:76
+#: EEAContentTypes/actions/set_effective_date.py:37
+msgid "Publish"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:38
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:108
 msgid "Published"
 msgstr "Ippubblikat"
-
-#: eea.reports/eea/reports/browser/report.pt:70
-msgid "Published by"
-msgstr "Ippubblikat minn"
 
 msgid "Published on"
 msgstr "Ippubblikat fil-"
@@ -2243,17 +2272,29 @@ msgstr "Data tal-pubblikazzjoni"
 msgid "Quality of bathing water"
 msgstr "Il-kwalità tal-ilma tal-għawm"
 
+#: EEAContentTypes/actions/rabbitmq_message.py:55
+msgid "Queue name"
+msgstr ""
+
+#: EEAContentTypes/actions/rabbitmq_message.py:56
+msgid "Queue where the message will be send"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed.pt:16
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed_dbl.pt:76
 #: eea/themecentre/skins/themecentre_templates/portlet_themes_common.pt:16
 msgid "RSS"
 msgstr "RSS"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:85
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:85
 msgid "RSS Feeds"
 msgstr "Feeds tar-RSS"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:84
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:68
+msgid "RSS feeds are not enabled for this link."
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:84
 msgid "RSS logo"
 msgstr "Lowgo RSS"
 
@@ -2263,10 +2304,6 @@ msgstr "Lowgo RSS"
 msgid "Read more"
 msgstr "Aqra iktar"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:29
-msgid "Read more of the key fact"
-msgstr "Aqra iktar dwar il-fatt ewlieni"
-
 #: eea/themecentre/skins/themecentre_templates/portlet_themes_common.pt:47
 msgid "Read report"
 msgstr "Aqra r-rapport"
@@ -2274,7 +2311,7 @@ msgstr "Aqra r-rapport"
 msgid "Recurrent publications"
 msgstr "Pubblikazzjonijiet rikorrenti"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:18
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_cache.pt:18
 msgid "Recursive invalidation"
 msgstr "Invalidazzjoni rikursiva"
 
@@ -2282,11 +2319,11 @@ msgstr "Invalidazzjoni rikursiva"
 msgid "Reference manuals"
 msgstr "Manwali ta’ referenza"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:93
+#: eea.design/eea/design/browser/templates/colophon.pt:81
 msgid "Refresh this page"
 msgstr "Erġa’ iftaħ din il-paġna"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:17
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:17
 msgid "Regions"
 msgstr "Reġjuni"
 
@@ -2337,7 +2374,7 @@ msgid "Related publications"
 msgstr "Pubblikazzjonijiet relatati"
 
 #: EEAContentTypes/skins/EEAContentTypes/document_themes.pt:11
-#: eea/themecentre/browser/portlets/related.py:19
+#: eea/themecentre/browser/portlets/related.py:20
 msgid "Related themes"
 msgstr "Temi relatati"
 
@@ -2351,20 +2388,18 @@ msgstr "Vidjow relatat"
 msgid "Relevant policy documents"
 msgstr "Dokumenti ta’ politika relatati"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:212
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:207
 msgid "Remember my email address."
 msgstr "Ftakar l-indirizz tal-posta elettronika tiegħi."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:203
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:198
 msgid "Remember my name."
 msgstr "Ftakar ismi."
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Remove Promotion"
 msgstr "Neħħi l-Promozzjoni"
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Remove all promotions for this item"
 msgstr "Neħħi l-promozzjonijiet kollha għal dan il-punt"
@@ -2393,7 +2428,7 @@ msgstr "Ordna r-riżorsi mill-ġdid"
 msgid "Replace with new file:"
 msgstr "Issostitwixxi b’fajl ġdid:"
 
-#: eea.design/eea/design/browser/templates/comments.pt:141
+#: eea.design/eea/design/browser/templates/comments.pt:143
 msgid "Reply"
 msgstr "Irrispondi"
 
@@ -2462,11 +2497,27 @@ msgstr "Rikjesta għal sors ta’ dejta"
 msgid "Request for ${callforid}"
 msgstr "Rikjesta għal ${callforid}"
 
-#: EEAContentTypes/browser/cache.py:89
+#: EEAContentTypes/browser/cache.py:93
 msgid "Request for cache invalidation sent"
 msgstr "Rikjesta għal invalidazzjoni tal-cache mibgħuta"
 
-#: eea.design/eea/design/skins/eea_design/mail_password_form.pt:33
+#: EEAContentTypes/browser/interfaces.py:322
+msgid "Requires the location field for the following content-types"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:342
+msgid "Requires the subject field for the following content-types"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:352
+msgid "Requires the temporalCoverage field for the following content-types"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:332
+msgid "Requires the themes field for the following content-types"
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_overrides_templates/mail_password_form.pt:33
 msgid "Reset Eionet account password page"
 msgstr "Irrisettja l-paġna tal-password tal-kont Eionet"
 
@@ -2474,7 +2525,11 @@ msgstr "Irrisettja l-paġna tal-password tal-kont Eionet"
 msgid "Return to view"
 msgstr "Mur lura biex tara"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:69
+#: EEAContentTypes/skins/EEAContentTypes/revertversion.py:45
+msgid "Reverted to revision ${version}"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:69
 msgid "Romania"
 msgstr "Ir-Rumanija"
 
@@ -2484,25 +2539,13 @@ msgstr "Rumen"
 msgid "Russian"
 msgstr "Russu"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:28
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:25
 msgid "SEIS network"
 msgstr "Network SEIS"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:53
-msgid "SOER 2010 website"
-msgstr "Websajt SOER 2010"
 
 #: eea.soer/eea/soer/browser/admin.pt:21
 msgid "SOER Country content status"
 msgstr "Status tal-kontenut tal-pajjiż SOER"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:41
-msgid "SOER message"
-msgstr "Messaġġ SOER"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:46
-msgid "SOER viral video message"
-msgstr "Messaġġ SOER ta’ vidjow virali"
 
 #: EEAContentTypes/browser/reorder.pt:75
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:68
@@ -2510,8 +2553,8 @@ msgid "Save"
 msgstr "Issejvja"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:43
-#: eea.design/eea/design/browser/templates/searchbox_cms.pt:25
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:28
+#: eea.design/eea/design/browser/templates/searchbox_cms.pt:21
+#: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:25
 msgid "Search"
 msgstr "Fittex"
 
@@ -2519,14 +2562,9 @@ msgstr "Fittex"
 msgid "Search Europe's environment"
 msgstr "Fittex l-ambjent tal-Ewropa"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:56
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:66
 msgid "Search SOER"
 msgstr "Fittex SOER"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:48
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:46
-msgid "Search Site"
-msgstr "Fittex is-Sit"
 
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:162
 msgid "Search all reports"
@@ -2536,7 +2574,14 @@ msgstr "Fittex ir-rapporti kollha"
 msgid "Search all reports from"
 msgstr "Fittex ir-rapporti kollha minn"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:30
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:94
+msgid "Search data products"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:97
+msgid "Search data, maps, graphs"
+msgstr ""
+
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:28
 msgid "Search data, maps, indicators"
 msgstr "Fittex dejta, mapep, indikaturi"
@@ -2544,12 +2589,7 @@ msgstr "Fittex dejta, mapep, indikaturi"
 msgid "Search on title / abstract"
 msgstr "Fittex skont it-titolu / is-sommarju"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:113
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:81
-msgid "Search results"
-msgstr "Fittex riżultati"
-
-#: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:40
+#: eea.design/eea/design/skins/eeadesign_templates/folder_summary_search_view.pt:40
 msgid "Search this listing"
 msgstr "Fittex dan l-elenkar"
 
@@ -2559,11 +2599,11 @@ msgstr "Fittex dan is-sit"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:57
 #: EEAContentTypes/skins/EEAContentTypes_public/phc_linkfolder_view.pt:25
-#: eea.design/eea/design/browser/templates/sections.pt:4
+#: eea.design/eea/design/browser/templates/sections.pt:5
 msgid "Sections"
 msgstr "Sezzjonijiet"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:49
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:34
 msgid "See all"
 msgstr "Ara kollox"
 
@@ -2583,11 +2623,15 @@ msgstr "Agħżel punt minn hawn taħt biex ikollok konfigurazzjoni ta' navigazzj
 msgid "Select from existing tags."
 msgstr "Agħżel minn tags eżistenti."
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:65
+#: eea.design/eea/design/controlpanel/controlpanel.py:147
+msgid "Select which content type must show in documentbyline"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:50
 msgid "Semantic Data Service"
 msgstr "Servizz ta’ Dejta Semantika"
 
-#: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:38
+#: eea.epub/eea/epub/browser/zpt/download.pt:15
 msgid "Send"
 msgstr "Ibgħat"
 
@@ -2595,11 +2639,15 @@ msgstr "Ibgħat"
 msgid "Send as notification"
 msgstr "Ibgħat bħala notifika"
 
+#: EEAContentTypes/actions/rabbitmq_message.py:78
+msgid "Send the '${body}' message to RabbitMQ service using the '${queue_name}' queue."
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:21
 msgid "Sender_From_Address"
 msgstr "Speditur_Mill-_Indirizz"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:70
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:70
 msgid "Serbia"
 msgstr "Is-Serbja"
 
@@ -2609,6 +2657,14 @@ msgstr "Serb"
 #: eea.reports/eea/reports/subtypes/report.py:110
 msgid "Serial title"
 msgstr "Titolu tas-serja"
+
+#: EEAContentTypes/actions/set_effective_date.py:140
+msgid "Set effective/publishing date if missing; add an entry in object's workflow history"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:52
+msgid "Set effective/publishing date if missing; add an entry in object's workflow history (optional)"
+msgstr ""
 
 #: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:42
 msgid "Share on Facebook"
@@ -2627,15 +2683,15 @@ msgstr "Skambja fuq Twitter"
 msgid "Share with others"
 msgstr "Ikkondividi ma’ oħrajn"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:28
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:25
 msgid "Shared Environmental Information System (SEIS)"
 msgstr "Sistema Komuni ta’ Informazzjoni Ambjentali (SEIS)"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:70
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:70
 msgid "Sign up"
 msgstr "Irreġistra"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:106
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:106
 msgid "Sign up now!"
 msgstr "Sir membru issa!"
 
@@ -2645,11 +2701,11 @@ msgstr "Sinjali"
 msgid "Similar interactive maps"
 msgstr "Mapep interattivi simili"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:73
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:73
 msgid "Since cookie authentication is disabled, cookie-based login is not available."
 msgstr "Peress li l-awtentikazzjoni tal-cookies mhix permessa, login ibbażat fuq il-cookies mhux disponibbli."
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:55
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:121
 msgid "Site Administration"
 msgstr "Amministrazzjoni tas-Sit"
 
@@ -2669,24 +2725,20 @@ msgstr "Aqbeż għal navigazzjoni"
 msgid "Slovak"
 msgstr "Slovakk"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:71
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:71
 msgid "Slovakia"
 msgstr "Is-Slovakkja"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:72
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:72
 msgid "Slovenia"
 msgstr "Is-Slovenja"
 
 msgid "Slovenian"
 msgstr "Sloven"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:84
+#: eea.design/eea/design/browser/templates/colophon.pt:72
 msgid "Software updates history"
 msgstr "Storja tal-aġġornamenti tas-softwer"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:51
-msgid "Soil"
-msgstr "Ħamrija"
 
 #: eea.relations/eea/relations/skins/eea_relations/eea_relateditems.pt:42
 msgid "Sort by:"
@@ -2696,34 +2748,20 @@ msgstr "Elenka skont:"
 msgid "Source"
 msgstr "Sors"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:73
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:73
 msgid "Spain"
 msgstr "Spanja"
 
 msgid "Spanish"
 msgstr "Spanjol"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:21
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:21
 msgid "Spanish themes IMS link"
 msgstr "Link tal-IMS tat-temi Spanjoli"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:56
-msgid "Spatial Information and Analysis (SIA)"
-msgstr "Informazzjoni u Analiżi Spazjali (SIA)"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:113
-msgid "Specific regions"
-msgstr "Reġjuni speċifiċi"
-
-#: eea.promotion/build/lib/eea/promotion/browser/form.pt:40
 #: eea.promotion/eea/promotion/browser/form.pt:40
 msgid "Spotlight"
 msgstr "Enfasi"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:20
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:24
-msgid "Spotting the signs for a transport system by 2050"
-msgstr "L-identifikazzjoni tas-sinjali għal sistema tat-trasport sal-2050"
 
 msgid "State of the environment reports"
 msgstr "Rapporti dwar l-istat tal-ambjent"
@@ -2752,54 +2790,45 @@ msgstr "Issottometti avveniment ambjentali"
 msgid "Submit event"
 msgstr "Issottometti avveniment"
 
-#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:39
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_social_links.pt:39
 msgid "Subscribe by email"
 msgstr "Abbona bil-posta elettronika"
 
-#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:34
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_social_links.pt:34
 msgid "Subscribe to RSS Feed"
 msgstr "Abbona għall-feed tar-RSS"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:127
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:95
-msgid "Subscribe to an always-updated feed of these search terms"
-msgstr "Abbona għal feed dejjem aġġornata ta’ dawn it-termini tat-tiftix"
-
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:67
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:67
 msgid "Subscriptions"
 msgstr "Abbonamenti"
 
-#: eea/themecentre/skins/themecentre_templates/themecentre_view.pt:38
+#: eea/themecentre/skins/themecentre_templates/themecentre_view.pt:40
 msgid "Subtopics"
 msgstr "Suġġetti sekondarji"
 
 msgid "Supporting figures"
 msgstr "Figuri ta’ sostenn"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:60
-msgid "Sustainable Consumption and Production (SCP)"
-msgstr "Produzzjoni u Konsum Sostenibbli (SCP)"
-
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:74
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:74
 msgid "Sweden"
 msgstr "L-Isvezja"
 
 msgid "Swedish"
 msgstr "Svediż"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:27
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:27
 msgid "Swedish glossary"
 msgstr "Glossarju Svediż"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:15
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:15
 msgid "Swedish site"
 msgstr "Sit Svediż"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:75
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:75
 msgid "Switzerland"
 msgstr "L-Isvizzera"
 
-#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:23
+#: eea.design/eea/design/skins/eeadesign_templates/soer_topic_search.pt:23
 msgid "Synthesis"
 msgstr "Sintesi"
 
@@ -2825,28 +2854,27 @@ msgstr "Grazzi tal-avveniment tiegħek. It-tim tal-web tal-EEA se jipprova jippu
 msgid "Thank you for your request"
 msgstr "Grazzi tat-talba tiegħek"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:60
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:126
 msgid "Thank you."
 msgstr "Grazzi."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:81
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:39
+msgid "The ${download_type} does not exist or has expired, please request it again from ${original_page}."
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:45
+msgid "The ${download_type} file will be available in a few moments &hellip;"
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:79
 msgid "The EEA Web CMS works best with following browsers:"
 msgstr "L-EEA Web CMS taħdem l-aħjar f’dawn il-brawżers:"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:31
+#: eea.design/eea/design/browser/templates/colophon.pt:29
 msgid "The European Environment Agency (EEA) is an agency of the European Union."
 msgstr "L-Aġenzija Ewropea għall-Ambjent (EEA) hija aġenzija tal-Unjoni Ewropea."
 
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:47
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:10
-msgid "The European environment &ndash; state and outlook 2010"
-msgstr "L-ambjent Ewropew &ndash; stat u perspettiva 2010"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:37
-msgid "The European environment – state and outlook 2010"
-msgstr "L-ambjent Ewropew – stat u perspettiva 2010"
-
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:32
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:32
 msgid "The content you were viewing does not exist in the language you just selected. The site language has been switched to ${language} and you can keep browsing the site in this language."
 msgstr "Il-kontenut li qed tara ma jeżistix bil-lingwa li għadek kemm għażilt. Il-lingwa tas-sit inbidlet għal ${language} u tista’ tkompli tibbrawżja dan is-sit b’din il-lingwa."
 
@@ -2854,15 +2882,27 @@ msgstr "Il-kontenut li qed tara ma jeżistix bil-lingwa li għadek kemm għażil
 msgid "The country assessments are the sole responsibility of the EEA member and cooperating countries supported by the EEA through guidance, translation and editing."
 msgstr "Il-valutazzjonijiet tal-pajjiż huma r-responsabbiltà unika tal-membru tal-EEA u tal-pajjiżi kooperattivi appoġġjati mill-EEA permezz ta’ gwida, traduzzjoni u editjar."
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:156
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:221
 msgid "The error has been logged as entry number ${entryid}."
 msgstr "L-iżball ġie lloggjat bħala numru ta’ dħul ${entryid}."
 
-#: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:22
+#: eea.design/eea/design/skins/eeadesign_templates/listing_not_available.pt:22
 msgid "The folder you are trying to access is still in draft and therefore its content cannot be listed. If you are a content manager of this site, you need to login and publish this folder."
 msgstr "Il-folder li qed tipprova tiftaħ għadu qed jiġi abbozzat u għalhekk il-kontenut tiegħu ma jistax jiġi elenkat. Jekk inti l-amministratur tal-kontenut ta’ dan is-sit, trid tilloggja u tippubblika dan il-folder."
 
-#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:504
+#: eea.design/eea/design/skins/eeadesign_templates/restore_form_values.pt:12
+msgid "The form has been modified between the time of this restore data and now. Please check the history of the object before using this dialog in order to ensure that this data is still relevant"
+msgstr ""
+
+#: EEAContentTypes/actions/rabbitmq_message.py:60
+msgid "The message that you want to send to RabbitMQ."
+msgstr ""
+
+#: EEAContentTypes/skins/EEAContentTypes/revertversion.py:50
+msgid "The most current revision of the file could not be saved before reverting because the file is too large."
+msgstr ""
+
+#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:29
 msgid "The source file XML contains the following organisations:"
 msgstr "Il-fajl tas-sors XML fih l-organizzazzjonijiet li ġejjin:"
 
@@ -2870,7 +2910,7 @@ msgstr "Il-fajl tas-sors XML fih l-organizzazzjonijiet li ġejjin:"
 msgid "The template CV below duly filled in, and"
 msgstr "Il-mudell tas-CV huwa mimli kif xieraq hawn taħt, u"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:48
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:48
 msgid "Thematically"
 msgstr "Tematikament"
 
@@ -2878,13 +2918,8 @@ msgstr "Tematikament"
 msgid "Theme: number of questions (5 per theme)"
 msgstr "Tema: numru ta’ mistoqsijiet (5 għal kull tema)"
 
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:24
-msgid "Themepage Section"
-msgstr "Sezzjoni tal-paġna tematika"
-
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:25
-#: eea.promotion/build/lib/eea/promotion/browser/form.pt:34
 #: eea.promotion/eea/promotion/browser/form.pt:34
+#: eea/themecentre/profiles/default/actions.xml
 msgid "Themes"
 msgstr "Temi"
 
@@ -2892,20 +2927,20 @@ msgstr "Temi"
 msgid "Themes and data"
 msgstr "Temi u dejta"
 
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:124
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:127
+#: eea.design/eea/design/skins/eea_overrides_templates/atct_topic_view.pt:128
+#: eea.design/eea/design/skins/eeadesign_templates/atct_topic_full_view.pt:124
 msgid "There are currently no criteria on which to search. Please add them using the 'criteria' tab."
 msgstr "Attwalment m’hemmx kriterji biex tfittex. Jekk jogħġbok żidhom permezz tat-tab 'kriterji'."
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:120
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:143
-#: eea.design/eea/design/skins/eea_design/atct_album_view.pt:72
+#: eea.design/eea/design/skins/eea_overrides_templates/atct_album_view.pt:77
 msgid "There are currently no items in this folder."
 msgstr "Attwalment m’hemmx oġġetti f’dan il-folder."
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing_view.pt:53
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:117
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:120
+#: eea.design/eea/design/skins/eea_overrides_templates/atct_topic_view.pt:121
+#: eea.design/eea/design/skins/eeadesign_templates/atct_topic_full_view.pt:117
 msgid "There are currently no results for this search."
 msgstr "Attwalment m’hemmx riżultati għal din it-tiftixa."
 
@@ -2913,15 +2948,19 @@ msgstr "Attwalment m’hemmx riżultati għal din it-tiftixa."
 msgid "There are no contained help center object types."
 msgstr "M’hemmx tipi ta’ oġġetti taċ-ċentru tal-għajnuna kontenuti."
 
+#: eea.design/eea/design/skins/eea_overrides_scripts/check_id.py:136
+msgid "There is already an item named ${name} in this folder."
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:102
 msgid "This FAQ applies to a previous version"
 msgstr "Din l-FAQ tapplika għal verżjoni preċedenti"
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:42
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:42
 msgid "This content does not exist in your current language, ${language}, but you can keep browsing the site in this language."
 msgstr "Dan il-kontenut ma jeżistix bil-lingwa attwali tiegħek, ${language}, imma tista’ tibqa’ tibbrawżja s-sit b’din il-lingwa."
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:46
+#: eea.design/eea/design/browser/templates/document_byline.pt:50
 msgid "This document is locked."
 msgstr "Dan id-dokument huwa llokkjat."
 
@@ -2929,7 +2968,7 @@ msgstr "Dan id-dokument huwa llokkjat."
 msgid "This figure has no data source. For further information contact"
 msgstr "Din il-figura m’għandhiex sors ta’ dejta. Għal aktar informazzjoni kkuntattja"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:14
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:14
 msgid "This file contains links that should be marked in different ways by the mark_special_link.js script. This is to test and verify that it works. Try it with <br /> ${normal} ${swedish-site} <br />"
 msgstr "Dan il-fajl fih links li għandhom jiġu mmarkati b’mod differenti bil- mark_special_link.js script. Dan sabiex jiġi ttestjat u vverifikat li jaħdmu. Ipprova b’ <br /> ${normal} ${swedish-site} <br />"
 
@@ -2953,7 +2992,7 @@ msgstr "Dan il-punt qed jintuża minn xi ħaddieħor u ma jistax jiġi mmodifika
 msgid "This item is open for comments. See the comments"
 msgstr "Dan il-punt huwa miftuħ għall-kummenti. Ara l-kummenti"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:41
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:106
 msgid "This page does not seem to exist&hellip;"
 msgstr "Jidher li din il-paġna ma teżistix&hellip;"
 
@@ -2967,12 +3006,16 @@ msgstr "Din il-paġna tagħtik informazzjoni dwar il-links fiċ-ċentru tematiku
 msgid "This page requires Flashplayer, please download it for free from ${flashplayer-link}"
 msgstr "Din il-paġna teħtieġ Flashplayer, jekk jogħġbok iddawnlowdjah b’xejn minn ${flashplayer-link}"
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:14
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:26
+msgid "This site presents the content we have available in your language."
+msgstr "Dan is-sit jippreżenta l-kontenut li għandna fil-lingwa tiegħek."
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:15
 msgid "This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser."
 msgstr "Din il-websajt għandha funzjonalità limitata bil-javascript mitfi. Jekk jogħġbok kun ċert li l-javascript huwa attivat fil-brawżer tiegħek."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:50
-#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:20
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_tabular_view.pt:20
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:21
 msgid "Title"
 msgstr "Titolu"
@@ -2984,7 +3027,7 @@ msgstr "It-titolu jibda b’"
 msgid "Title/Description"
 msgstr "Titolu/Deskrizzjoni"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:326
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:321
 msgid "To access this part of the site, you need to log in with your user name and password. You can use your Eionet username and password."
 msgstr "Biex ikollok aċċess għal din il-parti tas-sit, għandek bżonn tilloggja bl-isem tal-utent u l-password tiegħek. Tista’ tuża l-isem tal-utent u l-password tal-Eionet tiegħek."
 
@@ -2992,7 +3035,11 @@ msgstr "Biex ikollok aċċess għal din il-parti tas-sit, għandek bżonn tillog
 msgid "To access your EEA notification service account please enter your email."
 msgstr "Biex taċċessa l-kont ta’ servizz ta’ notifika tal-EEA tiegħek jekk jogħġbok daħħal il-posta elettronika tiegħek."
 
-#: eea.design/eea/design/skins/eea_design/mail_password_form.pt:32
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:27
+msgid "To explore all our outputs and complete knowledge base, please visit ${site_url} in English."
+msgstr "Biex tara l-produzzjonijiet u l-bażi ta l-għarfien kompluta, tista żżur  ${site_url} bil-lingwa Ingliża."
+
+#: eea.design/eea/design/skins/eea_overrides_templates/mail_password_form.pt:32
 msgid "To reset your password visit ${mail}."
 msgstr "Biex tirrisettja l-password żur ${mail}."
 
@@ -3004,8 +3051,8 @@ msgstr "Biex ma tibqax abbonat mas-servizz ta’ notifika tal-EEA jekk jogħġbo
 msgid "Topic"
 msgstr "Suġġett"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_macros.pt:50
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:100
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_macros.pt:40
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:122
 msgid "Topic in the spotlight"
 msgstr "Suġġett diskuss"
 
@@ -3029,30 +3076,22 @@ msgstr "Persunal totali"
 msgid "Total:"
 msgstr "Total:"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:93
-msgid "Tourism"
-msgstr "Turiżmu"
-
 #: eea.reports/eea/reports/subtypes/report.py:252
 msgid "Trailer"
 msgstr "Trejler"
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:24
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:24
 msgid "Translation Unavailable"
 msgstr "Traduzzjoni Mhux Disponibbli"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:97
-msgid "Transport"
-msgstr "Trasport"
-
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:76
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:76
 msgid "Turkey"
 msgstr "It-Turkija"
 
 msgid "Turkish"
 msgstr "Tork"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:23
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:23
 msgid "Turkish subfolder"
 msgstr "Subfolder Tork"
 
@@ -3060,16 +3099,16 @@ msgstr "Subfolder Tork"
 msgid "Tutorials"
 msgstr "Tutorials"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:75
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:75
 msgid "Twitter icon"
 msgstr "Ikona ta’ Twitter"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:55
-#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:25
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_tabular_view.pt:25
 msgid "Type"
 msgstr "Tip"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:77
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:77
 msgid "United Kingdom"
 msgstr "Ir-Renju Unit"
 
@@ -3082,8 +3121,8 @@ msgid "Unsubscribe from EEA notification service"
 msgstr "Tibqax abbonat mas-servizz ta’ notifika tal-EEA"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:15
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:83
-#: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:50
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_listing.pt:85
+#: eea.design/eea/design/skins/eeadesign_templates/folder_summary_search_view.pt:50
 msgid "Up one level"
 msgstr "Itla’ livell"
 
@@ -3104,9 +3143,9 @@ msgstr "Avvenimenti li ġejjin"
 msgid "Upload epub file"
 msgstr "Tella’ fajl epub"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:117
-msgid "Urban environment"
-msgstr "Ambjent urban"
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:47
+msgid "Urban, Land and Soil systems (ULS)"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:47
 msgid "Use Control/Command/Shift keys to select multiple tags."
@@ -3130,11 +3169,7 @@ msgstr "Użat fl-indikaturi"
 msgid "Used in publications"
 msgstr "Użat fil-pubblikazzjonijiet"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:60
-msgid "Various other issues"
-msgstr "Diversi kwistjonijiet oħrajn"
-
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:26
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:20
 msgid "Vertical listing"
 msgstr "Elenkar vertikali"
 
@@ -3145,47 +3180,34 @@ msgstr "Fajl tal-Vidjow"
 msgid "View entire FAQ expanded"
 msgstr "Ara l-FAQ kollha estiżi"
 
-#: eea.relations/eea/relations/browser/template/tool.pt:24
-msgid "View full graph"
-msgstr "Ara l-grafika sħiħa"
-
 #: EEAContentTypes/skins/EEAContentTypes/promolink_view.pt:15
 msgid "Visit"
 msgstr "Żur"
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:131
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:139
-#: eea/themecentre/browser/themes_view.py:33
+#: eea/themecentre/browser/themes_view.py:34
 msgid "Visit our air pollution website"
 msgstr "Żur il-websajt tagħna dwar it-tniġġis tal-arja"
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:159
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:167
-#: eea/themecentre/browser/themes_view.py:36
+#: eea/themecentre/browser/themes_view.py:37
 msgid "Visit our biodiversity website"
 msgstr "Żur il-websajt tagħna dwar il-bijodiversità"
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:188
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:196
-#: eea/themecentre/browser/themes_view.py:40
+#: eea/themecentre/browser/themes_view.py:41
 msgid "Visit our climate change website"
 msgstr "Żur il-websajt tagħna dwar it-tibdil fil-klima"
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:216
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:224
-#: eea/themecentre/browser/themes_view.py:44
+#: eea/themecentre/browser/themes_view.py:45
 msgid "Visit our land use website"
 msgstr "Żur il-websajt tagħna dwar l-użu tal-art"
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:244
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:252
-#: eea/themecentre/browser/themes_view.py:47
+#: eea/themecentre/browser/themes_view.py:48
 msgid "Visit our water website"
 msgstr "Żur il-websajt tagħna dwar l-ilma"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:53
-msgid "Visit the ${soer-website}."
-msgstr "Żur il-${soer-website}."
 
 msgid "Visualisations of this data"
 msgstr "Viżwalizzazzjonijiet ta’ din id-dejta"
@@ -3204,59 +3226,67 @@ msgstr "Menù WISE"
 msgid "Waste"
 msgstr "Skart"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:54
-msgid "Waste and material resources"
-msgstr "Skart u riżorsi materjali"
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:50
+msgid "Waste and Materials in a Green Economy (WMGE)"
+msgstr ""
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:258
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:266
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:57
 msgid "Water"
 msgstr "Ilma"
 
-#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:15
-msgid "Water Information System for Europe"
-msgstr "Sistema ta’ Informazzjoni dwar l-Ilma għall-Ewropa"
-
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:47
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:112
 msgid "We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for."
 msgstr "Niskużaw ruħna għal kull inkonvenjent, imma l-paġna li ppruvajt tiftaħ mhix f’dan l-indirizz. Tista’ tuża l-links ta’ hawn taħt biex jgħinuk issib dak li qed tfittex."
+
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:52
+msgid "We are preparing the ${download_type} for"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/restore_form_values.pt:6
+msgid "We detected that your last changes were not saved"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:13
 msgid "We do not publish events that are purely commercial and with no references to the environment."
 msgstr "Ma nippubblikawx avvenimenti li huma purament kummerċjali u mingħajr referenzi għall-ambjent."
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:146
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:53
+msgid "We will notify you via email when it is ready or try to refresh this page in a few moments."
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:212
 msgid "We&#8217;re sorry, but there seems to be an error&hellip;"
 msgstr "Nis&#8217;kużaw ruħna, imma jidher li hemm żball&hellip;"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:70
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:25
+msgid "Welcome to the European Environment Agency"
+msgstr "Nilqgħukom fl-Aġenzija Ambjentali Ewropea"
+
+#: eea.design/eea/design/skins/eea_overrides_scripts/login_next.cpy:70
 msgid "Welcome! You are now logged in."
 msgstr "Merħba! Inti issa lloggjat."
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:30
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:24
 msgid "What"
 msgstr "Xiex"
 
-#: eea/themecentre/browser/templates/themes_view.pt:54
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:22
+#: eea/themecentre/browser/templates/themes_view.pt:51
 msgid "What is happening?<br />Environmental issues"
 msgstr "X’qed jiġri?<br />Environmental issues"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:33
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:43
 msgid "What's new"
 msgstr "X’hemm ġdid"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:38
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:32
 msgid "When"
 msgstr "Meta"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:107
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:101
 msgid "Where"
 msgstr "Fejn"
 
-#: eea/themecentre/browser/templates/themes_view.pt:68
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:65
+#: eea/themecentre/browser/templates/themes_view.pt:66
 msgid "Why is it happening?<br />Sectors and activities"
 msgstr "Għaliex qed jiġri dan?<br />Sectors and activities"
 
@@ -3264,23 +3294,35 @@ msgstr "Għaliex qed jiġri dan?<br />Sectors and activities"
 msgid "Word doc on external link"
 msgstr "Dokument ‘word’ fuq link esterna"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:29
+#: EEAContentTypes/actions/set_effective_date.py:42
+msgid "Workflow action comment"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:35
+msgid "Workflow action short description"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:29
 msgid "World"
 msgstr "Dinja"
 
-#: EEAContentTypes/browser/cache.py:72
+#: eea.design/eea/design/skins/eeadesign_templates/restore_form_values.pt:8
+msgid "Would you like to resubmit the form data found at the time of your last save attempt?"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:30
+msgid "Yes"
+msgstr ""
+
+#: EEAContentTypes/browser/cache.py:76
 msgid "You are not allowed to invalidate cache in this context"
 msgstr "M’għandekx permess tinvalida l-cache f’dan il-kuntest"
 
-#: eea.design/eea/design/skins/eea_design/outdated_browsers.pt:42
+#: eea.design/eea/design/skins/eeadesign_templates/outdated_browsers.pt:42
 msgid "You are using an outdated browser"
 msgstr "Qed tuża brawżer skadut"
 
-#: eea.reports/eea/reports/browser/report.pt:259
-msgid "You can also obtain a copy from ${nearest-sale-agent} by providing the ordering info."
-msgstr "Tista’ tikseb kopja wkoll minn ${nearest-sale-agent} billi tipprovdi l-informazzjoni tal-ordni."
-
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:75
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:141
 msgid "You might have been looking for&hellip;"
 msgstr "Jista’ jkun li kont qed tfittex&hellip;"
 
@@ -3292,11 +3334,11 @@ msgstr "Għandek bżonn Flash player biex tkun tista’ tara u tuża l-ozone map
 msgid "You should shortly receive an email with further information."
 msgstr "Għandek tirċievi posta elettronika dalwaqt b’iktar informazzjoni."
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:81
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:81
 msgid "YouTube channel"
 msgstr "Kanal tal-YouTube"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:81
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:81
 msgid "YouTube icon"
 msgstr "Ikona tal-YouTube"
 
@@ -3308,12 +3350,11 @@ msgstr "Il-messaġġ tiegħek"
 msgid "Zip on FTP"
 msgstr "Zip dwar FTP"
 
-#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:22
+#: eea.design/eea/design/skins/eeadesign_templates/google_search.pt:22
 msgid "and"
 msgstr "u"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:177
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_macros.pt:77
 msgid "archive"
 msgstr "arkivju"
 
@@ -3322,20 +3363,20 @@ msgid "browse all multimedia products"
 msgstr "ibbrawżja l-prodotti multimidja kollha"
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:59
-#: eea.design/eea/design/browser/templates/document_byline.pt:61
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:201
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_listing.pt:205
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_summary_view.pt:86
 msgid "by ${author}"
 msgstr "minn ${author}"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:97
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:163
 msgid "by ${author}, ${date}"
 msgstr "minn ${author}, ${date}"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:61
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:61
 msgid "by language"
 msgstr "skont il-lingwa"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:74
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:74
 msgid "by serial title"
 msgstr "skont it-titlu tas-serje"
 
@@ -3343,96 +3384,20 @@ msgstr "skont it-titlu tas-serje"
 msgid "callto link"
 msgstr "link ‘callto’"
 
-#. Default: "Kongens Nytorv 6"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:112
-msgid "copyright-address1"
-msgstr "Kongens Nytorv 6"
-
-#. Default: "1050 Copenhagen K"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:113
-msgid "copyright-address2"
-msgstr "1050 Copenhagen K"
-
-#. Default: "Web: eea.europa.eu"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:117
-msgid "copyright-email"
-msgstr "Web: eea.europa.eu"
-
-#. Default: "Enquiries: eea.europa.eu/enquiries"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:118
-msgid "copyright-enquiries"
-msgstr "Mistoqsijiet: eea.europa.eu/enquiries"
-
-#. Default: "Fax: + 45 33 36 71 99"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:116
-msgid "copyright-fax"
-msgstr "Fax: + 45 33 36 71 99"
-
-#. Default: "The contents of this publication do not necessarily reflect the official opinions of the European Commission or other institutions of the European Union. Neither the European Environment Agency nor any person or company acting on behalf of the Agency is responsible for the use that may be made of the information contained in this report."
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:86
-msgid "copyright-legal-description"
-msgstr "Il-kontenut ta’ din il-pubblikazzjoni mhux bilfors jirrifletti l-opinjonijiet uffiċjali tal-Kummissjoni Ewropea jew ta’ istituzzjonijiet oħra tal-Unjoni Ewropea. La l-Aġenzjija Ewropea għall-Ambjent u lanqas persuni jew kumpaniji li jaħdmu f’isem l-Aġenzija ma huma responsabbli għall-użu li jista’ jsir mill-informazzjoni li tinsab f’dan ir-rapport."
-
-#. Default: "Legal notice"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:85
-msgid "copyright-legal-name"
-msgstr "Nota legali"
-
-#. Default: "Reproduction is authorised, provided the source is acknowledged, save where otherwise stated."
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:97
-msgid "copyright-notice-desc1"
-msgstr "L-ikkupjar huwa awtorizzat, diment li s-sors ikun rikonoxxut, ħlief fejn iddikjarat mod ieħor."
-
-#. Default: "Information about the European Union is available on the Internet. It can be accessed through the Europa server (www.europa.eu)."
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:99
-msgid "copyright-notice-desc2"
-msgstr "Tagħrif dwar l Unjoni Ewropea huwa disponibbli fuq l Internet.Tista’ taċċessah permezz tas‑server Europa (www.europa.eu)."
-
-#. Default: "Luxembourg: Publications Office of the European Union, ${copyright-notice-year}"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:101
-msgid "copyright-notice-desc3"
-msgstr "Lussemburgu: Publications Office of the European Union, ${copyright-notice-year}"
-
-#. Default: "© European Environment Agency, ${copyright-notice-year}"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:96
-msgid "copyright-notice-eea"
-msgstr "© European Environment Agency, ${copyright-notice-year}"
-
-#. Default: "Copyright notice"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:95
-msgid "copyright-notice-name"
-msgstr "Drittijiet tal-awtur"
-
-#. Default: "Tel.: + 45 33 36 71 00"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:115
-msgid "copyright-phone"
-msgstr "Tel.: + 45 33 36 71 00"
-
-#. Default: "Cover design: EEA"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:79
-msgid "cover-design"
-msgstr "Kopertina: EEA"
-
-#. Default: "Layout: EEA"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:81
-msgid "cover-layout"
-msgstr "Tqassim: EEA"
-
-#. Default: "Cover photo: © ${copyright-name}"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:80
-msgid "cover-photo"
-msgstr "Ritratt tal-faċċata:© ${copyright-name}"
+#: eea.epub/eea/epub/cache/behavior.py:20
+msgid "ePub"
+msgstr ""
 
 #. Default: "Kongens Nytorv 6<br /> 1050 Copenhagen K<br /> Denmark"
-#: eea.design/eea/design/browser/templates/colophon.pt:17
+#: eea.design/eea/design/browser/templates/colophon.pt:15
 msgid "eea_address"
 msgstr "Kongens Nytorv 6<br /> 1050 Kopenħagen K<br /> id-Danimarka "
 
-#: eea.design/eea/design/browser/templates/colophon.pt:64
+#: eea.design/eea/design/browser/templates/colophon.pt:50
 msgid "engineered by"
 msgstr "maħdum minn"
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:40
+#: eea.design/eea/design/browser/templates/document_byline.pt:29
 msgid "expired"
 msgstr "skadut"
 
@@ -3440,7 +3405,7 @@ msgstr "skadut"
 msgid "external link"
 msgstr "link esterna"
 
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:163
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_listing.pt:167
 msgid "from ${start} to ${end}"
 msgstr "minn ${start} sa ${end}"
 
@@ -3450,11 +3415,16 @@ msgstr "minn ${start} sa ${end}"
 msgid "get flashplayer"
 msgstr "ġib il-flashplayer"
 
+#. Default: "Contact EEA Web Team"
+#: eea.design/eea/design/skins/eea_overrides_templates/contact-info.cpt:19
+msgid "heading_contact_form"
+msgstr ""
+
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:54
 msgid "homepage"
 msgstr "paġna ewlenija"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:160
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:152
 msgid "iCal"
 msgstr "iCal"
 
@@ -3462,61 +3432,88 @@ msgstr "iCal"
 msgid "in"
 msgstr "fi"
 
-#: eea.design/eea/design/browser/templates/cross_site_top.pt:58
+#: eea.design/eea/design/controlpanel/controlpanel.py:22
+msgid "info is displayed for the following portal types"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/cross_site_top.pt:59
 msgid "items"
 msgstr "punti"
 
+#: eea.design/eea/design/controlpanel/controlpanel.py:55
+msgid "label type is hidden for the following portal types"
+msgstr ""
+
 #. Default: "Advanced Search…"
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:106
+#: eea.design/eea/design/skins/eea_overrides_scripts/livesearch_reply.py:106
 msgid "label_advanced_search"
 msgstr "Tiftixa Avvanzata..."
 
+#. Default: "Apply"
+#: eea.faceted.tool/eea/faceted/tool/browser/app/portaltype.py:50
+msgid "label_apply"
+msgstr ""
+
+#. Default: "Cancel"
+#: eea.faceted.tool/eea/faceted/tool/browser/app/portaltype.py:58
+msgid "label_cancel"
+msgstr ""
+
 #. Default: "Log in"
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:252
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:247
 msgid "label_log_in"
 msgstr "Illoggja"
 
 #. Default: "Log in with your Eionet password to see/add comments"
-#: eea.design/eea/design/browser/templates/comments.pt:19
+#: eea.design/eea/design/browser/templates/comments.pt:21
 msgid "label_login_to_add_comments"
 msgstr "Illoggja bil-password tal-Eionet tiegħek biex tara/tagħmel kummenti "
 
 #. Default: "No matching results found."
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:105
+#: eea.design/eea/design/skins/eea_overrides_scripts/livesearch_reply.py:105
 msgid "label_no_results_found"
 msgstr "Ma nstabu ebda riżultati li jaqblu."
 
+#. Default: "Send"
+#: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:38
+msgid "label_send"
+msgstr ""
+
 #. Default: "Show all items"
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:107
+#: eea.design/eea/design/skins/eea_overrides_scripts/livesearch_reply.py:107
 msgid "label_show_all"
 msgstr "Uri l-punti kollha"
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:71
-#: eea.design/eea/design/browser/templates/document_byline.pt:71
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:214
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_listing.pt:218
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_summary_view.pt:97
 msgid "last modified"
 msgstr "emendat l-aħħar"
 
 #. Default: "LiveSearch &#8595;"
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:104
+#: eea.design/eea/design/skins/eea_overrides_scripts/livesearch_reply.py:104
 msgid "legend_livesearch"
 msgstr "LiveSearch &#8595;"
 
-#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:591
+#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:116
 msgid "loading data ..."
 msgstr "qed tillowdja d-dejta …"
+
+#: EEAContentTypes/browser/interfaces.py:321
+msgid "location"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:21
 msgid "mailto link"
 msgstr "link ‘mailto’"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:29
+#: eea.epub/eea/epub/browser/app/download.py:152
+msgid "minutes"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:39
 msgid "more"
 msgstr "iktar"
-
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:21
-msgid "more green tips"
-msgstr "iktar pariri ekoloġiċi"
 
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:27
 msgid "more info"
@@ -3526,11 +3523,11 @@ msgstr "iktar informazzjoni"
 msgid "new EEA domain link"
 msgstr "link tad-dominju l-ġdid tal-EEA"
 
-#: eea.design/eea/design/browser/templates/cross_site_top.pt:56
+#: eea.design/eea/design/browser/templates/cross_site_top.pt:57
 msgid "next"
 msgstr "li jmiss"
 
-#: eea.design/eea/design/browser/templates/searchbox_cms.pt:37
+#: eea.design/eea/design/browser/templates/searchbox_cms.pt:33
 msgid "only in current section"
 msgstr "fis-sezzjoni attwali biss"
 
@@ -3538,23 +3535,27 @@ msgstr "fis-sezzjoni attwali biss"
 msgid "original"
 msgstr "oriġinali"
 
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:27
+msgid "our main website"
+msgstr "is-sit ewlenija tagħna"
+
 #: eea/themecentre/skins/themecentre_templates/portlet_relatedthemes.pt:30
 msgid "portlet_relatedthemes.pt"
 msgstr "portlet_relatedthemes.pt"
 
-#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:55
+#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:53
 msgid "portlet_themes.pt"
 msgstr "portlet_themes.pt"
 
-#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:20
+#: eea.design/eea/design/skins/eeadesign_templates/google_search.pt:20
 msgid "powered by The Google AJAX Search API"
 msgstr "imħaddem minn The Google AJAX Search API"
 
-#: eea.design/eea/design/browser/templates/cross_site_top.pt:57
+#: eea.design/eea/design/browser/templates/cross_site_top.pt:58
 msgid "previous"
 msgstr "preċedenti"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:333
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:328
 msgid "registration form"
 msgstr "formola ta’ reġistrazzjoni"
 
@@ -3562,13 +3563,17 @@ msgstr "formola ta’ reġistrazzjoni"
 msgid "related reporting obligations"
 msgstr "obbligi ta’ rapportar relatati"
 
-#: eea/themecentre/browser/themecentre.py:65
+#: eea/themecentre/browser/themecentre.py:68
 msgid "s"
 msgstr "s"
 
-#: eea.design/eea/design/browser/templates/comments.pt:94
+#: eea.design/eea/design/browser/templates/comments.pt:96
 msgid "says:"
 msgstr "jgħid:"
+
+#: eea.epub/eea/epub/browser/app/download.py:153
+msgid "seconds"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/goto_comments.pt:16
 msgid "section below"
@@ -3582,6 +3587,18 @@ msgstr "link sikura"
 msgid "should you have any questions, please use this email:"
 msgstr "jekk ikollok xi mistoqsijiet, jekk jogħġbok uża din il-posta elettronika:"
 
+#: EEAContentTypes/browser/interfaces.py:341
+msgid "subject"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:351
+msgid "temporalCoverage"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:331
+msgid "themes"
+msgstr ""
+
 #: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:41
 msgid "total"
 msgstr "total"
@@ -3590,19 +3607,16 @@ msgstr "total"
 msgid "use this field if the report type is not listed in the previous Serial Title field"
 msgstr "uża dan il-kamp jekk it-tip ta’ rapport mhuwiex elenkat fil-kamp tat-Titolu tas-Serje preċedenti "
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:154
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:146
 msgid "vCal"
 msgstr "vCal"
 
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:41
-msgid "visit the SOER 2010 website"
-msgstr "żur il-websajt SOER 2010"
+#. Default: "Water Information System for Europe"
+#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:15
+msgid "water_information"
+msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:314
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:309
 msgid "we can send you a new one"
 msgstr "nistgħu nibagħtulek wieħed ġdid"
-
-#: eea.reports/eea/reports/browser/report.pt:260
-msgid "your nearest sales agent"
-msgstr "il-bejjiegħ l-aktar qrib tiegħek"
 

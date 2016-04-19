@@ -5,7 +5,6 @@ msgstr ""
 "PO-Revision-Date: 2013-11-14 17:21+0100\n"
 "Last-Translator: Prosperini Christian-Xavier  <Christian.Prosperini@eea.europa.eu>\n"
 "Language-Team: no <>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,52 +13,76 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
+"Language: \n"
 "X-Generator: Poedit 1.5.3\n"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:92
+#: eea.design/eea/design/browser/templates/document_byline.pt:82
+msgid "${author}"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:69
+msgid "${author} <span>x</span>"
+msgstr ""
+
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:86
 msgid "${date} ${linebreak} from ${starttime} to ${endtime}"
 msgstr "${date} ${linebreak} fra ${starttime} til ${endtime}"
+
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:34
+msgid "${download_type} not available"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/calendar.pt:55
 msgid "${monthname} ${year}"
 msgstr "${monthname} ${year}"
 
-#: eea.geotags/eea/geotags/field/location.py:106
+#: eea.design/eea/design/skins/eea_overrides_scripts/check_id.py:85
+msgid "${name} is not a legal name. The following characters are invalid: ${characters}"
+msgstr ""
+
+#: eea.geotags/eea/geotags/field/location.py:137
 msgid "${name} is required, please correct."
 msgstr "${name} er nødvendig, vennligst korriger."
+
+#: eea.design/eea/design/skins/eea_overrides_scripts/check_id.py:74
+msgid "${name} is reserved."
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/map_portlet.pt:61
 msgid "${number} events on map"
 msgstr "${number} hendelser på kart"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:119
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:87
-msgid "${number} items matching your search terms"
-msgstr "${number} elementer matchet søkeordene dine"
-
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:70
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:70
 msgid "${sign-up} to receive our reports (print and/or electronic) and quarterly e-newsletter."
 msgstr "${sign-up} for å motta våre rapporter (på papir og/eller elektronisk) og kvartalsvise nyhetsbrev."
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:57
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:51
 msgid "${startdate} to ${linebreak} ${enddate}"
 msgstr "${startdate} til ${linebreak} ${enddate}"
 
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:136
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_listing.pt:140
 msgid "${start}"
 msgstr "${start}"
 
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:151
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_listing.pt:155
 msgid "${start} from ${starttime} to ${end}"
 msgstr "${start} fra ${starttime} til ${end}"
+
+#: EEAContentTypes/skins/EEAContentTypes/revertversion.py:39
+msgid "${title} has been reverted to revision ${version}."
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:82
 msgid "% tags currently selected."
 msgstr "% Tags valgt."
 
-#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:64
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_summary_view.pt:63
 msgid "(${location}, from ${start} to ${end})"
 msgstr "(${location}, fra ${start} til ${end})"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:69
+msgid "(Contact Author)"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:49
 msgid "(Directory: ${directory})"
@@ -73,11 +96,15 @@ msgstr "(Ikke angitt)"
 msgid "(Open: ${from-date} &mdash; Close: ${to-date})"
 msgstr "(Åpent: ${from-date} - Stengt: ${to-date})"
 
-#: eea.design/eea/design/skins/eea_design/folder_summary_view.pt:76
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_summary_view.pt:75
 msgid "(from ${start} to ${end})"
 msgstr "(Fra ${start} til ${end})"
 
-#: EEAContentTypes/browser/crop/cropimage.pt:24
+#: eea.epub/eea/epub/browser/app/download.py:90
+msgid "* The email is only used for the purpose of sending the ePub. We do not store it for any other use."
+msgstr ""
+
+#: EEAContentTypes/browser/crop/cropimage.pt:26
 msgid "*Note: Hitting the crop button will replace the original image with this cropped image"
 msgstr "* Merk: Trykk på beskjæringsknappen erstatter det originale bildet med dette beskårede bildet"
 
@@ -88,6 +115,10 @@ msgstr "- (Begrenset til autentisert)"
 #: EEAContentTypes/browser/reorder.pt:128
 msgid "- [Media: ${media}]"
 msgstr "- [Media: ${media}]"
+
+#: EEAContentTypes/actions/rabbitmq_message.py:130
+msgid "A RabbitMQ message."
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/jobs_view.pt:38
 msgid "A letter of motivation"
@@ -101,83 +132,81 @@ msgstr "Et nytt vindu blitt åpnet med Flash. <br /> Hvis du ikke ser vinduet ve
 msgid "A report publication."
 msgstr "En rapport publikasjon."
 
-#: eea.design/eea/design/browser/templates/global_searchbox.pt:22
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:18
 msgid "A-Z Glossary"
 msgstr "AZ Ordliste"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:66
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:51
 msgid "Access our data via semantic APIs"
 msgstr "Få tilgang til våre data via semantiske APIer"
 
 #: eea/themecentre/browser/templates/themes_view.pt:99
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:123
 msgid "Across environmental issues and sectors"
 msgstr "Over miljøspørsmål og sektorer"
-
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:20
-msgid "Active"
-msgstr "Aktiv"
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_cms_activity.pt:14
 msgid "Activity lists"
 msgstr "Aktivitetslister"
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:100
+#: EEAContentTypes/actions/rabbitmq_message.py:129
+msgid "Add RabbitMQ message Action"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:139
+msgid "Add Set effective/publishing date action"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:100
 msgid "Add Translation"
 msgstr "Legg til oversettelse"
 
-#: eea.design/eea/design/browser/templates/comments.pt:175
+#: EEAContentTypes/actions/set_effective_date.py:24
+msgid "Add an entry in workflow history"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/comments.pt:177
 msgid "Add comment"
 msgstr "Legg til kommentar"
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:72
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:72
 msgid "Add content translation"
 msgstr "Legg til innholdsoversettelse"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:147
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:139
 msgid "Add event to calendar"
 msgstr "Legg til begivenhet i kalenderen"
 
-#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:67
+#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:68
 msgid "Add portal type"
 msgstr "Legg til portaltype"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:26
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:92
 msgid "Advanced"
 msgstr "Avansert"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:65
-msgid "Advanced Search"
-msgstr "Avansert søk"
-
-#: eea.design/eea/design/browser/templates/searchbox_cms.pt:50
+#: eea.design/eea/design/browser/templates/searchbox_cms.pt:46
 msgid "Advanced Search&hellip;"
 msgstr "Avansert søk ..."
 
-#: eea.design/eea/design/browser/templates/global_searchbox.pt:19
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:58
+#: eea.design/eea/design/browser/templates/global_searchbox.pt:14
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:68
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:23
 msgid "Advanced search"
 msgstr "Avansert søk"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:69
-msgid "Agriculture"
-msgstr "Landbruk"
-
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:144
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:152
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:113
 msgid "Air pollution"
 msgstr "Luftforurensning"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:38
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:35
 msgid "Air pollution and Climate Change mitigation (ACM)"
 msgstr "Luftforurensning og klimatiltak (ACM)"
 
 msgid "Air pollution by ozone"
 msgstr "Luftforurensing fra ozon"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:33
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:33
 msgid "Albania"
 msgstr "Albania"
 
@@ -192,8 +221,8 @@ msgstr "Alle"
 msgid "All ${number} ${title}&hellip;"
 msgstr "All ${number} ${title} ..."
 
-#: eea.design/eea/design/skins/eea_design/folder_accordion_view.pt:41
-#: eea.design/eea/design/skins/eea_design/folder_tabs_view.pt:42
+#: eea.design/eea/design/skins/eeadesign_templates/folder_accordion_view.pt:42
+#: eea.design/eea/design/skins/eeadesign_templates/folder_tabs_view.pt:42
 msgid "All Items"
 msgstr "Alle elementer"
 
@@ -201,13 +230,9 @@ msgstr "Alle elementer"
 msgid "All documents in state ${state}"
 msgstr "Alle dokumenter i tilstand ${state}"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:41
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:51
 msgid "All key facts"
 msgstr "Alle viktige fakta"
-
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:46
-msgid "All key messages"
-msgstr "Alle viktige meldinger"
 
 #: eea/themecentre/skins/themecentre_templates/linkchecker_links_by_status.pt:29
 msgid "All links in state ${state}"
@@ -216,28 +241,35 @@ msgstr "Alle lenker i tilstand ${state}"
 msgid "All products"
 msgstr "Alle produkter"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:37
-#: eea/themecentre/browser/templates/themes_view.pt:51
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:20
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:65
+#: eea/themecentre/browser/templates/themes_view.pt:48
 msgid "All topics"
 msgstr "Alle emner"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:35
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:35
 msgid "Alphabetically"
 msgstr "Alfabetisk"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:19
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:19
 msgid "Alpine region"
 msgstr "Alpene"
 
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:139
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:142
+#: eea.design/eea/design/skins/eea_overrides_templates/atct_topic_view.pt:143
+#: eea.design/eea/design/skins/eeadesign_templates/atct_topic_full_view.pt:139
 msgid "Also in this section"
 msgstr "Også i denne delen"
 
 #: eea.reports/eea/reports/skins/reports_templates/serial_title_widget.pt:85
 msgid "Alternative"
 msgstr "Alternativ"
+
+#: eea.epub/eea/epub/browser/app/download.py:160
+msgid "An email will be sent to you when the ePub is ready"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:25
+msgid "An entry will be added in the object's workflow history."
+msgstr ""
 
 #: NavigationManager/skins/NavigationManager/sitemap.pt:16
 #: eea/themecentre/skins/themecentre_templates/overview.pt:16
@@ -258,18 +290,18 @@ msgstr "Enhver versjon."
 msgid "Application form"
 msgstr "Søknadsskjema"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:122
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:144
 msgid "Apps for your mobile"
 msgstr "Apps til mobilen"
 
 msgid "Arabic"
 msgstr "Arabisk"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:91
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:114
 msgid "Archive"
 msgstr "Arkiv"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:53
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_macros.pt:187
 msgid "Archive or title for more items"
 msgstr "Arkiv eller tittel for flere elementer"
 
@@ -279,25 +311,29 @@ msgstr "Artikkel"
 msgid "Articles"
 msgstr "Artikler"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:113
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:135
 msgid "Ask your question"
 msgstr "Still ditt spørsmål"
 
 msgid "Assessments supported"
 msgstr "Understøttede vurderinger"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:139
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:131
 msgid "Attendees"
 msgstr "Deltakere"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:34
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:34
 msgid "Austria"
 msgstr "Østerrike"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:53
-#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:23
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_tabular_view.pt:23
 msgid "Author"
 msgstr "Forfatter:"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:59
+msgid "Authors:"
+msgstr ""
 
 #: eea.reports/eea/reports/skins/reports_templates/report_file.pt:78
 msgid "Automatically update properties from pdf publication file metadata?"
@@ -318,7 +354,7 @@ msgstr "Melding om tildeling"
 msgid "Back to Table of Contents"
 msgstr "Tilbake til innholdsfortegnelsen"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:23
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:23
 msgid "Baltic sea"
 msgstr "Østersjøen"
 
@@ -328,40 +364,38 @@ msgstr "Basert på data"
 msgid "Based on linked open data"
 msgstr "Basert på lenkede åpne data"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:35
+#: EEAContentTypes/skins/EEAContentTypes/revertversion.py:19
+msgid "Before reverting to revision ${version}"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:35
 msgid "Belgium"
 msgstr "Belgia"
 
-#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:16
+#: eea.design/eea/design/skins/eeadesign_templates/soer_topic_search.pt:16
 msgid "Below you will find all SOER content related to ${topic-label}"
 msgstr "Nedenfor finner du alt SOER innhold relatert til ${topic-label}"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:16
-msgid "Bend the trend social movement"
-msgstr "Den sosiale bevegelsen Bøy Trenden "
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:149
 msgid "Best regards"
 msgstr "Med hilsen,"
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:173
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:181
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:30
 msgid "Biodiversity"
 msgstr "Biologisk mangfold"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:42
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:38
 msgid "Biological Diversity (BD)"
 msgstr "Biologisk mangfold (BD)"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:36
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:36
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnia-Hercegovina"
 
 msgid "Bosnian"
 msgstr "Bosnisk"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:70
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_macros.pt:204
 msgid "Box Name (Title that shows up)"
 msgstr "Boks Navn (Title som dukker opp)"
 
@@ -371,15 +405,15 @@ msgstr "Orientering"
 msgid "Brochure"
 msgstr "Brosjyre"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:13
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:13
 msgid "Browse SOER geographically"
 msgstr "Bla SOER geografisk"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:57
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:42
 msgid "Browse by organisation"
 msgstr "Bla etter organisasjon"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:76
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:86
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:110
 msgid "Browse by topic"
 msgstr "Bla etter emne"
@@ -388,11 +422,11 @@ msgstr "Bla etter emne"
 msgid "Browse catalogue"
 msgstr "Bla katalog"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:102
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:104
 msgid "Browse complete catalogue"
 msgstr "Bla komplett katalog"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:87
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:97
 msgid "Browse geographically"
 msgstr "Bla geografisk"
 
@@ -400,7 +434,7 @@ msgstr "Bla geografisk"
 msgid "Browse..."
 msgstr "Bla"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:37
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:37
 msgid "Bulgaria"
 msgstr "Bulgaria"
 
@@ -412,15 +446,15 @@ msgstr "Bulgarsk"
 msgid "CC By 2.5"
 msgstr "CC med 2,5"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:80
+#: eea.design/eea/design/browser/templates/colophon.pt:68
 msgid "CMS login"
 msgstr "CMS logg inn"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:8
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_cache.pt:8
 msgid "Cache"
 msgstr "Cache"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:21
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:21
 msgid "Carpathians"
 msgstr "Karpatene"
 
@@ -432,22 +466,18 @@ msgstr "Endre språk"
 msgid "Channel"
 msgstr "Kanal"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:214
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:209
 msgid "Check this to have your email address filled in automatically when you log in later."
 msgstr "Marker denne for å få din e-postadresse fylt inn automatisk når du logger på senere."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:205
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:200
 msgid "Check this to have your user name filled in automatically when you log in later."
 msgstr "Marker denne for å få ditt brukernavn fylt inn automatisk når du logger på senere."
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:33
-msgid "Chemicals"
-msgstr "Kjemikalier"
 
 msgid "Chinese"
 msgstr "Kinesisk"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:36
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:36
 msgid "Choose a newsletter"
 msgstr "Velg et nyhetsbrev"
 
@@ -463,13 +493,11 @@ msgstr "Velg det lokale EEA nettsted på ditt foretrukne språk"
 msgid "Click to view full-size image&hellip; <span>${DYNAMIC_CONTENT}</span>"
 msgstr "Klikk for full størrelse ... <span>${DYNAMIC_CONTENT}</ span>"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:47
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:41
 msgid "Climate Change Impacts, Vulnerability and Adaptation (CCA)"
 msgstr "Klimaendringer, sårbarhet og tilpasninger (CCA)"
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:202
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:210
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:36
 msgid "Climate change"
 msgstr "Klimaendringer"
 
@@ -480,25 +508,29 @@ msgstr "Klimatiltak"
 msgid "Climate impacts and trends"
 msgstr "Trender og konsekvenser for miljøet"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:109
-msgid "Coasts and seas"
-msgstr "Kyst- og havområder"
-
-#: eea.design/eea/design/browser/templates/colophon.pt:88
+#: eea.design/eea/design/browser/templates/colophon.pt:76
 msgid "Code for developers"
 msgstr "Kode for utviklere"
 
-#: eea.design/eea/design/browser/templates/comments.pt:150
+#: eea.design/eea/design/browser/templates/comments.pt:152
 msgid "Commenting has been disabled."
 msgstr "Kommenterer har blitt deaktivert."
 
-#: eea.design/eea/design/browser/templates/comments.pt:2
+#: eea.design/eea/design/browser/templates/comments.pt:14
 msgid "Comments"
 msgstr "Kommentarer"
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:11
 msgid "Comments on translations"
 msgstr "Kommentarer til oversettelser"
+
+#: EEAContentTypes/actions/set_effective_date.py:144
+msgid "Configure action"
+msgstr ""
+
+#: EEAContentTypes/actions/rabbitmq_message.py:131
+msgid "Configure element"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:19
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_view.pt:36
@@ -514,15 +546,14 @@ msgid "Contact"
 msgstr "Kontakt"
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:27
-#: eea.design/eea/design/skins/eeadesign_public/contact-info.cpt:20
 msgid "Contact EEA Web Team"
 msgstr "Kontakt EEA Web Team"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:119
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:111
 msgid "Contact Name"
 msgstr "Navn, kontaktperson"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:131
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:123
 msgid "Contact Phone"
 msgstr "Kontakttelefon"
 
@@ -534,7 +565,7 @@ msgstr "Kontakt lenke"
 msgid "Contact us"
 msgstr "Kontakt oss"
 
-#: eea.reports/eea/reports/browser/report.pt:88
+#: eea.reports/eea/reports/browser/report.pt:78
 msgid "Content"
 msgstr "innhold"
 
@@ -549,7 +580,7 @@ msgstr "Innholdslisens"
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:46
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:47
-#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:17
+#: eea.design/eea/design/skins/eea_overrides_templates/atct_topic_view.pt:63
 msgid "Content listing"
 msgstr "Innholdsliste"
 
@@ -559,22 +590,26 @@ msgid "Content provider"
 msgstr "Innholdsleverandør"
 
 #. Default: "Content"
-#: eea.design/eea/design/skins/eea_design/portlet_toc.pt:11
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_toc.pt:11
 #: eea.epub/eea/epub/skins/eea_epub/portlet_toc.pt:10
 msgid "Contents"
 msgstr "Innhold"
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:91
-msgid "Contributors: ${name}"
-msgstr "Bidragsytere: ${name}"
+#: eea.design/eea/design/browser/templates/document_byline.pt:77
+msgid "Contributors:"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:58
 msgid "Cookies are not enabled. You must ${link} before you can log in."
 msgstr "Cookies er ikke aktivert. Du må ${link} før du kan logge inn."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:68
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:68
 msgid "Cookies are not enabled. You must enable cookies before you can log in."
 msgstr "Cookies er ikke aktivert. Du må aktivere informasjonskapsler før du kan logge inn"
+
+#: eea.design/eea/design/controlpanel/controlpanel.py:66
+msgid "Copyright info is displayed for the following portal types"
+msgstr ""
 
 #: eea.reports/eea/reports/subtypes/report.py:240
 msgid "Copyrights"
@@ -587,19 +622,19 @@ msgstr "Virksomhetsdokumenter"
 msgid "Correct the image ratio"
 msgstr "Korriger bildeproposjoner"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:31
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:31
 msgid "Countries A-F"
 msgstr "Land AF"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:47
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:47
 msgid "Countries G-M"
 msgstr "Land GM"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:63
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:63
 msgid "Countries L-Y"
 msgstr "Land LY"
 
-#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:65
+#: eea.design/eea/design/skins/eeadesign_templates/soer_topic_search.pt:65
 msgid "Country environment"
 msgstr "Land miljø"
 
@@ -615,16 +650,14 @@ msgstr "Land profil: les mer"
 msgid "Create ${DYNAMIC_CONTENT}"
 msgstr "Lag ${DYNAMIC_CONTENT}"
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:83
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:83
 msgid "Create ${language} translation of this item."
 msgstr "Lag ${language} oversettelse av dette elementet."
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Create Promotion"
 msgstr "Lag Promotion"
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Create a promotion for this item"
 msgstr "Lag en kampanje for dette elementet"
@@ -637,11 +670,11 @@ msgstr "Lag og bruke nye koder."
 msgid "Create new"
 msgstr "Lag nytt"
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:24
+#: eea.design/eea/design/browser/templates/document_byline.pt:33
 msgid "Created"
 msgstr "Opprettet"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:71
+#: eea.design/eea/design/browser/templates/colophon.pt:57
 msgid "Creative Commons Attribution License"
 msgstr "Creative Commons lisens"
 
@@ -649,14 +682,14 @@ msgstr "Creative Commons lisens"
 msgid "Creators/Authors"
 msgstr "Skapere / Forfattere"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:38
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:38
 msgid "Croatia"
 msgstr "Kroatia"
 
 msgid "Croatian"
 msgstr "Kroatisk"
 
-#: EEAContentTypes/browser/crop/cropimage.pt:25
+#: EEAContentTypes/browser/crop/cropimage.pt:28
 msgid "Crop"
 msgstr "beskjær"
 
@@ -664,22 +697,22 @@ msgstr "beskjær"
 msgid "Crop Image"
 msgstr "Beskjær bilde"
 
-#: EEAContentTypes/browser/crop/cropimage.pt:21
+#: EEAContentTypes/browser/crop/cropimage.pt:22
 msgid "Crop Size:"
 msgstr "Beskjær Størrelse:"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:111
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:111
 msgid "Currently we have ${nr} subscribers. Frequency: 3-4 emails / month."
 msgstr "Foreløpig har vi ${nr} abonnenter. Frekvens: 3-4 e-poster per måned."
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:39
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:39
 msgid "Cyprus"
 msgstr "Kypros"
 
 msgid "Czech"
 msgstr "Tsjekkisk"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:40
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:40
 msgid "Czech Republic"
 msgstr "Tsjekkia"
 
@@ -709,13 +742,12 @@ msgstr "Datakilder"
 msgid "Data used"
 msgstr "Data som er brukt"
 
-#: eea.promotion/build/lib/eea/promotion/browser/form.pt:46
 #: eea.promotion/eea/promotion/browser/form.pt:46
 msgid "Datacentre"
 msgstr "Datasenter"
 
-#: eea.design/eea/design/browser/templates/comments.pt:112
-#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:63
+#: eea.design/eea/design/browser/templates/comments.pt:114
+#: eea.faceted.tool/eea/faceted/tool/browser/template/view.pt:64
 msgid "Delete"
 msgstr "Slett"
 
@@ -727,8 +759,7 @@ msgstr "Slett gjeldende fil"
 msgid "Delicious"
 msgstr "Deilig"
 
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:114
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:41
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:41
 msgid "Denmark"
 msgstr "Danmark"
 
@@ -743,16 +774,20 @@ msgstr "Assisterende direktør"
 msgid "Derived dataset"
 msgstr "Derivert datasett"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:64
-msgid "Did you not find what you were looking for? Try the ${advanced_search} to refine your search."
-msgstr "Fant du ikke hva du lette etter? Prøv ${advanced_search} for å avgrense søket."
+#: EEAContentTypes/browser/interfaces.py:287
+msgid "Disable Temporal Coverage Schema Extender"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:288
+msgid "Disables the Temporal Coverage Schema Extender for the following content-types"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:157
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:305
 msgid "Disclaimer"
 msgstr "Ansvarsfraskrivelse"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:174
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:238
 msgid "Display traceback as text"
 msgstr "Vis tilbakesporing som tekst"
 
@@ -760,7 +795,7 @@ msgstr "Vis tilbakesporing som tekst"
 msgid "Distinct:"
 msgstr "Tydelig:"
 
-#: eea.design/eea/design/skins/eea_design/main_template.pt:101
+#: eea.design/eea/design/skins/eea_overrides_templates/main_template.pt:118
 msgid "Do something for our planet, print this page only if needed. Even a small action can make an enormous difference when millions of people do it!"
 msgstr "Gjør noe for planeten vår, skriv bare ut denne siden hvis det er nødvendig. Selv en liten handling kan gjøre en enorm forskjell når millioner av mennesker gjør den!"
 
@@ -774,6 +809,12 @@ msgstr "Dokument"
 msgid "Document Actions"
 msgstr "Dokumenter handlinger"
 
+#: eea.design/eea/design/controlpanel/controlpanel.py:146
+#: eea.design/eea/design/profiles/default/controlpanel.xml
+#: eea.design/eea/design/profiles/upgrades/to_123/controlpanel.xml
+msgid "Document by line settings"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:41
 msgid "Documentation search"
 msgstr "Dokumentasjonssøk"
@@ -783,16 +824,16 @@ msgid "Documents containing links in the state ..."
 msgstr "Dokumenter som inneholder lenker i tilstanden ..."
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing_view.pt:17
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:24
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:30
+#: eea.design/eea/design/skins/eea_overrides_templates/atct_topic_view.pt:31
+#: eea.design/eea/design/skins/eeadesign_templates/atct_topic_full_view.pt:24
 msgid "Download PDF"
 msgstr "Last ned PDF"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:155
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:147
 msgid "Download this event in iCal format"
 msgstr "Last ned dette arrangementet i iCal format"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:149
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:141
 msgid "Download this event in vCal format"
 msgstr "Last ned dette arrangementet i vCal format"
 
@@ -803,6 +844,10 @@ msgstr "Nederlandsk"
 msgid "E-mail (Questions only):"
 msgstr "E-post (Kun spørsmål):"
 
+#: EEAContentTypes/content/CallForInterest.py:21
+msgid "E.g: EEA/NSV/14/004"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:76
 msgid "EDO members"
 msgstr "EDO medlemmer"
@@ -811,7 +856,6 @@ msgstr "EDO medlemmer"
 msgid "EDO:"
 msgstr "EDO:"
 
-#: eea.design/eea/design/browser/templates/sections.pt:10
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:132
 msgid "EEA"
 msgstr "EEA"
@@ -820,7 +864,7 @@ msgstr "EEA"
 msgid "EEA Faceted Navigation Tool"
 msgstr "EEA Fasettert navigeringsverktøy"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:114
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:136
 msgid "EEA Forum, FAQs, discuss and share"
 msgstr "EEA Forum, FAQ, diskuter og del"
 
@@ -832,7 +876,7 @@ msgstr "EEA hjemmeside - velg ditt foretrukne språk"
 msgid "EEA Management Plan"
 msgstr "EEA Forvaltningsplan"
 
-#: EEAContentTypes/subtypes.py:277
+#: EEAContentTypes/subtypes.py:312
 msgid "EEA Management plan code."
 msgstr "Kode for EEAs styringsplan."
 
@@ -844,7 +888,7 @@ msgstr "EEA Forvaltningsplanskode. Intern EEA prosjektlinjekode, brukes til å t
 msgid "EEA Multimedia Centre"
 msgstr "EEA Multimediasenter"
 
-#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:494
+#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:19
 msgid "EEA Organisational chart"
 msgstr "EEA Organisasjonskart"
 
@@ -863,7 +907,7 @@ msgstr "EEA Liste over personale"
 msgid "EEA Subscriptions"
 msgstr "EEA Abonnement"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:65
+#: eea.design/eea/design/browser/templates/colophon.pt:51
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:150
 msgid "EEA Web Team"
 msgstr "EEA Web Team"
@@ -879,7 +923,7 @@ msgstr "EEA hjemmeside på ditt språk"
 msgid "EEA notification service account"
 msgstr "EEA varslingstjenestekonto"
 
-#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:15
+#: eea.design/eea/design/skins/eeadesign_templates/google_search.pt:15
 msgid "EEA website search"
 msgstr "EEA nettstedssøk"
 
@@ -900,32 +944,39 @@ msgstr "EUs klimagassregnskap"
 msgid "EU LRTAP Convention Emission Inventory"
 msgstr "Utslippsregnskap i henhold til EUs LRTAP-konvensjon"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:39
+#: eea.design/eea/design/browser/templates/colophon.pt:37
 msgid "EU flag"
 msgstr "EU-flagget"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:69
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:58
 msgid "EU partners"
 msgstr "EU-partnere"
 
-#: eea.reports/eea/reports/browser/report.pt:224
+#: eea.reports/eea/reports/browser/report.pt:217
 msgid "EU-Bookshop"
 msgstr "EU-Bookshop"
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:282
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:290
 msgid "Eco agents logo"
 msgstr "Eco agenter logo"
 
-#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:142
+#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:63
 #: eea.geotags/eea/geotags/widget/location.pt:28
-#: eea.relations/eea/relations/skins/eea_relations/eeareferencebrowser.pt:80
+#: eea.relations/eea/relations/skins/eea_relations/eeareferencebrowser.pt:79
 msgid "Edit"
 msgstr "Rediger"
 
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/schemata_edit_macros.pt:16
 msgid "Edit ${itemtype}"
 msgstr "Rediger ${itemtype}"
+
+#: EEAContentTypes/actions/rabbitmq_message.py:148
+msgid "Edit RabbitMQ message Action"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:157
+msgid "Edit Set effective/publishing date action"
+msgstr ""
 
 #: EEAContentTypes/browser/crop/cropping.pt:19
 msgid "Edit croppable images"
@@ -935,9 +986,9 @@ msgstr "Rediger beskjærningsbare bilder"
 msgid "Edit sub report"
 msgstr "Rediger underrapport"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:86
-msgid "Edit your search options"
-msgstr "Rediger søkealternativene"
+#: eea.design/eea/design/browser/history.py:39
+msgid "Edited"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/global_externalsites.pt:16
 msgid "Eionet"
@@ -946,9 +997,9 @@ msgstr "Eionet"
 msgid "Eionet priority data flows"
 msgstr "Eionet prioriterte datastrømmer"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:53
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:158
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:153
 #: eea.design/eea/design/skins/eeadesign_templates/subscriber_settings.pt:23
+#: eea.design/eea/design/skins/eeadesign_templates/unsubscribe.pt:24
 msgid "Email"
 msgstr "Epost"
 
@@ -967,9 +1018,10 @@ msgstr "Kvotehandelsdirektivet"
 msgid "Enable Subfolder Listing"
 msgstr "Aktiver visning av undermapper"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:73
-msgid "Energy"
-msgstr "Energi"
+#: EEAContentTypes/browser/interfaces.py:298
+#: EEAContentTypes/profiles/upgrade/to_117/registry.xml
+msgid "Enable body fullwidth class for the following content-types"
+msgstr ""
 
 msgid "Energy and environment"
 msgstr "Energi og miljø"
@@ -977,11 +1029,11 @@ msgstr "Energi og miljø"
 msgid "English"
 msgstr "Engelsk"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:25
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:25
 msgid "English eionet"
 msgstr "Engelsk eionet"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:19
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:19
 msgid "English themes IMS link"
 msgstr "Engelsk temaer IMS lenke"
 
@@ -993,7 +1045,7 @@ msgstr "Skriv inn"
 msgid "Enter email"
 msgstr "Skriv inn e-post"
 
-#: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:42
+#: eea.design/eea/design/skins/eeadesign_templates/folder_summary_search_view.pt:42
 msgid "Enter one or more keywords for a search."
 msgstr "Skriv et eller flere nøkkelord for et søk."
 
@@ -1001,45 +1053,27 @@ msgstr "Skriv et eller flere nøkkelord for et søk."
 msgid "Enter one tag per line, multiple words allowed."
 msgstr "Skriv en tag per linje, flere ord tillates."
 
+#: eea.epub/eea/epub/browser/app/download.py:114
+msgid "Enter your email address where to send '${title}' ePub when ready"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:72
 msgid "Entire documentation area"
 msgstr "Hele dokumentasjonsområdet"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
-msgid "EnviroWindows"
-msgstr "EnviroWindows"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:39
-msgid "Environment and health"
-msgstr "Miljø og helse"
-
-#: eea/themecentre/browser/templates/themes_view.pt:85
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:105
+#: eea/themecentre/browser/templates/themes_view.pt:84
 msgid "Environment in different regions and specific areas"
 msgstr "Miljø i ulike regioner og bestemte områder"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:28
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:32
-msgid "Environmental Atlas"
-msgstr "Environmental Atlas"
 
 #: eea.design/eea/design/browser/templates/calendar.pt:26
 msgid "Environmental events around the world"
 msgstr "Miljøhendelser verden rundt"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:123
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:145
 msgid "Environmental information anywhere"
 msgstr "Miljøinformasjon hvor som helst"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:135
-msgid "Environmental scenarios"
-msgstr "Miljøscenarier"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:127
-msgid "Environmental technology"
-msgstr "Miljøteknologi"
-
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:65
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:65
 msgid "Error"
 msgstr "Feil"
 
@@ -1047,40 +1081,39 @@ msgstr "Feil"
 msgid "Error references"
 msgstr "Feil referanser"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:42
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:42
 msgid "Estonia"
 msgstr "Estland"
 
 msgid "Estonian"
 msgstr "Estisk"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:27
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:27
 msgid "Europe"
 msgstr "Europa"
 
-#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:51
+#: eea.design/eea/design/skins/eeadesign_templates/soer_topic_search.pt:51
 msgid "Europe and the world: global megatrends"
 msgstr "Europa og verden: globale megatrender"
 
-#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:37
+#: eea.design/eea/design/skins/eeadesign_templates/soer_topic_search.pt:37
 msgid "Europe's environment: thematic assessments"
 msgstr "Europas miljø: tematiske vurderinger"
 
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:111
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:132
 msgid "European Environment Agency"
 msgstr "Det europeiske miljøbyrået"
 
 #: EEAContentTypes/skins/EEAContentTypes/organigram_macros.pt:54
-#: eea.design/eea/design/browser/templates/colophon.pt:14
+#: eea.design/eea/design/browser/templates/colophon.pt:12
 msgid "European Environment Agency (EEA)"
 msgstr "Det Europeiske Miljøbyrået (EEA)"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:33
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:30
 msgid "European Topic Centres (ETCs)"
 msgstr "Europeiske temasentre (ETC)"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:39
+#: eea.design/eea/design/browser/templates/colophon.pt:37
 msgid "European Union Flag"
 msgstr "Europeiske Unionens Flagg"
 
@@ -1100,22 +1133,6 @@ msgstr "Ekskludere fra navigasjon"
 msgid "Executive Director"
 msgstr "Administrerende direktør"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
-msgid "Explore all tags"
-msgstr "Se alle tagger"
-
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:21
-msgid "External"
-msgstr "Ekstern"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:12
-msgid "Eye On Earth – Citizen observatory on air and bathing water quality"
-msgstr "Eye On Earth - Borgernes observatorium på luft og badevannskvalitet"
-
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:25
-msgid "Eye on Earth"
-msgstr "Eye on Earth"
-
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:73
 msgid "FAQs"
 msgstr "Vanlige spørsmål"
@@ -1124,11 +1141,11 @@ msgstr "Vanlige spørsmål"
 msgid "FTP link"
 msgstr "FTP lenke"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:78
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:78
 msgid "Facebook icon"
 msgstr "Facebook ikon"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:92
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:115
 msgid "Featured article"
 msgstr "Utvalgt artikkel"
 
@@ -1153,11 +1170,6 @@ msgstr "Tall som understøtter dette"
 msgid "Figures used"
 msgstr "Brukte tall"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:197
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:165
-msgid "Filed under:"
-msgstr "Arkivert under:"
-
 #: eea.reports/eea/reports/subtypes/report.py:78
 msgid "Fill in EEA publication internal id"
 msgstr "Fyll inn EEA publikasjon intern id"
@@ -1174,7 +1186,7 @@ msgstr "Fyll inn flere utgivere"
 msgid "Fill in copyrights"
 msgstr "Fyll inn opphavsrettigheter"
 
-#: EEAContentTypes/content/Article.py:28
+#: EEAContentTypes/content/Article.py:30
 #: eea.reports/eea/reports/subtypes/report.py:148
 msgid "Fill in publication groups"
 msgstr "Fyll inn publiseringgrupper"
@@ -1218,15 +1230,15 @@ msgstr "Fyll inn totalt antall sider"
 msgid "Filter by publishing date"
 msgstr "Filtrer etter publiseringsdato"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:36
-msgid "Filter by topic"
-msgstr "Filtrer etter emne"
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_macros.pt:114
+msgid "Filtered by"
+msgstr ""
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:70
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:80
 msgid "Find"
 msgstr "Finn"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:43
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:43
 msgid "Finland"
 msgstr "Finland"
 
@@ -1237,28 +1249,24 @@ msgstr "Finsk"
 msgid "First name"
 msgstr "Fornavn"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:77
-msgid "Fisheries"
-msgstr "Fiskeri"
-
-#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:17
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:73
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_social_links.pt:17
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:73
 msgid "Follow us"
 msgstr "Følg oss"
 
-#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:24
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_social_links.pt:24
 msgid "Follow us on Facebook"
 msgstr "Følg oss på Facebook"
 
-#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:19
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_social_links.pt:19
 msgid "Follow us on Twitter"
 msgstr "Følg oss på Twitter"
 
-#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:29
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_social_links.pt:29
 msgid "Follow us on YouTube"
 msgstr "Følg oss på YouTube"
 
-#: eea.design/eea/design/skins/eea_design/outdated_browsers.pt:43
+#: eea.design/eea/design/skins/eeadesign_templates/outdated_browsers.pt:43
 msgid "For a better experience using this site please upgrade to a modern browser."
 msgstr "For å få mest mulig utbytte av dette nettstedet anbefaler vi at du oppgraderer til en nyere nettleser."
 
@@ -1270,31 +1278,31 @@ msgstr "For hvert billedfelt i innholdet kan du velge under bildet du vil beskj�
 msgid "For sale?"
 msgstr "Til salgs?"
 
-#: eea.design/eea/design/skins/eea_design/mail_password_form.pt:22
+#: eea.design/eea/design/skins/eea_overrides_templates/mail_password_form.pt:22
 msgid "For security reasons, we store your password encrypted, and cannot mail it to you. If you would like to reset your password, fill out the form below and we will send you an email at the address you gave when you registered to start the process of resetting your password."
 msgstr "Av sikkerhetsmessige grunner, lagrer vi passordet ditt kryptert, og kan ikke sende den til deg. Hvis du ønsker å tilbakestille passordet ditt, fyll ut skjemaet nedenfor og vi vil sende deg en e-post på den adressen du oppga når du registrerte deg for å starte prosessen med å tilbakestille passordet."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:307
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:302
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:66
 msgid "Forgot your password?"
 msgstr "Glemt passord?"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:44
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:44
 msgid "Former Yugoslav Republic of Macedonia"
 msgstr "Den tidligere jugoslaviske republikken Makedonia"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:45
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:45
 msgid "France"
 msgstr "Frankrike"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:67
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:77
 msgid "Free text search"
 msgstr "Fritekstsøk"
 
 msgid "French"
 msgstr "Fransk"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:17
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:17
 msgid "Frequency: 3-4 emails / month."
 msgstr "Hyppighet: 3–4 e-poster / mnd."
 
@@ -1306,7 +1314,6 @@ msgstr "Freshwater"
 msgid "Friendly name"
 msgstr "Vennligsinnet navn"
 
-#: eea.promotion/build/lib/eea/promotion/browser/form.pt:28
 #: eea.promotion/eea/promotion/browser/form.pt:28
 msgid "Front Page"
 msgstr "Førsteside"
@@ -1315,25 +1322,28 @@ msgstr "Førsteside"
 msgid "Fullscreen image"
 msgstr "Fullsskjermsbilde"
 
-#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:70
+#: EEAContentTypes/browser/interfaces.py:297
+msgid "Fullwidth ContentTypes"
+msgstr ""
+
+#: EEAContentTypes/profiles/upgrade/to_117/registry.xml
+msgid "Fullwidth content types"
+msgstr ""
+
+#: eea.geotags/eea/geotags/skins/eea_geotags/eea.geotags.pt:32
 msgid "Geotags:"
 msgstr "Geokoder:"
 
 msgid "German"
 msgstr "Tysk"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:49
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:49
 msgid "Germany"
 msgstr "[Tyskland]*"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:17
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:17
 msgid "Get notifications on new reports and products."
 msgstr "Få melding om nye rapporter og produkter."
-
-#: eea.promotion/build/lib/eea/promotion/browser/form.pt:51
-#: eea.promotion/eea/promotion/browser/form.pt:51
-msgid "Global"
-msgstr "Global"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:78
 msgid "Glossary definitions"
@@ -1343,7 +1353,11 @@ msgstr "Ordlistedefinisjoner"
 msgid "Go back and correct"
 msgstr "Gå tilbake og korriger"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:22
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:72
+msgid "Go back to the main page of this link"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:88
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:22
 msgid "Go to advanced search"
 msgstr "Gå til avansert søk"
@@ -1352,63 +1366,71 @@ msgstr "Gå til avansert søk"
 msgid "Go to site"
 msgstr "Gå til nettsted"
 
-#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:24
+#: eea.design/eea/design/skins/eeadesign_templates/google_search.pt:24
 msgid "Google Custom Search Engines"
 msgstr "Google spesialiserte søkmotorer"
 
 msgid "Graph"
 msgstr "Graf"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:50
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:50
 msgid "Greece"
 msgstr "Hellas"
 
 msgid "Greek"
 msgstr "Gresk"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:89
-msgid "Green economy"
-msgstr "Grønn økonomi"
-
 msgid "Greenhouse gas emission trends and projections"
 msgstr "Trender og prognoser for klimagassutslipp"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:170
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:234
 msgid "Here is the full error message:"
 msgstr "Her er hele feilmeldingen:"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:77
-msgid "Hide the search form"
-msgstr "Skjul søkeskjemaet"
+#: EEAContentTypes/browser/interfaces.py:266
+msgid "Hide Geographic Coverage Viewlet"
+msgstr ""
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:89
-msgid "Highlights"
-msgstr "Høydepunkter"
+#: EEAContentTypes/browser/interfaces.py:277
+msgid "Hide Temporal Coverage Viewlet"
+msgstr ""
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:83
+#: EEAContentTypes/browser/interfaces.py:267
+msgid "Hide the Geographic Coverage Viewlet for the following content-types"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:278
+msgid "Hide the Temporal Coverage Viewlet for the following content-types"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:105
 msgid "History"
 msgstr "Historie"
 
-#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:42
+#: EEAContentTypes/actions/set_effective_date.py:34
+msgid "History entry action (required if 'Yes' is selected)"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:41
+msgid "History entry comment (optional)"
+msgstr ""
+
+#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:40
 msgid "Home"
 msgstr "Hjem"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:81
-msgid "Household consumption"
-msgstr "Husholdningsforbruk"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:74
 msgid "How-tos"
 msgstr "Tips"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:47
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:47
 msgid "Human verification: leave empty"
 msgstr "Bildebekreftelse (CAPTCHA): la stå tomt"
 
 msgid "Hungarian"
 msgstr "Ungarsk"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:51
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:51
 msgid "Hungary"
 msgstr "Ungarn"
 
@@ -1420,7 +1442,7 @@ msgstr "ID"
 msgid "ISBN"
 msgstr "ISBN"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:52
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:52
 msgid "Iceland"
 msgstr "Island"
 
@@ -1435,58 +1457,50 @@ msgstr "Ikoner basert på filtypen, på ulike eksterne sider og protokoller"
 msgid "Icons based on protocols"
 msgstr "Ikoner basert på protokoller"
 
-#: eea.promotion/build/lib/eea/promotion/browser/form.pt:53
-#: eea.promotion/eea/promotion/browser/form.pt:53
-msgid "If checked, the promotion is shown at the top in navigation menu on all pages."
-msgstr "Hvis markert, er innføringen vist øverst i navigasjonsmenyen på alle sider."
-
 #: eea.reports/eea/reports/subtypes/report.py:263
 msgid "If selected, this item will not appear in the navigation tree"
 msgstr "Hvis valgt, vil dette elementet ikke vises i navigasjonstreet"
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "If translations of this item have been made after it was first promoted, this action promotes the new translations"
 msgstr "Dersom oversettelser av dette elementet har blitt gjort etter at den først ble fremmet, fremmer denne handlingen de nye oversettelsene"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:54
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:120
 msgid "If you are certain you have the correct web address but are encountering an error, please contact the ${site_admin}."
 msgstr "Vennligst kontakt ${site_admin} hvis du er sikker på at du har riktig web-adresse, men likefullt støter på en feil."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:332
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:327
 msgid "If you do not have an account here, head over to the ${registration_form}."
 msgstr "Hvis du ikke har en konto her, ta veien innom ${registration_form}."
+
+#: eea.epub/eea/epub/browser/app/download.py:163
+msgid "If you don't have access to your email address check <a href='${link}'>this link</a> in a few ${period}."
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:26
 msgid "If you experience problems please ${link}."
 msgstr "Hvis du opplever problemer vennligst ${link}."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:313
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:308
 msgid "If you have forgotten your password, ${click_here}."
 msgstr "Hvis du har glemt ditt passord, ${click_here}."
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:162
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:226
 msgid "If you need to report this to the ${site_admin}, please include this entry number in your message."
 msgstr "Hvis du trenger å rapportere dette til ${site_admin}, må du inkludere dette innleggsnummeret i meldingen."
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:52
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:52
 msgid "If you want to read the content of this document, you have to switch to one of the following languages:"
 msgstr "Hvis du vil lese innholdet i dette dokumentet, må du bytte til et av følgende språk:"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/referencebrowser.pt:26
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:19
 #: eea.signals/eea/signals/skins/eea_signals/gallery_view.pt:63
 msgid "Image"
 msgstr "Bilde"
 
-#: EEAContentTypes/browser/crop/cropimage.pt:20
+#: EEAContentTypes/browser/crop/cropimage.pt:21
 msgid "Image Size:"
 msgstr "Bildestørrelse:"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:7
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:8
-msgid "In the spotlight"
-msgstr "I rampelyset"
 
 #: EEAContentTypes/skins/EEAContentTypes/chooselang.pt:16
 msgid "In these websites you will find all the summarised environmental information available in your language."
@@ -1495,19 +1509,23 @@ msgstr "I disse nettstedene vil du finne all oppsummert miljøinformasjon tilgje
 msgid "Indicators using this data"
 msgstr "Indikatorer som bruker disse dataene"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:85
-msgid "Industry"
-msgstr "Industri"
-
-#: eea.design/eea/design/skins/eea_design/global_statusmessage.pt:13
+#: eea.design/eea/design/skins/eea_overrides_templates/global_statusmessage.pt:13
 msgid "Info"
 msgstr "Info:"
+
+#: EEAContentTypes/content/infographic.py:23
+msgid "Infographic"
+msgstr ""
+
+#: EEAContentTypes/content/infographic.py:24
+msgid "Infographic image"
+msgstr ""
 
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:23
 msgid "Inherit faceted navigation configuration from:"
 msgstr "Arv fasettert navigasjon konfigurasjon fra:"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:51
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:44
 msgid "Inland, Coastal and Marine waters (ICM)"
 msgstr "Innlandet, kyst og havsfarvann (ICM)"
 
@@ -1522,7 +1540,7 @@ msgstr "Instruksjoner om hvordan du kan bidra til å bruke denne ressursen."
 msgid "Interactive data"
 msgstr "Interaktive data"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:50
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:35
 msgid "Interactive data viewers"
 msgstr "Interaktive datavisere"
 
@@ -1536,35 +1554,39 @@ msgstr "Utarbeidede interaktive kart"
 msgid "Interested candidates must apply by filling in the application form below. To the application form must be attached:"
 msgstr "Interesserte kandidater må søke ved å fylle ut søknadsskjemaet nedenfor. Til søknadsskjema må vedlegges:"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:70
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:59
 msgid "International cooperation"
 msgstr "Internasjonalt samarbeid"
 
-#: eea.design/eea/design/skins/eea_design/outdated_browsers.pt:29
+#: eea.design/eea/design/skins/eeadesign_templates/outdated_browsers.pt:29
 msgid "Internet Explorer 9+"
 msgstr "Internet Explorer 9+"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:92
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:89
 msgid "Internet Explorer is not recommended for the CMS area."
 msgstr "Internet Explorer anbefales ikke for CMS-området."
 
-#: eea.design/eea/design/browser/templates/language_selector.pt:57
+#: eea.design/eea/design/browser/templates/language_selector.pt:53
 msgid "Invalid translation"
 msgstr "Ugyldig oversettelse"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:12
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_cache.pt:12
 msgid "Invalidate"
 msgstr "Opphev"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:12
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_cache.pt:12
 msgid "Invalidate cache for current page"
 msgstr "Opphev cache for gjeldende side"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:18
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_cache.pt:18
 msgid "Invalidate cache for current page and all subpages"
 msgstr "Opphev cache for gjeldende side og alle undersider"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:53
+#: eea.epub/eea/epub/cache/behavior.py:21
+msgid "Invalidate latest generated ePub file"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:53
 msgid "Ireland"
 msgstr "Irland"
 
@@ -1575,10 +1597,14 @@ msgstr "Irsk gælisk"
 msgid "Is this publication for sale?"
 msgstr "Selges denne publikasjonen?"
 
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:52
+msgid "It will be available soon."
+msgstr ""
+
 msgid "Italian"
 msgstr "Italiensk"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:54
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:54
 msgid "Italy"
 msgstr "Italia"
 
@@ -1590,27 +1616,30 @@ msgstr "Yrkestittel"
 msgid "Keep existing file"
 msgstr "Behold eksisterende fil"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:25
-msgid "Key facts and messages"
-msgstr "Viktige fakta og meldinger"
-
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:129
 msgid "Key message"
 msgstr "Viktig budskap"
+
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:30
+msgid "Key messages"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:152
 msgid "Kongens Nytorv 6, 1050, Copenhagen K, Denmark."
 msgstr "Kongens Nytorv 6, 1050,  København K, Danmark."
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:230
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:238
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:131
 msgid "Land use"
 msgstr "Arealbruk"
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:34
+#: eea.design/eea/design/browser/templates/document_byline.pt:43
 msgid "Last modified"
 msgstr "Sist endret"
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:93
+msgid "Last modified:"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:53
 msgid "Last name"
@@ -1621,7 +1650,7 @@ msgstr "Etternavn"
 msgid "Last updated"
 msgstr "Sist oppdatert"
 
-#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:498
+#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:23
 #: EEAContentTypes/skins/EEAContentTypes/staff.html.pt:20
 msgid "Last updated on:"
 msgstr "Sist oppdatert den:"
@@ -1638,28 +1667,28 @@ msgstr "Siste FAQ"
 msgid "Latest addition"
 msgstr "Siste tillegg"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:21
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:82
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:21
 msgid "Latest publications"
 msgstr "Siste publikasjoner"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:21
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:21
 msgid "Latest publications about Europe's environment published by EEA."
 msgstr "Aktuelle publikasjoner om Europas miljø publisert av EEA."
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:55
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:55
 msgid "Latvia"
 msgstr "Latvia"
 
 msgid "Latvian"
 msgstr "Latvisk"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:35
+#: eea.design/eea/design/browser/templates/colophon.pt:33
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:155
 msgid "Legal notice"
 msgstr "Juridiske merknader"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:56
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:56
 msgid "Liechtenstein"
 msgstr "Liechtenstein"
 
@@ -1680,7 +1709,7 @@ msgid "Link types are automatically detected on client side by a javascript (sca
 msgstr "Lenketyper registreres automatisk på klientsiden med en javascript (scanforlinks) som vil legge det nødvendige klasse-ikonet før lenken."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:76
-#: eea.reports/eea/reports/browser/report.pt:168
+#: eea.reports/eea/reports/browser/report.pt:159
 #: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:43
 msgid "Links"
 msgstr "Lenker:"
@@ -1701,54 +1730,50 @@ msgstr "Liste over alle tilgjengelige ikoner"
 msgid "List of bad relations"
 msgstr "Liste over dårlige relasjoner"
 
-#: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:18
+#: eea.design/eea/design/skins/eeadesign_templates/listing_not_available.pt:18
 msgid "Listing not available"
 msgstr "Oppføring ikke tilgjengelig"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:57
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:57
 msgid "Lithuania"
 msgstr "Litauen"
 
 msgid "Lithuanian"
 msgstr "Litauisk"
 
-#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:16
+#: eea.design/eea/design/skins/eeadesign_templates/google_search.pt:16
 msgid "Loading..."
 msgstr "Laster inn ..."
 
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:23
-msgid "Locations"
-msgstr "Steder"
-
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:224
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:219
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:52
 msgid "Log in"
 msgstr "Logg inn"
 
-#: eea.design/eea/design/browser/templates/comments.pt:37
+#: eea.design/eea/design/browser/templates/comments.pt:39
 msgid "Log in to add comments"
 msgstr "Logg inn for å legge til kommentarer"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:154
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:149
 msgid "Login Name"
 msgstr "Påloggingsnavn"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:21
+#: eea.design/eea/design/skins/eea_overrides_scripts/login_next.cpy:21
 msgid "Login failed"
 msgstr "Inlogging mislyktes"
 
-#: eea.design/eea/design/skins/eea_design/mail_password_form.pt:19
+#: eea.design/eea/design/skins/eea_overrides_templates/mail_password_form.pt:19
 msgid "Lost Password"
 msgstr "Glemt passord"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:58
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:58
 msgid "Luxembourg"
 msgstr "Luxemburg"
 
 msgid "Macedonian"
 msgstr "Makedonsk"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:59
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:59
 msgid "Malta"
 msgstr "Malta"
 
@@ -1769,10 +1794,11 @@ msgstr "Kart"
 msgid "Mediterranean environment"
 msgstr "Miljøet i Middelhavsområdet"
 
-#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:28
+#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:26
 msgid "Menu"
 msgstr "Meny"
 
+#: EEAContentTypes/actions/rabbitmq_message.py:59
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:29
 msgid "Message"
 msgstr "Melding"
@@ -1793,12 +1819,12 @@ msgid "Mobile"
 msgstr "Mobil"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:58
-#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:28
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_tabular_view.pt:28
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:111
 msgid "Modified"
 msgstr "Modifisert"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:60
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:60
 msgid "Montenegro"
 msgstr "Montenegro"
 
@@ -1806,17 +1832,13 @@ msgstr "Montenegro"
 msgid "Month events"
 msgstr "Hendelser"
 
-#: EEAContentTypes/skins/EEAContentTypes/highlight_macros.pt:55
 #: EEAContentTypes/skins/EEAContentTypes/portlet_cms_activity.pt:23
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:100
+#: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed.pt:54
 msgid "More"
 msgstr "Mer"
 
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:26
-msgid "More green tips"
-msgstr "Flere grønne tips"
-
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:174
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:166
 msgid "More information about this event&hellip;"
 msgstr "Mer informasjon om denne hendelsen ..."
 
@@ -1824,7 +1846,7 @@ msgstr "Mer informasjon om denne hendelsen ..."
 msgid "More multimedia"
 msgstr "Mer multimedia"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:66
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:55
 msgid "More networks"
 msgstr "Flere nettverk"
 
@@ -1868,7 +1890,7 @@ msgstr "Multimedia høydepunkter"
 msgid "NEC directive status"
 msgstr "Status for NEC-direktivet"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:87
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:87
 msgid "National SOE reports"
 msgstr "Nasjonale SOE rapporter"
 
@@ -1880,16 +1902,12 @@ msgstr "Nasjonale og regionale historier"
 msgid "National and regional story"
 msgstr "Nasjonal og regional historie"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:45
-msgid "Natural resources"
-msgstr "Naturressurser"
-
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:125
 msgid "Nature protection and biodiversity"
 msgstr "Naturvern og biologisk mangfold"
 
 #: NavigationManager/menu/navigation.py:26
-#: eea.design/eea/design/skins/eea_design/portlet_navigation.pt:7
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_navigation.pt:7
 msgid "Navigation"
 msgstr "Navigering"
 
@@ -1897,7 +1915,7 @@ msgstr "Navigering"
 msgid "Navigation actions"
 msgstr "Navigasjon handlinger"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:65
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:65
 msgid "Netherlands"
 msgstr "Nederland"
 
@@ -1913,7 +1931,7 @@ msgstr "Nettverk"
 msgid "New icons or updates can be done via the mimetypes_registry in the Plone CMS or through the EEADesign2006 product. Contact the EEA web development team in this case."
 msgstr "Nye ikoner eller oppdateringer kan gjøres via mimetypes_registry i Plone CMS eller gjennom EEADesign2006 produktet. Kontakt EEA i så fall webutviklingsteamet."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:322
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:317
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:72
 msgid "New user?"
 msgstr "Ny bruker?"
@@ -1947,28 +1965,19 @@ msgstr "Ingen mediefiler av denne typen ennå."
 msgid "No reference set. Click the browse button to select."
 msgstr "Ingen referanse innstilt. Klikk på Browse-knappen for å velge."
 
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:234
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_macros.pt:139
 msgid "No results are available for this topic"
 msgstr "Ingen resultater er tilgjengelig for dette emnet"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:136
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:104
-msgid "No results were found."
-msgstr "Ingen resultater ble funnet."
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:81
 msgid "No tags currently selected."
 msgstr "Ingen tags er valgt."
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:48
-msgid "Noise"
-msgstr "Støy"
-
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:12
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:12
 msgid "Normal"
 msgstr "Normal"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:66
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:66
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:53
 msgid "Norway"
 msgstr "Norge"
@@ -1984,11 +1993,11 @@ msgstr "Merk: nye versjoner er tilgjengelige!"
 msgid "Nothing published in ${title}&hellip;"
 msgstr "Ingenting publisert i ${title} ..."
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:15
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:15
 msgid "Notifications"
 msgstr "Meldinger"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:164
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:164
 msgid "Notifications archive"
 msgstr "Meldingasarkiv"
 
@@ -2004,15 +2013,15 @@ msgstr "ORDER ID (Katalogummer)"
 msgid "On the left side you have a list resources. Drag from the handle icon to reorder. After reordering, you need to use the Save button at the bottom of the list. On the right side you can see how the resources have been composed. Notice: this is not a preview. Hitting Save will generate new merged resources."
 msgstr "På venstre side har du en liste over ressurser. Dra fra håndtaksikonet for å endre rekkefølgen. Etter å ha endret rekkefølgen, må du bruke Lagre-knappen nederst på listen. På høyre side kan du se hvordan ressursene har blitt komponert. Merknad: Dette er ikke en forhåndsvisning. Å trykke Lagre vil generere nye sammenslåtte ressursene."
 
-#: eea.reports/eea/reports/browser/report.pt:217
+#: eea.reports/eea/reports/browser/report.pt:208
 msgid "Order a printed copy at EU-Bookshop"
 msgstr "Bestill en papirkopi på EU-Bookshop"
 
-#: eea.reports/eea/reports/browser/report.pt:217
+#: eea.reports/eea/reports/browser/report.pt:208
 msgid "Order a printed copy online"
 msgstr "Bestill en papirkopi på nettet"
 
-#: eea.reports/eea/reports/browser/report.pt:215
+#: eea.reports/eea/reports/browser/report.pt:206
 msgid "Order information"
 msgstr "Ordreinformasjon"
 
@@ -2038,12 +2047,16 @@ msgstr "Opprinnelig lenke"
 msgid "Original link for this report"
 msgstr "Opprinnelig lenke for denne rapporten"
 
-#: eea/themecentre/browser/themecentre.py:67
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:39
+msgid "Original page"
+msgstr ""
+
+#: eea/themecentre/browser/themecentre.py:70
 msgid "Other"
 msgstr "Andre"
 
-#: eea.design/eea/design/skins/eea_design/folder_accordion_view.pt:50
-#: eea.design/eea/design/skins/eea_design/folder_tabs_view.pt:51
+#: eea.design/eea/design/skins/eeadesign_templates/folder_accordion_view.pt:51
+#: eea.design/eea/design/skins/eeadesign_templates/folder_tabs_view.pt:51
 msgid "Other resources"
 msgstr "Andre ressurser"
 
@@ -2071,15 +2084,19 @@ msgstr "Sider"
 msgid "Pan-European state of the environment reports"
 msgstr "Felleseuropeiske miljøtilstandsrapporter"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:178
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:22
+msgid "Partnerships beyond Eionet (PBE)"
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:173
 msgid "Password"
 msgstr "Passord"
 
-#: eea.design/eea/design/skins/eea_design/portlet_promo_gallery.pt:92
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_promo_gallery.pt:92
 msgid "Pause/Play slideshow"
 msgstr "Stans/spill av lysbildepresentasjon"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:23
+#: eea.design/eea/design/browser/templates/colophon.pt:21
 #: eea.design/eea/design/skins/eeadesign_templates/plonegazette_mua_formatter.pt:154
 msgid "Phone:"
 msgstr "Telefon:"
@@ -2087,6 +2104,10 @@ msgstr "Telefon:"
 #: EEAContentTypes/skins/EEAContentTypes_public/document_relateditems.pt:50
 msgid "Play in popup window"
 msgstr "Spill i popup-vinduet"
+
+#: eea.design/eea/design/skins/eea_overrides_scripts/check_id.py:56
+msgid "Please enter a name."
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:12
 msgid "Please help us increase the quality of the translations."
@@ -2096,17 +2117,13 @@ msgstr "Vennligst hjelp oss med å forbedre kvaliteten på oversettelsene."
 msgid "Please provide the following contact information"
 msgstr "Vennligst oppgi følgende kontaktinformasjon"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:67
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:67
 msgid "Poland"
 msgstr "Polen"
 
 #: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:31
 msgid "Policy"
 msgstr "Politikk"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:131
-msgid "Policy instruments<br />"
-msgstr "Politiske virkemidler <br />"
 
 msgid "Polish"
 msgstr "Polsk"
@@ -2119,11 +2136,31 @@ msgstr "Portaltype"
 msgid "Portal types"
 msgstr "Portaltyper"
 
+#: eea.design/eea/design/controlpanel/controlpanel.py:54
+msgid "Portal types black list label"
+msgstr ""
+
+#: eea.design/eea/design/controlpanel/controlpanel.py:43
+msgid "Portal types show creation date"
+msgstr ""
+
+#: eea.design/eea/design/controlpanel/controlpanel.py:32
+msgid "Portal types show modification date"
+msgstr ""
+
+#: eea.design/eea/design/controlpanel/controlpanel.py:21
+msgid "Portal types show publication date"
+msgstr ""
+
+#: eea.design/eea/design/controlpanel/controlpanel.py:65
+msgid "Portal types show rights"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_mostreferenced.pt:45
 msgid "Portlet title"
 msgstr "Portlet tittel"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:68
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:68
 msgid "Portugal"
 msgstr "Portugal"
 
@@ -2141,10 +2178,6 @@ msgstr "Presentasjon på gammel EEA-domene"
 #: EEAContentTypes/skins/EEAContentTypes_popupedit/portlet_addcontent.pt:43
 msgid "Press the link to create a new content item in its default location"
 msgstr "Trykk på lenken for å opprette et nytt innholdselement i dets standardplassering"
-
-#: EEAContentTypes/skins/EEAContentTypes/highlight_macros.pt:167
-msgid "Previous"
-msgstr "Forrige"
 
 #: eea.design/eea/design/browser/templates/calendar.pt:33
 msgid "Previous month"
@@ -2172,7 +2205,6 @@ msgstr "Program"
 msgid "Projects"
 msgstr "Prosjekter"
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Promote Translations"
 msgstr "Fremme Oversettelser"
@@ -2181,12 +2213,10 @@ msgstr "Fremme Oversettelser"
 msgid "Promote to theme centre"
 msgstr "Fremme til temasentrum"
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Promotions"
 msgstr "Opprykk"
 
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:8
 #: eea.soer/eea/soer/browser/admin.pt:10
 msgid "Promotions Admin Panel"
 msgstr "Fremme Admin Panel"
@@ -2204,7 +2234,7 @@ msgstr "Publikasjon"
 msgid "Publication file"
 msgstr "Publikasjonsfil"
 
-#: EEAContentTypes/content/Article.py:27
+#: EEAContentTypes/content/Article.py:29
 #: eea.reports/eea/reports/subtypes/report.py:147
 msgid "Publication groups"
 msgstr "Publikasjonsgrupper"
@@ -2215,15 +2245,14 @@ msgstr "Publikasjonsserie"
 msgid "Publications"
 msgstr "Publikasjoner"
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:29
-#: eea.reports/eea/reports/browser/report.pt:76
+#: EEAContentTypes/actions/set_effective_date.py:37
+msgid "Publish"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:38
 #: eea.soer/eea/soer/skins/eea_soer/commonality_report_view.pt:108
 msgid "Published"
 msgstr "Publisert"
-
-#: eea.reports/eea/reports/browser/report.pt:70
-msgid "Published by"
-msgstr "Publisert av"
 
 msgid "Published on"
 msgstr "Publisert den"
@@ -2243,17 +2272,29 @@ msgstr "Publiseringsdato"
 msgid "Quality of bathing water"
 msgstr "Badevannskvalitet"
 
+#: EEAContentTypes/actions/rabbitmq_message.py:55
+msgid "Queue name"
+msgstr ""
+
+#: EEAContentTypes/actions/rabbitmq_message.py:56
+msgid "Queue where the message will be send"
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed.pt:16
 #: EEAContentTypes/skins/EEAContentTypes_public/portlet_feed_dbl.pt:76
 #: eea/themecentre/skins/themecentre_templates/portlet_themes_common.pt:16
 msgid "RSS"
 msgstr "RSS"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:85
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:85
 msgid "RSS Feeds"
 msgstr "RSS strømmer"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:84
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:68
+msgid "RSS feeds are not enabled for this link."
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:84
 msgid "RSS logo"
 msgstr "RSS-logoen"
 
@@ -2263,10 +2304,6 @@ msgstr "RSS-logoen"
 msgid "Read more"
 msgstr "Les mer"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:29
-msgid "Read more of the key fact"
-msgstr "Les mer av nøkkelfakta"
-
 #: eea/themecentre/skins/themecentre_templates/portlet_themes_common.pt:47
 msgid "Read report"
 msgstr "Les rapport"
@@ -2274,7 +2311,7 @@ msgstr "Les rapport"
 msgid "Recurrent publications"
 msgstr "Periodiske utgivelser"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/portlet_cache.pt:18
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_cache.pt:18
 msgid "Recursive invalidation"
 msgstr "Rekursiv ugyldig"
 
@@ -2282,11 +2319,11 @@ msgstr "Rekursiv ugyldig"
 msgid "Reference manuals"
 msgstr "Referansehåndbøkene"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:93
+#: eea.design/eea/design/browser/templates/colophon.pt:81
 msgid "Refresh this page"
 msgstr "Oppdater denne siden"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:17
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:17
 msgid "Regions"
 msgstr "Regioner"
 
@@ -2337,7 +2374,7 @@ msgid "Related publications"
 msgstr "Beslektede publikasjoner"
 
 #: EEAContentTypes/skins/EEAContentTypes/document_themes.pt:11
-#: eea/themecentre/browser/portlets/related.py:19
+#: eea/themecentre/browser/portlets/related.py:20
 msgid "Related themes"
 msgstr "Relaterte temaer"
 
@@ -2351,20 +2388,18 @@ msgstr "Relatert video"
 msgid "Relevant policy documents"
 msgstr "Relevante policy-dokumenter"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:212
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:207
 msgid "Remember my email address."
 msgstr "Husk min e-postadresse."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:203
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:198
 msgid "Remember my name."
 msgstr "Husk navnet mitt."
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Remove Promotion"
 msgstr "Fjern Promotion"
 
-#: eea.promotion/build/lib/eea/promotion/profiles/default/actions.xml
 #: eea.promotion/eea/promotion/profiles/default/actions.xml
 msgid "Remove all promotions for this item"
 msgstr "Fjern alle kampanjer for dette elementet"
@@ -2393,7 +2428,7 @@ msgstr "Omarranger ressurser"
 msgid "Replace with new file:"
 msgstr "Bytt ut med ny fil:"
 
-#: eea.design/eea/design/browser/templates/comments.pt:141
+#: eea.design/eea/design/browser/templates/comments.pt:143
 msgid "Reply"
 msgstr "Svar"
 
@@ -2462,11 +2497,27 @@ msgstr "Be om datakilde"
 msgid "Request for ${callforid}"
 msgstr "Be om ${callforid}"
 
-#: EEAContentTypes/browser/cache.py:89
+#: EEAContentTypes/browser/cache.py:93
 msgid "Request for cache invalidation sent"
 msgstr "Forespørsel om ugyldigkjennelse av cache sendt"
 
-#: eea.design/eea/design/skins/eea_design/mail_password_form.pt:33
+#: EEAContentTypes/browser/interfaces.py:322
+msgid "Requires the location field for the following content-types"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:342
+msgid "Requires the subject field for the following content-types"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:352
+msgid "Requires the temporalCoverage field for the following content-types"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:332
+msgid "Requires the themes field for the following content-types"
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_overrides_templates/mail_password_form.pt:33
 msgid "Reset Eionet account password page"
 msgstr "Tilbakestill Eionet passordside"
 
@@ -2474,7 +2525,11 @@ msgstr "Tilbakestill Eionet passordside"
 msgid "Return to view"
 msgstr "Returner til visning"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:69
+#: EEAContentTypes/skins/EEAContentTypes/revertversion.py:45
+msgid "Reverted to revision ${version}"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:69
 msgid "Romania"
 msgstr "Romania"
 
@@ -2484,25 +2539,13 @@ msgstr "Rumensk"
 msgid "Russian"
 msgstr "Russisk"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:28
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:25
 msgid "SEIS network"
 msgstr "SEIS nettverk"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:53
-msgid "SOER 2010 website"
-msgstr "SOER 2010 nettsted"
 
 #: eea.soer/eea/soer/browser/admin.pt:21
 msgid "SOER Country content status"
 msgstr "SOER innholdsstatus for land"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:41
-msgid "SOER message"
-msgstr "SOER melding"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:46
-msgid "SOER viral video message"
-msgstr "SOER viral video melding"
 
 #: EEAContentTypes/browser/reorder.pt:75
 #: eea.faceted.inheritance/eea/faceted/inheritance/browser/templates/edit.pt:68
@@ -2510,8 +2553,8 @@ msgid "Save"
 msgstr "Lagre"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/helpcenter_view.pt:43
-#: eea.design/eea/design/browser/templates/searchbox_cms.pt:25
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:28
+#: eea.design/eea/design/browser/templates/searchbox_cms.pt:21
+#: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:25
 msgid "Search"
 msgstr "Søk"
 
@@ -2519,14 +2562,9 @@ msgstr "Søk"
 msgid "Search Europe's environment"
 msgstr "Søk Europas miljø"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:56
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:66
 msgid "Search SOER"
 msgstr "Søk SOER"
-
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:48
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:46
-msgid "Search Site"
-msgstr "Søk nettsted"
 
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:162
 msgid "Search all reports"
@@ -2536,7 +2574,14 @@ msgstr "Søk alle rapporter"
 msgid "Search all reports from"
 msgstr "Søk alle rapporter fra"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:30
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:94
+msgid "Search data products"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:97
+msgid "Search data, maps, graphs"
+msgstr ""
+
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:28
 msgid "Search data, maps, indicators"
 msgstr "Søk data, kart, indikatorer"
@@ -2544,12 +2589,7 @@ msgstr "Søk data, kart, indikatorer"
 msgid "Search on title / abstract"
 msgstr "Søk på tittel / sammendrag"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:113
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:81
-msgid "Search results"
-msgstr "Søkeresultater"
-
-#: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:40
+#: eea.design/eea/design/skins/eeadesign_templates/folder_summary_search_view.pt:40
 msgid "Search this listing"
 msgstr "Søk i denne oppføringen"
 
@@ -2559,11 +2599,11 @@ msgstr "Søk på dette nettstedet:"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:57
 #: EEAContentTypes/skins/EEAContentTypes_public/phc_linkfolder_view.pt:25
-#: eea.design/eea/design/browser/templates/sections.pt:4
+#: eea.design/eea/design/browser/templates/sections.pt:5
 msgid "Sections"
 msgstr "Seksjoner"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:49
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:34
 msgid "See all"
 msgstr "Se alle"
 
@@ -2583,11 +2623,15 @@ msgstr "Velg et treff fra listen under for å få tilgang til fasettert søk"
 msgid "Select from existing tags."
 msgstr "Velg fra eksisterende koder."
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:65
+#: eea.design/eea/design/controlpanel/controlpanel.py:147
+msgid "Select which content type must show in documentbyline"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_view.pt:50
 msgid "Semantic Data Service"
 msgstr "Semantsk Dataservice"
 
-#: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:38
+#: eea.epub/eea/epub/browser/zpt/download.pt:15
 msgid "Send"
 msgstr "Send"
 
@@ -2595,11 +2639,15 @@ msgstr "Send"
 msgid "Send as notification"
 msgstr "Send som varsling"
 
+#: EEAContentTypes/actions/rabbitmq_message.py:78
+msgid "Send the '${body}' message to RabbitMQ service using the '${queue_name}' queue."
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:21
 msgid "Sender_From_Address"
 msgstr "Sender_Fra_Addresse"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:70
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:70
 msgid "Serbia"
 msgstr "Serbia"
 
@@ -2609,6 +2657,14 @@ msgstr "Serbisk"
 #: eea.reports/eea/reports/subtypes/report.py:110
 msgid "Serial title"
 msgstr "Serietittel"
+
+#: EEAContentTypes/actions/set_effective_date.py:140
+msgid "Set effective/publishing date if missing; add an entry in object's workflow history"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:52
+msgid "Set effective/publishing date if missing; add an entry in object's workflow history (optional)"
+msgstr ""
 
 #: eea.socialmedia/eea/socialmedia/browser/socialmedia.pt:42
 msgid "Share on Facebook"
@@ -2627,15 +2683,15 @@ msgstr "Del på Twitter"
 msgid "Share with others"
 msgstr "Del med andre"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:28
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:25
 msgid "Shared Environmental Information System (SEIS)"
 msgstr "Delt Miljøinformation System (SEIS)"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:70
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:70
 msgid "Sign up"
 msgstr "Registrer deg"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:106
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:106
 msgid "Sign up now!"
 msgstr "Registrer deg nå!"
 
@@ -2645,11 +2701,11 @@ msgstr "Signaler"
 msgid "Similar interactive maps"
 msgstr "Lignende interaktive kart"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:73
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:73
 msgid "Since cookie authentication is disabled, cookie-based login is not available."
 msgstr "Siden cookie autentisering er deaktivert, er cookie-basert innlogging ikke tilgjengelig."
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:55
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:121
 msgid "Site Administration"
 msgstr "Administrator"
 
@@ -2669,24 +2725,20 @@ msgstr "Gå til navigasjonen"
 msgid "Slovak"
 msgstr "Slovakisk"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:71
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:71
 msgid "Slovakia"
 msgstr "Slovakia"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:72
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:72
 msgid "Slovenia"
 msgstr "Slovenia"
 
 msgid "Slovenian"
 msgstr "Slovensk"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:84
+#: eea.design/eea/design/browser/templates/colophon.pt:72
 msgid "Software updates history"
 msgstr "Programvareoppdateringshistorie"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:51
-msgid "Soil"
-msgstr "Jord"
 
 #: eea.relations/eea/relations/skins/eea_relations/eea_relateditems.pt:42
 msgid "Sort by:"
@@ -2696,34 +2748,20 @@ msgstr "Sorter etter:"
 msgid "Source"
 msgstr "Kilde"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:73
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:73
 msgid "Spain"
 msgstr "Spania"
 
 msgid "Spanish"
 msgstr "Spansk"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:21
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:21
 msgid "Spanish themes IMS link"
 msgstr "Spanske temaers IMS lenke"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:56
-msgid "Spatial Information and Analysis (SIA)"
-msgstr "Romlig informasjon og analyse (SIA)"
-
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:113
-msgid "Specific regions"
-msgstr "Spesifikke Regioner"
-
-#: eea.promotion/build/lib/eea/promotion/browser/form.pt:40
 #: eea.promotion/eea/promotion/browser/form.pt:40
 msgid "Spotlight"
 msgstr "Søkelys"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:20
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:24
-msgid "Spotting the signs for a transport system by 2050"
-msgstr "Oppdag tegnene for et transportsystem i 2050"
 
 msgid "State of the environment reports"
 msgstr "Miljøtilstandsrapporter"
@@ -2752,54 +2790,45 @@ msgstr "Send inn et miljørelatert evenement "
 msgid "Submit event"
 msgstr "Send evenement"
 
-#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:39
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_social_links.pt:39
 msgid "Subscribe by email"
 msgstr "Abonner på e-post"
 
-#: eea.design/eea/design/skins/eea_design/portlet_social_links.pt:34
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_social_links.pt:34
 msgid "Subscribe to RSS Feed"
 msgstr "Abonner på RSS-feed"
 
-#: eea.design/eea/design/skins/eeadesign_cms/search.pt:127
-#: eea.design/eea/design/skins/eeadesign_public/search.pt:95
-msgid "Subscribe to an always-updated feed of these search terms"
-msgstr "Abonner på en alltid-oppdatert feed av disse søkeordene"
-
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:67
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:67
 msgid "Subscriptions"
 msgstr "Abonnementer"
 
-#: eea/themecentre/skins/themecentre_templates/themecentre_view.pt:38
+#: eea/themecentre/skins/themecentre_templates/themecentre_view.pt:40
 msgid "Subtopics"
 msgstr "Undertemaer"
 
 msgid "Supporting figures"
 msgstr "Understøttende tall"
 
-#: eea.design/eea/design/browser/templates/global_externalsites.pt:60
-msgid "Sustainable Consumption and Production (SCP)"
-msgstr "Bærekraftig forbruk og produksjon (SCP)"
-
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:74
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:74
 msgid "Sweden"
 msgstr "Sverige"
 
 msgid "Swedish"
 msgstr "Svensk"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:27
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:27
 msgid "Swedish glossary"
 msgstr "Svensk ordliste"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:15
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:15
 msgid "Swedish site"
 msgstr "Svensk nettsted"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:75
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:75
 msgid "Switzerland"
 msgstr "Sveits"
 
-#: eea.design/eea/design/skins/eea_design/soer_topic_search.pt:23
+#: eea.design/eea/design/skins/eeadesign_templates/soer_topic_search.pt:23
 msgid "Synthesis"
 msgstr "Syntese"
 
@@ -2825,28 +2854,27 @@ msgstr "Takk for ditt arrangement. EEA's webteam vil forsøke å publisere det s
 msgid "Thank you for your request"
 msgstr "Takk for din forespørsel"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:60
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:126
 msgid "Thank you."
 msgstr "Takk."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:81
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:39
+msgid "The ${download_type} does not exist or has expired, please request it again from ${original_page}."
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:45
+msgid "The ${download_type} file will be available in a few moments &hellip;"
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:79
 msgid "The EEA Web CMS works best with following browsers:"
 msgstr "CMS-innholdet på EEAs nettside fungerer best med følgende nettlesere:"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:31
+#: eea.design/eea/design/browser/templates/colophon.pt:29
 msgid "The European Environment Agency (EEA) is an agency of the European Union."
 msgstr "Det europeiske miljøbyrået (EEA) er et av Den europeiske unions byråer."
 
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:47
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:10
-msgid "The European environment &ndash; state and outlook 2010"
-msgstr "Europas miljø - Tilstand og utsikter 2010"
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:37
-msgid "The European environment – state and outlook 2010"
-msgstr "Europas miljø - Tilstand og utsikter 2010"
-
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:32
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:32
 msgid "The content you were viewing does not exist in the language you just selected. The site language has been switched to ${language} and you can keep browsing the site in this language."
 msgstr "Innholdet du så på finnes ikke oversatt til språket du valgte. Nettstedets språk er byttet til ${language}, og du kan fortsette å navigere nettstedet i dette språket."
 
@@ -2854,15 +2882,27 @@ msgstr "Innholdet du så på finnes ikke oversatt til språket du valgte. Nettst
 msgid "The country assessments are the sole responsibility of the EEA member and cooperating countries supported by the EEA through guidance, translation and editing."
 msgstr "EEA-medlems og samarbeidsland, støttet av EEA gjennom veiledning, oversettelse og redigering, er ansvarlige for vurderingene av medlemsland "
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:156
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:221
 msgid "The error has been logged as entry number ${entryid}."
 msgstr "Feilen er logget som nummer ${entryid}."
 
-#: eea.design/eea/design/skins/eeadesign_public/listing_not_available.pt:22
+#: eea.design/eea/design/skins/eeadesign_templates/listing_not_available.pt:22
 msgid "The folder you are trying to access is still in draft and therefore its content cannot be listed. If you are a content manager of this site, you need to login and publish this folder."
 msgstr "Mappen du prøver å få tilgang er fortsatt et utkast og dermed kan dens innhold ikke være oppført. Hvis du er en innholdsadministrator på dette nettstedet, må du logge inn og publisere denne mappen."
 
-#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:504
+#: eea.design/eea/design/skins/eeadesign_templates/restore_form_values.pt:12
+msgid "The form has been modified between the time of this restore data and now. Please check the history of the object before using this dialog in order to ensure that this data is still relevant"
+msgstr ""
+
+#: EEAContentTypes/actions/rabbitmq_message.py:60
+msgid "The message that you want to send to RabbitMQ."
+msgstr ""
+
+#: EEAContentTypes/skins/EEAContentTypes/revertversion.py:50
+msgid "The most current revision of the file could not be saved before reverting because the file is too large."
+msgstr ""
+
+#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:29
 msgid "The source file XML contains the following organisations:"
 msgstr "Kildefilen XML inneholder følgende organisasjoner:"
 
@@ -2870,7 +2910,7 @@ msgstr "Kildefilen XML inneholder følgende organisasjoner:"
 msgid "The template CV below duly filled in, and"
 msgstr "Malen CV under er behørig utfylt, og"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:48
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:48
 msgid "Thematically"
 msgstr "Tematisk"
 
@@ -2878,13 +2918,8 @@ msgstr "Tematisk"
 msgid "Theme: number of questions (5 per theme)"
 msgstr "Tema: antall spørsmål (5 per tema)"
 
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:24
-msgid "Themepage Section"
-msgstr "Temaside Seksjon"
-
-#: eea.promotion/build/lib/eea/promotion/browser/admin.pt:25
-#: eea.promotion/build/lib/eea/promotion/browser/form.pt:34
 #: eea.promotion/eea/promotion/browser/form.pt:34
+#: eea/themecentre/profiles/default/actions.xml
 msgid "Themes"
 msgstr "Temaer"
 
@@ -2892,20 +2927,20 @@ msgstr "Temaer"
 msgid "Themes and data"
 msgstr "Temaer og data"
 
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:124
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:127
+#: eea.design/eea/design/skins/eea_overrides_templates/atct_topic_view.pt:128
+#: eea.design/eea/design/skins/eeadesign_templates/atct_topic_full_view.pt:124
 msgid "There are currently no criteria on which to search. Please add them using the 'criteria' tab."
 msgstr "Det er ingen kriterier for søket ennå. Vennligst legg til kriterier fra \"Kriterier\" fanebladet."
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:120
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:143
-#: eea.design/eea/design/skins/eea_design/atct_album_view.pt:72
+#: eea.design/eea/design/skins/eea_overrides_templates/atct_album_view.pt:77
 msgid "There are currently no items in this folder."
 msgstr "Det er ingen elementer i denne mappen."
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing_view.pt:53
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_full_view.pt:117
-#: eea.design/eea/design/skins/eeadesign_public/atct_topic_view.pt:120
+#: eea.design/eea/design/skins/eea_overrides_templates/atct_topic_view.pt:121
+#: eea.design/eea/design/skins/eeadesign_templates/atct_topic_full_view.pt:117
 msgid "There are currently no results for this search."
 msgstr "Det er ingen resultater for dette søket."
 
@@ -2914,15 +2949,19 @@ msgstr "Det er ingen resultater for dette søket."
 msgid "There are no contained help center object types."
 msgstr "Det er ingen som finnes brukerstøtteoppføringer objekttyper."
 
+#: eea.design/eea/design/skins/eea_overrides_scripts/check_id.py:136
+msgid "There is already an item named ${name} in this folder."
+msgstr ""
+
 #: EEAContentTypes/skins/EEAContentTypes_public/faqfolder_view.pt:102
 msgid "This FAQ applies to a previous version"
 msgstr "Dette vanlige spørsmålet gjelder for en tidligere versjon"
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:42
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:42
 msgid "This content does not exist in your current language, ${language}, but you can keep browsing the site in this language."
 msgstr "Innholdet finnes ikke på ditt nåværende språk, ${language}, men du kan fortsette å navigere nettstedet i dette språket."
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:46
+#: eea.design/eea/design/browser/templates/document_byline.pt:50
 msgid "This document is locked."
 msgstr "Dette dokumentet er låst."
 
@@ -2930,7 +2969,7 @@ msgstr "Dette dokumentet er låst."
 msgid "This figure has no data source. For further information contact"
 msgstr "Dette tallet har ingen datakilde. For ytterligere informasjon kontakt"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:14
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:14
 msgid "This file contains links that should be marked in different ways by the mark_special_link.js script. This is to test and verify that it works. Try it with <br /> ${normal} ${swedish-site} <br />"
 msgstr "Denne filen inneholder lenker som bør markeres på ulike måter ved mark_special_link.js skriptet. Dette er for å teste og verifisere at det fungerer. Prøv det med <br /> ${normal} ${swedish-site} <br />"
 
@@ -2954,7 +2993,7 @@ msgstr "Dette elementet er i bruk av noen andre og kan ikke endres"
 msgid "This item is open for comments. See the comments"
 msgstr "Dette elementet er åpent for kommentarer. Se kommentarene"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:41
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:106
 msgid "This page does not seem to exist&hellip;"
 msgstr "Denne siden synes ikke å eksistere ..."
 
@@ -2968,12 +3007,16 @@ msgstr "Denne siden gir deg informasjon om lenker i ditt temasenter."
 msgid "This page requires Flashplayer, please download it for free from ${flashplayer-link}"
 msgstr "Denne siden krever Flashplayer, som du kan laste ned gratis fra ${flashplayer-link}"
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:14
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:26
+msgid "This site presents the content we have available in your language."
+msgstr "Denne siden viser alt innhold som er tilgjengelig i ditt språk."
+
+#: eea.design/eea/design/browser/templates/document_byline.pt:15
 msgid "This website has limited functionality with javascript off. Please make sure javascript is enabled in your browser."
 msgstr "Denne nettsiden har begrenset funksjonalitet med javascript avstengt. Vennligst kontroller at JavaScript er aktivert i nettleseren din."
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:50
-#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:20
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_tabular_view.pt:20
 #: eea.design/eea/design/skins/eeadesign_style_docs/style_reference.pt:21
 msgid "Title"
 msgstr "Tittel"
@@ -2985,7 +3028,7 @@ msgstr "Tittel begynner med"
 msgid "Title/Description"
 msgstr "Tittel / beskrivelse"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:326
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:321
 msgid "To access this part of the site, you need to log in with your user name and password. You can use your Eionet username and password."
 msgstr "For å få tilgang til denne delen av nettstedet, må du logge inn med ditt brukernavn og passord. Du kan bruke Eionet brukernavn og passord."
 
@@ -2993,7 +3036,11 @@ msgstr "For å få tilgang til denne delen av nettstedet, må du logge inn med d
 msgid "To access your EEA notification service account please enter your email."
 msgstr "Vennligst skriv inn e-postadressen for å få tilgang til din EEA-varslingstjenestekonto"
 
-#: eea.design/eea/design/skins/eea_design/mail_password_form.pt:32
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:27
+msgid "To explore all our outputs and complete knowledge base, please visit ${site_url} in English."
+msgstr "Hvis du vil utforske flere av produktene våre og kunnskapsdatabasen vår, kan du besøke ${site_url} vårt på engelsk."
+
+#: eea.design/eea/design/skins/eea_overrides_templates/mail_password_form.pt:32
 msgid "To reset your password visit ${mail}."
 msgstr "For å tilbakestille passordet ditt besøk ${mail}."
 
@@ -3005,8 +3052,8 @@ msgstr "Vennligst skriv inn e-postadressen for å melde deg ut av EEA varslingst
 msgid "Topic"
 msgstr "Emne"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_macros.pt:50
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:100
+#: eea.design/eea/design/skins/eeadesign_templates/datamaps_macros.pt:40
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:122
 msgid "Topic in the spotlight"
 msgstr "Tema i rampelyset"
 
@@ -3030,30 +3077,22 @@ msgstr "Ansatte totalt "
 msgid "Total:"
 msgstr "Totalt:"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:93
-msgid "Tourism"
-msgstr "Turisme"
-
 #: eea.reports/eea/reports/subtypes/report.py:252
 msgid "Trailer"
 msgstr "Trailer"
 
-#: eea.design/eea/design/skins/eeadesign_public/not_available_lang.pt:24
+#: eea.design/eea/design/skins/eeadesign_templates/not_available_lang.pt:24
 msgid "Translation Unavailable"
 msgstr "Oversettelse ikke tilgjengelig"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:97
-msgid "Transport"
-msgstr "Transport"
-
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:76
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:76
 msgid "Turkey"
 msgstr "Tyrkia**"
 
 msgid "Turkish"
 msgstr "Tyrkisk"
 
-#: eea.design/eea/design/skins/eeadesign_public/test_languagelinks.pt:23
+#: eea.design/eea/design/skins/eeadesign_templates/test_languagelinks.pt:23
 msgid "Turkish subfolder"
 msgstr "Tyrkisk undermappe"
 
@@ -3061,16 +3100,16 @@ msgstr "Tyrkisk undermappe"
 msgid "Tutorials"
 msgstr "Tutorials"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:75
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:75
 msgid "Twitter icon"
 msgstr "Twitter ikon"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:55
-#: eea.design/eea/design/skins/eea_design/folder_tabular_view.pt:25
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_tabular_view.pt:25
 msgid "Type"
 msgstr "Type"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:77
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:77
 msgid "United Kingdom"
 msgstr "Det forente kongerike"
 
@@ -3083,8 +3122,8 @@ msgid "Unsubscribe from EEA notification service"
 msgstr "Avmelding fra EEAs varslingstjeneste"
 
 #: EEAContentTypes/skins/EEAContentTypes_public/folder_tabular_view.pt:15
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:83
-#: eea.design/eea/design/skins/eea_design/folder_summary_search_view.pt:50
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_listing.pt:85
+#: eea.design/eea/design/skins/eeadesign_templates/folder_summary_search_view.pt:50
 msgid "Up one level"
 msgstr "Opp ett nivå"
 
@@ -3105,9 +3144,9 @@ msgstr "Kommende arrangementer"
 msgid "Upload epub file"
 msgstr "Last opp ePub fil"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:117
-msgid "Urban environment"
-msgstr "Bymiljø"
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:47
+msgid "Urban, Land and Soil systems (ULS)"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/eea_keywords.pt:47
 msgid "Use Control/Command/Shift keys to select multiple tags."
@@ -3131,11 +3170,7 @@ msgstr "Brukt i indikatorer"
 msgid "Used in publications"
 msgstr "Brukt i publikasjoner"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:60
-msgid "Various other issues"
-msgstr "Diverse andre saker"
-
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:26
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:20
 msgid "Vertical listing"
 msgstr "Vertikal notering"
 
@@ -3146,47 +3181,34 @@ msgstr "Videofil"
 msgid "View entire FAQ expanded"
 msgstr "Vis hele FAQ utvidet"
 
-#: eea.relations/eea/relations/browser/template/tool.pt:24
-msgid "View full graph"
-msgstr "Se hele figuren"
-
 #: EEAContentTypes/skins/EEAContentTypes/promolink_view.pt:15
 msgid "Visit"
 msgstr "Besøk"
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:131
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:139
-#: eea/themecentre/browser/themes_view.py:33
+#: eea/themecentre/browser/themes_view.py:34
 msgid "Visit our air pollution website"
 msgstr "Besøk vårt nettsted for luftforurensning "
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:159
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:167
-#: eea/themecentre/browser/themes_view.py:36
+#: eea/themecentre/browser/themes_view.py:37
 msgid "Visit our biodiversity website"
 msgstr "Besøk vårt nettsted for biodiversitet "
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:188
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:196
-#: eea/themecentre/browser/themes_view.py:40
+#: eea/themecentre/browser/themes_view.py:41
 msgid "Visit our climate change website"
 msgstr "Besøk vårt nettsted for klimaendringer "
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:216
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:224
-#: eea/themecentre/browser/themes_view.py:44
+#: eea/themecentre/browser/themes_view.py:45
 msgid "Visit our land use website"
 msgstr "Besøk vårt nettsted for arealbruk "
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:244
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:252
-#: eea/themecentre/browser/themes_view.py:47
+#: eea/themecentre/browser/themes_view.py:48
 msgid "Visit our water website"
 msgstr "Besøk vårt nettsted for vann "
-
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros_soer.pt:53
-msgid "Visit the ${soer-website}."
-msgstr "Besøk ${soer-website}."
 
 msgid "Visualisations of this data"
 msgstr "Visualiseringer av disse dataene"
@@ -3205,59 +3227,67 @@ msgstr "WISE Meny"
 msgid "Waste"
 msgstr "Avfall"
 
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:54
-msgid "Waste and material resources"
-msgstr "Avfall og materialressurser"
+#: eea.design/eea/design/browser/templates/global_externalsites.pt:50
+msgid "Waste and Materials in a Green Economy (WMGE)"
+msgstr ""
 
-#: eea.promotion/build/lib/eea/promotion/skins/eea_promotion/portlet_promotions.pt:258
 #: eea.promotion/eea/promotion/skins/eea_promotion/portlet_promotions.pt:266
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:57
 msgid "Water"
 msgstr "Vann"
 
-#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:15
-msgid "Water Information System for Europe"
-msgstr "Informationssystemet for vann i Europa"
-
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:47
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:112
 msgid "We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for."
 msgstr "Vi beklager det inntrufne, men siden du prøvde å få tilgang er ikke på denne adressen. Du kan bruke lenkene nedenfor for å hjelpe deg å finne det du leter etter."
+
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:52
+msgid "We are preparing the ${download_type} for"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/restore_form_values.pt:6
+msgid "We detected that your last changes were not saved"
+msgstr ""
 
 #: EEAContentTypes/skins/EEAContentTypes/quickevent_macros.pt:13
 msgid "We do not publish events that are purely commercial and with no references to the environment."
 msgstr "Vi publiserer ikke evenementer som er rent kommersielle og uten referanse til miljøet."
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:146
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:53
+msgid "We will notify you via email when it is ready or try to refresh this page in a few moments."
+msgstr ""
+
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:212
 msgid "We&#8217;re sorry, but there seems to be an error&hellip;"
 msgstr "Vi beklager, men det synes å være en feil ..."
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_next.cpy:70
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:25
+msgid "Welcome to the European Environment Agency"
+msgstr "Velkommen til Det europeiske miljøbyrået (EEA)"
+
+#: eea.design/eea/design/skins/eea_overrides_scripts/login_next.cpy:70
 msgid "Welcome! You are now logged in."
 msgstr "Velkommen! Du er nå logget inn"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:30
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:24
 msgid "What"
 msgstr "Hva"
 
-#: eea/themecentre/browser/templates/themes_view.pt:54
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:22
+#: eea/themecentre/browser/templates/themes_view.pt:51
 msgid "What is happening?<br />Environmental issues"
 msgstr "Hva skjer? <br /> Miljøspørsmål"
 
-#: eea.design/eea/design/skins/eea_design/frontpage_view.pt:33
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:43
 msgid "What's new"
 msgstr "Hva er nytt"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:38
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:32
 msgid "When"
 msgstr "Når"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:107
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:101
 msgid "Where"
 msgstr "Hvor?"
 
-#: eea/themecentre/browser/templates/themes_view.pt:68
-#: eea/themecentre/skins/themecentre_templates/themes_view.pt:65
+#: eea/themecentre/browser/templates/themes_view.pt:66
 msgid "Why is it happening?<br />Sectors and activities"
 msgstr "Hvorfor skjer det som skjer? <br /> Sektorer og aktiviteter"
 
@@ -3265,23 +3295,35 @@ msgstr "Hvorfor skjer det som skjer? <br /> Sektorer og aktiviteter"
 msgid "Word doc on external link"
 msgstr "Word-dokument på ekstern lenke"
 
-#: eea.design/eea/design/skins/eea_design/soer_geographically.pt:29
+#: EEAContentTypes/actions/set_effective_date.py:42
+msgid "Workflow action comment"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:35
+msgid "Workflow action short description"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/soer_geographically.pt:29
 msgid "World"
 msgstr "Verden"
 
-#: EEAContentTypes/browser/cache.py:72
+#: eea.design/eea/design/skins/eeadesign_templates/restore_form_values.pt:8
+msgid "Would you like to resubmit the form data found at the time of your last save attempt?"
+msgstr ""
+
+#: EEAContentTypes/actions/set_effective_date.py:30
+msgid "Yes"
+msgstr ""
+
+#: EEAContentTypes/browser/cache.py:76
 msgid "You are not allowed to invalidate cache in this context"
 msgstr "Du har ikke lov til å ugyldiggjøre cache i denne sammenhengen"
 
-#: eea.design/eea/design/skins/eea_design/outdated_browsers.pt:42
+#: eea.design/eea/design/skins/eeadesign_templates/outdated_browsers.pt:42
 msgid "You are using an outdated browser"
 msgstr "Du bruker en utdatert nettleser"
 
-#: eea.reports/eea/reports/browser/report.pt:259
-msgid "You can also obtain a copy from ${nearest-sale-agent} by providing the ordering info."
-msgstr "Du kan også få en kopi fra ${nearest-sale-agent} ved å angi bestillingsinfo."
-
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:75
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:141
 msgid "You might have been looking for&hellip;"
 msgstr "Du har kanskje vært på jakt etter ..."
 
@@ -3293,11 +3335,11 @@ msgstr "Du trenger Flash Player for å kunne se og bruke ozonkartviseren, progra
 msgid "You should shortly receive an email with further information."
 msgstr "Du bør om kort tid motta en epost med ytterligere informasjon."
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:81
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:81
 msgid "YouTube channel"
 msgstr "YouTube-kanal"
 
-#: eea.design/eea/design/skins/eea_design/portlet_subscribe.pt:81
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_subscribe.pt:81
 msgid "YouTube icon"
 msgstr "YouTube ikon"
 
@@ -3309,12 +3351,11 @@ msgstr "Din melding"
 msgid "Zip on FTP"
 msgstr "Zip på FTP"
 
-#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:22
+#: eea.design/eea/design/skins/eeadesign_templates/google_search.pt:22
 msgid "and"
 msgstr "og"
 
-#: eea.design/eea/design/skins/eea_design/datamaps_view.pt:150
-#: eea.design/eea/design/skins/eea_design/frontpage_macros.pt:177
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_macros.pt:77
 msgid "archive"
 msgstr "arkiv"
 
@@ -3323,20 +3364,20 @@ msgid "browse all multimedia products"
 msgstr "bla gjennom alle multimedia-produkter"
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:59
-#: eea.design/eea/design/browser/templates/document_byline.pt:61
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:201
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_listing.pt:205
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_summary_view.pt:86
 msgid "by ${author}"
 msgstr "av ${author}"
 
-#: eea.design/eea/design/skins/eeadesign_public/default_error_message.pt:97
+#: eea.design/eea/design/skins/eea_overrides_templates/default_error_message.pt:163
 msgid "by ${author}, ${date}"
 msgstr "av ${author}, ${date}"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:61
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:61
 msgid "by language"
 msgstr "etter språk"
 
-#: eea.design/eea/design/skins/eea_design/portlet_reports.pt:74
+#: eea.design/eea/design/skins/eeadesign_templates_portlets/portlet_reports.pt:74
 msgid "by serial title"
 msgstr "etter serietittel"
 
@@ -3344,96 +3385,20 @@ msgstr "etter serietittel"
 msgid "callto link"
 msgstr "callto lenke"
 
-#. Default: "Kongens Nytorv 6"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:112
-msgid "copyright-address1"
-msgstr "Kongens Nytorv 6"
-
-#. Default: "1050 Copenhagen K"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:113
-msgid "copyright-address2"
-msgstr "1050 København K"
-
-#. Default: "Web: eea.europa.eu"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:117
-msgid "copyright-email"
-msgstr "Nettside: eea.europa.eu"
-
-#. Default: "Enquiries: eea.europa.eu/enquiries"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:118
-msgid "copyright-enquiries"
-msgstr "Henvendelser: eea.europa.eu/enquiries"
-
-#. Default: "Fax: + 45 33 36 71 99"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:116
-msgid "copyright-fax"
-msgstr "Faks: + 45 33 36 71 99"
-
-#. Default: "The contents of this publication do not necessarily reflect the official opinions of the European Commission or other institutions of the European Union. Neither the European Environment Agency nor any person or company acting on behalf of the Agency is responsible for the use that may be made of the information contained in this report."
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:86
-msgid "copyright-legal-description"
-msgstr "Innholdet i denne publikasjonen gjenspeiler ikke nødvendigvis den offisielle holdningen til Europakommisjonen eller andre av Den europeiske unions institusjoner. Verken Det europeiske miljøbyrå eller personer eller selskaper som handler på Byråets vegne, er ansvarlig for eventuell bruk av informasjonen i denne rapporten."
-
-#. Default: "Legal notice"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:85
-msgid "copyright-legal-name"
-msgstr "Juridisk meddelelse"
-
-#. Default: "Reproduction is authorised, provided the source is acknowledged, save where otherwise stated."
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:97
-msgid "copyright-notice-desc1"
-msgstr "Med mindre annet er angitt, er gjengivelse tillatt med kildeangivelse."
-
-#. Default: "Information about the European Union is available on the Internet. It can be accessed through the Europa server (www.europa.eu)."
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:99
-msgid "copyright-notice-desc2"
-msgstr "Informasjon om Den europeiske union er tilgjengelig på internett via Europa-serveren (www.europa.eu)."
-
-#. Default: "Luxembourg: Publications Office of the European Union, ${copyright-notice-year}"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:101
-msgid "copyright-notice-desc3"
-msgstr "Luxembourg: Den europeiske unions publikasjonskontor, ${copyright-notice-year}"
-
-#. Default: "© European Environment Agency, ${copyright-notice-year}"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:96
-msgid "copyright-notice-eea"
-msgstr "© Det europeiske miljøbyrå, ${copyright-notice-year}"
-
-#. Default: "Copyright notice"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:95
-msgid "copyright-notice-name"
-msgstr "Opphavsrett"
-
-#. Default: "Tel.: + 45 33 36 71 00"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:115
-msgid "copyright-phone"
-msgstr "Tlf.: + 45 33 36 71 00"
-
-#. Default: "Cover design: EEA"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:79
-msgid "cover-design"
-msgstr "Omslagsdesign: EEA"
-
-#. Default: "Layout: EEA"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:81
-msgid "cover-layout"
-msgstr "Layout: EEA"
-
-#. Default: "Cover photo: © ${copyright-name}"
-#: eea.design/eea/design/browser/templates/pdf.cover.pt:80
-msgid "cover-photo"
-msgstr "Omslagsfoto: © ${copyright-name}"
+#: eea.epub/eea/epub/cache/behavior.py:20
+msgid "ePub"
+msgstr ""
 
 #. Default: "Kongens Nytorv 6<br /> 1050 Copenhagen K<br /> Denmark"
-#: eea.design/eea/design/browser/templates/colophon.pt:17
+#: eea.design/eea/design/browser/templates/colophon.pt:15
 msgid "eea_address"
 msgstr "Kongens Nytorv 6<br/>1050 København K<br/>Danmark"
 
-#: eea.design/eea/design/browser/templates/colophon.pt:64
+#: eea.design/eea/design/browser/templates/colophon.pt:50
 msgid "engineered by"
 msgstr "konstruert av"
 
-#: eea.design/eea/design/browser/templates/document_byline.pt:40
+#: eea.design/eea/design/browser/templates/document_byline.pt:29
 msgid "expired"
 msgstr "utløpt"
 
@@ -3441,7 +3406,7 @@ msgstr "utløpt"
 msgid "external link"
 msgstr "Ekstern lenke"
 
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:163
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_listing.pt:167
 msgid "from ${start} to ${end}"
 msgstr "fra ${start} til ${end}"
 
@@ -3451,11 +3416,16 @@ msgstr "fra ${start} til ${end}"
 msgid "get flashplayer"
 msgstr "få flashplayer"
 
+#. Default: "Contact EEA Web Team"
+#: eea.design/eea/design/skins/eea_overrides_templates/contact-info.cpt:19
+msgid "heading_contact_form"
+msgstr ""
+
 #: eea/themecentre/skins/themecentre_templates/dc_view.pt:54
 msgid "homepage"
 msgstr "hjemmeside"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:160
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:152
 msgid "iCal"
 msgstr "iCal"
 
@@ -3463,61 +3433,88 @@ msgstr "iCal"
 msgid "in"
 msgstr "i"
 
-#: eea.design/eea/design/browser/templates/cross_site_top.pt:58
+#: eea.design/eea/design/controlpanel/controlpanel.py:22
+msgid "info is displayed for the following portal types"
+msgstr ""
+
+#: eea.design/eea/design/browser/templates/cross_site_top.pt:59
 msgid "items"
 msgstr "elementer"
 
+#: eea.design/eea/design/controlpanel/controlpanel.py:55
+msgid "label type is hidden for the following portal types"
+msgstr ""
+
 #. Default: "Advanced Search…"
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:106
+#: eea.design/eea/design/skins/eea_overrides_scripts/livesearch_reply.py:106
 msgid "label_advanced_search"
 msgstr "Avansert søkning"
 
+#. Default: "Apply"
+#: eea.faceted.tool/eea/faceted/tool/browser/app/portaltype.py:50
+msgid "label_apply"
+msgstr ""
+
+#. Default: "Cancel"
+#: eea.faceted.tool/eea/faceted/tool/browser/app/portaltype.py:58
+msgid "label_cancel"
+msgstr ""
+
 #. Default: "Log in"
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:252
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:247
 msgid "label_log_in"
 msgstr "Logg inn"
 
 #. Default: "Log in with your Eionet password to see/add comments"
-#: eea.design/eea/design/browser/templates/comments.pt:19
+#: eea.design/eea/design/browser/templates/comments.pt:21
 msgid "label_login_to_add_comments"
 msgstr "Logg inn med ditt Eionet-passord for å se/legge til kommentarer"
 
 #. Default: "No matching results found."
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:105
+#: eea.design/eea/design/skins/eea_overrides_scripts/livesearch_reply.py:105
 msgid "label_no_results_found"
 msgstr "Ingen matchende resultater funnet"
 
+#. Default: "Send"
+#: EEAContentTypes/skins/EEAContentTypes/portlet_translationfeedback.pt:38
+msgid "label_send"
+msgstr ""
+
 #. Default: "Show all items"
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:107
+#: eea.design/eea/design/skins/eea_overrides_scripts/livesearch_reply.py:107
 msgid "label_show_all"
 msgstr "Vis alle element"
 
 #: EEAContentTypes/skins/EEAContentTypes/cft_listing.pt:71
-#: eea.design/eea/design/browser/templates/document_byline.pt:71
-#: eea.design/eea/design/skins/eea_design/folder_listing.pt:214
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_listing.pt:218
+#: eea.design/eea/design/skins/eea_overrides_templates/folder_summary_view.pt:97
 msgid "last modified"
 msgstr "sist endret"
 
 #. Default: "LiveSearch &#8595;"
-#: eea.design/eea/design/skins/eeadesign_cms/livesearch_reply.py:104
+#: eea.design/eea/design/skins/eea_overrides_scripts/livesearch_reply.py:104
 msgid "legend_livesearch"
 msgstr "Direktesøkning &#8595;"
 
-#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:591
+#: EEAContentTypes/skins/EEAContentTypes/organigram.html.pt:116
 msgid "loading data ..."
 msgstr "Laster data ..."
+
+#: EEAContentTypes/browser/interfaces.py:321
+msgid "location"
+msgstr ""
 
 #: eea.design/eea/design/skins/eeadesign_style_docs/all_icons.pt:21
 msgid "mailto link"
 msgstr "e-post lenke"
 
-#: eea.design/eea/design/skins/eea_design/soer_frontpage.pt:29
+#: eea.epub/eea/epub/browser/app/download.py:152
+msgid "minutes"
+msgstr ""
+
+#: eea.design/eea/design/skins/eeadesign_templates/soer_frontpage.pt:39
 msgid "more"
 msgstr "flere"
-
-#: eea.design/eea/design/skins/eea_design/portlet_ecotip.pt:21
-msgid "more green tips"
-msgstr "flere grønne tips"
 
 #: eea.soer/eea/soer/skins/eea_soer/soercountry_view.pt:27
 msgid "more info"
@@ -3527,11 +3524,11 @@ msgstr "Mer informasjon"
 msgid "new EEA domain link"
 msgstr "ny EEA-domene lenke"
 
-#: eea.design/eea/design/browser/templates/cross_site_top.pt:56
+#: eea.design/eea/design/browser/templates/cross_site_top.pt:57
 msgid "next"
 msgstr "neste"
 
-#: eea.design/eea/design/browser/templates/searchbox_cms.pt:37
+#: eea.design/eea/design/browser/templates/searchbox_cms.pt:33
 msgid "only in current section"
 msgstr "bare i denne seksjonen"
 
@@ -3539,23 +3536,27 @@ msgstr "bare i denne seksjonen"
 msgid "original"
 msgstr "original"
 
+#: eea.design/eea/design/skins/eeadesign_templates/frontpage_view.pt:27
+msgid "our main website"
+msgstr "hovednettstedet"
+
 #: eea/themecentre/skins/themecentre_templates/portlet_relatedthemes.pt:30
 msgid "portlet_relatedthemes.pt"
 msgstr "portlet_relaterte-tema.pt"
 
-#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:55
+#: eea/themecentre/skins/themecentre_templates/portlet_themes.pt:53
 msgid "portlet_themes.pt"
 msgstr "portlet_tema.pt"
 
-#: eea.design/eea/design/skins/eeadesign_public/google_search.pt:20
+#: eea.design/eea/design/skins/eeadesign_templates/google_search.pt:20
 msgid "powered by The Google AJAX Search API"
 msgstr "drevet av Google AJAX Search API"
 
-#: eea.design/eea/design/browser/templates/cross_site_top.pt:57
+#: eea.design/eea/design/browser/templates/cross_site_top.pt:58
 msgid "previous"
 msgstr "forrige"
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:333
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:328
 msgid "registration form"
 msgstr "registreringsskjema"
 
@@ -3563,13 +3564,17 @@ msgstr "registreringsskjema"
 msgid "related reporting obligations"
 msgstr "relaterte rapporteringsforpliktelser"
 
-#: eea/themecentre/browser/themecentre.py:65
+#: eea/themecentre/browser/themecentre.py:68
 msgid "s"
 msgstr "s"
 
-#: eea.design/eea/design/browser/templates/comments.pt:94
+#: eea.design/eea/design/browser/templates/comments.pt:96
 msgid "says:"
 msgstr "sier:-"
+
+#: eea.epub/eea/epub/browser/app/download.py:153
+msgid "seconds"
+msgstr ""
 
 #: eea.design/eea/design/browser/templates/goto_comments.pt:16
 msgid "section below"
@@ -3583,6 +3588,18 @@ msgstr "sikker kobling"
 msgid "should you have any questions, please use this email:"
 msgstr "bør du ha noen spørsmål, vennligst bruk denne e-posten:"
 
+#: EEAContentTypes/browser/interfaces.py:341
+msgid "subject"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:351
+msgid "temporalCoverage"
+msgstr ""
+
+#: EEAContentTypes/browser/interfaces.py:331
+msgid "themes"
+msgstr ""
+
 #: eea/themecentre/skins/themecentre_templates/linkchecker_documents_by_status.pt:41
 msgid "total"
 msgstr "totalt"
@@ -3591,19 +3608,16 @@ msgstr "totalt"
 msgid "use this field if the report type is not listed in the previous Serial Title field"
 msgstr "Bruk dette feltet hvis rapporttypen ikke er oppført i det forrige Tittelserie-feltet"
 
-#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:154
+#: EEAContentTypes/skins/EEAContentTypes_public/event_view.pt:146
 msgid "vCal"
 msgstr "vCal"
 
-#: eea.design/eea/design/skins/eea_design/spotlight_film_macros.pt:41
-msgid "visit the SOER 2010 website"
-msgstr "besøk SOER 2010s nettsted"
+#. Default: "Water Information System for Europe"
+#: eea/themecentre/skins/themecentre_templates/portlet_wisenavigation.pt:15
+msgid "water_information"
+msgstr ""
 
-#: eea.design/eea/design/skins/eeadesign_public_cmsandwww/login_form.cpt:314
+#: eea.design/eea/design/skins/eea_overrides_templates/login_form.cpt:309
 msgid "we can send you a new one"
 msgstr "vi kan sende deg en ny en"
-
-#: eea.reports/eea/reports/browser/report.pt:260
-msgid "your nearest sales agent"
-msgstr "nærmeste salgsagent"
 
