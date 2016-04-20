@@ -69,4 +69,4 @@ Sometimes, it happens that a message is missing from a PO file, let's say the on
 
 After that, reload the PO file and try again.
 
-6. `HowToManageTranslations <https://taskman.eionet.europa.eu/projects/content/wiki/HowToManageTranslations>`_
+6. `Wiki: how to manage translations <https://taskman.eionet.europa.eu/projects/content/wiki/HowToManageTranslations>`_
