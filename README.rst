@@ -10,7 +10,7 @@ Translations for EEA website. Most translations come from old local.eea.europa.e
 Fixing templates and generate new pot and po files
 --------------------------------------------------
 
-1. go to your buildout home directory, witch on a VM should be:
+1. go to your buildout home directory, e.g.:
 
     /var/local/deploy/eea-buildout-plone4
 
@@ -24,7 +24,7 @@ This script will generate a log with the directories scanned and the errors foun
 
 In order to be able to successfully run tools/translate-check-i18ndude.sh the PT files that generates XML/RSS must be temporarily altered (more `details <http://trac.plumi.org/ticket/221>`_).
 
-Right now there are 2 templates that will generate errors:
+Right now (20.04.2016) there are 2 templates that will generate errors:
 
     TALError: empty HTML tags cannot use tal:content: 'link', at line 12, column 5, in file src/Products.EEAContentTypes/Products/EEAContentTypes/browser/rss.xml.pt
     
