@@ -1,15 +1,17 @@
 """ Tests
 """
 
+import unittest
+
+import eea.translations
 from Products.Five import fiveconfigure
 from Products.Five import zcml
 from Products.PloneTestCase import PloneTestCase as ptc
 from Products.PloneTestCase.layer import PloneSite
 from Testing import ZopeTestCase as ztc
-import eea.translations
-import unittest
 
 ptc.setupPloneSite()
+
 
 class TestCase(ptc.PloneTestCase):
     """ Test case
