@@ -1,8 +1,12 @@
 ================
 EEA Translations
 ================
-.. image:: http://ci.eionet.europa.eu/job/eea/job/eea.translations/job/master/badge/icon
-  :target: http://ci.eionet.europa.eu/job/eea/job/eea.translations/job/master/display/redirect
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.translations/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.translations/job/develop/display/redirect
+  :alt: develop
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.translations/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.translations/job/master/display/redirect
+  :alt: master
 
 Translations for EEA website. Most translations come from old local.eea.europa.eu website. We also have translated logos here.
 
@@ -103,4 +107,4 @@ Funding
 
 EEA_ - European Environment Agency (EU)
 
-.. _EEA: http://www.eea.europa.eu/
+.. _EEA: https://www.eea.europa.eu/
